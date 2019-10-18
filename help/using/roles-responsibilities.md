@@ -4,7 +4,7 @@ seo-title: AEM Screens 프로젝트 역할 및 책임
 description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 책임을 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 책임을 설명합니다.
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ AV 통합자는 최종 고객과의 검색을 통해 디지털 사이니지 하�
 | *둘째 날:출시 후 지원* |
 | 역할 및 책임 계약 | RA | RA | RA |
 | 계층 1 지원 | I | I | RA |
-| 계층 1 지원 | I | C | RA |
-| 계층 1 지원 | I | RA | C |
+| 계층 2 지원 | I | C | RA |
+| 계층 3 지원 | I | RA | C |
 | 컨텐츠 업데이트 | RA | I | I |
 | UX 성공 여부를 평가하고 향상된 영역 식별 | RA | C | I |
