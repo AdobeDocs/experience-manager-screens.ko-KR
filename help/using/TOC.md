@@ -1,17 +1,17 @@
 ---
-user-guide-title: AEM Screens 프로젝트에 대한 모범 사례 가이드
+user-guide-title: AEM Screens 프로젝트에 대한 모범 사례 안내서
 solution-title: Experience Cloud
 getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: 자습서
-tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-translation-type: tm+mt
+tutorials-title: 튜토리얼
+tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
 
 
-# AEM Screens 프로젝트에 대한 모범 사례 가이드 {#using}
+# AEM Screens 프로젝트에 대한 모범 사례 안내서 {#using}
 
 + [이 안내서 정보](about-guide.md)
 + 개요 {#overview}
@@ -22,7 +22,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
    + [권장 방법](recommended-approach.md)
 + 전략 보고 {#strategic-brief}
    + [프로젝트 범위 지정 시 고려 사항](pre-sales-considerations.md)
-   + [UX 전략의 비즈니스 컨텐츠](business-content-strategy.md)
+   + [UX 전략의 비즈니스 콘텐츠](business-content-strategy.md)
    + [UX 종속성](ux-dependencies.md)
    + [Analytics와 통합](analytics.md)
 + 디자인 브리핑 {#design-brief}
