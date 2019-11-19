@@ -4,7 +4,7 @@ seo-title: AEM Screens 테스트 및 품질 보증
 description: 이 페이지에서는 AEM Screens에 대한 테스트 및 품질 보증 우수 사례 안내서를 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens에 대한 테스트 및 품질 보증 우수 사례 안내서를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -19,6 +19,9 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 이 단계에서는 전체 테스트 시스템을 구축하고 완전히 테스트해야 합니다.
 
 이전에 정의한 모든 KPI를 식별하여 산출물을 측정하는 확인 목록을 생성해야 합니다.
+
+>[!NOTE]
+> 또한 이 단계는 설치 및 사용 안내서를 만들기 위한 도구로 사용되어야 하며, 나중에 해당 장비와 함께 배송되어 나중에 참조할 수 있도록 사이트에 보관해야 합니다.
 
 다음 요소를 고려해야 합니다.
 
@@ -42,8 +45,6 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 * 재생
 * 데이터베이스 종속성(이전에 정의됨)
 
->[!NOTE]
-> 또한 이 단계는 설치 및 사용 안내서를 만들기 위한 도구로 사용되어야 하며, 나중에 해당 장비와 함께 배송되어 나중에 참조할 수 있도록 사이트에 보관해야 합니다.
 
 ## 3.장치 관리 고려 사항 {#device-management-considerations}
 
@@ -58,8 +59,10 @@ AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 �
 1. 컨텐츠 다운로드 관리
 1. 애플리케이션 다시 시작
 
+장치 컨트롤 센터에 대해 자세히 알아보려면 ***AEM*** Screens [사용자 안내서의](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 장치 **컨트롤**&#x200B;센터 문제 해결을참조하십시오.
+
 >[!CAUTION]
-> NPT는 장치 제어 센터를 사용하여 다음을 수행해야 합니다.
+> 장치 컨트롤 센터를 사용하여 다음을 수행할 수 없습니다.
 >
 > 1. 플레이어 애플리케이션의 새 버전 설치
 > 1. 시스템 수준 리소스 모니터링
