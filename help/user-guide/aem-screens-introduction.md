@@ -11,14 +11,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
 
 # AEM Screens 소개{#what-is-aem-screens}
 
-**AEM(Adobe Experience** Manager) Screens - *디지털 서명 솔루션 *포괄적인 디지털 마케팅 플랫폼과 함께 다양한 유형의 스크린과 관련된 다이내믹하고 인터랙티브한 디지털 경험과 인터랙션을 게시할 수 있습니다.
+**AEM(Adobe Experience** Manager) Screens - 포괄적인 디지털 마케팅 플랫폼과 함께 다양한 유형의 화면에서 발생하는 인터랙티브한 디지털 경험과 인터랙션을 게시할 수 있는 디지털 서명 솔루션입니다.
 
 AEM Screens에 대한 킥스타트를 사용하여 간단한 디지털 [사이니지 환경을 시작하고 실행합니다](kickstart-for-aem-screens.md).
 
