@@ -4,7 +4,7 @@ seo-title: AEM Screens 테스트 및 품질 보증
 description: 이 페이지에서는 AEM Screens에 대한 테스트 및 품질 보증 우수 사례 안내서를 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens에 대한 테스트 및 품질 보증 우수 사례 안내서를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 �
 이것은 Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스에 등록된 모든 *플레이어* 하드웨어 장치를 의미합니다.
 이 모듈에서는 다음을 수행할 수 있습니다.
 
-1. 애플리케이션 오류 로그 모니터링
+1. 플레이어 애플리케이션 오류 로그 모니터링
 1. 원격 스크린샷 관리
 1. 컨텐츠 다운로드 관리
 1. 애플리케이션 다시 시작 문제 관리
@@ -66,8 +66,8 @@ AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 �
 >
 > 1. 플레이어 애플리케이션의 새 버전 설치
 > 1. 시스템 수준 리소스 모니터링
-> 1. 시스템 수준 구성
-> 1. 원격 데스크탑 개입 허용
+> 1. 시스템 수준 오류 문제 해결
+> 1. 원격 데스크톱 개입 허용
 
 
 
@@ -80,6 +80,6 @@ AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 �
 
 * Google Chrome 장치 관리
 * TeamViewer
-* AirWatch42
-* 톱니바퀴
-* 소티
+* AirWatch
+* 42Gears
+* 독점 AV 통합자 미들웨어
