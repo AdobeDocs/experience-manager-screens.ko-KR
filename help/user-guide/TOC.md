@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 6.5 Help
+user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
+source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
 
 ---
 
@@ -22,13 +22,14 @@ source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
    + [4부:프로젝트 관리 및 배포](project-management-and-deployment.md)
    + [5부:지원 고려 사항](support-considerations.md)
 + 관리 {#administering}
-   + [AEM Screens 서버 구성](configuring-screens-introduction.md)
-   + [AEM Screens 플레이어 구성](working-with-screens-player.md)
+   + [스크린 서버 구성](configuring-screens-introduction.md)
    + [발송자 구성 설정](dispatcher-configurations-aem-screens.md)
-   + [ACL 설정](setting-up-acls.md)
+   + [Screens 플레이어 설치](installing-screens-player.md)
+   + [Screens 플레이어 응용 프로그램 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
+   + [ACL 설정](setting-up-acls.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
-   + AEM 스크린 플레이어 {#screens-player}
+   + 클라이언트 설치 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위한 익스텐션으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
