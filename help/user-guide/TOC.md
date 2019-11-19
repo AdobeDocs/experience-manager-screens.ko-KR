@@ -2,14 +2,14 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 6.5 Help
+user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
 source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
 
 ---
 
 
-# AEM 6.5 스크린 사용 안내서 {#user-guide}
+# AEM Screens 사용 안내서 {#user-guide}
 
 + [화면 소개](aem-screens-introduction.md)
 + 개요 {#overview}
