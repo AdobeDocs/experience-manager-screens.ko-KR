@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
+source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [스크린 서버 구성](configuring-screens-introduction.md)
    + [발송자 구성 설정](dispatcher-configurations-aem-screens.md)
    + [Screens 플레이어 설치](installing-screens-player.md)
-   + [Screens 플레이어 응용 프로그램 연결](working-with-screens-player.md)
+   + [Screens 플레이어 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
    + [ACL 설정](setting-up-acls.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
-   + 클라이언트 설치 {#installing-client}
+   + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위한 익스텐션으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
@@ -37,7 +37,10 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + Author Publish {#author-publish}
       + [작성자-게시 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
-+ 작성 {#authoring}
+   + AEM Screens와 분석 통합 {#analytics-integration}
+      + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
+      + [AEM Screens에서 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
++ 작성 및 사용 사례 예 {#authoring}
    + 스크린 프로젝트 설정 {#setting-up-projects}
       + [프로젝트 만들기 및 관리](creating-a-screens-project.md)
       + [채널 생성 및 관리](managing-channels.md)
@@ -63,9 +66,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
       + [Launches](launches.md)
       + [파일에서 새 프로젝트 가져오기](project-importer.md)
       + [채널 레벨 벌크 이미지 재생 지속 시간](channel-level-image-playback.md)
-   + AEM Screens와 분석 통합 {#analytics-integration}
-      + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
-      + [AEM Screens에서 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
+   + 사용 사례 예 {#use-case-examples}
+      + [긴급 채널](emergency-channel.md)
+      + [출장 센터 온도 활성화](local-temperature-activation.md)
+      + [숙박 예약 활성화](hospitality-reservation-activation.md)
+      + [소매 인벤토리 대상 활성화](retail-inventory-activation.md)
 + 개발 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
@@ -74,11 +79,6 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [구성 요소 만들기](creating-components.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [사용자 정의 템플릿 다중 영역 레이아웃 만들기](creating-custom-templates-multizone-layouts.md)
-+ 사용 사례 예 {#use-case-examples}
-   + [긴급 채널](emergency-channel.md)
-   + [출장 센터 온도 활성화](local-temperature-activation.md)
-   + [숙박 예약 활성화](hospitality-reservation-activation.md)
-   + [소매 인벤토리 대상 활성화](retail-inventory-activation.md)
 + 문제 해결 {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
