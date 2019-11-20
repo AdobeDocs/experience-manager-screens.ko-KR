@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
       + [채널 레벨 벌크 이미지 재생 지속 시간](channel-level-image-playback.md)
    + 컨텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
-      + [서비스로 컨텐츠 업데이트](content-update-as-a-service.md)
+      + [Content as-a-service 업데이트](content-update-as-a-service.md)
       + [론치를 사용한 컨텐츠 업데이트](launches.md)
    + 사용 사례 예 {#use-case-examples}
       + [긴급 채널](emergency-channel.md)
