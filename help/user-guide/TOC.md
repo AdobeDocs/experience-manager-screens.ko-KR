@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
+source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 # AEM Screens 사용 안내서 {#user-guide}
 
 + [화면 소개](aem-screens-introduction.md)
-+ 개요 {#overview}
++ 개요 및 시작 안내서 {#overview}
    + [시작 안내서](kickstart-for-aem-screens.md)
    + [주요 용어](screens-glossary.md)
 + 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
@@ -21,7 +21,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [3부:테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
    + [4부:프로젝트 관리 및 배포](project-management-and-deployment.md)
    + [5부:지원 고려 사항](support-considerations.md)
-+ 관리 {#administering}
++ 구성 및 관리 {#administering}
    + [스크린 서버 구성](configuring-screens-introduction.md)
    + [발송자 구성 설정](dispatcher-configurations-aem-screens.md)
    + [Screens 플레이어 설치](installing-screens-player.md)
@@ -71,7 +71,8 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
       + [출장 센터 온도 활성화](local-temperature-activation.md)
       + [숙박 예약 활성화](hospitality-reservation-activation.md)
       + [소매 인벤토리 대상 활성화](retail-inventory-activation.md)
-+ 개발 {#developing}
+      + [전환 적용](applying-transitions.md)
++ 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
    + [오프라인 채널](offline-channels.md)
@@ -79,7 +80,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [구성 요소 만들기](creating-components.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [사용자 정의 템플릿 다중 영역 레이아웃 만들기](creating-custom-templates-multizone-layouts.md)
-+ 문제 해결 {#troubleshooting}
++ 문제 해결 및 FAQ {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
