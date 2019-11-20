@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -54,7 +54,7 @@ ffmpeg가 설치되어 있고 비디오 프로필을 확인합니다.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 테스트 비디오를 업로드하고 **확인 **을 클릭하여 트랜스코딩을 시작합니다.
+1. 테스트 비디오를 업로드하고 확인을 **클릭하여** 트랜스코딩을 시작합니다.
 
    트랜스코딩에 실패하면 ffmpeg 출력을 확장하여 ffmpeg의 콘솔 출력에 있는 오류를 파악합니다.
 
