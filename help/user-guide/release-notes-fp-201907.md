@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -34,13 +34,13 @@ AEM Screens 기능 팩 201907의 릴리스 날짜는 2019년 7월 31일입니다
 
 플레이어는 비상 시스템에 의해 실행된 이벤트를 수신할 때 비상 정보를 표시하는 채널로 전환합니다. 그 채널은 비상사태가 끝날 때까지 독점적으로 운영된다.
 
-구현은 [**응급 채널**](emergency-channel.md) 사용 사례를 참조하십시오.
+구현은 [응급 채널](emergency-channel.md) 사용 사례를 참조하십시오.
 
 * **비동기 구성 요소(*예: 비디오, 포함된 시퀀스*) 타깃팅 활성화**
 
-이제 AEM Screens 프로젝트에서 사용되는 자산에 대해 타깃팅** **을 사용할 수 있습니다.
+이제 AEM Screens 프로젝트에서 사용되는 자산에 대해 타깃팅을 활성화할 수 있습니다.
 
-AEM Screens 프로젝트에서 자산에 대한 타깃팅을 활성화하는 방법에 대한 자세한 내용은 AEM Screens에서 [**ContextHub 구성을 참조하십시오**](configuring-context-hub.md).
+AEM Screens 프로젝트에서 자산에 대한 타깃팅을 활성화하는 방법에 대한 자세한 내용은 AEM Screens에서 [ContextHub 구성을 참조하십시오](configuring-context-hub.md).
 
 AEM Screens 프로젝트에 대해 ContextHub를 구성한 후 다른 사용 사례를 따라 데이터를 트리거한 자산이 다른 업계에서 중요한 역할을 수행하는 방식을 파악합니다.
 
@@ -57,11 +57,11 @@ AEM Screens 프로젝트에 대해 ContextHub를 구성한 후 다른 사용 사
 * **Launches**
 
 론치를 사용하면 컨텐츠 작성자가 채널의 향후 버전을 만들 수 있습니다. 작성자는 론치의 도움으로 론치의 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있습니다. 승인자 그룹은 알림을 받게 되며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 컨텐츠가 장치에서 재생됩니다.
-자세한 내용은 [**론치를**](launches.md) 참조하십시오.
+자세한 내용은 [론치를](launches.md) 참조하십시오.
 
 * **경험 조각의 오프라인 구성**
 
-이제 스크린 경험 조각을 구성하는 동안 오프라인 구성(클라이언트측 라이브러리 및 정적 파일)을 추가할 수 있습니다. 자세한 내용은 [**경험 조각**](experience-fragments-in-screens.md) 사용을 참조하십시오.
+이제 스크린 경험 조각을 구성하는 동안 오프라인 구성(클라이언트측 라이브러리 및 정적 파일)을 추가할 수 있습니다. 자세한 내용은 [경험 조각](experience-fragments-in-screens.md) 사용을 참조하십시오.
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
 
@@ -73,4 +73,4 @@ AEM Screens 프로젝트에 대해 ContextHub를 구성한 후 다른 사용 사
 
 #### AEM Screens 플레이어 다운로드 {#aem-screens-player-downloads}
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 AEM Screens 플레이어 [**다운로드를 참조하십시오**](https://download.macromedia.com/screens/).
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 AEM Screens 플레이어 [다운로드를 참조하십시오](https://download.macromedia.com/screens/).
