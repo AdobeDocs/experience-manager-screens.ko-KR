@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ Screens 플레이어에서 관리자 UI를 보려면 마우스를 사용하거�
 >펌웨어 **업데이트** 옵션은 Android 플레이어와 같은 cordova에서만 작동합니다.
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>프로덕션 배포에서는 관리자 **UI를** 비활성화하는 것이 좋습니다.
 
 AEM Screens 플레이어의 관리자 UI에서 채널 및 애플리케이션에 대한 캐시를 지울 수 있습니다.
 
