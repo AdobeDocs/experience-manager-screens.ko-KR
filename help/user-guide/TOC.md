@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
+source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
    + [장치 등록](device-registration.md)
    + [ACL 설정](setting-up-acls.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
+   + [파일에서 새 프로젝트 가져오기](project-importer.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위한 익스텐션으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
@@ -49,7 +50,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [일정 생성 및 관리](managing-schedules.md)
       + [장치 관리](managing-devices.md)
       + [채널 지정](channel-assignment.md)
-   + 제품 기능 사용 {#product-features}
+   + 핵심 제품 기능 사용 {#product-features}
       + [텍스트 오버레이](text-overlay.md)
       + [오프라인 일괄 업데이트](bulk-offline-update.md)
       + [AEM Screens 알림 서비스](screens-notifications-service.md)
@@ -63,9 +64,11 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [다중 영역 레이아웃](multi-zone-layout-aem-screens.md)
       + [비디오 표현물](generating-renditions.md)
       + [동적 포함된 시퀀스 사용](dynamic-embedded-sequences.md)
-      + [Launches](launches.md)
-      + [파일에서 새 프로젝트 가져오기](project-importer.md)
       + [채널 레벨 벌크 이미지 재생 지속 시간](channel-level-image-playback.md)
+   + 컨텐츠 업데이트 관리 {#content-updates}
+      + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
+      + [서비스로 컨텐츠 업데이트](content-update-as-a-service.md)
+      + [론치를 사용한 컨텐츠 업데이트](launches.md)
    + 사용 사례 예 {#use-case-examples}
       + [긴급 채널](emergency-channel.md)
       + [출장 센터 온도 활성화](local-temperature-activation.md)
