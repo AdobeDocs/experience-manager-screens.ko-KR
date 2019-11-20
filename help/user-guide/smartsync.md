@@ -10,12 +10,12 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# ContentSync에서 SmartSync로 전환{#transitioning-from-contentsync-to-smartsync}
+# ContentSync에서 SmartSync로 전환 {#transitioning-from-contentsync-to-smartsync}
 
 이 섹션에서는 SmartSync 기능에 대한 개요와 서버 로드/스토리지 및 네트워크 트래픽을 최소화하여 비용을 줄이는 방법을 제공합니다.
 
@@ -74,18 +74,17 @@ ContentSync에서 SmartSync로 전환하려면 아래 절차를 따르십시오.
    >
    >SmartSync를 처음 사용하기 전에 모든 컨텐츠 캐시를 지워야 합니다.
 
-1. **Adobe Experience Manager 웹 콘솔 구성 **via AEM instance —&gt; 망치 아이콘 —&gt; 작업 **** —&gt; 웹 **콘솔로 이동합니다**.
+1. AEM **인스턴스 —&gt; 망치 아이콘 —&gt; 작업** —&gt; 웹 **콘솔을** 통해 Adobe Experience Manager 웹 콘솔 구성으로 **이동합니다**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **Adobe Experience Manager 웹 콘솔 구성 **이 열립니다. offlinecontentservices *를 검색합니다*.
 
-   **Screens Offline Content Service **속성을 검색하려면 Mac **용** Command+F **를** 누르고 **Windows** 용 Ctrl+F **를**&#x200B;누릅니다.
+   Screens 오프라인 서비스 **속성을 검색하려면** Mac에 **대해** Command+F를 **누르고** Windows **에 대한 Ctrl+F** ****&#x200B;를 누릅니다.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 저장을 **클릭하여** **Screens 오프라인 콘텐츠 서비스 **** 속성을 활성화하므로 AEM Screens에 SmartSync를 사용합니다.
+1. 저장을 **클릭하여** Screens 오프라인 **콘텐츠 서비스** 속성을 활성화하므로 AEM Screens에 SmartSync를 사용합니다.
 1. SmartSync를 활성화한 후에는 프로젝트로 이동하고 작업 **표시줄에서** 오프라인 컨텐츠 *업데이트를* 클릭해야 합니다(아래 그림 참조).
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-
