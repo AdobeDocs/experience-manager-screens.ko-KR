@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -102,7 +102,7 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화해�
 
 1. 셸 실행 기능을 활성화합니다.
 
-   자세한 내용은 Microsoft ***Windows의*** ** [셸 실행](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** 페이지에서 셸 실행 구성 섹션을 참조하십시오.
+   자세한 내용은 Microsoft ***Windows의 셸*** 시작 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** 페이지구성 지원을 참조하십시오.
 
 1. Kiosk에 사용할 관리자가 아닌 사용자(아직 없는 경우)를 만듭니다. 로컬 또는 도메인 사용자가 될 수 있습니다.
 1. AEM Screens 플레이어 다운로드 페이지에서 해당 키오스크 사용자의 [Windows 플레이어를](https://download.macromedia.com/screens/) 설치합니다.
