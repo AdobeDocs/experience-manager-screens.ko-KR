@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
+source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
 
 ---
 
@@ -82,6 +82,7 @@ source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
    + [오프라인 채널](offline-channels.md)
    + [AEM Screens 구성 요소 확장](extending-component-tutorial-develop.md)
    + [구성 요소 만들기](creating-components.md)
+   + [AEM SPA 편집기를 사용하여 REACT 애플리케이션 포함 및 AEM Screens 분석과 통합](embedding-react-app.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [사용자 정의 템플릿 다중 영역 레이아웃 만들기](creating-custom-templates-multizone-layouts.md)
 + 문제 해결 및 FAQ {#troubleshooting}
