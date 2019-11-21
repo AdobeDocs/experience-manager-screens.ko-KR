@@ -480,7 +480,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 포스터 구성 요소는 시퀀스 채널에서 사용됩니다. 이 자습서의 시작 패키지에는 유휴 채널이 포함되어 있습니다. 유휴 채널은 We.Retail Run - Content 그룹의 구성 요소를 허용하도록 미리 **구성되어 있습니다**. 포스터 구성 요소의 그룹은 로 설정되어 `We.Retail Run - Content` 있으며 채널에 추가될 수 있습니다.
 
 1. We.Retail 실행 프로젝트에서 유휴 채널을 엽니다. **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
-1. + 포스터 구성 요소의 새 인스턴스를 **측면** 막대에서 페이지로 드래그합니다.
+1. 포스터 구성 요소의 새 인스턴스를 **측면** 막대에서 페이지로 드래그합니다.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
