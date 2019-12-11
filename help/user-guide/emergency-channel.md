@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 채널 폴더를 **선택하고** 만들기를 클릭하여 **마법사를** 열어 채널을 만듭니다.
 
-   1. 마법사에서 **시퀀스 채널 **을 선택하고 MainAdChannel이라는 이름의 채널을 **만듭니다**.
+   1. 마법사에서 **시퀀스** 채널을 선택하고 MainAdChannel이라는 이름의 채널을 **만듭니다**.
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **시퀀스 채널에 컨텐츠 추가**
@@ -63,7 +63,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 채널 **폴더를** 선택합니다.
    1. 만들기를 **클릭하여** 마법사를 열고 채널을 만듭니다.
-   1. 마법사에서 **시퀀스 채널 **을 선택하고 EmergencyChannel이라는 이름의 채널을 **만듭니다**.
+   1. 마법사에서 **시퀀스** 채널을 선택하고 EmergencyChannel이라는 이름의 채널을 **만듭니다**.
    >[!NOTE]
    >
    >일반적으로 비상 채널은 기존 프로덕션 프로젝트에 추가됩니다.
@@ -96,9 +96,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 일정에 디스플레이를 지정하고 우선순위를 설정합니다.
 
-   1. schedule**(StoreSchedule)**를 선택하고 작업 **표시줄에서** Dashboard를 클릭합니다.
+   1. 예약(StoreSchedule) **을** 선택하고 작업 **표시줄에서** Dashboard를 클릭합니다.
 
-   1. ** **지정된 채널** **패널에서+ 채널 지정을 클릭합니다.
+   1. 지정된 채널 패널에서 **+ 채널** 지정을 **클릭합니다** .
 
    1. 채널 지정 **대화** 상자에서 다음을 수행합니다.
 
@@ -113,7 +113,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. ** **지정된 채널** **패널에서+ 채널 지정을 클릭합니다.
+1. 지정된 채널 패널에서 **+ 채널** 지정을 **클릭합니다** .
 
 1. 채널 지정 **대화** 상자에서 다음을 수행합니다.
 
@@ -131,7 +131,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **각 디스플레이에 스케줄 지정**
 
-   1. EmergencyChannel —&gt; **위치** —&gt; ** **Store **—&gt;StoreFront와 같은 각** 디스플레이로&#x200B;**이동합니다**.
+   1. EmergencyChannel —&gt; **Locations** —&gt; **Store** —&gt; **** StoreFront ****&#x200B;와 같은 각 디스플레이로 이동합니다.
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **클릭**&#x200B;중...지정된 **채널 및 예약** 패널에서 을 클릭하고 **+예약 할당을 클릭합니다**.
