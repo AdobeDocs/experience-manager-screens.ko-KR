@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 #### 빈 레퍼러 요청 허용 {#allow-empty-referrer-requests}
 
-1. **Adobe Experience Manager 웹 콘솔 구성 **via AEM instance —&gt; 망치 아이콘 —&gt; 작업 **** —&gt; 웹 **콘솔로 이동합니다**.
+1. AEM **인스턴스 —&gt; 망치 아이콘 —&gt; 작업** —&gt; 웹 **콘솔을** 통해 Adobe Experience Manager 웹 콘솔 구성으로 **이동합니다**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -57,7 +57,7 @@ AEM Screens에는 터치 UI가 필요하며 AEM(Adobe Experience Manager)의 클
 1. &lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl으로 *이동합니다.*
 1. 아래 그림과 같이 기본 **작성** UI 모드가 **TOUCH로**&#x200B;설정되어 있는지 확인합니다.
 
-또는*&lt;yourAuthorInstance&gt; *-&gt;* tools (망치 아이콘)* -&gt; Operations **-&gt;** Web Console** **을 사용하여 동일한 설정을 수행하고 **WCM 작성 UI 모드 서비스를 검색할**&#x200B;수도 있습니다.
+또는 *&lt;yourAuthorInstance&gt;*-&gt;*tools (* 해머아이콘 -&gt; **작업** -&gt; **Web ConsoleWeb Console** **** UI 작성 UI 모드 서비스 작성에 대한 검색 및 검색을 사용하여 동일한 설정을 수행할 수도 있습니다.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -83,7 +83,7 @@ DeviceServiceImpl ***에 대한***&#x200B;최신 변경 사항을 사용하면 �
 
 아래 절차에 따라 DeviceServiceImpl을 ***구성하십시오***.
 
-1. **Adobe Experience Manager 웹 콘솔 구성 **via AEM instance —&gt; 망치 아이콘 —&gt; 작업 **** —&gt; 웹 **콘솔로 이동합니다**.
+1. AEM **인스턴스 —&gt; 망치 아이콘 —&gt; 작업** —&gt; 웹 **콘솔을** 통해 Adobe Experience Manager 웹 콘솔 구성으로 **이동합니다**.
 
 1. **Adobe Experience Manager 웹 콘솔 구성 **이 열립니다. 디바이스 서비스 검색 속성을 검색하려면 Command+F **for** Mac **및** Ctrl+F **를******&#x200B;눌러 Windows를 선택합니다.
 
