@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 * 작성자 —&gt; localhost:4502
 * 게시 1(pub1) —&gt; localhost:4503
-* 게시(pub2) —&gt; localhost:4504
+* 게시 2(pub2) —&gt; localhost:4504
 
 ## 작성자에 대한 복제 에이전트 설정 {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. [ **편집** ]을 클릭하여 [ **에이전트 설정** ] 대화 상자를 열어 세부 사항을 입력합니다.
+
+   >[!NOTE]
+   >
+   >복제 에이전트를 활성화하려면 **활성화됨을** 선택해야 합니다. 기본, 스크린 및 역방향 복제 에이전트에서 이 옵션을 선택해야 합니다.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
