@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
 
 ---
 
@@ -75,8 +75,6 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
       + [출장 센터 온도 활성화](local-temperature-activation.md)
       + [숙박 예약 활성화](hospitality-reservation-activation.md)
       + [소매 인벤토리 대상 활성화](retail-inventory-activation.md)
-      + [다중 영역을 단일 영역으로 전환](multizone-to-singlezone.md)
-      + [MarQuery Takeover](marquee-takeover.md)
       + [전환 적용](applying-transitions.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
