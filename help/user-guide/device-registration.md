@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -71,11 +71,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
 1. 등록 **코드가** 두 시스템 모두에서 동일한 경우, (6) **단계에서와 같이 AEM에서** 유효성 검사 단추를 탭/클릭합니다.
-1. 장치의 원하는 이름을 설정하고** 등록**을 클릭합니다.
+1. 장치의 원하는 이름을 설정하고 등록을 **클릭합니다**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 등록 프로세스를 완료하려면** 마침**을 탭/클릭합니다.
+1. Tap/click **Finish** to complete the registration process.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
