@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -77,7 +77,7 @@ Live Copy의 컨텐츠를 보려면 아래 절차를 참조하십시오.
 
 ### Live Copy 상태 {#live-copy-status}
 
-아래 그림에 표시된 대로 모드** Live Copy 상태**를 사용하면 채널에 있는 모든 자산의 관계 상태를 볼 수 있습니다.
+아래 그림에 표시된 대로 **Live Copy 상태** 모드를 사용하면 채널에 있는 모든 자산의 관계 상태를 볼 수 있습니다.
 
 1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 
@@ -125,7 +125,7 @@ Live Copy에서 상속을 취소할 수도 있습니다. 그렇게 되면 컨텐
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. **동기화**&#x200B;를 클릭하여 변경 사항을 확인합니다. Click **Save &amp; Close** to navigate back to the AEM dashboard..
+1. **동기화**&#x200B;를 클릭하여 변경 사항을 확인합니다. Click **Save &amp; Close** to navigate back to the AEM dashboard.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
