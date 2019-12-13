@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 이 사용 사례의 경우, Google Sheet는 두 개의 레스토랑 Restaurant Restaurant1 **과 Restaurant2** 중 예약 비율이 **채워집니다**. 수식은 Restaurant1 및 Restaurant2의 값을 기반으로 적용되며 공식을 기준으로 값 1 또는 2가 AdTarget 열에 **할당됩니다** .
 
-Restaurant1 **&gt;** Restaurant2 **의**&#x200B;값이 **지정된 경우** AdTaget **값이** 할당되면 ** ***1* 다른 경우에는 AdTarget이 할당된 값 2**&#x200B;가 지정됩니다. 값 1은 *스테이크 음식* 옵션을 생성하고 값 2는 *디스플레이 화면에 태국 음식* 옵션을 표시합니다.
+Restaurant1 **&gt;** Restaurant2 **의**&#x200B;값을 지정하면 **AdTaget이** Value **1에** 할당되고, 그 외의 경우에는 Value AdTarget **** ****&#x200B;이 지정된 값 20입니다. 값 1은 *스테이크 음식* 옵션을 생성하고 값 2는 *디스플레이 화면에 태국 음식* 옵션을 표시합니다.
 
 ## 전제 조건 {#preconditions}
 
@@ -44,18 +44,18 @@ Restaurant1 **&gt;** Restaurant2 **의**&#x200B;값이 **지정된 경우** AdTa
 
 1. **요구 사항에 따라 대상에서 세그먼트 구성**
 
-   1. 대상의 세그먼트로 이동합니다(단계 ***2 참조:****** AEM Screens [에서 ContextHub 구성](configuring-context-hub.md)* 페이지에서 대상 세그멘테이션 설정을 참조하십시오.
+   1. 대상의 세그먼트로 이동합니다(단계 ***2 참조:자세한 내용은 AEM Screens*** 에서 **[ContextHub를](configuring-context-hub.md)** 구성하는대상 세그멘테이션 설정을 참조하십시오.)
 
    1. 시트 A1 **을** 선택하고 편집을 **클릭합니다**.
 
    1. 비교 속성을 선택하고 구성 아이콘을 클릭하여 속성을 편집합니다.
    1. 속성 **이름의 드롭다운에서 워크시트/값/1/2** **를 선택합니다.**
 
-   1. 드롭다운 **메뉴에서** **equal **로 연산자를 선택합니다.
+   1. 드롭다운 **메뉴에서 연산자를** **동일하게** 선택합니다.
 
    1. 값을 **1** **로 입력합니다.**
 
-   1. 마찬가지로* Sheets A1 2 **를 선택하고 편집을 **클릭합니다**.
+   1. 마찬가지로 시트 A1 **2를** 선택하고 편집을 **클릭합니다**.
 
    1. 비교 속성을 선택하고 구성 아이콘을 클릭하여 속성을 편집합니다.
    1. 속성 **이름의 드롭다운에서 워크시트/값/1/2** **를 선택합니다.**
