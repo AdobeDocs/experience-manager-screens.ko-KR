@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ### 플레이어 스크린샷 보기 {#view-player-screenshot}
 
-**PLAYER 스크린샷 **패널에서 장치에서 플레이어 스크린샷을 볼 수 있습니다.
+플레이어 스크린샷 패널에서 장치에서 플레이어 스크린샷을 볼 **수** 있습니다.
 
-플레이어 스크린샷 패널의 오른쪽 위 모서리에 있는 (**...**)을 클릭하고 **스크린샷 새로 고침 **을 선택하여 실행 중인 플레이어의 스냅샷을 봅니다.
+플레이어 스크린샷 패널의 오른쪽 위 모서리에 있는 (**..**.)을 클릭하고 스크린샷 **새로 고침을 선택하여** 실행 중인 플레이어의 스냅샷을 봅니다.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 아래 절차에 따라 Apache Sling 레퍼러 필터 빈 허용
 
 1. Adobe Experience **Manager 웹 콘솔**&#x200B;구성(즉,)으로 이동합니다 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. **allow.empty **옵션을 선택합니다.
+1. allow. **empty** 옵션을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
