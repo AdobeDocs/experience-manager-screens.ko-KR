@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 만들기를 **클릭하여** 새 스크린 프로젝트를 만듭니다(아래 그림 참조).
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. Enter the title as *Test_Project*  and click **Create**.
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    프로젝트가 만들어지면 스크린 프로젝트 콘솔로 돌아갑니다. 이제 프로젝트를 선택할 수 있습니다. 프로젝트에는 다섯 가지 유형의 응용 프로그램 **,**&#x200B;장치 **,**&#x200B;장치 **,**&#x200B;위치 **, 위치, 예약**, ****&#x200B;일정 폴더가 있으며 아래 그림에 나와 있습니다.
@@ -77,8 +77,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. 작업 표시줄에서** 만들기**를 클릭합니다(아래 그림 참조). 마법사가 열립니다.
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). 마법사가 열립니다.
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    아래 절차에 따라 프로젝트의 채널(TestChannel)*에 컨텐츠를*&#x200B;추가하십시오.
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Click **Edit** from the action bar (see the figure below). TestChannel*용 편집기가 열립니다.
+   1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
    1. 작업 표시줄의 왼쪽에 있는 사이드 패널을 전환하는 아이콘을 클릭하여 자산과 구성 요소를 엽니다.
    1. 채널에 추가할 구성 요소를 드래그하여 놓습니다.
@@ -115,7 +115,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    아래 절차에 따라 프로젝트의 새 위치를 만드십시오.
 
-   1. 만든 Test_ *Project* 로 이동하고 **Locations **폴더를 선택합니다.
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. 작업 **표시줄의 더하기** 아이콘 옆에 있는 만들기를 클릭합니다(아래 그림 참조). 마법사가 열립니다.
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 위 그림에 표시된 대로 디스플레이를 만들 위치(Test_*Project*—&gt; **위치** —&gt; *TestLocation)* 로 *이동하고 TestLocation*&#x200B;을선택합니다.
 
-   1. 작업 표시줄에서** 만들기 **를 클릭합니다.
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. 표시 **위치에 대한** 이름 **및** 제목을 입력합니다 *(제목으로 TestDisplay*&#x200B;입력).
 
@@ -161,7 +161,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Test_Project **—** &gt; Schedules 폴더로 **이동합니다**.
 
-   1. 작업 표시줄에서** 만들기 **를 클릭합니다. 마법사가 열립니다.
+   1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다. 마법사가 열립니다.
    1. 만들기 **마법사** 페이지에서 **예약을** 선택합니다.
 
    1. 속성 페이지에서 **이름** 및 **제목을** *MorningSchedule* 로 입력합니다.
@@ -187,13 +187,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. ChannelChannel에서* 채널 경로*(*Test_Project* —&gt; *채널* —&gt; *테스트* 채널 **)**&#x200B;를 선택합니다.
+   1. 채널 경로( **Test_Project**** —&gt; Channels *Test* Channel *에서 ChannelsTestChannel* ****)를 선택합니다.
 
    1. Select the **Priority** for this channel as *1*.
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
 
-   1. **예약 **을 입력하고 **활성** 날짜 및 **활성 날짜까지**&#x200B;날짜를 선택합니다.
+   1. 예약을 **입력하고** , **활성** 및 **활성 날짜까지**&#x200B;날짜를 선택합니다.
 
    1. **저장**&#x200B;을 클릭합니다.
    채널이 만들어지고 패널에 추가됩니다.
@@ -241,7 +241,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    마침을 **클릭하여** 장치 등록 단계를 완료합니다.
 
@@ -253,7 +253,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >추가한 장치가 [할당됨] **상태 아래에** [지정되지 않음] **으로** 표시됩니다.
+   >추가한 장치는 [할당] **상태 아래에** [지정되지 않음] **으로** 표시됩니다.
 
 1. **표시할 장치 할당**
 
