@@ -6,19 +6,19 @@ seo-description: 화면 프로젝트에 전환을 적용하는 방법을 알아�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # 전환 적용 {#applying-transitions}
 
-이 섹션에서는 채널에서 전환 **구성 요소를** 서로 다른 자산(이미지와 비디오) 사이에 적용하는 방법에 대해 설명합니다.
+이 섹션에서는 채널의 여러 자산( **이미지 및 비디오** )과 포함된 시퀀스 사이에 전환 구성 요소를 적용할 수 있는 방법에 대해 설명합니다.
 
 
 >[!CAUTION]
 >
->전환 구성 요소의 속성에 대한 자세한 내용은 전환을 [참조하십시오](adding-components-to-a-channel.md#transition).
+>전환 구성 요소의 속성에 대해 자세히 알아보려면 **전환을** 참조하십시오 [](adding-components-to-a-channel.md#transition).
 
 ## 채널의 자산에 전환 구성 요소 추가 {#adding-transition}
 
@@ -51,8 +51,12 @@ source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
    >
    >기본적으로 유형(Type)과 같은 전환 구성 요소의 속성은 **보통** (Normal) **으로** 설정되며 **지속** 시간은 *600ms*&#x200B;로설정됩니다.  또한 적용되는 자산보다 긴 전환 기간을 설정하는 것은 바람직하지 않습니다.
 
+1. 또한 이 채널 편집기에 **포함된 시퀀스** 구성 요소(시퀀스 채널 포함)를 추가하는 경우 아래 그림과 같이 컨텐츠가 순서대로 재생되도록 끝 부분에 전환 구성 요소를 추가할 수 있습니다.
+
+   ![image3](assets/transitions5.png)
+
 ## 채널의 비디오에 전환 구성 요소 추가 {#adding-transition-videos}
 
-비디오 간에 전환 구성 요소를 적용할 때는 항상 **유형을** **** 페이드로 **설정하고** 시퀀스 **지속 시간은** 1600ms로 설정합니다.
+비디오 간에 전환 구성 요소를 적용할 때 **유형을** 페이드로 **설정하고** 시퀀스 **지속 시간을** 1600ms ****&#x200B;로 설정하는 것이좋습니다.
 
 ![image3](assets/transitions4.png)
