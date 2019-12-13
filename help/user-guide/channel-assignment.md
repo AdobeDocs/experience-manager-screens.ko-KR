@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 아래 절차에 따라 디스플레이에 채널을 지정하십시오.
 
-1. DemoProject* *—&gt; **위치**—&gt; **SanSan** **StoreDisplay** ****&#x200B;필요한 디스플레이로 이동합니다.
+1. 필요한 디스플레이(예: DemoProject **—&gt; 위치** **—&gt; SanJose** —&gt; **StoreDisplay** ) ****&#x200B;로 이동합니다.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    또는,
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   **채널 지정 **대화 상자에서 다음 속성을 구성할 수 있습니다.
+   **채널 지정** 대화 상자에서 다음 속성을 구성할 수 있습니다.
 
    **채널 역할**:
 
