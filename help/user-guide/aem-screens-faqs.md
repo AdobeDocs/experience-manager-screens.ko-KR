@@ -6,7 +6,7 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ ChromeOS 플레이어는 실제 크롬 플레이어 장치 없이도 개발자 �
 1. 압축을 풀고 디스크에 저장합니다.
 1. Chrome 브라우저를 열고 3점 메뉴를 클릭한 다음 **오른쪽 상단 모서리에서 추가 도구** —&gt; **확장을** 선택하거나 chrome://extensions으로 직접 ***이동합니다***.
 1. 오른쪽 상단 모서리에서 **개발자 모드로** 전환합니다.
-1. 왼쪽 위 모서리에서 **Load Unpacked **를 클릭하고 압축을 푼 Chrome Player를 로드합니다.
+1. 왼쪽 **위 모서리에서 [압축을** 해제한 상태로 로드]를 클릭하고 압축을 푼 Chrome Player를 로드합니다.
 1. 익스텐션 **목록에서** 사용 가능한 경우 AEM Screens Chrome Player 플러그인을 확인하십시오.
 1. 새 탭을 열고 **왼쪽** 상단에서 앱 아이콘을 클릭하거나 chrome://apps으로 직접 ***이동합니다***.
 1. AEM Screens **플러그인을** 클릭하여 Chrome Player를 실행합니다. 기본적으로 플레이어는 전체 화면 모드로 실행됩니다. 전체 화면 모드를 종료하려면 **esc** 키를 누릅니다.
