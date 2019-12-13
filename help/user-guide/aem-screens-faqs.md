@@ -6,7 +6,7 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -75,7 +75,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 Apache Sling 레퍼러 필터를 [비어 있음 허용]을 활성화해야 합니다. 이는 AEM Screens 플레이어와 AEM Screens 서버 간의 제어 프로토콜을 최적화하기 위해 필요합니다.
 
 1. Adobe Experience **Manager 웹 콘솔 구성으로 이동**
-1. **allow.empty **옵션을 선택합니다.
+1. allow. **empty** 옵션을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
 ### 3.AEM Screens 플레이어를 등록하는 동안 장치에 오류가 표시되고 콘솔 로그에 ENAME_NOT_FOUND 오류가 표시되는 경우 문제를 해결하는 방법? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
