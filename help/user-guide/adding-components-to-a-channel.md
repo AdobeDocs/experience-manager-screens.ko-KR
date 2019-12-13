@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -46,7 +46,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 
 1. 새 구성 요소를 추가할 채널을 선택합니다. 예: **We.Retail In Store** --&gt; **채널** --&gt; **유휴 채널**.
 
-1. 작업 표시줄에서** 편집**을 클릭하여 편집기를 엽니다.
+1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
 1. **디자인** 모드를 선택합니다.
 1. 오른쪽에 있는 전체 디자인 편집기를 선택하고 설정 기호를 클릭하여 **ParSys 디자인** 대화 상자를 엽니다.
 1. AEM Screens 프로젝트에 가져오려는 구성 요소를 선택할 수 있습니다. 다음 예에서는 AEM Screens 프로젝트에 **Livefyre** 구성 요소를 추가하는 것을 보여줍니다.
