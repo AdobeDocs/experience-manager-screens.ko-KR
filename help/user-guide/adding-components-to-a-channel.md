@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | **액세스 가능성** |
 | ***대체 텍스트*** | 이미지의 대체 텍스트입니다. |
 | **시퀀스** |
-| ***기간*** | 이미지의 전체 지속 기간을 선택합니다. 지속 시간을 -1로 설정하면 포함된 이미지가 특정 채널에서 전체 길이를 실행하게 됩니다. |
+| ***기간*** | 기본적으로 지속 시간은 *8000ms*&#x200B;로 설정됩니다. 이미지의 재생 시간을 변경하려면 지속 시간 **필드를 업데이트합니다** . |
 
 ### 전환 {#transition}
 
