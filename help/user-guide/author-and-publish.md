@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -46,9 +46,9 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 작성자와 두 개의 게시 인스턴스를 호스팅하는 간단한 예를 설정할 수 있습니다.
 
-* 작성자 —&gt; localhost:4502
-* 게시 1(pub1) —&gt; localhost:4503
-* 게시 2(pub2) —&gt; localhost:4504
+* 작성자 —> localhost:4502
+* 게시 1(pub1) —> localhost:4503
+* 게시 2(pub2) —> localhost:4504
 
 ## 작성자에 대한 복제 에이전트 설정 {#setting-replication-agents}
 
@@ -56,7 +56,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 화면에 필요한 복제 에이전트가 3개 있습니다.
 
-1. **기본 복제 에이전트&#x200B;***(표준 복제 에이전트로&#x200B;***지정**)
+1. **기본 복제 에이전트&#x200B;***(표준 복제 에이전트로***지정&#x200B;**)
 1. **스크린 복제 에이전트**
 1. **역복제 에이전트**
 
@@ -64,7 +64,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 기본 복제 에이전트를 만들려면 아래 절차를 따르십시오.
 
-1. AEM 인스턴스 —&gt; 망치 아이콘 —&gt; 작업 **—&gt; 구성으로** 이동합니다 ****.
+1. AEM 인스턴스 —> 망치 아이콘 —> 작업 **—> 구성으로** 이동합니다 ****.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -103,8 +103,8 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 #### 표준 복제 에이전트 만들기 {#creating-standard-replication-agents}
 
-1. pub1에 대한 표준 복제 에이전트 만들기(기본 에이전트는 이미 구성되어야 함)(예: *https://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. pub2용 표준 복제 에이전트를 만듭니다. pub1용 rep 에이전트를 복사하고 전송 구성의 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다. (예: *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. pub1에 대한 표준 복제 에이전트 만들기(기본 에이전트는 이미 구성되어야 함)(예: *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
+1. pub2용 표준 복제 에이전트를 만듭니다. pub1용 rep 에이전트를 복사하고 전송 구성의 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다. (예: *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 스크린 복제 에이전트 만들기 {#creating-screens-replication-agents}
 
@@ -143,34 +143,37 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 각 게시 인스턴스에서:
 
-1. OSGi 콘솔에서 MAIN —&gt; **Crypto 지원** ( **https://&lt;호스트** &gt;:&lt;포트&gt;/*system/console/crypto*)으로 이동합니다.
+1. OSGi 콘솔에서 MAIN —> **Crypto 지원** ( **https://&lt;호스트** >:&lt;포트>/*system/console/crypto*)으로 이동합니다.
 1. 일반 텍스트에 원하는 일반 텍스트 암호(모든 인스턴스에 대해 동일함)를 **입력합니다**
 1. 보호를 **클릭합니다**.
 1. 보호된 텍스트 값을 **메모장** 또는 텍스트 편집기에 복사합니다. 이 값은 ActiveMQ용 OSGi 구성에서 사용됩니다.
 
 각 게시 인스턴스에는 기본적으로 고유한 암호화 키가 있으므로 각 pub 인스턴스에서 이 단계를 수행하고 다음 구성에 대한 고유 키를 저장해야 합니다.
 
-*예*,
+>메모:
+>암호는 중괄호로 시작하고 끝나야 합니다.
 
-Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 - `{8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}`
+*예를 들어,*
+
+`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 4단계:ActiveMQ 아르테미스 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 
 각 게시 인스턴스에서:
 
-1. OSGi 구성 관리자 https://&lt;호스트&gt;:&lt; *포트&gt;/system/console/configMgr로 이동합니다.*
+1. OSGi 구성 관리자 https://&lt;호스트>:&lt; *포트>/system/console/configMgr로 이동합니다.*
 1. Apache **ActiveMQ Artems JMS 공급자 구성을** 선택합니다.
 1. 다음을 업데이트합니다.
 
-* ***클러스터 암호***:(각 인스턴스당 이전 단계의 암호화된 값 사용)
-* ***항목***:{이름:'commands', 주소:'com.adobe.cq.screens.commands', maxConsumers:50}
+* ***클러스터 암호&#x200B;***:(각 인스턴스당 이전 단계의 암호화된 값 사용)
+* ***항목&#x200B;***:{이름:&#39;commands&#39;, 주소:&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
 
 #### ActiveMQ 아르테미스 클러스터 확인 {#verify-activemq-artemis-cluster}
 
 각 게시 인스턴스의 아래 단계를 따르십시오.
 
-1. OSGi 콘솔 -&gt; 기본 &gt; ActiveMQ Artem으로 이동합니다 `[https://localhost:4505/system/console/mq`.
-1. 클러스터 정보 &gt; 토폴로지 &gt; nodes=2, members=2에서 다른 인스턴스의 포트를 확인하고 확인합니다.
+1. OSGi 콘솔 -> 기본 > ActiveMQ Artem으로 이동합니다 `[https://localhost:4505/system/console/mq`.
+1. 클러스터 정보 > 토폴로지 > nodes=2, members=2에서 다른 인스턴스의 포트를 확인하고 확인합니다.
 1. 테스트 메시지 보내기(브로커 정보 아래의 화면 상단)
 1. 필드에 다음 변경 사항을 입력합니다.
 
@@ -192,7 +195,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 각 게시 인스턴스의 단계를 따릅니다.
 
-1. OSGi 콘솔 **&gt; 구성** 관리자로 **이동합니다.**
+1. OSGi 콘솔 **> 구성** 관리자로 **이동합니다.**
 1. Apache **Sling 레퍼러 필터 선택**
 1. 구성 업데이트 및 **비어 있음 확인**
 
@@ -217,7 +220,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 #### 2단계:작성자에 장치 등록 {#step-registering-a-device-on-author}
 
-1. 프로젝트를 `https://localhost:4502/screens.html/content/screens/we-retail` 이동하거나 선택하고 장치 &gt; 장치 관리자로 이동합니다.
+1. 프로젝트를 `https://localhost:4502/screens.html/content/screens/we-retail` 이동하거나 선택하고 장치 > 장치 관리자로 이동합니다.
 1. 장치 **등록을 선택합니다**.
 1. 장치 **등록을** 클릭하여 장치를 봅니다.
 1. Select the device you want to register and click **Register Device**.
@@ -251,15 +254,15 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 장치 관리 콘솔에서 장치를 활성화할 수도 있습니다. 아래 단계를 따르십시오.
 
-1. 스크린 프로젝트 —&gt; 장치로 **이동합니다**.
-1. 작업 표시줄에서 **장치 관리자 **를 클릭합니다.
+1. 스크린 프로젝트 —> 장치로 **이동합니다**.
+1. Click **Device Manager** from the action bar.
 1. 아래 그림과 같이 장치를 선택하고 **작업** 표시줄에서 활성화를 클릭합니다.
 
 ![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->또는 장치를 활성화한 후에는 아래 그림과 같이 작업 표시줄에서 **서버 URL 편집 **을 클릭하여 서버 URL을 편집하거나 업데이트할 수 있으며 변경 사항이 AEM Screens 플레이어에 전파됩니다.
+>또는 장치를 활성화한 후에는 아래 그림과 같이 작업 표시줄에서 **서버 URL 편집을** 클릭하여 서버 URL을 편집하거나 업데이트할 수 있으며 변경 사항이 AEM Screens 플레이어에 전파됩니다.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -267,7 +270,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 다음은 게시 검사 목록을 요약하는 점입니다.
 
-* *스크린 장치 사용자* - 이 사용자는 AEM 사용자로 저장되며 도구 &gt; 보안 **&gt;** 사용자에서 **활성화할** 수 ****&#x200B;있습니다. 사용자에게 일련 번호가 긴 문자열이 포함된 "스크린"이 접두사로 추가됩니다.
+* *스크린 장치 사용자* - 이 사용자는 AEM 사용자로 저장되며 도구 > 보안 **>** 사용자에서 **활성화할** 수 ****&#x200B;있습니다. 사용자에게 일련 번호가 긴 문자열이 포함된 &quot;스크린&quot;이 접두사로 추가됩니다.
 
 * *프로젝트* - AEM Screens 프로젝트입니다.
 * *위치* - 장치가 연결된 위치입니다.
@@ -293,7 +296,7 @@ AEM Screens 플레이어에서 변경 내용을 봅니다.
 
 1. AEM Screens 프로젝트로 이동하고 장치 **폴더를** 선택합니다.
 1. Click **Device Manager** from the action bar.
-1. 장치를 선택하고 아래 그림과 같이 작업 표시줄에서 **서버 URL 편집 **을 클릭하면 변경 사항이 AEM Screens 플레이어에 전파됩니다.
+1. 장치를 선택하고 작업 **표시줄에서** [서버 URL 편집]을 클릭합니다. 아래 그림에서와 같이 변경 사항이 AEM Screens 플레이어에 전파됩니다.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
