@@ -5,7 +5,7 @@ description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 
 seo-description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 따르십시오.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
    >[!NOTE]
    >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 채널 지정을 **[참조하십시오](channel-assignment.md)**.
 
-1. 채널 지정 대화 상자에서 채널&#x200B;**경로**, **우선 순위**&#x200B;및 **지원되는 이벤트****** ( **** Channel Assignment)를 채웁니다(SaveBox를 클릭하고 Save를 클릭합니다. 이제 MainAdChannel을 **디스플레이에** 할당했습니다.
+1. 채널 지정 대화 상자 할당&#x200B;**대화 상자에서**&#x200B;채널 경로 **,**&#x200B;우선 순위 **및**&#x200B;지원되는 이벤트 **** 필드를 채우십시오(설정 대화 ****&#x200B;상자 및 저장을 클릭). 이제 MainAdChannel을 **디스플레이에** 할당했습니다.
 
    ![자산](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 이 예에서 **언급된 예약의** 텍스트는 12월 31일 *(23:58 후) 및 1월 1일(00.01 전)*&#x200B;에 표시됩니다.
 
       ![자산](assets/single-takeover8.png)
+
+      SingleUseTakeOver **—> 위치** **위치** —> 로비 **—> DisplayMain** Click **Lobby ClickClick Dashboard아래에서 보듯이 우선 순위와 함께 지정된 채널을 볼 수 있도록 SingleUseTakeOver —> 위치** **** 표시로 이동합니다.
+
+      >[!NOTE]
+      >인계 채널의 우선 순위를 가장 높은 것으로 설정해야 합니다.
+
+      ![자산](assets/single-takeover9.png)
 
       >[!NOTE]
       >다른 사용 사례에 대한 일정을 언급할 수 있습니다. 자세한 내용은 영구 사용 사례를 참조하십시오.
