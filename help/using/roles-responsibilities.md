@@ -4,20 +4,20 @@ seo-title: AEM Screens 프로젝트 역할 및 책임
 description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 책임을 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 책임을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
+source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
 
 
 # 프로젝트 역할 및 책임 {#roles-responsibilities}
 
-숙련된 AEM 구현자인 경우 작성자, 개발자 및 IT/기술자라고 *하는*&#x200B;역할을 *볼***&#x200B;수있습니다.
+숙련된 AEM 구현자는 *작성자*, *개발자* 및 *IT/기술자*&#x200B;라는 역할을 볼 수 있습니다.
 
 일반적인 AEM Screens 프로젝트에서 역할은 프로젝트에서 중요한 목적을 수행하므로 더욱 구체화됩니다.
 
 아래 다이어그램은 안내서 전체에서 참조할 역할을 보여줍니다.
 
-![](/help/assets/roles-used.png)
+![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
 > 각 프로젝트의 설정 방식에 따라 이러한 역할 중 다수가 사내 또는 아웃소싱될 수 있습니다.
@@ -95,8 +95,8 @@ AV 통합자는 최종 고객과의 검색을 통해 디지털 사이니지 하�
 
 >[!NOTE]
 >
-> 이 가이드는 주로 *1일과* 2일에 중점을 두지만 **성공적인 디지털 사이니지 프로젝트를 수행하기 위해 세 가지 단계에 모두 관심을 기울여야 합니다.
-프로젝트 관리 및 배포에 **[대한 추가 비디오를](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** 통해 프로젝트 사전 제작, 프로젝트 시작 및 프로젝트 진행 상황을 확인할 수 있습니다.
+> 이 가이드는 주로 *1일차* 및 *2일차*에 중점을 두지만, 성공적인 디지털 사이니지 프로젝트를 수행하기 위해서는 세 가지 단계에 모두 관심을 기울여야 합니다.
+프로젝트 관리 및 배포에 **[대한 추가 비디오를](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**통해 프로젝트 사전 제작, 프로젝트 시작 및 프로젝트 진행 상황을 확인할 수 있습니다.
 
 ## RACI 차트 {#raci-chart}
 
