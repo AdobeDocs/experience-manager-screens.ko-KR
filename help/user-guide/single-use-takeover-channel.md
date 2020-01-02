@@ -5,16 +5,15 @@ description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 
 seo-description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 따르십시오.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
+source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 
 ---
 
 
 # 단일 사용 TakeOver 채널 {#single-use-takeover-channel}
 
-다음 페이지에서는 한 번만 재생되는 인계 채널을 만드는 방법에 대한 프로젝트 설정을 강조하는 사용 사례에 대해 설명합니다.
+다음 페이지에서는 특정 시간에 한 번만 재생되는 단일 TakeOver 채널을 만드는 방법에 대한 프로젝트 설정을 강조하는 사용 사례를 보여줍니다.
 
-검토 준비.
 
 ## 사용 사례 설명 {#use-case-description}
 
@@ -40,7 +39,7 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
 **채널 및 디스플레이 설정**
 
-1. 아래와 같이 TakeoverLoop **라는** AEM Screens 프로젝트를 만듭니다.
+1. 아래와 같이 SingleUseTakeOver **라는** AEM Screens 프로젝트를 만듭니다.
 
    ![자산](assets/single-takeover1.png)
 
@@ -52,8 +51,9 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
    ![자산](assets/single-takeover2.png)
 
-   >[!Note]
-   > 이 **예제의 MainAdChannel은** 컨텐츠를 지속적으로 재생하는 시퀀스 채널을 보여줍니다.
+
+   >[!NOTE]
+   >이 **예제의 MainAdChannel은** 컨텐츠를 지속적으로 재생하는 시퀀스 채널을 보여줍니다.
 
    ![자산](assets/single-takeover3.png)
 
