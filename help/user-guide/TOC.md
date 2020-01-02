@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
@@ -76,6 +76,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
       + [숙박 예약 활성화](hospitality-reservation-activation.md)
       + [소매 인벤토리 대상 활성화](retail-inventory-activation.md)
       + [전환 적용](applying-transitions.md)
+      + [여러 영역을 단일 영역으로 전환](multizone-to-singlezone.md)
+      + [단일 사용 TakeOver 채널](single-use-takeover-channel.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
@@ -90,8 +92,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
-   + [기능 팩 201809에 대한 릴리스 노트](screens-release-notes.md)
-   + [기능 팩 201812에 대한 릴리스 노트](release-notes-fp-201812.md)
-   + [기능 팩 201905에 대한 릴리스 노트](screens-release-notes-fp-201905.md)
-   + [기능 팩 201907에 대한 릴리스 노트](release-notes-fp-201907.md)
    + [기능 팩 201909에 대한 릴리스 노트](release-notes-fp-201909.md)
+   + [기능 팩 201907에 대한 릴리스 노트](release-notes-fp-201907.md)
+   + [기능 팩 201905에 대한 릴리스 노트](screens-release-notes-fp-201905.md)
+   + [기능 팩 201812에 대한 릴리스 노트](release-notes-fp-201812.md)
+   + [기능 팩 201809에 대한 릴리스 노트](screens-release-notes.md)
