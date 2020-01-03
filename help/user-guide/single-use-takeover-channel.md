@@ -5,7 +5,7 @@ description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 
 seo-description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 따르십시오.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
    * **채널 경로**:TakeOver 채널의 경로 선택
    * **우선 순위**:이 채널의 우선 순위를 MainAdChannel보다 크게 **설정하십시오**. 예를 들어 이 예에서 설정된 우선 순위는 8입니다.
+      >[!NOTE]
+      >우선 순위는 일반적으로 재생되는 채널의 우선 순위 값보다 높은 값일 수 있습니다.
    * **지원되는 이벤트**:유휴 **화면** 및 타이머를 **선택합니다**.
    * **예약**:이 채널이 디스플레이를 실행할 일정에 대한 텍스트를 입력합니다. 예를 들어, 여기서 텍스트를 사용하면 12월 31일 오전 12시 12분 전에 컨텐츠를 재생할 수 있습니다.
 이 예에서 **언급된 예약의** 텍스트는 12월 31일 *(23:58 후) 및 1월 1일(00.01 전)*&#x200B;에 표시됩니다.
 
       ![자산](assets/single-takeover8.png)
 
-      SingleUseTakeOver **—> 위치** **위치** —> 로비 **—> DisplayMain** Click **Lobby ClickClick Dashboard아래에서 보듯이 우선 순위와 함께 지정된 채널을 볼 수 있도록 SingleUseTakeOver —> 위치** **** 표시로 이동합니다.
+      SingleUseTakeOver **—>** 위치 **—>** 위치 **—> Lobby** MainDisplayLobbyClickDashboard **** **** 에서 디스플레이로 이동하여 아래에서 보듯이 우선 순위와 함께 할당된 채널을 볼 수 있습니다.
 
       >[!NOTE]
       >인계 채널의 우선 순위를 가장 높은 것으로 설정해야 합니다.
 
       ![자산](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >다른 사용 사례에 대한 일정을 언급할 수 있습니다. 자세한 내용은 영구 사용 사례를 참조하십시오.
+>[!NOTE]
+>단일 사용 TakeOver 채널을 재생한 후 삭제하는 것이 가장 좋습니다.
