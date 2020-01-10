@@ -2,10 +2,10 @@
 title: 영구 인계채널
 seo-title: 영구 인계채널
 description: 영구 인계용 채널을 만드는 경우 이 사용 사례를 따르십시오.
-seo-description: 영구 인계채널 만들기에 대한 이 사용 사례를 따르십시오.
+seo-description: 특정 시간 및 시간 동안 지속적으로 재생되는 영구 TakeOver 채널을 만드는 프로젝트를 설정하는 경우에는 이 사용 사례를 따르십시오.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
 
 ---
 
@@ -40,61 +40,67 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 1. 아래와 같이 IntensibleTakeOver라는 **AEM** Screens 프로젝트를 만듭니다.
 
-   ![자산](assets/single-takeover1.png)
+   ![자산](assets/p_usecase1.png)
 
 1. 채널 **폴더에서 MainAdChannel** 을 **만듭니다** .
 
-   ![자산](assets/single-takeover2.png)
+   ![자산](assets/p_usecase2.png)
 
 1. MainAdChannel **을** 선택하고 작업 **표시줄에서 편집을** 클릭합니다. 일부 자산(이미지, 비디오, 포함된 시퀀스)을 채널에 드래그하여 놓습니다.
 
-   ![자산](assets/single-takeover2.png)
+   ![자산](assets/p_usecase3.png)
 
 
    >[!NOTE]
    >이 **예제의 MainAdChannel은** 컨텐츠를 지속적으로 재생하는 시퀀스 채널을 보여줍니다.
 
-   ![자산](assets/single-takeover3.png)
-
-1. MainAdChannel **의** 컨텐츠를 인계받고 **특정 날짜와 시간에만 재생되는 TakeOver** 채널을 만듭니다.
+1. MainAdChannel **의 컨텐츠를** 인수하고 매주 수요일 오후 2: **00~4:00까지** 재생할 수 있는 TakeOver 채널을 만듭니다.
 
 1. TakeOver를 **선택하고** 작업 **표시줄에서** 편집을 클릭합니다. 일부 자산을 채널에 드래그하여 놓습니다. 다음 예는 이 채널에 추가된 단일 영역 이미지를 보여줍니다.
 
-   ![자산](assets/single-takeover4.png)
+   ![자산](assets/p_usecase4.png)
 
-1. 채널에 대한 위치 및 디스플레이를 설정합니다. 예를 들어 이 프로젝트에 대해 다음 위치 **Lobby** 및 display **MainLobbyDisplay** 가설정되어 있습니다.
+1. 채널에 대한 위치 및 디스플레이를 설정합니다. 예를 들어 이 프로젝트에 대해 다음 위치 **MainLobby** 및 display **MainLobbyDisplay** 가설정되어 있습니다.
 
-   ![자산](assets/single-takeover5.png)
+   ![자산](assets/p_usecase5.png)
 
 **디스플레이에 채널 지정**
 
-1. 위치 폴더에서 **디스플레이 MainLobbyDisplay** 를 **선택합니다** . 작업 **표시줄에서** 채널 지정을 클릭합니다.
-
-   ![자산](assets/single-takeover6.png)
+1. 위치 폴더에서 **디스플레이 MainLobbyDisplay** 를 **선택합니다** . 작업 **표시줄에서** 채널 지정을 클릭하여 채널 지정 **대화 상자를** 엽니다.
 
    >[!NOTE]
    >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 채널 지정을 **[참조하십시오](channel-assignment.md)**.
 
-1. 채널 지정 대화 상자 할당&#x200B;**대화 상자에서**&#x200B;채널 경로 **,**&#x200B;우선 순위 **및**&#x200B;지원되는 이벤트 **** 필드를 채우십시오(설정 대화 ****&#x200B;상자 및 저장을 클릭). 이제 MainAdChannel을 **디스플레이에** 할당했습니다.
+1. 채널 경로,**채널 경로**, **우선 순위**&#x200B;및 **지원되는 이벤트**)를 **채널할당 대화** 상자에서 채우고 **** **** 채널 저장을 클릭합니다. 저장을 클릭하여 채널을 할당합니다. mainAssignMainAd Channel을 입력합니다.
 
-   ![자산](assets/single-takeover7.png)
+   * **채널 경로**:MainAdChannel 채널의 **경로를 선택합니다** .
+   * **우선 순위**:이 채널의 우선 순위를 1로 설정합니다.
+   * **지원되는 이벤트**:[초기 **로드] 및** [유휴] **화면을 선택합니다**.
+   ![자산](assets/p_usecase6.png)
 
-1. 위치 **폴더에서 디스플레이** TakeOver를 **선택합니다** . 작업 **표시줄에서** 채널 지정을 클릭하여 단일 사용 인계 채널을 지정합니다.
+1. 위치 **폴더에서 디스플레이** TakeOver를 **선택합니다** . 작업 **표시줄에서** 채널 지정을 클릭하여 인계 채널을 지정합니다.
 
 1. 예약된 시간에 **TakeOver** 채널을 디스플레이에 지정하고 채널 지정 대화 상자에서 다음 필드를 **채우고** 저장을 **클릭합니다**.
 
-   * **채널 경로**:TakeOver 채널의 경로 선택
+   * **채널 경로**:TakeOver **채널의 경로** 선택
    * **우선 순위**:이 채널의 우선 순위를 MainAdChannel보다 크게 **설정하십시오**. 예를 들어 이 예에서 설정된 우선 순위는 8입니다.
    * **지원되는 이벤트**:유휴 **화면** 및 타이머를 **선택합니다**.
-   * **예약**:이 채널이 디스플레이를 실행할 일정에 대한 텍스트를 입력합니다. 예를 들어, 여기서 텍스트를 사용하면 12월 31일 오전 12시 12분 전에 컨텐츠를 재생할 수 있습니다.
-이 예에서 **언급된 예약의** 텍스트는 12월 31일 *(23:58 후) 및 1월 1일(00.01 전)*&#x200B;에 표시됩니다.
+   * **예약**:이 채널이 디스플레이를 실행할 일정에 대한 텍스트를 입력합니다. 예를 들어, 여기 텍스트를 사용하면 매주 수요일 오후 2시에서 오후 4시까지 컨텐츠를 재생할 수 있습니다.
+이 예제에서 **언급된** 예약의 텍스트는 *수요일 14:00부터 16:00까지*&#x200B;표시됩니다.
 
-      ![자산](assets/single-takeover8.png)
+      ![자산](assets/p_usecase7.png)
 
-      SingleUseTakeOver **—> 위치** **위치** —> 로비 **—> DisplayMain** Click **Lobby ClickClick Dashboard아래에서 보듯이 우선 순위와 함께 지정된 채널을 볼 수 있도록 SingleUseTakeOver —> 위치** **** 표시로 이동합니다.
+      TakeOver **—> Locations** Locations **—> MainLobby** **** —> MainMainDisplay **ClickClick** **** Dashboard지정된 작업 표시줄에서 아래 표시된 것처럼 우선 순위와 함께 지정된 채널을 볼 수 있도록 해당 작업 표시줄로 이동합니다.
 
       >[!NOTE]
       >인계 채널의 우선 순위를 가장 높은 것으로 설정해야 합니다.
 
-      ![자산](assets/single-takeover9.png)
+      ![자산](assets/p_usecase8.png)TakeOver **채널은** 매주 수요일 오후 2 **:00에 MainAdChannel을 2시간 동안** 인수하고 2020년 1월 9일부터 2020년 1월 31일까지 컨텐츠를 재생합니다.
 
+### 표현식 예 {#example-expressions}
+
+다음 표에는 디스플레이에 채널을 지정하는 동안 일정에 추가할 수 있는 몇 가지 예제 표현식이 요약되어 있습니다.
+
+| **표현식** | **해석** |
+|---|---|
+| 12:15 및 12:45 이전 | 채널은 매일 오후 12시 15분 후에 30분 동안 재생됩니다. |
