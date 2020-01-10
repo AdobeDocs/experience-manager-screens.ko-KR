@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
+source-git-commit: b723f58ce58ccba6d0b7df7acf7ee00df98c2348
 
 ---
 
@@ -78,6 +78,7 @@ source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
       + [전환 적용](applying-transitions.md)
       + [여러 영역을 단일 영역으로 전환](multizone-to-singlezone.md)
       + [단일 사용 TakeOver 채널](single-use-takeover-channel.md)
+      + [영구 사용 인계채널](perpetual-takeover-channel.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
