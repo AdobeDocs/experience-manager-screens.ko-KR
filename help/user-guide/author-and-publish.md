@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 ---
 
@@ -134,7 +134,7 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 #### 2단계:게시 토폴로지 확인 {#step-verify-publish-topology}
 
-게시 인스턴스의 경우 로 이동합니다 `https://<host>:<port>/system/console/topology`. 토폴로지에 표시되는 각 게시 인스턴스가 표시됩니다.
+게시 인스턴스의 경우 로 이동합니다 `https://:/system/console/topology`. 송신 토폴로지 커넥터 아래에 토폴로지에 표시되는 각 게시 인스턴스가 **표시됩니다**.
 
 #### 3단계:ActiveMQ 아르테미스 클러스터 설정 {#step-setup-activemq-artemis-cluster}
 
@@ -150,12 +150,9 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 각 게시 인스턴스에는 기본적으로 고유한 암호화 키가 있으므로 각 pub 인스턴스에서 이 단계를 수행하고 다음 구성에 대한 고유 키를 저장해야 합니다.
 
->메모:
+>[!NOTE]
 >암호는 중괄호로 시작하고 끝나야 합니다.
-
-*예를 들어,*
-
-`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>예:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 110e}
 
 #### 4단계:ActiveMQ 아르테미스 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 
