@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: b723f58ce58ccba6d0b7df7acf7ee00df98c2348
+source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
 
 ---
 
@@ -93,6 +93,7 @@ source-git-commit: b723f58ce58ccba6d0b7df7acf7ee00df98c2348
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
+   + [기능 팩 201912에 대한 릴리스 노트](release-notes-fp-201912.md)
    + [기능 팩 201909에 대한 릴리스 노트](release-notes-fp-201909.md)
    + [기능 팩 201907에 대한 릴리스 노트](release-notes-fp-201907.md)
    + [기능 팩 201905에 대한 릴리스 노트](screens-release-notes-fp-201905.md)
