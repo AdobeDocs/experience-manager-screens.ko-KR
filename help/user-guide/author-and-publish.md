@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 1. 다음으로 이동 `https://<host>:<port>/system/console/configMgr`
 1. Apache **Sling Oak 기반 Discovery Service 구성을** 선택합니다.
-1. 토폴로지 커넥터 URL 업데이트:모든 단락 시작 게시 인스턴스의 URL 추가(예: `https://localhost:4502/libs/sling/topology/connector`
+1. 토폴로지 커넥터 URL 업데이트:모든 구문 분석 게시 인스턴스의 URL 추가:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. 토폴로지 커넥터 화이트 리스트:partaking publish instances를 포함하는 IP 또는 서브넷에 적용
 1. 로컬 **루프 자동 중지 활성화**
 
@@ -237,7 +239,7 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 **장치 확인**
 
-그 전에 아래 단계를 수행하십시오. 장치 ID를 확인하십시오. 확인하려면 CRXDELite에서 */home/users/screens/{project}/devices*&#x200B;경로를 사용하여 디바이스 ID를 검색하십시오.
+그 전에 아래 단계를 수행하십시오. 장치 ID를 확인하십시오. 확인하려면 CRXDELite에서 */home/users/screens/we-retail/devices*&#x200B;경로를 사용하여 디바이스 ID를 검색합니다.
 
 아래 절차에 따라 장치 사용자를 복제하십시오.
 
@@ -275,11 +277,15 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 * *예약* - 일정을 사용하는 경우 이 항목이 게시되었는지 확인합니다.
 * *위치, 예약 및 채널 폴더* - 해당 리소스가 폴더 안에 있는 경우
 
-확인 목록을 확인한 후 채널에서 다음 변경/동작을 확인해야 합니다.
+아래 절차에 따라 작성자/게시 동작을 확인합니다.
 
-* 장치 구성을 게시한 후 Screens 플레이어 구성을 열고 게시 인스턴스를 가리킵니다. 장치 관리 콘솔에서 장치를 활성화할 수도 있습니다.
-* 작성자의 일부 채널 컨텐츠를 업데이트하고 게시하고 업데이트된 채널이 이제 AEM Screens 플레이어에 표시되는지 확인합니다.
-* Screens 플레이어를 다른 게시 인스턴스에 연결하고 위의 동작을 확인합니다.
+1. 작성 인스턴스에서 일부 채널 컨텐츠 업데이트
+1. 게시 **관리를 수행하여** 모든 게시 인스턴스에 새 변경 내용을 게시합니다.
+1. 장치 **관리자에서** 장치를 활성화하려면 활성화를 **누르십시오.**
+1. **작성자** 인스턴스 URL에서 게시 인스턴스 URL 중 하나로 URL 편집
+1. 업데이트된 채널 컨텐츠가 AEM Screens 플레이어에 표시되는지 확인
+1. 다른 게시 인스턴스를 사용하여 이 단계를 반복합니다
+
 
 #### 5단계:관리 패널에서 장치를 게시 인스턴스 가리키기 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ AEM Screens 플레이어에서 변경 내용을 봅니다.
 1. 장치를 선택하고 작업 **표시줄에서** [서버 URL 편집]을 클릭합니다. 아래 그림에서와 같이 변경 사항이 AEM Screens 플레이어에 전파됩니다.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+게시 **관리** 기능을 사용하면 작성자에서 장치에 게시하기 위한 컨텐츠 업데이트를 제공할 수 있습니다. 전체 AEM Screens 프로젝트 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대해서만 컨텐츠를 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 온디맨드 컨텐츠 [업데이트를 참조하십시오](on-demand-content.md).
 
 
