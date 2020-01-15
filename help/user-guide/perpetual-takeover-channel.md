@@ -5,7 +5,7 @@ description: 영구 인계용 채널을 만드는 경우 이 사용 사례를 �
 seo-description: 특정 시간 및 시간 동안 지속적으로 재생되는 영구 TakeOver 채널을 만드는 프로젝트를 설정하는 경우에는 이 사용 사례를 따르십시오.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
       >예약에 추가할 수 있는 표현식에 대한 자세한 **내용은**&#x200B;아래의 표현식 [예제](#example-expressions) 섹션을참조하십시오.
    * **활성 위치**:시작 날짜 및 시간
    * **활성**:종료 날짜 및 시간입니다.
-   예를 들어, 예약에서 **활성** 및 **활성** 시점까지 **및** 활성 상태의텍스트는 매주 수요일 오후 2시에서 오후 4시까지 컨텐츠를 재생할 수 있습니다.
+
+      예를 들어, 예약에서 **활성** 및 **활성** 시점까지 **및** 활성 상태의텍스트는 매주 수요일 오후 2시에서 오후 4시까지 컨텐츠를 재생할 수 있습니다.
 
 
-   ![자산](assets/p_usecase7.png)
+      ![자산](assets/p_usecase7.png)
 
-   TakeOver **—> Locations** Locations **—> MainLobby** **** —> MainMainDisplay **ClickClick** **** Dashboard지정된 작업 표시줄에서 아래 표시된 것처럼 우선 순위와 함께 지정된 채널을 볼 수 있도록 해당 작업 표시줄로 이동합니다.
+      TakeOver **—> Locations** Locations **—> MainLobby** **** —> MainMainDisplay **ClickClick** **** Dashboard지정된 작업 표시줄에서 아래 표시된 것처럼 우선 순위와 함께 지정된 채널을 볼 수 있도록 해당 작업 표시줄로 이동합니다.
 
-   >[!NOTE]
-   >인계 채널의 우선 순위를 가장 높은 것으로 설정해야 합니다.
+      >[!NOTE]
+      >인계 채널의 우선 순위를 가장 높은 것으로 설정해야 합니다.
 
-   ![자산](assets/p_usecase8.png)TakeOver **채널은** 매주 수요일 오후 2 **:00에 MainAdChannel을 2시간 동안** 인수하고 2020년 1월 9일부터 2020년 1월 31일까지 컨텐츠를 재생합니다.
+      ![자산](assets/p_usecase8.png)TakeOver **채널은** 매주 수요일 오후 2 **:00에 MainAdChannel을 2시간 동안** 인수하고 2020년 1월 9일부터 2020년 1월 31일까지 컨텐츠를 재생합니다.
 
 ## 표현식 예 {#example-expressions}
 
