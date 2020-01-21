@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
@@ -27,6 +27,39 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 >**중요 사항**:
 >
 >AEM Screens 플레이어는 CSRF(교차 사이트 요청 위조) 토큰을 사용하지 않습니다. 따라서 AEM Screens에 사용할 수 있도록 AEM 서버를 구성하고 준비하려면 빈 레퍼러를 허용하여 레퍼러 필터를 건너뜁니다.
+
+## Health Check Framework {#health-check-framework}
+
+사용자는 상태 확인 프레임워크를 사용하여 AEM Screens 프로젝트를 실행하기 전에 두 개의 필수 구성이 설정되어 있는지 확인할 수 있습니다.
+
+사용자는 다음 두 가지 구성 검사를 확인하여 AEM Screens 프로젝트를 실행할지, 즉 다음 두 필터의 상태를 확인할 수 있습니다.
+
+1. **빈 레퍼러 허용**
+2. **https**
+
+아래 절차에 따라 다음 두 가지 중요 구성이 AEM Screens에 대해 활성화되었는지 확인하십시오.
+
+1. Adobe Experience [Manager Web ConsoleSling 상태 검사로 이동합니다](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
+
+   ![자산](assets/health-check1.png)
+
+
+2. 위에 나열된 **두 속성에 대한 유효성 검사를** 실행하려면 [선택한 상태 검사 실행]을 클릭합니다.
+
+   두 필터가 모두 활성화되면 Screens Configuration Health Service **는** 두 **구성을 모두** 활성화한 상태로 결과 **를** OK로 표시합니다.
+
+   ![자산](assets/health-check2.png)
+
+   필터를 하나 또는 둘 다 비활성화하면 아래 그림과 같이 사용자에 대한 경고가 표시됩니다.
+
+   다음 경고는 두 필터가 모두 비활성화된 경우에 표시됩니다.
+   ![자산](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* Apache Sling **레퍼러 필터를 활성화하려면**&#x200B;빈 레퍼러 요청 [허용을 참조하십시오](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* HTTP 서비스를 **활성화하려면** Apache Felix Jetty [기반 HTTP 서비스를 참조하십시오](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+
 
 ### 전제 조건 {#prerequisites}
 
@@ -49,6 +82,22 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
 1. Apache **Sling** Referrer Filter Allow Empty를 활성화하려면 저장을 클릭합니다.
+
+#### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
+
+1. AEM **인스턴스 —> 망치 아이콘 —> 작업** —> 웹 **콘솔을** 통해 Adobe Experience Manager 웹 콘솔 구성으로 **이동합니다**.
+
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+
+1. **Adobe Experience Manager 웹 콘솔 구성이** 열립니다. Apache Felix Jetty 기반의 HTTP 서비스를 검색합니다.
+
+   이 속성을 검색하려면 Mac용 Command+ **F** 를 **누르고** Windows **용** Ctrl+F **를**&#x200B;누릅니다.
+
+1. 아래 그림과 **같이 HTTP** 활성화 옵션을 선택합니다.
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. 저장을 **클릭하여** *http* 서비스를 활성화합니다.
 
 #### AEM Screens용 터치 UI 활성화 {#enable-touch-ui-for-aem-screens}
 
@@ -102,4 +151,11 @@ Java ***인코딩을&#x200B;***유니코드로 설정합니다. 예를 들어 Df
 >**추천:**
 >
 >제작 시 AEM Screens Server용 HTTPS를 사용하는 것이 좋습니다.
+
+
+
+
+
+
+
 
