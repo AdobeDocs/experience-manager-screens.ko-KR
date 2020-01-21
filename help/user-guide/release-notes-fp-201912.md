@@ -4,7 +4,7 @@ seo-title: 기능 팩 201912에 대한 릴리스 노트
 description: 2020년 1월 20일에 릴리스된 AEM Screens 기능 팩 201912에 대한 정보를 보려면 이 페이지를 따르십시오.
 seo-description: 2020년 1월 20일에 릴리스된 AEM Screens 기능 팩 201912에 대한 정보를 보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
@@ -19,19 +19,18 @@ AEM Screens에서 AEM 6.4 Feature Pack 7 및 AEM 6.5 Feature Pack 3에 대한 �
 
 ## Release Date {#release-date}
 
-AEM Screens 기능 팩 201912의 릴리스 날짜는 2020년 1월 20일입니다.
+AEM Screens 기능 팩 201912의 릴리스 날짜는 2020년 1월 21일입니다.
 
 ### 새로운 기능 {#what-s-new}
 
 * **자산 재생을 위한 명령 동기화**
 
 
-* **상태 확인 프레임워크를 사용하여 https 상태를 표시하고 빈 레퍼러를 허용합니다.**
+* **상태 확인 프레임워크를 사용하여 https의 상태를 표시하고 빈 레퍼러를 허용하는**&#x200B;상태 확인 프레임워크를 사용하면 AEM Screens 프로젝트를 실행하기 전에 두 개의 필수 구성(빈 레퍼러 요청 허용 및 Apache Felix Jetty 기반 HTTP 서비스)이 설정되어 있는지 확인할 수 있습니다.
 
+   Health Check Framework에 대한 자세한 내용은 Health Check [Framework를 참조하십시오](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-
-* **기본 전환 유형 업데이트**
-
+* **기본 전환 유형 업데이트**&#x200B;유형 **과 같은** 전환 구성 요소의 속성이 **이제** 기본값 160ms **, 기본값 160ms** 인 **페이드 및 지속 시간** 0ms로 설정됩니다.
 
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
