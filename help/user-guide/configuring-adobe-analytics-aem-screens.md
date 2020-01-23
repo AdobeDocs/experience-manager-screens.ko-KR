@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
 
@@ -20,10 +20,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 AEM 6.4.2 기능 팩 2 및 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다.
-
+>이 AEM Screens 기능은 AEM 6.4.2 기능 팩 2 및 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다.\
 >이러한 기능 팩을 이용하려면 Adobe 지원 센터에 문의하여 액세스 권한을 요청해야 합니다. 권한이 있으면 [패키지 공유]에서 다운로드할 수 있습니다.
->
+
 이 섹션에서는 다음과 같은 주제를 다룹니다.
 
 * **AEM Screens를 사용한 Adobe Analytics의 시퀀스**
@@ -31,7 +30,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## AEM Screens를 사용한 Adobe Analytics의 시퀀스 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-순서 ***지정 프로세스는*** Adobe Analytics 서비스를 활성화하는 데이터 저장소 서비스로 시작됩니다. 채널 컨텐츠는 급여와 함께 Adobe Analytics 이벤트, 즉 데이터 테스트 캡처를 Windows I/O로 전송하고 이벤트 유지가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자는 일정을 기반으로 객체 저장소에서 데이터를 잘라내고 청크 저장소에서 데이터를 추가로 전송합니다. 연결 시 최대 데이터 양을 전송합니다.
+순서 ***지정 프로세스는&#x200B;***Adobe Analytics 서비스를 활성화하는 데이터 저장소 서비스로 시작됩니다. 채널 컨텐츠는 급여와 함께 Adobe Analytics 이벤트, 즉 데이터 테스트 캡처를 Windows I/O로 전송하고 이벤트 유지가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자는 일정을 기반으로 객체 저장소에서 데이터를 잘라내고 청크 저장소에서 데이터를 추가로 전송합니다. 연결 시 최대 데이터 양을 전송합니다.
 
 ### 시퀀싱 다이어그램 {#sequencing-diagram}
 
@@ -280,7 +279,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    <td>O/S 버전</td> 
   </tr>
   <tr>
-   <td><strong><em>컨텐츠</em></strong></td> 
+   <td><strong><em>컨텐트</em></strong></td> 
    <td>작업</td> 
    <td>content.action</td> 
    <td>required</td> 
