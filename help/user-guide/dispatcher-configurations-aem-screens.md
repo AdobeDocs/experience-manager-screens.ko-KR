@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
 
 ---
 
@@ -22,11 +22,15 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 
 다음 페이지에서는 AEM Screens 프로젝트에 대한 발송자 구성 지침을 제공합니다.
 
+>[!NOTE]
+>디스패처가 사용 가능한 경우 디스패처 규칙에서 필터링하여 등록 서블릿에 대한 연결을 방지할 수 있습니다.
+>발송자가 없는 경우 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
+
 ## 전제 조건 {#pre-requisites}
 
 AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 디스패처에 대해 알고 있어야 합니다.
 
-자세한 내용은 ** [Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)구성**을 참조하십시오.
+자세한 내용은 [Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 구성을 참조하십시오.
 
 ## Dispatcher 구성 {#configuring-dispatcher}
 
@@ -44,7 +48,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 디스
 
 ### 2단계:스크린 필터 구성 {#step-configuring-screens-filters}
 
-스크린 필터를 구성하려면 다음을 추가 ***/필터링하십시오***.
+스크린 필터를 구성하려면 다음을 추가 ***/필터링하십시오&#x200B;***.
 
 ```
 ## AEM Screens Filters
@@ -66,4 +70,4 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 디스
 
 ### 3단계:발송자 캐시 비활성화 {#step-disabling-dispatcher-cache}
 
-/content/screens 경로에 ******&#x200B;대해 디스패처 캐시를 비활성화합
+/content/screens 경로에 ******대해 디스패처 캐시를 비활성화합니다.
