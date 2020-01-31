@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -38,7 +38,7 @@ DAM에 비디오를 업로드하고 채널을 추가하면 비디오가 Screens 
 >
 >변환이 없는 경우 AEM이 실행 중인 OS에 ffmpeg가 설치되어 있는지 확인하십시오.
 >
->ffmpeg를 설치하려면 [여기를](https://evermeet.cx/ffmpeg/) 클릭하십시오.
+>ffmpeg를 설치하려면 [여기를](https://www.ffmpeg.org/download.html) 클릭하십시오.
 
 ## 비디오 자산 {#video-assets}
 
@@ -78,7 +78,7 @@ ffmpeg가 설치되어 있고 비디오 프로필을 확인합니다.
 
 1. 비디오를 선택하고 편집 **대화 상자를 엽니다** . Open the **Profiles** tab.
 
-   다른 프로파일을 선택합니다(최소한 "High Quality H.264" 프로파일이 있어야 함).
+   다른 프로파일을 선택합니다(최소한 &quot;High Quality H.264&quot; 프로파일이 있어야 함).
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
@@ -107,7 +107,7 @@ AEM Screens 플레이어에서 비디오를 선택하지만 표시되지 않는 
 
 Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 절차를 따르십시오.
 
-1. chrome://flags/#autoplay-policy으로 ***이동***
+1. chrome://flags/#autoplay-policy으로 ***이동&#x200B;***
 1. 자동 **재생 정책을** 기본값에서 **사용자 제스처가** **필요하지 않은 상태로 변경**
 
 1. 웹 브라우저를 다시 실행하고 플레이어를 업데이트합니다.
@@ -149,7 +149,7 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 절차
 **OS X에서 시계** 정렬 아래 단계에 따라 OSX에서 시계를 정렬합니다.
 
 1. 각 **OSX** 상자에서 날짜 및 시간 환경 설정 열기
-1. 확인** 날짜 및 시간 자동 설정**
+1. 자동으로 **날짜 및 시간 설정**
 1. 드롭다운에서 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com 값을 붙여넣거나 sudo ntpdate -u -v *v.pool.ntp.org를 실행하기만 하면 됩니다.*
 1. 2개 이상의 플레이어 시작
 
