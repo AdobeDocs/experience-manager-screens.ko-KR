@@ -4,7 +4,7 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 1. 다음 예에서는 CommandSyncDemo라는 데모 프로젝트와 **시퀀스 채널** ChannelLobby를 **보여줍니다**.
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
    채널에는 아래 그림과 같이 다음 컨텐츠가 포함되어 있습니다.
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. 아래 그림과 같이 **위치** 폴더에 디스플레이를 만듭니다.
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. ChannelLobby 채널을 **Lobby** Display에 **할당합니다**.
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >디스플레이에 채널을 지정하는 방법에 대한 자세한 내용은 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md)
+   >디스플레이에 채널을 지정하는 방법에 대한 자세한 내용은 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md).
 
 1. 장치 **폴더로 이동하고** 작업 **표시줄에서 장치** 관리자를 클릭하여 장치를 등록합니다.
 
@@ -59,8 +59,23 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
    >
    >디스플레이에 채널을 지정하는 방법에 대한 자세한 내용은 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md)
 
-1. 데모 목적으로 이 예에서는 크롬 장치와 웹 플레이어를 별도의 두 장치로 보여줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
+1. 데모 목적으로 이 예는 크롬 장치와 Windows 플레이어를 두 개의 별도 장치로 보여줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
    ![image1](assets/command-sync6.png)
+
+### 채널 설정 업데이트
+
+1. ChannelLobby **로** 이동하고 작업 **표시줄에서 편집을 클릭하여** 채널 설정을 업데이트합니다.
+
+1. 아래 그림과 같이 전체 채널을 선택합니다.
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. 렌치 아이콘을 클릭하여 페이지 **대화 상자를** 엽니다.
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. 전략 필드에 *동기화된* 키워드를 **입력합니다** .
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### 마스터 설정 {#setting-up-master}
 
