@@ -4,7 +4,7 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
+source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
 ---
 
