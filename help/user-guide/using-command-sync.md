@@ -4,7 +4,7 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 1. CommandSyncSyncLocation —> **위치** —> Lobby **** Lobby **—> Lobby** DisplayDashboard **** **** 를 클릭하고 작업 표시줄에서 디스플레이 대시보드를 클릭합니다.
 아래 그림에서와 같이 DEVICES **패널에서 두 개의** 장치(크롬 및 Windows 플레이어)가 표시됩니다.
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. 장치 **패널에서** 마스터로 설정할 장치를 선택합니다. 다음 예제에서는 Chrome 장치를 마스터로 설정하는 방법을 보여 줍니다. 마스터 **장치로**&#x200B;설정을 클릭합니다.
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. 마스터 장치로 **설정에서 IP 주소를 입력하고 저장을** 클릭합니다 ****.
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> 여러 장치를 마스터로 설정할 수 있습니다.
 
 ### 마스터와 동기화 {#sync-up-master}
 
-1. Chrome 장치를 마스터로 설정하면 다른 장치를 동기화하여 마스터와 동기화할 수 있습니다.
-장치 패널에서 다른 장치를 **선택하고** 아래 그림과 같이 **마스터 장치에**&#x200B;동기화를 클릭합니다.
+1. Chrome 장치를 마스터로 설정하면 다른 장치(이 경우 Windows 플레이어)를 동기화하여 마스터와 동기화할 수 있습니다.
+장치 패널에서 다른 장치(이 경우 Windows 플레이어) **를** 선택하고 **아래 그림과 같이 마스터 장치에**&#x200B;동기화를 클릭합니다.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. 목록에서 장치를 선택하고 저장을 **클릭합니다**.
 
+1. 장치(Windows 플레이어)가 마스터(Chrome 플레이어)에 동기화되면 장치 **패널에 동기화되는 장치가** 표시됩니다.
 
-1. 웹 플레이어로 [이동합니다](http://localhost:4502/screens/player.html).
+   ![image1](assets/command-sync/command-sync14.png)
 
+### 마스터와 제거 또는 동기화 해제 {#desync-up-master}
 
-
-
+장치나 장치를 마스터에 동기화한 후에는 해당 장치에서 할당을 동기화하거나 제거할 수 있습니다. 마스터 장치에서 동기화를 제거하려면 장치를 선택하고 [장치] **패널에서** [디자인]을 **클릭합니다** .
 
