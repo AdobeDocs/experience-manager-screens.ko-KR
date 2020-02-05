@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: dcaac908b9f88798f73eb3048bc9a225b2e6e11f
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
       + [비디오 표현물](generating-renditions.md)
       + [동적 포함된 시퀀스 사용](dynamic-embedded-sequences.md)
       + [채널 레벨 벌크 이미지 재생 지속 시간](channel-level-image-playback.md)
-      + [명령 동기화 사용](using-command-sync.md)
+      + [명령 동기화](using-command-sync.md)
    + 컨텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
       + [Content as-a-service 업데이트](content-update-as-a-service.md)
