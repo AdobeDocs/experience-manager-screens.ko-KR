@@ -4,7 +4,7 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
 1. 다음 예에서는 CommandSyncDemo라는 데모 프로젝트와 **시퀀스 채널** ChannelLobby를 **보여줍니다**.
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
    채널에는 아래 그림과 같이 다음 컨텐츠가 포함되어 있습니다.
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. 아래 그림과 같이 **위치** 폴더에 디스플레이를 만듭니다.
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. ChannelLobby 채널을 **Lobby** Display에 **할당합니다**.
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 1. ChannelLobby **로** 이동하고 작업 **표시줄에서 편집을 클릭하여** 채널 설정을 업데이트합니다.
 
 1. 아래 그림과 같이 전체 채널을 선택합니다.
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. 렌치 아이콘을 클릭하여 페이지 **대화 상자를** 엽니다.
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. 전략 필드에 *동기화된* 키워드를 **입력합니다** .
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### 마스터 설정 {#setting-up-master}
 
 1. CommandSyncSyncLocation —> **위치** —> Lobby **** Lobby **—> Lobby** DisplayDashboard **** **** 를 클릭하고 작업 표시줄에서 디스플레이 대시보드를 클릭합니다.
 아래 그림에서와 같이 DEVICES **패널에서 두 개의** 장치(크롬 및 Windows 플레이어)가 표시됩니다.
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. 장치 **패널에서** 마스터로 설정할 장치를 선택합니다. 다음 예제에서는 Chrome 장치를 마스터로 설정하는 방법을 보여 줍니다. 마스터 **장치로**&#x200B;설정을 클릭합니다.
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. 마스터 장치로 **설정에서 IP 주소를 입력하고 저장을** 클릭합니다 ****.
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > 여러 장치를 마스터로 설정할 수 있습니다.
@@ -99,13 +99,13 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 1. Chrome 장치를 마스터로 설정하면 다른 장치(이 경우 Windows 플레이어)를 동기화하여 마스터와 동기화할 수 있습니다.
 장치 패널에서 다른 장치(이 경우 Windows 플레이어) **를** 선택하고 **아래 그림과 같이 마스터 장치에**&#x200B;동기화를 클릭합니다.
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. 목록에서 장치를 선택하고 저장을 **클릭합니다**.
 
 1. 장치(Windows 플레이어)가 마스터(Chrome 플레이어)에 동기화되면 장치 **패널에 동기화되는 장치가** 표시됩니다.
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### 마스터와 제거 또는 동기화 해제 {#desync-up-master}
 
