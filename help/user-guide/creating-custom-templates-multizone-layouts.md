@@ -5,7 +5,7 @@ description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드�
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 템플릿 만들기 `/apps/<project>/templates/my-custom-layout`
 
-```shell
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   ```shell
+    <?xml version="1.0" encoding="UTF-8"?>
+    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:description="My Custom 3-zones layout "
     jcr:primaryType="cq:Template"
     jcr:title="3-zones layout"
@@ -58,8 +58,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
         </cq:responsive>
         <offline-config/>
     </jcr:content>
-</jcr:root>
-```
+   </jcr:root>
+   ```
 
 1. 에서 페이지 디자인 만들기를 `/apps/settings/wcm/designs/<project>`참조하십시오.
 
@@ -71,18 +71,18 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 폴더에 **static.css** `/apps/settings/wcm/designs/<project>` 파일을 추가하고 해당 컨텐츠를
 
-```shell
-.cq-Screens-channel--multizone.my-CustomLayout {}
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-```
+   ```shell
+   .cq-Screens-channel--multizone.my-CustomLayout {}
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
+   ```
 
 ## 배경 레이어로 이미지 삽입 {#inserting-image}
 
 이미지를 배경 레이어로 레이아웃에 삽입할 수 있습니다.
 
-CSS 규칙을 조정하여 "data-uri"라고 하는 항목을 사용하고 CSS 파일에서 이미지(Base64 인코딩)의 바로 인라인으로 지정할 수 있습니다.
+CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하고 CSS 파일에서 이미지(Base64 인코딩)의 바로 인라인으로 지정할 수 있습니다.
 
 이 작업은 다음과 같이 수행됩니다.
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -90,7 +90,7 @@ CSS 규칙을 조정하여 "data-uri"라고 하는 항목을 사용하고 CSS �
 또는 아래 단계를 따를 수 있습니다.
 
 1. 이미지가 채널에 대한 오프라인 구성에 어떻게 포함되었는지 확인합니다.
-1. 위의 CSS에서 "data-uri" 변형 대신 이미지에 대한 직접 링크 사용
+1. 위의 CSS에서 &quot;data-uri&quot; 변형 대신 이미지에 대한 직접 링크 사용
 
 
 ## 배경색 업데이트 {#updating-color}
@@ -98,3 +98,6 @@ CSS 규칙을 조정하여 "data-uri"라고 하는 항목을 사용하고 CSS �
 배경색을 변경하려면 다음 코드를 xml 파일에 추가합니다.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+
