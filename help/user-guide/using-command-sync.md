@@ -4,7 +4,7 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,11 +116,12 @@ source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 1. 장치 **패널로** 이동하여 장치를 선택합니다.
 
-1. Design **device(s)** 를 클릭하여 마스터 장치에서 클라이언트를 다시 동기화합니다.
+1. 장치 **구성을** 클릭하여 마스터 장치에서 클라이언트를 해제합니다.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 확인을 **클릭하여** 선택한 장치를 마스터에서 동기화하지 않습니다.
+1. 확인을 **클릭하여** 선택한 장치를 마스터에서 해제합니다.
 
    >[메모:]
    > 마스터 장치를 선택하고 디자인 옵션을 사용하면 마스터에 연결된 모든 장치가 한 번에 제거됩니다.
+
