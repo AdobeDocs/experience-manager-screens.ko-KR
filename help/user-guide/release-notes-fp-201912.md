@@ -1,10 +1,10 @@
 ---
 title: 기능 팩 201912에 대한 릴리스 노트
 seo-title: 기능 팩 201912에 대한 릴리스 노트
-description: 2020년 1월 20일에 릴리스된 AEM Screens 기능 팩 201912에 대한 정보를 보려면 이 페이지를 따르십시오.
-seo-description: 2020년 1월 20일에 릴리스된 AEM Screens 기능 팩 201912에 대한 정보를 보려면 이 페이지를 따르십시오.
+description: 2020년 1월 31일에 릴리스된 AEM Screens 기능 팩 201912에 대한 정보를 보려면 이 페이지를 따르십시오.
+seo-description: 2020년 1월 31일에 릴리스된 AEM Screens 기능 팩 201912에 대한 정보를 보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: b6a2485ff992eaafb9ef3e5063e8d8ab4e214532
 
 ---
 
@@ -19,7 +19,7 @@ AEM Screens에서 AEM 6.4 Feature Pack 7 및 AEM 6.5 Feature Pack 3에 대한 �
 
 ## Release Date {#release-date}
 
-AEM Screens 기능 팩 201912의 릴리스 날짜는 2020년 1월 21일입니다.
+AEM Screens 기능 팩 201912의 릴리스 날짜는 2020년 1월 31일입니다.
 
 ### 새로운 기능 {#what-s-new}
 
