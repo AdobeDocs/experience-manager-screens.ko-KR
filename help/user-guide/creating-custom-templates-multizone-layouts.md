@@ -5,16 +5,55 @@ description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드�
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # 다중 영역 레이아웃에서 사용자 정의 템플릿 만들기 {#creating-custom-templates-multizone}
 
-다음 예는 다중 영역 레이아웃에서 사용자 정의 템플릿을 만드는 방법을 보여줍니다.
+이 페이지에서는 다중 영역 레이아웃에서 사용자 정의 템플릿을 만드는 방법을 보여줍니다.
 
-예를 들어 아래 섹션에서는 다음 구성을 사용하여 다중 영역 레이아웃에서 사용자 정의 템플릿을 만드는 방법을 보여 줍니다.
+## 이름 지정 규칙 {#name-terms}
+
+AEM Screens 프로젝트에서 사용할 사용자 정의 다중 영역 템플릿을 만드는 방법을 이해하려면 먼저 만들 템플릿의 버전을 이해하는 것이 중요합니다.
+
+| **레이아웃 이름** | **설명** |
+|---|---|
+| Left20-LandscapeHD3Zone | 가로 및 세로 화면의 20%, 영역 2를 가로 및 세로 화면의 80%로, 세로 화면의 20%로, 영역 3을 가로 및 세로 화면의 20%로, 영역 3을 가로 100%로, 세로 화면의 80%로 16:9 비율로 만들 수 있는 3존 가로 레이아웃을 말합니다. |
+| Upper20-PortraitHD2Zone | 16:9의 종횡비를 사용하여 화면의 20%를 맨 위에서 처리하는 2존 세로 템플릿을 나타냅니다. |
+| Right20-LandscapeSD3Zone | 화면상의 20%를 오른쪽에서 차지하는 3영역 템플릿을 나타냅니다(종횡비 4:3). |
+
+## 사용 사례 예 {#example-use-cases}
+
+## Left20-LandscapeHD3Zone 레이아웃 만들기 {#landscape-layout-one}
+
+아래 설명을 따라 다음 구성으로 사용자 지정 템플릿을 만듭니다.
+
+* **Left20은** 가로 및 세로 화면 크기의 20%를 덮는 왼쪽 위 영역을 나타냅니다.
+* **가로는** 화면 방향을 나타냅니다.
+* **HD는** 종횡비를 16:9로 나타냅니다.
+* **3Zone** 은 디스플레이의 세 영역을 나타냅니다.
+
+## 다중 영역 레이아웃의 시각적 표현 {#multi-layout-visual-one}
+
+Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 같은 다중 영역 레이아웃을 만들 수 있습니다.
+
+![이미지](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Upper20-PortraitHD2Zone 레이아웃 만들기 {#landscape-layout-two}
+
+아래 설명을 따라 다음 구성으로 사용자 지정 템플릿을 만듭니다.
+
+
+
+
+
 
 ![이미지](assets/custom-template1.png)
 
