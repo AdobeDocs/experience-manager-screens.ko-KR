@@ -4,7 +4,7 @@ seo-title: 데이터 트리거를 복제하여 게시 서버
 description: 데이터 트리거를 복제하여 서버를 게시합니다.
 seo-description: 데이터 트리거를 복제하여 서버를 게시합니다.
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ ContextHub 구성을 복제하는 동안 테스트 연결이 실패하는 경우
 1. 도구 > 배포 **> 배포** > **배포** > **게시**&#x200B;에이전트로이동합니다.
 
 1. 작업 **표시줄에서** 편집을 클릭하고 Importer 끝점 **필드의 끝점 URL이** 배포 에이전트의 게시 서버 URL을 가리키는지 확인합니다.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. 기본 관리자 자격 증명을 사용하지 않는 경우 다른 관리자 암호로 배포 에이전트를 구성해야 합니다.
+1. 기본 관리자 자격 증명을 사용하지 않는 경우 다른 사용자 이름과 암호로 배포 에이전트를 구성해야 합니다.
 아래 단계를 따르십시오.
 
    1. 도구 > 작업 **> 웹** **콘솔로** 이동하여 `http://localhost:4502/system/console/configMgr`Adobe Experience **Manager 웹**&#x200B;콘솔 화면을엽니다.
