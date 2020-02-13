@@ -4,7 +4,7 @@ seo-title: 데이터 트리거를 복제하여 게시 서버
 description: 데이터 트리거를 복제하여 서버를 게시합니다.
 seo-description: 데이터 트리거를 복제하여 서버를 게시합니다.
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성/게시 설정의 데�
    >[!Note]
    >테스트가 실패할 경우 작성자 및 게시 인스턴스 간 복제 에이전트 구성을 수정해야 합니다. 자세한 내용은 [테스트 연결](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 문제 해결을 참조하십시오.
 
-1. [ **배포 에이전트** ] **화면 트리에서** [추가]를 선택하고 프로젝트의 구성 경로를 선택합니다(예: `/conf/screens/settings/cloudsettings/configuration)`).
+1. [ **배포 에이전트** ] **화면 트리에서** [추가]를 선택하고 프로젝트의 구성 경로를 선택합니다(예: `/conf/screens/settings/cloudsettings/configuration`).
 
 1. 제출을 **클릭합니다**
 
@@ -51,7 +51,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성/게시 설정의 데�
 
 1. 예를 들어 프로젝트 폴더로 드릴다운합니다 `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. 사용자 인터페이스에서 모든 대상과 세그먼트를 선택합니다.
 
@@ -114,3 +114,6 @@ ContextHub 구성을 복제하는 동안 테스트 연결이 실패하는 경우
 
    1. 저장을 **클릭하고** AEM 인스턴스의 배포 에이전트 **화면에서** 다시 테스트 연결을 실행합니다.
 
+   1. 사용자는 AEM 인스턴스에서 배포 **에이전트** 페이지를 다시 방문하여 기본 URL을 고유한 게시 `localhost:4503` URL로 업데이트/교체해야 합니다.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
