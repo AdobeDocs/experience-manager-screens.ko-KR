@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
+source-git-commit: 5e352469b657662cd7ddb9af395ae92e28ef6ee1
 
 ---
 
@@ -31,6 +31,7 @@ source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
    + [ACL 설정](setting-up-acls.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일에서 새 프로젝트 가져오기](project-importer.md)
+   + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위한 익스텐션으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
