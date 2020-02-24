@@ -5,7 +5,7 @@ description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드�
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
+source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
 
 ---
 
@@ -60,15 +60,26 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
 
 1. 왼쪽 막대 템플릿을 에서 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 로 `/apps/customtemplate/template`복사합니다.
 
-1. 복사한 **왼쪽** (`/apps/customtemplate/template`)의 이름을 **내 사용자 지정 레이아웃으로**&#x200B;변경합니다.
+1. 복사한 **왼쪽** (`/apps/customtemplate/template`)의 이름을 **내 사용자 지정 레이아웃으로**변경합니다.
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Left20- `/apps/customtemplate/template/my-custom-layout` LandscapeHD3Zone에 대한 속성 **jcr:description** to *Template and* jcr:title **** ** toLeft20-LandscapeHD3Zone으로 이동하고 업데이트합니다.
 
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. 에서 **offline-config** 노드로 이동하고 `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` jcr:title **을 Left20-** LandscapeHD3Zone으로 업데이트합니다 **.
+
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. 에서 *my-custom-template* 의 **jcr:content** 속성으로 `/apps/customtemplate/template/my-custom-layout/jcr:content` 이동하고 cq:cssClass **속성을 aem-Layout my-custom-layout에** ****&#x200B;업데이트합니다.
 
-1. (4) 단계를 참조하여 왼쪽 상단의 템플릿을 복사하면 아래 3개의 응답형 격자를 볼 수 `my-custom-layout/jcr:content`있습니다. 사용자 지정 css 클래스를 *cq:cssClass* 속성의 각 응답형 격자에 추가합니다. 예를 들어 *my-custom-custom-layout*—top-left *,* my-custom-layout—top-right *,* my custom-layout—bottom.
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. (4) 단계를 참조하여 왼쪽 상단의 템플릿을 복사하면 아래 3개의 응답형 격자를 볼 수 `my-custom-layout/jcr:content`있습니다. 사용자 지정 css 클래스를 cq:cssClass *속성(예:* my-custom-layout *)의 각 응답형* 격자에 *추가합니다(* r1c1노드에 대한 왼쪽 위).
+
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   마찬가지로 *my-custom-layout—* r1c2의 경우 오른쪽 *맨 위,* my-custom-layout—home *for r2c1* node ** 를 추가합니다.
 
    >[!NOTE]
    >이러한 사용자 정의 클래스는 css에서 반응형 그리드의 폭/높이를 설정하는 데 사용됩니다.
@@ -76,72 +87,51 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
    >[!NOTE]
    > 원하는 전체 격자 수를 기반으로 응답형 그리드를 추가하거나 제거할 수 있습니다. 이 예에서는 첫 번째 행에 2개의 격자를 표시하고 두 번째 행에 1개의 격자를 표시하므로 총 3개의 응답형 격자(r1c1, r1c2, r2c1)가 있습니다.
 
-1. `/libs/settings/wcm/designs/screens` 사용자 정의 템플릿 디자인으로 `/apps/settings/wcm/designs/` **복사 및 이름 바꾸기**
+1. 복사한 디자인을 `/libs/settings/wcm/designs/screens` 복사하여 `/apps/settings/wcm/designs/` 맞춤형 템플릿 디자인으로 ****&#x200B;이름을 변경합니다.
 
 1. 사용자 정의 템플릿 디자인의 `/apps/settings/wcm/designs/custom-template-designs` jcr:title *속성으로* 이동하여 **사용자 정의 템플릿 디자인을** 업데이트합니다 ****.
 
-1. 다음과 일치하도록 `/apps/settings/wcm/designs/<project>-designs/static.css` 컨텐츠 업데이트
+1. static.css 파일로 이동하여 `/apps/settings/wcm/designs/custom-template-designs` 만듭니다.
 
-## 특정 구성으로 사용자 지정 템플릿 만들기 {#basic-flow-setting}
-
-![이미지](assets/custom-template1.png)
-
-아래 절차에 따라 사용자 정의 템플릿을 만듭니다.
-
-1. 템플릿 만들기 `/apps/<project>/templates/my-custom-layout`
+1. 정적.css 파일에 컨텐츠를 복사합니다.
 
    ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+       height: 36%;
+      float: left !important;
+      }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+      width:80%;
+      height: 36%;
+     float: left !important;
+     }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+     width:100%;
+     height: 64%;
+     }
    ```
-
-1. 에서 페이지 디자인 만들기를 `/apps/settings/wcm/designs/<project>`참조하십시오.
 
    >[!NOTE]
-   >
-   >위의 `cq:designPath` 항목이 패스와 일치하는지 확인합니다.
+   > 사용자 지정 템플릿의 요구 사항에 맞게 비율을 업데이트할 수 있습니다.
 
-1. 디자인을 위한 **offline-config** 노드를 업데이트하여 새 경로를 가리키도록 합니다
+1. cq:designPath 속성을 `/apps/<project>/templates/my-custom-layout/jcr:content` 탐색하고 업데이트하여 *static.css* 로 구성된 스타일을 `/apps/settings/wcm/designs/customtemplate-designs` 로드합니다.
 
-1. 폴더에 **static.css** `/apps/settings/wcm/designs/<project>` 파일을 추가하고 해당 컨텐츠를
+   >[!NOTE]
+   > 복사 또는 붙여넣기가 아닌 모든 스타일을 입력할 것을 권장합니다. 그러면 공백으로 인해 css 스타일 문제가 발생할 수 있습니다.
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+## 결과 보기 {#viewing-result}
+
+AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려면 아래 절차를 따르십시오.
+
+1. (1) 단계에서 만든 스크린 프로젝트로 이동하고 채널 **폴더를 선택합니다** .
+
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. 작업 **표시줄에서** 만들기를 클릭하고 만들기 **마법사에서 Left20-LandscapeHD3Zone** 템플릿을 **선택합니다** .
+
+1. 사용자 지정 템플릿으로 채널을 만든 후에는 편집기에서 채널에 자산을 추가할 수 있습니다.
 
 ## 배경 레이어로 이미지 삽입 {#inserting-image}
 
