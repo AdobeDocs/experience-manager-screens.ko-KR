@@ -5,28 +5,40 @@ description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드�
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
+source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 ---
 
 
-# 다중 영역 레이아웃에서 사용자 정의 템플릿 만들기 {#creating-custom-templates-multizone}
+# 다중 영역 레이아웃용 사용자 정의 템플릿 만들기 {#creating-custom-templates-multizone}
 
-이 페이지에서는 다중 영역 레이아웃에서 사용자 정의 템플릿을 만드는 방법을 보여줍니다.
+이 페이지에서는 다중 영역 레이아웃용 사용자 정의 템플릿을 만드는 방법을 보여줍니다.
 
-## 이름 지정 규칙 {#name-terms}
+## 중요 고려 사항 {#considerations}
 
-AEM Screens 프로젝트에서 사용할 사용자 지정 다중 영역 템플릿을 만드는 방법을 이해하려면 먼저 만들려는 템플릿의 버전을 이해하는 것이 좋습니다.
+다중 영역 레이아웃에서 사용자 지정 템플릿을 만들기 전에 알아야 하는 두 가지 중요한 고려 사항이 있습니다.
 
-| **레이아웃 이름** | **설명** |
-|---|---|
-| Left20-LandscapeHD3Zone | 가로 및 세로 화면의 20%, 영역 2를 가로 및 세로 화면의 80%로, 세로 화면의 20%로, 영역 3을 가로 및 세로 화면의 20%로, 영역 3을 가로 100%로, 세로 화면의 80%로 16:9 비율로 만들 수 있는 3존 가로 레이아웃을 말합니다. |
-| Upper20-PortraitHD2Zone | 16:9의 종횡비를 사용하여 화면의 20%를 맨 위에서 처리하는 2존 세로 템플릿을 나타냅니다. |
-| Right20-LandscapeSD3Zone | 화면상의 20%를 오른쪽에서 차지하는 3영역 템플릿을 나타냅니다(종횡비 4:3). |
+1. **픽셀 크기 또는 백분율**&#x200B;수정:
 
-## 사용 사례 예 {#example-use-cases}
+   사용자 정의 레이아웃에 대해 서로 다른 영역에 대해 고정 픽셀 크기를 사용할지 또는 백분율을 사용하여 사용자 정의 레이아웃을 만들지 여부를 결정해야 합니다.
 
-## Left20-LandscapeHD3영역 레이아웃 {#custom-template-one}
+   > [!NOTE]
+   > 비율을 사용하여 사용자 정의 레이아웃의 영역을 설정할 수 있으므로 다양한 화면 크기에 템플릿을 다시 사용할 수 있습니다.
+
+1. **이름 지정 규칙**:
+
+   AEM Screens 프로젝트에서 사용할 사용자 지정 다중 영역 템플릿을 만드는 방법을 이해하려면 먼저 만들려는 템플릿의 버전을 이해하는 것이 좋습니다.
+
+   | **레이아웃 이름** | **설명** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | 가로 및 세로 화면의 20%, 영역 2를 가로 및 세로 화면의 80%로, 세로 화면의 20%로, 영역 3을 가로 및 세로 화면의 20%로, 영역 3을 가로 100%로, 세로 화면의 80%로 16:9 비율로 만들 수 있는 3존 가로 레이아웃을 말합니다. |
+   | Upper20-PortraitHD2Zone | 16:9의 종횡비를 사용하여 화면의 20%를 맨 위에서 처리하는 2존 세로 템플릿을 나타냅니다. |
+   | Right20-LandscapeSD3Zone | 화면상의 20%를 오른쪽에서 차지하는 3영역 템플릿을 나타냅니다(종횡비 4:3). |
+
+   > [!IMPORTANT]
+   > 사용자 지정 레이아웃 내에 정의된 영역이 전체 레이아웃의 전체 종횡비와 일치하지 않을 수 있습니다. 이 문서에서 수행한 이름 지정 규칙은 사용자 지정 레이아웃의 종횡비를 전체적으로 지정합니다.
+
+## 사용 사례 Left20-LandscapeHD3영역 레이아웃 예 {#custom-template-one}
 
 아래 섹션에 따라 다음 구성으로 사용자 정의 템플릿 *Left20-LandscapeHD* 3Zone을 만듭니다.
 
@@ -131,13 +143,17 @@ AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려
 
 1. 작업 **표시줄에서** 만들기를 클릭하고 만들기 **마법사에서 Left20-LandscapeHD3Zone** 템플릿을 **선택합니다** .
 
-1. 사용자 지정 템플릿으로 채널을 만든 후에는 편집기에서 채널에 자산을 추가할 수 있습니다.
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. 사용자 지정 템플릿으로 채널을 만든 후에는 편집기에서 채널에 자산을 추가할 수 있습니다. 다음 미리 보기는 사용자 정의 템플릿의 이미지를 보여줍니다.
+
+   ![이미지](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## 배경 레이어로 이미지 삽입 {#inserting-image}
 
 이미지를 배경 레이어로 레이아웃에 삽입할 수 있습니다.
 
-CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하고 CSS 파일에서 이미지(Base64 인코딩)의 바로 인라인으로 지정할 수 있습니다.
+CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하고 CSS 파일에서 직접 이미지(Base64 인코딩)를 인라인(13단계)하고 *static.css*&#x200B;로 만들 수 있습니다.
 
 이 작업은 다음과 같이 수행됩니다.
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -150,7 +166,7 @@ CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하
 
 ## 배경색 업데이트 {#updating-color}
 
-배경색을 변경하려면 다음 코드를 xml 파일에 추가합니다.
+배경색을 변경하려면 다음 코드를 xml 파일(13단계)에 *static.css*&#x200B;추가합니다.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
