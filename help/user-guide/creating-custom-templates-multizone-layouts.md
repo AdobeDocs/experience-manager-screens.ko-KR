@@ -5,7 +5,7 @@ description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드�
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 같은 다중 영역 레이아웃을 만들 수 있습니다.
 
-![이미지](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![이미지](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Left20-LandscapeHD3Zone 레이아웃 만들기 {#landscape-layout-one}
 
