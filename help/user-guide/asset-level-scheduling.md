@@ -4,7 +4,7 @@ seo-title: 자산 수준 활성화
 description: 플레이어의 로컬 표준 시간대에서 예약된 시간대에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
 seo-description: 플레이어의 로컬 표준 시간대에서 예약된 시간대에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 이 기능을 사용하면 시작 및 종료 날짜와 시간을 지정할 수 있을 뿐만 아니라 되풀이 패턴도 지정할 수 있습니다.
 
-## 단일 이벤트 재생 {#single-event-playback}
+## 활성화 창 {#single-event-playback}
 
 자산 수준 활성화는 자산의 속성에 액세스하는 **동안 활성화** 탭을 구성하여 수행합니다.
 
