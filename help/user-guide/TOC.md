@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -57,12 +57,12 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
       + [오프라인 일괄 업데이트](bulk-offline-update.md)
       + [AEM Screens 알림 서비스](screens-notifications-service.md)
       + [경험 조각 사용](experience-fragments-in-screens.md)
-      + [자산 수준 예약](asset-level-scheduling.md)
+      + [자산 수준 활성화](asset-level-scheduling.md)
+      + [채널 수준 활성화](channel-level-activation.md)
       + [Live Copy 만들기 및 관리](managing-livecopy.md)
       + [비디오 패딩 워크플로우 만들기](creating-a-video-padding-workflow.md)
       + [채널에 구성 요소 추가](adding-components-to-a-channel.md)
       + [포함된 시퀀스](embedded-sequences.md)
-      + [채널 수준 활성화 - 단일 이벤트 재생](channel-level-activation.md)
       + [다중 영역 레이아웃](multi-zone-layout-aem-screens.md)
       + [비디오 표현물](generating-renditions.md)
       + [동적 포함된 시퀀스 사용](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [구성 요소 만들기](creating-components.md)
    + [AEM SPA 편집기를 사용하여 REACT 애플리케이션 포함 및 AEM Screens 분석과 통합](embedding-react-app.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
-   + [사용자 정의 템플릿 다중 영역 레이아웃 만들기](creating-custom-templates-multizone-layouts.md)
+   + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
 + 문제 해결 및 FAQ {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
