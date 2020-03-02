@@ -4,7 +4,7 @@ seo-title: 자산 수준 활성화
 description: 플레이어의 로컬 표준 시간대에서 예약된 시간대에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
 seo-description: 플레이어의 로컬 표준 시간대에서 예약된 시간대에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 1. 채널을 선택하고 작업 **표시줄에서** 편집을 클릭하여 채널에서 컨텐츠를 추가하거나 편집합니다.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 1. 편집을 **클릭하여** 채널 편집기를 열고 예약을 적용할 자산을 선택합니다.
 
-   ![이미지](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![이미지](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. 자산을 선택하고 왼쪽 상단에 있는 **구성** (렌치 아이콘)을 클릭하여 이미지의 속성을 엽니다.
 
    Click the **Activation** tab.
 
-   ![이미지](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![이미지](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. 활성 시작 날짜 및 활성 **필드를 사용하여 날짜 선택기에서** 필드까지 **날짜를 지정할** 수있습니다.
 
