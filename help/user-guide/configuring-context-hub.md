@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
    1. 전역 **>** 기본값 **>** ContextHub 구성으로 **이동합니다**.
 
-   1. ** 만들기 > 구성 컨테이너를 **클릭하고 제목을 ContextHubDemo** **로 입력합니다.
+   1. 만들기 **> 구성** **컨테이너를** 클릭하고 제목을 ContextHubDemo로 **입력합니다**.
 
    1. **** ContextHubDemo ****> ContentHub **** Store 구성...를 클릭하여 구성 **마법사를**&#x200B;엽니다.
 
    1. Google **Sheets** , Google **Sheets**, Google Sheets **Google Sheets** 형식으로 Google Store 이름을 ******** **입력합니다.Contexthub Generic-jsonp**
 
    1. **다음**&#x200B;을 클릭합니다
-   1. 특정 json 구성**을 입력합니다.** 예를 들어 데모 목적으로 다음 json을 사용할 수 있습니다.
+   1. 특정 json 구성을 입력합니다. 예를 들어 데모 목적으로 다음 json을 사용할 수 있습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
    ```
