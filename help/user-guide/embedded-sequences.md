@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
 
@@ -33,17 +33,17 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 ### 포함된 시퀀스 추가 {#adding-an-embedded-sequence}
 
-포함된 시퀀스를 채널에 추가할 수 있습니다. 포함된 시퀀스는 이미지나 비디오와 같은 에셋을 포함하는 다른 채널입니다. 포함된 시퀀스를 추가하면 사용자가 ***채널 경로별로 채널에 시퀀스를 추가할 수 있습니다***.
+포함된 시퀀스를 채널에 추가할 수 있습니다. 포함된 시퀀스는 이미지나 비디오와 같은 에셋을 포함하는 다른 채널입니다. 포함된 시퀀스를 추가하면 사용자가 ***채널 경로***&#x200B;별로 채널에 시퀀스를 추가할 수 있습니다.
 
 >[!NOTE]
 >
->***채널 경로 ***채널에 대한 명시적 참조를 정의합니다.
+>***채널*** 경로는 채널에 대한 명시적 참조를 정의합니다.
 >
 >*채널 경로*&#x200B;에 대해 자세히 알려면 스크린 작성에서 [채널 지정](channel-assignment.md)을 참조하십시오.
 
 아래 절차에 따라 채널에 포함된 시퀀스를 추가하십시오.
 
-1. 페이지를 포함할 채널을 선택합니다. For example, **We.Retail In-Store** --&gt; **Channels** --&gt;** Idle Channel**.
+1. 페이지를 포함할 채널을 선택합니다. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
 1. 왼쪽 사이드바에서 구성 요소 아이콘을 클릭하여 포함된 페이지를 추가합니다. Drag and drop the **Embedded Sequence** to the editor.
@@ -53,12 +53,9 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 1. 부분 무료 **재생 전략을** **정상으로**&#x200B;설정합니다.
 
-By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!NOTE]
->
->**중요 사항:**
->
+>[!Important]
 >포함된 시퀀스에 사용된 채널을 동일한 디스플레이에 지정해야 합니다.
 >
 >이전 단계에서 채널에 포함된 시퀀스를 추가한 후 아래 절차를 따르십시오.
@@ -94,15 +91,15 @@ By default, it is set to **normal**. Setting the value to **normal*** (Play all 
 
 아래 절차에 따라 채널에 포함된 시퀀스를 추가하십시오.
 
-1. 동적 시퀀스를 포함할 채널을 선택합니다. For example, **We.Retail In-Store** --&gt; **Channels** --&gt; **Idle Channel**.
+1. 동적 시퀀스를 포함할 채널을 선택합니다. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
 1. 왼쪽 사이드바에서 구성 요소 아이콘을 클릭하여 동적 포함된 시퀀스를 추가합니다. 다이내믹&#x200B;****** 내장 시퀀스 **를 편집기로 드래그하여 놓습니다.
 
-1. Double-click the **Dynamic** **Embedded Sequence **component to add the page to your sequence channel.
+1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
 1. Enter the **Channel Assignment Role**.
-1. 부분 무료 **재생 전략을** **정상으로**&#x200B;설정합니다. By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. 부분 무료 **재생 전략을** **정상으로**&#x200B;설정합니다. By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
 
