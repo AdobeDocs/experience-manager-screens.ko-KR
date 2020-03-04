@@ -20,7 +20,7 @@ source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 1. **픽셀 크기 또는 백분율**&#x200B;수정:
 
-   사용자 정의 레이아웃에 대해 서로 다른 영역에 대해 고정 픽셀 크기를 사용할지 또는 백분율을 사용하여 사용자 정의 레이아웃을 만들지 여부를 결정해야 합니다.
+   사용자 정의 레이아웃에 대해 서로 다른 영역에 고정 픽셀 크기를 사용할지 또는 백분율을 사용하여 사용자 정의 레이아웃을 만들지를 결정해야 합니다.
 
    > [!NOTE]
    > 비율을 사용하여 사용자 정의 레이아웃의 영역을 설정할 수 있으므로 다양한 화면 크기에 템플릿을 다시 사용할 수 있습니다.
@@ -70,7 +70,7 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
    > [!NOTE]
    > CRXDE Lite **의 작업 표시줄에서 컨텐츠를 작성, 편집 또는 노드에 복사할 때마다 [모두** 저장]을 클릭하는 것이 좋습니다. 그렇지 않으면 업데이트를 커밋할 수 없습니다.
 
-1. 왼쪽 막대 템플릿을 에서 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 로 `/apps/customtemplate/template`복사합니다.
+1. 왼쪽 막대 템플릿을 에서 `/libs/screens/core/templates/splitscreenchannel/lbar-left` `/apps/customtemplate/template`로 복사합니다.
 
 1. 복사한 **왼쪽** (`/apps/customtemplate/template`)의 이름을 **내 사용자 지정 레이아웃으로**변경합니다.
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
@@ -91,7 +91,7 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   마찬가지로 *my-custom-layout—* r1c2의 경우 오른쪽 *맨 위,* my-custom-layout—home *for r2c1* node ** 를 추가합니다.
+   마찬가지로 *my-custom-layout—* r1c2의 경우 오른쪽 *맨 위* 및 *my-custom-layout—home* for r2c1 *노드를* 추가합니다.
 
    >[!NOTE]
    >이러한 사용자 정의 클래스는 css에서 반응형 그리드의 폭/높이를 설정하는 데 사용됩니다.
