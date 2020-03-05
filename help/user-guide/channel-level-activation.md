@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ## 개요 {#overview}
 
-***채널 수준 활성화를*** 사용하면 특정 설정 일정 후에 채널을 전환할 수 있습니다. 단일 이벤트 채널은 설정된 일정 후에 기본 채널을 대체하며 기본 채널이 해당 컨텐츠를 다시 재생할 때까지 특정 시간 동안 재생됩니다.
+***채널 수준 활성화를*** 사용하면 특정 예약 후 채널을 전환할 수 있습니다. 단일 이벤트 채널은 설정된 일정 후에 기본 채널을 대체하며 기본 채널이 해당 컨텐츠를 다시 재생할 때까지 특정 시간 동안 재생됩니다.
 
 다음 예에서는 다음 주요 용어에 초점을 맞춰 솔루션을 제공합니다.
 
