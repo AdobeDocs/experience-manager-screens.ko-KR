@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
 
@@ -49,17 +49,17 @@ AEM Screens 프로젝트를 설정하는 경우 조직에서 처음으로 모든
 
 | **속성** | **설명** |
 |---|---|
-| ***경로 {문자열*}** | 위치에 대한 리소스 경로 |
-| ***[./jcr:title]{string*}** | 사용할 템플릿의 이름(즉, *스크린/코어/템플릿/위치*&#x200B;위치) |
+| ***경로 {문자열&#x200B;*}** | 위치에 대한 리소스 경로 |
+| ***[./jcr:title]{string *}** | 사용할 템플릿의 이름(즉, *스크린/코어/템플릿/위치*&#x200B;위치) |
 | ***템플릿 {string}*** | 페이지에 사용할 선택적 제목 |
 | ***[./jcr:description]{string}*** | 페이지에 사용할 선택적 설명 |
 
 스프레드시트(CSV/XLS) 파일을 사용하려면 다음 열이 필요합니다.
 
-* **경로 {string}** 가져올 위치의 경로. 여기서 경로의 루트는 프로젝트의 위치 폴더(즉, */foo* 폴더를 */content/screens/&lt;프로젝트&gt;/locations/foo*)로 가져옵니다.
+* **경로 {string}** 가져올 위치의 경로. 여기서 경로의 루트는 프로젝트의 위치 폴더(즉, */foo* 폴더를 */content/screens/&lt;프로젝트>/locations/foo*)로 가져옵니다.
 
-* **템플릿 {string}** 새 위치에 사용할 템플릿입니다. 지금은 허용된 값만 "위치"이지만, 향후 모든 스크린 템플릿("표시", "시퀀스 채널 등)으로 확장됩니다.
-* [**./*] {string}** 위치에 설정할 선택적 속성(즉,/jcr:title, ./jcr:description, ./foo,/막대). 현재 릴리스에서는 현재 필터링이 허용되지 않습니다.
+* **템플릿 {string}** 새 위치에 사용할 템플릿입니다. 지금은 허용된 값만 &quot;위치&quot;이지만, 향후 모든 스크린 템플릿(&quot;표시&quot;, &quot;시퀀스 채널 등)으로 확장됩니다.
+* **[./*]{string}**위치에 설정할 선택적 속성(즉,/jcr:title, ./jcr:description, ./foo,/막대). 현재 릴리스에서는 현재 필터링이 허용되지 않습니다.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ AEM Screens 프로젝트를 설정하는 경우 조직에서 처음으로 모든
 >제한 사항:
 >
 >* CSV/XLS/XLSX 확장 이외의 파일은 현재 릴리스에서 지원되지 않습니다.
->* 가져온 파일과 "로 시작하는 모든 항목에 대한 속성 필터링이 없습니다./"를 가져옵니다.
+>* 가져온 파일과 &quot;로 시작하는 모든 항목에 대한 속성 필터링이 없습니다./&quot;를 가져옵니다.
 >
 
 
@@ -103,7 +103,7 @@ AEM Screens 프로젝트를 설정하는 경우 조직에서 처음으로 모든
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 사이드 바에서 프로젝트,* DemoProjectImporter **—&gt;** 만들기 **—&gt;** 위치 가져오기**를 선택합니다.
+1. 사이드 바에서 프로젝트,* DemoProjectImporter **—>** 만들기 **—>** 위치 가져오기**를 선택합니다.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
