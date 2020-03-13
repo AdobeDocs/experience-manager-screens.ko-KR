@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 AEM Screens에서 AEM 6.4.5 기능 팩 5 및 AEM 6.5.1 기능 팩 1에 대한 자세한 내용을 발표했습니다.
 
-## 릴리스 날짜 {#release-date}
+## Release Date {#release-date}
 
 AEM Screens 기능 팩 201907의 릴리스 날짜는 2019년 7월 31일입니다.
 
@@ -36,7 +36,7 @@ AEM Screens 기능 팩 201907의 릴리스 날짜는 2019년 7월 31일입니다
 
 구현은 [응급 채널](emergency-channel.md) 사용 사례를 참조하십시오.
 
-* **비동기 구성 요소(*예: 비디오, 포함된 시퀀스*) 타깃팅 활성화**
+* **비동기 구성 요소에 대해 타깃팅 활성화
 
 이제 AEM Screens 프로젝트에서 사용되는 자산에 대해 타깃팅을 활성화할 수 있습니다.
 
@@ -54,7 +54,7 @@ AEM Screens 프로젝트에 대해 ContextHub를 구성한 후 다른 사용 사
 
 이제 업데이트 핸들러는 경험 조각을 구문 분석하여 연결된 이미지, 비디오 또는 제품을 수집합니다.
 
-* **Launches**
+* **론치**
 
 론치를 사용하면 컨텐츠 작성자가 채널의 향후 버전을 만들 수 있습니다. 작성자는 론치의 도움으로 론치의 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있습니다. 승인자 그룹은 알림을 받게 되며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 컨텐츠가 장치에서 재생됩니다.
 자세한 내용은 [론치를](launches.md) 참조하십시오.
