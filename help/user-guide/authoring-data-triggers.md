@@ -3,7 +3,7 @@ title: 데이터 트리거를 사용하여 작성
 seo-title: 데이터 트리거를 사용하여 작성
 description: 데이터 트리거를 사용하여 작성하는 방법을 살펴보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 이 섹션에서는 채널에서 타깃팅을 활성화하는 방법을 설명합니다.
 
 >[!IMPORTANT]
-> AEM Screens 채널에서 데이터 트리거를 지원하는 최소 버전은 AEM 6.4.3 Feature Pack 3입니다.
+> AEM Screens 채널에서 데이터 트리거를 지원하는 최소 버전은 AEM 6.5.3 Feature Pack 3입니다.
 
 ## 전제 조건 {#prereqs}
 
@@ -56,7 +56,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. DataDrivenAssets 채널에서 **DataDrivenRetail** 을 **찾아** 선택하고 **작업** 표시줄에서 **[편집]을 클릭합니다** .
+1. DataDrivenAssets 채널에서 **DataDrivenRetail** 을 **찾아** 선택하고 **작업** 표시줄에서 **[편집]을 클릭합니다** . 채널 편집기에서 자산을 드래그하여 놓습니다.
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >채널에 대해 ContextHub 구성을 구성한 후에는 아래의 모든 사용 사례를 따르려면 다른 세 시퀀스 채널에 대해 1부터 4까지의 이전 단계를 따르십시오.
+1. 타깃팅을 **클릭합니다**.
+
+1. 드롭다운 **메뉴에서** 브랜드와 **활동을** 선택하고 타깃팅 **시작을**&#x200B;클릭합니다.
 
 ### 자세한 내용:사용 사례 예 {#learn-more-example-use-cases}
 
