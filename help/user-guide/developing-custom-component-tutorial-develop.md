@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 개요 {#overview}
 
-이 자습서는 AEM Screens를 처음 사용하는 개발자를 위한 것입니다. 이 자습서에서는 간단한 "Hello World" 구성 요소가 AEM Screens의 시퀀스 채널에 맞게 빌드됩니다. 작성자는 대화 상자를 사용하여 표시된 텍스트를 업데이트할 수 있습니다.
+이 자습서는 AEM Screens를 처음 사용하는 개발자를 위한 것입니다. 이 자습서에서는 간단한 &quot;Hello World&quot; 구성 요소가 AEM Screens의 시퀀스 채널에 맞게 빌드됩니다. 작성자는 대화 상자를 사용하여 표시된 텍스트를 업데이트할 수 있습니다.
 
 ![과소](assets/overviewhellow.png)
 
@@ -83,9 +83,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    * `/content/screens/we-retail-run`
    이 패키지에는 프로젝트에 필요한 시작 내용 및 구성 구조가 들어 있습니다. **`/conf/we-retail-run`** 에 We.Retail Run 프로젝트에 대한 모든 구성이 포함되어 있습니다. **`/content/dam/we-retail-run`** 에는 프로젝트의 디지털 자산 시작을 포함합니다. **`/content/screens/we-retail-run`** 스크린 컨텐츠 구조를 포함합니다. 이러한 모든 경로 아래의 컨텐츠는 주로 AEM에서 업데이트됩니다. 환경(로컬, 개발, 스테이지, 제품) 간의 일관성을 유지하기 위해 기본 컨텐츠 구조가 소스 제어에 저장되는 경우가 많습니다.
 
-1. **AEM Screens &gt; We.Retail 실행 프로젝트로 이동합니다.**
+1. **AEM Screens > We.Retail 실행 프로젝트로 이동합니다.**
 
-   AEM 시작 메뉴 &gt; 화면 아이콘을 클릭합니다. We.Retail 실행 프로젝트가 표시되는지 확인합니다.
+   AEM 시작 메뉴 > 화면 아이콘을 클릭합니다. We.Retail 실행 프로젝트가 표시되는지 확인합니다.
 
    ![we-real-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -399,7 +399,7 @@ We.Retail Run Design 페이지에 We.Retail Run 프로젝트에 관련된 모든
 
 Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요소를 테스트하려면 새 시퀀스 채널이 만들어집니다.
 
-1. AEM 시작 메뉴에서 화면 &gt; **We.** Retail **실행 &gt;**&#x200B;채널로 **이동하여 채널을 선택합니다**.
+1. AEM 시작 메뉴에서 화면 > **We.** Retail **실행 >**&#x200B;채널로 **이동하여 채널을 선택합니다**.
 
 1. 만들기 **단추** 클릭
 
@@ -408,11 +408,11 @@ Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요�
 
 1. 만들기 마법사에서:
 
-1. 템플릿 단계 - 선택** 시퀀스 채널**
+1. 템플릿 단계 - 시퀀스 **채널 선택**
 
    1. 속성 단계
-   * 기본 탭 &gt; 제목 = **유휴 채널**
-   * 채널 탭 &gt; **온라인으로 채널 만들기 선택**
+   * 기본 탭 > 제목 = **유휴 채널**
+   * 채널 탭 > **온라인으로 채널 만들기 선택**
    ![유휴 채널](assets/idle-channel.gif)
 
 1. 유휴 채널의 페이지 속성을 엽니다. 디자인 필드를 업데이트하여 이전 `/apps/settings/wcm/designs/we-retail-run,`섹션에서 만든 디자인 페이지를 가리킵니다.
@@ -440,11 +440,89 @@ Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요�
 
    /apps/settings/wcm/designs/we-retail-run에서 디자인 구성
 
+## 사용자 지정 핸들러용 템플릿 {#custom-handlers}
+
+아래 섹션에서는 사용자 정의 핸들러의 템플릿과 해당 특정 프로젝트에 대한 pom.xml의 최소 요구 사항을 설명합니다.
+
+```java
+   package …;
+
+   import javax.annotation.Nonnull;
+
+   import org.apache.felix.scr.annotations.Component;
+   import org.apache.felix.scr.annotations.Reference;
+   import org.apache.felix.scr.annotations.Service;
+   import org.apache.sling.api.resource.Resource;
+   import org.apache.sling.api.resource.ResourceUtil;
+   import org.apache.sling.api.resource.ValueMap;
+
+   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+
+   @Service(value = OfflineResourceHandler.class)
+   @Component(immediate = true)
+   public class MyCustomHandler extends AbstractResourceHandler 
+   {
+
+    @Reference
+    private …; // OSGi services injection
+
+    /**
+     * The resource types that are handled by the handler.
+     * @return the handled resource types
+     */
+    @Nonnull
+    @Override
+    public String[] getSupportedResourceTypes() {
+        return new String[] { … };
+   }
+
+    /**
+     * Accept the provided resource, visit and traverse it as needed.
+     * @param resource The resource to accept
+     */
+    @Override
+    public void accept(@Nonnull Resource resource) 
+      {
+        ValueMap properties = ResourceUtil.getValueMap(resource);
+        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
+        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
+        …
+        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
+        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
+        …
+      }
+   }
+```
+
+다음 코드는 해당 특정 프로젝트에 대한 pom.xml의 최소 요구 사항을 제공합니다.
+
+```css
+   <dependencies>
+        …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## 모든 작업 간소화 {#putting-it-all-together}
 
 아래 비디오에서는 완성된 구성 요소와 시퀀스 채널에 구성 요소를 추가하는 방법을 보여줍니다. 그런 다음 채널이 위치 디스플레이에 추가되고 궁극적으로 스크린 플레이어에 할당됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## 완료된 코드 {#finished-code}
 
