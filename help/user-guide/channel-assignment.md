@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 아래 절차에 따라 디스플레이에 채널을 지정하십시오.
 
-1. 필요한 디스플레이(예: DemoProject **—&gt; 위치** **—&gt; SanJose** —&gt; **StoreDisplay** ) ****&#x200B;로 이동합니다.
+1. 필요한 디스플레이(예: DemoProject **—> 위치** **—> SanJose** —> **StoreDisplay** ) ****&#x200B;로 이동합니다.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -78,19 +78,19 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    * **사용자 상호 작용**: 유휴 채널에서 화면(터치)에 사용자 상호 작용이 있으면 플레이어가 지정된 채널로 전화되고 화면을 터치하면 로드됩니다.
    **예약**:
 
-   일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. It also let's you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 일정 표현식 구문은 later.js의 텍스트 및 cron 구문을 기반으로 합니다.
+   일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 일정 표현식 구문은 later.js의 텍스트 및 cron 구문을 기반으로 합니다.
 
    * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
    * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
    **명소 도구 설명 표시**:
 
-   [명소 도구 설명 표시]는 채널이 실행될 때 명소 도구 설명("*시작하려면 아무 데나 터치하세요*")을 표시해야 할지 여부를 정의합니다.
+   [명소 도구 설명 표시]는 채널이 실행될 때 명소 도구 설명(&quot;*시작하려면 아무 데나 터치하세요*&quot;)을 표시해야 할지 여부를 정의합니다.
 
 1. **저장**&#x200B;을 클릭하여 생성된 채널을 디스플레이에 지정합니다.
 
 ### 방송 시간 분할 {#dayparting}
 
-Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 방송 시간 분할은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 말합니다. AEM Screens에서는 요구 사항에 따라 하루, 1주일 또는 1개월 내의 방송 시간 분할 관점에서 채널 일정을 예약할 수 있습니다.
 
@@ -148,7 +148,7 @@ Schedules when when combined with **Dayparting**, allows you to set a global sch
 
 >[!NOTE]
 >
->추가로, 각 채널에 대해 ***우선 순위**를 정의할 수 있습니다.* 예를 들어, 동일한 날짜 및 시간 또는 동일한 달에 대해 두 개의 채널이 설정되면 우선 순위가 높은 채널이 먼저 재생됩니다. 우선 순위의 최소값은 0으로 설정할 수 있습니다.
+>추가로, 각 채널에 대해 ***우선 순위***&#x200B;를 정의할 수 있습니다. 예를 들어, 동일한 날짜 및 시간 또는 동일한 달에 대해 두 개의 채널이 설정되면 우선 순위가 높은 채널이 먼저 재생됩니다. 우선 순위의 최소값은 0으로 설정할 수 있습니다.
 
 #### 우선 순위가 같은 채널의 컨텐츠 재생 {#playing-content-for-channels-with-same-priority}
 
