@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player를 설치하십시오.
 
-AEM 6. [**4 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
+AEM 6. [**4 Player 다운로드&#x200B;**](https://download.macromedia.com/screens/)페이지를 참조하십시오.
 
 ### 애드혹 메서드 {#ad-hoc-method}
 
-애드혹 방법을 사용하면 최신 Windows Player(*.exe*)를 설치할 수 있습니다. AEM [**6.4 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
+애드혹 방법을 사용하면 최신 Windows Player(*.exe*)를 설치할 수 있습니다. AEM [**6.4 Player 다운로드&#x200B;**](https://download.macromedia.com/screens/)페이지를 참조하십시오.
 
 애플리케이션을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
@@ -102,7 +102,7 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화해�
 
 1. 셸 실행 기능을 활성화합니다.
 
-   자세한 내용은 Microsoft ***Windows의 셸*** 시작 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** 페이지구성 지원을 참조하십시오.
+   자세한 내용은 Microsoft ***Windows의 셸*** 시작 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**페이지구성 지원을 참조하십시오.
 
 1. Kiosk에 사용할 관리자가 아닌 사용자(아직 없는 경우)를 만듭니다. 로컬 또는 도메인 사용자가 될 수 있습니다.
 1. AEM Screens 플레이어 다운로드 페이지에서 해당 키오스크 사용자의 [Windows 플레이어를](https://download.macromedia.com/screens/) 설치합니다.
@@ -119,7 +119,7 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화해�
 
 Windows 플레이어의 기본 설치 경로는 다음과 같습니다.
 
-***C:\Users\&amp;lt;your user&gt;\AppData\Local\Programs\@aem-screenscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screenscreens-player-electron\AEM Screens Player.exe***
 
 링크의 샘플 스크립트는 사용자 지정 셸을 활성화하고 비활성화합니다. 따라서 스크립트를 두 개로 분할하고 아래 해당 줄을 활성화/비활성화해야 할 수 있습니다.
 
