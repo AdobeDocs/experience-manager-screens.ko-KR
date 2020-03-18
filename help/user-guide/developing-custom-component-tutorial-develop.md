@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
+source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
 
@@ -442,59 +442,76 @@ Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요�
 
 ## 사용자 지정 핸들러용 템플릿 {#custom-handlers}
 
-아래 섹션에서는 사용자 정의 핸들러의 템플릿과 해당 특정 프로젝트에 대한 pom.xml의 최소 요구 사항을 보여줍니다.
+사용자 지정 구성 요소가 자산(이미지, 비디오, 글꼴, 아이콘 등), 특정 에셋 표현물 또는 클라이언트측 라이브러리(css, js 등)와 같은 외부 리소스를 사용하는 경우, 기본적으로 HTML 마크업을 번들하므로 이러한 리소스가 오프라인 구성에 자동으로 추가되지 않습니다.
+
+플레이어에 다운로드된 정확한 자산을 사용자 정의하고 최적화할 수 있도록 Adobe는 사용자 지정 구성 요소가 스크린의 오프라인 캐싱 로직에 종속성을 노출할 수 있는 확장 메커니즘을 제공합니다.
+
+아래 섹션에서는 사용자 정의 오프라인 리소스 핸들러에 대한 템플릿과 해당 특정 프로젝트에 대한 최소 요구 사항을 `pom.xml` 보여줍니다.
 
 ```java
-   package …;
+package …;
 
-   import javax.annotation.Nonnull;
+import javax.annotation.Nonnull;
 
-   import org.apache.felix.scr.annotations.Component;
-   import org.apache.felix.scr.annotations.Reference;
-   import org.apache.felix.scr.annotations.Service;
-   import org.apache.sling.api.resource.Resource;
-   import org.apache.sling.api.resource.ResourceUtil;
-   import org.apache.sling.api.resource.ValueMap;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
+import org.apache.sling.api.resource.ValueMap;
 
-   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+import com.adobe.cq.screens.visitor.OfflineResourceHandler;
 
-   @Service(value = OfflineResourceHandler.class)
-   @Component(immediate = true)
-   public class MyCustomHandler extends AbstractResourceHandler 
-   {
+@Service(value = OfflineResourceHandler.class)
+@Component(immediate = true)
+public class MyCustomHandler extends AbstractResourceHandler {
 
-    @Reference
-    private …; // OSGi services injection
+ @Reference
+ private …; // OSGi services injection
 
-    /**
-     * The resource types that are handled by the handler.
-     * @return the handled resource types
-     */
-    @Nonnull
-    @Override
-    public String[] getSupportedResourceTypes() {
-        return new String[] { … };
+ /**
+  * The resource types that are handled by the handler.
+  * @return the handled resource types
+  */
+ @Nonnull
+ @Override
+ public String[] getSupportedResourceTypes() {
+     return new String[] { … };
+ }
+
+ /**
+  * Accept the provided resource, visit and traverse it as needed.
+  * @param resource The resource to accept
+  */
+ @Override
+ public void accept(@Nonnull Resource resource) {
+     ValueMap properties = ResourceUtil.getValueMap(resource);
+     
+     /* You can directly add explicit paths for offline caching using the `visit`
+        method of the visitor. */
+     
+     // retrieve a custom property from the component
+     String myCustomRenditionUrl = properties.get("myCustomRenditionUrl", String.class);
+     // adding that exact asset/rendition/path to the offline manifest
+     this.visitor.visit(myCustomRenditionUrl);
+     
+     
+     /* You can delegate handling for dependent resources so they are also added to
+        the offline cache using the `accept` method of the visitor. */
+     
+     // retrieve a referenced dependent resource
+     String referencedResourcePath = properties.get("myOtherResource", String.class);
+     ResourceResolver resolver = resource.getResourceResolver();
+     Resource referencedResource = resolver.getResource(referencedResourcePath);
+     // let the handler for that resource handle it
+     if (referencedResource != null) {
+         this.visitor.accept(referencedResource);
+     }
    }
-
-    /**
-     * Accept the provided resource, visit and traverse it as needed.
-     * @param resource The resource to accept
-     */
-    @Override
-    public void accept(@Nonnull Resource resource) 
-      {
-        ValueMap properties = ResourceUtil.getValueMap(resource);
-        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
-        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
-        …
-        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
-        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
-        …
-      }
-   }
+}
 ```
 
-다음 코드는 해당 특정 프로젝트에 대한 pom.xml의 최소 요구 사항을 제공합니다.
+다음 코드는 해당 특정 프로젝트에 대한 최소 요구 사항을 `pom.xml` 제공합니다.
 
 ```css
    <dependencies>
