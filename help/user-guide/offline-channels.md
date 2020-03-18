@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -39,7 +39,7 @@ ContentSync ***는*** 업데이트 핸들러를 사용하여 특정 프로젝트
 ### 일반 옵션 {#common-options}
 
 * *유형*:사용할 업데이트 처리기 유형
-* *경로*:리소스의 경로
+* *경로*:리소스 경로
 * *[targetRootDirectory]*:zip 파일의 대상 폴더
 
 <table>
@@ -93,7 +93,7 @@ ContentSync ***는*** 업데이트 핸들러를 사용하여 특정 프로젝트
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **채널 대시보드로 이동하고**..를 **사용하여** 속성을 변경합니다.
+1. 채널 대시보드로 이동하고 **..** 를 **사용하여** 속성을 변경합니다.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,4 +111,7 @@ ContentSync ***는*** 업데이트 핸들러를 사용하여 특정 프로젝트
 
 1. 채널 컨텐츠를 검사하고 로컬 플레이어 캐시에서 요청되었는지 확인합니다.
 
-   ![chlimage_1-26](assets/chlima
+   ![chlimage_1-26](assets/chlimage_1-26.png)
+
+>[!NOTE]
+> 사용자 지정 오프라인 리소스 핸들러에 대한 템플릿과 해당 특정 프로젝트에 대한 최소 요구 사항에 대한 자세한 내용은 AEM Screens용 사용자 `pom.xml` 지정 구성 요소 [개발의](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 사용자 지정 핸들러에 대한 템플릿을 참조하십시오 ****.
