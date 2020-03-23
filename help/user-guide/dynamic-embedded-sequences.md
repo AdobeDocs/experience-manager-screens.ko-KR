@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -56,7 +56,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 >[!NOTE]
 >
->To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)** under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)**under Authoring section in AEM Screens documentation.
 
 ## 동적 포함된 시퀀스 사용 {#using-dynamic-embedded-sequence-2}
 
@@ -121,13 +121,13 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
 1. **각 위치 폴더 아래에 두 개의 위치 및 채널을 만듭니다.**
 
-   1. 데모 **—&gt; 위치** —&gt; **영역** A로 **이동합니다**.
+   1. 데모 **—> 위치** —> **영역** A로 **이동합니다**.
    1. 영역 **A를** 선택하고 작업 표시줄에서 **+ 만들기를** 클릭합니다.
    1. 마법사에서 **위치** (제목)를 **스토어** **1로**&#x200B;선택합니다. 유사하게, Store 2라는 제목의 마법사에서 Title **을** Store **2****라는**&#x200B;다른 위치를만듭니다. Store 1 및 Store **2** 를 만드는 동안 이름 **필드를 비워** 둘 **수**&#x200B;있습니다.
    1. 단계(b)를 반복하고 이제 **마법사에서** 시퀀스 채널을 선택합니다. 이 채널에 **대해** **제목을** 영역 **A** 및이름을 **region **으로 입력합니다.
    >[!CAUTION]
    >
-   >채널 영역 A를 만들 **때 제목을****Region A ** **와** Name을 **** region **으로**&#x200B;입력하십시오.
+   >채널 영역 A를 **만드는**&#x200B;동안 **A로** 채널 **영역을** 입력하고 **NameArea** 를 RegionEither로 ****&#x200B;입력하십시오.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -141,7 +141,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
 1. **각 위치에서 디스플레이 및 채널 만들기를 참조하십시오.**
 
-   1. 데모 **—&gt; 위치** —&gt; **위치** 영역 **A** — **스토어** 1로이동합니다.
+   1. 데모 **—> 위치** —> **위치** 영역 **A** — **스토어** 1로이동합니다.
    1. 스토어 **1을** 선택하고 작업 **표시줄에서** + 만들기를 클릭합니다.
    1. 마법사에서 **표시를** 선택하고 Store1Display **를 만듭니다.**
    1. 단계(b)를 반복하고 이번에는 **마법사에서** 시퀀스 채널을 선택합니다. 제목으로 **Store** 1Channel **을** 입력하고 **이름을** Store ****&#x200B;로입력합니다.
@@ -149,11 +149,11 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
    >
    >시퀀스 채널을 만들 때는 **채널의 제목을** 요구 사항으로 지정할 수 있지만 **이름은** 모든 로컬 채널에서 동일해야 합니다.
    >
-   >이 예에서는 A와 B **** 라는 ******아래에** 있는 **동일한** A **및 B******&#x200B;영역 및 1 **채널 아래Store 1**&#x200B;영역, Store 2, Store 2 **, Store 3, Store 3, Store 및 Store Same Store ShareStore스토어 이름이 Store와** **** ****&#x200B;같은 채널입니다.
+   >이 예에서는 A와 B **** 라는 ******아래에** 있는 **동일한** A **및 B******&#x200B;영역 및 1 **채널 아래Store 1**&#x200B;영역, Store 2, Store 2 **, Store 3, Store 3 및 Store ShareStoreStore 같은** 채널 및 BStore과 동일한Store **** ****&#x200B;을 브랜드에 있는 채널들이 있습니다.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   마찬가지로, 디스플레이를 Store2Display로 **만들고** * Store **2**(** 스토어 **이름 포함)에서** channel Store2Channel을 만듭니다.
+   마찬가지로 Store2Display로 **표시하고** Store **2** 에서 **채널 Store** 2Channel **을**&#x200B;만듭니다(이름이storeDisplay로 표시됨).
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
 1. **각 위치의 채널에 컨텐츠를 추가합니다.**
 
-   데모 위치 **-&gt;** 위치 **A** -&gt; **영역** A **&gt; 클릭 영역** A와 클릭Edit 작업 표시줄에서 Edit **** 로 이동합니다. 채널에 추가할 자산을 드래그하여 놓습니다.
+   데모 위치 **->** 위치 **A** -> **영역** A **> 클릭 영역** A와 클릭Edit 작업 표시줄에서 Edit **** 로 이동합니다. 채널에 추가할 자산을 드래그하여 놓습니다.
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   마찬가지로 **데모** -&gt; **위치** -&gt; **영역 B -&gt;** 영역 B **와 클릭 작업 표시줄에서 편집** **** 및 삭제 작업 표시줄로 이동하여 자산을 채널에 끌어 놓습니다. 아래 표시된 대로
+   마찬가지로 **데모** -> **위치** -> **영역 B ->** 영역 B **와 클릭 작업 표시줄에서 편집** **** 및 삭제 작업 표시줄로 이동하여 자산을 채널에 끌어 놓습니다. 아래 표시된 대로
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -202,10 +202,10 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
 1. **일정에 채널 지정**
 
-   1. 데모 **—&gt; 일정** —&gt; **광고** 예약 **대시보드로 이동하고 작업** 표시줄에서 **** 대시보드를 클릭합니다.
+   1. 데모 **—> 일정** —> **광고** 예약 **대시보드로 이동하고 작업** 표시줄에서 **** 대시보드를 클릭합니다.
    1. 지정된 채널에서 **+ 채널** **할당** 패널을 클릭하여 채널 **할당** 대화상자를엽니다.
    1. Select **Reference Channel**.. by path.
-   1. 채널 경로를 **데모** * —&gt; **채널**—&gt; ***글로벌*** ***으로***&#x200B;선택합니다.
+   1. 채널 경로를 **데모** —> **채널** —> ***글로벌*** ***으로***&#x200B;선택합니다.
    1. Enter the **Channel Role** as **GlobalAdSegment**.
    1. 지원되는 **이벤트를 초기 로드** , **유휴**&#x200B;화면 **,**&#x200B;사용자 상호 작용 및 **사용자 상호 작용으로**&#x200B;선택합니다.
    1. **저장**&#x200B;을 클릭합니다.
@@ -216,7 +216,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
    1. 채널 **이름을** **영역으로**&#x200B;입력합니다.*
    1. Enter the **Channel Role** as **RegionAdSegment**.
    1. **저장**&#x200B;을 클릭합니다.
-   **스토어에 대한 역할별 채널 지정:**
+   **스토어에 대한 역할별 채널 지정:
 
    1. 지정된 채널에서 **+ 채널** **할당** 패널을 클릭하여 채널 **할당** 대화상자를엽니다.
    1. 참조 **채널**&#x200B;선택... 이름 기준.
@@ -245,10 +245,10 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
 1. **각 디스플레이에 스케줄 지정**
 
-   1. 데모 **—&gt;** 위치 **—&gt;** 위치 **—&gt;** A **—&gt;Store 1****—&gt;** Store1Display각 표시로 이동합니다.
+   1. 데모 **—>** 위치 **—>** 위치 **—>** A **—>Store 1****—>** Store1Display각 표시로 이동합니다.
    1. Click **Dashboard** from the action to open the display dashboard.
-   1. **클릭**&#x200B;중...지정된 **채널 및 예약** 패널에서 을 클릭하고 **+예약 할당을 클릭합니다**.
-   1. 예약 경로를 선택합니다(예: 여기, 데모 **—&gt; 일정** **—&gt;** AdSchedule ****).
+   1. 클릭 **중...** 지정된 **채널 및 예약** 패널에서 을 클릭하고 **+예약 할당을 클릭합니다**.
+   1. 예약 경로를 선택합니다(예: 여기, 데모 **—> 일정** **—>** AdSchedule ****).
    1. **저장**&#x200B;을 클릭합니다.
 
 ## 결과 보기 {#viewing-the-results}
@@ -268,13 +268,13 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
 **시나리오 1**:
 
-표시 경로를 데모 **—&gt; 위치** —&gt; **영역 A** —&gt;* Store **1*** —&gt;****Store1Display**&#x200B;로 지정하면 다음 컨텐츠가 AEM Screens 플레이어에 표시됩니다.
+표시 경로를 데모 **—> 위치** —> **영역 A** —>* Store **1*** —>****Store1Display**&#x200B;로 지정하면 다음 컨텐츠가 AEM Screens 플레이어에 표시됩니다.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **시나리오 1**:
 
-표시 경로를 데모 —&gt; 위치 **B** —&gt; **영역 B** —&gt;* Store 3** —&gt; Store **3Display** ****&#x200B;로 지정하면 다음 컨텐츠가 AEM Screens 플레이어에 표시됩니다.
+표시 경로를 데모 **—>** 위치 **—>** 영역 **—>** 영역 **—> 스토어 3** B **** Store 3DisplayFollowing 컨텐츠가 AEM Screens 플레이어에 표시됩니다.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -309,7 +309,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 1. **그룹 만들기**
 
    1. Adobe Experience **Manager로 이동합니다**.
-   1. 도구 **—&gt; 보안** **—&gt; 그룹을** **클릭합니다**.
+   1. 도구 **—> 보안** **—> 그룹을** **클릭합니다**.
    1. 그룹 **만들기를** 클릭하고 **ID에 글로벌** 작성자를 **입력합니다**.
    1. 저장 **및 닫기를 클릭합니다**.
    마찬가지로, 지역 작성자 및 **스토어** 작성자와 같은 다른 두 개의 그룹을 **만듭니다**.
@@ -319,7 +319,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 1. **사용자 만들기 및 그룹에 사용자 추가**
 
    1. Adobe Experience **Manager로 이동합니다**.
-   1. 도구 **—&gt; 보안** —&gt; **사용자** 를 **클릭합니다**.
+   1. 도구 **—> 보안** —> **사용자** 를 **클릭합니다**.
    1. 사용자 **만들기를** 클릭하고 **ID에 전역** 사용자를 **입력합니다**.
    1. 암호를 **입력하고** 이 사용자의 암호를 확인합니다.
    1. 그룹 **탭을 클릭하고** 그룹 **선택**&#x200B;에 그룹 이름을 입력합니다 **. 예를 들어,** 전역 작성자를 **입력하여 해당** 그룹에 글로벌사용자를추가합니다.
@@ -335,7 +335,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 1. **모든 그룹을 작성자에게 추가**
 
    1. Adobe Experience **Manager로 이동합니다**.
-   1. 도구 **—&gt; 보안** **—&gt; 그룹을** **클릭합니다**.
+   1. 도구 **—> 보안** **—> 그룹을** **클릭합니다**.
    1. 목록에서 **기여자를** 선택하고 멤버 **탭을** 선택합니다.
    1. 글로벌 **작성자** , **지역**&#x200B;작성자 **및** 스토어-작성자와 작성자와 같은 **그룹을** 선택합니다.
    1. 저장 **및 닫기를 클릭합니다**.
@@ -365,9 +365,9 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
    **지역 작성자:**
 
    1. Navigate to the **Permissions** tab.
-   1. /content/screens/demo ***로*** 이동하고** 읽기* 권한만 확인합니다.
+   1. /content/screens/demo로 ***이동하고 읽기*** 권한만 **확인합니다** .
    1. /content/screens/demo/locations ***로*** 이동하고 읽기 **권한만 확인합니다** .
-   1. ****/content/screens/demo/channels로 ***이동하고 글로벌 채널에 대한 권한**확인을&#x200B;**취소합니다.***
+   1. ****/content/screens/demo/channels로 ***이동하고 글로벌 채널에 대한 권한&#x200B;**확인을**취소합니다.***
    1. /content/screens/demo/locations ***/*** region-a로&#x200B;****** 이동하여 모든 권한을 확인합니다. 마찬가지로 **region-b**&#x200B;권한을 확인합니다.
    단계를 이해하려면 아래 그림을 참조하십시오.
 
@@ -380,7 +380,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
    **스토어 작성자:**
 
    1. Navigate to the **Permissions** tab.
-   1. /content/screens/demo ***로*** 이동하고 읽기 **권한만 확인합니다** .
+   1. /content/screens/demo로 ***이동하고 읽기*** 권한만 **확인합니다** .
    1. /content/screens/demo/locations ***로*** 이동하고 읽기 **권한만 확인합니다** .
    1. /content/screens/demo/channels ***로*** 이동하고 글로벌 채널에 대한 권한을 **선택 취소합니다** .
    1. /content/screens/demo/locations/region-a로 ***이동하고*** 읽기 **권한만 확인합니다** . 마찬가지로 **region-b** 에 대한 읽기 **권한만 확인합니다**.
@@ -389,7 +389,7 @@ AEM Screens 프로젝트에서 동적 포함된 시퀀스 구현에는 다음 �
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   다음 이미지는 Store- **User** 가 **Store 1**, 2 **, 3 Store, 4** Store, 즉 Store 4 Store ******** **** ****&#x200B;에 액세스할 수 있는 4개의 Store에만 액세스할 수 있음을 보여줍니다. 즉, Store는 Global Store 또는 Global Store에 액세스할 수 있는 권한이 없지만 (**A **A **BGlobal Store에는 액세스할 수 있는 권한이 없습니다.
+   다음 이미지는 **이제** User가 **The** 2 ****, 3, Store 3, And 4Store에 **대한 액세스 권한만 가지지만, 즉 4개의 StoreStore**&#x200B;에 대한 네 개의 Store는 Also AccessStore **** ******** ****&#x200B;에 액세스할 수 없지만, Also Access to access to the permissions (Access A A A A Global Store and B RegionVertisionAlityAlegeArea) Alege AlegeAlityAlity는 Aleas AlityAlityAlsoAlityArea).
 
    ![스토어](assets/store.gif)
 
