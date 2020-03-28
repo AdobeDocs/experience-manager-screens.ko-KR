@@ -3,8 +3,8 @@ title: 이 안내서 정보
 seo-title: 안내서에 대한 설명
 description: 이 페이지에서는 모범 사례 안내서의 의도를 설명합니다.
 seo-description: 이 페이지에서는 모범 사례 안내서의 의도를 설명합니다.
-translation-type: ht
-source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
+translation-type: tm+mt
+source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
 
