@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -64,12 +64,16 @@ AEM Screens를 사용하여 디지털 서명 프로젝트 작업을 시작하기
 
 Adobe Experience Manager 6.5에 대한 자세한 내용은 다음 자습서와 리소스를 참조하십시오.
 
-* **** Adobe Experience Manager 시작하기:Adobe Experience Manager에 대한 시작 기사 및 비디오 자습서를 살펴보십시오.
+* **Adobe Experience Manager 시작하기:** Adobe Experience Manager에 대한 시작 기사 및 비디오 자습서를 살펴보십시오.
 * **AEM 6.5 자습서 및 비디오**:AEM 6.5 릴리스를 통해 AEM Sites, Assets, Forms, Screens 및 Foundation에 대한 새로운 기능과 업데이트된 기능을 모두 강조하는 자습서 및 비디오 모음입니다.
 * **AEM 코어 개념**:AEM이 구조화된 방법과 JCR, Sling, OSGi, 발송자, 워크플로우 및 MSM에 대한 이해를 포함하여 AEM을 기반으로 개발하는 방법에 대한 핵심 개념에 대한 개요입니다.
 
-### 가이드 구현 필수 {#guided-implementation-essentials}
+## 추가 리소스 {#additional-resources}
 
-AEM Screens에서 **[지원되는 고급 기능은](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**&#x200B;물론 기본 기능을 다루는 가이드 학습 경로를 따르십시오.
+* **가이드 구현 필수**
 
-새 프로젝트를 만드는 동안 조직 및 비즈니스 요구 사항에 따라 서로 다른 기능이 겹칠 수 있습니다.
+   AEM Screens에서 **[지원되는 고급 기능은](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**물론 기본 기능을 다루는 가이드 학습 경로를 따르십시오.
+
+* **AEM Screens 프로젝트에 대한 모범 사례 안내서**
+
+   AEM **[Screens 프로젝트를](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**구현하는 동안 일반적인 함정을 식별하기 위해 고안된 AEM Screens 프로젝트에 대한 우수 사례 가이드를 따르십시오. 이 자료는 주로 프로젝트 역할 및 책임, 다른 역할에 대한 RACI 차트 AEM 플랫폼 구성, 지원 및 모니터링에 중점을 둡니다.
