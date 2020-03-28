@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 >
 >자세한 내용은 Google 설명서의 [API 키](https://developers.google.com/maps/documentation/javascript/get-api-key) 가져오기를 참조하십시오.
 
+
 ## 1단계:데이터 저장소 설정 {#step-setting-up-a-data-store}
 
 데이터 저장소를 로컬 입출력 이벤트나 로컬 데이터베이스 이벤트로 설정할 수 있습니다.
 
-### 로컬 I/O 이벤트 {#local-io-event}
+다음 자산 수준 데이터 트리거 예는 ContextHub 구성 및 AEM Screens 채널에 대한 세그먼트 경로를 사용할 수 있는 Excel 시트와 같은 데이터 저장소를 설정하는 로컬 데이터베이스 이벤트를 보여줍니다.
 
-아래 절차에 따라 ContextHub 구성 및 AEM Screens 채널에 대한 세그먼트 경로를 사용할 수 있는 ASCII 이벤트와 같은 데이터 저장소를 설정하십시오.
+아래와 같이 google 시트를 올바르게 설정했으면:
 
-### 로컬 데이터베이스 이벤트 {#local-db-event}
+![이미지](/help/user-guide/assets/context-hub/context-hub1.png)
 
-아래 절차에 따라 ContextHub 구성 및 AEM Screens 채널에 대한 세그먼트 경로를 사용할 수 있는 Excel 시트와 같은 데이터 저장소를 설정하십시오.
+다음 유효성 검사는 아래의 형식으로 google 시트 ID 및 API 키를 입력하여 연결을 확인할 때 확인할 것입니다.
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![이미지](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**AEM에서 Google 시트 값 사용&#x200B;**>Google Sheets는 ContextHub Store에 해당 값을 노출하며, 여기에서 사용할 수 있습니다.`<store-name>/values/<i>/<j>`여기서`<i>`및`<j>`은 스프레드시트의 행 및 열 인덱스(0부터 시작)입니다.
+>
+> * /values/0/0 포인트 to A1
+> * /values/5/0 포인트 to A5
+> * /values/0/5포인트 to E1
+
+
+아래 특정 예제는 값이 100보다 크거나 50보다 작으면 자산 변경을 트리거하는 데이터 저장소로서 Excel 시트를 보여줍니다.
+
 
 1. **ContextHub로 이동**
 
@@ -72,7 +89,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
    1. 만들기 **> 구성** **컨테이너를** 클릭하고 제목을 ContextHubDemo로 **입력합니다**.
 
-   1. **** ContextHubDemo ****> ContentHub **** Store 구성...를 클릭하여 구성 **마법사를**&#x200B;엽니다.
+   1. **ContextHubDemo** **> ContentHub** **Store 구성...** 를 클릭하여 구성 **마법사를**&#x200B;엽니다.
 
    1. Google **Sheets** , Google **Sheets**, Google Sheets **Google Sheets** 형식으로 Google Store 이름을 ******** **입력합니다.Contexthub Generic-jsonp**
 
@@ -85,14 +102,14 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
    >코드를 Google Sheets *를* 설정하는 동안 가져온 *&lt;Sheet ID>*&#x200B;및&lt;API Key>(으)로 바꿉니다.
 
    >[!CAUTION]
-   Google Sheets 저장소 구성을 기존 폴더 외부에 만드는 경우(예: 자체 프로젝트 폴더) 타깃팅이 제대로 작동하지 않습니다.
-   Google Sheets 저장소 구성을 전역 레거시 폴더 밖으로 구성하려는 경우 스토어 이름을 **세그멘테이션** 및 **스토어** 유형으로 **** aem.segmentation ****&#x200B;저장소 유형을설정해야합니다. 또한 위에서 정의한 대로 json을 정의하는 프로세스를 건너뛸 수 있습니다.
+   Google Sheets 저장소 구성을 전역 폴더 외부에 만드는 경우(예: 자체 프로젝트 폴더) 타깃팅이 제대로 작동하지 않습니다.
+   Google Sheets 스토어 구성을 전역 폴더 밖에서 구성하려면 스토어 이름을 **세그멘테이션** 및 **스토어 유형으로** 설정해야 ******합니다**. 이는aem.segmentation. 또한 위에서 정의한 대로 json을 정의하는 프로세스를 건너뛸 수 있습니다.
 
 1. **활동에서 브랜드 만들기**
 
@@ -141,7 +158,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
 1. **대상에서 세그먼트 만들기**
 
-   1. AEM 인스턴스에서 개인화 > **대상** > **We** . **Retail로**&#x200B;이동합니다.
+   1. AEM 인스턴스에서 개인화 > **대상** **>** 화면으로 **이동합니다**.
 
    1. 만들기 **>** 컨텍스트 **허브 세그먼트 만들기를 클릭합니다.** 새 **ContextHub 세그먼트** 대화 상자가 열립니다.
 
@@ -149,7 +166,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
 1. **세그먼트 편집**
 
-   1. 세그먼트 **시트 A1** (단계(5)에서 생성)을 선택하고 작업 **표시줄에서 편집을** 클릭합니다.
+   1. 세그먼트 시트 A1 **1을**&#x200B;선택하고 작업 **표시줄에서 편집을** 클릭합니다.
 
    1. 비교를 드래그하여 **놓습니다.속성 - 편집기에** 대한 값 구성 요소입니다.
    1. 렌치 아이콘을 클릭하여 속성과 값 **비교** 대화 상자를 엽니다.
@@ -172,8 +189,9 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
    1. 드롭다운 **메뉴에서** **등호** 연산자를 선택합니다.
 
    1. 값을 **2** 로 **입력합니다**.
-   >[!NOTE]
-   이전 단계에 적용된 규칙은 다음 사용 사례를 구현하기 위해 세그먼트를 설정하는 방법의 한 예입니다.
+
+
+
 
 ## 3단계:채널에서 타깃팅 활성화 {#step-enabling-targeting-in-channels}
 
