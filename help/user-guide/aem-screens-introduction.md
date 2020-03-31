@@ -76,4 +76,4 @@ Adobe Experience Manager 6.5에 대한 자세한 내용은 다음 자습서와 �
 
 * **AEM Screens 프로젝트에 대한 모범 사례 안내서**
 
-   AEM [Screens 프로젝트를](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) 구현하는 동안 일반적인 함정을 식별하기 위해 고안된 AEM Screens 프로젝트에 대한 우수 사례 가이드를 따르십시오. 이 자료는 주로 프로젝트 역할 및 책임, 다른 역할에 대한 RACI 차트 AEM 플랫폼 구성, 지원 및 모니터링에 중점을 둡니다.
+   AEM **[Screens 프로젝트를](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**구현하는 동안 일반적인 함정을 식별하기 위해 고안된 AEM Screens 프로젝트에 대한 우수 사례 가이드를 따르십시오. 이 자료는 주로 프로젝트 역할 및 책임, 다른 역할에 대한 RACI 차트 AEM 플랫폼 구성, 지원 및 모니터링에 중점을 둡니다.
