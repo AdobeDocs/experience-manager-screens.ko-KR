@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -32,7 +32,7 @@ AEM Screens 프로젝트에서 인벤토리 기반 채널을 만들고 관리하
 
 **대상규칙을** 정의합니다.
 
-**세그먼트** 해당 규칙에 대해 재생할 자산 버전을 나타냅니다. 예를 들어 기온이 화씨 50도 미만인 경우 화면에 뜨거운 커피 이미지가 표시되고, 그렇지 않으면 차가운 음료가 표시됩니다.
+**세그먼트** 해당 규칙에 대해 재생할 자산 버전을 나타냅니다. 예를 들어 기온이 화씨 50도 미만인 경우 화면에 따뜻한 커피 이미지가 표시되고, 그렇지 않으면 차가운 음료가 표시됩니다.
 
 다음 다이어그램은 ContextHub 구성이 활동, 대상 및 채널과 어떻게 일치하는지 시각적으로 보여줍니다.
 
@@ -59,70 +59,71 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
 ![이미지](/help/user-guide/assets/context-hub/context-hub1.png)
 
-다음 유효성 검사는 아래의 형식으로 google 시트 ID 및 API 키를 입력하여 연결을 확인할 때 확인할 것입니다.
+다음 확인은 아래의 형식으로 두 개의 값, *google 시트 ID 및 API 키를* 입력하여 연결을 확인할 때 *확인할* 것입니다.
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![이미지](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**AEM에서 Google 시트 값 사용&#x200B;**>Google Sheets는 ContextHub Store에 해당 값을 노출하며, 여기에서 사용할 수 있습니다.`<store-name>/values/<i>/<j>`여기서`<i>`및`<j>`은 스프레드시트의 행 및 열 인덱스(0부터 시작)입니다.
->
-> * /values/0/0 포인트 to A1
-> * /values/5/0 포인트 to A5
-> * /values/0/5포인트 to E1
+> 아래 특정 예제는 값이 100보다 크거나 50보다 작으면 자산 변경을 트리거하는 데이터 저장소로서 google 시트를 보여줍니다.
 
-
-아래 특정 예제는 값이 100보다 크거나 50보다 작으면 자산 변경을 트리거하는 데이터 저장소로서 Excel 시트를 보여줍니다.
-
+## 2단계:AEM 인스턴스에 Google 시트 연결 {#step-connecting-aem-instance}
 
 1. **ContextHub로 이동**
 
    AEM 인스턴스로 이동하고 왼쪽 사이드바에서 도구 아이콘을 클릭합니다. 아래 **그림과** 같이 사이트 **—>** ContextHub를클릭합니다.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![이미지](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **새 ContextHub 저장소 구성 만들기**
 
-   1. 전역 **>** 기본값 **>** ContextHub 구성으로 **이동합니다**.
+   1. Navigate to the configuration container titled as **screens**.
 
-   1. 만들기 **> 구성** **컨테이너를** 클릭하고 제목을 ContextHubDemo로 **입력합니다**.
+   1. 만들기 **> 구성** **컨테이너 만들기를** 클릭하고 제목을 ContextHubDemo **로 입력합니다**.
 
-   1. **ContextHubDemo** **> ContentHub** **Store 구성...** 를 클릭하여 구성 **마법사를**&#x200B;엽니다.
+      ![이미지](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. Google **Sheets** , Google **Sheets**, Google Sheets **Google Sheets** 형식으로 Google Store 이름을 ******** **입력합니다.Contexthub Generic-jsonp**
+   1. **ContextHubDemo** Demo **> Create** ContentHub **구성** 만들기 **** ****&#x200B;및 클릭으로 Save를 클릭합니다.
 
-   1. **다음**&#x200B;을 클릭합니다
-   1. 특정 json 구성을 입력합니다. 예를 들어 데모 목적으로 다음 json을 사용할 수 있습니다.
-   1. **저장**&#x200B;을 클릭합니다.
+      >[!NOTE]
+      > 저장을 **클릭하면** ContextHub 구성 **화면에 표시됩니다** .
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. ContextHub **구성** 화면에서 만들기 > **ContentHub** 저장소 **구성..을 클릭합니다.**
+
+      ![이미지](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. Title을 **Google****** Store **Name** 으로 입력합니다 **.** Store Name은 **Goocites** **** ****Glades 및 Store TypeContexthubGeneric-jthub.p일반 SonyP와 Google NextClick로 입력합니다.
+      ![이미지](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. 특정 json 구성을 입력합니다. 예를 들어 데모 목적으로 다음 json을 사용하고 저장을 클릭하면 **ContextHub** 구성에서 Google Sheets **라는** 스토어 구성이표시됩니다.
+
+      >[!IMPORTANT]
+      >Google Sheets를 설정하는 동안 가져온 코드를 *&lt;Sheet ID>* **&#x200B;및&lt;API Key>(으)로 바꾸십시오.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >위의 샘플 코드에서 pollInterval **은** 값이 새로 고쳐지는 빈도(ms)를 정의합니다.
-   >
-   >
-   >코드를 Google Sheets *를* 설정하는 동안 가져온 *&lt;Sheet ID>*&#x200B;및&lt;API Key>(으)로 바꿉니다.
+      >[!NOTE]
+      위의 샘플 코드에서 pollInterval **은** 값이 새로 고쳐지는 빈도(ms)를 정의합니다.
+코드를 Google Sheets *를* 설정하는 동안 가져온 *&lt;Sheet ID>*&#x200B;및&lt;API Key>(으)로 바꿉니다.
 
-   >[!CAUTION]
-   Google Sheets 저장소 구성을 전역 폴더 외부에 만드는 경우(예: 자체 프로젝트 폴더) 타깃팅이 제대로 작동하지 않습니다.
-   Google Sheets 스토어 구성을 전역 폴더 밖에서 구성하려면 스토어 이름을 **세그멘테이션** 및 **스토어 유형으로** 설정해야 ******합니다**. 이는aem.segmentation. 또한 위에서 정의한 대로 json을 정의하는 프로세스를 건너뛸 수 있습니다.
+      >[!CAUTION]
+      Google Sheets 저장소 구성을 전역 폴더 외부에 만드는 경우(예: 자체 프로젝트 폴더) 타깃팅이 제대로 작동하지 않습니다.
+   >Google Sheets 스토어 구성을 전역 폴더 밖에서 구성하려면 스토어 이름을 **세그멘테이션** 및 **스토어 유형으로** 설정해야 ******합니다**. 이는aem.segmentation. 또한 위에서 정의한 대로 json을 정의하는 프로세스를 건너뛸 수 있습니다.
 
 1. **활동에서 브랜드 만들기**
 
