@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ AEM Screens 프로젝트에서 인벤토리 기반 채널을 만들고 관리하
 
 AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전에 Google Sheets(데모용)를 설정해야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets는 값이 반입되고 교육용 목적으로만 사용되는 샘플 데이터베이스 시스템으로 다음 예제에서 사용됩니다. Adobe는 프로덕션 환경에서 Google Sheets 사용을 지지하지 않습니다.
 >
 >자세한 내용은 Google 설명서의 [API 키](https://developers.google.com/maps/documentation/javascript/get-api-key) 가져오기를 참조하십시오.
-
 
 ## 1단계:데이터 저장소 설정 {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 >[!NOTE]
 > 아래 특정 예제는 값이 100보다 크거나 50보다 작으면 자산 변경을 트리거하는 데이터 저장소로서 google 시트를 보여줍니다.
 
-## 2단계:AEM 인스턴스에 Google 시트 연결 {#step-connecting-aem-instance}
+## 2단계:스토어 구성 설정 {#step-setting-store-configurations}
 
 1. **ContextHub로 이동**
 
@@ -123,7 +122,19 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
       >[!CAUTION]
       Google Sheets 저장소 구성을 전역 폴더 외부에 만드는 경우(예: 자체 프로젝트 폴더) 타깃팅이 제대로 작동하지 않습니다.
-   >Google Sheets 스토어 구성을 전역 폴더 밖에서 구성하려면 스토어 이름을 **세그멘테이션** 및 **스토어 유형으로** 설정해야 ******합니다**. 이는aem.segmentation. 또한 위에서 정의한 대로 json을 정의하는 프로세스를 건너뛸 수 있습니다.
+
+1. **스토어 세그멘테이션 설정**
+
+   1. ContentHub **저장소 구성으로 이동합니다.** 그리고 스크린 구성 컨테이너에 다른 스토어 구성을 만들고 **Title** 을 ******Mexentation-contexthub** 로 **만듭니다.** TitleStore SegmentationStore Segmentation Store Type Segmentation Store as aem.mentation **** ****&#x200B;로 Segmentation를 만듭니다.
+
+      ![이미지](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+json을 정의하는 프로세스를 건너뛰고 공백으로 두어야 합니다.
+
+## 3단계:브랜드 및 영역 설정 {#setting-brand-area}
 
 1. **활동에서 브랜드 만들기**
 
@@ -133,14 +144,14 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
    1. Select **Brand** from the **Create Page** wizard and click **Next**
 
-   1. Enter the **Title** as **ContextHubDemo** and click **Create**. 이제 브랜드가 아래와 같이 생성됩니다.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. 이제 브랜드가 아래와 같이 생성됩니다.
+
+      ![이미지](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   알려진 문제:
-   영역을 추가하려면 URL에서
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      알려진 문제:영역을 추가하려면 URL에서
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **브랜드에서 영역 만들기**
 
@@ -153,7 +164,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
    1. Enter the **Title** as **GoogleSheets** and click **Create**.
 활동에서 영역이 만들어집니다.
 
-## 2단계:고객 세분화 설정 {#step-setting-up-audience-segmentation}
+## 4단계:고객 세분화 설정 {#step-setting-up-audience-segmentation}
 
 데이터 저장소를 설정하고 브랜드를 정의했으면 아래 단계에 따라 대상 세그먼트를 설정하십시오.
 
@@ -194,7 +205,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
 
 
-## 3단계:채널에서 타깃팅 활성화 {#step-enabling-targeting-in-channels}
+## 채널에서 타깃팅 활성화 {#step-enabling-targeting-in-channels}
 
 채널에서 타깃팅을 활성화하려면 아래 절차를 따르십시오.
 
