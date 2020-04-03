@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
+source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
 
@@ -55,7 +55,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!Important]
+>[!IMPORTANT]
 >포함된 시퀀스에 사용된 채널을 동일한 디스플레이에 지정해야 합니다.
 >
 >이전 단계에서 채널에 포함된 시퀀스를 추가한 후 아래 절차를 따르십시오.
