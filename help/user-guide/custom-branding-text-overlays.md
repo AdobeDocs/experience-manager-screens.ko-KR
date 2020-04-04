@@ -5,7 +5,7 @@ description: 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스
 seo-description: 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 아래 단계에 따라 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 만드십시오.
 
-1. 아래 그림과 같이 **맞춤형** 스타일로 제목이 지정된 AEM Screens 프로젝트와 DemoBrand **로**&#x200B;제목이 지정된 채널을 만듭니다.
+1. AEM Screens 프로젝트를 만듭니다. 이 예에서는 아래 그림과 같이 **customstyle** 프로젝트와 DemoBrand라는 **채널을** 제작하여 기능을 보여줍니다.
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 1. static.css ** 파일로 이동하여 다음 css 규칙을 설정합니다. css 규칙 아래 그림에도 예시로 표시됩니다.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 1. 저장 **및 닫기를** 클릭하여 디자인 경로를 업데이트합니다.
 
+### ACL 업데이트 {#updating-acls}
+
+플레이어에서 다운로드할 수 있도록 이러한 디자인의 ACL을 업데이트해야 합니다.
+
+1. useradmin으로 이동한 다음 `screens-<project>-devices group` 을 선택하고 사용자 정의 디자인 경로에 대한 읽기 권한을 부여합니다.
+
+1. 이 경로에 대한 `screens-<project>-administrators` 그룹 읽기 및 수정 권한을 제공합니다.
 
 ## 결과 보기 {#viewing-the-result}
 
