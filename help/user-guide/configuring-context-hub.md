@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 json을 정의하는 프로세스를 건너뛰고 공백으로 두어야 합니다.
 
 
-## 3단계:대상자 설정 {#setting-up-audience}
-
-보류 중:속성을 추가하려면
+## 3단계:대상의 세그먼트 설정 {#setting-up-audience}
 
 1. **대상에서 세그먼트 만들기**
 
@@ -145,58 +143,20 @@ json을 정의하는 프로세스를 건너뛰고 공백으로 두어야 합니�
 
    1. 만들기 **>** 컨텍스트 **허브 세그먼트 만들기를 클릭합니다.** 새 **ContextHub 세그먼트** 대화 상자가 열립니다.
 
-   1. Enter the **Title** as **TargetValue1** and click **Create**. 마찬가지로 TargetValue2라는 제목이 있는 **다른 세그먼트를 만듭니다**.
+   1. Enter the **Title** as **Higherthan50** and click **Create**. 마찬가지로 50보다 소문자로 제목이 지정된 다른 세그먼트를 **만듭니다**.
 
-      ![이미지](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![이미지](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. 50보다 **높은** 세그먼트를 선택하고 작업 **표시줄에서** 속성을 클릭합니다.
+      ![이미지](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. 세그먼트 **속성에서** 개인화 **탭을 선택합니다**. 아래 그림과 같이 **ContextHub 경로를**`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` 과 **세그먼트** 경로로 `/conf/screens/settings/wcm/segments` 설정하고 **저장을**&#x200B;클릭하여 저장합니다.
 
-## 4단계:고객 세분화 설정 {#step-setting-up-audience-segmentation}
+      ![이미지](/help/user-guide/assets/context-hub/context-hub13.png)
 
-편집 추가 대기 중
+   1. 마찬가지로 ContextHub **경로 및** 세그먼트 **경로를** 50 **보다** 작은세그먼트로설정합니다.
 
-데이터 저장소를 설정하고 활동(브랜드 및 영역)을 정의했으면 아래 단계에 따라 대상 세그먼트를 설정합니다.
-
-1. **대상에서 세그먼트 만들기**
-
-   1. AEM 인스턴스에서 개인화 > **대상** **>** 화면으로 **이동합니다**.
-
-   1. 만들기 **>** 컨텍스트 **허브 세그먼트 만들기를 클릭합니다.** 새 **ContextHub 세그먼트** 대화 상자가 열립니다.
-
-   1. Enter the **Title** as **TargetValue1** and click **Create**. 마찬가지로 TargetValue2라는 제목이 있는 **다른 세그먼트를 만듭니다**.
-
-      ![이미지](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **세그먼트 편집**
-
-   1. 세그먼트 TargetValue1 **을**&#x200B;선택하고 작업 **표시줄에서** 편집을 클릭합니다.
-
-   1. 비교를 드래그하여 **놓습니다.속성 - 편집기에** 대한 값 구성 요소입니다.
-   1. 렌치 아이콘을 클릭하여 속성과 값 **비교** 대화 상자를 엽니다.
-   1. 속성 **이름의** 드롭다운에서 워크시트/값/1/0 **을**&#x200B;선택합니다.
-
-   1. 드롭다운 **메뉴에서** **동일한** 연산자를 선택합니다.
-
-   1. 값을 **1** 로 **입력합니다**.
-   >[!NOTE]
-   AEM 파섹
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   마찬가지로 속성 값을 TargetValue **2로**&#x200B;편집합니다.
-
-   1. 비교를 드래그하여 **놓습니다.속성 - 편집기에** 대한 값 구성 요소입니다.
-   1. 렌치 아이콘을 클릭하여 속성과 값 **비교** 대화 상자를 엽니다.
-   1. 속성 **이름의** 드롭다운에서 워크시트/값/1/0 **을**&#x200B;선택합니다.
-
-   1. 드롭다운 **메뉴에서** **등호** 연산자를 선택합니다.
-
-   1. 값을 **2** 로 **입력합니다**.
-
-
-
-## 5단계:브랜드 및 영역 설정 {#setting-brand-area}
+## 4단계:브랜드 및 영역 설정 {#setting-brand-area}
 
 아래 절차에 따라 브랜드 아래의 활동 및 영역에서 브랜드를 만드십시오.
 
@@ -230,21 +190,64 @@ json을 정의하는 프로세스를 건너뛰고 공백으로 두어야 합니�
    1. Enter the **Title** as **ScreensValue** and click **Create**.
 브랜드에 영역이 만들어집니다.
 
-## 6단계:활동 설정 {#step-setting-up-activity}
+## 5단계:활동에서 세그먼트 만들기 {#step-setting-up-audience-segmentation}
 
-브랜드의 영역을 만들려면 아래 절차를 따르십시오.
+데이터 저장소를 설정하고 활동(브랜드 및 영역)을 정의했으면 아래 단계에 따라 활동에 세그먼트를 만듭니다.
 
-1. ScreensValue **로** 이동하고(이전 단계에서 생성됨) 만들기 **> 활동** **만들기를**&#x200B;클릭합니다.
+1. **활동에서 세그먼트 만들기**
 
-1. 활동 **구성 마법사가** 열립니다. 제목을 **타깃팅값** Heck 및 **** Title **과** Targetvaluecheck ****&#x200B;로 입력합니다. 드롭다운에서 **타깃팅 엔진을** **AEM(ContextHub)** 으로 선택하고 다음을 **클릭합니다**.
+   1. AEM 인스턴스에서 개인화 활동 **활동** > **Screens** 브랜드 **>** Screens **Value**&#x200B;로 이동합니다.
 
-1. 활동 **구성** 마법사에서 경험 **추가를 클릭합니다**.
+   1. 만들기 **> 활동** 만들기를 **클릭합니다.** 활동 **구성 마법사가** 열립니다.
 
-1. 대상에서 **TargetValue1**&#x200B;을 **선택하고** Add Add를 **클릭한 다음 Title AsValueckExperienceNameAs ValuetecheckCheck** **** **** **** ****&#x200B;를 입력합니다.
+   1. 제목을 **ValueCheck** 50 **및** Name **을** valuecheck50 **으로**&#x200B;입력합니다. 드롭다운에서 **타깃팅 엔진을** **AEM(ContextHub)** 으로 선택하고 다음을 **클릭합니다**.
 
-1. 마찬가지로 대상에서 TargetValue2 **를**&#x200B;선택하고 **Add Experience** 를 **클릭한 다음 Add Experience** Add를 **** **** **** ****&#x200B;클릭하고 Enter the Title asValuececheckName AsValuececk2 ValukAsValidate2Peck을 클릭합니다.
+      ![이미지](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. 활동 **구성** 마법사에서 경험 **추가를 클릭합니다**.
+
+   1. 대상에서 **대상을**&#x200B;선택하고 **** 50 **보다** 높음을 **클릭한 다음** 경험 **추가를 클릭하고 50보다 높은선이라** 하이픈을 입력합니다 **** **** 500보다 높은선명은 AddNameHighlightroomThanHigher00보다 높은값으로 HeightName을 입력합니다. Click **Ok**.
+
+   1. [대상자 **]에서** 50 **보다** 낮은 **대상을 선택하고 [경험 추가** ]를 **클릭한 다음 [경험 추가** ]를 클릭하고 [ **** **** ****&#x200B;제목 Lowereless050보다 낮은 LowerelessThanLowerelessName As LowerFrenge50보다 낮은 Title]을 클릭합니다. Click **Ok**.
+
+      ![이미지](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **이제 ValueCheck** 50 활동이 만들어지고 구성됩니다.
+
+      ![이미지](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## 5단계:세그먼트 편집 {#editing-audience-segmentation}
+
+1. **세그먼트 편집**
+
+   1. 
+      1. AEM 인스턴스에서 개인화 활동 **활동** **Screens** > **Brand** > Value > Screens ******** ScreensCheck Value50으로 이동합니다.
+   1. 세그먼트 ValueCheck **50을**&#x200B;선택하고 작업 **표시줄에서** 편집을 클릭합니다.
+
+   1. 비교를 드래그하여 **놓습니다.속성 - 편집기에** 대한 값 구성 요소입니다.
+   1. 렌치 아이콘을 클릭하여 속성과 값 **비교** 대화 상자를 엽니다.
+   1. 속성 **이름의** 드롭다운에서 워크시트/값/1/0 **을**&#x200B;선택합니다.
+
+   1. 드롭다운 **메뉴에서** **동일한** 연산자를 선택합니다.
+
+   1. 값을 **1** 로 **입력합니다**.
+   >[!NOTE]
+   AEM 파섹
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   마찬가지로 속성 값을 TargetValue **2로**&#x200B;편집합니다.
+
+   1. 비교를 드래그하여 **놓습니다.속성 - 편집기에** 대한 값 구성 요소입니다.
+   1. 렌치 아이콘을 클릭하여 속성과 값 **비교** 대화 상자를 엽니다.
+   1. 속성 **이름의** 드롭다운에서 워크시트/값/1/0 **을**&#x200B;선택합니다.
+
+   1. 드롭다운 **메뉴에서** **등호** 연산자를 선택합니다.
+
+   1. 값을 **2** 로 **입력합니다**.
+
+
+
 
 ## 채널에서 타깃팅 활성화 {#step-enabling-targeting-in-channels}
 
