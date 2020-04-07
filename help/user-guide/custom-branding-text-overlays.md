@@ -5,7 +5,7 @@ description: 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스
 seo-description: 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -85,7 +85,7 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
    1. 오버레이로 `/libs/screens/core/templates/sequencechannel` 로그인합니다 `/apps/screens/core/templates/sequencechannel`.
    1. 새 디자인을 *가리키도록 cq:designPath* 속성을 `/apps/screens/core/templates/sequencechannel/jcr:content` 수정합니다.
 
-1. 템플릿을 모두 만들려면:
+1. 고유한 템플릿을 모두 만들려면:
    1. 복사 `/libs/screens/core/templates/sequencechannel` 대상 `/apps/customstyle/templates/styled-sequencechannel`.
    1. 새 디자인을 *가리키도록 cq:designPath* 속성을 `/apps/customstyle/templates/styled-sequencechannel/jcr:content` 수정합니다.
 
