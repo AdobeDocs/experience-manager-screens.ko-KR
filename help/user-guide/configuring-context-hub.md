@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -150,7 +150,7 @@ json을 정의하는 프로세스를 건너뛰고 공백으로 두어야 합니�
    1. 50보다 **높은** 세그먼트를 선택하고 작업 **표시줄에서** 속성을 클릭합니다.
       ![이미지](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 세그먼트 **속성에서** 개인화 **탭을 선택합니다**. 아래 그림과 같이 **ContextHub 경로를**`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` 과 **세그먼트** 경로로 `/conf/screens/settings/wcm/segments` 설정하고 **저장을**&#x200B;클릭하여 저장합니다.
+   1. 세그먼트 **속성에서** 개인화 **탭을 선택합니다**. 아래 그림과 같이 **ContextHub 경로를**`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 과 **세그먼트** 경로로 `/conf/screens/settings/wcm/segments` 설정하고 **저장을**&#x200B;클릭하여 저장합니다.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -238,11 +238,11 @@ Google **Sheet/value/1/0은** 아래 그림에서 Google Sheets에 채워진 행
    1. 드롭다운 **메뉴에서** 보다 **큰** 연산자를 선택합니다.
 
    1. 값을 **70** 으로 **입력합니다**.
-   >[!NOTE]
-   AEM 파섹
 
-   ![이미지](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM 파섹
 
+      ![이미지](/help/user-guide/assets/context-hub/context-hub18.png)
    마찬가지로 속성 값을 Lower than **50으로 편집합니다**.
 
    1. 비교를 드래그하여 **놓습니다.속성 - 편집기에** 대한 값 구성 요소입니다.
@@ -261,11 +261,11 @@ Google **Sheet/value/1/0은** 아래 그림에서 Google Sheets에 채워진 행
 
 채널에서 타깃팅을 활성화하려면 아래 절차를 따르십시오.
 
-1. AEM Screens 채널 중 하나로 이동합니다. 다음 단계는 AEM Screens 채널에서 **만든 DataDrivenRetail** 을 사용하여 타깃팅을 활성화하는 방법을 보여줍니다.
+1. AEM Screens 채널 중 하나로 이동합니다. 다음 단계는 AEM Screens 채널에서 **만든 DataDrivenChannel** 을 사용하여 타깃팅을 활성화하는 방법을 보여줍니다.
 
-1. 채널 DataDrivenRetail **을** 선택하고 작업 **표시줄에서** 속성을 클릭합니다.
+1. 채널 TargetChannel **을** 선택하고 작업 **표시줄에서** 속성을 클릭합니다.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![이미지](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. 개인화 **탭을 선택하여** ContextHub 구성을 설정합니다.
 
@@ -274,20 +274,18 @@ Google **Sheet/value/1/0은** 아래 그림에서 Google Sheets에 채워진 행
    1. 세그먼트 경로를 ************ conf로 **선택합니다.** 소매 **설정 >** wcm > wcm **** ****&#x200B;세그먼트 > 세그먼트세그먼트선택 을 클릭합니다.
 
    1. 저장 **및 닫기를 클릭합니다**.
-   >[!NOTE]
-   ContextHub 및 세그먼트 경로를 사용합니다. 여기서 처음에 컨텍스트 허브 구성 및 세그먼트를 저장했습니다.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      ContextHub 및 세그먼트 경로를 사용합니다. 여기서 처음에 컨텍스트 허브 구성 및 세그먼트를 저장했습니다.
 
-1. DataDrivenAssets 채널에서 **DataDrivenRetail** 을 **찾아** 선택하고 **작업** 표시줄에서 **[편집]을 클릭합니다** .
+      ![이미지](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   모든 것을 올바르게 설정한 경우 아래 그림과 **같이** 편집기의 드롭다운에 타깃팅 옵션이 표시됩니다.
+   1. TargetChannel **채널을** 탐색하여 선택하고 작업 **표시줄에서 편집을** 클릭합니다.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      모든 것을 올바르게 설정한 경우 아래 그림과 **같이** 편집기의 드롭다운에 타깃팅 옵션이 표시됩니다.
 
-   >[!NOTE]
-   채널에 대해 ContextHub 구성을 구성한 후에는 아래의 모든 사용 사례를 따르려면 다른 세 시퀀스 채널에 대해 1부터 4까지의 이전 단계를 따르십시오.
+      ![이미지](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## 자세한 내용:사용 사례 예 {#learn-more-example-use-cases}
 
