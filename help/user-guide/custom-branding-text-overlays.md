@@ -5,7 +5,7 @@ description: 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스
 seo-description: 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. static.css ** 파일로 이동하여 다음 css 규칙을 설정합니다. css 규칙 아래 그림에도 예시로 표시됩니다.
+1. static.css ** 파일을 만들고 다음 css 규칙을 설정합니다. css 규칙 아래 그림에도 예시로 표시됩니다.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. 저장 **및 닫기를** 클릭하여 디자인 경로를 업데이트합니다.
+
+>[!IMPORTANT]
+> 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하거나 고유한 템플릿을 함께 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
+
+1. 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 삽입하려면 다음을 수행하십시오.
+
+   1. 오버레이로 `/libs/screens/core/templates/sequencechannel` 로그인합니다 `/apps/screens/core/templates/sequencechannel`.
+   1. 새 디자인을 *가리키도록 cq:designPath* 속성을 `/apps/screens/core/templates/sequencechannel/jcr:content` 수정합니다.
+
+1. 템플릿을 모두 만들려면:
+   1. 복사 `/libs/screens/core/templates/sequencechannel` 대상 `/apps/customstyle/templates/styled-sequencechannel`.
+   1. 새 디자인을 *가리키도록 cq:designPath* 속성을 `/apps/customstyle/templates/styled-sequencechannel/jcr:content` 수정합니다.
+
 
 ### ACL 업데이트 {#updating-acls}
 
