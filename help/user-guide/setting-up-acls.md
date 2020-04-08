@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 다음 섹션에서는 개별 또는 팀이 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법에 대해 설명합니다.
 
-AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해하지 않고 각 사용자에게 프로젝트 요구 사항에 따라 특정 역할이 할당되도록 해야 합니다.
+AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해하지 않도록 하고 각 사용자에게 프로젝트 요구 사항에 따라 특정 역할이 할당되도록 해야 합니다.
 
 ## 권한 설정 {#setting-up-permissions}
 
 다음 단계에서는 프로젝트에 대한 ACL 설정 절차를 요약합니다.
 
-1. AEM에 로그인하고 도구 &gt; **보안으로** 이동합니다 ****.
+1. AEM에 로그인하고 도구 > **보안으로** 이동합니다 ****.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -131,7 +131,7 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
     </ul> </td>
   </tr>
   <tr>
-   <td>스크린 플레이어<br /> (Screens Players) <em>스크린 - we-retail 디바이스</em></td>
+   <td>스크린 플레이어<br /> <em>화면-&lt;프로젝트&gt;-장치</em></td>
    <td>모든 플레이어 및 모든 플레이어/장치를 자동으로 기여자 멤버입니다.</td>
    <td><p> 기고자 회원</p> </td>
   </tr>
