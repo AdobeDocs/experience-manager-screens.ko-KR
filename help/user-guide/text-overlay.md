@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 다음 섹션에서는 AEM Screens 프로젝트에서 텍스트 오버레이를 사용하는 방법에 대해 설명합니다.
 
-### 전제 조건 {#prerequisites}
+**전제 조건**
 
 이 기능을 구현하기 전에 텍스트 오버레이 구현을 시작하기 위한 전제 조건으로 프로젝트를 설정해야 합니다. 예,
 
 * AEM Screens 프로젝트 만들기(이 예에서는 TextOverlayDemo ****)
 
-* 채널 폴더 아래에 **TextSample** 으로 채널을 **만듭니다**
+* 채널 폴더 아래에 TextSample **이라는** 시퀀스 채널을 **만듭니다**
 
 * TextSample 채널에 **컨텐츠** 추가
 
@@ -55,7 +55,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
-1. TextOverlayDemo **데모** —&gt; 채널 **—&gt;** 텍스트 **샘플로 이동하고** 편집을 **** 클릭하여 작업 표시줄에서 편집기를 엽니다.
+AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 절차를 따르십시오.
+
+1. TextOverlayDemo **데모** —> 채널 **—>** 텍스트 **샘플로 이동하고** 편집을 **** 클릭하여 작업 표시줄에서 편집기를 엽니다.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -82,4 +84,78 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >[!NOTE]
 >
 >세밀하게 정렬된 툴을 제대로 사용하려면 접미어로(px)를 사용하여 올바른 위치를 픽셀 단위로 식별하십시오(예: 200px). 이 표현식의 결과는 시작점으로부터 200픽셀이 됩니다.
+
+## 텍스트 오버레이에서 ContextHub 값 사용 {#using-text-overlay-context-hub}
+
+다음 섹션에서는 텍스트 오버레이 구성 요소의 google 시트 등 데이터 저장소의 값 사용에 대해 설명합니다.
+
+**전제 조건**
+
+AEM Screens 프로젝트에 대한 ContextHub 구성을 설정해야 합니다.
+
+데이터 저장소를 사용하여 데이터 기반 자산 변경 사항을 설정 및 관리하는 방법에 대한 자세한 내용은 AEM Screens에서 [ContextHub 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+
+프로젝트에 필요한 구성을 설정했으면 아래 절차에 따라 google 시트의 값을 사용하십시오.
+
+1. TextOverlayDemo **데모** —> **채널** —> **텍스트** 샘플 **속성을** 탐색하고 작업 표시줄에서 속성을 클릭합니다.
+
+1. 개인화 **탭을 선택하여** ContextHub 구성을 설정합니다.
+
+   1. ContextHub 경로를 **** libs **** 설정 **>** 설정 **> clouddefault** > DefaultConfigurationsBehance ContextBehaviorClickHub SelectSelect로 **** **** ****&#x200B;선택합니다.
+
+   1. [ **세그먼트 경로** ]를 **conf로** 선택 > **화면** > **화면** > 설정 **** **** ****>wcmhcm > 세그먼트ClickSegments 선택
+
+   1. Click **Save &amp; Close**.
+
+      >[!NOTE]
+      >
+      >ContextHub 및 세그먼트 경로를 사용합니다. 여기서 처음에 컨텍스트 허브 구성 및 세그먼트를 저장했습니다.
+
+      ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+
+1. TextOverlayDemo **데모** —> 채널 **—>** 텍스트 **샘플로 이동하고** 편집을 **** 클릭하여 작업 표시줄에서 편집기를 엽니다.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+
+1. 이 페이지의 텍스트 오버레이 사용 섹션에 설명된 대로 이미지 및 텍스트 오버레이 구성 **요소를** 이미지에 추가합니다.
+
+1. 구성( **렌치** 아이콘)을 클릭하여 이미지 **대화 상자를** 엽니다.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+
+1. 이미지 **대화 상자에서 ContextHub** 탭으로 **이동합니다** . **추가**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   >ContextHub 구성을 설정하지 않은 경우 프로젝트에 대해 이 옵션이 비활성화됩니다.
+
+1. 자리 **표시자** 필드에 **값을** 입력하고 **Behavior 변수의 값을 가져올 행을** 선택합니다(이 경우, **컨텍스트 Google에서 2행 및 1행에서 검색되는 값이 검색됨)** . 그런 다음 아래 ****&#x200B;그림에 표시된 기본 시트와 20으로 기본 시트를 입력합니다. 완료되면 확인 표시를 클릭합니다.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+
+   >[!NOTE]
+   >참조용으로 다음 이미지는 google 시트에서 검색된 값을 보여줍니다.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+
+1. 이미지 대화 **상자에서 텍스트 오버레이** 탭으로 다시 이동하고 아래 그림과 같이 *텍스트 현재 온도 {값}*&#x200B;을 추가합니다.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+
+1. 미리 **보기를** 클릭하여 원하는 출력을 봅니다.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
