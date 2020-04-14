@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -50,43 +50,57 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![이미지](/help/user-guide/assets/channel-assign1.png)
 
-   **채널 지정** 대화 상자에서 다음 속성을 구성할 수 있습니다.
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **채널 역할**:
+### 채널 속성 이해 {#channel-properties}
 
-   채널 역할은 디스플레이 컨텍스트를 정의합니다. 역할은 다양한 동작에 의해 타깃팅되며 역할을 수행하는 실제 채널과 독립적입니다.
+#### 참조 채널 {#ref-channel}
 
-   **참조 채널**:
+참조 채널을 사용하면 채널 이름 또는 채널 경로별로 원하는 채널에 대한 참조를 제공할 수 있습니다.
 
-   참조 채널을 사용하면 채널 이름 또는 채널 경로별로 원하는 채널에 대한 참조를 제공할 수 있습니다.
+* **경로 기준**: 채널의 절대 경로를 사용하여 명시적 참조를 제공합니다.
 
-   * **경로 기준**: 채널의 절대 경로를 사용하여 명시적 참조를 제공합니다.
-   * **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
-   **우선 순위:**
+* **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-   우선 순위는 여러 지정 내용이 재생 기준을 충족하는 경우 지정 내용의 순서를 정하는 데 사용됩니다. 값이 가장 높은 지정은 낮은 값의 지정보다 항상 우선합니다. 예를 들어, 두 개의 채널 A와 B가 있고 A의 우선 순위는 1이고 B의 우선 순위는 2라면, 채널 B의 우선 순위가 A보다 높으므로 채널 B가 표시됩니다.
+#### 채널 역할 {#role-channel}
 
-   채널의 우선 순위는 위에 언급된 대로 **채널 지정** 대화 상자에서 숫자(최소값은 1)로 설정됩니다. 또한, 지정된 채널은 내림차순의 우선 순위를 기준으로 정렬됩니다.
+채널 역할은 디스플레이 컨텍스트를 정의합니다. 역할은 다양한 동작에 의해 타깃팅되며 역할을 수행하는 실제 채널과 독립적입니다.
 
-   **지원되는 이벤트**:
+#### 우선 순위 {#priority-channel}
 
-   * **초기 로드**: 플레이어가 시작될 때 채널을 로드합니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
-   * **유휴 화면**: 화면이 유휴 상태일 때 로드됩니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
-   * **타이머**: 일정이 제공되면 설정해야 합니다.
-   * **사용자 상호 작용**: 유휴 채널에서 화면(터치)에 사용자 상호 작용이 있으면 플레이어가 지정된 채널로 전화되고 화면을 터치하면 로드됩니다.
-   **예약**:
+우선 순위는 여러 지정 내용이 재생 기준을 충족하는 경우 지정 내용의 순서를 정하는 데 사용됩니다. 값이 가장 높은 지정은 낮은 값의 지정보다 항상 우선합니다. 예를 들어, 두 개의 채널 A와 B가 있고 A의 우선 순위는 1이고 B의 우선 순위는 2라면, 채널 B의 우선 순위가 A보다 높으므로 채널 B가 표시됩니다.
 
-   일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 일정 표현식 구문은 later.js의 텍스트 및 cron 구문을 기반으로 합니다.
+>[!NOTE]
+>채널의 우선 순위는 위에 언급된 대로 **채널 지정** 대화 상자에서 숫자(최소값은 1)로 설정됩니다. 또한, 지정된 채널은 내림차순의 우선 순위를 기준으로 정렬됩니다.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **명소 도구 설명 표시**:
+#### 지원되는 이벤트 {#supported-events-channel}
 
-   [명소 도구 설명 표시]는 채널이 실행될 때 명소 도구 설명(&quot;*시작하려면 아무 데나 터치하세요*&quot;)을 표시해야 할지 여부를 정의합니다.
+* **초기 로드**: 플레이어가 시작될 때 채널을 로드합니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
+* **유휴 화면**: 화면이 유휴 상태일 때 로드됩니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
+* **타이머**: 일정이 제공되면 설정해야 합니다.
+* **사용자 상호 작용**: 유휴 채널에서 화면(터치)에 사용자 상호 작용이 있으면 플레이어가 지정된 채널로 전화되고 화면을 터치하면 로드됩니다.
 
-1. **저장**&#x200B;을 클릭하여 생성된 채널을 디스플레이에 지정합니다.
+#### 중단 방법 {#interruption-method-channel}
+
+컨텐츠 작성자는 채널이 중단되는 시점을 지정할 수 있으므로 중요하지 않은 컨텐츠를 잘라내기로 선택할 수 있지만 일정 때문에 재생을 중단하기 전에 중요한 컨텐츠를 완전히 재생하도록 할 수 있습니다.
+[채널 할당] 대화 상자에서 중단 방법을 설정하는 데 다음 옵션을 사용할 **수** 있습니다.
+
+* **즉시**:일정이 활성화되거나 업데이트가 수신될 때마다 재생을 중단하고 즉시 새 컨텐츠를 새로 고치거나 재생합니다
+* **현재 항목의**&#x200B;끝 부분:새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다렸다가 새 컨텐츠를 새로 고치거나 재생합니다
+   >[!NOTE]
+   >이 옵션은 선택한 기본 옵션입니다.
+* **시퀀스**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다렸다가 첫 번째 요소로 다시 돌아가기 전에 새 컨텐츠를 새로 고치거나 재생합니다
+
+#### 예약 {#schedule-channel}
+
+일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown.
+
+**명소 도구 설명 표시**:
+
+[명소 도구 설명 표시]는 채널이 실행될 때 명소 도구 설명(&quot;*시작하려면 아무 데나 터치하세요*&quot;)을 표시해야 할지 여부를 정의합니다.
+
 
 ### 방송 시간 분할 {#dayparting}
 
@@ -158,4 +172,10 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 |---|---|---|---|
 | A | 겨울 | 1 | 2017년 12월 1일 - 2017년 12월 31일 |
 | B | 크리스마스 | 2 | 2017년 12월 24일 - 2017년 12월 31일 |
+
+>[!IMPORTANT]
+> 방송 시간 분할에 대한 자세한 내용은 아래 섹션을 참조하십시오.
+>* [자산에서 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [채널에서 자산에 대한 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
