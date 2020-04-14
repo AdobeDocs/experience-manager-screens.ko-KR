@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -269,11 +269,9 @@ Google **Sheet/value/1/0은** 아래 그림에서 Google Sheets에 채워진 행
 
 1. 개인화 **탭을 선택하여** ContextHub 구성을 설정합니다.
 
-   1. ContextHub 경로를 **** libs **** 설정 **>** 설정 **> clouddefault** > DefaultConfigurationsBehance ContextBehaviorClickHub SelectSelect로 **** **** ****&#x200B;선택합니다.
+   1. ContextHub **경로를** 및 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 세그먼트 **경로로** 설정하여 `/conf/screens/settings/wcm/segments` 저장을 **클릭하고**&#x200B;클릭합니다.
 
-   1. 세그먼트 경로를 ************ conf로 **선택합니다.** 소매 **설정 >** wcm > wcm **** ****&#x200B;세그먼트 > 세그먼트세그먼트선택 을 클릭합니다.
-
-   1. 저장 **및 닫기를 클릭합니다**.
+   1. Click **Save &amp; Close**.
 
       >[!NOTE]
       ContextHub 및 세그먼트 경로를 사용합니다. 여기서 처음에 컨텍스트 허브 구성 및 세그먼트를 저장했습니다.
