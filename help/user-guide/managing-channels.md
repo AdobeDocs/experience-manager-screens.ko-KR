@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >화면 분할 채널은 화면을 여러 영역으로 분할하므로 여러 경험을 동시에 나란히 재생할 수 있습니다. 경험은 정적 자산/텍스트 또는 포함된 시퀀스가 될 수 있습니다.
 
-The following example shows the creation of a Sequence Channel (C *hannelOne*) for a Screens project (*DemoProject*).
+다음 예는 스크린 프로젝트(DemoProject)*에*&#x200B;대한 시퀀스 채널(ChannelOne)을 만드는&#x200B;*방법을 보여줍니다*.
 
 ![인구 통계 채널](assets/demochannel.gif)
 
@@ -68,9 +68,8 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 >
 >위에서 언급한 1x2, 2x2 또는 2~3 분할 화면 채널과 같은 템플릿 선택 사항을 사용하여 서로 다른 영역을 만들 수 있습니다.
 
-***중요 사항***:
-
-컨텐츠를 만들어 채널에 추가하면 다음 단계는 위치를 만든 다음 디스플레이를 만드는 것입니다. 또한 해당 채널을 디스플레이에 지정해야 합니다. 자세한 내용은 섹션 끝에 있는 아래 리소스를 참조하십시오.
+>[!IMPORTANT]
+> 컨텐츠를 만들어 채널에 추가하면 다음 단계는 위치를 만든 다음 디스플레이를 만드는 것입니다. 또한 해당 채널을 디스플레이에 지정해야 합니다. 자세한 내용은 섹션 끝에 있는 아래 리소스를 참조하십시오.
 
 ## 채널 작업 {#working-with-channels}
 
@@ -78,7 +77,7 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 >[!NOTE]
 >
->항목을 선택하려면 왼쪽의 아이콘을 클릭하십시오. 예를 들어, 아래 그림과 같이 채널용 아이콘을 클릭하고 다음 작업을 수행하십시오.
+>아래 그림과 같이 채널을 선택합니다.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,16 +85,18 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 채널에서 컨텐츠를 추가하거나 편집하려면 아래 절차를 따르십시오.
 
-1. 편집할 채널을 클릭합니다(위 그림 참조).
+1. 편집할 채널을 선택합니다(위 그림 참조).
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. 게시할 채널에 자산/구성 요소를 추가할 수 있는 편집기가 열립니다.
 
 >[!NOTE]
 >
->채널에 구성 요소를 추가할 수 있습니다. 자세한 **[내용은 채널에 구성 요소](adding-components-to-a-channel.md)** 추가를 참조하십시오.
+>채널에 구성 요소를 추가할 수 있습니다. 자세한 **[내용은 채널에 구성 요소](adding-components-to-a-channel.md)**추가를 참조하십시오.
 
 ![demochannel1](assets/demochannel1.gif)
 
-**채널에 비디오 업로드** 아래 단계에 따라 채널에 비디오를 업로드하십시오.
+**채널에 비디오 업로드**
+
+아래 절차에 따라 채널에 비디오를 업로드하십시오.
 
 1. 비디오를 업로드할 채널을 선택합니다.
 1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
@@ -118,8 +119,8 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 채널의 대시보드를 보려면 아래 절차를 따르십시오.
 
-1. 편집할 채널을 클릭합니다.
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. 편집할 채널을 선택합니다.
+1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
 
 ![대시보드](assets/dashboard.gif)
 
@@ -127,7 +128,7 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 채널 정보 패널에서는 채널에 대한 미리 보기와 함께 채널 속성에 대해 설명합니다. 또한 채널이 오프라인인지 또는 온라인인지에 대한 정보도 제공합니다.
 
-**채널 정보** 작업 표시줄의 (**...**)를 클릭하여 속성을 보거나, 컨텐츠를 편집하거나, 채널에 대한 캐시(오프라인 컨텐츠)를 업데이트하십시오.
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -139,17 +140,17 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 채널을 만들 때 온라인 또는 오프라인 채널로 정의할 수 있습니다.
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+***온라인 채널***&#x200B;은 실시간 환경에서 업데이트된 컨텐츠를 표시하는 반면, ***오프라인 채널***&#x200B;은 캐시된 컨텐츠를 보여줍니다.
 
 아래 절차에 따라 채널을 온라인으로 만드십시오.
 
-1. **TestProject** --&gt; **채널** --&gt; **TestChannel**&#x200B;을 통해 채널로 이동합니다.
+1. **TestProject** --> **채널** --> **TestChannel**&#x200B;을 통해 채널로 이동합니다.
 
    채널을 선택하십시오.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. **CHANNEL INFORMATION **패널에서는 채널이 온라인 상태인지 오프라인 상태인지에 대한 정보를 제공합니다.
+   Click **Dashboard** from the action bar to view the status of the player. **채널 정보** 패널에서는 채널이 온라인인지 또는 오프라인인지에 대한 정보를 제공합니다.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
