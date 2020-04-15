@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### 매니페스트 보기 {#view-manifest}
+
+채널 대시보드에서 매니페스트를 볼 수 있습니다.
+
+>[중요]
+> 이 옵션은 AEM 6.4 기능 팩 8 또는 AEM 6.5 기능 팩 4에서만 사용할 수 있습니다.
+
+다음 단계에 따라 채널 대시보드에서 이 옵션을 활성화합니다.
+1. **채널을 오프라인으로 설정**
+   1. 채널을 선택하고 작업 **표시줄에서** 속성을 선택합니다
+   1. 채널 **탭으로** 이동하고 개발자 모드 확인 **취소(채널이 온라인 상태가 되도록 강제)** 옵션 확인
+   1. Click **Save &amp; Close**
+1. **오프라인 컨텐츠 업데이트**
+   1. 채널을 선택하고 작업 **표시줄에서** 대시보드를 선택합니다.
+   1. 채널 정보 **패널로 이동하고** ...를 *클릭합니다.*
+   1. 오프라인 **컨텐츠 업데이트를 클릭합니다.**
+
+이제 채널 대시보드의 채널 정보 **패널에서 매니페스트** 보기 **옵션을** 볼 수 있습니다.
+
+![image1](assets/channel-one.png)
+
 
 ### 온라인 및 오프라인 채널 {#online-and-offline-channels}
 
