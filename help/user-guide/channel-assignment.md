@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
    >[!NOTE]
    >이 옵션은 기본적으로 선택되어 있습니다.
 * **시퀀스**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있고 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프되고 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
+
+   >[!NOTE]
+   >두 번째 또는 세 번째 옵션을 사용하면 플레이어가 새로 고침 전에 항목 또는 시퀀스의 끝(지정된 시간 후)을 기다리기 때문에 할당에 정의된 예약 시간이 약간 지연될 수 있습니다. 지연 시간은 항목의 재생 기간에 따라 다릅니다.
 
 #### 예약 {#schedule-channel}
 
