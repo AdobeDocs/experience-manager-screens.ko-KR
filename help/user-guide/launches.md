@@ -1,6 +1,6 @@
 ---
-title: 론치
-seo-title: 론치
+title: 스크린 시작을 사용한 컨텐츠 업데이트
+seo-title: 스크린 시작을 사용한 컨텐츠 업데이트
 description: 컨텐츠 작성자는 론치라고 하는 채널의 향후 버전을 만들고 이 론치의 라이브 날짜를 추가로 설정하면 컨텐츠가 디바이스나 플레이어에서 라이브될 수 있습니다.
 seo-description: 컨텐츠 작성자는 론치라고 하는 채널의 향후 버전을 만들고 이 론치의 라이브 날짜를 추가로 설정하면 컨텐츠가 디바이스나 플레이어에서 라이브될 수 있습니다.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -11,28 +11,28 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# 론치 {#launches}
+# 스크린 시작을 사용한 컨텐츠 업데이트 {#launches}
 
-컨텐츠 작성자는 론치라고 하는 채널의 향후 버전을 만들 수 **있으며** , 이 론치에 대한 라이브 날짜를 추가로 설정하면 컨텐츠가 디바이스나 플레이어에서 라이브될 수 있습니다.
+컨텐츠 작성자는 화면 실행이라고 하는 채널의 향후 버전을 **만들고** , 이 론치에 대한 라이브 날짜를 추가로 설정하면 컨텐츠가 디바이스 또는 플레이어에서 라이브될 수 있습니다.
 
-작성자는 론치의 도움으로 론치의 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있습니다. 승인자 그룹은 알림을 받게 되며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 컨텐츠가 장치에서 재생됩니다.
+향후 게시의 도움을 받아 작성자는 론치의 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있습니다. 승인자 그룹은 알림을 받게 되며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 컨텐츠가 장치에서 재생됩니다.
 
 예를 들어 작성자가 c1, c2(채널)의 향후 버전을 만들려면 론치가 만들어지고 라이브 날짜가 설정됩니다(예: 11월 10일 오전 8시). 컨텐츠의 추가 업데이트는 검토를 위해 전송됩니다. 일단 승인되고 실시간 날짜(11월 10일 오전 8시)에 출시되면 디바이스 또는 플레이어에서 컨텐츠가 재생됩니다.
 
 ## 요구 사항 {#requirements}
 
-AEM Screens 프로젝트에서 론치의 구현을 시작하기 전에 유예 기간 개념 및 관련 사항을 이해해야 합니다.
+AEM Screens 프로젝트에서 향후 게시 구현을 시작하기 전에 유예 기간 개념 및 관련 사항을 이해해야 합니다.
 
 다음 섹션에서는 유예 기간 및 특별 구성 방법에 대해 설명합니다. 샘플 테스트 구성을 다운로드하여 사용량을 파악할 수도 있습니다.
 
 ### 유예 기간 이해 {#understanding-grace-period}
 
-다음 설정을 통해 관리자는 론치에 필요한 유예 ***기간을&#x200B;***구성할 수 있습니다.
+다음 설정을 통해 관리자는 이후 게시에서 필요한 ***유예 기간을***&#x200B;구성할 수 있습니다.
 
 **유예 기간**:
 
@@ -40,7 +40,7 @@ AEM Screens 프로젝트에서 론치의 구현을 시작하기 전에 유예 �
 * 인스턴스를 게시할 리소스 게시
 * 게시 인스턴스에서 컨텐츠를 다운로드하는 데 걸리는 시간 및 서버와 플레이어의 시간 차이
 
-예를 들어, 서버가 PST에 있고 디바이스가 EST에 있고 최대 시간 차이는 3시간이며, 프로모션은 작성자에서 게시로 1분이 걸리고 플레이어는 10분이 소요되며, 리소스는 일반적으로 10-15분 내에 다운로드할 수 있다고 가정합니다. 그런 다음 유예 기간 = 시간 차이(3시간) + 론치를 홍보하는 시간(1분) + 론치를 게시할 시간(10분) + 플레이어에서 다운로드할 시간(10-15분) + 버퍼(10분) = 3시간 56분 = 14160초. 따라서 론치를 라이브로 예약할 때 이 오프셋으로 프로모션이 일찍 시작됩니다. 위의 방정식에서 대부분의 항목은 시간이 많이 걸리지 않으므로 서버와 플레이어의 최대 시간 차이를 알고 나면 이 오프셋을 추측할 수 있습니다.
+예를 들어, 서버가 PST에 있고 디바이스가 EST에 있고 최대 시간 차이는 3시간이며, 프로모션은 작성자가 1분, 게시자는 10분, 플레이어는 일반적으로 10-15분 내에 리소스를 다운로드할 수 있다고 가정합니다. 그런 다음 유예 기간 = 시간 차이(3시간) + 론치를 홍보하는 시간(1분) + 론치를 게시할 시간(10분) + 플레이어에서 다운로드할 시간(10-15분) + 버퍼(10분) = 3시간 56분 = 14160초. 따라서 론치를 라이브로 예약할 때 이 오프셋으로 프로모션이 일찍 시작됩니다. 위의 방정식에서 대부분의 항목은 시간이 많이 걸리지 않으므로 서버와 플레이어의 최대 시간 차이를 알고 나면 이 오프셋을 추측할 수 있습니다.
 
 ### 즉시 사용 가능한 유예 기간 구성 {#configuring-out-of-the-box-grace-period}
 
@@ -60,22 +60,22 @@ AEM Screens 프로젝트에서 론치의 구현을 시작하기 전에 유예 �
 
 위의 구성을 변경하려면 아래 지침을 따르십시오.
 
-* com.adobe.cq.wc ***m.launches.impl.LaunchesEventHandler.config ***및 내용으로 /apps/system/config****파일의 sling:OsgiConfig/ nt:file을 만듭니다.
+* com.adobe.cq.wc ***m.launches.impl.LaunchesEventHandler.config*** 및 내용으로 /apps/system/config **** 파일의 sling:OsgiConfig/ nt:file을 만듭니다.
 
-   *launches.eventhandler.updatemodification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+   *launches.eventhandler.updatemodification=B&quot;false&quot;launches.eventhandler.launch.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`를 사용하면 경로/ *컨텐츠/화면에서*&#x200B;유예 기간을 600초로 설정할 수 있습니다.
 
 즉, */content/screens*&#x200B;아래의 리소스에 대한 론치에 대해 라이브 날짜를 설정하면 프로모션은 이 오프셋으로 시작됩니다. 예를 들어 라이브 날짜가 11월 24일 오전 9시, 오전 9시로 설정되고 유예 기간이 600초인 경우 프로모션 작업은 오전 8시 50분에 시작됩니다.
 
-## 론치 사용 {#using-launches}
+## 스크린 시작 사용 {#using-launches}
 
-아래 섹션을 따라 AEM Screens 프로젝트에서 론치를 구현합니다. 이 섹션에서는 다음과 같은 항목을 다룹니다.
+AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르십시오. 이 섹션에서는 다음과 같은 주제를 다룹니다.
 
-1. **론치 만들기**
-1. **론치 편집을 통해 라이브 날짜 및 범위 설정**
+1. **스크린 시작 만들기**
+1. **스크린 론치 편집을 통해 라이브 날짜 및 범위 설정**
 
-### 론치 만들기 {#creating-a-launch}
+### 향후 게시 만들기 {#creating-a-launch}
 
 AEM Screens 프로젝트에 향후 게시 기능을 구현하려면 아래 절차를 따르십시오.
 
