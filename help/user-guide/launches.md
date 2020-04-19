@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -34,7 +34,7 @@ AEM Screens 프로젝트에서 향후 게시 구현을 시작하기 전에 유�
 
 다음 설정을 통해 관리자는 이후 게시에서 필요한 ***유예 기간을***&#x200B;구성할 수 있습니다.
 
-**유예 기간**(포함):
+**유예 기간**:
 
 * 출시 홍보
 * 인스턴스를 게시할 리소스 게시
@@ -75,27 +75,30 @@ AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르
 1. **스크린 시작 만들기**
 1. **스크린 론치 편집을 통해 라이브 날짜 및 범위 설정**
 
-### 향후 게시 만들기 {#creating-a-launch}
+### 스크린 시작 만들기 {#creating-a-launch}
 
 아래 절차에 따라 AEM Screens 프로젝트에 론치 기능을 구현하십시오.
 
-1. 아래 표시된 대로 AEM Screens 프로젝트에서 시퀀스 채널(예: **LaunchesDemo** —> **채널** —> **FutureLaunch**)으로이동합니다.
+1. AEM Screens 프로젝트에서 시퀀스 채널을 만듭니다(예: **LaunchesDemo** —> **채널** —> **Future** Launch).
 
    >[!CAUTION]
    >
    >AEM Screens 프로젝트의 기존 채널에서 론치를 만들어야 합니다.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![이미지](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. 채널 FutureLaunch **를** 선택하고 작업 **표시줄에서 Create** Launch를 클릭합니다.
 
-1. 론치 **만들기** 마법사가 열립니다. 마법사에 이미 표시된 채널을 선택하거나 **+ 페이지** 추가를 클릭하여 론치를 만들 스크린 채널을 선택합니다.
+   ![이미지](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >다음 예에서는 마법사에서 기존 채널에 대한 론치를 만드는 방법을 보여줍니다.
+1. 론치 **만들기** 마법사가 열립니다. 마법사에 이미 표시된 채널을 선택하거나 **+ 채널 추가를** 클릭하여 론치를 만들 채널을 추가할 수 있습니다.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### 기존 채널 사용 {#existing-channel-launch}
+
+1. 론치 만들기 마법사에서 이미 존재하는 **채널을** 선택하고 다음을 **클릭합니다**.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. 채널을 선택하고 작업 **표시줄에서** [다음]을 클릭합니다.
 
@@ -124,6 +127,49 @@ AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    완료를 **클릭하면** FutureLaunch 채널로 돌아갈 **수** 있습니다.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### 채널 추가 옵션 사용 {#add-channel-launch}
+
+1. 채널 **추가를** 클릭하여 론치를 만들 채널을 추가합니다.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >여러 **채널** 또는 론치를 추가할 폴더를 선택하려고 하면 선택 옵션이 비활성화됩니다.
+
+1. 론치를 만들 채널로 이동하고 선택을 **클릭합니다**.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. 이제 론치를 만들기 위해 추가한 채널을 선택하고 다음을 클릭할 수 **있습니다**.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. 론치 제목을 **여름** 판촉으로 **입력하면** 아래 그림과 같이 시작 **날짜를**&#x200B;설정할 필요가 없습니다. **만들기**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   >
+   >*소스 페이지 라이브 데이터* 상속을 **활성화하거나 선택하면** 론치에서 채널을 Live Copy로 만들 수 있습니다. 원래 채널에서 변경된 경우 이러한 변경 사항이 론치 채널에 자동으로 적용됩니다.
+   >
+   >
+   >*비활성화 또는 선택* 해제소스 **페이지 라이브 데이터** 상속을 사용하면 론치에서 라이브 관계 없이 채널을 복사할 수 있습니다. 따라서 원래 채널을 변경하면 해당 변경 사항이 시작 채널에 적용되지 않습니다.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >이 단계에서 라이브 실행 날짜를 설정하거나 론치가 이미 만들어지면 속성을 편집하는 동안 나중에 설정할 수 있습니다.
+
+1. 론치가 생성되었음을 알 수 있습니다. 열기를 클릭하여 **편집기에서** 페이지를 보거나 완료를 클릭하여 **프로젝트로** 돌아갈 수 있습니다.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   완료를 **클릭하면** FutureLaunch 채널로 돌아갈 **수** 있습니다.
+
+   ![이미지](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### 실행 속성을 편집하여 라이브 날짜 및 범위 설정 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
