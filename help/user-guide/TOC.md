@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Adobe Experience Manager Screens 도움말
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 + [화면 소개](aem-screens-introduction.md)
 + 개요 및 시작 안내서 {#overview}
    + [시작 안내서](kickstart-for-aem-screens.md)
-   + [스크린 우수 사례 가이드](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [스크린 우수 사례 가이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-screens/using/about-guide.html)
    + [주요 용어](screens-glossary.md)
 + 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
    + [1부:프로젝트 역할 및 책임](project-roles-responsibilities.md)
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + 컨텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
       + [Content as-a-service 업데이트](content-update-as-a-service.md)
-      + [론치를 사용한 컨텐츠 업데이트](launches.md)
+      + [스크린 시작을 사용한 컨텐츠 업데이트](launches.md)
    + 사용 사례 예 {#use-case-examples}
       + [긴급 채널](emergency-channel.md)
       + [출장 센터 온도 활성화](local-temperature-activation.md)
