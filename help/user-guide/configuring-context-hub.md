@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
+source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
 ---
 
@@ -92,8 +92,13 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. Title을 **Google****** Store **Name** 으로 입력합니다 **.** Store Name은 **Goocites** **** ****Glades 및 Store TypeContexthubGeneric-jthub.p일반 SonyP와 Google NextClick로 입력합니다.
+   1. Title을 **Google****** Store **Name** 으로 입력합니다 **.** Store Name은 **Goocites** **** **** Glades 및 Store TypeContexthubGeneric-jthub.p일반 SonyP와 Google NextClick로 입력합니다.
+
       ![이미지](/help/user-guide/assets/context-hub/context-hub6.png)
+
+      >[!NOTE]
+      >
+      >AEM 6.4에서 구성 **제목을** **googlessheet** 로 **입력하고** 스토어 유형을 **contexthub.generic-jsonp**&#x200B;로입력합니다.
 
    1. 특정 json 구성을 입력합니다. 예를 들어 데모 목적으로 다음 json을 사용하고 저장을 클릭하면 **ContextHub** 구성에서 Google Sheets **라는** 스토어 구성이표시됩니다.
 
