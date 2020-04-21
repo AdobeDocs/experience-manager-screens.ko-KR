@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -32,7 +32,7 @@ AEM Screens 프로젝트에서 인벤토리 기반 채널을 만들고 관리하
 
 **대상규칙을** 정의합니다.
 
-**세그먼트** 해당 규칙에 대해 재생할 자산 버전을 나타냅니다. 예를 들어 기온이 화씨 50도 미만인 경우 화면에 뜨거운 커피 이미지가 표시되고, 그렇지 않으면 차가운 음료가 표시됩니다.
+**세그먼트** 해당 규칙에 대해 재생할 자산 버전을 나타냅니다. 예를 들어 기온이 화씨 50도 미만인 경우 화면에 따뜻한 커피 이미지가 표시되고, 그렇지 않으면 차가운 음료가 표시됩니다.
 
 다음 다이어그램은 ContextHub 구성이 활동, 대상 및 채널과 어떻게 일치하는지 시각적으로 보여줍니다.
 
@@ -94,11 +94,12 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
    1. Title을 **Google****** Store **Name** 으로 입력합니다 **.** Store Name은 **Goocites** **** **** Glades 및 Store TypeContexthubGeneric-jthub.p일반 SonyP와 Google NextClick로 입력합니다.
 
+      >[!CAUTION]
+      >AEM(Adobe Experience Manager) 6.4를 사용하는 경우 구성 **제목을** **** 설명서로 **입력하고** 스토어 유형을 **contexthub**&#x200B;제네릭-jsonp로입력합니다.
+
       ![이미지](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >AEM 6.4에서 구성 **제목을** **googlessheet** 로 **입력하고** 스토어 유형을 **contexthub.generic-jsonp**&#x200B;로입력합니다.
+
 
    1. 특정 json 구성을 입력합니다. 예를 들어 데모 목적으로 다음 json을 사용하고 저장을 클릭하면 **ContextHub** 구성에서 Google Sheets **라는** 스토어 구성이표시됩니다.
 
