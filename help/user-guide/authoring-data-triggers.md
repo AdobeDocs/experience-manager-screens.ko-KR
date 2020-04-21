@@ -3,7 +3,7 @@ title: 데이터 트리거를 사용하여 작성
 seo-title: 데이터 트리거를 사용하여 작성
 description: 데이터 트리거를 사용하여 작성하는 방법을 살펴보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -43,13 +43,13 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 개인화 **탭을 선택하여** ContextHub 구성을 설정합니다.
+1. 개인화 **탭을 선택하여** ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 선택합니다.
 
    1. ContextHub 경로를 **** libs **** 설정 **>** 설정 **> clouddefault** > DefaultConfigurationsBehance ContextBehaviorClickHub SelectSelect로 **** **** ****&#x200B;선택합니다.
 
    1. 세그먼트 경로를 ************ conf로 **선택합니다.** 소매 **설정 >** wcm > wcm **** ****&#x200B;세그먼트 > 세그먼트세그먼트선택 을 클릭합니다.
 
-   1. 저장 **및 닫기를 클릭합니다**.
+   1. Click **Save &amp; Close**.
    >[!NOTE]
    >
    >ContextHub 및 세그먼트 경로를 사용합니다. 여기서 처음에 컨텍스트 허브 구성 및 세그먼트를 저장했습니다.
