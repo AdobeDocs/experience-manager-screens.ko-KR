@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 스크린 시작 사용 {#using-launches}
 
-아래 섹션을 따라 AEM Screens 프로젝트에서 스크린 시작을 구현합니다.
+이 섹션에서는 AEM Screens 프로젝트에서 스크린 시작을 구현하는 방법을 보여 줍니다.
 
 ### 스크린 시작 만들기 {#creating-a-launch}
 
@@ -104,8 +104,6 @@ AEM Screens 프로젝트에 화면 실행 기능을 구현하려면 아래 절�
 
    >[!NOTE]
    >+ 채널 **추가** 옵션을 사용하여 론치를 만들 다른 채널을 추가할 수 있습니다.
-
-   ![이미지](/help/user-guide/assets/launches-images/launches-13.png)
 
    채널 **추가** 옵션을 사용하려면 론치를 만들 채널로 이동하고 선택을 **클릭합니다**.
 
@@ -173,13 +171,13 @@ AEM Screens 프로젝트에 화면 실행 기능을 구현하려면 아래 절�
 
    ![이미지](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### 채널 추가 또는 제거를 위한 화면 실행 편집 {#editing-the-screens-launch-to-add-or-remove-channels}
+### 채널 추가 또는 제거를 위한 화면 실행 편집 {#editing-the-screens-launch-to-add-or-remove-channels}
 
-론치를 만든 후 론치 편집 작업을 사용하여 기존 론치에 채널을 추가하거나 제거할 **수** 있습니다.
+론치를 만든 후 론치 편집 옵션을 사용하여 기존 론치에 채널을 추가하거나 제거할 **수** 있습니다.
 
 완료되면 저장을 클릭하여 **FutureLaunch** 채널로 **돌아갑니다** .
 
-#### 수동으로 스크린 시작 홍보{#promote-the-screens-launch-manually}
+### 수동으로 스크린 시작 홍보{#promote-the-screens-launch-manually}
 
 [보류 중인 론치] 패널에서 [론치 **홍보** ] 옵션을 사용하여 론치를 수동으로 홍보할 **수** 있습니다.
 
@@ -196,11 +194,10 @@ AEM Screens 프로젝트에 화면 실행 기능을 구현하려면 아래 절�
 1. 론치 **홍보** 마법사에서 **다음을** 클릭합니다.
 1. 홍보를 **클릭하여** 론치를 홍보합니다.
 
+### 스크린 시작 삭제 {#deleting-the-screens-launch}
 
-#### 스크린 시작 삭제 {#deleting-the-screens-launch}
-
-론치 삭제 **작업을 사용하여 론치를 삭제할 수** 있습니다.
+론치 삭제 옵션을 사용하여 론치를 **보류** 중인 론치 **패널에서 삭제할 수** 있습니다.
 
 >[주의]
->이 작업을 수행하면 하위 중첩 론치도 모두 삭제됩니다.
+>이 작업을 수행하면 모든 하위 항목(중첩된 시작)도 삭제됩니다.
 
