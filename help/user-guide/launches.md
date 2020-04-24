@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 스크린 시작 사용 {#using-launches}
 
-AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르십시오. 이 섹션에서는 다음과 같은 주제를 다룹니다.
-
-1. **스크린 시작 만들기**
-1. **스크린 론치 편집을 통해 라이브 날짜 및 범위 설정**
+AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르십시오.
 
 ### 스크린 시작 만들기 {#creating-a-launch}
 
@@ -97,60 +94,19 @@ AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르
 
 1. 론치 **만들기** 마법사가 열립니다. 마법사에 이미 표시된 채널을 선택하거나 **+ 채널 추가를** 클릭하여 론치를 만들 채널을 추가할 수 있습니다.
 
-
-#### 기존 채널 사용 {#existing-channel-launch}
-
-1. 론치 만들기 마법사에서 이미 존재하는 **채널을** 선택하고 다음을 **클릭합니다**.
+1. 론치 **만들기** 마법사에서 **다음을** 클릭합니다. 하위 **페이지** 포함 옵션은 기본적으로 선택되어 있습니다.
 
    ![이미지](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. 채널을 선택하고 작업 **표시줄에서** [다음]을 클릭합니다.
-
    >[!NOTE]
-   >**하위 페이지** 포함 옵션은 기본적으로 선택되어 있습니다.
-
-   ![이미지](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. 론치 제목을 **여름** 판촉으로 **입력하면** 아래 그림과 같이 시작 **날짜를**&#x200B;설정할 필요가 없습니다. **만들기**&#x200B;를 클릭합니다.
-
-   >[!NOTE]
-   >
-   >*소스 페이지 라이브 데이터* 상속을 **활성화하거나 선택하면** 론치에서 채널을 Live Copy로 만들 수 있습니다. 원래 채널에서 변경된 경우 이러한 변경 사항이 론치 채널에 자동으로 적용됩니다.
-   >
-   >
-   >*비활성화 또는 선택* 해제소스 **페이지 라이브 데이터** 상속을 사용하면 론치에서 라이브 관계 없이 채널을 복사할 수 있습니다. 따라서 원래 채널을 변경하면 해당 변경 사항이 시작 채널에 적용되지 않습니다.
-
-   ![이미지](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >이 단계에서 라이브 실행 날짜를 설정하거나 론치가 이미 만들어지면 속성을 편집하는 동안 나중에 설정할 수 있습니다.
-
-1. 론치가 생성되었음을 알 수 있습니다. 열기를 클릭하여 **편집기에서** 페이지를 보거나 완료를 클릭하여 **프로젝트로** 돌아갈 수 있습니다.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   완료를 **클릭하면** FutureLaunch 채널로 돌아갈 **수** 있습니다.
-
-   ![이미지](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### 채널 추가 옵션 사용 {#add-channel-launch}
-
-1. 채널 **추가를** 클릭하여 론치를 만들 채널을 추가합니다.
+   >+ 채널 **추가** 옵션을 사용하여 론치를 만들 채널을 추가할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >여러 **채널** 또는 론치를 추가할 폴더를 선택하려고 하면 선택 옵션이 비활성화됩니다.
+   >1. 론치를 만들 채널로 이동하고 선택을 **클릭합니다**. 여러 **채널** 또는 론치를 추가할 폴더를 선택하려고 하면 선택 옵션이 비활성화됩니다.
+   >
+   >![이미지](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. 론치를 만들 채널로 이동하고 선택을 **클릭합니다**.
-
-   ![이미지](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. 이제 론치를 만들기 위해 추가한 채널을 선택하고 다음을 클릭할 수 **있습니다**.
-
-   ![이미지](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. 론치 제목을 **여름** 판촉으로 **입력하면** 아래 그림과 같이 시작 **날짜를**&#x200B;설정할 필요가 없습니다. **만들기**&#x200B;를 클릭합니다.
 
@@ -174,6 +130,7 @@ AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르
    완료를 **클릭하면** FutureLaunch 채널로 돌아갈 **수** 있습니다.
 
    ![이미지](/help/user-guide/assets/launches-images/launches-16.png)
+
 
 ### 실행 속성을 편집하여 라이브 날짜 및 범위 설정 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
@@ -189,35 +146,23 @@ AEM Screens 프로젝트에서 론치를 구현하려면 아래 섹션을 따르
 
    ![이미지](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 론치를 선택하고 [론치 보류 중] 패널에서 원하는 작업을 **클릭합니다** .
+1. 론치를 선택하고 [론치 보류 **중** ] 패널에서 론치 **속성을** 클릭합니다.
 
    ![이미지](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. 예를 들어 론치 속성을 클릭하여 론치 **여름** 프로모션의 속성을 **편집합니다**.
+#### 채널 추가 또는 제거를 위한 화면 실행 편집 {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![이미지](/help/user-guide/assets/launches-images/launches-20.png)
+론치를 만든 후 론치 편집 작업을 사용하여 기존 론치에 채널을 추가하거나 제거할 **수** 있습니다.
 
-1. Luanch 제목을 편집하고 **다음** 필드를 채울 수 있습니다.
+완료되면 저장 및 닫기를 클릭하여 **FutureLaunch** 채널로 **돌아갑니다** .
 
-   * 론치 **날짜 선택**
-   * 프로덕션 **준비 상태 확인**
-   * 범위에서 **승인된 페이지** 홍보 **선택**
-   **자동 판촉 아래의 론치 항목 이해:**
+#### 수동으로 스크린 시작 홍보{#promote-the-screens-launch-manually}
 
-   * **론치**&#x200B;날짜(Launch Date)는 라이브 날짜, 즉 컨텐츠가 플레이어의 표준 시간대로 Screens 플레이어에서 재생되는 날짜/시간을 나타냅니다.
-   * **Production** Ready를 사용하면 채널을 홍보할 수 있으며 론치를 사용할 준비가 되었음을 의미합니다.
-   * **범위란**&#x200B;론치 중에 홍보할 수 있는 채널을 의미합니다.
-   다음 세 가지 옵션을 사용하여 범위를 설정할 수 있습니다.
+론치 승격 작업을 사용하여 론치를 수동으로 **홍보할 수** 있습니다.
 
-   * **전체 론치**&#x200B;홍보:론치의 모든 채널은 설정된 라이브 날짜에 홍보됩니다.
-   * **수정된 페이지**&#x200B;홍보:편집된 시작 리소스만 홍보됩니다. 론치 검토가 필요하지 않은 경우 이 옵션을 사용하는 것이 좋습니다. 이렇게 하면 론치 채널의 수정 사항을 홍보할 수 있습니다.
-   * **승인된 페이지**&#x200B;홍보:승인된 페이지만 설정된 라이브 날짜에 홍보됩니다.
+론치 프로모션 마법사에서 이 수동 판촉 행사의 일부로 홍보할 리소스를 선택할 **수 있습니다**.
 
-      >[!CAUTION]
-      >
-      >시작 프로모션은 서버의 시간대가 아닌 플레이어/장치의 시간대를 준수합니다.
+#### 스크린 시작 삭제 {#deleting-the-screens-launch}
 
-
-
-1. 저장 **및 닫기를** 클릭하여 FutureLaunch **채널로 돌아갑니다** .
+론치 삭제 **작업을 사용하여 론치를 삭제할 수** 있습니다.
 
