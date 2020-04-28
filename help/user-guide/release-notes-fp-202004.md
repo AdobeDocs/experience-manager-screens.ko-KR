@@ -1,10 +1,10 @@
 ---
 title: 기능 팩 202004용 릴리스 노트
 seo-title: 기능 팩 202004용 릴리스 노트
-description: 2020년 4월 20일에 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 보려면 이 페이지를 따르십시오.
-seo-description: 2020년 4월 20일에 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 보려면 이 페이지를 따르십시오.
+description: 2020년 4월 28일에 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 보려면 이 페이지를 따르십시오.
+seo-description: 2020년 4월 28일에 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 보려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
 
 AEM Screens에서 AEM 6.4 기능 팩 8 및 AEM 6.5 기능 팩 4에 대한 자세한 내용을 발표했습니다.
 
-## Release Date {#release-date}
+## 릴리스 날짜 {#release-date}
 
-AEM Screens 기능 팩 202004의 릴리스 날짜는 2020년 4월 20일입니다.
+AEM Screens 기능 팩 202004의 릴리스 날짜는 2020년 4월 28일입니다.
 
 ### 새로운 기능 {#what-s-new}
 
