@@ -4,7 +4,10 @@ seo-title: Feature Pack 202004용 릴리스 노트
 description: 2020년 4월 20일 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 얻으려면 이 페이지를 따르십시오.
 seo-description: 2020년 4월 20일 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 얻으려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 AEM Screens는 AEM 6.4 기능 팩 8 및 AEM 6.5 기능 팩 4를 출시했습니다.
 
-보류 중인 링크에서 AEM Screens 6.4.8 또는 AEM Screens 6.5.4 릴리스의 최신 기능 팩을 *다운로드할 수 있습니다*.
+Adobe ID를 사용하여 [Adobe Experience Manager Cloud Management에서 AEM Screens 6.4.8 또는 AEM Screens 6.5.4 릴리스의 최신 기능](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) 팩을 다운로드할 수 있습니다.
 
 >[!NOTE]
 >패키지 [를 사용하여](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) 작업하는 방법을 참조하여 패키지가 저장소 컨텐츠를 가져오고 내보내는 방법과 패키지 관리자 또는 패키지 공유에서 패키지를 액세스 및/또는 유지 관리하는 방법에 대해 알아보십시오.
