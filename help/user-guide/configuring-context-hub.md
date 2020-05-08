@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -97,6 +97,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
       >[!CAUTION]
       >AEM 6.5 Feature Pack 4 또는 AEM 6.4 Feature Pack 8의 일부로 고객은 로 업데이트해야 합니다 `/conf/screens/settings/cloudsettings` `sling:Folder`.
+      > 
       >아래 단계를 따르십시오.
       >
       >1. CRXDE Lite로 이동한 다음 로 이동합니다 `/conf/screens/settings/cloudsettings`.
