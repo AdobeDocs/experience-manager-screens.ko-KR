@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,10 @@ ht-degree: 6%
 
 위의 단계를 사용하여 다중 영역 레이아웃을 구현하면 아래 그림과 같이 다음 출력이 표시됩니다.
 
-Screens 플레이어의 다음 출력은 서로 다른 세 영역의 컨텐츠를 표시합니다. 왼쪽 및 오른쪽 영역(모두 구성 요소로 포함된 시퀀스를 사용)은 이미지 시퀀스를 표시하고 아래 영역에는 정적 이미지가 표시됩니다.
+채널 편집기에서 **미리** 보기를 클릭하여 두 개의 다른 영역에 컨텐츠를 표시하는 다음 출력을 봅니다. 왼쪽 및 오른쪽 영역(둘 다 포함된 시퀀스를 구성 요소로 사용).
+
+>[!NOTE]
+>Screens 플레이어에서 컨텐츠를 보려고 하는 경우 채널 대시보드에서 **오프라인 컨텐츠** 업데이트를 클릭해야 합니다.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
