@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 6%
 
 ---
@@ -69,13 +69,10 @@ ht-degree: 6%
 
    1. 영역 **—> 채널** **—>**&#x200B;다중 영역&#x200B;**으로**&#x200B;이동합니다.
    1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **채널에 이미지 추가**
 
-   3개 영역 모두에서 단일 이미지나 비디오를 재생하려면 아래에 표시된 대로 채널 편집기에 이미지를 드래그하여 놓으면 됩니다.
-
-   ![new1-1](assets/new1-1.gif)
+   3개 영역 모두에서 단일 이미지나 비디오를 재생하려면 해당 이미지를 채널 편집기에 드래그하여 놓으면 됩니다.
 
 ### 하나 이상의 영역에서 순차적 컨텐츠 사용 {#using-sequenced-content-in-one-or-more-zones}
 
