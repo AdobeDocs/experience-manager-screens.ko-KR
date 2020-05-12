@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 4%
@@ -151,7 +151,7 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
    1. 지원되는 이벤트 **를** 초기 **로드**, **유휴 화면**&#x200B;및 **으로**&#x200B;설정합니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-      ![이미지](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![이미지](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. 마찬가지로, 다른 두 개의 포함된 채널(**Zone1** 및 **Zone2**)을 이 디스플레이에 지정해야 합니다(2).
    1. 로비 **디스플레이에 세 개** 채널을 모두 할당하면 디스플레이 대시보드에서 지정된 채널을 볼 수 있습니다.
 
