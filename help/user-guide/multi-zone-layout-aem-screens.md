@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -176,7 +176,7 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
    >[!NOTE]
    >Screens 플레이어에서 컨텐츠를 보려고 하는 경우 채널 대시보드에서 **오프라인 컨텐츠** 업데이트를 클릭해야 합니다.
 
-#### 결과 보기 {#viewing-the-result}
+### 결과 보기 {#viewing-the-result}
 
 이전 단계를 사용하여 다중 영역 레이아웃을 구현하면 다음 출력이 표시됩니다.
 
