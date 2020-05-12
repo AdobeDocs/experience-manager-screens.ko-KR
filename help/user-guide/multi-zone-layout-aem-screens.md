@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -91,7 +91,9 @@ ht-degree: 4%
    1. 만들기 **마법사에서** 시퀀스 채널 **을** 선택하여 **영역** 1로 명명된 채널을만듭니다.
    1. Select **Zone1** and click **Edit** from the action bar to open the editor.
    1. 이미지를 드래그하여 이 채널에 놓습니다.
-   마찬가지로, EmbeddedChannels 폴더에 **Zone2라는** 다른 시퀀스 채널 **을** 만듭니다.
+   1. 마찬가지로, EmbeddedChannels 폴더에 **Zone2라는** 다른 시퀀스 채널 **을** 만듭니다.
+   1. 비디오를 드래그하여 이 채널에 놓습니다.
+   다음 그림은 **Zone1** 및 **Zone2의 채널을 보여줍니다**.
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ ht-degree: 4%
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   아래 그림과 같이 **Zone2** 시퀀스 채널의 편집기에 비디오를 추가합니다.
+   Zone2 **시퀀스 채널 편집기에 추가된 비디오는 아래에** 표시됩니다.
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ ht-degree: 4%
 
    1. 영역 **—> 채널** **** —> **다중 영역**&#x200B;으로이동합니다.
    1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
-   1. 포함된 시퀀스 **구성** 요소를 두 영역 중 하나로 드래그하여 놓습니다.
+   1. 포함된 시퀀스 **구성 요소를** 두 영역 모두에 드래그하여 놓습니다.
    1. 영역 중 하나에서 포함된 시퀀스를 선택합니다.
    1. 편집기에 포함된 시퀀스 중 하나에 **대한 구성** (렌치) 아이콘을 클릭합니다.
    1. 아래 그림에 표시된 대로 채널 경로를 **영역** —> **채널** —> **포함된 채널** —> **Zone1**&#x200B;으로 선택합니다.
