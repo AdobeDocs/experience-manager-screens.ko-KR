@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 6%
+source-wordcount: '1175'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 이 기능을 구현하기 전에 다중 영역 레이아웃 구현을 시작하기 위한 사전 요구 사항으로 프로젝트를 준비했는지 확인하십시오. 예,
 
 * 영역으로 제목이 있는 AEM Screens 프로젝트 **만들기**
-* MultiZoneDisplay라는 **위치**&#x200B;에&#x200B;**표시 만들기**
+* MultiZoneDisplay라는 **위치** 아래에 **디스플레이를**&#x200B;만듭니다.
 
 영역 프로젝트에서 **다중** 영역 **으로** 제목이 지정된 채널을만듭니다. 아래 단계를 따르십시오.
 
@@ -53,13 +53,11 @@ ht-degree: 6%
 1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. 채널 **폴더로** 이동하고 작업 **모음에서** 만들기를 클릭합니다.
 
-1. 만들기 **마법사에서 왼쪽 L-바 분할 화면** 채널을 **선택합니다** .
+1. 만들기 마법사에서 **1x2 분할 화면** 채널 **을** 선택합니다.
 
 1. [ **다음** ]을 클릭하고 **제목을** 다중 영역 **으로**&#x200B;입력합니다.
 
 1. 만들기를 **클릭하여** 채널 만들기를 완료합니다.
-
-![screen_shot_2018-12-07at120026pm](assets/screen_shot_2018-12-07at120026pm.png)
 
 ### 하나 이상의 영역에서 단일 자산 사용 {#using-single-assets-in-one-or-more-zones}
 
@@ -72,11 +70,15 @@ ht-degree: 6%
 
 1. **채널에 이미지 추가**
 
-   3개 영역 모두에서 단일 이미지나 비디오를 재생하려면 해당 이미지를 채널 편집기에 드래그하여 놓으면 됩니다.
+   두 영역에서 단일 이미지나 비디오를 재생하려면 아래 그림과 같이 채널 편집기의 각 영역에 이미지를 드래그하여 놓으면 됩니다.
+
+   MultiZone-img3
+
+   ![이미지](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### 하나 이상의 영역에서 순차적 컨텐츠 사용 {#using-sequenced-content-in-one-or-more-zones}
 
-영역에 세 개의 다른 영역에 이미지 또는 컨텐츠의 시퀀스 및 정적 이미지를 표시하려면 아래 단계를 따르십시오.
+영역에 이미지 또는 컨텐츠의 시퀀스 및 정적 이미지를 서로 다른 두 영역에 표시하려면 아래 단계를 따르십시오.
 
 1. **채널 폴더 만들기**
 
@@ -97,13 +99,13 @@ ht-degree: 6%
 
    Zone1 **시퀀스 채널의 편집기에 추가된 이미지는** 아래에표시되어 있습니다.
 
-   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Zone2 **시퀀스 채널 편집기에 추가된 이미지는 아래에** 표시되어 있습니다.
+   Zone2 **시퀀스 채널 편집기에 추가된 비디오는 아래에** 표시됩니다.
 
-   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
-1. **기본 채널에 포함된 시퀀스/구성 요소 추가(다중 영역)**
+1. **기본 채널(다중 영역)에 포함된 시퀀스(구성 요소 추가**
 
    1. 영역 **—> 채널** **** —> **다중 영역**&#x200B;으로이동합니다.
    1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
@@ -119,15 +121,70 @@ ht-degree: 6%
 
    ![이미지](/help/user-guide/assets/multi-zone/multizone-3.png)
 
+### 위치 및 표시 만들기 {#creating-location}
+
+Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 만들어야 합니다. 아래 절차에 따라 위치와 디스플레이를 만드십시오.
+
+1. **위치 생성**
+
+   1. 영역 **—> 위치** **폴더로** 이동합니다.
+   1. 위치 **폴더를** 선택하고 작업 **모음에서** 만들기를 클릭합니다.
+   1. **만들기** 마법사 **에서** 위치를 선택하고 **다음을**&#x200B;클릭합니다.
+   1. Enter the **Title** as **SanJose** and click **Create**.
+
+1. **디스플레이 만들기**
+
+   1. 영역 **—> 위치** **폴더로** 이동합니다.
+   1. SanJose **위치를** 선택하고 작업 **모음에서** 만들기를 클릭합니다.
+   1. **만들기** 마법사 **에서** 표시를 선택하고 **다음을**&#x200B;클릭합니다.
+   1. Enter the **Title** as **Lobby** and click **Create**.
+
+### 디스플레이에 채널 지정 {#channel-channel}
+
+컨텐츠를 보려면 채널을 디스플레이에 지정해야 합니다. 아래 절차에 따라 디스플레이에 채널을 지정합니다.
+
+1. **디스플레이에 채널 지정**
+
+   1. Zones **—>** Locations **—>** SanJose **—>** LobbyCover ****&#x200B;로 이동합니다.
+   1. [ **로비** ] 표시를 선택하고 작업 **표시줄에서 [채널** 할당]을 클릭합니다.
+   1. 채널 경로에 **다중 영역** 채널 경로를 **입력합니다**.
+   1. 지원되는 이벤트 **를** 초기 **로드**, **유휴 화면**&#x200B;및 **으로**&#x200B;설정합니다.
+   1. **저장**&#x200B;을 클릭합니다.
+
+      ![이미지](/help/user-guide/assets/multi-zone/multizone-img7.png)
+   1. 마찬가지로, 다른 두 개의 포함된 채널(**Zone1** 및 **Zone2**)을 이 디스플레이에 지정해야 합니다(2).
+   1. 로비 **디스플레이에 세 개** 채널을 모두 할당하면 디스플레이 대시보드에서 지정된 채널을 볼 수 있습니다.
+
+      ![이미지](/help/user-guide/assets/multi-zone/multizone-img8.png)
+   >[!I역정]
+   > 주 채널(이 경우 **다중 영역**)을 디스플레이에 할당하면 다른 두 개의 포함된 채널 **Zone1** 및 **Zone2** 도 동일한 디스플레이에할당해야 합니다.
+
+### 장치 등록 {#registering-device}
+
+위치 및 디스플레이를 설정하고 나면 아래 단계에 따라 장치를 등록하고 장치에 디스플레이를 할당합니다.
+
+1. **장치 등록**
+
+   1. 영역 **—> 장치** **폴더로** 이동합니다.
+   1. Select the **Devices** folder and click **Device Manager** from the action bar.
+   1. 장치 **등록을** 클릭하고 목록에서 보류 중인 장치를 선택합니다.
+      >[!NOTE]
+      > 장치의 제목은 장치 등록&#x200B;**탭에 표시된 장치 토큰(** 토큰 **필드)과 일치해야** 합니다.
+   1. 제목이 장치 토큰과 일치하는 경우 장치를 선택하고 작업 표시줄에서 **장치** 등록을 클릭합니다.
+   1. 등록 코드가 Screens 플레이어 등록 탭의 코드와 일치하는 경우 작업 표시줄에서 **유효성** 검사를 클릭합니다.
+      ![이미지](/help/user-guide/assets/multi-zone/multizone-img6.png)
+   1. Enter the **Title** as **Chrome-Device1** and click **Register**.
+   1. 디스플레이 **할당을** 선택하고 장치 구성의 경로를 선택합니다.
+
 #### 결과 보기 {#viewing-the-result}
 
 위의 단계를 사용하여 다중 영역 레이아웃을 구현하면 아래 그림과 같이 다음 출력이 표시됩니다.
 
-채널 편집기에서 **미리** 보기를 클릭하여 두 개의 다른 영역에 컨텐츠를 표시하는 다음 출력을 봅니다. 왼쪽 및 오른쪽 영역(둘 다 포함된 시퀀스를 구성 요소로 사용).
+서로 다른 두 영역에 컨텐츠를 표시하는 출력을 보려면 Screens 플레이어를 선택합니다. 왼쪽 및 오른쪽 영역(둘 다 포함된 시퀀스를 구성 요소로 사용).
 
 >[!NOTE]
 >Screens 플레이어에서 컨텐츠를 보려고 하는 경우 채널 대시보드에서 **오프라인 컨텐츠** 업데이트를 클릭해야 합니다.
 
-![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
 
