@@ -4,7 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 13%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [Screens 플레이어 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
    + [ACL 설정](setting-up-acls.md)
+   + [AEM Screens 보안 검사 목록](security-checklist.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일의 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
