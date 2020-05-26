@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 ### 전제 조건 {#prerequisites}
 
-이 기능을 구현하기 전에 다음에 대한 개념 지식을 확인하십시오.
+이 기능을 구현하기 전에 다음 사항에 대한 개념 지식이 있는지 확인하십시오.
 
 * [AEM Screens 프로젝트 만들기](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [디스플레이 만들기](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ ht-degree: 4%
 
 ### 하나 이상의 영역에서 단일 자산 사용 {#using-single-assets-in-one-or-more-zones}
 
-이미지 또는 비디오와 같은 단일 자산을 세 개의 서로 다른 모든 영역에서 사용할 수 있습니다. 구현하려면 아래 절차를 따르십시오.
+모든 개별 영역에서 이미지나 비디오와 같은 단일 자산을 사용할 수 있습니다. 구현하려면 아래 절차를 따르십시오.
 
 1. **채널에 컨텐츠 추가**
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 ### 하나 이상의 영역에서 순차적 컨텐츠 사용 {#using-sequenced-content-in-one-or-more-zones}
 
-영역에 두 개의 다른 영역에 이미지 및 비디오 시퀀스를 표시하려면 아래 단계를 따르십시오.
+영역에 여러 영역에 이미지 시퀀스와 비디오를 표시하려면 아래 단계를 따르십시오.
 
 1. **채널 폴더 만들기**
 
@@ -174,7 +174,7 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. 디스플레이 **할당을** 선택하고 장치 구성의 경로를 선택합니다.
    >[!NOTE]
-   >Screens 플레이어에서 컨텐츠를 보려고 하는 경우 채널 대시보드에서 **오프라인 컨텐츠** 업데이트를 클릭해야 합니다.
+   >Screens 플레이어에서 컨텐츠를 보려고 하는 경우 디스플레이에 지정된 각 채널에 대해 채널 대시보드에서 **오프라인 컨텐츠** 업데이트를 클릭해야 합니다.
 
 ### 결과 보기 {#viewing-the-result}
 
