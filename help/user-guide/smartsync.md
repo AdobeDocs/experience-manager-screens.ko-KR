@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -81,7 +81,7 @@ ContentSync에서 SmartSync로 전환하려면 아래 절차를 따르십시오.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager 웹 콘솔 구성 **열립니다. offlinecontentservice *를 검색합니다*.
+1. **Adobe Experience Manager 웹 콘솔 구성이** 열립니다. offlinecontentservice *를 검색합니다*.
 
    Screens 오프라인 서비스 **속성을 검색하려면** Mac **및 Windows용 Command+F** 를 **누르고** 는 Windows용 **Ctrl+F** Content를 눌러 Windows용 Screens Offline Service ****&#x200B;속성을 검색하십시오.
 
