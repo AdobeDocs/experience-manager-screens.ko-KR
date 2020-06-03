@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -71,11 +71,9 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
 1. **We.Retail에서 사이트 페이지로 이동**
 
-   1. 사이트로 이동하고 We.Retail In-Store **->** 미국 **** ->**영어** 를 선택하고 **** 장비 페이지를 선택하여 이 페이지를 스크린 채널에 대한 경험 조각으로 사용합니다.
+   1. 사이트로 이동하고 **We.Retail In-Store** -> **채널** ->**유휴 채널 - 밤을** 선택하고 이 페이지를 선택하여 이 페이지를 스크린 채널에 대한 경험 조각으로 사용합니다.
 
    1. 작업 **표시줄에서 편집을** 클릭하여 스크린 채널에 대한 경험 조각으로 사용할 페이지를 엽니다.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **컨텐츠 재사용**
 
