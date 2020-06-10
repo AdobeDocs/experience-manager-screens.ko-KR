@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 * **개요**
 * **AEM Screens에서의 경험 조각 사용**
-* **마스터 페이지에서 변경 내용 전파**
+* **페이지에 변경 내용 전파**
 
 ## 개요 {#overview}
 
@@ -79,6 +79,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
    1. 채널에 포함할 조각을 선택합니다.
    1. 오른쪽에서 마지막 아이콘을 클릭하여 경험 조각으로 **변환 대화 상자를** 엽니다.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **경험 조각 만들기**
@@ -91,12 +92,14 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
    1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. 확인 표시를 클릭하여 새 경험 조각 생성을 완료합니다.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **경험 조각 Live Copy 생성**
 
    1. AEM 홈 페이지로 이동합니다.
    1. 경험 **조각을** 선택하고 **ScreensFragment** 를 강조 표시한 다음 **Variation을 Live Copy**&#x200B;로 클릭합니다.
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Live Copy 만들기 마법사에서** **ScreensFragment** **를 선택하고 **다음을 클릭합니다**.
@@ -118,6 +121,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
    1. Screens **Fragment** (이전 단계에서 생성됨)로 이동하고 작업 모음에서 **속성** 을 클릭합니다.
 
    1. 아래 그림과 같이 **오프라인 구성** 탭을 선택합니다.
+
    클라이언트측 라이브러리 **(java 및 css)와** 정적 파일을 경험 조각에 추가할 **** 수 있습니다.
 
    다음 예는 클라이언트측 라이브러리와 글꼴을 정적 파일의 일부로 경험 조각에 추가하는 것을 보여줍니다.  ![조각](assets/fragment.gif)
@@ -129,6 +133,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
    1. 사이드 탭에서 구성 요소 아이콘을 클릭합니다.
    1. 경험 조각 **을 채널에** 드래그하여 놓습니다.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. 경험 **조각** 구성 요소를 선택하고 맨 위 왼쪽(공구모양) 아이콘을 선택하여 경험 조각 **대화 상자를** 엽니다.
@@ -163,7 +168,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 아래 그림과 같이, **사이트** 페이지(경험 조각의 Live-Copy)의 컨텐츠를 채널에 볼 수 있습니다.\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## 마스터 페이지에서 변경 내용 전파 {#propagating-changes-from-the-master-page}
+## 페이지에 변경 내용 전파 {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** 는 롤아웃 구성에 정의된 대로 동기화 작업으로 유지 관리되는 소스 사본을 참조합니다.
 
@@ -173,7 +178,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 >
 >Live Copy에 대한 자세한 내용은 컨텐츠 재사용을 참조하십시오. 다중 사이트 관리자 및 Live Copy.
 
-아래 절차에 따라 마스터 채널에서 대상 채널에 변경 사항을 전파하십시오.
+아래 절차에 따라 마스터 채널에서 대상 채널로 변경 사항을 전파하십시오.
 
 1. [ **사이트** (마스터)] 페이지에서 [경험 조각]을 선택하고 연필 아이콘을 클릭하여 경험 조각에서 항목을 편집합니다.
 
