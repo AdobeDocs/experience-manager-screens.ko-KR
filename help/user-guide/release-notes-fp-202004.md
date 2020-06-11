@@ -4,7 +4,7 @@ seo-title: Feature Pack 202004용 릴리스 노트
 description: 2020년 4월 20일 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 얻으려면 이 페이지를 따르십시오.
 seo-description: 2020년 4월 20일 릴리스된 AEM Screens 기능 팩 2004에 대한 정보를 얻으려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 AEM Screens는 AEM 6.4 기능 팩 8 및 AEM 6.5 기능 팩 4를 출시했습니다.
 
-Adobe ID를 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) AEM Screens 6.4.8 또는 AEM Screens 6.5.4 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. Adobe **Experience Manager** 탭으로 이동하여 **Screens** 를 검색하여 최신 기능 팩을 가져옵니다.
+Adobe ID를 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) AEM Screens 6.4.8 또는 AEM Screens 6.5.4 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. Adobe **Experience Manager** 탭으로 이동하여 **Screens** 를 검색하여 최신 기능 팩을 가져옵니다.
 
 ## 릴리스 날짜 {#release-date}
 
