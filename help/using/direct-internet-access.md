@@ -2,7 +2,7 @@
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -55,7 +55,7 @@ AEM Screens는 디지털 서명 사용자에게 큰 이점을 제공합니다. �
 
 다음 표에서는 네트워크 연결 키 데이터에 대한 개요를 제공합니다.
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >이 정보를 통해 인터넷 소스를 요청하고 다운로드하는 네트워크에서 각 장치의 소비를 볼 수 있습니다. 따라서 이러한 각 요청은 다운로드 시간을 추가하고 확장합니다.
