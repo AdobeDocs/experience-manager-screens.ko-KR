@@ -1,8 +1,8 @@
 ---
 title: AEM Screens에서 작성자 및 게시 구성
 seo-title: AEM Screens에서 작성자 및 게시 구성
-description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
-seo-description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
+description: AEM Screens 건축은 전통적인 AEM Sites 건축과 닮았다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
+seo-description: AEM Screens 건축은 전통적인 AEM Sites 건축과 닮았다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 작성자 및 게시 서버를 시작하기 전에 다음에 대한 사전 지식이 있어야 합니다.
 
 * **AEM 토폴로지**
-* **AEM Screens 프로젝트 만들기 및 관리**
+* **AEM Screens 프로젝트 생성 및 관리**
 * **장치 등록 프로세스**
 
 >[!NOTE]
@@ -132,7 +132,7 @@ ht-degree: 2%
 1. 토폴로지 커넥터 URL 업데이트: 모든 구문 실행 게시 인스턴스의 URL 추가:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. 토폴로지 커넥터 허용 목록: partaking publish instances를 포함하는 IP 또는 서브넷에 적용
+1. **토폴로지 커넥터 허용 목록**: partaking publish instances를 포함하는 IP 또는 서브넷에 적용
 1. 로컬 **루프 자동 중지 활성화**
 
 각 게시 인스턴스에 대해 구성이 동일해야 하며 자동 정지 로컬 루프는 무한 루프를 방지합니다.
@@ -264,7 +264,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->또는 장치를 활성화한 후에는 아래 그림과 같이 작업 표시줄에서 **서버 URL** 편집을 클릭하여 서버 URL을 편집하거나 업데이트할 수 있으며 변경 사항이 AEM Screens 플레이어에 전파됩니다.
+>또는 장치를 활성화한 후에는 아래 그림과 같이 작업 표시줄에서 **서버 URL** 편집을 클릭하여 서버 URL을 편집하거나 업데이트할 수도 있습니다. 그러면 변경 내용이 AEM Screens 플레이어에 전파됩니다.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -286,13 +286,13 @@ ht-degree: 2%
 1. 게시 **관리를** 수행하여 모든 게시 인스턴스에 새 변경 사항을 게시합니다.
 1. 장치 관리자 **에서** 장치를 활성화하려면 **활성화를 누르십시오.**
 1. **작성자 인스턴스 URL에서** 게시 인스턴스 URL 중 하나로 URL 편집
-1. 업데이트된 채널 컨텐츠가 AEM Screens 플레이어에 표시되는지 확인
+1. 업데이트된 채널 콘텐츠가 AEM Screens 플레이어에 표시되는지 확인
 1. 다른 게시 인스턴스를 사용하여 이 단계를 반복합니다
 
 
 #### 5단계: 관리 패널에서 게시 인스턴스를 가리키는 장치 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Screens 플레이어에서 관리자 UI를 보거나, 왼쪽 위 모서리를 길게 눌러 [관리] 메뉴를 열거나, 터치가 활성화된 AEM Screens 플레이어에서 또는 마우스를 사용하여 엽니다.
+1. Screens 플레이어에서 관리자 UI를 보거나, 왼쪽 위 모서리를 길게 눌러 관리 메뉴, 터치 지원 AEM Screens 플레이어에서 또는 마우스를 사용하여 관리 UI를 엽니다.
 1. 사이드 패널에서 **구성** 옵션을 클릭합니다.
 1. 작성자 인스턴스를 **서버**&#x200B;에서 게시 인스턴스로 변경합니다.
 
@@ -302,10 +302,10 @@ AEM Screens 플레이어에서 변경 사항을 확인합니다.
 
 1. AEM Screens 프로젝트로 이동하고 장치 **폴더를** 선택합니다.
 1. Click **Device Manager** from the action bar.
-1. 아래 그림에 표시된 대로 장치를 선택하고 작업 표시줄에서 **서버 URL** 편집을 클릭하면 변경 사항이 AEM Screens 플레이어에 전파됩니다.
+1. 장치를 선택하고 작업 표시줄에서 [ **서버 URL** 편집]을 클릭합니다. 아래 그림에서와 같이 변경 사항이 AEM Screens 플레이어에 전파됩니다.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-게시 **관리** 기능을 사용하면 작성자에서 장치에 게시까지 컨텐츠 업데이트를 제공할 수 있습니다. 전체 AEM Screens 프로젝트 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대해서만 컨텐츠를 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [온디맨드 컨텐츠 업데이트를 참조하십시오](on-demand-content.md).
+게시 **관리** 기능을 사용하면 작성자에서 장치에 게시까지 컨텐츠 업데이트를 제공할 수 있습니다. 전체 AEM Screens 프로젝트 또는 채널, 위치, 디바이스, 애플리케이션 또는 일정 중 하나에 대해서만 컨텐츠를 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [온디맨드 컨텐츠 업데이트를 참조하십시오](on-demand-content.md).
 
 
