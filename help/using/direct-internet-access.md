@@ -2,9 +2,9 @@
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 이 구성에는 인터넷 서비스 공급자(ISP)의 인터넷 접속 및 인터넷 회선이 포함됩니다. 대부분의 ISP는 인터넷 모뎀, 네트워크 스위치, WIFI 액세스 포인트, 방화벽 및 기타 네트워크 기능을 포함하는 인터넷 라우터를 제공합니다(제조업체 및 모델에 따라 다름).
 
 >[!NOTE]
->**문제 해결 팁&#x200B;**>AEM Screens이 제대로 연결되지 않고 예상 콘텐트를 표시하는 경우:
+>**문제 해결 팁&#x200B;**>AEM Screens이 제대로 연결되지 않고 예상 콘텐트를 표시하지 않는 경우:
 >
 >1. 인터넷 라우터 방화벽에 대한 제한 사항이 있는지 확인하십시오 `TCP/IP Port 80/443`.
 >1. 필요한 모든 포트가 허용되었는지 확인하고 다시 시도하십시오.
