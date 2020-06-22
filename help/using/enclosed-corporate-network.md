@@ -2,7 +2,7 @@
 title: 동봉된 회사 네트워크
 description: 동봉된 회사 네트워크
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -45,3 +45,5 @@ AEM Screens은 디지털 서명 사용자에게 큰 이점을 제공합니다. �
 다음 표에서는 예상 가능한 성능 및 잠재적 대기 시간에 대한 네트워크 연결 키 데이터의 의미에 대해 잘 설명합니다.
 
 모든 정보는 인터넷 소스를 요청하고 다운로드하는 네트워크에서 각 장치의 소비로 표시되어야 합니다. 따라서 이러한 각 요청은 다운로드 시간을 추가하고 확장합니다.
+
+![](/help/using/assets/enclosed-network-download.png)
