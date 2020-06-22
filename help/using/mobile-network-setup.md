@@ -2,9 +2,9 @@
 title: 모바일 네트워크 설정
 description: 모바일 네트워크 설정에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,18 @@ AEM Screens 내에서 필요한 컨텐츠는 플레이어 컨트롤러/컴퓨터
 이 SetUp을 사용하면 AEM Screens을 연결하는 데 필요한 일반 줄이 없으므로 AEM Screen Users가 뛰어난 유연성을 얻을 수 있습니다.
 
 
-## 직접 액세스 네트워크 설정 요구 사항 {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**문제 해결 팁&#x200B;**>AEM Screens이 제대로 연결되지 않고 예상 콘텐트를 표시하지 않는 경우:
+>
+>1. 인터넷 라우터 방화벽에 대한 제한 사항이 있는지 확인하십시오 `TCP/IP Port 80/443`.
+>1. 필요한 모든 포트가 허용되었는지 확인하고 다시 시도하십시오.
+
+
+
+
+## 모바일 네트워크 설정 요구 사항 {#requirements-direct}
 
 5.5에 설명된 네트워크 설정은 세 개 블록으로 논리적으로 분리할 수 있습니다. WAN/외부 월드/인터넷 연결 블록(여기 모바일 데이터 연결), 내부 LAN/로컬 영역 네트워크 및 선택적 LAN의 하위 섹션(활성 네트워크 구성 요소로 분리)입니다.
 최상의 성능을 제공하려면 두 섹션이 권장 최소 표준과 일치하는지 확인해야 합니다.
