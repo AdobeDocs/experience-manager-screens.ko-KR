@@ -4,9 +4,9 @@ seo-title: 표준 네트워크 설정 소개
 description: 표준 네트워크 설정에 대해 설명합니다.
 seo-description: 표준 네트워크 설정에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 
 다음 세 가지 주요 유형의 네트워크 설정이 있습니다.
 
-1. [직접 인터넷 액세스](/help/using/direct-internet-access.md)
-1. [직접 모바일 네트워크](/help/using/mobile-network-setup.md)
-1. [모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크](/help/using/mobile-network-setup-router.md)
-1. [동봉된 회사 네트워크](/help/using/enclosed-corporate-network.md)
+1. [직접 인터넷 네트워크(유선/무선)](/help/using/direct-internet-network.md)
+1. [직접 모바일 네트워크](/help/using/mobile-network.md)
+1. [모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크](/help/using/mobile-network-router.md)
+1. [동봉된 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
 
 다음 표에서는 장점과 단점으로 다양한 유형의 네트워크 설정에 대해 설명합니다.
 
