@@ -2,9 +2,9 @@
 title: 직접 모바일 네트워크
 description: 이 페이지에서는 직접 모바일 네트워크 설정에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ AEM Screens 내에서 필요한 컨텐츠는 플레이어 컨트롤러 또는 �
 
 
 1. 네트워크 어댑터 설정이 라우터 설정과 일치하는지 확인하십시오.
+
 1. 라우터가 ISP Wide Area Network(Internet Link)에 올바르게 연결되어 있는지 확인합니다. 표준 라우터에서 신호 LED를 사용하여 식별할 수도 있습니다.
 
 1. URL 호출이 성공한 경우 AEM Screens을 계속 설치하고 그에 따라 등록할 수 있습니다. AEM Screens 시작
