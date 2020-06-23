@@ -5,10 +5,10 @@ getting-started-title: AEM Screens 우수 사례 가이드
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
+source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 95%
+source-wordcount: '130'
+ht-degree: 76%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 95%
 + 배포 브리핑 {#deployment-brief}
    + [AEM Platform 구성](aem-platform-configurations.md)
    + [프로젝트 분류 및 구현](project-taxonomy-implementation.md)
+   + 네트워크 트래픽 관리 {#manage-network-traffic}
+      + [직접 인터넷 네트워크(유선/무선)](/help/using/direct-internet-network.md)
+      + [직접 모바일 네트워크](/help/using/mobile-network.md)
+      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크](/help/using/mobile-network-router.md)
+      + [동봉된 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
    + [장치 구성](device-configurations.md)
    + [테스트 및 품질 보증](testing-quality-assurance.md)
    + [공급업체 참여 전략](vendor-engagement.md)
