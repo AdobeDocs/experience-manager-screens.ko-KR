@@ -2,7 +2,7 @@
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -72,7 +72,7 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 네트워크 연결 기능 외에 LAN(Local Area Network)의 성능은 AEM Screens을 원활하고 잘 작동할 수 있는 충분한 대역폭을 제공합니다.
 
 LAN 네트워크는 일반적으로 100MBit/초 네트워크와 최소한 일치하므로 많은 장치를 시스템에 연결하는 충분한 대역폭이 있습니다.
-WIFI 솔루션이 AEM Screens을 인터넷 링크에 연결할 것으로 예상되는 경우 IEEE 802.11g와 같은 최신 WIFI 표준을 최소한으로 사용하는 것이 좋습니다. 이 표준은 최대 54Mbit 연결을 지원합니다. 802.11h-n과 같은 *최신* 표준은 품질이 더 좋습니다.
+WIFI 솔루션이 AEM Screens을 인터넷 링크에 연결할 것으로 예상되는 경우 IEEE 802.11g와 같은 최신 WIFI 표준을 최소한으로 사용하는 것이 좋습니다. 이 표준은 최대 54Mbps의 연결을 지원합니다. 802.11h-n과 같은 *최신* 표준은 품질이 더 좋습니다.
 
 >[!NOTE]
 >WIFI 반복이 필요한 경우 Google Nest Mesh WIFI 또는 이와 유사한 Mesh WIFI 액세스 포인트 기술을 강력히 권장합니다. 다른 WiFi 반복 기술은 전체 네트워크에서 대역폭이 크게 손실됩니다.
