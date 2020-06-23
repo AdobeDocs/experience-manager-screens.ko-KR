@@ -4,15 +4,15 @@ seo-title: 표준 네트워크 설정 소개
 description: 표준 네트워크 설정에 대해 설명합니다.
 seo-description: 표준 네트워크 설정에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# 표준 네트워크 설정 소개 {#intro-standard-networks}
+# 네트워크 트래픽 관리 {#managing-network-traffic}
 
 네트워크 설치에는 다양한 구조가 있을 수 있습니다. 이 섹션에서는 환경에 배포된 네트워크 구조에 대한 개요를 제공합니다. 때때로 처음부터 구현되는 다양한 설정이 있습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 프록시 서버의 이점은 모든 사용자에게 캐시 역할을 할 수 있다는 것입니다. 하나 이상의 인터넷 사이트가 자주 요청되는 경우 이러한 사이트가 프록시의 캐시에 있을 수 있으므로 사용자 응답 시간이 향상됩니다. 프록시는 상호 작용을 기록할 수도 있으며, 이는 문제 해결에 도움이 될 수 있습니다.
 
-## 네트워크 설정 이해 {#network-setups}
+## 표준 네트워크 설정 이해 {#network-setups}
 
 네트워크 설정을 구현하려면 강점과 배포 세부 사항이 있는 다음 시나리오를 참조해야 합니다.
 
