@@ -2,15 +2,15 @@
 title: 동봉된 회사 네트워크
 description: 동봉된 회사 네트워크
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# 동봉된 회사 네트워크 {#enclosed-corporate-networks}
+# 동봉된 회사 네트워크(유선/무선) {#enclosed-corporate-networks}
 
 동봉된 기업 네트워크 설정은 중소기업, 대기업 및 기업 기업에 적용됩니다. 이론적으로 보다 복잡할 수 있지만 논리 설정은 아래 그림에 나와 있습니다.
 
