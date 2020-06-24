@@ -1,12 +1,10 @@
 ---
 title: 표준 네트워크 설정 소개
-seo-title: 표준 네트워크 설정 소개
 description: 표준 네트워크 설정에 대해 설명합니다.
-seo-description: 표준 네트워크 설정에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
