@@ -2,9 +2,9 @@
 title: 동봉된 회사 네트워크
 description: 동봉된 회사 네트워크
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    >1. 모든 필수 포트가 허용되었는지 확인하십시오.
 
 
-## 동봉된 기업 네트워크 설정 요구 사항 {#requirements-enclosed-networks}
+## 동봉된 회사 네트워크 설정 {#requirements-enclosed-networks}
 
 동봉된 기업 네트워크 설정은 다음 두 블록으로 논리적으로 구분됩니다.
 
