@@ -2,9 +2,9 @@
 title: 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크
 description: 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용한 모바일 네트워크에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ AEM Screens 내에서 필요한 컨텐츠는 플레이어 컨트롤러 또는 �
 
 
 
-## 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용한 모바일 네트워크 설정 요구 사항 {#requirements-direct}
+## 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하여 모바일 네트워크 설정 {#requirements-direct}
 
 네트워크 설정은 두 개의 블록으로 논리적으로 구분될 수 있습니다.
 
