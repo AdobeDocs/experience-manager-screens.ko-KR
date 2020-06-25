@@ -2,9 +2,9 @@
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ DM(Direct Internet Network)에는 AEM cloud services에 연결하기 위해 인�
 
 AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 * `http (TCP Port 80)`
+
    <br>또는,</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -52,7 +53,7 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
    >1. 모든 필수 포트가 허용되었는지 확인하십시오.
 
 
-## 직접 액세스 네트워크 설정 요구 사항 {#requirements-direct}
+## 직접 액세스 네트워크 설정 {#requirements-direct}
 
 DM(Direct Internet Network)은
 
