@@ -2,9 +2,9 @@
 title: 동봉된 회사 네트워크
 description: 동봉된 회사 네트워크
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 동봉된 회사 네트워크(유선/무선) {#enclosed-corporate-networks}
 
-동봉된 기업 네트워크 설정은 중소기업, 대기업 및 기업 기업에 해당됩니다. 이론적으로 보다 복잡할 수 있으며 논리 설정은 아래 그림에 나와 있습니다.
+동봉된 기업 네트워크 설정은 중소기업, 대기업 및 기업 기업에 해당됩니다. 이론적으로 보다 복잡할 수 있으며 논리적인 설정은 아래 그림에 나와 있습니다.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ### 광역 네트워크 {#wan-connection}
 
-네트워크 연결성 외에 인터넷 연결의 성능은 AEM Screens을 원활하고 잘 작동할 수 있는 충분한 대역폭을 제공하는 것입니다.
+네트워크 연결 기능 외에도 AEM Screens 컨텐츠 업데이트를 원활하게 작동하기 위해 충분한 대역폭을 제공해야 합니다.
 *충분한 대역폭은* 연결된 AEM 화면의 양과 네트워크 내의 다른 소비자(예: 스마트폰, 타블렛, 계산원, 컴퓨터 또는 게스트 Wi-Fi 네트워크)의 사용에 따라 달라집니다.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ### LAN {#lan-connection}
 
-네트워크 연결 기능 외에 LAN(Local Area Network)의 성능은 AEM Screens을 원활하게 작동하기 위해 충분한 대역폭을 제공하는 것입니다.
+네트워크 연결 기능 외에 LAN(Local Area Network)의 성능은 AEM Screens 컨텐츠 업데이트를 원활하게 작동하기 위해 충분한 대역폭을 제공해야 합니다.
 
 기업 조직의 LAN 네트워크는 일반적으로 최소 1000MBit/초 네트워크이므로 많은 장치를 시스템에 연결하기에 충분한 대역폭이 있습니다. 다른 활성 네트워크 구성 요소를 사용하는 동안 모든 구성 요소가 네트워크 대역폭 요구 사항과 일치해야 합니다.
 
-예를 들어, 네트워크 구성 요소는 적어도 1000Mbps 표준과 일치해야 하며 인터넷 액세스/라우터 규격에서 제공하는 대역폭과 일치해야 합니다.
+예를 들어, 네트워크 구성 요소는 적어도 100Mbps 표준과 일치해야 하며 인터넷 액세스/라우터 규격에서 제공하는 대역폭과 일치해야 합니다.
 
 ### 기타 기업 네트워크 세부 사항 {#other-networks}
 
