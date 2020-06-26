@@ -2,9 +2,9 @@
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 DM(Direct Internet Network)에는 AEM cloud services에 연결하기 위해 인터넷 액세스를 위한 진입점이 포함되어 있습니다.
 
 AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
 
    <br>또는,</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`, if your specific use case doesn&#39;t require that level security.
 
 포트는 전용 AEM 구성 설정 구성 때문에 달라질 수 있습니다. 이 SetUp 내에서 모든 장치는 아래 그림과 같이 인터넷 라우터에 직접 연결됩니다.
 
@@ -31,7 +31,7 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 
 아래 절차에 따라 이 구성에서 AEM Screen 플레이어의 적절한 연결을 확인하십시오.
 
-1. 각 AEM 화면 플레이어가 라우터 네트워크에 연결되어 있는지 확인합니다.
+1. 각 AEM 화면 플레이어가 라우터의 네트워크에 연결되어 있는지 확인합니다.
 1. 시스템 브라우저에서 URL을 호출하여 인터넷 연결을 테스트합니다.
 
    >[!NOTE]
