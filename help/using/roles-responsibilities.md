@@ -4,7 +4,7 @@ seo-title: AEM Screens 프로젝트 역할 및 책임
 description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 책임을 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 책임을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 7%
@@ -16,13 +16,14 @@ ht-degree: 7%
 
 숙련된 AEM 구현자는 *작성자*, *개발자* 및 *IT/기술자*&#x200B;라는 역할을 볼 수 있습니다.
 
-일반적인 AEM Screens 프로젝트에서 각 역할이 프로젝트에서 중요한 목적을 수행하므로 역할이 더 세분화됩니다.
+일반적인 AEM Screens 프로젝트에서는 프로젝트의 중요한 목적을 위해 각각의 역할을 구체화하므로 역할이 더욱 구체화됩니다.
 
 아래 다이어그램은 안내서 전체에서 참조할 역할을 보여줍니다.
 
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > 각 프로젝트의 설정 방식에 따라 사내 또는 아웃소싱이 될 수 있습니다.
 
 ## 역할 정의 {#roles}
@@ -79,11 +80,11 @@ AV 통합업체는 최종 고객과 함께 디지털 사이니지 하드웨어 �
 
 ### 프로젝트 관리자 {#project-managers}
 
-프로젝트 관리자는 일반적으로 AEM Screens 배포에 대한 전체 배포를 관리합니다. 프로젝트 관리자는 지정된 프로젝트의 전체 구현 담당자를 대상으로 일정 설정, 팀 요구 및 커뮤니케이션 처리, 과제 해결, 목표 달성 등 중요한 업무를 수행합니다.
+프로젝트 관리자는 일반적으로 AEM Screens 배포를 위한 전체 배포를 관리합니다. 프로젝트 관리자는 지정된 프로젝트의 전체 구현 담당자를 대상으로 일정 설정, 팀 요구 및 커뮤니케이션 처리, 과제 해결, 목표 달성 등 중요한 업무를 수행합니다.
 
 >[!NOTE]
 >
-> 디지털 사이니지 프로젝트의 다양한 역할 및 책임 및 타겟 고객에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>디지털 사이니지 프로젝트의 다양한 역할 및 책임 및 타겟 고객에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## 프로젝트 단계 {#project-stages}
@@ -98,7 +99,7 @@ AV 통합업체는 최종 고객과 함께 디지털 사이니지 하드웨어 �
 
 >[!NOTE]
 >
-> 이 가이드는 주로 *1일차* 및 *2일차*에 중점을 두지만, 성공적인 디지털 사이니지 프로젝트를 수행하기 위해서는 세 가지 단계에 모두 관심을 기울여야 합니다.
+>이 가이드는 주로 *1일차* 및 *2일차*에 중점을 두지만, 성공적인 디지털 사이니지 프로젝트를 수행하기 위해서는 세 가지 단계에 모두 관심을 기울여야 합니다.
 프로젝트 관리 및 배포에 대한 추가 비디오 **[에](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**따라 프로젝트 사전 제작, 프로젝트 시작 및 프로젝트 진행 상황을 확인할 수 있습니다.
 
 ## RACI 차트 {#raci-chart}
@@ -107,7 +108,7 @@ AV 통합업체는 최종 고객과 함께 디지털 사이니지 하드웨어 �
 
 >[!NOTE]
 >
-> 이 차트는 정확하게 수행되는 것이 아니라 AEM Screens 프로젝트에서 일반적인 작업 및 고려 사항의 예를 제공합니다.
+>이 차트는 정확하게 수행되는 것이 아니라 AEM Screens 프로젝트에서 일반적인 작업 및 고려 사항의 예를 제공합니다.
 
 ### RACI 정의 {#raci-definitions}
 
@@ -176,7 +177,7 @@ AV 통합업체는 최종 고객과 함께 디지털 사이니지 하드웨어 �
 
 >[!NOTE]
 >
-> 둘째 날 동안 역할 변경(실행 후 지원).
+>둘째 날 동안 역할 변경(실행 후 지원).
 
 * **작성자**: 콘텐츠 관리 + 전략
 
