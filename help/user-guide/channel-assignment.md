@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 이 섹션에서는 다음과 같은 주제를 다룹니다.
 
 * **채널 지정**
-* **채널 지정 대화 상자의 속성 이해**
+* **채널 지정 속성 이해 대화 상자**
 * **방송 시간 분할**
 
 디스플레이를 정의한 후에는 디스플레이에 채널을 지정해야 합니다.
@@ -40,7 +43,7 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 아래 절차에 따라 디스플레이에 채널을 지정하십시오.
 
-1. 필요한 디스플레이(예: DemoProject **—> 위치** **—> SanJose** —> **StoreDisplay** ) ****&#x200B;로 이동합니다.
+1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -52,7 +55,7 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
    ![이미지](/help/user-guide/assets/channel-assign1.png)
 
-   아래 섹션에서 채널 지정 **대화 상자에서 속성을** 이해하고 구성할 수 있습니다.
+   아래 섹션의 **채널 지정** 대화 상자에서 속성을 이해하고 구성할 수 있습니다.
 
 ### 채널 할당의 채널 속성 이해 {#channel-properties}
 
@@ -62,11 +65,11 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 * **경로 기준**: 채널의 절대 경로를 사용하여 명시적 참조를 제공합니다.
 
-* **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **이름별**: 컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
 #### 채널 역할 {#role-channel}
 
-채널 역할은 디스플레이 컨텍스트를 정의합니다. 역할은 다양한 동작에 의해 타깃팅되며 역할을 수행하는 실제 채널과 독립적입니다.
+채널 역할은 디스플레이 컨텍스트를 정의합니다. 이 역할은 다양한 작업에 의해 타깃팅되며 역할을 수행하는 실제 채널과 독립적입니다.
 
 #### 우선 순위 {#priority-channel}
 
@@ -84,21 +87,21 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 #### 중단 방법 {#interruption-method-channel}
 
->[중요]
+>[중요 사항]
 > 이 옵션은 AEM 6.4 기능 팩 8 또는 AEM 6.5 기능 팩 4에서만 사용할 수 있습니다.
 
-컨텐츠 작성자는 채널이 중단되는 시점을 지정할 수 있으므로 중요하지 않은 컨텐츠를 잘라내기로 선택할 수 있지만 일정 때문에 재생을 중단하기 전에 중요한 컨텐츠를 완전히 재생하도록 할 수 있습니다.
+컨텐츠 작성자는 채널이 중단되는 시점을 지정할 수 있으므로 중요하지 않은 컨텐츠를 차단하도록 선택할 수 있지만 일정 때문에 재생을 중단하기 전에 중요한 컨텐츠가 완전히 재생되도록 할 수 있습니다.
 
-[채널 지정] 대화 상자에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 **하나를** 선택합니다.
+채널 지정 대화 상자에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 하나를 **선택합니다** .
 
-* **즉시**:일정이 활성화되거나 업데이트가 수신될 때마다 재생을 중단하고 즉시 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
-* **현재 항목의**&#x200B;끝 부분:새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다릴 수 있고 새로 고침 또는 새 컨텐츠를 재생한 후에만 옵션을 사용할 수 있습니다
+* **즉시**: 일정이 활성화되거나 업데이트가 수신될 때마다 재생을 중단하고 즉시 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
+* **현재 항목**&#x200B;끝: 새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다릴 수 있는 옵션을 사용할 수 있습니다. 단, 새 컨텐츠를 새로 고치거나 재생한 후에만 가능합니다
    >[!NOTE]
    >이 옵션은 기본적으로 선택되어 있습니다.
-* **시퀀스**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있고 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프되고 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
+* **시퀀스**&#x200B;끝: 새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있으며 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프하면 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
 
    >[!NOTE]
-   >두 번째 또는 세 번째 옵션을 사용하면 플레이어가 새로 고침 전에 항목 또는 시퀀스의 끝(지정된 시간 후)을 기다리기 때문에 할당에 정의된 예약 시간이 약간 지연될 수 있습니다. 지연 시간은 항목의 재생 기간에 따라 다릅니다.
+   >두 번째 또는 세 번째 옵션을 사용하면 플레이어가 새로 고치기 전에 항목이나 시퀀스의 끝(지정된 시간 후)을 기다리기 때문에 할당에 정의된 예약 시간이 약간 지연될 수 있습니다. 지연 시간은 항목의 재생 기간에 따라 다릅니다.
 
 #### 예약 {#schedule-channel}
 
@@ -121,7 +124,7 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 이 예에서는 음식점이 어떻게 방송 시간 분할을 사용하여 아침, 점심, 저녁 식사 메뉴를 선보이지를 보여줍니다.
 
-여기서는 매일 세 개의 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생되도록 합니다.
+여기서는 각 날을 세 개의 서로 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생되도록 합니다.
 
 | **채널** | **역할** | **우선 순위** | **예약** |
 |---|---|---|---|
@@ -145,13 +148,13 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
    <td>라이브 콘서트</td>
    <td>주말</td>
    <td> </td>
-   <td>2017년 10월 21일 - 2017년 10월 22 <br /> 일 20:00 전 22:00</td>
+   <td>2017년 10월 21일 - 20:00 <br /> 이후 2017년 10월 22일 22:00 이전</td>
   </tr>
   <tr>
-   <td>SpecialsDinner</td>
+   <td>스페셜 디너</td>
    <td>주말</td>
    <td> </td>
-   <td>2017년 10월 21일 - 2017년 10월 22일 <br /> 후 1:00 이전</td>
+   <td>2017년 10월 21일 - 2017년 10월 22일 <br /> 후 22:00분 전 1:00</td>
   </tr>
  </tbody>
 </table>
@@ -164,7 +167,7 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 | **채널** | **역할** | **우선 순위** | **예약** |
 |---|---|---|---|
-| SummerCollection | 여름 |  | 2017년 6월 01일 - 2017년 8월 31일 |
+| SummerCollection | 여름 |  | 2017년 6월 1일 - 2017년 8월 31일 |
 | FallCollection | 가을 |  | 2017년 9월 1일 - 2017년 10월 30일 |
 
 >[!NOTE]
@@ -181,8 +184,10 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 | B | 크리스마스 | 2 | 2017년 12월 24일 - 2017년 12월 31일 |
 
 >[!IMPORTANT]
+>
 > 방송 시간 분할에 대한 자세한 내용은 아래 섹션을 참조하십시오.
->* [자산에서 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>
+>* [자산의 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [채널에서 자산에 대한 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
 
