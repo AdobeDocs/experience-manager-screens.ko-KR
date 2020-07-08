@@ -5,7 +5,7 @@ description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일�
 seo-description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -82,6 +82,7 @@ ht-degree: 1%
 1. 저장 **및 닫기를** 클릭하여 디자인 경로를 업데이트합니다.
 
 >[!IMPORTANT]
+>
 > 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하거나 고유한 템플릿을 함께 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
 
 1. 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하는 방법은 다음과 같습니다.
@@ -108,7 +109,7 @@ ht-degree: 1%
 
 업데이트된 디자인을 텍스트 오버레이로 보려면 아래 단계를 따르십시오.
 
-1. AEM Screens 프로젝트(예: **사용자 지정 스타일** —> **채널** —> **DemoBrand)로**&#x200B;이동합니다. Select the channel and click **Edit** from the action bar to open the editor.
+1. 사용자 지정 스타일 —> 채널 **—>** Demo **** Brand라는 AEM Screens **프로젝트로**&#x200B;이동합니다. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. 이제 디자인을 디자인 **** 필드에 추가했으므로 위에 언급된 대로 **미리** 보기를 클릭하여 텍스트 오버레이가 포함된 이미지에 현재 스타일링을 봅니다.
 
