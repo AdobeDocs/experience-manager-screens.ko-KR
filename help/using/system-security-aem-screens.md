@@ -1,10 +1,10 @@
 ---
 title: AEM Screens에 대한 보안 검사 목록
 seo-title: AEM Screens에 대한 보안 검사 목록
-description: 이 페이지에서는 AEM Screens에 대한 보안 체크리스트에 대해 설명합니다
-seo-description: 이 페이지에서는 AEM Screens에 대한 보안 체크리스트에 대해 설명합니다
+description: 이 페이지에서는 AEM Screens에 대한 보안 체크리스트에 대해 설명합니다.
+seo-description: 이 페이지에서는 AEM Screens에 대한 보안 체크리스트에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,17 +15,18 @@ ht-degree: 1%
 # AEM Screens에 대한 시스템 보안 고려 사항 {#security-checklist}
 
 >[!IMPORTANT]
+>
 >내부 Git 리소스입니다.
 
-이 페이지에서는 AEM Screens에 대한 시스템 보안 고려 사항을 강조 표시합니다.
+이 페이지에서는 AEM Screens에 대한 시스템 보안 고려 사항을 설명합니다.
 
 
-## AEM Screens 보안용 백서 {#white-paper}
+## AEM Screens 보안을 위한 백서 {#white-paper}
 
 이 섹션에서는 백서에 대해 설명합니다. (백서 첨부 보류 중)
 
 
-## AEM Screens 보안에 대한 FAQ {#faqs-screens}
+## AEM Screens 보안을 위한 FAQ {#faqs-screens}
 
 다음 FAQ는 HTTPS를 사용하는 인증된 등록 플레이어 아키텍처를 플레이어와 AEM Server 간의 통신 프로토콜로 간주합니다.
 
@@ -63,7 +64,7 @@ AEM Server는 안전합니까?
 
 **답변**
 
-&#x200B;4. AMS를 사용하고 있다고 가정할 경우 Adobe는 사이트 또는 자산과 동일한 기능을 사용하여 모든 서버 보안을 관리합니다.
+4. AMS를 사용하고 있다고 가정할 경우 Adobe는 사이트 또는 자산과 동일한 기능을 사용하여 모든 서버 보안을 관리합니다.
 
 
 ### FAQ 5 {#faq5}
@@ -77,7 +78,9 @@ AEM Server는 안전합니까?
 따라서 케이블을 안전하게 연결하는 안전한 컨테이너(가급적이면 보안 컨테이너)에 장치를 연결하는 것이 좋습니다. 또한 모든 IR 원격 포트를 비활성화합니다.
 
 장치 OS가 정기적으로 업데이트되지 않으면 OS가 보안 허점에 노출되어 네트워크를 통한 원격 공격을 허용할 수 있습니다.
+
 >[!NOTE]
+>
 >뛰어난 원격 업데이트 및 제어 기능(원격 데스크톱, MDM 솔루션 등)을 사용하여 장치를 구현하는 것이 좋습니다. 예를 들어 공개 WIFI에 노출되지 않고 비공개 네트워크를 사용하는 것이 좋습니다.
 
 
