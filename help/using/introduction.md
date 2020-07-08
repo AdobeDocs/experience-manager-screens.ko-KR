@@ -4,7 +4,10 @@ seo-title: '[!UICONTROL AEM Screens] 프로젝트에 대한 모범 사례 안내
 description: 이 페이지는 AEM Screens 소개 섹션입니다.
 seo-description: 이 페이지에서는 AEM Screens에 대한 소개를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -32,13 +35,13 @@ AEM Screens를 사용하여 디지털 간판 네트워크를 만들고 관리하
 
 >[!NOTE]
 >
->AEM Screens 프로젝트 개발 및 관리의 다양한 기능에 대한 자세한 내용은 **[AEM Screens 사용 안내서](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**를 참조하십시오.
+>AEM Screens 프로젝트 개발 및 관리의 다양한 기능에 대한 자세한 내용은 **[AEM Screens 사용 안내서](https://helpx.adobe.com/kr/experience-manager/6-5/screens/user-guide.html)**를 참조하십시오.
 
 ## AEM Sites 및 AEM Screens {#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> 구현 팀이 AEM Sites 애플리케이션을 사용하여 작업하는 경험이 있는 경우 AEM Sites와 AEM Screens의 차이점을 이해하는 것이 중요합니다.
+>구현 팀이 AEM Sites 애플리케이션을 사용하여 작업하는 경험이 있는 경우 AEM Sites와 AEM Screens의 차이점을 이해하는 것이 중요합니다.
 
 AEM Screens는 공용 공간에서 디지털 간판 장치에 콘텐츠를 배포할 수 있는 통합 제작/재생 플랫폼을 제공합니다. 경험 작성자는 웹과 매장 내 채널 전반에서 일관성을 유지하기 위해 노력해야 하지만, 몇 가지 차이점을 주의해야 합니다.
 
@@ -54,8 +57,8 @@ AEM Screens는 공용 공간에서 디지털 간판 장치에 콘텐츠를 배�
 
 AEM Screens는 콘텐츠를 실제 장치에 배포하는 프레임워크를 제공합니다. 콘텐츠는 미디어 콘텐츠 또는 터치 스크린 애플리케이션을 포함할 수 있는 화면의 채널에 할당됩니다. 이 프레임워크 내에서 AEM Sites 애플리케이션을 채널을 통해 컨텐츠로 제공할 수 있습니다.
 
-화면의 채널에 배치되기 전에, AEM Sites는 의도한 표시 장치의 크기로 사용할 수 있도록 포맷되어야 합니다.
+화면의 채널에 배치되기 전에 AEM Sites은 원래 의도한 디스플레이 장치의 크기로 사용하기 위해 포맷되어야 합니다.
 
-> [!NOTE]
+>[!NOTE]
 >
-> 많은 AEM Sites 구성 요소가 AEM Screens와 호환되지 않습니다. AEM Screens에는 사용자 정의 없이도 디지털 경험을 구축할 수 있는 기본 구성 요소가 많이 포함되어 있습니다. 프로젝트 요구 사항이 허용하는 경우 가능하면 내장된 AEM Screens 기능을 사용하십시오.
+>많은 AEM Sites 구성 요소가 AEM Screens와 호환되지 않습니다. AEM Screens에는 사용자 정의 없이도 디지털 경험을 구축할 수 있는 기본 구성 요소가 많이 포함되어 있습니다. 프로젝트 요구 사항이 허용하는 경우 가능하면 내장된 AEM Screens 기능을 사용하십시오.
