@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 2%
+source-wordcount: '1893'
+ht-degree: 4%
 
 ---
 
@@ -156,8 +156,9 @@ ht-degree: 2%
 각 게시 인스턴스에는 기본적으로 고유한 암호화 키가 있으므로 각 pub 인스턴스에서 이 단계를 수행하고 다음 구성에 대해 고유한 키를 저장해야 합니다.
 
 >[!NOTE]
->암호는 중괄호로 시작하고 끝나야 합니다.
->예:{1ec34633f1c26b5c4825084c3b7272a5e85260322edd59119828d1fa0a6 10e}
+>
+>암호는 중괄호로 시작하고 끝나야 합니다. 예:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 4단계: ActiveMQ 아르테미스 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 
