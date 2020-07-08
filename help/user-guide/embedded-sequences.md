@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 42%
 
 ---
 
@@ -37,7 +40,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 >[!NOTE]
 >
->***채널*** 경로는 채널에 대한 명시적 참조를 정의합니다.
+>***채널 경로*** 는 채널에 대한 명시적 참조를 정의합니다.
 >
 >*채널 경로*&#x200B;에 대해 자세히 알려면 스크린 작성에서 [채널 지정](channel-assignment.md)을 참조하십시오.
 
@@ -51,26 +54,30 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 1. 채널의 **채널 경로**&#x200B;를 선택합니다.
 1. Select the **Duration (ms)** for your embedded channel in the **Sequence** tab. By default, the duration is set to **-1**, that means embedded channel is fully run. 사용자가 지속 기간을 지정하는 경우, 하위 시퀀스는 지정된 시각에 중단됩니다(즉, 컷오프).
 
-1. 부분 무료 **재생 전략을** **정상으로**&#x200B;설정합니다.
+1. 부분 무료 **재생 전략** 을 **정상으로 설정합니다**.
 
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 >[!IMPORTANT]
->포함된 시퀀스에 사용된 채널을 동일한 디스플레이에 지정해야 합니다.
 >
->이전 단계에서 채널에 포함된 시퀀스를 추가한 후 아래 절차를 따르십시오.
+>채널(포함된 시퀀스에 사용됨)을 동일한 디스플레이에 지정해야 합니다.
 >
->1. 디스플레이로 이동하고 위치 폴더에서 디스플레이를 **선택합니다** .
+>이전 단계에서 채널에 포함된 시퀀스를 추가한 후 아래 단계를 따르십시오.
+>
+>1. 디스플레이로 이동하고 위치 폴더에서 **디스플레이를** 선택합니다.
 >1. 작업 **표시줄에서** 대시보드를 클릭하여 표시 대시보드로 이동합니다.
->1. 지정된 채널 및 예약된 **패널에서** + 채널 **지정을 선택하여** 채널 **할당 대화**&#x200B;상자를엽니다.
+>1. 지정된 채널 및 예약된 패널 **에서** **+ 채널** 지정을 선택하여 **채널 지정 대화**&#x200B;상자를 엽니다.
+
    >
    >
-1. 채널 경로에서 (포함된 시퀀스에 사용됨)에 있는 채널의 경로를 **선택합니다**.
+1. 채널 경로에서 (포함된 시퀀스에 사용됨) **선택한 채널의 경로를 선택합니다**.
 >1. 우선 순위가 **기본** 채널보다 낮아야 합니다.
+
    >
    >
-1. 지원되는 이벤트를 선택하지 **마십시오**.
+1. 지원되는 이벤트를 선택하지 **않아야 합니다**.
 >1. 완료되면 **저장을** 클릭합니다.
+
 >
 
 
@@ -81,7 +88,7 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 
 ### 동적 포함된 시퀀스 추가 {#adding-a-dynamic-embedded-sequence}
 
-동적 포함된 시퀀스를 채널에 추가할 수 있습니다. 동적 포함된 시퀀스는 포함된 시퀀스와 유사하지만 동적 포함된 시퀀스를 사용하면 하나의 채널에 수행된 변경/업데이트 사항이 관련된 다른 하나의 채널에 전파되는 계층 구조를 사용자가 따를 수 있습니다. 상위-하위 계층 구조를 따르며 이미지나 비디오와 같은 자산도 포함합니다. 동적 시퀀스를 추가하면 사용자가 채널 역할별로 채널을 추가할 수 있습니다.
+동적 포함된 시퀀스를 채널에 추가할 수 있습니다. 동적 포함된 시퀀스는 포함된 시퀀스와 유사하지만 동적 포함된 시퀀스를 사용하면 하나의 채널에 수행된 변경/업데이트 사항이 관련된 다른 하나의 채널에 전파되는 계층 구조를 사용자가 따를 수 있습니다. 부모-자식 계층 구조를 따르며 이미지나 비디오와 같은 자산도 포함합니다. 동적 시퀀스를 추가하면 사용자가 채널 역할별로 채널을 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -94,14 +101,14 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 1. 동적 시퀀스를 포함할 채널을 선택합니다. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 왼쪽 사이드바에서 구성 요소 아이콘을 클릭하여 동적 포함된 시퀀스를 추가합니다. 다이내믹&#x200B;****** 내장 시퀀스 **를 편집기로 드래그하여 놓습니다.
+1. 왼쪽 사이드바에서 구성 요소 아이콘을 클릭하여 동적 포함된 시퀀스를 추가합니다. 동적&#x200B;**시퀀스** **를 드래그하여 편집기에 놓습니다.
 
 1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
 1. Enter the **Channel Assignment Role**.
-1. 부분 무료 **재생 전략을** **정상으로**&#x200B;설정합니다. By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. 부분 무료 **재생 전략** 을 **정상으로 설정합니다**. By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
 
-![latest](assets/latest.gif)
+![최신](assets/latest.gif)
 
