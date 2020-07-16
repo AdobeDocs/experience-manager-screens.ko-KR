@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 42%
 
 ---
@@ -72,7 +72,7 @@ Screens 플레이어에서 관리자 UI를 보려면 마우스를 사용하거�
 
 * Screens 플레이어용 **관리 메뉴**, **채널 전환기**&#x200B;및 **활동 UI** 를 활성화하거나 비활성화합니다.
 
-   구성 **메뉴에서** 활동 **UI를** 활성화하면 AEM Screens 플레이어는 아래 그림과 같이 *동기화된* 메시지를 플레이어의 오른쪽 상단에 표시합니다.
+   [ **구성** ] 메뉴에서 **활동 UI를** 활성화하면 AEM Screens 플레이어는 아래 그림과 같이 플레이어의 오른쪽 상단에 *플레이어 활동 알림을* 표시합니다.
 
    ![이미지](/help/user-guide/assets/activity_ui.png)
 
