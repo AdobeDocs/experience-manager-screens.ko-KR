@@ -2,9 +2,10 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 도움말
+user-guide-title: Adobe Experience Manager 스크린 도움말
+user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 13%
@@ -27,7 +28,7 @@ ht-degree: 13%
    + [5부: 지원 고려 사항](support-considerations.md)
 + 구성 및 관리 {#administering}
    + [스크린 서버 구성](configuring-screens-introduction.md)
-   + [발송자 구성 설정](dispatcher-configurations-aem-screens.md)
+   + [Dispatcher 구성 설정](dispatcher-configurations-aem-screens.md)
    + [Screens 플레이어 설치](installing-screens-player.md)
    + [Screens 플레이어 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
@@ -44,9 +45,9 @@ ht-degree: 13%
    + Author Publish {#author-publish}
       + [저작-출판 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
-   + AEM Screens와 분석 통합 {#analytics-integration}
+   + AEM Screens과 Analytics 통합 {#analytics-integration}
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
-      + [AEM Screens에서 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
+      + [AEM Screens으로 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
 + 작성 및 사용 사례 예 {#authoring}
    + 스크린 프로젝트 설정 {#setting-up-projects}
       + [프로젝트 만들기 및 관리](creating-a-screens-project.md)
@@ -92,7 +93,7 @@ ht-degree: 13%
    + [오프라인 채널](offline-channels.md)
    + [AEM Screens 구성 요소 확장](extending-component-tutorial-develop.md)
    + [구성 요소 만들기](creating-components.md)
-   + [AEM SPA 편집기를 사용하여 REACT 애플리케이션 포함 및 AEM Screens 분석과 통합](embedding-react-app.md)
+   + [AEM SPA 편집기 및 AEM Screens Analytics과 통합 기능을 사용하여 REACT 애플리케이션 포함](embedding-react-app.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
