@@ -5,7 +5,7 @@ description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일�
 seo-description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
    >[!NOTE]
    >채널 편집기에서 자산에 텍스트 오버레이를 추가하는 방법을 알아보려면 [텍스트 오버레이를 참조하십시오](/help/user-guide/text-overlay.md).
 
-1. AEM 인스턴스 —> 도구 —> CRXDE **Lite에서 CRXDE Lite로 이동합니다**.
+1. AEM 인스턴스 —> 도구 —> **CRXDE Lite에서 CRXDE Lite으로 이동합니다**.
 
 1. 사용자 정의 디자인을 만들어야 `/apps/settings/wcm/designs/<your-project>/`합니다(예: 이 경우 `/apps/settings/wcm/designs/customstyle/`
 
@@ -41,26 +41,26 @@ ht-degree: 1%
 1. static.css ** 파일을 만들고 다음 css 규칙을 설정합니다. 또한 css 규칙 아래 그림에 예로 표시됩니다.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하거나 고유한 템플릿을 함께 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
+>기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하거나 고유한 템플릿을 함께 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
 
 1. 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하는 방법은 다음과 같습니다.
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 ## 결과 보기 {#viewing-the-result}
 
-이전 단계를 완료하면 CRXDE Lite에서 *statis.css* 파일을 **** 업데이트하여 해당 자산에 이미 추가된 텍스트 오버레이에 대한 업데이트를 볼 수 있습니다.
+이전 단계를 완료하면 *CRXDE Lite에서* statis.css **파일을 업데이트하여** 자산에 이미 추가된 텍스트 오버레이에 대한 업데이트를 볼 수 있습니다.
 
 업데이트된 디자인을 텍스트 오버레이로 보려면 아래 단계를 따르십시오.
 
