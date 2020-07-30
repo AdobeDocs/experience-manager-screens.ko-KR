@@ -6,7 +6,7 @@ seo-description: 화면 프로젝트에 전환을 적용하는 방법을 알려�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ AEM Screens 프로젝트에 전환 구성 요소를 추가하려면 아래 단�
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >기본적으로 **유형** 과 같은 전환 구성 요소의 속성은 **Fade** 로 **설정되며** 지속 시간 *은* 1600msFade로설정됩니다.  또한 적용되는 자산보다 긴 전환 기간을 설정하는 것은 바람직하지 않습니다.
 
