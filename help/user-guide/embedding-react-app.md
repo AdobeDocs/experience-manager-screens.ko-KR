@@ -1,8 +1,8 @@
 ---
-title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens 분석과 통합
-seo-title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens 분석과 통합
-description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 임베드하는 방법과 대화형 애플리케이션을 오프라인 Adobe Analytics와 통합하는 방법을 살펴보려면 이 페이지를 따르십시오.
-seo-description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 임베드하는 방법과 대화형 애플리케이션을 오프라인 Adobe Analytics와 통합하는 방법을 살펴보려면 이 페이지를 따르십시오.
+title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합
+seo-title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합
+description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 인터랙티브한 단일 페이지 애플리케이션을 REACT(또는 Angular)로 임베드하는 방법과 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법을 살펴보려면 이 페이지를 따르십시오.
+seo-description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 인터랙티브한 단일 페이지 애플리케이션을 REACT(또는 Angular)로 임베드하는 방법과 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법을 살펴보려면 이 페이지를 따르십시오.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
@@ -10,26 +10,29 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 0%
 
 ---
 
 
-# AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens 분석과 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
+# AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-이 섹션에서는 AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 임베드하는 방법과 대화형 애플리케이션을 오프라인 Adobe Analytics와 통합하는 방법에 대해 설명합니다.
+이 섹션에서는 AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 포함하는 방법과 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법에 대해 설명합니다.
 
-## AEM SPA 편집기 사용 {#using-the-aem-spa-editor}
+## AEM SPA Editor 사용 {#using-the-aem-spa-editor}
 
-아래 절차에 따라 AEM SPA 편집기를 사용하십시오.
+AEM SPA Editor를 사용하려면 아래 단계를 따르십시오.
 
-1. https://github.com/adobe/aem-spa-project-archetype에서 AEM SPA 편집기 보고서를 [복제하십시오.](https://github.com/adobe/aem-spa-project-archetype)
+1. https://github.com/adobe/aem-spa-project-archetype에서 AEM SPA Editor 보고서를 [복제합니다.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
-   >이러한 전형은 SPA 프로젝트의 시작점으로 최소한의 Adobe Experience Manager 프로젝트를 만듭니다. 이 전형 사용 시 제공해야 하는 속성을 사용하여 이 프로젝트의 모든 부분을 원하는 이름으로 지정할 수 있습니다.
+   >이 원형형을 통해 최소 Adobe Experience Manager 프로젝트를 생성하여 SPA 프로젝트의 시작점으로 활용할 수 있습니다. 이 원형 유형을 사용할 때 제공해야 하는 속성은 이 프로젝트의 모든 부분에 대해 원하는 이름으로 지정할 수 있습니다.
 
-1. 추가 정보 지침에 따라 AEM SPA 편집기 전형 프로젝트를 만듭니다.
+1. 읽어보기 지침에 따라 AEM SPA 편집기 전형 프로젝트를 제작합니다.
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -44,7 +47,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >GroupId를 **com.adobe** .aem.screens ***및*** ArtifactId **를 My** ****** 샘플 SPA(기본값)로 사용합니다. 필요에 따라 자신의 것을 선택할 수 있습니다.
+   >GroupId는 **com.adobe.aem.screens** 및 ***ArtifactId*** 를 **Sample My SPA** (기본값)로 사용합니다 ****** . 필요에 따라 자신의 것을 선택할 수 있습니다.
 
 1. 프로젝트가 만들어지면 원하는 IDE 또는 편집기를 사용하여 생성된 Maven 프로젝트를 가져옵니다.
 1. mvn clean install -PautoInstallPackage 명령을 사용하여 로컬 AEM ***인스턴스에 배포합니다***.
@@ -53,18 +56,18 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 REACT 앱에서 콘텐츠를 편집하려면:
 
-1. (해당되는 경우 호스트 이름, 포트 및 프로젝트 이름을 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` 교체합니다)로 이동합니다.
+1. 이동할 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (해당되는 경우 호스트 이름, 포트 및 프로젝트 이름 대체).
 1. Hello world 응용 프로그램에 표시되는 텍스트를 편집할 수 있어야 합니다.
 
-### AEM Screens에 대화형 REACT 앱 추가 {#adding-the-interactive-react-app-to-aem-screens}
+### AEM Screens에 인터랙티브한 REACT 앱 추가 {#adding-the-interactive-react-app-to-aem-screens}
 
-아래 절차에 따라 AEM Screens에 대화형 REACT 앱을 추가하십시오.
+아래 절차에 따라 AEM Screens에 인터랙티브한 REACT 앱을 추가하십시오.
 
 1. 새 AEM Screens 프로젝트를 만듭니다. 자세한 [내용은 프로젝트](creating-a-screens-project.md) 만들기 및 관리를 참조하십시오.
 
    >[!NOTE]
    >
-   >스크린 **프로젝트의 채널** 폴더에 채널을 만드는 동안 시퀀스 **채널을** 만듭니다.
+   >스크린 **프로젝트의 채널** 폴더에 채널을 만드는 동안 **시퀀스** 채널을 만듭니다.
    >
    >
    >자세한 [내용은 채널](managing-channels.md) 만들기 및 관리를 참조하십시오.
@@ -79,32 +82,32 @@ REACT 앱에서 콘텐츠를 편집하려면:
    >
    >디스플레이에 채널을 지정할 때 사용자 상호 작용 이벤트를 추가해야 합니다.
 
-1. 작업 **표시줄에서** 편집을 클릭하여 시퀀스 채널의 속성을 편집합니다.
+1. 작업 **표시줄에서 편집을** 클릭하여 시퀀스 채널의 속성을 편집합니다.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 포함된 페이지 구성 **요소를** 드래그하여 놓고 myamplespa 애플리케이션(예: ***/content/mymplaespa/en/home***)에서 홈 페이지를 선택합니다.
+1. 포함된 페이지 **구성 요소를** 드래그 앤 드롭하고 mysamplespa 애플리케이션(예: ***/content/mysamplespa/en/home)에서 홈 페이지를 선택합니다***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
 1. 이 프로젝트에 대해 플레이어를 등록하면 이제 AEM Screens에서 실행 중인 대화형 응용 프로그램을 볼 수 있습니다.
 
-   장치 [등록에 대한 자세한](device-registration.md) 내용은 장치 등록을 참조하십시오.
+   장치 등록에 대한 자세한 내용은 [장치](device-registration.md) 등록을 참조하십시오.
 
-## AEM Screens를 통해 Adobe Analytics와 오프라인 기능 통합 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
+## AEM Screens을 통해 SPA와 Adobe Analytics의 오프라인 기능 통합 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
-아래 절차에 따라 AEM Screens를 통해 오프라인 기능과 Adobe Analytics를 통합하십시오.
+아래 절차에 따라 AEM Screens을 통해 오프라인 기능과 SPA를 Adobe Analytics과 통합하십시오.
 
-1. AEM Screens에서 Adobe Analytics를 구성합니다.
+1. AEM Screens에서 Adobe Analytics 구성
 
-   AEM Screens를 사용하여 Adobe Analytics에서 시퀀스를 수행하고 오프라인 Adobe Analytics를 사용하여 사용자 지정 이벤트를 전송하는 방법에 대해 알아보려면 [AEM Screens를 사용하여 Adobe Analytics 구성(configuring-adobe-analytics-aem-screens.md)을 참조하십시오.
+   AEM Screens [와 함께 Adobe Analytics에서 시퀀스를 수행하고 오프라인 Adobe Analytics을 사용하여 사용자 정의 이벤트를 전송하는 방법에 대해 알아보려면 AEM Screens과](configuring-adobe-analytics-aem-screens.md) Adobe Analytics 구성을 참조하십시오.
 
-1. 원하는 IDE/편집기에서 반응형 앱을 편집합니다(특히 이벤트를 내보내기를 시작하려는 텍스트 구성 요소나 기타 구성 요소).
-1. 구성 요소에 대해 캡처하려는 클릭 이벤트 또는 기타 이벤트에서 표준 데이터 모델을 사용하여 분석 정보를 추가합니다.
+1. 원하는 IDE/편집기(특히 이벤트 발출을 시작할 텍스트 구성 요소나 기타 구성 요소)에서 반응형 앱을 편집할 수 있습니다.
+1. 구성 요소에 대해 캡처할 클릭 이벤트나 다른 이벤트에서 표준 데이터 모델을 사용하여 분석 정보를 추가합니다.
 
-   자세한 [내용은 AEM Screens를 사용하여](configuring-adobe-analytics-aem-screens.md)Adobe Analytics 구성을 참조하십시오.
+   자세한 [내용은 AEM 스크린과 Adobe Analytics](configuring-adobe-analytics-aem-screens.md)구성을 참조하십시오.
 
-1. AEM Screens Analytics API를 호출하여 이벤트를 오프라인으로 저장하고 Adobe Analytics로 일괄적으로 전송합니다.
+1. AEM Screens 분석 API에 전화하여 이벤트를 오프라인으로 저장하고 Adobe Analytics으로 크게 보냅니다.
 
    예,
 
