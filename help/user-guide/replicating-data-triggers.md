@@ -4,9 +4,9 @@ seo-title: 데이터 트리거를 복제하여 서버 게시
 description: 데이터 트리거를 복제하여 서버를 게시합니다.
 seo-description: 데이터 트리거를 복제하여 서버를 게시합니다.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 게시 서버에 데이터 트리거 복제 {#replicating-data-triggers}
 
-ContextHub 및 AEM Targeting 엔진을 사용하여 작성/게시 설정의 데이터 트리거를 기반으로 컨텐츠를 사용자 지정하는 경우, 게시될 때 모든 ContextHub 및 개인화 관련 구성이 채널에서 자동으로 복제되지 않습니다.
+ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 데이터 트리거를 기반으로 컨텐츠를 사용자 지정하는 경우 모든 ContextHub 및 개인화 관련 구성은 게시될 때 채널에서 자동으로 복제되지 않습니다.
 
 이 페이지에서는 이러한 구성을 별도로 게시하는 데 필요한 설명서 단계를 살펴볼 수 있습니다.
 
@@ -28,20 +28,22 @@ ContextHub 및 AEM Targeting 엔진을 사용하여 작성/게시 설정의 데�
 
 서버를 게시하기 위해 데이터 트리거를 복제하려면 아래 절차를 따르십시오.
 
-### 1단계: ContextHub 구성 복제 {#replicating-contexthub-configurations}
+### 1단계:ContextHub 구성 복제 {#replicating-contexthub-configurations}
 
 1. [ **도구** ] > [ **배포** ] **> [배포** ] **> [게시 에이전트]** 로 이동하고 게시 에이전트를 클릭하여 설정을 구성합니다.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >또는 을 사용하여 화면 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 으로 직접 이동하여 연결을 구성하고 테스트할 수 있습니다.
 
 1. 작업 **표시줄에서 연결** 테스트를 클릭하여 아래 그림과 같이 게시 인스턴스와 작성자의 통신을 확인합니다.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >테스트에 실패하는 경우 작성자 및 게시 인스턴스 간 복제 에이전트 구성을 수정해야 합니다. 자세한 내용은 [테스트 연결 문제](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 해결을 참조하십시오.
 
 1. [ **배포 에이전트** ] 화면 트리에서 **추가를** 선택하고 프로젝트의 구성 경로를 선택합니다(예: `/conf/screens/settings/cloudsettings/configuration`).
@@ -64,7 +66,7 @@ ContextHub 및 AEM Targeting 엔진을 사용하여 작성/게시 설정의 데�
 
 ### 활동 복제  {#replicating-activities}
 
-1. AEM 인스턴스 > **개인화** > 활동 **으로** 이동하거나 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 를 사용하여 직접탐색합니다.
+1. AEM 인스턴스 > **개인화** > **활동으로 이동하거나** 를 사용하여 직접 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 탐색합니다.
 
 1. 프로젝트 폴더(즉, `/content/campaigns/screens/…`
 
