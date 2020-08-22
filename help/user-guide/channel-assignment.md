@@ -3,9 +3,9 @@ title: 채널 지정
 seo-title: 채널 지정
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 37%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 37%
 
 아래 절차에 따라 디스플레이에 채널을 지정하십시오.
 
->[!I역정]
+>[!IMPORTANT]
+>
 >채널 지정에 대한 다음 대화 상자는 Adobe Experience 6.5.5 Screens Feature Pack 릴리스 이상과 다릅니다. 자세한 내용은 [채널 지정을](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) 참조하십시오.
 
 1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
@@ -57,7 +58,7 @@ ht-degree: 37%
 1. 설정 옵션에서 경로 또는 이름별로 채널을 선택하고 채널 역할, 우선 순위, 지원 이벤트를 입력합니다.
 
    >[!NOTE]
-   >채널 속성에 대한 자세한 내용은 [채널](#channel-properties) 속성 섹션을 참조하십시오.
+   >채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
 1. 예약 **옵션** 에서 **참조 시간대**, **활성화 창** 및 되풀이 **일정**&#x200B;을선택합니다.
 
@@ -93,7 +94,8 @@ ht-degree: 37%
 
 #### 중단 방법 {#interruption-method-channel}
 
->[중요 사항]
+>[!IMPORTANT]
+>
 > 이 옵션은 AEM 6.4 기능 팩 8 또는 AEM 6.5 기능 팩 4에서만 사용할 수 있습니다.
 
 컨텐츠 작성자는 채널이 중단되는 시점을 지정할 수 있으므로 중요하지 않은 컨텐츠를 차단하도록 선택할 수 있지만 일정 때문에 재생을 중단하기 전에 중요한 컨텐츠가 완전히 재생되도록 할 수 있습니다.
