@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 46%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->채널에 구성 요소를 추가할 수 있습니다. 자세한 **[내용은 채널에 구성 요소](adding-components-to-a-channel.md)**추가를 참조하십시오.
+>채널에 구성 요소를 추가할 수 있습니다. 자세한 **[내용은 채널에 구성 요소](adding-components-to-a-channel.md)** 추가를 참조하십시오.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,14 +140,15 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 채널 대시보드에서 매니페스트를 볼 수 있습니다.
 
->[중요 사항]
-> 이 옵션은 AEM 6.4 기능 팩 8 또는 AEM 6.5 기능 팩 4에서만 사용할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 옵션은 AEM 6.4 기능 팩 8 또는 AEM 6.5 기능 팩 4에서만 사용할 수 있습니다.
 
 채널 대시보드에서 이 옵션을 활성화하려면 다음 단계를 수행합니다.
 1. **채널을 오프라인으로 설정**
    1. 채널을 선택하고 작업 **표시줄에서** 속성을 선택합니다
    1. 채널 **탭으로** 이동하여 **개발자 모드 선택 취소(채널이 온라인 상태가 되도록 강제 적용)** 확인
-   1. Click **Save &amp; Close**
+   1. **저장 후 닫기**&#x200B;를 클릭합니다
 1. **오프라인 컨텐츠 업데이트**
    1. 채널을 선택하고 작업 **표시줄에서** 대시보드 선택
    1. 채널 **정보** 패널로 이동하고...을 *클릭합니다.*
@@ -214,7 +215,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>온라인 채널의 변경</td>
    <td>자동으로 업데이트되는 컨텐츠</td>
-   <td><p>"장치: 푸시 구성"</p> <p>또는,</p> <p>장치에서 업데이트된 <strong><i>내용: 다시 시작</i></strong></p> </td>
+   <td><p>"장치:푸시 구성"</p> <p>또는,</p> <p>장치에서 업데이트된 <strong><i>내용:다시 시작</i></strong></p> </td>
   </tr>
   <tr>
    <td>오프라인 채널에서 변경되지만 채널 "푸시 콘텐츠"가 트리거되지 않습니다(오프라인 패키지를 다시 만들지 않음).</td>
@@ -224,7 +225,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>오프라인 채널과 채널 "푸시 콘텐츠"의 변경이 트리거됩니다(새 오프라인 패키지).</td>
    <td>자동으로 업데이트되는 컨텐츠</td>
-   <td><p>장치에서 업데이트된 <strong><i>내용: 푸시 구성</i></strong></p> <p>또는,</p> <p>장치에서 업데이트된 <strong><i>내용: 다시 시작</i></strong></p> </td>
+   <td><p>장치에서 업데이트된 <strong><i>내용:푸시 구성</i></strong></p> <p>또는,</p> <p>장치에서 업데이트된 <strong><i>내용:다시 시작</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>구성 변경</p>
@@ -235,7 +236,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
      <li>채널 할당(역할, 이벤트, 예약)</li>
     </ul> </td>
    <td>구성 자동 업데이트</td>
-   <td><p>장치에서 <strong><i>구성 업데이트: 푸시 구성</i></strong></p> <p>또는,</p> <p>장치에서 <strong><i>구성 업데이트: 다시 시작</i></strong></p> </td>
+   <td><p>장치에서 <strong><i>구성 업데이트:푸시 구성</i></strong></p> <p>또는,</p> <p>장치에서 <strong><i>구성 업데이트:다시 시작</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
