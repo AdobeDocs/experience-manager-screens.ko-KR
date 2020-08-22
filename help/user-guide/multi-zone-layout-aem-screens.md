@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 4%
+source-wordcount: '1197'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 이 기능을 구현하기 전에 다음 사항에 대한 개념 지식이 있는지 확인하십시오.
 
-* [AEM Screens 프로젝트 만들기](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [AEM Screens 프로젝트 만들기](https://docs.adobe.com/content/help/ko-KR/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [디스플레이 만들기](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [디스플레이에 채널 지정](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
@@ -83,6 +83,7 @@ ht-degree: 4%
    1. 영역 —> **MultiZone** —> 채널 **** 으로 **이동하고 작업** 표시줄에서 **** 만들기를 클릭합니다.
    1. Select **Channels Folder** from the **Create** wizard and click **Next**.
    1. Enter the title as **EmbeddedChannels** and click **Create**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **채널 폴더에 두 개 더 추가**
@@ -93,6 +94,7 @@ ht-degree: 4%
    1. 이미지를 드래그하여 이 채널에 놓습니다.
    1. 마찬가지로, EmbeddedChannels 폴더에 **Zone2라는** 다른 시퀀스 채널 **을** 만듭니다.
    1. 비디오를 드래그하여 이 채널에 놓습니다.
+
    다음 그림은 **Zone1** 및 **Zone2의 채널을 보여줍니다**.
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -109,7 +111,7 @@ ht-degree: 4%
 
    1. 영역 **—> 채널** **** —> **다중 영역**&#x200B;으로이동합니다.
    1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
-   1. 포함된 시퀀스 **구성 요소를** 두 영역 모두에 드래그하여 놓습니다.
+   1. 포함된 시퀀스 구성 **요소를** 두 영역 모두에 드래그하여 놓습니다.
    1. 영역 중 하나에서 포함된 시퀀스를 선택합니다.
    1. 편집기에 포함된 시퀀스 중 하나에 **대한 구성** (렌치) 아이콘을 클릭합니다.
    1. 아래 그림에 표시된 대로 채널 경로를 **영역** —> **채널** —> **포함된 채널** —> **Zone1**&#x200B;으로 선택합니다.
@@ -154,7 +156,8 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
       ![이미지](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!I역정]
+      >[!IMPORTANT]
+      >
       > 주 채널(이 경우 **다중 영역**)을 디스플레이에 할당하면 다른 두 개의 포함된 채널 **Zone1** 및 **Zone2** 도 동일한 디스플레이에할당해야 합니다.
 
 ### 장치 등록 {#registering-device}
@@ -166,6 +169,7 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
    1. 영역 **—> 장치** **폴더로** 이동합니다.
    1. Select the **Devices** folder and click **Device Manager** from the action bar.
    1. 장치 **등록을** 클릭하고 목록에서 보류 중인 장치를 선택합니다.
+
       >[!NOTE]
       > 장치의 제목은 [장치 등록]**탭** 에 표시된 장치 토큰( **토큰** 필드)과 일치해야 합니다.
    1. 제목이 장치 토큰과 일치하는 경우 장치를 선택하고 작업 표시줄에서 **장치** 등록을 클릭합니다.
@@ -173,6 +177,7 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
       ![이미지](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. 디스플레이 **할당을** 선택하고 장치 구성의 경로를 선택합니다.
+
    >[!NOTE]
    >Screens 플레이어에서 컨텐츠를 보려고 하는 경우 디스플레이에 지정된 각 채널에 대해 채널 대시보드에서 **오프라인 컨텐츠** 업데이트를 클릭해야 합니다.
 
