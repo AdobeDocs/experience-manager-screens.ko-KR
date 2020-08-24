@@ -2,12 +2,12 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager 스크린 도움말
+user-guide-title: Adobe Experience Manager Screens 도움말
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 13%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 13%
    + [스크린 우수 사례 가이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-screens/using/about-guide.html)
    + [주요 용어](screens-glossary.md)
 + 디지털 서명 네트워크 기초 {#digital-signage-network}
-   + [1부: 프로젝트 역할 및 책임](project-roles-responsibilities.md)
-   + [2부: 프로젝트 범위 시 고려 사항](project-considerations.md)
-   + [3부: 테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
-   + [4부: 프로젝트 관리 및 배포](project-management-and-deployment.md)
-   + [5부: 지원 고려 사항](support-considerations.md)
+   + [1부:프로젝트 역할 및 책임](project-roles-responsibilities.md)
+   + [2부:프로젝트 범위 시 고려 사항](project-considerations.md)
+   + [3부:테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
+   + [4부:프로젝트 관리 및 배포](project-management-and-deployment.md)
+   + [5부:지원 고려 사항](support-considerations.md)
 + 구성 및 관리 {#administering}
    + [스크린 서버 구성](configuring-screens-introduction.md)
-   + [Dispatcher 구성 설정](dispatcher-configurations-aem-screens.md)
+   + [발송자 구성 설정](dispatcher-configurations-aem-screens.md)
    + [Screens 플레이어 설치](installing-screens-player.md)
    + [Screens 플레이어 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
    + [ACL 설정](setting-up-acls.md)
-   + [AEM Screens 보안 검사 목록](security-checklist.md)
+   + [AEM Screens 보안 체크리스트](security-checklist.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일의 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
@@ -45,9 +45,9 @@ ht-degree: 13%
    + Author Publish {#author-publish}
       + [저작-출판 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
-   + AEM Screens과 Analytics 통합 {#analytics-integration}
+   + AEM Screens과 분석 통합 {#analytics-integration}
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
-      + [AEM Screens으로 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
+      + [AEM Screens과 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
 + 작성 및 사용 사례 예 {#authoring}
    + 스크린 프로젝트 설정 {#setting-up-projects}
       + [프로젝트 만들기 및 관리](creating-a-screens-project.md)
@@ -56,7 +56,9 @@ ht-degree: 13%
       + [위치 생성 및 관리](managing-locations.md)
       + [일정 생성 및 관리](managing-schedules.md)
       + [장치 관리](managing-devices.md)
-      + [채널 지정](channel-assignment.md)
+      + 채널 지정 {#assigning-channels}
+         + [채널 지정:AEM 6.5.5 Screens FP 이상](channel-assignment.md)
+         + [채널 지정:이전 FP](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}
       + [텍스트 오버레이](text-overlay.md)
       + [일괄 오프라인 업데이트](bulk-offline-update.md)
@@ -93,7 +95,7 @@ ht-degree: 13%
    + [오프라인 채널](offline-channels.md)
    + [AEM Screens 구성 요소 확장](extending-component-tutorial-develop.md)
    + [구성 요소 만들기](creating-components.md)
-   + [AEM SPA 편집기 및 AEM Screens Analytics과 통합 기능을 사용하여 REACT 애플리케이션 포함](embedding-react-app.md)
+   + [AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합](embedding-react-app.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
