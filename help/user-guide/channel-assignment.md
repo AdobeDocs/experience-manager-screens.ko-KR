@@ -3,17 +3,20 @@ title: 채널 지정
 seo-title: 채널 지정
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 37%
+source-wordcount: '1218'
+ht-degree: 39%
 
 ---
 
 
 # 채널 지정 {#channel-assignment}
 
-디스플레이를 정의하고 나면 디스플레이에 채널을 지정해야 합니다.
+>[!IMPORTANT]
+>이 섹션에서는 AEM 6.5.5 Screens 버전 이전의 기능 팩에 대한 채널 지정 및 채널 예약을 설명합니다.
+
+디스플레이를 설정한 후에는 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
 
 이 페이지에서는 디스플레이에 채널을 지정하는 것을 보여줍니다.
 
@@ -23,10 +26,6 @@ ht-degree: 37%
 ## Assigning a Channel {#assign-a-channel}
 
 아래 절차에 따라 디스플레이에 채널을 지정하십시오.
-
->[!IMPORTANT]
->
->채널 지정에 대한 다음 대화 상자는 Adobe Experience 6.5.5 Screens Feature Pack 릴리스 이상과 다릅니다. 자세한 내용은 [채널 지정을](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) 참조하십시오.
 
 1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
 
@@ -42,31 +41,10 @@ ht-degree: 37%
 
    아래 섹션에서 **채널 지정** 대화 상자에서 속성을 구성할 수 있습니다. 채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
-## AEM 6.5.5 스크린 기능 팩 릴리스용 채널 할당 {#assign-a-channel-new-release}
 
-아래 절차에 따라 디스플레이에 채널을 지정하십시오.
+## 채널 할당의 채널 속성 이해 {#channel-properties}
 
-1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   또는,
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. 설정 옵션에서 경로 또는 이름별로 채널을 선택하고 채널 역할, 우선 순위, 지원 이벤트를 입력합니다.
-
-   >[!NOTE]
-   >채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
-
-1. 예약 **옵션** 에서 **참조 시간대**, **활성화 창** 및 되풀이 **일정**&#x200B;을선택합니다.
-
-1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
-
-### 채널 할당의 채널 속성 이해 {#channel-properties}
-
-#### 참조 채널 {#ref-channel}
+### 참조 채널 {#ref-channel}
 
 참조 채널을 사용하면 채널 이름 또는 채널 경로별로 원하는 채널에 대한 참조를 제공할 수 있습니다.
 
@@ -74,25 +52,25 @@ ht-degree: 37%
 
 * **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### 채널 역할 {#role-channel}
+### 채널 역할 {#role-channel}
 
 채널 역할은 디스플레이 컨텍스트를 정의합니다. 이 역할은 다양한 작업에 의해 타깃팅되며 역할을 수행하는 실제 채널과 독립적입니다.
 
-#### 우선 순위 {#priority-channel}
+### 우선 순위 {#priority-channel}
 
 우선 순위는 여러 지정 내용이 재생 기준을 충족하는 경우 지정 내용의 순서를 정하는 데 사용됩니다. 값이 가장 높은 지정은 낮은 값의 지정보다 항상 우선합니다. 예를 들어, 두 개의 채널 A와 B가 있고 A의 우선 순위는 1이고 B의 우선 순위는 2라면, 채널 B의 우선 순위가 A보다 높으므로 채널 B가 표시됩니다.
 
 >[!NOTE]
 >채널의 우선 순위는 위에 언급된 대로 **채널 지정** 대화 상자에서 숫자(최소값은 1)로 설정됩니다. 또한, 지정된 채널은 내림차순의 우선 순위를 기준으로 정렬됩니다.
 
-#### 지원되는 이벤트 {#supported-events-channel}
+### 지원되는 이벤트 {#supported-events-channel}
 
 * **초기 로드**: 플레이어가 시작될 때 채널을 로드합니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
 * **유휴 화면**: 화면이 유휴 상태일 때 로드됩니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
 * **타이머**: 일정이 제공되면 설정해야 합니다.
 * **사용자 상호 작용**: 유휴 채널에서 화면(터치)에 사용자 상호 작용이 있으면 플레이어가 지정된 채널로 전화되고 화면을 터치하면 로드됩니다.
 
-#### 중단 방법 {#interruption-method-channel}
+### 중단 방법 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ ht-degree: 37%
    >[!NOTE]
    >두 번째 또는 세 번째 옵션을 사용하면 플레이어가 새로 고치기 전에 항목이나 시퀀스의 끝(지정된 시간 후)을 기다리기 때문에 할당에 정의된 예약 시간이 약간 지연될 수 있습니다. 지연 시간은 항목의 재생 기간에 따라 다릅니다.
 
-#### 예약 {#schedule-channel}
+### 예약 {#schedule-channel}
 
 일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown.
 
@@ -191,7 +169,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 | B | 크리스마스 | 2 | 2017년 12월 24일 - 2017년 12월 31일 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > 한시적 입찰에 대한 자세한 내용은 아래 섹션을 참조하십시오.
 >
