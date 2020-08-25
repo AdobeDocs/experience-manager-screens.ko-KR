@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 0f8712e8afb806fbf4136880f44b629a5a52b5ec
+source-git-commit: 69a40d662d9bc0fe33e1cad7523b0c7a3baea7cf
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 13%
+source-wordcount: '392'
+ht-degree: 14%
 
 ---
 
@@ -57,8 +57,8 @@ ht-degree: 13%
       + [일정 생성 및 관리](managing-schedules.md)
       + [장치 관리](managing-devices.md)
       + 채널 지정 {#assigning-channels}
-         + [채널 지정:AEM 6.5.5 Screens FP 이상](channel-assignment-latest-fp.md)
-         + [채널 지정:이전 FP](channel-assignment.md)
+         + [채널 지정](channel-assignment-latest-fp.md)
+         + [채널 지정:이전 AEM Screens 기능 팩](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}
       + [텍스트 오버레이](text-overlay.md)
       + [일괄 오프라인 업데이트](bulk-offline-update.md)
