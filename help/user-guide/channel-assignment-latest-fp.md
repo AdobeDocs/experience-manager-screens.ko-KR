@@ -3,10 +3,10 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 34%
+source-wordcount: '895'
+ht-degree: 28%
 
 ---
 
@@ -23,20 +23,59 @@ ht-degree: 34%
 >[!NOTE]
 >디스플레이에 여러 채널을 지정할 수 있습니다.
 
+
 ## Assigning a Channel {#assign-a-channel-new-release}
 
-아래 절차에 따라 디스플레이에 채널을 지정하십시오.
+아래 섹션에 따라 AEM Screens 프로젝트를 만들고 디스플레이에 채널을 지정합니다.
 
-1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
+### AEM Screens 프로젝트 및 채널 만들기 {#creating-project}
 
+아래 절차에 따라 프로젝트 및 채널을 설정합니다.
 
-1. Tap/click **Assign Channel** from the action bar
+1. DemoScreens라는 이름의 AEM Screens **프로젝트를 만듭니다**.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >AEM Screens 프로젝트 [를 만드는](creating-a-screens-project.md) 방법을 알려면 프로젝트 만들기 및 관리를 참조하십시오.
+
+1. 채널 폴더에 **카페테리아라는** 이름의 시퀀스 채널을 **만듭니다** .
+
+1. 채널을 선택하고 작업 표시줄에서 **편집을** 클릭하여 채널에 컨텐츠를 추가합니다.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   예를 들어, **카페테리아** 채널은 이제 다음 이미지를 표시합니다.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. SanJose라는 이름의 위치 **를 만들고** Lobby로 **표시합니다**.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### 디스플레이에 채널 지정 {#assigning-channel-to-display}
+
+프로젝트 설정이 완료되면, 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
+
+1. 필요한 디스플레이(예: **DemoScreens** —> **위치** —> **SanJose** —> **LobbyCover**&#x200B;로이동합니다.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    또는,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   대시보드 **를 탭/클릭하고** 지정된 채널 및 일정 **패널에서****채널** 지정을클릭합니다.
 
-1. 설정 옵션에서 경로 또는 이름별로 채널을 선택하고 채널 역할, 우선 순위, 지원 이벤트를 입력합니다.
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. [ **설정** ] 옵션에서 경로 또는 이름별로 채널을 선택하고 채널 역할, 우선 순위, 지원되는 이벤트 및 중단 방법을 입력할 수 있습니다. 또한 이 대화 상자에서 명소 도구 설명 옵션을 활성화할 수 있습니다.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
@@ -45,7 +84,9 @@ ht-degree: 34%
 
 1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
 
-## 채널 할당의 채널 속성 이해 {#channel-properties}
+### Chrome Player에서 콘텐트 보기 {#viewing-content-output}
+
+### 채널 할당의 채널 속성 이해 {#channel-properties}
 
 ### 참조 채널 {#ref-channel}
 
