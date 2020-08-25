@@ -3,9 +3,9 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1548'
 ht-degree: 24%
 
 ---
@@ -73,18 +73,18 @@ ht-degree: 24%
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. [ **설정** ] 옵션에서 경로 또는 이름별로 채널을 선택하고 채널 역할, 우선 순위, 지원되는 이벤트 및 중단 방법을 입력할 수 있습니다. 또한 이 대화 상자에서 명소 도구 설명 옵션을 활성화할 수 있습니다.
+1. [ **설정** ] 옵션에서 경로 또는 이름별로 채널을 선택하거나, 채널 역할 **,**&#x200B;우선 순위 **, 지원되는 이벤트**, ********&#x200B;지원되는 이벤트, Saported Events 및 SafetySafety를 입력합니다. 또한 이 대화 상자에서 **명소 도구** 설명을 활성화할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
+   >채널 지정 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
 1. 예약 **옵션** 에서 **참조 시간대**, **활성화 창** 및 되풀이 **일정**을선택합니다.
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
+   >채널 지정 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
 1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
 
@@ -96,7 +96,9 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 플레이어를 선택한 경우 다음 출력을 볼 수 있습니다.
 
-### 채널 할당의 채널 속성 이해 {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### 채널 지정 대화 상자에서 채널 속성 이해 {#channel-properties}
 
 다음 속성은 채널 지정 대화 상자의 **설정** 옵션 **에서** 설정됩니다.
 
@@ -185,18 +187,27 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 이 예에서는 음식점이 어떻게 DayParting을 사용하여 매일 아침, 점심 및 저녁 메뉴를 선보이는지 보여줍니다.
 
-여기서는 각 날을 세 개의 서로 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생됩니다. 이 사용 사례에 따라 컨텐츠를 재생하도록 반복 일정의 다음 속성을 설정합니다.
+여기서는 각 날을 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생되도록 합니다. 이 사용 사례에 따라 컨텐츠를 재생하려면 되풀이 일정의 다음 속성을 설정합니다.
 
 | **이름** | **반복** | **시작** | **끝** |
 |---|---|---|---|
 | 아침 식사 | 일별 | 오전 6:00 | 오전 11:00 |
-| 아침 식사 | 일별 | 오전 11:02 | 오후 3:00 |
-| 아침 식사 | 일별 | 오후 3:01 | 오후 8:00 |
+| 점심 | 일별 | 오전 11:02 | 오후 3:00 |
+| 저녁 식사 | 일별 | 오후 3:01 | 오후 8:00 |
 
 #### 특정 요일에 컨텐츠 재생 {#playing-content-on-a-particular-day-of-the-week}
 
-이 예에서는 라이브 이벤트가 주말마다 오후 8:00부터 오후 10:00까지 발생하는 카지노에서 달성한 DayParting을 보여주며, 스페셜 메뉴는 오후 10:00부터 오전 1:00까지 저녁 메뉴에 사용할 수 있습니다.
+이 예에서는 라이브 이벤트가 주말마다 오후 8:00부터 오후 10:00까지 발생하는 카지노에 구현된 DayParting을 보여주며 스페셜 메뉴는 오후 10:00부터 오전 1:00까지 저녁 메뉴에 사용할 수 있습니다.
 
+| **이름** | **반복** | **시작** | **끝** |
+|---|---|---|---|
+| 주말 | 매주 | 오후 8:00 | 오후 10:00 |
+| 특수 | 일별 | 오후 10:00 | 오전 1:00 |
+
+**주말**
+
+
+**특수**
 
 #### 특정 달 동안의 컨텐츠 재생 {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 이 예에서는 12월의 동일한 일정과 함께 겨울 컬렉션을 표시하는 스토어에 대한 DayParting을 보여줍니다. 그러나 해당 주 동안 채널 B의 우선 순위가 2로 설정되었으므로 채널 A가 아니라 채널 B가 컨텐츠를 재생합니다.
 
+## Timeline View {#timeline-view}
+
+디스플레이에 채널을 지정하고 되풀이 일정을 설정했으면 지정된 채널 및 일정 **패널에서 타임라인을** 볼 수 있습니다.
+
+아래 절차에 따라 타임라인 보기로 이동합니다.
 
 
 
