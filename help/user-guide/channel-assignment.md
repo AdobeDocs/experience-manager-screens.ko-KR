@@ -3,9 +3,9 @@ title: 채널 지정
 seo-title: 채널 지정
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1215'
 ht-degree: 39%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 39%
 
 1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![이미지](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tap/click **Assign Channel** in the action bar
 
