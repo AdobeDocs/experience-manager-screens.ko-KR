@@ -3,10 +3,10 @@ title: 채널 지정
 seo-title: 채널 지정
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -97,9 +97,9 @@ ht-degree: 39%
 
 [명소 도구 설명 표시]는 채널이 실행될 때 명소 도구 설명(&quot;*시작하려면 아무 데나 터치하세요*&quot;)을 표시해야 할지 여부를 정의합니다.
 
-### 한시적 입찰 {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 방송 시간 분할은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 말합니다. AEM Screens을 사용하면 요구 사항에 따라 하루, 주 또는 월 내에 한시적으로 채널을 예약할 수 있습니다.
 
@@ -119,7 +119,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 특정 요일에 컨텐츠 재생 {#playing-content-on-a-particular-day-of-the-week}
 
-이 예에서는 라이브 이벤트가 주말마다 오후 8시에서 오후 10시까지 진행되고 스페셜 메뉴가 오후 10시부터 오전 1시까지 저녁 메뉴에 포함되는 카지노에서 달성한 방송 시간 분할을 보여줍니다.
+이 예에서는 라이브 이벤트가 주말마다 오후 8:00부터 오후 10:00까지 발생하는 카지노에서 달성한 dayParting을 보여주며, 스페셜 메뉴는 오후 10:00부터 오전 1시까지 저녁 메뉴에 사용할 수 있습니다.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 특정 달 동안의 컨텐츠 재생 {#playing-content-for-a-particular-month-months}
 
-이 예에서는 6월부터 8월까지 여름 컬렉션을 표시하고 9월부터 10월 말까지 가을 컬렉션을 표시하는 점포의 한시적 입찰을 보여줍니다.
+이 예에서는 6월부터 8월까지 여름 컬렉션을 표시하고 9월부터 10월 말까지 가을 컬렉션을 표시하는 스토어에 대한 DayParting을 보여줍니다.
 
 여기서는 지정된 연도의 달에 따라 채널 컨텐츠가 재생되도록 달에 따라 한시적 입찰을 만듭니다.
 
@@ -161,7 +161,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 우선 순위가 같은 채널의 컨텐츠 재생 {#playing-content-for-channels-with-same-priority}
 
-이 예에서는 12월의 동일한 일정과 함께 겨울 컬렉션을 표시하는 스토어에 대한 방송 시간 분할을 보여줍니다. 그러나 해당 주 동안 채널 B의 우선 순위가 2로 설정되었으므로 채널 A가 아니라 채널 B가 컨텐츠를 재생합니다.
+이 예에서는 12월의 동일한 일정과 함께 겨울 컬렉션을 표시하는 스토어에 대한 DayParting을 보여줍니다. 그러나 해당 주 동안 채널 B의 우선 순위가 2로 설정되었으므로 채널 A가 아니라 채널 B가 컨텐츠를 재생합니다.
 
 | **채널** | **역할** | **우선 순위** | **예약** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 >[!NOTE]
 >
-> 한시적 입찰에 대한 자세한 내용은 아래 섹션을 참조하십시오.
+> DayParting에 대한 자세한 내용은 아래 섹션을 참조하십시오.
 >
 >* [자산의 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [채널에서 자산에 대한 되풀이 처리](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
