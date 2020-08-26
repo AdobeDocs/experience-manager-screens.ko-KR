@@ -3,9 +3,9 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 24%
 
 ---
@@ -187,7 +187,7 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 이 예에서는 음식점이 어떻게 DayParting을 사용하여 매일 아침, 점심 및 저녁 메뉴를 선보이는지 보여줍니다.
 
-여기서는 각 날을 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생되도록 합니다. 이 사용 사례에 따라 컨텐츠를 재생하려면 되풀이 일정의 다음 속성을 설정합니다.
+여기서는 각 날을 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생되도록 합니다. 이 사용 사례에 따라 컨텐트를 재생하려면 채널에 대해 되풀이 일정의 다음 속성을 설정합니다.
 
 | **이름** | **반복** | **시작** | **끝** |
 |---|---|---|---|
