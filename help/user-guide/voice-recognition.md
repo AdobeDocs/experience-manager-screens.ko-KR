@@ -2,15 +2,22 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
 
 # AEM Screens 음성 인식 {#voice-recognition}
+
+>[중요 사항]
+>**중요 개인 정보**
+>음성 인식 기능을 사용하는 경우 해당 지역에 적용되는 모든 법적 및 윤리적 가이드라인을 따릅니다(플레이어가 음성 인식을 사용하고 있다는 것을 최종 사용자에게 가시적 통지하는 것을 포괄적으로 포함). Adobe Inc, 음성 관련 정보를 수신하거나 저장 또는 처리하지 않습니다. AEM Screens 플레이어는 검색 엔진에 내장된 표준 웹 음성 API를 사용합니다. 비하인드 스토리에서는 음성을 텍스트로 변환하기 위해 Google의 서버로 음성 양식이 전송되며 이 텍스트는 구성된 키워드에 대해 플레이어와 일치합니다.
+>
+>자세한 내용은 [웹 음성 API의 Google 개인 정보 보호 백서를](https://www.google.com/chrome/privacy/whitepaper.html#speech) 참조하십시오.
+
 
 ## 개요 {#overview}
 
@@ -80,30 +87,44 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
    또는,
 
-   프로젝트에 대해 사전에 AEM 인스턴스에서 태그를 만들고 선택할 수도 있습니다.
+   프로젝트에 대해 사전에 AEM 인스턴스에서 태그를 만들고 선택할 수도 있습니다. 태그 만들기에 설명된 단계를 [따라](#creating-tags)다음 그림과 같이 위치에서 태그를 선택하고 채널에 추가할 수 있습니다.
 
-   태그를 만들려면 아래 절차를 따르십시오.
-
-   1. AEM 인스턴스로 이동합니다.
-   1. 도구 —> **태깅을 클릭합니다**.
-      ![이미지](assets/voice-recognition/vr-7.png)
+   ![이미지](assets/voice-recognition/vr-tag1.png)
 
 1. 완료되면 **저장 및** 닫기를 클릭합니다.
 
-마찬가지로, HotDrinks **** 채널에 **뜨거운****태그** 와 **차가운** 태그를ColdDrinksTowards 채널에 추가합니다.
+마찬가지로, HotDrinks **채널에** 뜨거운 **으로** 명명된 태그를 추가합니다.
 
-### 디스플레이에 채널 지정 {#channel-assignment}
+#### 태그 만들기 {#creating-tags}
+
+태그를 만들려면 아래 절차를 따르십시오.
+
+1. AEM 인스턴스로 이동합니다.
+1. 도구 —> **태깅을 클릭합니다**.
+   ![이미지](assets/voice-recognition/vr-7.png)
+1. 만들기 **—> 네임스페이스** 만들기를 클릭합니다 ****.
+   ![이미지](assets/voice-recognition/vr-7.png)
+1. 프로젝트의 이름을 입력합니다. 예: **VoiceDemo** 를 클릭하고 만들기를 클릭합니다.
+1. VoiceDemo **프로젝트를** 선택하고 작업 **모음에서 태그** 만들기를 클릭합니다.
+1. 제출을 **클릭합니다**.
+
+
+### 디스플레이에 채널 지정 및 음성 인식 활성화 {#channel-assignment}
 
 1. 아래 그림과 같이 **위치** 폴더에 디스플레이를 만듭니다.
 
+   ![이미지](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md).
 
 1. 채널을 **Main**, **ColdDrinks**&#x200B;및 **HotDrinks** 에 할당하고 **LobbyDisplayYou를**&#x200B;통해
 
+1. 채널을 할당하는 동안 다음 속성을 각 채널에 설정합니다.
 
-1. 다음 속성을 각 채널에 설정합니다.
+   * 기본
+   * HotDrinks
+   * 콜드음료
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 1. 표시 **탭으로** 이동하고 **컨텐츠** 아래에서 **음성 사용**&#x200B;옵션을활성화합니다.
 
-   >[!NOTE]
+   ![이미지](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >디스플레이에서 음성 인식 기능을 활성화해야 합니다.
 
-## Chrome Player에서 콘텐트 보기 {#viewing-content}
+#### Chrome Player에서 콘텐트 보기 {#viewing-content}
 
 이전 단계가 완료되면 크롬 장치를 등록하고 출력을 볼 수 있습니다.
 
-아래 단계를 따르십시오.
+>[!NOTE]
+>AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 방법은 장치 등록을 참조하십시오.
 
-1. 장치 **폴더로** 이동하고 작업 **표시줄에서** 장치 관리자를 클릭하여 장치를 등록합니다.
+이 예에서는 Chrome Player에서 출력을 보여 줍니다.
+
+![newimage](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
