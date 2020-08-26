@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 3%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 3%
 
 # AEM Screens 음성 인식 {#voice-recognition}
 
->[중요 사항]
+>[!IMPORTANT]
+>
 >**중요 개인 정보**
+>
 >음성 인식 기능을 사용하는 경우 해당 지역에 적용되는 모든 법적 및 윤리적 가이드라인을 따릅니다(플레이어가 음성 인식을 사용하고 있다는 것을 최종 사용자에게 가시적 통지하는 것을 포괄적으로 포함). Adobe Inc, 음성 관련 정보를 수신하거나 저장 또는 처리하지 않습니다. AEM Screens 플레이어는 검색 엔진에 내장된 표준 웹 음성 API를 사용합니다. 비하인드 스토리에서는 음성을 텍스트로 변환하기 위해 Google의 서버로 음성 양식이 전송되며 이 텍스트는 구성된 키워드에 대해 플레이어와 일치합니다.
 >
 >자세한 내용은 [웹 음성 API의 Google 개인 정보 보호 백서를](https://www.google.com/chrome/privacy/whitepaper.html#speech) 참조하십시오.
