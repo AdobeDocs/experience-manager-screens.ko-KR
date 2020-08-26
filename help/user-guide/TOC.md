@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 69a40d662d9bc0fe33e1cad7523b0c7a3baea7cf
+source-git-commit: a80447bd399086f23ce654108a0b58fb324d90de
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 14%
+source-wordcount: '394'
+ht-degree: 13%
 
 ---
 
@@ -89,6 +89,7 @@ ht-degree: 14%
       + [여러 영역을 단일 영역으로 전환](multizone-to-singlezone.md)
       + [단일 사용 인계채널](single-use-takeover-channel.md)
       + [영구 사용 인계채널](perpetual-takeover-channel.md)
+      + [음성 인식](voice-recognition.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
