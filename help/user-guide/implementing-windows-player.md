@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,21 @@ ht-degree: 1%
 AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player를 설치하십시오.
 
 AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
+
+### AEM Screens 6.5.5 기능 팩 이상의 환경 설정 {#fp-environment-setup}
+
+AEM Screens 6.5.5 기능 팩을 사용하는 경우 Windows Player용 환경을 설정해야 합니다.
+
+아래 단계를 따르십시오.
+
+1. 를 사용하여 **Adobe Experience Manager 웹 콘솔** 구성으로 이동합니다 `http://localhost:4502/system/console/configMgr`.
+
+1. [MOCK] Search for *Adobe Granite Token Authentication Handler*.
+
+1. 로그인 **토큰 쿠키의 SameSite 속성을 Lax에서** **None** 으로 ****설정합니다.
+   ![이미지](/help/user-guide/assets/granite-updates.png)
+
+1. **저장**&#x200B;을 클릭합니다.
 
 ### 애드혹 메서드 {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화하�
 
 1. PowerShell 스크립트를 관리자로 실행합니다.
 1. 키오스크 사용자와 플레이어 응용 프로그램이 바로 시작할 때 재부팅하여 로그인합니다.
-
-### AEM Screens 6.5.5 기능 팩 이상의 환경 설정 {#fp-environment-setup}
-
-AEM Screens 6.5.5 기능 팩을 사용하는 경우 Windows Player용 환경을 설정해야 합니다.
-
-아래 단계를 따르십시오.
-
-1. 를 사용하여 **Adobe Experience Manager 웹 콘솔** 구성으로 이동합니다 `http://localhost:4502/system/console/configMgr`.
-
-1. [MOCK] Search for *Adobe Granite Token Authentication Handler*.
-
-1. 로그인 **토큰 쿠키의 SameSite 속성을 Lax에서** **None** 으로 ****설정합니다.
-   ![이미지](/help/user-guide/assets/granite-updates.png)
-
-1. **저장**&#x200B;을 클릭합니다.
 
 ### 문제 해결 {#troubleshooting}
 
