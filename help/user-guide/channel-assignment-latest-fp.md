@@ -3,9 +3,9 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 23%
 
 ---
@@ -170,6 +170,8 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 다음 속성은 채널 지정 대화 상자의 **예약** 옵션 **에서** 설정됩니다.
 
+![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### 참조 시간대 {#reference-timezone}
 
 참조 시간대를 사용하면 컨텐츠 표시 시간대를 선택할 수 있습니다.
@@ -182,9 +184,6 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 되풀이 일정을 사용하면 컨텐츠에 대한 반복 일정을 설정할 수 있습니다. 채널에 반복 일정을 추가하려면 **+ 일정** 추가를 클릭합니다.
 
-![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >여러 개의 반복되는 일정을 채널에 추가할 수 있습니다.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 * **이름**:되풀이 일정의 제목입니다.
 * **반복**:일정이 **일별**, **주별**, **월별****또는**&#x200B;연간을실행할지 여부를 선택합니다.
 * **시작**:일정의 시작 시간입니다.
-* **끝**:일정의 종료 시간입니다. 다음을 통해 설정할 수 있습니다.
-* **시간**:일정은 지정된 시간에 종료됩니다.
-* **지속 시간**:특정 시간(시간 또는 분)에 대해 일정이 실행됩니다.
+* **끝**:일정의 종료 시간입니다. 시간 또는 기간별로 설정할 수 있습니다.
+   * **시간**:일정은 지정된 시간에 종료됩니다.
+   * **지속 시간**:특정 시간(시간 또는 분)에 대해 일정이 실행됩니다.
 
 ### DayParting {#dayparting}
 
