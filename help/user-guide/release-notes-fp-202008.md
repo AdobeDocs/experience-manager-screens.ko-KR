@@ -2,9 +2,9 @@
 title: Feature Pack 202008용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202008에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '299'
 ht-degree: 5%
 
 ---
@@ -57,6 +57,9 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 8월 31일입니다
 * Chrome OS
 * Windows
 * Android
+
+>[!IMPORTANT]
+>AEM 서비스 팩 6.5.5를 설치한 경우 스크린 플레이어에서 복제 문제가 발생할 수 있습니다. 문제를 [해결하려면 cq-ui-wcm-commons-content-1.1.154를](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 설치하십시오.
 
 #### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
 
