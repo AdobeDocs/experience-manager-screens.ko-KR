@@ -2,10 +2,10 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
+source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 2%
+source-wordcount: '1581'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 2%
 >자세한 내용은 [웹 음성 API의 Google 개인 정보 보호 백서를](https://www.google.com/chrome/privacy/whitepaper.html#speech) 참조하십시오.
 
 
-## 개요 {#overview}
 
 음성 인식 기능을 사용하면 음성 인터랙션을 기반으로 AEM Screens 채널에서 컨텐츠를 변경할 수 있습니다.
 
@@ -39,14 +38,12 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 다음 섹션에서는 AEM Screens 프로젝트에서 음성 인식 기능을 활성화하고 사용하는 방법에 대해 설명합니다.
 
-### 프로젝트 설정 {#setting-up}
-
 다음 두 가지 템플릿 중 하나를 사용하여 프로젝트를 설정할 수 있습니다.
 
 * [시퀀스 채널](#sequence-channel)
 * [화면 분할 채널](#split-channel)
 
-#### 템플릿으로 시퀀스 채널 사용 {#sequence-channel}
+## 템플릿으로 시퀀스 채널 사용 {#sequence-channel}
 
 음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
 
@@ -73,33 +70,6 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    **뜨거운 음료**:
 
    ![이미지](assets/voice-recognition/vr-2.png)
-
-#### 분할 화면 채널을 템플릿으로 사용 {#split-channel}
-
-음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
-
-1. 다음 예에서는 아래 그림에 표시된 대로 **VoiceDemo** 및 세 개의 시퀀스 채널 **Main**, **ColdDraves**&#x200B;및 **HotDraves, SplitChannel이라는 데모 프로젝트를 쇼케이션합니다****** .
-
-
-
-   >[!NOTE]
-   >
-   >채널을 만들거나 채널에 컨텐츠를 추가하는 방법에 대해 알아보려면 채널 만들기 및 [관리를 참조하십시오](/help/user-guide/managing-channels.md)
-
-1. 각 채널로 이동하고 컨텐츠를 추가합니다. 예를 들어 **VoiceDemo** —> **채널** —> **기본** 으로이동하여채널을 선택합니다. 작업 표시줄에서 **편집을** 클릭하여 편집기를 열고 요구 사항에 따라 컨텐츠(이미지/비디오)를 추가합니다. 마찬가지로 **ColdDrinks** 및 **HotDrinks** 채널에 컨텐츠를 추가할 수 있습니다.
-
-   이제 채널에는 아래 그림과 같이 자산(이미지)이 포함됩니다.
-
-   **기본**:
-
-
-
-   **콜드드음료**:
-
-
-   **뜨거운 음료**:
-
-1. SplitChannel **으로** 이동하고 컨텐츠를 추가합니다. 포함된 시퀀스 두 개를 끌어다 놓고 아래 그림과 같이 **ColdDraw** 및 **HotDraw** 채널 모두에 경로를 추가합니다.
 
 
 ### 채널에 대한 태그 설정 {#setting-tags}
@@ -132,7 +102,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 화면 분할 채널을 템플릿으로 사용하는 경우 채널 속성에 태그(**핫** 및 **콜드**)를 모두 추가해야 합니다.
 
-#### 태그 만들기 {#creating-tags}
+### 태그 만들기 {#creating-tags}
 
 태그를 만들려면 아래 절차를 따르십시오.
 
@@ -191,8 +161,6 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 이 예에서는 Chrome Player에서 출력을 보여 줍니다.
 
-#### 순차적 채널 {#sequential-output}
-
 메인 **** 채널은 컨텐츠를 재생하지만 뜨거운 음료를 **만들고 싶은** 등 *키워드*&#x200B;가 포함된 단어를 사용하면 채널에서 **** HotDraves 채널의 컨텐츠를 재생하기 시작합니다.
 
 마찬가지로 차가운 **것을 갖고 싶어** 는 등 키워드 *감기로*&#x200B;단어를 **사용하면 이 채널은** 콜드드음료채널의 콘텐츠를 재생하기 시작합니다.
@@ -200,12 +168,117 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-#### 분할 화면 채널의 경우 {#split-screen-output}
+## 분할 화면 채널을 템플릿으로 사용 {#split-channel}
+
+음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
+
+1. 다음 예에서는 VoiceDemo **및 세 개의 시퀀스 채널** Main **,** ColdDraw **및 HotDrages와********** HotDrugDix 및 아래 그림에 표시된 1x개의 화면 분할ScreenDiffyScreen이라는 데모 프로젝트를 시연합니다.
+
+   ![이미지](assets/voice-recognition/vr-emb-1.png)
+
+   >[!NOTE]
+   >
+   >채널을 만들거나 채널에 컨텐츠를 추가하는 방법에 대해 알아보려면 채널 만들기 및 [관리를 참조하십시오](/help/user-guide/managing-channels.md)
+
+1. 각 채널로 이동하고 컨텐츠를 추가합니다. 예를 들어 **VoiceDemo** —> **채널** —> **기본** 으로이동하여채널을 선택합니다. 작업 표시줄에서 **편집을** 클릭하여 편집기를 열고 요구 사항에 따라 컨텐츠(이미지/비디오)를 추가합니다. 마찬가지로 **ColdDrinks** 및 **HotDrinks** 채널에 컨텐츠를 추가할 수 있습니다.
+
+   이제 채널에는 아래 그림과 같이 자산(이미지)이 포함됩니다.
+
+   **기본**:
+
+   ![이미지](assets/voice-recognition/vr-emb-3.png)
 
 
-메인 **** 채널은 컨텐츠를 재생하지만 뜨거운 음료를 **만들고 싶은** 등 *키워드*&#x200B;가 포함된 단어를 사용하면 채널에서 **** HotDraves 채널의 컨텐츠를 재생하기 시작합니다.
+   **콜드드음료**:
+   ![이미지](assets/voice-recognition/vr-3.png)
 
-마찬가지로 차가운 **것을 갖고 싶어** 는 등 키워드 *감기로*&#x200B;단어를 **사용하면 이 채널은** 콜드드음료채널의 콘텐츠를 재생하기 시작합니다.
+   **뜨거운 음료**:
+
+   ![이미지](assets/voice-recognition/vr-2.png)
+
+1. 아래 그림과 같이 **SplitScreen** 으로 이동하여 포함된 두 개의 시퀀스를 **드래그 앤 드롭하고** ColdDraw **및** HotDrinks채널 모두에 패스를 추가할 수 있습니다.
+   ![이미지](assets/voice-recognition/vr-emb-6.png)
+
+
+### 채널에 대한 태그 설정 {#setting-tags-split}
+
+채널에 컨텐츠를 추가한 후에는 각 채널로 이동하고 음성 인식을 트리거하는 적절한 태그를 추가해야 합니다.
+
+채널에 태그를 추가하려면 아래 절차를 따르십시오.
+
+1. 각 채널로 이동하고 컨텐츠를 추가합니다. 예를 들어 **VoiceDemo** —> **채널** —> **기본** 으로이동하여채널을 선택합니다.
+
+1. Click **Properties** from the action bar.
+
+   ![이미지](assets/voice-recognition/vr-5.png)
+
+1. 기본 **탭으로** 이동하여 태그 **필드에서 기존 태그를** 선택하거나 새 태그를 만듭니다.
+
+   아래 그림과 같이 태그 및 히트 `return` 키에 새 이름을 입력하여 새 태그를 만들 수 있습니다.
+
+   ![이미지](assets/voice-recognition/vr-6.png)
+
+   또는,
+
+   프로젝트에 대해 사전에 AEM 인스턴스에서 태그를 만들고 선택할 수도 있습니다. 태그 만들기에 설명된 단계를 [따라](#creating-tags)다음 그림과 같이 위치에서 태그를 선택하고 채널에 추가할 수 있습니다.
+
+   ![이미지](assets/voice-recognition/vr-tag1.png)
+
+1. 마찬가지로, HotDrinks **채널에** 뜨거운 **으로** 명명된 태그를 추가합니다.
+
+1. SplitScreen 채널 속성에 두 태그(**핫** 및 **콜드**)를 **모두** 추가합니다.
+
+   ![이미지](assets/voice-recognition/vr-emb-7.png)
+
+
+1. 완료되면 **저장 및** 닫기를 클릭합니다.
+
+### 디스플레이에 채널 지정 및 음성 인식 활성화 {#channel-assignment-split}
+
+1. 아래 그림과 같이 **위치** 폴더에 디스플레이를 만듭니다.
+
+   ![이미지](assets/voice-recognition/vr-loc.png)
+
+   >[!NOTE]
+   >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md).
+
+1. Main **,** ColdDrinks **,** HotDrinks **및****** **** Screen SplitYour FacebookLobbyDisplay에 채널을 할당합니다.
+
+1. 채널을 할당하는 동안 다음 속성을 각 채널에 설정합니다.
+
+   | **채널 이름** | **우선 순위** | **지원되는 이벤트** |
+   |---|---|---|
+   | 기본 | 2 | 초기 로드, 유휴 화면, 타이머 |
+   | HotDrinks | 1 | 사용자 상호 작용 |
+   | 콜드음료 | 1 | 사용자 상호 작용 |
+   | SplitScreen | 1 | 사용자 상호 작용 |
+
+   >[!NOTE]
+   >
+   >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md).
+
+1. 디스플레이에 채널을 지정했으면 **로비** 디스플레이로 이동하고 디스플레이를 선택합니다. 작업 **표시줄에서** 속성을 선택합니다.
+
+1. 표시 **탭으로** 이동하고 **컨텐츠** 아래에서 **음성 사용**&#x200B;옵션을활성화합니다.
+
+   ![이미지](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
+   >디스플레이에서 음성 인식 기능을 활성화해야 합니다.
+
+
+### Chrome Player에서 콘텐트 보기 {#viewing-content-split}
+
+이전 단계가 완료되면 크롬 장치를 등록하여 출력을 볼 수 있습니다.
+
+>[!NOTE]
+>AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 방법은 장치 등록을 참조하십시오.
+
+이 예에서는 Chrome Player에서 출력을 보여 줍니다.
+
+Main ******채널은 컨텐츠를 재생하지만, 키워드** 의 뜨거운 **** 단어와 *차가운*&#x200B;음료를 위한 메뉴를 보고 싶음과 같은 키워드 **단어를 함께 사용하는 경우, ColdBeging** 과 차가운 음료를 위한 메뉴를 함께 사용하면 SplitSplitChannel 채널을 재생하는 채널이 시작됩니다.
+
+
 
 
 
