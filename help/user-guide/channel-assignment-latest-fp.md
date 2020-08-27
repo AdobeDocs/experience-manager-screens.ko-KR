@@ -3,10 +3,10 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 24%
+source-wordcount: '1480'
+ht-degree: 23%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 24%
    >채널 지정 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
 1. 예약 **옵션** 에서 **참조 시간대**, **활성화 창** 및 되풀이 **일정**을선택합니다.
-   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >채널 지정 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
@@ -152,6 +152,7 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 다음 속성은 채널 지정 대화 상자의 **예약** 옵션 **에서** 설정됩니다.
 
+
 #### 참조 시간대 {#reference-timezone}
 
 참조 시간대를 사용하면 컨텐츠 표시 시간대를 선택할 수 있습니다.
@@ -163,6 +164,9 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 #### 재현 예약 {#recurrence-schedule}
 
 되풀이 일정을 사용하면 컨텐츠에 대한 반복 일정을 설정할 수 있습니다. 채널에 반복 일정을 추가하려면 **+ 일정** 추가를 클릭합니다.
+
+![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >여러 개의 반복되는 일정을 채널에 추가할 수 있습니다.
@@ -204,25 +208,9 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 | 주말 | 매주 | 오후 8:00 | 오후 10:00 |
 | 특수 | 일별 | 오후 10:00 | 오전 1:00 |
 
-**주말**
-
-
-**특수**
-
-#### 특정 달 동안의 컨텐츠 재생 {#playing-content-for-a-particular-month-months}
-
-이 예에서는 6월부터 8월까지 여름 컬렉션을 표시하고 9월부터 10월 말까지 가을 컬렉션을 표시하는 스토어에 대한 DayParting을 보여줍니다.
-
-여기서는 지정된 연도의 달에 따라 채널 컨텐츠가 재생되도록 달에 따라 한시적 입찰을 만듭니다.
-
-
 >[!NOTE]
 >
 >추가로, 각 채널에 대해 ***우선 순위***&#x200B;를 정의할 수 있습니다. 예를 들어, 동일한 날짜 및 시간 또는 동일한 달에 대해 두 개의 채널이 설정되면 우선 순위가 높은 채널이 먼저 재생됩니다. 우선 순위의 최소값은 0으로 설정할 수 있습니다.
-
-#### 우선 순위가 같은 채널의 컨텐츠 재생 {#playing-content-for-channels-with-same-priority}
-
-이 예에서는 12월의 동일한 일정과 함께 겨울 컬렉션을 표시하는 스토어에 대한 DayParting을 보여줍니다. 그러나 해당 주 동안 채널 B의 우선 순위가 2로 설정되었으므로 채널 A가 아니라 채널 B가 컨텐츠를 재생합니다.
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 아래 절차에 따라 타임라인 보기로 이동합니다.
 
+1. 필요한 디스플레이(예: **DemoScreens** —> **위치** —> **SanJose** —> **LobbyCover**&#x200B;로이동합니다.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   또는,
+
+   대시보드 **를 탭/클릭하고** 지정된 채널 **및 일정** 패널에서 **** 타임라인을클릭합니다.
+
+1. 보류 중인 이미지(수정됨)
 
 
