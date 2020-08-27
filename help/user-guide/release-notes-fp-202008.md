@@ -2,9 +2,9 @@
 title: Feature Pack 202008용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202008에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experienc
 
 AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 8월 31일입니다.
 
-### 새로운 기능 {#what-s-new}
+### 새로운 기능 {#what-is-new}
 
 * **예약 대시보드에서 타임라인 보기**
 
@@ -48,18 +48,16 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 8월 31일입니다
 
    자세한 내용은 [음성](voice-recognition.md) 인식을 참조하십시오.
 
-* **작성자/게시 모드에서 디바이스 환경 설정 업데이트**
-
 ### 개봉한 AEM Screens 선수 {#released-aem-screens-players}
 
 다음 AEM Screens 플레이어는 AEM 6.5 Feature Pack 5에서 출시되었습니다.
 
+>[!IMPORTANT]
+>AEM 서비스 팩 6.5.5를 설치한 경우 스크린 플레이어에서 복제 문제가 발생할 수 있습니다. 문제를 [해결하려면 cq-ui-wcm-commons-content-1.1.154를](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 설치하십시오.
+
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->AEM 서비스 팩 6.5.5를 설치한 경우 스크린 플레이어에서 복제 문제가 발생할 수 있습니다. 문제를 [해결하려면 cq-ui-wcm-commons-content-1.1.154를](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 설치하십시오.
 
 #### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
 
