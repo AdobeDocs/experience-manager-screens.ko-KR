@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 ## 음성 인식 구현 {#implementing}
 
 >[!IMPORTANT]
-> 음성 인식 기능은 크롬 및 전자 플레이어에서만 사용할 수 있습니다.
+> 음성 인식 기능은 Chrome OS 및 전자 플레이어에서만 사용할 수 있습니다.
 
 AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이에 대한 음성 인식을 활성화하고 각 채널을 고유한 태그와 연결하여 채널 전환을 트리거해야 합니다.
 
@@ -106,14 +106,19 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 태그를 만들려면 아래 절차를 따르십시오.
 
 1. AEM 인스턴스로 이동합니다.
+
 1. 도구 —> **태깅을 클릭합니다**.
    ![이미지](assets/voice-recognition/vr-7.png)
+
 1. 만들기 **—> 네임스페이스** 만들기를 클릭합니다 ****.
    ![이미지](assets/voice-recognition/vr-tag3.png)
-1. 프로젝트의 이름을 입력합니다. 예: **VoiceDemo** 를 클릭하고 **만들기를 클릭합니다**.
+
+1. 프로젝트 이름(예: **VoiceDemo** )을 입력하고 **만들기를 클릭합니다**.
    ![이미지](assets/voice-recognition/vr-tag2.png)
+
 1. VoiceDemo **프로젝트를** 선택하고 작업 **모음에서 태그** 만들기를 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag4.png)
+
 1. 태그 이름을 입력하고 [제출]을 **클릭합니다**.
    ![이미지](assets/voice-recognition/vr-tag5.png)
 
