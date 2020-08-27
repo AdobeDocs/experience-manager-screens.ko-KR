@@ -1,8 +1,8 @@
 ---
 title: Windows 10 Player 구현
 seo-title: Windows 10 Player 구현
-description: AEM Screens Windows 10 플레이어에 대해 알려면 이 페이지를 따르십시오.
-seo-description: AEM Screens Windows 10 플레이어에 대해 알려면 이 페이지를 따르십시오.
+description: AEM Screens Windows 10 플레이어 구성에 대해 알려면 이 페이지를 따르십시오.
+seo-description: AEM Screens Windows 10 플레이어 구성에 대해 알려면 이 페이지를 따르십시오.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 0%
 
 AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player를 설치하십시오.
 
-AEM [**6.5 플레이어 다운로드&#x200B;**](https://download.macromedia.com/screens/)페이지를 참조하십시오.
+AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
 
 ### 애드혹 메서드 {#ad-hoc-method}
 
-애드혹 방법을 사용하면 최신 Windows Player(*.exe*)를 설치할 수 있습니다. AEM [**6.5 Player 다운로드&#x200B;**](https://download.macromedia.com/screens/)페이지를 참조하십시오.
+애드혹 방법을 사용하면 최신 Windows Player(*.exe*)를 설치할 수 있습니다. AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
 
 애플리케이션을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
 1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
-1. 왼쪽 작업 메뉴에서 **구성으로** 이동하고 연결할 AEM 인스턴스의 위치(주소)를 입력하고 **저장을 클릭합니다**.
+1. 왼쪽 작업 **메뉴에서** 구성으로 이동하고 연결할 AEM 인스턴스의 위치(주소)를 입력하고 **저장을 클릭합니다**.
 1. 왼쪽 작업 메뉴에서 **장치** **** 등록링크로 이동하여 장치 등록 프로세스의 상태를 확인합니다.
 
 >[!NOTE]
@@ -45,7 +45,7 @@ AEM [**6.5 플레이어 다운로드&#x200B;**](https://download.macromedia.com/
 >
 >상태 **가** **등록되지인**&#x200B;경우 **토큰을** 사용하여 장치를 등록할수 있습니다.
 
-### 벌크 서버 구성: 하나의 구성으로 여러 Windows 10 플레이어 등록 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### 벌크 서버 구성:하나의 구성으로 여러 Windows 10 플레이어 등록 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 Windows 플레이어를 설치한 후에는 하나의 구성으로 여러 플레이어를 등록할 수 있습니다.
 
@@ -69,7 +69,7 @@ Windows 플레이어를 설치한 후에는 하나의 구성으로 여러 플레
 
 | **정책 이름** | **목적** |
 |---|---|
-| 서버 | AEM(Adobe Experience Manager) 서버에 대한 URL. |
+| 서버 | Adobe Experience Manager(AEM) 서버에 대한 URL. |
 | 해상도 | 장치의 해상도입니다. |
 | rebootSchedule | 플레이어를 재부팅하는 일정 |
 | enableAdminUI | 관리 UI를 활성화하여 사이트에서 장치를 구성합니다. 구성 및 제작 시 false로 설정합니다. |
@@ -95,7 +95,7 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화하�
 
 >[!CAUTION]
 >
->Adobe에서는 Windows용 키오스크를 활성화하려면 장치 관리 솔루션을 권장합니다. 키오스크 모드를 활성화할 장치 관리 솔루션이 없는 경우 아래 절차를 따르십시오. 이 메서드는 Windows 10 enterprise 및 Edu에서 사용할 수 있는 셸 실행 기능을 사용합니다. UWP 이외의 앱에 대해 Microsoft에서 권장하는 모든 수단을 특별히 Windows의 다른 버전에서 키오스크을 사용하도록 설정할 수도 있습니다.
+>Adobe은 Windows용 키오스크를 사용하도록 장치 관리 솔루션을 권장합니다. 키오스크 모드를 활성화할 장치 관리 솔루션이 없는 경우 아래 절차를 따르십시오. 이 메서드는 Windows 10 enterprise 및 Edu에서 사용할 수 있는 셸 실행 기능을 사용합니다. UWP 이외의 앱에 대해 Microsoft에서 권장하는 모든 수단을 특별히 Windows의 다른 버전에서 키오스크을 사용하도록 설정할 수도 있습니다.
 
 아래 절차에 따라 키오스크 모드를 활성화합니다.
 
@@ -105,7 +105,7 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화하�
 
 1. 셸 실행 기능을 활성화합니다.
 
-   자세한 내용은 ***Microsoft Windows 지원*** 의 **[셸 실행](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**페이지구성 섹션을 참조하십시오.
+   자세한 내용은 ***Microsoft Windows 지원*** 의 **[셸 실행](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** 페이지구성 섹션을 참조하십시오.
 
 1. 키오스크에 사용할 관리자가 아닌 사용자(아직 없는 경우)를 만듭니다. 로컬 또는 도메인 사용자일 수 있습니다.
 1. AEM Screens 플레이어 다운로드 페이지에서 해당 키오스크 사용자의 windows 플레이어를 [설치합니다](https://download.macromedia.com/screens/) .
@@ -115,6 +115,21 @@ Windows 플레이어를 배포하는 경우 키오스크 모드를 활성화하�
 
 1. PowerShell 스크립트를 관리자로 실행합니다.
 1. 키오스크 사용자와 플레이어 응용 프로그램이 바로 시작할 때 재부팅하여 로그인합니다.
+
+### AEM Screens 6.5.5 기능 팩 이상의 환경 설정 {#fp-environment-setup}
+
+AEM Screens 6.5.5 기능 팩을 사용하는 경우 Windows Player용 환경을 설정해야 합니다.
+
+아래 단계를 따르십시오.
+
+1. 를 사용하여 **Adobe Experience Manager 웹 콘솔** 구성으로 이동합니다 `http://localhost:4502/system/console/configMgr`.
+
+1. [MOCK] Search for *Adobe Granite Token Authentication Handler*.
+
+1. 로그인 **토큰 쿠키의 SameSite 속성을 Lax에서** **None** 으로 ****설정합니다.
+   ![이미지](/help/user-guide/assets/granite-updates.png)
+
+1. **저장**&#x200B;을 클릭합니다.
 
 ### 문제 해결 {#troubleshooting}
 
