@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -96,11 +96,10 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
    ![이미지](assets/voice-recognition/vr-tag1.png)
 
+1. 마찬가지로, HotDrinks **채널에** 뜨거운 **으로** 명명된 태그를 추가합니다.
+
 1. 완료되면 **저장 및** 닫기를 클릭합니다.
 
-마찬가지로, HotDrinks **채널에** 뜨거운 **으로** 명명된 태그를 추가합니다.
-
-화면 분할 채널을 템플릿으로 사용하는 경우 채널 속성에 태그(**핫** 및 **콜드**)를 모두 추가해야 합니다.
 
 ### 태그 만들기 {#creating-tags}
 
@@ -276,7 +275,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 이 예에서는 Chrome Player에서 출력을 보여 줍니다.
 
-Main ******채널은 컨텐츠를 재생하지만, 키워드** 의 뜨거운 **** 단어와 *차가운*&#x200B;음료를 위한 메뉴를 보고 싶음과 같은 키워드 **단어를 함께 사용하는 경우, ColdBeging** 과 차가운 음료를 위한 메뉴를 함께 사용하면 SplitSplitChannel 채널을 재생하는 채널이 시작됩니다.
+Main ******채널은 컨텐츠를 재생하지만, 키워드** 의 뜨거운 **** 단어와 *차가운*&#x200B;음료를 위한 메뉴를 보고 싶음과 같은 키워드 **단어를 함께 사용하는 경우, ColdBegingWards와 cold** BehanceScreen의 채널에서 재생되는 ColdScreen의 컨텐츠가 시작됩니다.
 
 
 
