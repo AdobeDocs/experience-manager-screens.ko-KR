@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1570'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,12 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 이 예에서는 Chrome Player에서 출력을 보여 줍니다.
 
-Main ******채널은 컨텐츠를 재생하지만, 키워드** 의 뜨거운 **** 단어와 *차가운*&#x200B;음료를 위한 메뉴를 보고 싶음과 같은 키워드 **단어를 함께 사용하는 경우, ColdBegingWards와 cold** BehanceScreen의 채널에서 재생되는 ColdScreen의 컨텐츠가 시작됩니다.
+Main ******채널은 컨텐츠를 재생하지만, 키워드** 의 뜨거운 **** 단어와 *차가운*&#x200B;음료를 위한 메뉴를 보고 싶음과 같은 키워드 **단어를 함께 사용하는 경우, ColdBegingWards와 cold** BehanceScreen의 채널에서 재생되는 ColdScreen의 컨텐츠가 시작됩니다. 메인 메뉴로 *돌아가라고*&#x200B;하면 주 채널로 돌아갑니다.
+
+![newimage](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 
