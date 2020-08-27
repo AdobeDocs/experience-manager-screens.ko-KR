@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,6 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    ![이미지](assets/voice-recognition/vr-tag3.png)
 
 1. 프로젝트 이름(예: **VoiceDemo** )을 입력하고 **만들기를 클릭합니다**.
-   ![이미지](assets/voice-recognition/vr-tag2.png)
 
 1. VoiceDemo **프로젝트를** 선택하고 작업 **모음에서 태그** 만들기를 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag4.png)
