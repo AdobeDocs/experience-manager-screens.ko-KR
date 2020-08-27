@@ -3,9 +3,9 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 23%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 디스플레이를 설정한 후에는 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
 
-이 페이지에서는 디스플레이에 채널을 지정하는 것을 보여줍니다.
+이 페이지에서는 디스플레이에 채널 지정, 채널 속성 이해 및 DayParting을 보여줍니다.
 
 >[!NOTE]
 >디스플레이에 여러 채널을 지정할 수 있습니다.
@@ -65,7 +65,7 @@ ht-degree: 23%
 
    또는,
 
-   대시보드 **를 탭/클릭하고** 지정된 채널 및 일정 **패널에서****채널** 지정을클릭합니다.
+   작업 표시줄에서 **대시보드** 를 탭/클릭하고 지정된 채널 및 일정 **패널에서** 채널 **지정을** 클릭합니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 23%
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. [ **설정** ] 옵션에서 경로 또는 이름별로 채널을 선택하거나, 채널 역할 **,**&#x200B;우선 순위 **, 지원되는 이벤트**, ********&#x200B;지원되는 이벤트, Saported Events 및 SafetySafety를 입력합니다. 또한 이 대화 상자에서 **명소 도구** 설명을 활성화할 수 있습니다.
+1. [ **설정** ] 옵션 **에서 이름별로 경로** 또는 경로 **별로 채널을 선택하고, 역할**, 채널, **채널PriorityPriority**, 지원되는Events,지원되는Events, 및Safety ************&#x200B;와 SafetyAInterftion Methods를 입력합니다. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### 채널 지정 대화 상자에서 채널 속성 이해 {#channel-properties}
+## Timeline View {#timeline-view}
+
+디스플레이에 채널을 지정하고 되풀이 일정을 설정했으면 지정된 채널 및 일정 **패널에서 타임라인을** 볼 수 있습니다.
+
+아래 절차에 따라 타임라인 보기로 이동합니다.
+
+1. 필요한 디스플레이(예: **DemoScreens** —> **위치** —> **SanJose** —> **LobbyCover**&#x200B;로이동합니다.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   또는,
+
+   대시보드 **를 탭/클릭하고** 지정된 채널 **및 일정** 패널에서 **** 타임라인을클릭합니다.
+
+1. 보류 중인 이미지(수정됨)
+
+## 채널 지정 대화 상자에서 채널 속성 이해 {#channel-properties}
 
 다음 속성은 채널 지정 대화 상자의 **설정** 옵션 **에서** 설정됩니다.
 
 ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### 채널 선택 {#select-channel}
+### 채널 선택 {#select-channel}
 
 채널을 선택하면 채널 이름 또는 채널 경로별로 원하는 채널에 대한 참조를 제공할 수 있습니다.
 
@@ -112,25 +130,25 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 * **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### 채널 역할 {#role-channel}
+### 채널 역할 {#role-channel}
 
 채널 역할은 디스플레이 컨텍스트를 정의합니다. 이 역할은 다양한 작업에 의해 타깃팅되며 역할을 수행하는 실제 채널과 독립적입니다.
 
-#### 우선 순위 {#priority-channel}
+### 우선 순위 {#priority-channel}
 
 우선 순위는 여러 지정 내용이 재생 기준을 충족하는 경우 지정 내용의 순서를 정하는 데 사용됩니다. 값이 가장 높은 지정은 낮은 값의 지정보다 항상 우선합니다. 예를 들어, 두 개의 채널 A와 B가 있고 A의 우선 순위는 1이고 B의 우선 순위는 2라면, 채널 B의 우선 순위가 A보다 높으므로 채널 B가 표시됩니다.
 
 >[!NOTE]
 >채널의 우선 순위는 위에 언급된 대로 **채널 지정** 대화 상자에서 숫자(최소값은 1)로 설정됩니다. 또한, 지정된 채널은 내림차순의 우선 순위를 기준으로 정렬됩니다.
 
-#### 지원되는 이벤트 {#supported-events-channel}
+### 지원되는 이벤트 {#supported-events-channel}
 
 * **초기 로드**: 플레이어가 시작될 때 채널을 로드합니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
 * **유휴 화면**: 화면이 유휴 상태일 때 로드됩니다. 일정과 결합하여 여러 채널에 지정할 수 있습니다.
 * **타이머**: 일정이 제공되면 설정해야 합니다.
 * **사용자 상호 작용**: 유휴 채널에서 화면(터치)에 사용자 상호 작용이 있으면 플레이어가 지정된 채널로 전화되고 화면을 터치하면 로드됩니다.
 
-#### 중단 방법 {#interruption-method-channel}
+### 중단 방법 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 다음 속성은 채널 지정 대화 상자의 **예약** 옵션 **에서** 설정됩니다.
 
-
-#### 참조 시간대 {#reference-timezone}
+### 참조 시간대 {#reference-timezone}
 
 참조 시간대를 사용하면 컨텐츠 표시 시간대를 선택할 수 있습니다.
 
-#### 활성화 창 {#activation-window}
+### 활성화 창 {#activation-window}
 
 활성화 창을 사용하면 컨텐츠를 표시할 **시작 날짜** 및 **종료 날짜를** 선택할 수 있습니다.
 
-#### 재현 예약 {#recurrence-schedule}
+### 재현 예약 {#recurrence-schedule}
 
 되풀이 일정을 사용하면 컨텐츠에 대한 반복 일정을 설정할 수 있습니다. 채널에 반복 일정을 추가하려면 **+ 일정** 추가를 클릭합니다.
 
@@ -211,23 +228,4 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 >[!NOTE]
 >
 >추가로, 각 채널에 대해 ***우선 순위***&#x200B;를 정의할 수 있습니다. 예를 들어, 동일한 날짜 및 시간 또는 동일한 달에 대해 두 개의 채널이 설정되면 우선 순위가 높은 채널이 먼저 재생됩니다. 우선 순위의 최소값은 0으로 설정할 수 있습니다.
-
-## Timeline View {#timeline-view}
-
-디스플레이에 채널을 지정하고 되풀이 일정을 설정했으면 지정된 채널 및 일정 **패널에서 타임라인을** 볼 수 있습니다.
-
-아래 절차에 따라 타임라인 보기로 이동합니다.
-
-1. 필요한 디스플레이(예: **DemoScreens** —> **위치** —> **SanJose** —> **LobbyCover**&#x200B;로이동합니다.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   또는,
-
-   대시보드 **를 탭/클릭하고** 지정된 채널 **및 일정** 패널에서 **** 타임라인을클릭합니다.
-
-1. 보류 중인 이미지(수정됨)
-
 
