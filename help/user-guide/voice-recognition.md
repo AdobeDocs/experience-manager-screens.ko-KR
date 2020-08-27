@@ -2,10 +2,10 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1215'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,13 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 ### 프로젝트 설정 {#setting-up}
 
+다음 두 가지 템플릿 중 하나를 사용하여 프로젝트를 설정할 수 있습니다.
+
+* [시퀀스 채널](#sequence-channel)
+* [화면 분할 채널](#split-channel)
+
+#### 템플릿으로 시퀀스 채널 사용 {#sequence-channel}
+
 음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
 
 1. 다음 예에서는 아래 그림에 표시된 것처럼 **VoiceDemo** 및 세 개의 시퀀스 채널 **Main**, **ColdDraw**&#x200B;및 **** HotDrages라는 데모 프로젝트를 소개합니다.
@@ -66,6 +73,34 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    **뜨거운 음료**:
 
    ![이미지](assets/voice-recognition/vr-2.png)
+
+#### 분할 화면 채널을 템플릿으로 사용 {#split-channel}
+
+음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
+
+1. 다음 예에서는 아래 그림에 표시된 대로 **VoiceDemo** 및 세 개의 시퀀스 채널 **Main**, **ColdDraves**&#x200B;및 **HotDraves, SplitChannel이라는 데모 프로젝트를 쇼케이션합니다****** .
+
+
+
+   >[!NOTE]
+   >
+   >채널을 만들거나 채널에 컨텐츠를 추가하는 방법에 대해 알아보려면 채널 만들기 및 [관리를 참조하십시오](/help/user-guide/managing-channels.md)
+
+1. 각 채널로 이동하고 컨텐츠를 추가합니다. 예를 들어 **VoiceDemo** —> **채널** —> **기본** 으로이동하여채널을 선택합니다. 작업 표시줄에서 **편집을** 클릭하여 편집기를 열고 요구 사항에 따라 컨텐츠(이미지/비디오)를 추가합니다. 마찬가지로 **ColdDrinks** 및 **HotDrinks** 채널에 컨텐츠를 추가할 수 있습니다.
+
+   이제 채널에는 아래 그림과 같이 자산(이미지)이 포함됩니다.
+
+   **기본**:
+
+
+
+   **콜드드음료**:
+
+
+   **뜨거운 음료**:
+
+1. SplitChannel **으로** 이동하고 컨텐츠를 추가합니다. 포함된 시퀀스 두 개를 끌어다 놓고 아래 그림과 같이 **ColdDraw** 및 **HotDraw** 채널 모두에 경로를 추가합니다.
+
 
 ### 채널에 대한 태그 설정 {#setting-tags}
 
@@ -94,6 +129,8 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 1. 완료되면 **저장 및** 닫기를 클릭합니다.
 
 마찬가지로, HotDrinks **채널에** 뜨거운 **으로** 명명된 태그를 추가합니다.
+
+화면 분할 채널을 템플릿으로 사용하는 경우 채널 속성에 태그(**핫** 및 **콜드**)를 모두 추가해야 합니다.
 
 #### 태그 만들기 {#creating-tags}
 
@@ -145,14 +182,16 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    >[!IMPORTANT]
    >디스플레이에서 음성 인식 기능을 활성화해야 합니다.
 
-#### Chrome Player에서 콘텐트 보기 {#viewing-content}
+### Chrome Player에서 콘텐트 보기 {#viewing-content}
 
-이전 단계가 완료되면 크롬 장치를 등록하고 출력을 볼 수 있습니다.
+이전 단계가 완료되면 크롬 장치를 등록하여 출력을 볼 수 있습니다.
 
 >[!NOTE]
 >AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 방법은 장치 등록을 참조하십시오.
 
 이 예에서는 Chrome Player에서 출력을 보여 줍니다.
+
+#### 순차적 채널 {#sequential-output}
 
 메인 **** 채널은 컨텐츠를 재생하지만 뜨거운 음료를 **만들고 싶은** 등 *키워드*&#x200B;가 포함된 단어를 사용하면 채널에서 **** HotDraves 채널의 컨텐츠를 재생하기 시작합니다.
 
@@ -161,10 +200,12 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
+#### 분할 화면 채널의 경우 {#split-screen-output}
 
 
+메인 **** 채널은 컨텐츠를 재생하지만 뜨거운 음료를 **만들고 싶은** 등 *키워드*&#x200B;가 포함된 단어를 사용하면 채널에서 **** HotDraves 채널의 컨텐츠를 재생하기 시작합니다.
 
-
+마찬가지로 차가운 **것을 갖고 싶어** 는 등 키워드 *감기로*&#x200B;단어를 **사용하면 이 채널은** 콜드드음료채널의 콘텐츠를 재생하기 시작합니다.
 
 
 
