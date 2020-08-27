@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
@@ -29,16 +29,32 @@ ht-degree: 0%
 
 AEM Screens용 Android 플레이어를 구현하려면 AEM Screens용 Android 플레이어를 설치하십시오.
 
-AEM [**6.5 플레이어 다운로드&#x200B;**](https://download.macromedia.com/screens/)페이지를 참조하십시오.
+AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
+
+### AEM Screens 6.5.5 기능 팩 이상의 환경 설정 {#fp-environment-setup}
+
+AEM Screens 6.5.5 기능 팩을 사용하는 경우 Android 플레이어에 대한 환경을 설정해야 합니다.
+
+아래 단계를 따르십시오.
+
+1. 를 사용하여 **Adobe Experience Manager 웹 콘솔** 구성으로 이동합니다 `http://localhost:4502/system/console/configMgr`.
+
+1. [MOCK] Search for *Adobe Granite Token Authentication Handler*.
+
+1. 로그인 **토큰 쿠키의 SameSite 속성을 Lax에서** **None** 으로 ****설정합니다.
+   ![이미지](/help/user-guide/assets/granite-updates.png)
+
+1. **저장**&#x200B;을 클릭합니다.
+
 
 ### 애드혹 메서드 {#ad-hoc-method}
 
-애드혹 방법을 사용하면 최신 Android 플레이어(*.exe*)를 설치할 수 있습니다. AEM [**6.5 Player 다운로드&#x200B;**](https://download.macromedia.com/screens/)페이지를 참조하십시오.
+애드혹 방법을 사용하면 최신 Android 플레이어(*.exe*)를 설치할 수 있습니다. AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
 
 애플리케이션을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
 1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
-1. 왼쪽 작업 메뉴에서 **구성으로** 이동하고 연결할 AEM 인스턴스의 위치(주소)를 입력하고 **저장을 클릭합니다**.
+1. 왼쪽 작업 **메뉴에서** 구성으로 이동하고 연결할 AEM 인스턴스의 위치(주소)를 입력하고 **저장을 클릭합니다**.
 
 1. 왼쪽 작업 메뉴에서 **장치** **** 등록링크로 이동하여 장치 등록 프로세스의 상태를 확인합니다.
 
@@ -64,7 +80,7 @@ PowerManager 또는 *HDMICcontrolServices와 같은* Android의 권한 있는 AP
 
 제조업체 키를 사용하여 android apk에 서명하려면 아래 절차를 따르십시오.
 
-1. Google Play 또는 [AEM Screens 플레이어 다운로드 페이지에서 페이지](https://download.macromedia.com/screens/) 다운로드
+1. Google Play 또는 [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 앱 다운로드
 1. 제조업체에서 플랫폼 키를 *받아 pk8* 및 *pem* 파일 가져오기
 
 1. 찾기 ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;를 사용하여 android sdk에서 apksigner 도구를 찾습니다.
@@ -87,6 +103,6 @@ PowerManager 또는 *HDMICcontrolServices와 같은* Android의 권한 있는 AP
 
 >[!NOTE]
 >
->Android에서 *AlarmManager* 는 앱이 충돌하고 API 19(Kitkat)에서 해당 알람 배달이 부정확하더라도 실행할 수 있는 *보류* 중인 인스턴스를 등록하는 데 사용됩니다. 타이머의 간격과 AlarmManager의 *pendingIntent의* 경고 사이에 약간의 간격을 *유지하십시오* .
+>Android에서 *AlarmManager* 는 앱이 충돌하고 API 19(Kitkat)에서 해당 알람 배달이 정확하지 않은 경우에도 실행할 수 있는 *보류 중인* 인스턴스를 등록하는 데 사용됩니다. 타이머의 간격과 AlarmManager의 *pendingIntent의* 경고 사이에 약간의 간격을 *유지하십시오* .
 
 **3. 응용 프로그램 충돌** 충돌이 발생하는 경우, AlarmManager에 등록된 재부팅 대기 중 의사표시는 더 이상 재설정되지 않으므로 cordova 플러그인의 초기화 시 사용 가능한 권한에 따라 앱의 다시 부팅 또는 다시 시작을 실행합니다.
