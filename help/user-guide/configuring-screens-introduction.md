@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 2%
 
 ---
 
@@ -72,25 +72,24 @@ ht-degree: 1%
 
 1. AEM 인스턴스 —> 망치 아이콘 —> 작업 **** —> **웹 콘솔** 을 통해 **Adobe Experience Manager 웹 콘솔 구성으로 이동합니다**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![이미지](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager 웹 콘솔 구성이** 열립니다. 슬링 레퍼러를 검색합니다.
 
    sling referrer 속성을 검색하려면 **Mac** 용 **Command+F** 를 누르고 **Windows용 Ctrl+F** 를 **누릅니다**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. 아래 그림과 같이 **빈** 허용 옵션을 선택합니다.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![이미지](assets/config/empty-ref2.png)
 
 1. [ **저장** ]을 클릭하여 Apache Sling 레퍼러 필터 [비어 있음]을 활성화합니다.
+
 
 #### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
 
 1. AEM 인스턴스 —> 망치 아이콘 —> 작업 **** —> **웹 콘솔** 을 통해 **Adobe Experience Manager 웹 콘솔 구성으로 이동합니다**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![이미지](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager 웹 콘솔 구성이** 열립니다. Apache Felix Jetty 기반의 HTTP 서비스를 검색합니다.
 
@@ -98,7 +97,7 @@ ht-degree: 1%
 
 1. 아래 그림과 같이 **HTTP** 활성화 옵션을 선택합니다.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![이미지](assets/config/config-1.png)
 
 1. [ **저장** ]을 클릭하여 *http* 서비스를 활성화합니다.
 
