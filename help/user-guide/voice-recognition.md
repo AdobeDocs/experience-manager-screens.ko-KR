@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 3%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 3%
 >
 >**중요 개인 정보**
 >
->음성 인식 기능을 사용하는 경우 해당 지역에 적용되는 모든 법적 및 윤리적 가이드라인을 따릅니다(플레이어가 음성 인식을 사용하고 있다는 것을 최종 사용자에게 가시적 통지하는 것을 포괄적으로 포함). Adobe Inc, 음성 관련 정보를 수신하거나 저장 또는 처리하지 않습니다. AEM Screens 플레이어는 검색 엔진에 내장된 표준 웹 음성 API를 사용합니다. 비하인드 스토리에서는 음성을 텍스트로 변환하기 위해 Google의 서버로 음성 양식이 전송되며 이 텍스트는 구성된 키워드에 대해 플레이어와 일치합니다.
+>음성 인식 기능을 사용하는 경우 해당 지역에 적용되는 모든 법적 및 윤리적 가이드라인을 따릅니다(플레이어가 음성 인식을 사용하고 있다는 표시 내용을 최종 사용자에게 제공하는 것을 포괄적으로 포함). Adobe Inc, 음성 관련 정보를 수신하거나 저장 또는 처리하지 않습니다. AEM Screens 플레이어는 검색 엔진에 내장된 표준 웹 음성 API를 사용합니다. 백그라운드에서 이 API는 음성을 텍스트로 변환하기 위해 Google의 서버에 음성 양식을 전송하며 이 텍스트는 구성된 키워드에 대해 플레이어와 일치합니다.
 >
 >자세한 내용은 [웹 음성 API의 Google 개인 정보 보호 백서를](https://www.google.com/chrome/privacy/whitepaper.html#speech) 참조하십시오.
-
 
 
 음성 인식 기능을 사용하면 음성 인터랙션을 기반으로 AEM Screens 채널에서 컨텐츠를 변경할 수 있습니다.
@@ -32,18 +31,13 @@ ht-degree: 3%
 ## 음성 인식 구현 {#implementing}
 
 >[!IMPORTANT]
-> 음성 인식 기능은 Chrome OS 및 전자 플레이어에서만 사용할 수 있습니다.
+> 음성 인식 기능은 Chrome OS 및 Windows 플레이어에서만 사용할 수 있습니다.
 
 AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이에 대한 음성 인식을 활성화하고 각 채널을 고유한 태그와 연결하여 채널 전환을 트리거해야 합니다.
 
 다음 섹션에서는 AEM Screens 프로젝트에서 음성 인식 기능을 활성화하고 사용하는 방법에 대해 설명합니다.
 
-다음 두 가지 템플릿 중 하나를 사용하여 프로젝트를 설정할 수 있습니다.
-
-* [시퀀스 채널](#sequence-channel)
-* [화면 분할 채널](#split-channel)
-
-## 템플릿으로 시퀀스 채널 사용 {#sequence-channel}
+## 사용 사례 1:전체 화면 채널 스위치에서 컨텐츠 보기 {#sequence-channel}
 
 음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
 
@@ -171,7 +165,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## 분할 화면 채널을 템플릿으로 사용 {#split-channel}
+## 사용 사례 2:분할 화면 채널 스위치에서 컨텐츠 보기 {#split-channel}
 
 음성 인식 기능을 사용하기 전에 프로젝트에 맞게 설정된 컨텐츠가 포함된 프로젝트와 채널이 있는지 확인하십시오.
 
