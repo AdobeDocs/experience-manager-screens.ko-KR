@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 13%
@@ -76,6 +76,7 @@ ht-degree: 13%
       + [채널 레벨 벌크 이미지 재생 기간](channel-level-image-playback.md)
       + [명령 동기화](using-command-sync.md)
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
+      + [음성 인식](voice-recognition.md)
    + 컨텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
       + [컨텐츠 서비스 업데이트](content-update-as-a-service.md)
@@ -89,7 +90,6 @@ ht-degree: 13%
       + [여러 영역을 단일 영역으로 전환](multizone-to-singlezone.md)
       + [단일 사용 인계채널](single-use-takeover-channel.md)
       + [영구 사용 인계채널](perpetual-takeover-channel.md)
-      + [음성 인식](voice-recognition.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
