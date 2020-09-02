@@ -4,9 +4,9 @@ seo-title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 건축은 AEM Sites의 전통 건축과 닮았다. 컨텐츠는 AEM 작성자 인스턴스에서 작성되고 앞으로 복제되어 여러 게시 인스턴스로 전달됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 seo-description: AEM Screens 건축은 AEM Sites의 전통 건축과 닮았다. 컨텐츠는 AEM 작성자 인스턴스에서 작성되고 앞으로 복제되어 여러 게시 인스턴스로 전달됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 4%
 
 ---
@@ -31,6 +31,9 @@ ht-degree: 4%
 >[!NOTE]
 >
 >이 AEM Screens 기능은 AEM 6.4 스크린 기능 팩 2를 설치한 경우에만 사용할 수 있습니다. 이 Feature Pack에 액세스하려면 Adobe 지원 센터에 연락하여 액세스 권한을 요청해야 합니다. 권한이 있으면 [패키지 공유]에서 다운로드할 수 있습니다.
+
+>[!I역정]
+>디스패처와 함께 둘 이상의 게시 인스턴스를 사용하려면 디스패처의 dispatcher.any 파일을 업데이트해야 합니다. 자세한 [내용은 고정 세션](dispatcher-configurations-aem-screens.md#enable-sticky-session) 활성화를 참조하십시오.
 
 ## 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-instances}
 
