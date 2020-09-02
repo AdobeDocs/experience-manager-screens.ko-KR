@@ -2,10 +2,10 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 2%
+source-wordcount: '1125'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
    또는,
 
-   세 개의 시퀀스 채널 **메인**, **ColdDraves**&#x200B;및 **Draw**&#x200B;와 **추가 1x2 분할 화면 채널** SplitScreen을 아래 그림에 표시된 것처럼 만들 수 있습니다.
+   세 개의 시퀀스 채널 **메인**, **ColdDraves**&#x200B;및 **Draw**&#x200B;와 **추가 1x2 분할 화면 채널 SplitScreen을 아래 그림에 표시된 것처럼 만들 수** 있습니다.
 
    ![이미지](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
    또는,
 
-   프로젝트에 대해 사전에 AEM 인스턴스에서 태그를 만들고 선택할 수도 있습니다. 태그 만들기에 설명된 단계를 [따라](#creating-tags)다음 그림과 같이 위치에서 태그를 선택하고 채널에 추가할 수 있습니다.
+   또한 프로젝트에 대해 사전에 AEM 인스턴스에서 태그를 만들고 선택할 수도 있습니다. 태그 만들기에 설명된 단계를 [따라](#creating-tags)다음 그림과 같이 위치에서 태그를 선택하고 채널에 추가할 수 있습니다.
 
    ![이미지](assets/voice-recognition/vr-tag1.png)
 
 1. 마찬가지로, HotDrinks **채널에** 뜨거운 **으로** 명명된 태그를 추가합니다.
 
-1. 화면 분할 채널을 사용하는 경우 태그(**핫** 및 **콜드**)를 모두 **SplitScreen** 채널 속성에추가합니다.
+1. 화면 분할 채널을 사용하는 경우 아래 그림과 같이 태그(**핫** 및 **콜드**)를 **SplitScreen** 채널 속성에 모두추가합니다.
 
    ![이미지](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 1. AEM 인스턴스로 이동합니다.
 
-1. 도구 —> **태깅을 클릭합니다**.
+1. 도구 아이콘 —> 태깅을 **클릭합니다**.
    ![이미지](assets/voice-recognition/vr-7.png)
 
 1. 만들기 **—> 네임스페이스** 만들기를 클릭합니다 ****.
@@ -139,7 +139,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    >[!NOTE]
    >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 디스플레이 [만들기 및 관리를 참조하십시오](/help/user-guide/managing-displays.md).
 
-1. 채널을 **Main**, **ColdDrinks**&#x200B;및 **HotDrinks** 에 할당하고 **LobbyDisplayYou를**&#x200B;통해
+1. 채널을 **Main**, **ColdDrinks**&#x200B;및 **HotDrinks** 에 할당하고 **LobbyDisplayYou를**&#x200B;통해 또한 프로젝트에 대해 **SplitScreen** 채널을 사용하는 경우 디스플레이에 지정해야 합니다.
 
    >[!NOTE]
    >분할 화면 채널을 만든 경우 디스플레이에 **SplitScreen** 채널을 지정합니다.
@@ -151,6 +151,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    | 기본 | 2 | 초기 로드, 유휴 화면, 타이머 |
    | HotDrinks | 1 | 사용자 상호 작용 |
    | 콜드음료 | 1 | 사용자 상호 작용 |
+   | SplitScreen | 1 | 사용자 상호 작용 |
 
    >[!NOTE]
    >
@@ -172,25 +173,15 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 >[!NOTE]
 >AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 방법은 장치 등록을 참조하십시오.
 
-이 예에서는 Chrome Player에서 출력을 보여 줍니다.
+**원하는 시퀀스 채널 출력**
 
 메인 **** 채널은 컨텐츠를 재생하지만 뜨거운 음료를 **만들고 싶은** 등 *키워드*&#x200B;가 포함된 단어를 사용하면 채널에서 **** HotDraves 채널의 컨텐츠를 재생하기 시작합니다.
 
 마찬가지로 차가운 **것을 갖고 싶어** 는 등 키워드 *감기로*&#x200B;단어를 **사용하면 이 채널은** 콜드드음료채널의 콘텐츠를 재생하기 시작합니다.
 
-![newimage](assets/voice-recognition/voice-video.gif)
-
-이 예에서는 Chrome Player에서 출력을 보여 줍니다.
+**분할 화면 채널에 대해 원하는 출력**
 
 Main ******채널은 컨텐츠를 재생하지만, 키워드** 의 뜨거운 **** 단어와 *차가운*&#x200B;음료를 위한 메뉴를 보고 싶음과 같은 키워드 **단어를 함께 사용하는 경우, ColdBegingWards와 cold** BehanceScreen의 채널에서 재생되는 ColdScreen의 컨텐츠가 시작됩니다. 메인 메뉴로 *돌아가라고*&#x200B;하면 주 채널로 돌아갑니다.
-
-![newimage](assets/voice-recognition/vr-video-2.gif)
-
-
-
-
-
-
 
 
 
