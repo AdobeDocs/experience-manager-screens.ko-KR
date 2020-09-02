@@ -2,10 +2,10 @@
 title: Feature Pack 202008용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202008에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 5%
+source-wordcount: '328'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experienc
 
 ## 릴리스 날짜 {#release-date}
 
-AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 8월 31일입니다.
+AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
@@ -47,6 +47,14 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 8월 31일입니다
    콘텐츠 작성자는 음성을 사용하도록 디스플레이를 구성할 수 있습니다. 이 기능의 목적은 고객이 음성을 디스플레이와 상호 작용하는 방법으로 활용할 수 있도록 하는 것입니다.
 
    자세한 내용은 [음성](voice-recognition.md) 인식을 참조하십시오.
+
+### 알려진 문제 및 수정 사항 {#known-issues}
+
+AEM Screens 6.5.5 기능 팩을 사용하는 경우 Windows 또는 Android 플레이어용 환경을 설정해야 합니다.
+
+* 자세한 [내용은 Windows 10 Player](implementing-windows-player.md#fp-environment-setup) 구현을 참조하십시오.
+
+* 자세한 [내용은 Android 플레이어](implementing-android-player.md#fp-environment-setup) 구현을 참조하십시오.
 
 ### 개봉한 AEM Screens 선수 {#released-aem-screens-players}
 
