@@ -4,10 +4,10 @@ seo-title: AEM Screens용 발송자 구성
 description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 설명합니다.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 6%
+source-wordcount: '251'
+ht-degree: 5%
 
 ---
 
@@ -33,6 +33,21 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 ## Dispatcher 구성 {#configuring-dispatcher}
 
 아래 절차에 따라 AEM Screens 프로젝트에 대한 디스패처를 구성합니다.
+
+### 고정 세션 활성화 {#enable-sticky-session}
+
+디스패처와 함께 두 개 이상의 게시 인스턴스를 사용하려면 디스패처의 dispatcher.any 파일을 업데이트해야 합니다.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### 1단계:클라이언트 헤더 구성 {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 에셋이 디스패처 캐시에서 제공되도록 에셋의 캐시를 활성화하려면 다음을 수행해야 합니다.
 
 * 섹션 `/allowAuthorization 1` 에 `/cache` 추가
-* 아래의 규칙 `/rule`을 `/cache`
+* 아래의 규칙을 `/rules` `/cache`
 
 ```xml
 /0000
