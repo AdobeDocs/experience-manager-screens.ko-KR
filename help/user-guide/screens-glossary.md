@@ -4,10 +4,10 @@ seo-title: 용어 설명
 description: AEM Screens과 관련된 주요 용어를 이해하려면 이 페이지를 따르십시오.
 seo-description: AEM Screens과 관련된 주요 용어를 이해하려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 12%
+source-wordcount: '469'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 12%
 **응용 프로그램 채널** 응용 프로그램 채널은 대화형 내용을 표시하는 개발자가 만든 응용 프로그램을 보여줍니다.
 
 **Attrance Loop** An attrance 루프는 디스플레이에 *있을 수 있는 상태가 둘 이상인 경우* 홈 *또는* 유휴상태로 정의됩니다. 고객의 *참여를 유도하고* , 일반적으로 화면을 터치하는 방식으로 고객의 참여를 유도하며 제품과 인터랙션할 수 있는 것이 중요합니다.
+
+**한시적** 한시적 한시적 입찰은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 말합니다. AEM Screens을 사용하면 요구 사항에 따라 하루, 주 또는 월 내에 채널 일정을 지정할 수 있습니다.
 
 **장치** A 장치는 플레이어 소프트웨어를 실행하여 시각적으로 출력할 수 있습니다. 일반적인 컨텐츠 또는 경험의 잘리고, 크기가 조절되고, 번역된 부분을 표시하는 것을 제어할 수 있습니다. 화면 구성은 디스플레이에 바인딩되지만 기술적 결함이 발생하는 경우 바뀔 수 있습니다.
 
