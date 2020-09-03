@@ -2,10 +2,10 @@
 title: Feature Pack 202008용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202008에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 5%
+source-wordcount: '332'
+ht-degree: 4%
 
 ---
 
@@ -50,7 +50,9 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 
 ### 알려진 문제 및 수정 사항 {#known-issues}
 
-AEM Screens 6.5.5 기능 팩을 사용하는 경우 Windows 또는 Android 플레이어용 환경을 설정해야 합니다.
+AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 또는 Android 플레이어에 대한 환경을 설정해야 합니다.
+
+로그인 **토큰 쿠키에** 대한 **SameSite 속성을 Lax에서** None으로 **설정하** 는 **Facebook 웹 콘솔Configuration모든 AEM 작성자 및 게시 인스턴스의 SameSite 속성을 None으로** 설정합니다.
 
 * 자세한 [내용은 Windows 10 Player](implementing-windows-player.md#fp-environment-setup) 구현을 참조하십시오.
 
