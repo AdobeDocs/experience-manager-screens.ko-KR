@@ -2,7 +2,7 @@
 title: Feature Pack 202008용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202008에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 AEM Screens은 AEM 6.5 기능 팩 5를 출시했습니다.
 
-Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) AEM Screens 6.5.5 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. 최신 기능 팩을 얻으려면 **Adobe Experience Manager** 탭으로 **** 이동하고 화면을 검색합니다.
+Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) AEM Screens 6.5.5 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. 최신 기능 팩을 얻으려면 **Adobe Experience Manager** 탭으로 **** 이동하고 화면을 검색합니다.
 
 ## 릴리스 날짜 {#release-date}
 
