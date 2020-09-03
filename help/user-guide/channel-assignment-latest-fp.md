@@ -3,10 +3,10 @@ title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 21%
+source-wordcount: '1472'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 디스플레이를 설정한 후에는 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
 
-이 페이지에서는 디스플레이에 채널 지정, 채널 속성 이해 및 한시적 입찰을 보여줍니다.
+이 페이지에서는 디스플레이에 채널 지정, 채널 속성 이해 및 DayParting을 보여줍니다.
 
 >[!NOTE]
 >디스플레이에 여러 채널을 지정할 수 있습니다.
@@ -108,13 +108,11 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 1. Tap/click **Assign Channel** from the action bar.
 
-   ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    또는,
 
    대시보드 **를 탭/클릭하고** 지정된 채널 **및 일정** 패널에서 **** 타임라인을클릭합니다.
 
-1. 보류 중인 이미지(수정됨)
+   ![이미지](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## 채널 지정 대화 상자에서 채널 속성 이해 {#channel-properties}
 
@@ -182,7 +180,7 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 >[!NOTE]
 >여러 개의 반복되는 일정을 채널에 추가할 수 있습니다.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 다음 옵션을 설정할 수 있습니다.
 
@@ -193,15 +191,15 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
    * **시간**:일정은 지정된 시간에 종료됩니다.
    * **지속 시간**:특정 시간(시간 또는 분)에 대해 일정이 실행됩니다.
 
-### 한시적 입찰 {#dayparting}
+### DayParting {#dayparting}
 
-방송 시간 분할은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 의미합니다. AEM Screens을 사용하면 요구 사항에 따라 하루, 주 또는 월 내에 한시적으로 채널을 예약할 수 있습니다.
+방송 시간 분할은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 말합니다. AEM Screens을 사용하면 요구 사항에 따라 하루, 주 또는 월 내에 채널 일정을 지정할 수 있습니다.
 
-다음 예에서는 채널에서의 일별 분할을 세 가지 다른 시나리오로 설명합니다.
+다음 예에서는 채널의 DayParting에 대해 세 가지 다른 시나리오로 설명합니다.
 
 #### 여러 개의 시간 슬롯으로 분할된 하루의 컨텐츠 재생 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-이 예에서는 음식점이 어떻게 하루 종일 분할을 사용하여 아침, 점심, 저녁 메뉴를 매일 선보이는지를 보여줍니다.
+이 예에서는 식당에서 DayParting을 사용하여 매일 아침, 점심 및 저녁 메뉴를 선보이는 방법을 보여줍니다.
 
 여기서는 각 날을 다른 시간 슬롯으로 나누어 채널 컨텐츠가 지정된 시간에 따라 재생되도록 합니다. 이 사용 사례에 따라 컨텐트를 재생하려면 채널에 대해 되풀이 일정의 다음 속성을 설정합니다.
 
@@ -213,7 +211,7 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 #### 특정 요일에 컨텐츠 재생 {#playing-content-on-a-particular-day-of-the-week}
 
-이 예에서는 라이브 이벤트가 주말마다 오후 8:00부터 오후 10:00까지 발생하고 스페셜 메뉴가 오후 10:00부터 오전 1:00까지 저녁 메뉴에 제공되는 카지노에서 구현된 한시적 입찰을 보여줍니다.
+이 예에서는 라이브 이벤트가 주말마다 오후 8:00부터 오후 10:00까지 발생하는 카지노에 구현된 DayParting을 보여주며 스페셜 메뉴는 오후 10:00부터 오전 1:00까지 저녁 메뉴에 사용할 수 있습니다.
 
 | **이름** | **반복** | **시작** | **끝** |
 |---|---|---|---|
