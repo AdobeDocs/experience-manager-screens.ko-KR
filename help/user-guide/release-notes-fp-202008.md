@@ -2,9 +2,9 @@
 title: Feature Pack 202008용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202008에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
+source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 4%
 
 ---
@@ -68,4 +68,4 @@ AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 또는 Android �
 
 #### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 **[AEM Screens 플레이어 다운로드를 참조하십시오](https://download.macromedia.com/screens/)**.
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 **[AEM Screens 플레이어 다운로드를 참조하십시오](https://download.macromedia.com/screens/index.html)**.
