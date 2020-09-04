@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '978'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,9 @@ ht-degree: 1%
 AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player를 설치하십시오.
 
 AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 참조하십시오.
+
+>[!NOTE]
+>Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모드입니다.
 
 ### AEM Screens 6.5.5 서비스 팩 환경 설정 {#fp-environment-setup}
 
