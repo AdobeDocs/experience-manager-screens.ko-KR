@@ -2,9 +2,9 @@
 title: AEM Screens 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 메인 **** 채널은 컨텐츠를 재생하지만 뜨거운 음료를 **만들고 싶은** 등 *키워드*&#x200B;가 포함된 단어를 사용하면 채널에서 **** HotDraves 채널의 컨텐츠를 재생하기 시작합니다.
 
-마찬가지로 차가운 **것을 갖고 싶어** 는 등 키워드 *감기로*&#x200B;단어를 **사용하면 이 채널은** 콜드드음료채널의 콘텐츠를 재생하기 시작합니다.
+마찬가지로 차가운 **것을 갖고 싶어** 는 키워드 *감기로*&#x200B;단어를 **사용하면 이 채널은** 콜드음료채널의 콘텐츠를 재생하기 시작합니다.
 
 **분할 화면 채널에 대해 원하는 출력**
 
