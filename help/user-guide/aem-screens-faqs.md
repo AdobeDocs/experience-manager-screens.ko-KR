@@ -6,9 +6,9 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1294'
 ht-degree: 2%
 
 ---
@@ -49,15 +49,15 @@ ht-degree: 2%
 
 ### 1. 장치 온보딩 및 등록 요청 등의 끝점을 발견한 경우 많은 수의 장치를 스크립팅하여 이러한 장치를 등록할 수 있습니다. 이를 분기 Wi-Fi로 잠그는 것 외에도 이러한 요청을 보호할 수 있습니까? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
-현재 등록은 작성자 인스턴스에서만 가능합니다. 등록 서비스가 인증되지 않았지만 AEM에 보류 중인 장치만 만들고 실제로 장치를 등록하거나 디스플레이를 할당하지 않습니다.
+현재 등록은 작성자 인스턴스에서만 가능합니다. 등록 서비스가 인증되지 않았지만 AEM에 보류 중인 장치만 생성되며 실제로 장치를 등록하거나 디스플레이를 할당하지 않습니다.
 
-장치를 등록하려면(AEM에서 장치용 사용자를 만드는 것을 의미) AEM에 대해 인증해야 하며 현재 수동으로 등록 마법사 다음에 따라 등록을 완료해야 합니다. 이론적으로 악의적인 사용자가 여러 개의 보류 중인 장치를 만들 수 있지만 AEM 로그인 없이는 등록할 수 없습니다.
+장치를 등록하려면(AEM에서 장치의 사용자를 만드는 것을 의미) 여전히 AEM에 인증해야 하며 현재 등록 마법사를 수동으로 수행하여 등록을 완료해야 합니다. 이론적으로 악의적인 사용자가 여러 개의 보류 중인 장치를 만들 수 있지만 AEM 로그인 없이는 등록할 수 없습니다.
 
-### 2. HTTP GET 요청을 인증 형식으로 HTTP POST로 변환하는 방법이 있습니까? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. HTTP GET 요청을 인증 형식으로 HTTP POST으로 변환하는 방법이 있습니까? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 등록 요청은 POST 요청입니다.
 
-매개 변수로 전달되지 않고 세션에서 장치 ID를 가져오는 것이 좋습니다. 이렇게 하면 서버 로그, 브라우저 캐시 등이 정리됩니다. 현재 보안 문제가 아닙니다. 서버에 상태 변경이 없고 상태가 변경될 때 POST가 사용되는 경우 중간 GET이 사용됩니다.
+매개 변수로 전달되지 않고 세션에서 장치 ID를 가져오는 것이 좋습니다. 이렇게 하면 서버 로그, 브라우저 캐시 등이 정리됩니다. 현재 보안 문제가 아닙니다. 상태 변경이 있을 때 서버에 상태 변경이 없고 POST이 사용될 때 중간 GET이 사용됩니다.
 
 ### 3. 장치 등록 요청을 거절할 수 있는 방법이 있습니까? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -65,37 +65,37 @@ ht-degree: 2%
 
 ## 장치 모니터링 및 상태 보고서 {#device-monitoring-and-health-reports}
 
-### 1. AEM Screens 플레이어에 빈 화면이 표시되는 경우 어떻게 해결합니까? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. AEM Screens 플레이어에 빈 화면이 표시되는 경우 어떻게 해결할 수 있습니까? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
-빈 화면 문제를 해결하려면 다음 사항을 확인하십시오.
+빈 화면 문제를 해결하려면 다음 가능성을 확인하십시오.
 
 * AEM에서 오프라인 콘텐츠를 푸시할 수 없습니다.
 * 채널에 콘텐츠가 없습니다.
 * 현재 시간에 표시할 자산이 예약되어 있지 않습니다.
 
-### 2. AEM Screens 플레이어에서 등록할 수 없고 해당 상태가 실패로 표시된 경우 어떻게 해야 합니까? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. AEM Screens 플레이어를 등록할 수 없고 해당 상태가 실패로 표시된 경우 어떻게 해야 합니까? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
-Apache Sling 레퍼러 필터 [비어 있음 허용]을 활성화해야 합니다. 이는 AEM Screens 플레이어와 AEM Screens 서버 간의 컨트롤 프로토콜을 최적 작동하기 위해 필요합니다.
+Apache Sling 레퍼러 필터 [비어 있음 허용]을 활성화해야 합니다. 이는 AEM Screens 플레이어와 AEM Screens 서버 사이의 제어 프로토콜을 최적의 방식으로 운영하기 위해 필요합니다.
 
-1. Adobe **Experience Manager 웹 콘솔 구성으로 이동합니다.**
+1. **Adobe Experience Manager 웹 콘솔 구성으로 이동**
 1. allow.empty **옵션을** 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-### 3. AEM Screens 플레이어를 등록하는 동안 장치가 오류를 표시하고 콘솔 로그에 ENAME_NOT_FOUND 오류가 표시되는 경우 문제를 해결하는 방법? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. AEM Screens 플레이어를 등록하는 동안 장치에 오류가 표시되고 콘솔 로그에 ENAME_NOT_FOUND 오류가 표시되는 경우 문제를 해결하는 방법? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-플레이어가 AEM Screens 서버 DNS를 찾을 수 없는 경우 이 문제가 발생할 수 있습니다. IP 주소를 사용하여 연결할 수 있습니다. 서버의 IP를 얻으려면 다음을 사용하십시오. *arp &lt;server_dns_name>*.
+플레이어에서 AEM Screens 서버 DNS를 찾을 수 없는 경우 이 문제가 발생할 수 있습니다. IP 주소를 사용하여 연결할 수 있습니다. 서버의 IP를 얻으려면 다음을 사용하십시오. *arp &lt;server_dns_name>*.
 
 ### 4. AMS는 모든 장치에서 Android Watchdog를 구현할 것을 권장합니까? Watchdova(Cordova) 플러그인이 APK의 일부로 포함되어 있습니까? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 순수 Android API를 사용하는 크로스 플랫폼 Android 감시기는 이미 apk의 일부입니다. 추가 소프트웨어는 필요하지 않지만 사용하는 장치에 따라 전체 전원 주기에 대한 시스템 권한을 얻기 위해 apk를 포기해야 할 수도 있습니다(Powermanager api). 제조업체 키를 사용하여 그만두지 않으면 애플리케이션을 종료하고 다시 시작하지만 전원 사이클은 종료되지 않습니다.
 
-Android Player 구현 방법에 대한 자세한 내용은 [**Android Player 구현을 참조하십시오&#x200B;**](implementing-android-player.md).
+Android Player 구현 방법에 대한 자세한 내용은 [**Android Player 구현을 참조하십시오**](implementing-android-player.md).
 
 ### 5. Adobe/AMS가 각 장치를 모니터링하기 위해 추천하는 타사 원격 모니터링 및 경고 도구(소프트웨어)는 무엇입니까?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-모니터링 및 경고에서 원하는 내용에 따라, 장치가 잠시 후 핑되지 않은 경우 새로운 기능 AEM Screens 알림 서비스가 알려줍니다. 타사 도구는 운영 체제(OS), 기능 및 고객의 특정 요구 사항에 따라 다릅니다.
+모니터링 및 경고에서 원하는 내용에 따라, 새로운 기능 AEM Screens 알림 서비스는 장치가 잠시 동안 핑되지 않았으면 사용자에게 알립니다. 타사 도구는 운영 체제(OS), 기능 및 고객의 특정 요구 사항에 따라 다릅니다.
 
-장치 활동을 모니터링할 수 있는 위치에 대한 자세한 내용은 [**AEM Screens 알림 서비스를 참조하십시오&#x200B;**](screens-notifications-service.md).
+장치 활동을 모니터링할 수 있는 위치에 대한 자세한 내용은 [**AEM Screens 알림 서비스를 참조하십시오**](screens-notifications-service.md).
 
 ## AEM 스크린 플레이어 {#aem-screens-player}
 
@@ -108,13 +108,13 @@ ChromeOS 플레이어는 실제 크롬 플레이어 장치가 없어도 개발�
 1. 크롬 브라우저를 열고 메뉴에서 **확장** 기능을 선택하거나 chrome://extensions으로 직접 ***이동합니다***.
 1. 오른쪽 상단 모서리에서 **개발자 모드를** 전환합니다.
 1. 왼쪽 위 **모서리에서 [압축을** 푼 파일 로드]를 클릭하고 압축을 푼 Chrome Player를 로드합니다.
-1. 확장 **목록** 에서 사용 가능한 경우 AEM Screens Chrome Player 플러그인을 확인하십시오.
+1. 확장 프로그램 목록에 **있는 경우 AEM Screens Chrome Player** 플러그인을 확인하십시오.
 1. 새 탭을 열고 왼쪽 상단 모서리에서 **앱** 아이콘을 클릭하거나 chrome://apps으로 직접 ***이동합니다***.
-1. AEM Screens **플러그인을** 클릭하여 Chrome Player를 실행합니다. 기본적으로 플레이어가 전체 화면 모드로 실행됩니다. 전체 화면 모드를 **종료하려면 esc** 키를 누릅니다.
+1. Chrome Player를 **시작하려면 AEM Screens** 플러그인을 클릭합니다. 기본적으로 플레이어가 전체 화면 모드로 실행됩니다. 전체 화면 모드를 **종료하려면 esc** 키를 누릅니다.
 
 ### 2. Screens 플레이어가 사용자 지정 오류 처리기로 게시 인스턴스를 통해 인증할 수 없는 경우 문제를 어떻게 해결합니까? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-AEM Screens 플레이어가 시작되면 플레이어에서 404 오류가 발생하는 경우 ***/content/screens/svc.ping.json***&#x200B;을 요청합니다. 플레이어는 게시 인스턴스에 대해 인증하도록 인증 요청을 시작합니다. 게시 인스턴스에 사용자 지정 오류 처리기가 있는 경우 /content/screens/svc.ping.json에서 익명 사용자의 404 상태 코드를 ***반환해야 합니다***.
+AEM Screens 플레이어가 시작되면 플레이어에서 404 오류가 발생하는 경우 /content/screens/svc.ping ***.json***&#x200B;을 요청합니다. 플레이어는 게시 인스턴스에 대해 인증하도록 인증 요청을 시작합니다. 게시 인스턴스에 사용자 지정 오류 처리기가 있는 경우 /content/screens/svc.ping.json에서 익명 사용자의 404 상태 코드를 ***반환해야 합니다***.
 
 ### 3. Android Player에서 장치 화면을 설정하는 방법 {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -124,6 +124,10 @@ AEM Screens 플레이어가 시작되면 플레이어에서 404 오류가 발생
 1. 빌드 번호를 7번 눌러 **설정에서 개발자 옵션** 활성화 ****
 1. 개발자 **옵션으로 이동**
 1. 깨어 **있도록 설정**
+
+### 4. Windows 플레이어에 대한 창 모드를 활성화하는 방법?
+
+Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모드입니다.
 
 ## 일반 문제 해결 팁 {#general-troubleshooting-tips}
 
