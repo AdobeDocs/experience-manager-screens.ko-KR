@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 1%
@@ -34,7 +34,8 @@ AEM [**6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페�
 
 ### AEM Screens 6.5.5 서비스 팩 환경 설정 {#fp-environment-setup}
 
-AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 플레이어에 대한 환경을 설정해야 합니다.
+>[!NOTE]
+>AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 플레이어에 대한 환경을 설정해야 합니다.
 
 로그인 **토큰 쿠키에** 대한 **SameSite 속성을 Lax에서** None으로 **설정하** 는 **Facebook 웹 콘솔Configuration모든 AEM 작성자 및 게시 인스턴스의 SameSite 속성을 None으로** 설정합니다.
 
