@@ -4,9 +4,9 @@ seo-title: AEM Screens용 발송자 구성
 description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 설명합니다.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ### 고정 세션 활성화 {#enable-sticky-session}
 
-디스패처와 함께 두 개 이상의 게시 인스턴스를 사용하려면 디스패처의 dispatcher.any 파일을 업데이트해야 합니다.
+디스패처와 함께 둘 이상의 게시 인스턴스를 사용하려면 `dispatcher.any` 파일을 업데이트해야 합니다.
 
 ```xml
 /stickyConnections {
