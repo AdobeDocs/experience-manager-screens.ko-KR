@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 6%
 
 ---
@@ -81,9 +81,9 @@ ht-degree: 6%
 
    ![이미지](assets/kickstart/demo-4.png)
 
-아래 그림과 같이 *TestChannel* 이 만들어지고 채널 폴더에 추가됩니다.
+   아래 그림과 같이 *TestChannel* 이 만들어지고 채널 폴더에 추가됩니다.
 
-![이미지](assets/kickstart/demo-5.png)
+   ![이미지](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
@@ -144,9 +144,9 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
    ![이미지](assets/kickstart/demo-disp3.png)
 
-이제 아래 그림과 같이 TestDisplay **라는** 새 디스플레이가 위치 **TestLocation**&#x200B;에 추가됩니다.
+   이제 아래 그림과 같이 TestDisplay **라는** 새 디스플레이가 위치 **TestLocation**&#x200B;에 추가됩니다.
 
-![이미지](assets/kickstart/demo-disp4.png)
+   ![이미지](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
@@ -182,7 +182,7 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
 1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
 
-### 장치 등록 및 디스플레이에 장치 할당{#registering-device}
+### 장치 등록 및 디스플레이에 장치 할당 {#registering-device}
 
 AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 
