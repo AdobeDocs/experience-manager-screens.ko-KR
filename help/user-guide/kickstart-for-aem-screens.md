@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!NOTE]
 >프로젝트 세부 사항 작업을 시작하기 전에 최신 기능 팩을 설치했는지 확인하십시오. Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) AEM Screens 6.5.5 릴리스의 최신 기능 팩을 다운로드할 수 있습니다.
 
-## 5분 내에 디지털 사이니지 경험 만들기 {#creating-a-digital-signage-experience-in-minutes}
+## 전제 조건 {#prerequisites}
 
 아래 절차에 따라 AEM Screens용 샘플 프로젝트를 만들고 Screens 플레이어에 컨텐츠를 추가로 게시하십시오.
 
@@ -48,7 +48,7 @@ ht-degree: 7%
 1. [ **저장** ]을 클릭하여 Apache Sling 레퍼러 필터 [비어 있음]을 활성화합니다.
 
 
-## 자습서 {#tutorial}
+## 5분 내에 디지털 사이니지 경험 만들기 {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
 1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
 
+   ![이미지](assets/kickstart/demo-disp1.png)
+
 1. **만들기** 마법사 **에서** 표시를 선택하고 **다음을**&#x200B;클릭합니다.
+
+   ![이미지](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![이미지](assets/kickstart/demo-disp3.png)
+
 이제 아래 그림과 같이 TestDisplay **라는** 새 디스플레이가 위치 **TestLocation**&#x200B;에 추가됩니다.
+
+![이미지](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
