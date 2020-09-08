@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 69%
 
 ---
 
@@ -49,7 +52,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. Tap/click the **Finish** to complete the assignment process.
 
-   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    디스플레이 대시보드의 **장치** 패널에는 지정된 장치가 표시됩니다.
 
