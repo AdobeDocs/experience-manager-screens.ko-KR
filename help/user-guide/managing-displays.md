@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 60%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. 마법사가 열립니다.
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. **만들기** 마법사 **에서** 표시를 선택하고 **다음을**&#x200B;클릭합니다.
 
 1. Enter **Name** and **Title** for your display location.
 
@@ -50,7 +53,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
-![display](assets/display.gif)
+![디스플레이](assets/display.gif)
 
 디스플레이가 적절히 생성되면 다음 단계에서는 해당 특정 디스플레이에 대한 장치 구성을 생성합니다. 아래 섹션에 따라 새 장치 구성을 생성하십시오.
 
@@ -68,7 +71,7 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
 아래 절차에 따라 새 장치 구성을 생성하십시오.
 
-1. 예를 들어, 적절한 표시로 이동합니다 `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
+1. 예를 들어 적절한 디스플레이로 이동합니다 `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
 1. Select your display folder and tap/click **View Dashboard** in the action bar.
 1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
 
@@ -110,35 +113,30 @@ The device config is created and added to the current display (in the following 
 
 **디스플레이 정보** 패널은 디스플레이 속성을 제공합니다.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+속성을 보고 디스플레이를 미리 보려면 **디스플레이 정보** 패널의 오른쪽 위 모서리에 있는 (**...**)를 클릭하십시오.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### 속성 보기 {#viewing-properties}
 
 디스플레이의 속성을 보거나 변경하려면 **속성**&#x200B;을 클릭하십시오.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. 기본값은 *300초*&#x200B;로 설정되어 있습니다.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. 기본값은 *300초*&#x200B;로 설정되어 있습니다.
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### 지정된 채널 패널 {#assigned-channels-panel}
 
 **지정된 채널** 패널에는 이 장치에 지정된 채널이 표시됩니다.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### 장치 패널 {#devices-panel}
 
 **장치** 패널은 장치 구성에 대한 정보를 제공합니다.
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-또한 장치 구성을 클릭하여 속성을 보거나 장치를 할당하거나 완전히 삭제합니다.
+또한, 속성을 보거나, 장치를 지정하거나, 완전히 삭제하려면 장치 구성을 클릭합니다.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
