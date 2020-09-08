@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '985'
 ht-degree: 7%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 7%
 
 ## 자습서 {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 첫 번째 단계는 새로운 AEM Screens 프로젝트를 만드는 것입니다.
 
@@ -64,7 +64,7 @@ ht-degree: 7%
    >프로젝트를 만들면 스크린 프로젝트 홈 페이지로 돌아갑니다. 이제 프로젝트를 선택할 수 있습니다. 프로젝트에는 **채널**, **장치**, 위치 **,**&#x200B;및Schedule이라는 이름의 다섯 개의 다른 폴더가 ********&#x200B;있습니다.
 
 
-### 새 채널 만들기 {#creating-channel}
+### 채널 생성 {#creating-channel}
 
 프로젝트가 제자리에 배치되면 컨텐츠를 관리하는 새 채널을 만들어야 합니다.
 
@@ -91,73 +91,62 @@ ht-degree: 7%
 
 프로젝트의 채널(TestChannel **)에 컨텐츠를 추가하려면 아래 단계를 따르십시오.
 
-1. Navigate to the *Test_Project* you created and select the **Channels** folder.
+1. Navigate to the *DemoProject* you created and select the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+
+   ![이미지](assets/kickstart/demo-6.png)
 
 1. 작업 표시줄의 왼쪽에 있는 사이드 패널을 전환하는 아이콘을 클릭하여 자산과 구성 요소를 엽니다.
 
 1. 채널에 추가할 구성 요소를 드래그하여 놓습니다.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![이미지](assets/kickstart/demo-7.png)
 
-이 예에서 편집기에는 채널에 추가된 이미지가 표시됩니다.
+### 위치 생성 {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+적절한 채널을 확보했으면 위치를 만들어야 합니다.
 
-### 새 위치 만들기 {#creating-location}
-
-적합한 채널을 확보했다면 위치를 만들어야 합니다.
-
-***위치는*** 다양한 디지털 사이니지 경험을 구분하고 다양한 화면의 위치에 따라 디스플레이의 구성을 포함합니다.
+>[!NOTE]
+>***위치는*** 다양한 디지털 사이니지 경험을 구분하고 다양한 화면의 위치에 따라 디스플레이의 구성을 포함합니다.
 
 아래 절차에 따라 프로젝트의 새 위치를 만드십시오.
 
-1. Navigate to the *Test_Project* you created and select the **Locations** folder.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. 작업 **표시줄의 더하기 아이콘 옆에 있는 만들기를** 클릭합니다(아래 그림 참조). 마법사가 열립니다.
+1. Click **+ Create** from the action bar.
+
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 TestLocation *이* 만들어지고 위치 **폴더에** 추가됩니다.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### TestLocation에 대한 새 표시 만들기 {#creating-display}
+### 위치에 대한 디스플레이 만들기 {#creating-display}
 
 위치를 생성한 후에는 위치에 대한 새 디스플레이를 생성해야 합니다.
 
-***하나*** 이상의 화면에서 실행되는 디지털 경험을 표시합니다.
+>[!NOTE]
+>***하나*** 이상의 화면에서 실행되는 디지털 경험을 표시합니다.
 
-1. 위 그림에 표시된 대로 디스플레이를 만들 위치(*Test_* Project —> **위치** —> *TestLocation)* 로 이동하고 TestLocation **&#x200B;을 선택합니다.
+1. TestLocation으로 **이동하여** 선택합니다.
 
 1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
+
 1. **만들기** 마법사 **에서** 표시를 선택하고 **다음을**&#x200B;클릭합니다.
 
-1. 표시 위치에 사용할 **이름** 및 **제목을** 입력합니다(제목으로 *TestDisplay를*&#x200B;입력).
+1. 제목( **LobbyDisplay** )을&#x200B;*입력합니다*.
 
-1. Under the **Display** tab, choose the details of the Layout.
-
-   1. Choose the **Resolution** as **Full HD**.
-
-   1. Choose the **Number of Devices Horizontally** as 1.
-
-   1. Choose the **Number of Devices Vertically** as 1.
-
-   1. **만들기**&#x200B;를 클릭합니다.
+1. **만들기**&#x200B;를 클릭합니다.
 
 아래 그림과 같이 새 디스플레이(*TestDisplay*)가 위치 *TestLocation*&#x200B;에 추가됩니다.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-### 채널 지정 {#assigning-channel}
+### Assigning a Channel {#assigning-channel}
 
 1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
-1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **채널 지정** 대화 상자가 열립니다.
 
@@ -177,7 +166,7 @@ TestLocation *이* 만들어지고 위치 **폴더에** 추가됩니다.
 
 채널이 만들어지고 패널에 추가됩니다.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### 장치 등록 {#registering-device}
 
@@ -192,6 +181,6 @@ AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 
 위의 구성을 추가한 후에는 플레이어에 장치에 표시되는 기본 채널이 자동으로 표시됩니다.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 AEM Screens 플레이어에 대한 자세한 내용은 [AEM Screens 플레이어를](working-with-screens-player.md) 참조하십시오.
