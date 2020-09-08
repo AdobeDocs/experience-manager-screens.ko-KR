@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '981'
 ht-degree: 7%
 
 ---
@@ -91,9 +91,9 @@ ht-degree: 7%
 
 프로젝트의 채널(TestChannel **)에 컨텐츠를 추가하려면 아래 단계를 따르십시오.
 
-1. Navigate to the *DemoProject* you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **Channels** folder.
 
-1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
    ![이미지](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ ht-degree: 7%
 
 아래 절차에 따라 프로젝트의 새 위치를 만드십시오.
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar.
 
@@ -120,7 +120,7 @@ ht-degree: 7%
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
-TestLocation *이* 만들어지고 위치 **폴더에** 추가됩니다.
+TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
 
 ### 위치에 대한 디스플레이 만들기 {#creating-display}
@@ -136,51 +136,41 @@ TestLocation *이* 만들어지고 위치 **폴더에** 추가됩니다.
 
 1. **만들기** 마법사 **에서** 표시를 선택하고 **다음을**&#x200B;클릭합니다.
 
-1. 제목( **LobbyDisplay** )을&#x200B;*입력합니다*.
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. **만들기**&#x200B;를 클릭합니다.
-
-아래 그림과 같이 새 디스플레이(*TestDisplay*)가 위치 *TestLocation*&#x200B;에 추가됩니다.
+이제 아래 그림과 같이 TestDisplay **라는** 새 디스플레이가 위치 **TestLocation**&#x200B;에 추가됩니다.
 
 ### Assigning a Channel {#assigning-channel}
 
-1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
+프로젝트 설정이 완료되면, 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
 
-1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **채널 지정** 대화 상자가 열립니다.
+1. Tap/click **Assign Channel** from the action bar.
 
-1. Select **Reference Channel** by **path**
+   또는,
 
-1. Enter the **Channel Role** as *LiveStream*.
+   작업 표시줄에서 **대시보드** 를 탭/클릭하고 지정된 채널 및 일정 **패널에서** 채널 **지정을** 클릭합니다.
 
-1. Channel Path( **Test_Project** —>*Channels* —> Test *Channel* TestChannel ** ****&#x200B;에서 Channel Path를 선택합니다.
+1. The **Channel Assignment** dialog box opens.
 
-1. Select the **Priority** for this channel as *1*.
-
-1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
-
-1. 스케줄 **을** 입력하고 **활성** 및 **활성**&#x200B;일자를선택합니다.
-
-1. **저장**&#x200B;을 클릭합니다.
-
-채널이 만들어지고 패널에 추가됩니다.
+1. [ **설정** ] 옵션 **에서 이름별로 경로** 또는 경로 **별로 채널을 선택하고, 역할**, 채널, **채널PriorityPriority**, 지원되는Events,지원되는Events, 및Safety ************&#x200B;와 SafetyAInterftion Methods를 입력합니다. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
 
 
+   >[!NOTE]
+   >채널 지정 속성에 대한 자세한 내용은 [채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 섹션을 참조하십시오.
+
+1. 예약 **옵션** 에서 **활성화 창** 및 **되풀이 일정**&#x200B;을선택합니다.
+
+1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
 
 ### 장치 등록 {#registering-device}
 
 AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 
->[!NOTE]
->다운로드한 AEM Screens 앱 또는 웹 브라우저를 사용하여 Screens 플레이어를 열 수 있습니다.
+### Chrome Player에서 콘텐트 보기 {#viewing-content-output}
+
+이 예에서는 Chrome Player에서 출력을 보여 줍니다. 디스플레이에 채널을 지정했으면 플레이어를 플레이어에 등록해야 합니다.
 
 
 
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-위의 구성을 추가한 후에는 플레이어에 장치에 표시되는 기본 채널이 자동으로 표시됩니다.
-
-
-
-AEM Screens 플레이어에 대한 자세한 내용은 [AEM Screens 플레이어를](working-with-screens-player.md) 참조하십시오.
