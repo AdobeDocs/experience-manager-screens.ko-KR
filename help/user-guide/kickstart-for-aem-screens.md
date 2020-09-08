@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1316'
 ht-degree: 6%
 
 ---
@@ -205,22 +205,51 @@ ChromeOS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등�
 
 1. Tap/click the **Device Manager** from the action bar.
 
+   ![이미지](assets/kickstart/demo-register1.png)
+
 1. 오른쪽 상단에서 **장치** 등록을 탭/클릭합니다.
 
 1. 필요한 장치를 선택하고 장치 등록을 탭/ **클릭합니다**.
 
+   ![이미지](assets/kickstart/demo-register2.png)
+
 1. 장치가 등록 코드를 동시에 전송할 때까지 기다렸다가 Chrome 장치에서 **등록 코드를** 확인합니다.
+   ![이미지](assets/kickstart/demo-register3.png)
 
 1. 두 시스템에서 **등록 코드가** 동일한 경우 AEM에서 유효성 **검사를** 탭/클릭합니다.
 
-1. 장치의 원하는 이름을 설정하고 등록을 **클릭합니다**.
+1. 원하는 이름을 **장치의 ChromeDeviceforDemo로** 설정하고 [ **등록]을 클릭합니다**.
+
+   ![이미지](assets/kickstart/demo-register4.png)
+
+1. Device **Registration Successful** 대화 상자에서 Assign Display를 **** 클릭합니다.
+
+   ![이미지](assets/kickstart/demo-register5.png)
+
+1. 표시할 경로를 DemoScreens **—>** 위치 **—>** TestLocation **—> LobbyDisplay** 를 선택하고 ClickPublish를 클릭하여 Assign **** ****&#x200B;을 지정합니다.
+
+   ![이미지](assets/kickstart/demo-device6.png)
+
+1. 장치가 성공적으로 할당되면 다음 확인 메시지가 표시됩니다.
+
+   ![이미지](assets/kickstart/demo-register8.png)
 
 1. Tap/click **Finish** to complete the registration process.
 
+1. 디스플레이 대시보드에서 등록된 장치를 볼 수 있어야 합니다.
+
+   ![이미지](assets/kickstart/demo-register9.png)
 
 ### Chrome Player에서 콘텐트 보기 {#viewing-content-output}
 
-이 예에서는 Chrome Player에서 출력을 보여 줍니다. 디스플레이에 채널을 지정했으면 플레이어를 플레이어에 등록해야 합니다.
+이제 채널의 모든 에셋이 Chrome 장치에서 재생됩니다.
+
+AEM Screens 채널에서 콘텐츠를 재생해 주셔서 감사합니다.
+
+![이미지](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
