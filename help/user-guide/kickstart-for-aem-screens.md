@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 6%
 
 ---
@@ -168,7 +168,8 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
 1. [ **설정** ] 옵션 **에서 경로** 및 **지원되는 이벤트** 를 초기 로드와 **** 과Idle Screen으로 경로 ****&#x200B;로 선택합니다.
 
-   >[메모]
+   >[!NOTE]
+   >
    >기본적으로 **채널 역할**, 우선 **순위**&#x200B;및 **중단 방법** 이 모두채워집니다. 채널 [할당 속성에 대한 자세한 내용은 채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 섹션을 참조하십시오.
 
    ![이미지](assets/kickstart/demo-assign3.png)
