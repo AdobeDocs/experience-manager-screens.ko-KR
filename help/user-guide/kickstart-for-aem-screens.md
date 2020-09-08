@@ -3,10 +3,10 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 7%
+source-wordcount: '1260'
+ht-degree: 6%
 
 ---
 
@@ -152,29 +152,70 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
 프로젝트 설정이 완료되면, 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
+1. DemoScreens —> 위치 ******—>** TestLocation **—> LobbyDisplay** ****&#x200B;에서 필요한 디스플레이로 이동합니다.
 
 1. Tap/click **Assign Channel** from the action bar.
+
+   ![이미지](assets/kickstart/demo-assign1.png)
 
    또는,
 
    작업 표시줄에서 **대시보드** 를 탭/클릭하고 지정된 채널 및 일정 **패널에서** 채널 **지정을** 클릭합니다.
 
+   ![이미지](assets/kickstart/demo-assign2.png)
+
 1. The **Channel Assignment** dialog box opens.
 
-1. [ **설정** ] 옵션 **에서 이름별로 경로** 또는 경로 **별로 채널을 선택하고, 역할**, 채널, **채널PriorityPriority**, 지원되는Events,지원되는Events, 및Safety ************&#x200B;와 SafetyAInterftion Methods를 입력합니다. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
+1. [ **설정** ] 옵션 **에서 경로** 및 **지원되는 이벤트** 를 초기 로드와 **** 과Idle Screen으로 경로 ****&#x200B;로 선택합니다.
 
+   >[메모]
+   >기본적으로 **채널 역할**, 우선 **순위**&#x200B;및 **중단 방법** 이 모두채워집니다. 채널 [할당 속성에 대한 자세한 내용은 채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 섹션을 참조하십시오.
+
+   ![이미지](assets/kickstart/demo-assign3.png)
+
+   또한 **활성화 창** 및 **되풀이 일정을 선택할 수도 있습니다**.
 
    >[!NOTE]
-   >채널 지정 속성에 대한 자세한 내용은 [채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 섹션을 참조하십시오.
-
-1. 예약 **옵션** 에서 **활성화 창** 및 **되풀이 일정**&#x200B;을선택합니다.
+   >되풀이 *일정* 을 사용하면 채널에 대한 반복 일정을 설정할 수 있습니다. 채널에 대해 여러 개의 되풀이 일정을 설정합니다.
+   >자세한 [내용은 되풀이](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 일정을 참조하십시오.
 
 1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
 
-### 장치 등록 {#registering-device}
+### 장치 등록 및 디스플레이에 장치 할당{#registering-device}
 
 AEM 대시보드를 사용하여 장치를 등록해야 합니다.
+
+>[!IMPORTANT]
+>ChromeOS 플레이어는 실제 크롬 플레이어 장치가 없어도 개발자 모드에서 Chrome Browser 플러그인으로 설치할 수 있습니다. 설치하려면 아래 단계를 수행하십시오.
+>
+>1. 최신 Chrome Player를 다운로드하려면 [여기를](https://download.macromedia.com/screens/) 클릭하십시오.
+>1. 압축을 풀고 디스크에 저장합니다.
+>1. 크롬 브라우저를 열고 메뉴에서 **확장** 기능을 선택하거나 chrome://extensions으로 직접 ***이동합니다***.
+>1. 오른쪽 상단 모서리에서 **개발자 모드를** 전환합니다.
+>1. 왼쪽 위 **모서리에서 [압축을** 푼 파일 로드]를 클릭하고 압축을 푼 Chrome Player를 로드합니다.
+>1. 확장 프로그램 목록에 **있는 경우 AEM Screens Chrome Player** 플러그인을 확인하십시오.
+>1. 새 탭을 열고 왼쪽 상단 모서리에서 **앱** 아이콘을 클릭하거나 chrome://apps으로 직접 ***이동합니다***.
+>1. Chrome Player를 **시작하려면 AEM Screens** 플러그인을 클릭합니다. 기본적으로 플레이어가 전체 화면 모드로 실행됩니다. 전체 화면 모드를 **종료하려면 esc** 키를 누릅니다.
+
+
+ChromeOS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등록하십시오.
+
+1. AEM 인스턴스에서 **프로젝트의** 장치 폴더로 이동합니다.
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. 오른쪽 상단에서 **장치** 등록을 탭/클릭합니다.
+
+1. 필요한 장치를 선택하고 장치 등록을 탭/ **클릭합니다**.
+
+1. 장치가 등록 코드를 동시에 전송할 때까지 기다렸다가 Chrome 장치에서 **등록 코드를** 확인합니다.
+
+1. 두 시스템에서 **등록 코드가** 동일한 경우 AEM에서 유효성 **검사를** 탭/클릭합니다.
+
+1. 장치의 원하는 이름을 설정하고 등록을 **클릭합니다**.
+
+1. Tap/click **Finish** to complete the registration process.
+
 
 ### Chrome Player에서 콘텐트 보기 {#viewing-content-output}
 
