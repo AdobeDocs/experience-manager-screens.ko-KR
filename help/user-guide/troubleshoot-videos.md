@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,8 @@ ffmpeg가 설치되어 있고 비디오 프로필을 확인합니다.
 
 1. 비디오를 선택하고 **편집 대화 상자를** 엽니다. Open the **Profiles** tab.
 
-   >[!메모
+   >[!NOTE]
    >다른 프로파일을 선택합니다(적어도 &quot;High Quality H.264&quot; 프로필이 있어야 함).
-
 
 ### 웹 플레이어에서 비디오 확인 {#checking-the-video-in-the-web-player}
 
