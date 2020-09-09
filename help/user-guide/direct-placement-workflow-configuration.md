@@ -4,7 +4,7 @@ seo-title: 직접 배치 워크플로우 구성
 description: 이 페이지에서는 직접 배치 워크플로우 구성을 강조 표시합니다.
 seo-description: 이 페이지에서는 직접 배치 워크플로우 구성을 강조 표시합니다.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -39,8 +39,7 @@ ht-degree: 0%
 
 아래 절차에 따라 직접 배치 워크플로우를 구성합니다.
 
-1. AEM 인스턴스에서 AEM Screens으로 이동하고 자산 워크플로우라는 스크린 프로젝트를 **만듭니다**.
+1. AEM 인스턴스에서 AEM Screens으로 이동하여 자산 워크플로우라는 스크린 프로젝트를 **만듭니다**.
 
 1. 채널 폴더 아래에 **워크플로우 자산** 으로 **지정된 채널을** 만듭니다.
 
-1. 
