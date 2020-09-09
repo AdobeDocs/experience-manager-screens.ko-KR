@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 60%
 
 ---
 
@@ -30,7 +33,7 @@ AEM Screens 프로젝트를 만들 때마다 프로젝트에 추가할 수 있�
 
 스크린 프로젝트에 추가할 수 있는 기본 구성 요소를 보려면 아래 절차를 따르십시오.
 
-1. 채널을 선택하십시오. 예: **We.Retail In Store** --&gt; **채널** --&gt; **유휴 채널**.
+1. 채널을 선택하십시오. 예: **We.Retail In Store** --> **채널** --> **유휴 채널**.
 
 1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 AEM 편집기를 엽니다.
 1. 사이드바에서 **+** 아이콘을 클릭하여 구성 요소를 엽니다.
@@ -44,12 +47,12 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 
 다음 예에서는 AEM Screens 프로젝트에 Livefyre 구성 요소를 추가하는 것을 보여줍니다.
 
-1. 새 구성 요소를 추가할 채널을 선택합니다. 예: **We.Retail In Store** --&gt; **채널** --&gt; **유휴 채널**.
+1. 새 구성 요소를 추가할 채널을 선택합니다. 예: **We.Retail In Store** --> **채널** --> **유휴 채널**.
 
 1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
 1. **디자인** 모드를 선택합니다.
 1. 오른쪽에 있는 전체 디자인 편집기를 선택하고 설정 기호를 클릭하여 **ParSys 디자인** 대화 상자를 엽니다.
-1. AEM Screens 프로젝트에 가져오려는 구성 요소를 선택할 수 있습니다. 다음 예에서는 AEM Screens 프로젝트에 **Livefyre** 구성 요소를 추가하는 것을 보여줍니다.
+1. AEM Screens 프로젝트에 가져오려는 구성 요소를 선택할 수 있습니다. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -76,9 +79,9 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 | ***애플리케이션 경로*** | 애플리케이션이 존재하는 절대 경로를 선택합니다. |
 | ***지속 시간(ms)*** | 애플리케이션의 지속 기간을 선택합니다. 기본적으로 지속 시간은 -1로 설정되므로 요소는 영구적으로 실행됩니다(즉, 단일 페이지 애플리케이션). 지속 기간 값을 0보다 크게 설정하면 지정된 지속 기간의 요소를 표시한 후 다음 항목으로 이동합니다. |
 
-다음 예에서는 해당 속성의 미리 보기와 함께 애플리케이션 구성 요소를 포함하는 방법을 보여줍니다.
+다음 예제에서는 응용 프로그램 구성 요소를 해당 속성의 미리 보기와 함께 포함하는 방법을 보여 줍니다.
 
-![adding_components응용 프로그램](assets/adding_componentsapplication.gif)
+![adding_component응용 프로그램](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -102,7 +105,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
   </tr>
   <tr>
    <td><strong><em>지속 시간(ms)</em></strong></td>
-   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행하게 됩니다.</td>
+   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행함을 나타냅니다.</td>
   </tr>
  </tbody>
 </table>
@@ -125,7 +128,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
   </tr>
   <tr>
    <td><strong><em>지속 시간(ms)</em></strong></td>
-   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행하게 됩니다.</td>
+   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행함을 나타냅니다.</td>
   </tr>
  </tbody>
 </table>
@@ -152,7 +155,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
   </tr>
   <tr>
    <td><strong><em>지속 시간(ms)</em></strong></td>
-   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행하게 됩니다.</td>
+   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행함을 나타냅니다.</td>
   </tr>
   <tr>
    <td><strong><em>전략</em></strong></td>
@@ -181,7 +184,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>지속 시간(ms)</em></strong></td>
-   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행하게 됩니다.</td>
+   <td>채널의 전체 지속 기간을 선택합니다. 지속 기간을 -1로 설정하면 포함된 채널이 특정 채널에서 전체 길이를 실행함을 나타냅니다.</td>
   </tr>
   <tr>
    <td><strong><em>전략</em></strong></td>
@@ -194,7 +197,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 경험 조각을 사용하면 경험 조각(페이지 내에서 참조할 수 있는 컨텐츠 및 레이아웃을 포함한 하나 이상의 구성 요소 그룹)을 AEM Screens 채널에 추가할 수 있습니다. 구성 요소를 AEM 편집기로 드래그하여 놓고 경험 조각을 선택합니다.
 
-경험 조각을 만들어 AEM Screens 프로젝트에 활용하는 방법에 대한 자세한 내용은 경험 조각 [사용을 참조하십시오](experience-fragments-in-screens.md).
+경험 조각을 만들고 이를 AEM Screens 프로젝트에 활용하는 방법에 대한 자세한 내용은 경험 조각 [사용을 참조하십시오](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
@@ -202,14 +205,14 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 |---|---|
 | **경험 조각** |
 | ***경험 조각*** | 경험 조각을 선택합니다. |
-| ***기간*** | 채널에서 재생되는 경험 조각의 전체 지속 기간을 선택합니다. |
+| ***기간*** | 채널에서 재생되는 경험 조각의 전체 기간을 선택합니다. |
 | **오프라인 구성** |
 | ***클라이언트측 라이브러리*** | Javascript 및 CSS 파일. |
-| ***정적 파일*** | 오프라인 구성으로 경험 조각에 추가할 수 있는 정적 파일입니다. |
+| ***정적 파일*** | 경험 조각에 오프라인 구성으로 추가할 수 있는 정적 파일입니다. |
 
 >[!NOTE]
 >
->클라이언트 **측** **** Libaries 및 **이 구성 요소에서 추가하는 Static Files는** 이미 구성된 **클라이언트 측** Libries와 경험의 Properties조각에서 추가된 Static Files구성 요소 이외에도추가됩니다.
+>이 구성 요소에서 추가하는 **클라이언트측 라이브러리****및** 정적 파일 **은 이미 구성된** 클라이언트측 라이브러리 **및 경험 조각의 Properties**&#x200B;에서 추가되는 정적 파일 이외에도추가됩니다.
 
 ### 이미지 {#image}
 
@@ -225,20 +228,20 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | ***링크 대상*** | 이미지에 링크를 추가합니다. |
 | ***설명*** | 이미지에 대한 간단한 설명입니다. |
 | ***크기*** | 이미지의 크기입니다. |
-| **액세스 가능성** |
+| **접근성** |
 | ***대체 텍스트*** | 이미지의 대체 텍스트입니다. |
 | **시퀀스** |
-| ***기간*** | 기본적으로 지속 시간은 *8000ms*&#x200B;로 설정됩니다. 이미지의 재생 시간을 변경하려면 지속 시간 **필드를 업데이트합니다** . |
+| ***기간*** | 기본적으로 지속 시간은 *8000ms로 설정됩니다*. 이미지의 재생 시간을 변경하려면 지속 시간 **필드를** 업데이트합니다. |
 
 ### 전환 {#transition}
 
 전환 구성 요소를 사용하면 스크린 프로젝트에 전환 기능을 추가할 수 있습니다.
 
-다음 이미지는 편집기에 대한 전환 구성 요소(드래그 앤 드롭을 통해 추가)를 보여줍니다.
+다음 이미지는 편집기에 전환 구성 요소(드래그 앤 드롭에 추가됨)를 보여줍니다.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-전환 아이콘을 선택하고 구성( **스패너** 아이콘)을 클릭하여 전환 **대화 상자를** 엽니다. 이 대화 상자에는 다음과 같은 세 개의 탭이 있습니다.
+전환 아이콘을 선택하고 구성( **공구모양** 아이콘)을 클릭하여 **전환** 대화 상자를 엽니다. 이 대화 상자에는 다음과 같은 세 개의 탭이 있습니다.
 
 * **전환**
 * **시퀀스**
@@ -246,7 +249,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->기본적으로 시퀀스는 600ms로 설정됩니다. [시퀀스] 탭을 사용하여 전환 시퀀스를 다른 값으로 업데이트할 **수** 있습니다.
+>기본적으로 시퀀스는 600ms로 설정됩니다. [시퀀스] 탭을 사용하여 전환 시퀀스를 다른 값으로 **업데이트할** 수 있습니다.
 
 ![전환](assets/transition.gif)
 
@@ -287,8 +290,8 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
    <td></td>
   </tr>
   <tr>
-   <td><strong><em>활성 위치</em></strong></td>
-   <td>전환이 활성 상태일 수 있는 시기를 설명하는 타임스탬프<br /> </td>
+   <td><strong><em>활성</em></strong></td>
+   <td>전환 활성화 시기를 설명하는 타임스탬프<br /> </td>
   </tr>
   <tr>
    <td><strong><em>활성</em></strong></td>
