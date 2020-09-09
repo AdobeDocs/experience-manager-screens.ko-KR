@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1197'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 
 채널을 만드는 동안 채널에서 영역을 만들려면 다른 템플릿을 사용할 수 있습니다. 하나의 이미지, 비디오 또는 포함된 채널을 추가하여 여러 자산을 하나의 시퀀스에 표시할 수 있습니다.
 
-**채널 만들기**
+**채널 생성**
 
 1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. 채널 **폴더로** 이동하고 작업 **모음에서** 만들기를 클릭합니다.
