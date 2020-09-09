@@ -5,9 +5,9 @@ description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드�
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
 
 ## Left20-LandscapeHD3Zone 레이아웃 만들기 {#landscape-layout-one}
 
-AEM Screens 프로젝트에 대한 Left20-LandscapeHD3Zone 레이아웃을 만들려면 아래 절차를 따르십시오.
+아래 절차에 따라 AEM Screens 프로젝트에 사용할 Left20-LandscapeHD3Zone 레이아웃을 만드십시오.
 
 1. 사용자 지정 템플릿으로 **명명된 AEM Screens 프로젝트를 만듭니다**.
 
@@ -108,7 +108,7 @@ AEM Screens 프로젝트에 대한 Left20-LandscapeHD3Zone 레이아웃을 만�
 
 1. static.css 파일로 이동하여 `/apps/settings/wcm/designs/custom-template-designs` 만듭니다.
 
-1. 정적.css 파일에 컨텐츠를 복사합니다.
+1. 다음 파일에 컨텐츠를 `static.css` 복사합니다.
 
    ```shell
        /*my-custom-layout styles*/
