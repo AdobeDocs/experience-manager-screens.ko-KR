@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -61,7 +61,7 @@ REACT 앱에서 콘텐츠를 편집하려면:
 
 ### AEM Screens에 인터랙티브한 REACT 앱 추가 {#adding-the-interactive-react-app-to-aem-screens}
 
-아래 절차에 따라 AEM Screens에 인터랙티브한 REACT 앱을 추가하십시오.
+아래 절차에 따라 AEM Screens에 대화형 REACT 앱을 추가하십시오.
 
 1. 새 AEM Screens 프로젝트를 만듭니다. 자세한 [내용은 프로젝트](creating-a-screens-project.md) 만들기 및 관리를 참조하십시오.
 
