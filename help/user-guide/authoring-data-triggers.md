@@ -3,10 +3,10 @@ title: 데이터 트리거를 사용하여 작성
 seo-title: 데이터 트리거를 사용하여 작성
 description: 데이터 트리거를 사용하여 작성하는 방법을 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## 전제 조건 {#prereqs}
 
-채널에서의 타깃팅을 활성화하려면 아래 단계를 따르십시오. AEM Screens에서 ContextHub 및 타깃팅을 이해하는 데 필요한 AEM Screens에서 [구성의](configuring-context-hub.md) 주요 약관에 대해 알아야 합니다.
+채널에서의 타깃팅을 활성화하려면 아래 단계를 따르십시오. AEM Screens에서 ContextHub 및 타깃팅을 이해하는 데 필요한 AEM Screens [에서](configuring-context-hub.md) 구성의 주요 약관에 대해 알아야 합니다.
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 3%
 
    1. 세그먼트 경로 **를** conf **>** we.Retail **설정** > wcmCumnCumn **** **** **** ****> SegmentsCumn 및 ClickSelect로 선택합니다.
 
-   1. Click **Save &amp; Close**.
+   1. **저장 후 닫기**&#x200B;를 클릭합니다.
    >[!NOTE]
    >
    >ContextHub 및 세그먼트 경로를 사용합니다. 여기서 처음에 컨텍스트 허브 구성 및 세그먼트를 저장했습니다.
@@ -73,11 +73,10 @@ ht-degree: 3%
 
 1. 드롭다운 메뉴에서 **** 브랜드 **** 및 **활동**&#x200B;을 선택하고 타깃팅시작을 클릭합니다.
 
-### 자세한 내용: 사용 사례 예 {#learn-more-example-use-cases}
+### 자세한 내용:사용 사례 예 {#learn-more-example-use-cases}
 
-AEM Screens 프로젝트에 대해 ContextHub를 구성한 후에는 다른 사용 사례를 따라 데이터가 트리거된 에셋이 서로 다른 업계에서 중요한 역할을 수행하는 방식을 이해할 수 있습니다.
+AEM Screens 프로젝트에 대해 ContextHub를 구성한 후에는 다른 사용 사례를 따라 데이터가 트리거된 자산이 다양한 산업 분야에서 중요한 역할을 수행하는 방식을 이해할 수 있습니다.
 
 1. **[소매 재고 타깃팅 활성화](retail-inventory-activation.md)**
 1. **[여행 센터 온도 활성화](local-temperature-activation.md)**
 1. **[숙박 예약 활성화](hospitality-reservation-activation.md)**
-
