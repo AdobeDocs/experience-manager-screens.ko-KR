@@ -5,9 +5,9 @@ description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일�
 seo-description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 아래 절차에 따라 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 만드십시오.
 
-1. AEM Screens 프로젝트를 만듭니다. 이 예에서는 아래 그림과 같이 사용자 **스타일** 이라는 프로젝트와 **DemoBrand** 라는 채널을 만들어 기능을보여 줍니다.
+1. AEM Screens 프로젝트 만들기 이 예에서는 아래 그림과 같이 사용자 **스타일** 이라는 프로젝트와 **DemoBrand** 라는 채널을 만들어 기능을보여 줍니다.
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 1. AEM 인스턴스 —> 도구 —> **CRXDE Lite에서 CRXDE Lite으로 이동합니다**.
 
-1. 사용자 정의 디자인을 만들어야 `/apps/settings/wcm/designs/<your-project>/`합니다(예: 이 경우 `/apps/settings/wcm/designs/customstyle/`
+1. 사용자 정의 디자인을 만들어야 `/apps/settings/wcm/designs/<your-project>/`합니다. 예를 들어 `/apps/settings/wcm/designs/customstyle/`
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 플레이어에서 다운로드할 수 있도록 이러한 디자인에 대한 ACL을 업데이트해야 합니다.
 
-1. useradmin으로 이동한 후 사용자 지정 디자인 경로 `screens-<project>-devices group` 에 대한 읽기 권한을 부여하십시오.
+1. 사용자 관리자로 이동하고 사용자 정의 디자인 경로 `screens-<project>-devices group` 에 대한 읽기 권한을 지정합니다.
 
 1. 이 경로에 대한 `screens-<project>-administrators` 그룹 읽기 및 수정 권한을 제공합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
 업데이트된 디자인을 텍스트 오버레이로 보려면 아래 단계를 따르십시오.
 
-1. 사용자 지정 스타일 —> 채널 **—>** Demo **** Brand라는 AEM Screens **프로젝트로**&#x200B;이동합니다. Select the channel and click **Edit** from the action bar to open the editor.
+1. 사용자 지정 스타일 —> 채널 **—>** Demo **** Brand라는 이름의 AEM Screens 프로젝트를 **탐색합니다**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. 이제 디자인을 디자인 **** 필드에 추가했으므로 위에 언급된 대로 **미리** 보기를 클릭하여 텍스트 오버레이가 포함된 이미지에 현재 스타일링을 봅니다.
 
