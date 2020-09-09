@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 2%
    ![자산](assets/health-check1.png)
 
 
-2. 위에 나열된 두 **속성에 대한 유효성 검사를** 실행하려면 [선택한 상태 검사 실행]을 클릭합니다.
+2. 위에 나열된 두 **속성에 대한 유효성 검사를 실행하려면 [선택한 상태 검사** 실행]을 클릭합니다.
 
    두 개의 필터가 모두 활성화된 경우 **스크린 구성 상태 서비스** 에 **는** 결과 **가** 확인으로표시됩니다.
 
@@ -108,7 +108,7 @@ AEM Screens은 터치 UI가 필요하며 Adobe Experience Manager(AEM)의 클래
 1. &lt; *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl으로 이동합니다.*
 1. 아래 그림과 같이 **기본 작성** UI 모드가 **TOUCH로**&#x200B;설정되어 있는지 확인합니다.
 
-또는 *&lt;yourAuthorInstance>*->*도구(망치 아이콘* -> **작업** -> Web **consoleWeb Console** 을 사용하여 동일한 설정을 수행하고 UI 작성 UI 모드 서비스UI를 ****&#x200B;위해 Web Console을 검색하고 검색할 수도 있습니다.
+또는 AuthorInstance *->* tools (icon) -> **Operations** -> **Web Console** 을 사용하여 동일한 설정을 수행하고 **WCM Authoring UI Mode Service를 검색할 수도 있습니다**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ AEM Screens은 터치 UI가 필요하며 Adobe Experience Manager(AEM)의 클래
 
 #### AEM in NOSAMPLECONCONTENT runmode {#aem-in-nosamplecontent-runmode}
 
-프로덕션에서 AEM을 실행하면 **NOSAMPLECONTENT 런모드를** 사용합니다. RemovetheX-*Frame-Options=SAMEORIGIN* 헤더(추가 응답 헤더 섹션에서)
+프로덕션에서 AEM을 실행하면 **NOSAMPLECONTENT 런모드를** 사용합니다. X- *Frame-Options=SAMEORIGIN* 헤더(추가 응답 헤더 섹션에서)를
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ DeviceServiceImpl ***에***&#x200B;대한 최신 변경 사항이 있는 경우 
 
 1. AEM 인스턴스 —> 망치 아이콘 —> 작업 **** —> **웹 콘솔** 을 통해 **Adobe Experience Manager 웹 콘솔 구성으로 이동합니다**.
 
-1. **Adobe Experience Manager 웹 콘솔 구성 **열립니다. 디바이스 서비스 검색 속성을 검색하려면 **Mac** 용 Command+F **를 누르고****Windows용** Ctrl+F **를**&#x200B;누릅니다.
+1. **Adobe Experience Manager 웹 콘솔 구성 **열립니다. 디바이스 *서비스*&#x200B;검색 속성을 검색하려면 **Mac** 용 Command+F **를 누르고****Windows용** Ctrl+F **를**&#x200B;누릅니다.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
