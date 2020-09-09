@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -29,18 +32,19 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 >[!NOTE]
 >
->최신 Windows Player(*.exe*)를 다운로드한 후 AEM 6.4 [Player 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료하십시오.
+>최신 Windows Player(*.exe*)를 다운로드한 후 [AEM 6.4 Player 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
->1. 왼쪽 위 모서리를 길게 눌러 관리 패널을 엽니다.
->1. 왼쪽 **작업** 메뉴에서 구성으로 이동하고 서버에 AEM 인스턴스의 위치 주소를 입력하고 **저장을** **클릭합니다**.
->1. 왼쪽 **작업** 메뉴 및 아래 단계를 클릭하여 장치 등록 프로세스를 완료합니다.
+>1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
+>1. 왼쪽 작업 **메뉴에서** 구성으로 이동한 후 **서버에** AEM 인스턴스의 위치 주소를 입력하고 **저장을**&#x200B;클릭합니다.
+>1. 왼쪽 작업 메뉴 **에서** 등록 링크 및 아래 단계를 클릭하여 장치 등록 프로세스를 완료합니다.
+
 >
 
 
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. 장치에서 AEM Screens 플레이어를 시작합니다. 등록 UI가 표시됩니다.
+1. 디바이스에서 AEM Screens 플레이어를 시작합니다. 등록 UI가 표시됩니다.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -48,9 +52,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    >[!NOTE]
    >
-   >AEM 대시보드에서 화면에 대한 새 프로젝트를 만드는 방법에 대한 자세한 내용은 스크린 [프로젝트 만들기 및 관리를 참조하십시오](creating-a-screens-project.md).
+   >AEM 대시보드에서 스크린용 새 프로젝트를 만드는 방법에 대한 자세한 내용은 스크린 프로젝트 [만들기 및 관리를 참조하십시오](creating-a-screens-project.md).
 
-1. 작업 표시줄에서 장치 **관리자** 단추를 탭/클릭합니다.
+1. 작업 표시줄에서 **장치 관리자** 단추를 탭/클릭합니다.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
@@ -58,19 +62,19 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 필요한 장치(1단계와 동일)를 선택하고 장치 등록을 탭/ **클릭합니다**.
+1. 필요한 장치(1단계와 동일)를 선택하고 장치 **등록을 탭/클릭합니다**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. AEM 파섹
+1. AEM에서 장치가 등록 코드를 보낼 때까지 기다립니다.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 장치에서 등록 **코드를 확인합니다**.
+1. 장치에서 **등록 코드를 확인합니다**.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 등록 **코드가** 두 시스템 모두에서 동일한 경우, (6) **단계에서와 같이 AEM에서** 유효성 검사 단추를 탭/클릭합니다.
+1. 두 시스템 모두에서 **등록 코드** 가 동일한 경우, (6) 단계 **와** 같이 AEM에서 유효성 검사단추를 탭/클릭합니다.
 1. 장치의 원하는 이름을 설정하고 등록을 **클릭합니다**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -85,7 +89,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    >
    >디스플레이 **할당을** 사용하면 디스플레이에 장치를 직접 추가할 수 있습니다.
 
-   [마침] **을**&#x200B;클릭하면 장치를 디스플레이에 할당해야 합니다.
+   [ **마침**]을 클릭하면 장치를 디스플레이에 할당해야 합니다.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -97,19 +101,19 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 디스플레이에 장치를 할당하지 않은 경우 아래 절차에 따라 AEM Screens 프로젝트의 디스플레이에 장치를 할당하십시오.
 
-1. 장치를 선택하고 작업 **표시줄에서 장치** 할당을 클릭합니다.
+1. 장치를 선택하고 작업 표시줄에서 **장치** 할당을 클릭합니다.
 
-   ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
+   ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 디스플레이/장치 구성 경로에서 디스플레이 경로를 **선택합니다**.
+1. 디스플레이/장치 구성 경로 **에서 디스플레이 경로를 선택합니다**.
 
-   ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
+   ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 경로를 **선택할** 때 할당을 클릭합니다.
+1. 경로를 **선택하면 할당을** 클릭합니다.
 
-   ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
+   ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 아래 **그림과 같이** 장치가 성공적으로 할당되면 마침을 클릭합니다.
+1. 아래 **그림과 같이 장치가 성공적으로 할당되면 마침을** 클릭합니다.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -117,11 +121,11 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## 장치 등록 제한 {#limitations-on-device-registration}
+## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
-시스템 전체 사용자 암호 제한으로 인해 장치 등록이 실패할 수 있습니다. 장치 등록은 무작위 생성된 암호를 사용하여 장치 사용자를 만듭니다.
+시스템 전체 사용자 암호 제한으로 인해 장치 등록이 실패할 수 있습니다. 장치 등록에서는 무작위 생성된 암호를 사용하여 장치 사용자를 만듭니다.
 
-AuthorizableActionProvider 구성에 의해 *암호가* 제한된 경우 장치 사용자를 만들지 못할 수 있습니다.
+AuthorizableActionProvider ** 구성에 의해 암호가 제한된 경우 장치 사용자를 만들지 못할 수 있습니다.
 
 >[!NOTE]
 >
@@ -137,4 +141,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 추가 리소스 {#additional-resources}
 
-AEM Screens 플레이어에 대한 자세한 내용은 AEM Screens [플레이어를 참조하십시오](working-with-screens-player.md).
+AEM Screens 플레이어에 대한 자세한 내용은 [AEM Screens 플레이어를 참조하십시오](working-with-screens-player.md).
