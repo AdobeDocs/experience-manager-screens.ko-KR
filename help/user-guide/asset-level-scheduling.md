@@ -4,9 +4,9 @@ seo-title: 자산 수준 활성화
 description: 플레이어의 로컬 시간대에서 예약된 시간대에 대해 채널에서 특정 자산을 활성화하는 방법을 알려면 이 페이지를 따르십시오.
 seo-description: 플레이어의 로컬 시간대에서 예약된 시간대에 대해 채널에서 특정 자산을 활성화하는 방법을 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 * 활성화 창
 * 단일 이벤트 재생
 * 자산의 되풀이 처리
-   * 하루 분할
+   * 한시적 입찰
    * 주 분할
    * 월 분할
    * 부품 조합
@@ -145,7 +145,7 @@ ht-degree: 3%
 
 1. 일정에 표현식을 **입력하고** 특정 시간 간격 동안 자산이 표시됩니다.
 
-#### 월 분할에 대한 표현식 예 {#example-three}
+#### MonthParting에 대한 표현식 예 {#example-three}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 일정에 추가할 수 있는 몇 가지 예제 표현식이 요약되어 있습니다.
 
