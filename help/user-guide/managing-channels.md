@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 46%
@@ -107,7 +107,6 @@ ht-degree: 46%
 1. [자산] 아래에서 **비디오**&#x200B;를 선택하고 필요한 비디오를 드래그하여 놓습니다.
 
 >[!NOTE]
->
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
 ### 속성 보기 {#viewing-properties}
@@ -145,6 +144,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 >이 옵션은 AEM 6.4 기능 팩 8 또는 AEM 6.5 기능 팩 4에서만 사용할 수 있습니다.
 
 채널 대시보드에서 이 옵션을 활성화하려면 다음 단계를 수행합니다.
+
 1. **채널을 오프라인으로 설정**
    1. 채널을 선택하고 작업 **표시줄에서** 속성을 선택합니다
    1. 채널 **탭으로** 이동하여 **개발자 모드 선택 취소(채널이 온라인 상태가 되도록 강제 적용)** 확인
