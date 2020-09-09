@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 8%
 ## AEM Screens에서의 경험 조각 사용 {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
 >다음 예에서는 **We.Retail** 을 데모 프로젝트로 사용합니다. 여기서 **사이트** 페이지에서 AEM Screens 프로젝트로 경험 조각을 활용합니다.
 
 예를 들어 다음 워크플로우는 사이트에서 We.Retail에서 경험 조각을 사용하는 방법을 보여줍니다. 웹 페이지를 선택하고 프로젝트 중 하나에서 AEM Screens 채널의 해당 컨텐츠를 활용할 수 있습니다.
@@ -50,7 +49,7 @@ ht-degree: 8%
 1. 제목을 **DemoProject**&#x200B;로 입력합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-AEM **Screens** 에 DemoProject가 추가됩니다.
+DemoProject **가** AEM Screens에 추가됩니다.
 
 ***채널 생성***
 
@@ -102,13 +101,13 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Live Copy 만들기 마법사에서** **ScreensFragment** **를 선택하고 **다음을 클릭합니다**.
+   c. Live Copy **생성** **마법사에서 ScreensFragment** 를 선택하고 **다음을**&#x200B;클릭합니다.
 
-   d. 제목 **및** **이름** 을 스크린으로 **입력합니다**.
+   d.제목 **및** **이름** 을 스크린으로 **입력합니다**.
 
-   e. 만들기를 **클릭하여** Live Copy를 만듭니다.
+   e.만들기를 **클릭하여** Live Copy를 만듭니다.
 
-   f. 완료 **를** 클릭하여 스크린 **조각** 페이지로 돌아갑니다.
+   f.완료 **를** 클릭하여 스크린 **조각** 페이지로 돌아갑니다.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -136,19 +135,19 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. 경험 **조각** 구성 요소를 선택하고 맨 위 왼쪽(공구모양) 아이콘을 선택하여 경험 조각 **대화 상자를** 엽니다.
+   e.경험 **조각** 구성 요소를 선택하고 맨 위 왼쪽(공구모양) 아이콘을 선택하여 경험 조각 **대화 상자를** 엽니다.
 
-   f. 경로 **에서 3단계에서** 생성한 조각 *의* Screens **Live Copy를**&#x200B;선택합니다.
+   f.경로 **에서 3단계에서** 생성한 조각 *의* Screens **Live Copy를**&#x200B;선택합니다.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. 경험 **조각** 에서 3단계에서 생성한 조각 *의* Screens **Live Copy**&#x200B;를선택합니다.
+   f.경험 **조각** 에서 3단계에서 생성한 조각 *의* Screens **Live Copy**&#x200B;를선택합니다.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. 밀리초(Duration)를 **입력합니다**.
+   h.밀리초(Duration)를 **입력합니다**.
 
-   i. [ **경험 조각** ] 대화 상자에서 **** [오프라인 구성]을 선택하여 클라이언트측 라이브러리와 정적 파일을 정의합니다.
+   i.[ **경험 조각** ] 대화 상자에서 **** [오프라인 구성]을 선택하여 클라이언트측 라이브러리와 정적 파일을 정의합니다.
 
    >[!NOTE]
    >
@@ -156,7 +155,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. 확인 표시를 클릭하여 프로세스를 완료합니다.
+   j.확인 표시를 클릭하여 프로세스를 완료합니다.
 
 ### 결과 유효성 확인 {#validating-the-result}
 
@@ -176,7 +175,7 @@ TestChannel **이 DemoProject** 에 **추가됩니다**.\
 
 >[!NOTE]
 >
->Live Copy에 대한 자세한 내용은 컨텐츠 재사용을 참조하십시오. 다중 사이트 관리자 및 Live Copy.
+>Live Copy에 대한 자세한 내용은 컨텐츠 재사용을 참조하십시오.다중 사이트 관리자 및 Live Copy.
 
 아래 절차에 따라 마스터 채널에서 대상 채널로 변경 사항을 전파하십시오.
 
