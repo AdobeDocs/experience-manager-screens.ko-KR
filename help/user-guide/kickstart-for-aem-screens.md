@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 6%
 
 ---
@@ -187,7 +187,7 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 
 >[!IMPORTANT]
->ChromeOS 플레이어는 실제 크롬 플레이어 장치가 없어도 개발자 모드에서 Chrome Browser 플러그인으로 설치할 수 있습니다. 설치하려면 아래 단계를 수행하십시오.
+>Chrome OS 플레이어는 실제 크롬 플레이어 장치가 없어도 개발자 모드에서 Chrome Browser 플러그인으로 설치할 수 있습니다. 설치하려면 아래 단계를 수행하십시오.
 >
 >1. 최신 Chrome Player를 다운로드하려면 [여기를](https://download.macromedia.com/screens/) 클릭하십시오.
 >1. 압축을 풀고 디스크에 저장합니다.
@@ -199,7 +199,7 @@ AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 >1. Chrome Player를 **시작하려면 AEM Screens** 플러그인을 클릭합니다. 기본적으로 플레이어가 전체 화면 모드로 실행됩니다. 전체 화면 모드를 **종료하려면 esc** 키를 누릅니다.
 
 
-ChromeOS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등록하십시오.
+Chrome OS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등록하십시오.
 
 1. AEM 인스턴스에서 **프로젝트의** 장치 폴더로 이동합니다.
 
@@ -242,7 +242,7 @@ ChromeOS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등�
 
 ### Chrome Player에서 콘텐트 보기 {#viewing-content-output}
 
-이제 채널의 모든 에셋이 Chrome 장치에서 재생됩니다.
+이제 채널의 모든 에셋이 Chrome OS 플레이어에서 재생됩니다.
 
 AEM Screens 채널에서 콘텐츠를 재생해 주셔서 감사합니다.
 
