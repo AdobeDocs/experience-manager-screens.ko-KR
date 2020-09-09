@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 46%
+source-wordcount: '1343'
+ht-degree: 44%
 
 ---
 
 
 # 채널 생성 및 관리 {#creating-and-managing-channels}
 
-채널에는 일련의 컨텐츠와 디스플레이 이미지 및 비디오가 표시되지만 웹 사이트나 단일 페이지 애플리케이션을 표시할 수도 있습니다.
+채널은 일련의 컨텐츠와 디스플레이 이미지 및 비디오를 표시하지만 웹 사이트나 단일 페이지 애플리케이션을 표시할 수도 있습니다.
 
 이 페이지에서는 스크린용 채널의 만들기 및 관리에 대해 보여줍니다.
 
@@ -32,16 +32,25 @@ ht-degree: 46%
 
 ## 새 채널 만들기 {#creating-a-new-channel}
 
-스크린에 대한 프로젝트를 만들었으면 아래 절차에 따라 스크린 프로젝트를 위한 새 채널을 만드십시오.
+AEM Screens용 프로젝트를 만든 후 아래 절차에 따라 프로젝트에 사용할 새 채널을 만드십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** next to the plus icon in the action bar. 마법사가 열립니다(*자세한 내용은 채널 유형 참조*).
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 다음 위치로 직접 이동할 수 있습니다. `https://localhost:4502/screens.html/content/screens`.
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. 스크린 프로젝트로 이동하고 채널 **폴더를** 선택합니다.
 
-1. **만들기**&#x200B;를 클릭하십시오. 채널이 만들어져서 채널 폴더에 추가됩니다.
+1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
+
+   ![인구 통계 채널](assets/create-channel1.png)
+
+1. 만들기 **마법사에서** 시퀀스 채널 **템플릿을** 선택하고 **다음을**&#x200B;클릭합니다.
+
+   ![인구 통계 채널](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![인구 통계 채널](assets/create-project4.png)
+
+1. 이제 시퀀스 채널이 채널 **폴더에** 추가됩니다.
 
 ### 채널 유형 {#channel-types}
 
@@ -62,14 +71,6 @@ ht-degree: 46%
 >[!NOTE]
 >
 >화면 분할 채널은 화면을 여러 영역으로 분할하므로 여러 경험을 동시에 나란히 재생할 수 있습니다. 경험은 정적 자산/텍스트 또는 포함된 시퀀스가 될 수 있습니다.
-
-다음 예는 스크린 프로젝트(DemoProject *)에 대한 시퀀스 채널(* ChannelOne *)을 만드는*&#x200B;것을 보여줍니다.
-
-![인구 통계 채널](assets/demochannel.gif)
-
->[!NOTE]
->
->위에서 언급한 1x2, 2x2 또는 2~3 분할 화면 채널과 같은 템플릿 선택 사항을 사용하여 서로 다른 영역을 만들 수 있습니다.
 
 >[!IMPORTANT]
 >
