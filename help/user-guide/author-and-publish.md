@@ -4,9 +4,9 @@ seo-title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 건축은 AEM Sites의 전통 건축과 닮았다. 컨텐츠는 AEM 작성자 인스턴스에서 작성되고 앞으로 복제되어 여러 게시 인스턴스로 전달됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 seo-description: AEM Screens 건축은 AEM Sites의 전통 건축과 닮았다. 컨텐츠는 AEM 작성자 인스턴스에서 작성되고 앞으로 복제되어 여러 게시 인스턴스로 전달됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 4%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 4%
 
 각 게시 인스턴스에서:
 
-1. OSGi 콘솔에서 **MAIN** —> **Crypto 지원** (*https://&lt;host>:&lt;port>/system/console/crypto*)으로 이동합니다.
+1. OSGi 콘솔에서 **MAIN** —> **Crypto 지원** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`)으로이동합니다.
 1. 일반 텍스트에 원하는 일반 텍스트 암호(모든 인스턴스에 대해 동일함)를 **입력합니다**
 1. Protect을 **클릭합니다**.
 1. 보호된 텍스트 값을 **메모장** 또는 텍스트 편집기에 복사합니다. 이 값은 ActiveMQ용 OSGi 구성에서 사용됩니다.
@@ -161,7 +161,7 @@ ht-degree: 4%
 
 각 게시 인스턴스에서:
 
-1. OSGi 구성 관리자 https:// *&lt;호스트>:&lt;포트>/system/console/configMgr로 이동합니다.*
+1. OSGi 구성 관리자로 이동합니다. `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Apache **ActiveMQ Artems JMS Provider 구성을** 선택합니다.
 1. 다음을 업데이트합니다.
 
@@ -172,7 +172,7 @@ ht-degree: 4%
 
 각 게시 인스턴스의 아래 단계를 따르십시오.
 
-1. OSGi 콘솔 -> 기본 > ActiveMQ Artem으로 이동합니다 `[https://localhost:4505/system/console/mq`.
+1. OSGi 콘솔 -> 기본 > ActiveMQ Artem으로 이동합니다 `https://localhost:4505/system/console/mq`.
 1. 클러스터 정보 > 토폴로지 > nodes=2, members=2에서 다른 인스턴스의 포트를 확인하고 확인합니다.
 1. 테스트 메시지 보내기(브로커 정보 아래의 화면 상단)
 1. 필드에 다음 변경 사항을 입력합니다.
@@ -183,7 +183,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->OSGI 콘솔로 이동하는 경우 이전 단계에서 구성을 저장한 후 몇 초 정도 걸릴 수 있습니다. 자세한 내용은 error.log를 확인할 수도 있습니다.
+>OSGi 콘솔로 이동하는 경우 이전 단계에서 구성을 저장한 후 몇 초 정도 걸릴 수 있습니다. 자세한 내용은 error.log를 확인할 수도 있습니다.
 
 예를 들어 다음 이미지는 ActiveMQ Artem Server의 성공적인 구성에 표시됩니다.
 
@@ -201,7 +201,7 @@ ht-degree: 4%
 
 ### 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-instance}
 
-게시 주제를 설정했으면 작성 및 게시 인스턴스를 구성해야 하며, 구현의 실용적인 결과를 확인해야 합니다.
+게시 토폴로지를 설정했으면 작성 및 게시 인스턴스를 구성해야 하며, 구현의 실용적인 결과를 확인해야 합니다.
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ ht-degree: 4%
 
 **장치 확인**
 
-그 전에 아래 단계를 수행하여 장치 ID를 확인하십시오. 확인하려면 CRXDELite에서 경로를 */home/users/screens/we-retail/devices로 사용하여 디바이스 ID를 검색하십시오*.
+그 전에 아래 단계를 수행하여 장치 ID를 확인하십시오. 확인하려면 CRXDE Lite에서 디바이스 ID를 검색하여 경로를 */home/users/screens/we-retail/devices로 찾습니다*.
 
 아래 절차에 따라 장치 사용자를 복제하십시오.
 
