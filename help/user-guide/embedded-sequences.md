@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 42%
 
 ---
@@ -39,9 +39,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 포함된 시퀀스를 채널에 추가할 수 있습니다. 포함된 시퀀스는 이미지나 비디오와 같은 에셋을 포함하는 다른 채널입니다. 포함된 시퀀스를 추가하면 사용자가 ***채널 경로***&#x200B;별로 채널에 시퀀스를 추가할 수 있습니다.
 
 >[!NOTE]
->
->***채널 경로*** 는 채널에 대한 명시적 참조를 정의합니다.
->
+>***Channel Path*** defines an explicit reference to the channel.
 >*채널 경로*&#x200B;에 대해 자세히 알려면 스크린 작성에서 [채널 지정](channel-assignment.md)을 참조하십시오.
 
 아래 절차에 따라 채널에 포함된 시퀀스를 추가하십시오.
@@ -101,7 +99,7 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 1. 동적 시퀀스를 포함할 채널을 선택합니다. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 왼쪽 사이드바에서 구성 요소 아이콘을 클릭하여 동적 포함된 시퀀스를 추가합니다. 동적&#x200B;**시퀀스** **를 드래그하여 편집기에 놓습니다.
+1. 왼쪽 사이드바에서 구성 요소 아이콘을 클릭하여 동적 포함된 시퀀스를 추가합니다. Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
 
 1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
