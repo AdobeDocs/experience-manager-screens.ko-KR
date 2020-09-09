@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 38%
+source-wordcount: '341'
+ht-degree: 42%
 
 ---
 
@@ -22,35 +22,22 @@ ht-degree: 38%
 
 Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음, [스크린]을 선택하여 AEM Screens를 사용할 수 있습니다.
 
-또는 다음 위치로 바로 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`
-![chlimage_1-14](assets/chlimage_1-14.png)
+또는 다음 위치로 직접 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`
 
-다양한 프로젝트는 브랜드, 배포, 고객 등이 될 수 있습니다.
-
-![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
->
 >**탐색 팁:**
->
 >커서 키를 사용하여 AEM에서 다양한 폴더를 탐색할 수도 있습니다. 또한 특정 엔티티를 선택한 후에는 해당 특정 폴더에 대한 속성을 편집하거나 보려면 스페이스바를 누릅니다.
 
 ## 새 스크린 프로젝트 생성 {#creating-a-new-screens-project}
 
 아래 절차에 따라 새 스크린 프로젝트를 생성하십시오.
 
-1. AEM 대시보드에서 **스크린**&#x200B;를 선택합니다.
-1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
+1. AEM **인스턴스에서** 스크린 을 선택합니다.
 
-1. Select the **Screens** template and click **Next**.
+1. Click **Create Screens Project**.
 
-1. Enter the properties (**Title** and **Name**) as required and click **Create**.
-
-![player1](assets/player1.gif)
-
->[!NOTE]
->
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. 사용 가능한 옵션이 프로젝트와 관련이 없는 경우 해당 옵션을 제거할 수 있습니다.
+1. Enter the title as **TestProject** and click **Create**.
 
 프로젝트가 생성되고 다시 스크린 프로젝트 콘솔로 돌아갑니다. 이제 프로젝트를 선택할 수 있습니다.
 
@@ -59,22 +46,26 @@ Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음, [스크린]을 
 * **예약**
 * **위치**
 * **애플리케이션**
-* **채널**
 * **장치**
+* **채널**
 
-![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png)
+![player1](assets/create-project.gif)
 
-### 속성 보기 {#viewing-properties}
+>[!NOTE]
+>
+>By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. 사용 가능한 옵션이 프로젝트와 관련이 없는 경우 해당 옵션을 제거할 수 있습니다.
 
-Once you create the Screens project, click **Properties** on the action bar to edit properties of an exiting AEM Screens project.
 
-![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
+## 속성 보기 {#viewing-properties}
 
-The following options allow you to edit/change properties of your *DemoProject*.
+스크린 프로젝트를 만들고 나면 프로젝트를 선택하고 작업 표시줄에서 **속성** 을 클릭하여 프로젝트의 속성을 편집합니다.
 
-![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
+The following options allow you to edit/change properties of your **TestScreens**.
 
-### 사용자 지정 폴더 만들기 {#creating-a-custom-folder}
+![이미지](assets/create-project2.png)
+
+
+## 사용자 지정 폴더 만들기 {#creating-a-custom-folder}
 
 또한 프로젝트에서 사용할 수 있는 예약, 위치 **,**&#x200B;응용 프로그램 **의****위치**, 채널 **, Cameras 및 DevicesMaster 페이지 아래에 사용자 지정 폴더****** 를 만들 수도 있습니다.
 
@@ -85,12 +76,11 @@ The following options allow you to edit/change properties of your *DemoProject*.
 1. **다음**&#x200B;을 클릭합니다.
 1. 속성을 입력하고 **만들기**&#x200B;를 클릭합니다.
 
-다음 단계는 DemoProject에서 응용 프로그램 **마스터 페이지에 응용 프로그램** 폴더를 만드는 *방법을 보여줍니다*.
+다음 단계는 TestScreens에서 응용 프로그램 **** 마스터 페이지에 응용 프로그램 폴더를 만드는 **방법을 보여줍니다**.
 
-![player2-1](assets/player2-1.gif)
+![player2-1](assets/create-project3.gif)
 
 ### 다음 단계 {#the-next-steps}
 
 Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
 
-또한 자신만의 예약, 응용 프로그램, 위치 또는 장치를 만들 수도 있습니다.
