@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 42%
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음, [스크린]을 
 
 프로젝트가 생성되고 다시 스크린 프로젝트 콘솔로 돌아갑니다. 이제 프로젝트를 선택할 수 있습니다.
 
-프로젝트에는 아래 그림에 표시된 대로 네 가지 폴더가 있습니다.
+프로젝트에는 아래 그림과 같이 5가지 종류의 폴더가 있습니다.
 
 * **예약**
 * **위치**
