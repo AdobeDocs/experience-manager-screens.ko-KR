@@ -1,10 +1,10 @@
 ---
 title: 테스트 및 품질 보증
-seo-title: AEM Screens 테스트 및 품질 보증
-description: 이 페이지에서는 AEM Screens 우수 사례 테스트 및 품질 보증 안내서를 설명합니다.
-seo-description: 이 페이지에서는 AEM Screens 우수 사례 테스트 및 품질 보증 안내서를 설명합니다.
+seo-title: AEM Screens 시험품질 보증
+description: 이 페이지에서는 AEM Screens 우수 사례 테스트 및 품질 보증 가이드를 설명합니다.
+seo-description: 이 페이지에서는 AEM Screens 우수 사례 테스트 및 품질 보증 가이드를 설명합니다.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,7 +15,6 @@ ht-degree: 2%
 # 테스트 및 품질 보증 {#testing-quality}
 
 >[!NOTE]
->
 >이 활동의 일반적인 이해 관계자는 A/V 통합자입니다.
 
 디지털 사이니지 네트워크의 실제 배포에 가까워짐에 따라 모든 하드웨어 구성 요소, 모든 소프트웨어 구성 요소 및 모든 네트워킹 구성 요소를 포함하여 네트워크의 모든 요소를 해결하는 테스트 및 QA 계획을 만들어야 합니다.
@@ -52,10 +51,9 @@ ht-degree: 2%
 
 ## 3. 장치 관리 고려 사항 {#device-management-considerations}
 
+AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 수 있는 장치 컨트롤 센터 모듈이 포함되어 있습니다.
 
-AEM Screens에는 Screens 플레이어 응용 프로그램 끝점을 관리할 수 있는 장치 컨트롤 센터 모듈이 포함되어 있습니다.
-
-이것은 Screens 플레이어 응용 프로그램이 설치되고 AEM의 인스턴스에 등록된 *플레이어* 하드웨어 장치를 의미합니다.
+이는 Screens 플레이어 응용 프로그램이 설치되고 AEM 인스턴스에 등록된 *플레이어* 하드웨어 장치를 의미합니다.
 이 모듈에서는 다음을 수행할 수 있습니다.
 
 1. 플레이어 응용 프로그램 오류 로그 모니터링
@@ -63,12 +61,11 @@ AEM Screens에는 Screens 플레이어 응용 프로그램 끝점을 관리할 �
 1. 컨텐츠 다운로드 관리
 1. 애플리케이션 다시 시작 문제 관리
 
-장치 컨트롤 센터에 대한 자세한 내용은 ***AEM Screens 사용자***&#x200B;안내서의 [장치 컨트롤 센터](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 문제 **해결**&#x200B;을 참조하십시오.
+장치 컨트롤 센터에 대한 자세한 내용은 ***AEM Screens 사용자***&#x200B;안내서의 [문제 해결 장치 컨트롤 센터](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 를 **참조하십시오**.
 
 >[!CAUTION]
 >
 > 장치 제어 센터를 사용하여 다음을 수행할 수 없습니다.
->
 > 1. 플레이어 응용 프로그램의 새 버전 설치
 > 1. 시스템 수준 리소스 모니터링
 > 1. 시스템 수준 오류 문제 해결
@@ -78,7 +75,7 @@ AEM Screens에는 Screens 플레이어 응용 프로그램 끝점을 관리할 �
 
 >[!NOTE]
 >
-> 모든 배포에는 타사 전용 장치 관리 플랫폼을 사용하는 것이 좋습니다.
+> Adobe은 모든 배포에 타사 전용 장치 관리 플랫폼을 사용하는 것이 좋습니다.
 
 선택한 특정 플랫폼은 ***대상 운영 체제***, ***프로젝트 요구 사항*** 및 ***종료 지점***&#x200B;수 등 다양한 요소에 따라 달라집니다.
 
