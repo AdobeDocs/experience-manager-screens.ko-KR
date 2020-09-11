@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ DeviceServiceImpl ***에***&#x200B;대한 최신 변경 사항이 있는 경우 
 
 1. AEM 인스턴스 —> 망치 아이콘 —> 작업 **** —> **웹 콘솔** 을 통해 **Adobe Experience Manager 웹 콘솔 구성으로 이동합니다**.
 
-1. **Adobe Experience Manager 웹 콘솔 구성 **열립니다. 디바이스 *서비스*&#x200B;검색 속성을 검색하려면 **Mac** 용 Command+F **를 누르고****Windows용** Ctrl+F **를**&#x200B;누릅니다.
+1. **Adobe Experience Manager 웹 콘솔 구성이** 열립니다. 디바이스 *서비스*&#x200B;검색 속성을 검색하려면 macOS용 **Command+F** 를 누르고 Microsoft Windows용 **Ctrl+F** 를 누릅니다.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하는 방법을 알아
 Java ***인코딩을 유니코드로*** 설정합니다. 예를 들어 *Dfile.encoding=Cp1252는* 작동하지 않습니다.
 
 >[!NOTE]
->
 >**추천:**
->
 >프로덕션 환경에서 AEM Screens 서버용 HTTPS를 사용하는 것이 좋습니다.
 
 
