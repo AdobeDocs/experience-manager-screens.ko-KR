@@ -1,10 +1,10 @@
 ---
-title: AEM Screens에 대한 보안 검사 목록
-seo-title: AEM Screens에 대한 보안 검사 목록
+title: AEM Screens에 대한 보안 체크리스트
+seo-title: AEM Screens에 대한 보안 체크리스트
 description: 이 페이지에서는 AEM Screens에 대한 보안 체크리스트에 대해 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens에 대한 보안 체크리스트에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -12,10 +12,9 @@ ht-degree: 1%
 ---
 
 
-# AEM Screens에 대한 시스템 보안 고려 사항 {#security-checklist}
+# AEM Screens 시스템 보안 고려 사항 {#security-checklist}
 
 >[!IMPORTANT]
->
 >내부 Git 리소스입니다.
 
 이 페이지에서는 AEM Screens에 대한 시스템 보안 고려 사항을 설명합니다.
@@ -28,7 +27,7 @@ ht-degree: 1%
 
 ## AEM Screens 보안을 위한 FAQ {#faqs-screens}
 
-다음 FAQ는 HTTPS를 사용하는 인증된 등록 플레이어 아키텍처를 플레이어와 AEM Server 간의 통신 프로토콜로 간주합니다.
+다음 FAQ는 HTTPS를 사용하는 인증된 등록 플레이어 아키텍처를 플레이어와 AEM 서버 간의 통신 프로토콜로 간주합니다.
 
 ### FAQ 1 {#faq1}
 
@@ -64,7 +63,7 @@ AEM Server는 안전합니까?
 
 **답변**
 
-&#x200B;4. AMS를 사용하고 있다고 가정할 경우 Adobe는 사이트 또는 자산과 동일한 기능을 사용하여 모든 서버 보안을 관리합니다.
+4. AMS를 사용하고 있다고 가정할 경우 Adobe는 사이트 또는 자산과 동일한 기능을 사용하여 모든 서버 보안을 관리합니다.
 
 
 ### FAQ 5 {#faq5}
@@ -98,7 +97,7 @@ AEM Server는 안전합니까?
    1. 장치 및 인증서 클라이언트측
 
 >[!IMPORTANT]
->장치가 손상되더라도 AEM에 더 이상 연결할 수 없도록 장치의 자격 증명을 쉽게 취소할 수 있습니다.
+>장치가 손상될 경우에도 더 이상 AEM에 연결할 수 없도록 장치의 자격 증명을 쉽게 취소할 수 있습니다.
 
 
 
