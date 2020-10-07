@@ -6,9 +6,9 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -125,9 +125,23 @@ AEM Screens 플레이어가 시작되면 플레이어에서 404 오류가 발생
 1. 개발자 **옵션으로 이동**
 1. 깨어 **있도록 설정**
 
-### 4. Windows 플레이어에 대한 창 모드를 활성화하는 방법?
+### 4. Windows 플레이어에 대한 창 모드를 활성화하는 방법?{#enable-player}
 
 Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모드입니다.
+
+### 5. Screens 플레이어에서 로그인 요청을 지속적으로 전송하는 경우 어떻게 해결합니까?{#requests-login}
+
+아래 절차에 따라 계속해서 요청을 보내는 AEM Screens 플레이어의 문제를 `/content/screens/svc.json` 해결하십시오. `/libs/granite/core/content/login.validate/j_security_check`
+
+1. AEM Screens 플레이어가 시작되면 이 응답으로 플레이어가 404 상태 코드를 받게 되면 플레이어는 게시 인스턴스에 대해 인증 요청을 시작 `/content/screens/svc.json``/libs/granite/core/content/login.validate/j_security_check` 합니다. 게시 인스턴스에 사용자 지정 오류 처리기가 있는 경우 `/content/screens/svc.json` 또는 에서 익명 사용자의 404 상태 코드를 반환해야 합니다 `/content/screens/svc.ping.json`.
+
+1. 디스패처 구성에서 섹션에서 이러한 요청을 허용하는지 `/filters` 확인합니다. 자세한 [내용은 스크린 필터](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 구성을 참조하십시오.
+
+1. 디스패처 다시 작성 규칙이 스크린 경로를 다른 경로로 재작성하는지 확인합니다.
+
+1. 작성자 `/etc/map` 또는 *게시* 인스턴스에 대한 규칙이 있는지 *확인하고 화면 경로가 다른 경로로* `sling:match` 내부적으로 리디렉션되었는지 확인합니다. /`system/console/jcrresolver` 의 정확한 url을 확인하면 *게시* 인스턴스가 이러한 url을 다른 경로로 재작성하고 있는지 확인할 수 있습니다.
+
+1. 내부 다시 쓰기를 발생시키는 Apache Sling Resource Resolver Factory 구성이 있는지 확인하십시오.
 
 ## 일반 문제 해결 팁 {#general-troubleshooting-tips}
 
