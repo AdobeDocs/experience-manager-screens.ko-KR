@@ -6,7 +6,7 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 2%
@@ -129,7 +129,7 @@ AEM Screens 플레이어가 시작되면 플레이어에서 404 오류가 발생
 
 Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모드입니다.
 
-### 5. Screens 플레이어에서 로그인 요청을 지속적으로 전송하는 경우 어떻게 해결합니까?{#requests-login}
+### 5. AEM Screens 플레이어에서 로그인 요청을 계속 보낼 경우 어떻게 해결합니까?{#requests-login}
 
 아래 절차에 따라 계속해서 요청을 보내는 AEM Screens 플레이어의 문제를 `/content/screens/svc.json` 해결하십시오. `/libs/granite/core/content/login.validate/j_security_check`
 
