@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 2%
@@ -68,6 +68,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 ![이미지](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >아래 특정 예제는 값이 100보다 크거나 50보다 작으면 자산 변경을 트리거하는 데이터 저장소로서 google 시트를 보여줍니다.
 
 ## 2단계:스토어 구성 설정 {#step-setting-store-configurations}
@@ -96,28 +97,28 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
       ![이미지](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >AEM 6.5 Feature Pack 4 또는 AEM 6.4 Feature Pack 8의 일부로 고객은 로 업데이트해야 `/conf/screens/settings/cloudsettings` 합니다 `sling:Folder`.
-      > 
+      >
       >아래 단계를 따르십시오.
       >
       >1. CRXDE Lite으로 이동한 다음 로 이동합니다 `/conf/screens/settings/cloudsettings`.
       >1. 안에 `cloudsettings jcr:primaryType` 있는지 확인하십시오 `sling:Folder`. 가 `jcr:primaryType` 없는 경우 `sling:folder`다음 단계로 진행합니다.
-      > 1. 마우스 오른쪽 단추 `/conf/screens/settings` 를 클릭하고 *이름* 을 cloudsettings1 **** 로 *새 노드를 만들고 sling:Folder변경 내용을 저장하고* Type **** Type을 만듭니다.
+      >1. 마우스 오른쪽 단추 `/conf/screens/settings` 를 클릭하고 *이름* 을 cloudsettings1 **** 로 *새 노드를 만들고 sling:Folder변경 내용을 저장하고* Type **** Type을 만듭니다.
       >1. 다음 위치로 모든 노드 `/conf/screens/settings/cloudsettings` 를 `cloudsettings1`이동합니다.
       >1. 삭제 `cloudsettings` 및 저장
       >1. 이름을 `cloudsettings1` 변경하여 `cloudsettings` 저장합니다.
       >1. 이제 /conf/screens/settings/cloudsettings가 다음과 같이 있음을 `jcr:primaryType` 관찰해야 합니다 `sling:Folder`.
-업그레이드 전 또는 후에 작성자의 다음 단계에 따라 게시해야 합니다.
 
+      >
+      >업그레이드 전 또는 후에 작성자의 다음 단계에 따라 게시해야 합니다.
 
    1. 제목 **을** Google ******** Google **Store 이름**&#x200B;으로 입력하고 **GoogleEsign 및 Google Store** 유형 **** ****&#x200B;으로 GoogleEtranthub StoreType asContexthub.genericjsonpV.JeckNext를 클릭합니다.
 
       >[!CAUTION]
-      >Adobe Experience Manager(AEM) 6.4를 사용 중인 경우 **구성 제목** 을 **구문시트로** 입력하고 **스토어 유형** 을 **contexthub-jsonp.generic로 입력합니다**.
+      >Adobe Experience Manager(AEM) 6.4를 사용하는 경우, **구성 제목** 을 **구문시트로** 입력하고 **스토어 유형** 을 **contexthub-jsonp.generic로 입력합니다**.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. 특정 json 구성을 입력합니다. 예를 들어 다음 json을 데모 목적으로 사용하고 **저장을** 클릭하면 ContextHub 구성에서 Google Sheets **라는** 스토어 구성이 표시됩니다.
 
@@ -142,10 +143,11 @@ AEM Screens 프로젝트에 대한 Context Hub 구성 구성을 시작하기 전
 
       >[!NOTE]
       위의 샘플 코드에서 pollInterval은 **값이 새로 고쳐지는 빈도** (ms)를 정의합니다.
-Google Sheets를 설정하는 동안 가져온 *&lt;Sheet ID>* *및*&lt;API키>로 코드를 바꿉니다.
+      Google Sheets를 설정하는 동안 가져온 *&lt;Sheet ID>* *및*&lt;API키>로 코드를 바꿉니다.
 
       >[!CAUTION]
       Google Sheets 저장소 구성을 전역 폴더 외부에 만드는 경우(예: 자체 프로젝트 폴더), 타깃팅은 곧바로 작동하지 않습니다.
+
 
 1. **스토어 세그멘테이션 설정**
 
