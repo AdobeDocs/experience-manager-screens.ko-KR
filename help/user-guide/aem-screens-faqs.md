@@ -6,7 +6,7 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 2%
@@ -136,7 +136,8 @@ Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모�
 1. AEM Screens이 시작되면 이렇게 `/content/screens/svc.json`한다. 플레이어가 응답에서 404 상태 코드를 받으면 게시 인스턴스에 대해 인증 요청 `/libs/granite/core/content/login.validate/j_security_check` 을 *시작합니다* . 게시 인스턴스에 사용자 지정 오류 *처리기가* 있는 경우 `/content/screens/svc.json` 또는 `/content/screens/svc.ping.json`에서 익명 사용자의 404 상태 코드를 반환해야 합니다.
 
 1. 디스패처 구성에서 이러한 요청을 에서 허용하는지 확인합니다 `/filters`.
-자세한 [내용은 스크린 필터](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 구성을 참조하십시오.
+
+   자세한 [내용은 스크린 필터](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 구성을 참조하십시오.
 
 1. 디스패처 다시 작성 규칙이 스크린 경로를 다른 경로로 재작성하는지 확인합니다.
 
