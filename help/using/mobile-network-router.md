@@ -2,7 +2,7 @@
 title: 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크
 description: 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용한 모바일 네트워크에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -80,7 +80,8 @@ AEM Screens에서 필요한 컨텐츠는 플레이어 컨트롤러 또는 컴퓨
 >[!NOTE]
 >
 >필요한 데이터 패키지는 적어도 다음과 같아야 합니다.
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +108,3 @@ AEM Screens은 디지털 서명 사용자에게 큰 이점을 제공합니다. �
 >모든 정보는 인터넷 소스를 요청하고 다운로드하는 네트워크의 각 장치의 소비를 나타냅니다. 이러한 각 요청은 다운로드 시간을 추가하고 확장합니다.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
