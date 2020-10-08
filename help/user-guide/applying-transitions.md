@@ -6,7 +6,7 @@ seo-description: 화면 프로젝트에 전환을 적용하는 방법을 알려�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 ## 채널의 자산에 전환 구성 요소 추가 {#adding-transition}
 
-AEM Screens 프로젝트에 전환 구성 요소를 추가하려면 아래 단계를 따르십시오.
+아래 절차에 따라 AEM Screens 프로젝트에 전환 구성 요소를 추가하십시오.
 
 >[!NOTE]
 >
 >**전제 조건**
 >
-> 채널 TestTransition을 **사용하여 AEM Screens 프로젝트**&#x200B;를 **만듭니다**. 또한 출력을 보려면 위치와 디스플레이를 설정합니다.
+>채널 TestTransition을 사용하여 **AEM Screens 프로젝트** TestProject **를 만듭니다**. 또한 출력을 보려면 위치와 디스플레이를 설정합니다.
 
 1. 채널 테스트 전환 **으로** 이동하고 작업 **표시줄에서 편집을** 클릭합니다.
 
