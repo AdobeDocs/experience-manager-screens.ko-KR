@@ -3,12 +3,12 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
-user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
+user-guide-description: 다양한 유형의 화면을 포함하는 인터랙티브한 디지털 경험을 게시하기 위해 AEM Screens을 사용하는 방법을 살펴볼 수 있습니다.
 translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 13%
+source-wordcount: '414'
+ht-degree: 18%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 13%
    + [오프라인 채널](offline-channels.md)
    + [AEM Screens 구성 요소 확장](extending-component-tutorial-develop.md)
    + [구성 요소 만들기](creating-components.md)
-   + [AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합](embedding-react-app.md)
+   + [AEM SPA 편집기를 사용하여 REACT 애플리케이션 포함 및 AEM Screens Analytics와 통합](embedding-react-app.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
