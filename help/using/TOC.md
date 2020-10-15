@@ -1,6 +1,6 @@
 ---
 user-guide-title: AEM Screens 프로젝트에 대한 모범 사례 안내서
-breadcrumb-title: AEM Screens Guide
+breadcrumb-title: AEM Screens 안내서
 solution-title: AEM Screens
 getting-started-title: AEM Screens 모범 사례 가이드
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
@@ -9,8 +9,8 @@ audience: end-user
 translation-type: tm+mt
 source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 74%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
