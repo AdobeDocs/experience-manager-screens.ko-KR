@@ -3,12 +3,13 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
-user-guide-description: 다양한 유형의 화면을 포함하는 인터랙티브한 디지털 경험을 게시하기 위해 AEM Screens을 사용하는 방법을 살펴볼 수 있습니다.
+breadcrumb-title: AEM Screens 안내서
+user-guide-description: 다이내믹하고 인터랙티브한 디지털 경험과 인터랙션을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 학습합니다.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 18%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
