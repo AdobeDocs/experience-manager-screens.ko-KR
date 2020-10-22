@@ -3,9 +3,9 @@ title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 이 플러그인을 사용하면 설치에서부터 디지털 사이니지 경험을 만들고 AEM Screens 플레이어에서 컨텐츠를 볼 수 있는 새 프로젝트를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 6%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 6%
 
 # 시작 안내서 {#kickstart-guide}
 
-이 섹션은 AEM Screens의 첫 번째 부분이며 AEM Screens 프로젝트를 설정하고 실행하는 방법을 보여줍니다. 기본적인 디지털 사이니지 경험을 설정하고 각 채널에 자산 및/또는 비디오와 같은 컨텐츠를 추가하고 AEM Screens 플레이어에 컨텐츠를 게시하는 과정을 안내합니다.
+AEM Screens의 킥스타트는 AEM Screens 프로젝트를 설정하고 실행하는 방법을 보여줍니다. 기본적인 디지털 사이니지 경험을 설정하고 각 채널에 자산 및/또는 비디오와 같은 컨텐츠를 추가하고 AEM Screens 플레이어에 컨텐츠를 게시하는 과정을 안내합니다.
 
 >[!NOTE]
->프로젝트 세부 사항 작업을 시작하기 전에 최신 기능 팩을 설치했는지 확인하십시오. Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) AEM Screens 6.5.5 릴리스의 최신 기능 팩을 다운로드할 수 있습니다.
+>프로젝트 세부 사항 작업을 시작하기 전에 최신 AEM Screens 기능 팩을 설치했는지 확인하십시오. Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 최신 기능 팩을 다운로드할 수 있습니다.
 
 ## 전제 조건 {#prerequisites}
 
@@ -47,12 +47,11 @@ ht-degree: 6%
 
 1. [ **저장** ]을 클릭하여 Apache Sling 레퍼러 필터 [비어 있음]을 활성화합니다.
 
-
 ## 5분 내에 디지털 사이니지 경험 만들기 {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-첫 번째 단계는 새로운 AEM Screens 프로젝트를 만드는 것입니다.
+첫 번째 단계는 AEM Screens 프로젝트를 만드는 것입니다.
 
 1. Adobe Experience Manager(AEM) 인스턴스로 이동하고 **스크린을 클릭합니다**. 또는 다음에서 직접 탐색할 수 있습니다 `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ ht-degree: 6%
    >[!NOTE]
    >프로젝트를 만들면 스크린 프로젝트 홈 페이지로 돌아갑니다. 이제 프로젝트를 선택할 수 있습니다. 프로젝트에는 **채널**, **장치**, 위치 **,**&#x200B;및Schedule이라는 이름의 다섯 개의 다른 폴더가 ********&#x200B;있습니다.
 
-
 ### 채널 생성 {#creating-channel}
 
-프로젝트가 제자리에 배치되면 컨텐츠를 관리하는 새 채널을 만들어야 합니다.
+AEM Screens 프로젝트를 만들었으면 컨텐츠를 관리하는 새 채널을 만들어야 합니다.
 
 아래 절차에 따라 프로젝트에 사용할 새 채널을 만드십시오.
 
-1. 프로젝트를 만든 후 **DemoScreens** 프로젝트를 선택하고 아래 그림과 같이 **채널 폴더를**&#x200B;선택합니다. Click **+ Create** from the action bar.
+1. 프로젝트를 만든 후 **DemoScreens** 프로젝트를 선택하고 아래 그림과 같이 **채널** 폴더를 선택합니다. Click **+ Create** from the action bar.
 
    ![이미지](assets/kickstart/demo-2.png)
 
 1. 마법사에서 **시퀀스 채널** 을 선택하고 다음을 **클릭합니다**.
    ![이미지](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as *TestChannel* and click **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
    ![이미지](assets/kickstart/demo-4.png)
 
-   아래 그림과 같이 *TestChannel* 이 만들어지고 채널 폴더에 추가됩니다.
+   이제 **TestChannel** 이 아래 그림과 같이 채널 폴더에 추가됩니다.
 
    ![이미지](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
-적절한 채널을 확보했으면 Screens 플레이어가 표시할 채널에 컨텐츠를 추가해야 합니다.
+적절한 채널을 확보했으면 AEM Screens 플레이어가 표시할 채널에 컨텐츠를 추가해야 합니다.
 
-프로젝트의 채널(TestChannel **)에 컨텐츠를 추가하려면 아래 단계를 따르십시오.
+프로젝트의 채널(TestChannel ****)에 컨텐츠를 추가하려면 아래 단계를 따르십시오.
 
-1. Navigate to the **DemoProject** you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
@@ -118,7 +116,7 @@ ht-degree: 6%
 
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
+1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**.
 
 TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 
@@ -128,7 +126,7 @@ TestLocation **이** 만들어지고 위치 **폴더에** 추가됩니다.
 위치를 생성한 후에는 위치에 대한 새 디스플레이를 생성해야 합니다.
 
 >[!NOTE]
->***하나*** 이상의 화면에서 실행되는 디지털 경험을 표시합니다.
+>***디스플레이는*** 하나 이상의 화면에서 실행되는 디지털 경험을 나타냅니다.
 
 1. TestLocation으로 **이동하여** 선택합니다.
 
@@ -213,7 +211,7 @@ Chrome OS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등
 
    ![이미지](assets/kickstart/demo-register2.png)
 
-1. 장치가 등록 코드를 동시에 전송할 때까지 기다렸다가 Chrome 장치에서 **등록 코드를** 확인합니다.
+1. 장치가 등록 코드를 전송할 때까지 기다렸다가 Chrome 장치에서 **등록 코드를** 동시에 확인합니다.
    ![이미지](assets/kickstart/demo-register3.png)
 
 1. 두 시스템에서 **등록 코드가** 동일한 경우 AEM에서 유효성 **검사를** 탭/클릭합니다.
@@ -234,9 +232,7 @@ Chrome OS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등
 
    ![이미지](assets/kickstart/demo-register8.png)
 
-1. Tap/click **Finish** to complete the registration process.
-
-1. 디스플레이 대시보드에서 등록된 장치를 볼 수 있어야 합니다.
+1. Tap/click **Finish** to complete the registration process. 디스플레이 대시보드에서 등록된 장치를 볼 수 있어야 합니다.
 
    ![이미지](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Chrome OS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등
 AEM Screens 채널에서 콘텐츠를 재생해 주셔서 감사합니다.
 
 ![이미지](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
