@@ -5,9 +5,9 @@ description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일�
 seo-description: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일 {#creating-custom-branding-styling}
 
-스크린 채널의 자산에 적용된 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
+AEM Screens 채널의 자산에 적용된 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일링을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 
 ## 텍스트 오버레이에 대한 사용자 정의 브랜딩 및 스타일 만들기 {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ ht-degree: 1%
 
 1. 저장 **및 닫기를** 클릭하여 디자인 경로를 업데이트합니다.
 
->[!IMPORTANT]
->
->기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하거나 고유한 템플릿을 함께 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
+   >[!IMPORTANT]
+   >기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하거나 고유한 템플릿을 함께 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
 
 1. 기존 스크린 템플릿을 오버레이하여 기본적으로 자신의 디자인을 주입하는 방법은 다음과 같습니다.
 
@@ -129,7 +128,7 @@ ht-degree: 1%
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-튜토리얼을 참조하여 이제 자산에 추가된 텍스트 오버레이에 대한 브랜드 및 사용자 정의 스타일을 업데이트할 수 있습니다.
+   이제 자산에 추가된 텍스트 오버레이에 대한 브랜드 및 사용자 정의 스타일링을 업데이트할 준비가 되었습니다.
 
 
 
