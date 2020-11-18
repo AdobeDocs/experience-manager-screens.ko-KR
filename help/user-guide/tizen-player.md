@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 5275a4ff79404e946d5aa0806fc705ab3bce2fcd
+source-git-commit: b3209d1dcce6defff347f288c704a1e7ea075ecf
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -25,30 +25,30 @@ ht-degree: 0%
 아래 절차에 따라 로컬 서버를 설정하고 압축을 푼 파일을 복사합니다.
 
 1. 로컬 컴퓨터의 IP 주소를 가져옵니다.
-
    >[!NOTE]
-   >다음 명령을 사용하여 컴퓨터의 터미널에서 IP 주소를 가져올 수 있습니다.
-   >* **Mac**: `ifconfig`
-   >* **Windows**: `ipconfig`
-
+   >공식 설명서를 검토하여 플랫폼에서 로컬 서버를 활성화하는 방법에 대해 알아보십시오.
 
 1. 터미널에서 압축을 푼 설치 프로그램 폴더의 동일한 디렉토리로 이동하여 localhost가 작동하는지 확인합니다.
 
-   >[!NOTE]
-   >**Mac**&#x200B;의 경우 `http://localhost` 서버를 실행하고 있는지 `http` 확인하고 입력합니다.
-
 1. Tizen 플레이어는 로컬 서버에서 설치 프로그램을 다운로드합니다.
 
-1. 추출된 두 파일 `AEMScreensPlayer.wgt` 을 복사하여 다음 `sssp_config.xml` 에 붙여넣습니다 `/Library/WebServer/Documents`.
+1. 추출된 두 파일(예: `AEMScreensPlayer.wgt` 및 `sssp_config.xml` )을 로컬 서버의 루트 디렉토리로 복사합니다.
 
 ### 삼성 장치에 업데이트 구성 {#config-updates}
 
 Samsung 장치의 아래 단계에 따라 장치에서 AEM Screens 플레이어 설치를 완료합니다.
 
-1. Samsung 장치로 이동하여 로컬 호스트 서버를 가리킵니다.
-1. [ **URL 시작 관리자 설정** ]을 선택하고 로컬 호스트 서버의 IP 주소를 입력합니다.
-1. 웹 앱 설치를 참조하십시오.
+1. 삼성 장치로 이동합니다.
+
+1. 장치의 **원격** 을 사용하여 [홈] 단추를 클릭하고 [ **URL 실행 설정]을 선택합니다**.
+
+1. localhost 서버의 IP 주소를 입력합니다.
+
 1. 개발자 **모드** 에서 **원격**&#x200B;을 선택합니다.
-1. 이제 AEM Screens 플레이어는 Samsung 장치에 자동으로 설치를 시작해야 합니다.
+
+1. 장치의 원격 **에서 [홈** ] 단추를 클릭하고 [ **URL 시작 관리자]를 선택합니다**.
+
+1. 이제 AEM Screens 플레이어는 Samsung 장치에 자동으로 설치하고 실행해야 합니다.
+
 
 
