@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
+source-git-commit: 5275a4ff79404e946d5aa0806fc705ab3bce2fcd
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 Samsung 장치의 아래 단계에 따라 장치에서 AEM Screens 플레이어 설치를 완료합니다.
 
 1. Samsung 장치로 이동하여 로컬 호스트 서버를 가리킵니다.
-1. [ **설정** ]에서 [URL 시작 관리자 설정]을 **선택하고** 로컬 호스트 서버의 IP 주소를 입력합니다.
+1. [ **URL 시작 관리자 설정** ]을 선택하고 로컬 호스트 서버의 IP 주소를 입력합니다.
 1. 웹 앱 설치를 참조하십시오.
 1. 개발자 **모드** 에서 **원격**&#x200B;을 선택합니다.
-1. 이제 Samsung 장치에 AEM Screens 플레이어를 자동으로 설치해야 합니다.
+1. 이제 AEM Screens 플레이어는 Samsung 장치에 자동으로 설치를 시작해야 합니다.
 
 
