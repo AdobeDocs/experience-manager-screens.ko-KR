@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 1. 로컬 컴퓨터의 IP 주소를 가져옵니다.
 
    >[!NOTE]
-   >**Mac** 및 **Windows** 의 경우 `ifconfig` 터미널에서 명령을 입력합니다.
+   >시스템의 터미널에서 다음 명령을 입력합니다.
+   >**Mac** 사용 명령 `ifconfig`
+   >**Windows**, 명령 사용 `ipconfig`
 
 1. 터미널에서 압축을 푼 설치 프로그램 폴더의 동일한 디렉토리로 이동하여 localhost가 작동하는지 확인합니다.
 
