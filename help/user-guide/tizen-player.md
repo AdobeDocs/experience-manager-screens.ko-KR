@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 로컬 컴퓨터의 IP 주소를 가져옵니다.
 
    >[!NOTE]
-   >다음 명령을 입력하여 시스템의 터미널에서 IP 주소를 가져올 수 있습니다.
+   >다음 명령을 사용하여 컴퓨터의 터미널에서 IP 주소를 가져올 수 있습니다.
    >* **Mac**: `ifconfig`
    >* **Windows**: `ipconfig`
 
