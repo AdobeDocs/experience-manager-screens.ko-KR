@@ -27,23 +27,23 @@ ht-degree: 44%
 
 AEM Screens용 프로젝트를 만든 후 아래 절차에 따라 프로젝트에 사용할 새 채널을 만드십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 직접 탐색할 수도 있습니다 `https://localhost:4502/screens.html/content/screens`.
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 `https://localhost:4502/screens.html/content/screens`으로 직접 이동할 수도 있습니다.
 
-1. 스크린 프로젝트로 이동하고 채널 **폴더를** 선택합니다.
+1. 스크린 프로젝트로 이동하고 **채널** 폴더를 선택합니다.
 
 1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
 
    ![인구 통계 채널](assets/create-channel1.png)
 
-1. 만들기 **마법사에서** 시퀀스 채널 **템플릿을** 선택하고 **다음을**&#x200B;클릭합니다.
+1. **만들기** 마법사에서 **시퀀스 채널** 템플릿을 선택하고 **다음**&#x200B;을 클릭합니다.
 
    ![인구 통계 채널](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. 제목을 **ScreensChannel**&#x200B;로 입력하고 **만들기**&#x200B;를 클릭합니다.
 
    ![인구 통계 채널](assets/create-project4.png)
 
-1. 이제 시퀀스 채널이 채널 **폴더에** 추가됩니다.
+1. 이제 시퀀스 채널이 **채널** 폴더에 추가됩니다.
 
 ### 채널 유형 {#channel-types}
 
@@ -81,10 +81,10 @@ AEM Screens용 프로젝트를 만든 후 아래 절차에 따라 프로젝트�
 채널에서 컨텐츠를 추가하거나 편집하려면 아래 절차를 따르십시오.
 
 1. 편집할 채널을 선택합니다(위 그림 참조).
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. 게시할 채널에 자산/구성 요소를 추가할 수 있는 편집기가 열립니다.
+1. 작업 표시줄의 왼쪽 위 모서리에서 **편집**&#x200B;을 클릭하여 채널 속성을 편집합니다. 게시할 채널에 자산/구성 요소를 추가할 수 있는 편집기가 열립니다.
 
 >[!NOTE]
->채널에 구성 요소를 추가할 수 있습니다. 자세한 **[내용은 채널에 구성 요소](adding-components-to-a-channel.md)** 추가를 참조하십시오.
+>채널에 구성 요소를 추가할 수 있습니다. 자세한 내용은 **[채널](adding-components-to-a-channel.md)**&#x200B;에 구성 요소 추가를 참조하십시오.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -97,14 +97,14 @@ AEM Screens용 프로젝트를 만든 후 아래 절차에 따라 프로젝트�
 1. [자산] 아래에서 **비디오**&#x200B;를 선택하고 필요한 비디오를 드래그하여 놓습니다.
 
 >[!NOTE]
->If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
+>채널에서 비디오를 업로드할 때 문제가 발생하는 경우 [비디오 문제 해결](troubleshoot-videos.md)을 참조하십시오.
 
 ### 속성 보기 {#viewing-properties}
 
 채널의 속성을 보거나 편집하려면 아래 절차를 따르십시오.
 
 1. 편집할 채널을 클릭합니다.
-1. Click **Properties** from the action bar to view/edit the channel properties. 다음 탭들을 사용하면 선택 사항을 변경할 수 있습니다.
+1. 작업 표시줄에서 **속성**&#x200B;을 클릭하여 채널 속성을 보거나 편집합니다. 다음 탭들을 사용하면 선택 사항을 변경할 수 있습니다.
 
 ![속성](assets/properties.gif)
 
@@ -113,7 +113,7 @@ AEM Screens용 프로젝트를 만든 후 아래 절차에 따라 프로젝트�
 채널의 대시보드를 보려면 아래 절차를 따르십시오.
 
 1. 편집할 채널을 선택합니다.
-1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. 작업 표시줄에서 **대시보드**&#x200B;를 클릭하여 대시보드를 봅니다. 아래 그림과 같이 **채널 정보**,**ASSIGNED DISPLAY** 및 **PENDING LAUNCHES** 패널이 열립니다.
 
 ![대시보드](assets/dashboard.gif)
 
@@ -121,7 +121,7 @@ AEM Screens용 프로젝트를 만든 후 아래 절차에 따라 프로젝트�
 
 채널 정보 패널에서는 채널에 대한 미리 보기와 함께 채널 속성에 대해 설명합니다. 또한 채널이 오프라인인지 또는 온라인인지에 대한 정보도 제공합니다.
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+(**...을 클릭합니다.**)을 만듭니다.****
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -135,15 +135,15 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 채널 대시보드에서 이 옵션을 활성화하려면 다음 단계를 수행합니다.
 
 1. **채널을 오프라인으로 설정**
-   1. 채널을 선택하고 작업 **표시줄에서** 속성을 선택합니다
-   1. 채널 **탭으로** 이동하여 **개발자 모드 선택 취소(채널이 온라인 상태가 되도록 강제 적용)** 확인
+   1. 채널을 선택하고 작업 표시줄에서 **속성**&#x200B;을 선택합니다
+   1. **채널** 탭으로 이동하여 **개발자 모드(온라인 채널을 강제 적용)** 옵션을 선택 취소해야 합니다.
    1. **저장 후 닫기**&#x200B;를 클릭합니다
 1. **오프라인 컨텐츠 업데이트**
-   1. 채널을 선택하고 작업 **표시줄에서** 대시보드 선택
-   1. 채널 **정보** 패널로 이동하고...을 *클릭합니다.*
-   1. 오프라인 **컨텐츠 업데이트를 클릭합니다.**
+   1. 채널을 선택하고 작업 표시줄에서 **대시보드**&#x200B;를 선택합니다
+   1. **CHANNEL INFORMATION** 패널로 이동하고 *...을 클릭합니다.*
+   1. **오프라인 콘텐츠 업데이트**&#x200B;를 클릭합니다.
 
-채널 대시보드의 **채널 정보** 패널에서 매니페스트 **보기 옵션이** 표시됩니다.
+채널 대시보드의 **CHANNEL INFORMATION** 패널에서 **매니페스트 보기** 옵션이 표시됩니다.
 
 ![image1](assets/channel-one.png)
 
@@ -165,7 +165,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. **채널 정보** 패널에서는 채널이 온라인인지 또는 오프라인인지에 대한 정보를 제공합니다.
+   작업 표시줄에서 **대시보드**&#x200B;를 클릭하여 플레이어의 상태를 확인합니다. **채널 정보** 패널에서는 채널이 온라인인지 또는 오프라인인지에 대한 정보를 제공합니다.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -173,18 +173,18 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. 온라인 **으로 채널을 만들려면** 개발자 **** 모드(채널을 온라인 상태로 강제 적용)를확인하십시오.
+1. 채널을 온라인 상태로 만들려면 **Developer** **모드(채널을 온라인 상태로 강제 설정)**&#x200B;를 선택합니다.
 
    **저장 및 닫기**&#x200B;를 클릭하여 선택 사항을 저장합니다.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Navigate back to the channel dashboard and now the **CHANNEL INFORMATION** panel shows the online status of the player.
+   채널 대시보드로 다시 이동하고 이제 **CHANNEL INFORMATION** 패널에 플레이어의 온라인 상태가 표시됩니다.
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->채널을 오프라인으로 다시 구성하려면 **속성** 탭(3단계 참조)에서 개발자 모드 옵션 **을** 선택 해제한 다음 **채널 정보**&#x200B;패널에서 아래 그림과 같이오프라인 컨텐츠업데이트를 클릭합니다.
+>채널을 오프라인으로 다시 구성하려면 아래 그림과 같이 **속성** 탭(3단계에서 표시)에서 개발자 모드 옵션을 선택 취소한 다음 **CHANNEL 정보** 패널에서 **오프라인 컨텐츠 업데이트**&#x200B;를 클릭합니다.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -202,7 +202,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>온라인 채널의 변경</td>
    <td>자동으로 업데이트되는 컨텐츠</td>
-   <td><p>"장치:푸시 구성"</p> <p>또는,</p> <p>장치에서 업데이트된 <strong><i>내용:다시 시작</i></strong></p> </td>
+   <td><p>"장치:푸시 구성"</p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 내용:다시 시작</i></strong></p> </td>
   </tr>
   <tr>
    <td>오프라인 채널에서 변경되지만 채널 "푸시 콘텐츠"가 트리거되지 않습니다(오프라인 패키지를 다시 만들지 않음).</td>
@@ -212,7 +212,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>오프라인 채널과 채널 "푸시 콘텐츠"의 변경이 트리거됩니다(새 오프라인 패키지).</td>
    <td>자동으로 업데이트되는 컨텐츠</td>
-   <td><p>장치에서 업데이트된 <strong><i>내용:푸시 구성</i></strong></p> <p>또는,</p> <p>장치에서 업데이트된 <strong><i>내용:다시 시작</i></strong></p> </td>
+   <td><p><strong><i>장치에서 업데이트된 내용:푸시 구성</i></strong></p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 내용:다시 시작</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>구성 변경</p>
@@ -223,7 +223,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
      <li>채널 할당(역할, 이벤트, 예약)</li>
     </ul> </td>
    <td>구성 자동 업데이트</td>
-   <td><p>장치에서 <strong><i>구성 업데이트:푸시 구성</i></strong></p> <p>또는,</p> <p>장치에서 <strong><i>구성 업데이트:다시 시작</i></strong></p> </td>
+   <td><p>구성이 <strong><i>장치에서 업데이트됨:푸시 구성</i></strong></p> <p>또는,</p> <p>구성이 <strong><i>장치에서 업데이트됨:다시 시작</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
