@@ -25,21 +25,21 @@ ht-degree: 0%
 
 직접 배치 워크플로우 구성은 AEM Screens 프로젝트 채널을 자산의 특정 폴더에 매핑하고 해당 폴더에 있는 자산을 배치할 수 있도록 합니다. 게시를 완료하려면 일괄 오프라인 업데이트를 트리거하는 것이 좋습니다.
 
-또는 컨텐츠 작성자는 오프라인 컨텐츠 **업데이트를 수동으로 클릭할 수 있습니다**.
+또는 내용 작성자는 **오프라인 콘텐츠 업데이트**&#x200B;를 수동으로 클릭할 수 있습니다.
 
 >[!NOTE]
 >
->일괄 오프라인 업데이트 사용 방법에 대해 알아보려면 [컨텐츠 업데이트를 서비스로 참조하십시오](/help/user-guide/content-update-as-a-service.md).
+>벌크 오프라인 업데이트 사용 방법에 대해 알아보려면 [서비스로 내용 업데이트](/help/user-guide/content-update-as-a-service.md)를 참조하십시오.
 
 ## 직접 배치 워크플로우 구성 {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->구성을 시작하기 전에 [데모 패키지를 설치해야 합니다](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). 패키지를 설치한 후에는 AEM 인스턴스 —> 도구(아이콘) —> 워크플로우 **—> 워크플로우 모델** 에서 패키지를 보고 액세스할 수 있어야 합니다 ****.
+>구성을 시작하기 전에 [데모 패키지](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)를 설치해야 합니다. 패키지를 설치한 후에는 AEM 인스턴스 —> 도구(아이콘) —> **워크플로우** —> **워크플로우 모델**&#x200B;에서 보고 액세스할 수 있어야 합니다.
 
 아래 절차에 따라 직접 배치 워크플로우를 구성합니다.
 
-1. AEM 인스턴스에서 AEM Screens으로 이동하여 자산 워크플로우라는 스크린 프로젝트를 **만듭니다**.
+1. AEM 인스턴스에서 AEM Screens으로 이동하고 **자산 워크플로우**&#x200B;라는 이름의 스크린 프로젝트를 만듭니다.
 
-1. 채널 폴더 아래에 **워크플로우 자산** 으로 **지정된 채널을** 만듭니다.
+1. **채널** 폴더 아래에 **Workflow-Assets**&#x200B;라는 이름의 채널을 만듭니다.
 
