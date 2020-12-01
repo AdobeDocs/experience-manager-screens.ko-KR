@@ -10,13 +10,13 @@ ht-degree: 2%
 ---
 
 
-# 플레이어 장치에 대한 하드웨어 선택 지침 {#hardware-selection}
+# 플레이어 장치 {#hardware-selection}에 대한 하드웨어 선택 지침
 
 다음 섹션에서는 AEM Screens 플레이어에 대한 하드웨어 선택 지침을 제공합니다.
 
 ## 중요 고려 사항 {#important-considerations}
 
-* PC 플레이어 ***와 디스플레이 패널*** 또는 프로젝터 모두에 대해 항상 상업용 ***또는*** 산업용제품 구성 요소를 공급합니다.
+* 항상 PC 플레이어 및 디스플레이 패널 또는 프로젝터 모두에 대해 상업용&#x200B;***또는***&#x200B;산업 분야&#x200B;***등급 구성 요소를 소싱하십시오.***
 
 * 디지털 사이니지 시장을 제공하는 벤더와 항상 상호 작용합니다.
 * 항상 주위 온도 및 상대 습도와 같은 환경 요인을 고려하십시오.
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 하드웨어 구성 {#hardware-configurations}
 
-다음 표는 AEM Screens 프로젝트에 대한 일반적인 사용 사례를 포함하는 하드웨어 구성을 요약합니다.
+다음 표는 AEM Screens 프로젝트에 대한 일반적인 사용 사례와 함께 하드웨어 구성을 요약해 놓은 것입니다.
 
 <table>
  <tbody>
@@ -47,7 +47,7 @@ ht-degree: 2%
    <td><p>・ ChromeOS 32GB</p> <p>・ Windows 128GB</p> </td>
    <td>OnBoard</td>
    <td>1920x1080</td>
-   <td>DVI,<br /> 이더넷/무선,<br /> USB 2개</td>
+   <td>DVI,<br /> 이더넷/무선,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>표준 전체 화면 반복<br /> </li>
@@ -61,7 +61,7 @@ ht-degree: 2%
    <td>128GB</td>
    <td>OnBoard</td>
    <td>3840x2160(4K)</td>
-   <td>DVI, HDMI<br /> 이더넷/무선,<br /> USB 2개</td>
+   <td>DVI, HDMI<br /> 이더넷/무선,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>단일 소스 동적 컨텐츠</li>
