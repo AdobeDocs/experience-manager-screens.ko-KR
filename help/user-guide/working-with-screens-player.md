@@ -18,7 +18,7 @@ ht-degree: 42%
 ---
 
 
-# Working with AEM Screens Player {#working-with-aem-screens-player}
+# AEM Screens 플레이어 작업 {#working-with-aem-screens-player}
 
 AEM Screens 플레이어에서 채널 컨텐츠 및 기타 설정을 관리할 수 있습니다.
 
@@ -32,9 +32,9 @@ AEM Screens 플레이어에서 채널 컨텐츠 및 기타 설정을 관리할 �
 
 AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에서 장치에 대한 환경 설정을 구성할 수 있습니다.
 
-1. Navigate to the device dashboard from your project, for example, ***Test Project*** --> ***Devices***.
+1. 프로젝트에서 장치 대시보드로 이동합니다(예: ***테스트 프로젝트*** —> ***장치***).
 
-   Select **Devices** and **Device Manager** from the action bar.
+   작업 표시줄에서 **장치** 및 **장치 관리자**&#x200B;를 선택합니다.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
@@ -42,13 +42,13 @@ AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Check the **PREFERENCES** panel. You can enable/disable the **Admin UI** and **Channel Switcher** for your player from these two options.
+1. **PREFERENCES** 패널을 선택합니다. 이 두 옵션 중에서 플레이어에 대해 **관리 UI** 및 **채널 전환기**&#x200B;를 활성화/비활성화할 수 있습니다.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### 관리자 UI {#the-admin-ui}
 
-Enabling the **Admin UI** from the preferences panel allows the user to open the admin settings from the Screens Player. 또한 장치 대시보드에서 이 선택 사항을 비활성화하는 경우 사용자는 플레이어에서 관리자 UI를 열 수 없습니다.
+환경 설정 패널에서 **관리자 UI**&#x200B;를 활성화하면 사용자가 Screens 플레이어에서 관리자 설정을 열 수 있습니다. 또한 장치 대시보드에서 이 선택 사항을 비활성화하는 경우 사용자는 플레이어에서 관리자 UI를 열 수 없습니다.
 
 Screens 플레이어에서 관리자 UI를 보려면 마우스를 사용하거나 터치를 사용할 수 있는 AEM Screens 플레이어에서 터치를 사용하여 왼쪽 위 모서리를 길게 눌러 [관리자] 메뉴를 엽니다. 등록이 완료되고 채널이 로드된 후 정보가 표시됩니다.
 
@@ -58,7 +58,7 @@ Screens 플레이어에서 관리자 UI를 보려면 마우스를 사용하거�
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-#### 구성 메뉴 옵션 액세스 {#configuration-options}
+#### 구성 메뉴 옵션 {#configuration-options} 액세스
 
 아래 그림과 같이 사이드 메뉴에서 **구성** 옵션을 선택하면 구성을 업데이트할 수 있습니다.
 
@@ -66,25 +66,25 @@ Screens 플레이어에서 관리자 UI를 보려면 마우스를 사용하거�
 
 구성 메뉴에서 다음 설정을 수정할 수 있습니다.
 
-* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+* 이 대화 상자에서 **펌웨어**, **환경 설정** 또는 **팩터리로**&#x200B;를 재설정합니다.
 
-* AEM Screens 플레이어에 유지할 최대 로그 파일 수를 **최대 아니요로 지정합니다. 저장할**&#x200B;로그 파일의 경우입니다.
+* AEM Screens 플레이어에 보관할 최대 로그 파일 수를 **최대 아니요 중에서 지정합니다. 을 추가하여**&#x200B;을(를) 유지합니다.
 
-* Screens 플레이어용 **관리 메뉴**, **채널 전환기**&#x200B;및 **활동 UI** 를 활성화하거나 비활성화합니다.
+* Screens 플레이어용 **관리 메뉴**, **채널 전환기** 및 **활동 UI**&#x200B;을 활성화 또는 비활성화합니다.
 
-   [ **구성** ] 메뉴에서 **활동 UI를** 활성화하면 AEM Screens 플레이어는 아래 그림과 같이 플레이어의 오른쪽 상단에 *플레이어 활동 알림을* 표시합니다.
+   **활동 UI**&#x200B;가 **구성** 메뉴에서 활성화된 경우 AEM Screens 플레이어는 아래 그림과 같이 플레이어의 오른쪽 상단에 *플레이어 활동 알림*&#x200B;을 표시합니다.
 
    ![이미지](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->펌웨어 **업데이트** 옵션은 Android 플레이어와 같은 cordova에서만 작동합니다.
+>**펌웨어 업데이트** 옵션은 Android 플레이어와 같은 cordova에서만 작동합니다.
 
 >[!NOTE]
 >
->프로덕션 배포에서는 관리자 **UI를** 비활성화하는 것이 좋습니다.
+>프로덕션 배포에서는 **관리 UI**&#x200B;을 사용하지 않도록 설정하는 것이 좋습니다.
 
-#### 컨텐츠 캐시 메뉴 옵션 액세스 {#content-cache-options}
+#### 콘텐트 캐시 메뉴 옵션 {#content-cache-options} 액세스
 
 AEM Screens 플레이어의 관리자 UI에서 채널 및 애플리케이션에 대한 캐시를 지울 수 있습니다.
 
@@ -94,7 +94,7 @@ AEM Screens 플레이어의 관리자 UI에서 채널 및 애플리케이션에 
 
 ### 채널 전환기 {#the-channel-switcher}
 
-Enabling the **Channel Switcher** from the preferences panel allows the user to open the channel selection/settings from the Screens Player.
+환경 설정 패널에서 **채널 전환기**&#x200B;를 활성화하면 사용자가 Screens 플레이어에서 채널 선택/설정을 열 수 있습니다.
 
 또한 장치 대시보드에서 이 선택 사항을 비활성화하는 경우 사용자는 Screens 플레이어에서 채널 환경 설정을 제어할 수 없습니다.
 
@@ -110,15 +110,15 @@ Screens 플레이어에서 채널에 대한 설정을 전환하고 제어할 수
 >
 >(아래 섹션에 언급된 대로 *Screens 플레이어에서 환경 설정 변경*&#x200B;을 참조하십시오.)
 
-### AEM Screens 플레이어에서 환경 설정 관리 {#managing-preferences-from-the-aem-screens-player}
+### AEM Screens 플레이어에서 환경 설정 관리  {#managing-preferences-from-the-aem-screens-player}
 
 플레이어 자체에서 관리자 UI 및 채널 전환기에 대한 설정을 변경할 수도 있습니다.
 
 플레이어에서 환경 설정을 변경하려면 다음 절차를 따르십시오.
 
 1. 유휴 채널에서 왼쪽 위 모서리를 길게 눌러 관리 패널을 엽니다.
-1. Navigate to **Configuration** from the left action menu.
-1. Enable/disable configuration for **Admin UI** or **Channel Switcher**.
+1. 왼쪽 작업 메뉴에서 **구성**&#x200B;으로 이동합니다.
+1. **관리 UI** 또는 **채널 전환기**&#x200B;에 대한 구성을 활성화/비활성화합니다.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -130,10 +130,10 @@ AEM Screens 플레이어와 관련된 다양한 문제를 해결할 수 있습�
 |---|---|
 | 플레이어 저장소가 꽉 참 | 불필요한 파일 제거 |
 | 플레이어가 네트워크 손실 | Cat-5/Cat-6 케이블을 사용합니다. wifi의 경우 라우터에서 플레이어 장치로 가는 거리를 줄입니다. |
-| AEM Screens 플레이어 충돌 | AEM Screens 플레이어가 항상 실행되도록 하는 감시 응용 프로그램을 사용하는 것이 좋습니다 |
-| AEM Screens 플레이어의 설정 손실 | AEM 서버에 대한 연결 확인 |
-| AEM Screens 플레이어는 Player를 다시 시작하거나 다시 부팅한 후 자동으로 시작되지 않습니다. | OS 시작 폴더 또는 초기화 절차 확인 |
-| AEM Screens 플레이어에 잘못된/오래된 콘텐츠가 표시됩니다. | 네트워크 연결 확인 |
+| AEM Screens 플레이어 충돌 | AEM Screens 플레이어를 항상 실행할 수 있도록 감시 앱을 사용하는 것이 좋습니다 |
+| AEM Screens 플레이어 설정 손실 | AEM 서버에 대한 연결 확인 |
+| Player가 다시 시작/재부팅된 후 AEM Screens 플레이어가 자동으로 시작되지 않음 | OS 시작 폴더 또는 초기화 절차 확인 |
+| AEM Screens 플레이어에 잘못된/오래된 내용이 표시됨 | 네트워크 연결 확인 |
 
 ### AEM Screens 플레이어 업데이트 {#updates-for-aem-screens-player}
 
@@ -144,11 +144,11 @@ AEM Screens 플레이어용으로는 두 가지 유형의 업데이트가 있습
 | 펌웨어 업데이트 | 원격 명령을 통해 기존 설치된 플레이어에 적용됩니다. 업데이트 후에는 기존 컨텐츠가 플레이어에 자동으로 다시 로드됩니다. | 예 | 사용자 지정 | 거의 - 1-3초 |
 | 플레이어 셸 업데이트 | 플레이어에 배포할 새로운 실행 파일입니다. 이 방법을 사용하려면 플레이어에서 새 바이너리를 원격 복사하고 현재 실행 중인 버전을 중지하고 새 버전을 시작해야 합니다. 이 경우 사전 로드된 패키지를 다시 다운로드해야 할 수 있습니다. | 예(원격 셸을 통해) | 사용자 지정 | 아니오 |
 
-## 플레이어 장치에 대한 하드웨어 선택 지침 {#hardware-selection-guidelines-for-player-device}
+## 플레이어 장치 {#hardware-selection-guidelines-for-player-device}에 대한 하드웨어 선택 지침
 
 다음 섹션에서는 스크린 프로젝트에 대한 하드웨어 선택 지침을 제공합니다.
 
-* PC 플레이어 ***와 디스플레이 패널*** 또는 프로젝터 모두에 대해 항상 상업용 ***또는*** 산업용제품 구성 요소를 공급합니다.
+* 항상 PC 플레이어 및 디스플레이 패널 또는 프로젝터 모두에 대해 상업용&#x200B;***또는***&#x200B;산업 분야&#x200B;***등급 구성 요소를 소싱하십시오.***
 
 * 디지털 사이니지 시장을 제공하는 벤더와 항상 상호 작용합니다.
 * 항상 주위 온도 및 상대 습도와 같은 환경 요인을 고려하십시오.
@@ -176,7 +176,7 @@ AEM Screens 플레이어용으로는 두 가지 유형의 업데이트가 있습
    <td><p>・ ChromeOS 32GB</p> <p>・ Windows 128GB</p> </td>
    <td>OnBoard</td>
    <td>1920x1080</td>
-   <td>DVI,<br /> 이더넷/무선,<br /> USB 2개</td>
+   <td>DVI,<br /> 이더넷/무선,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>표준 전체 화면 반복<br /> </li>
@@ -190,7 +190,7 @@ AEM Screens 플레이어용으로는 두 가지 유형의 업데이트가 있습
    <td>128GB</td>
    <td>OnBoard</td>
    <td>3840x2160(4K)</td>
-   <td>DVI, HDMI<br /> 이더넷/무선,<br /> USB 2개</td>
+   <td>DVI, HDMI<br /> 이더넷/무선,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>단일 소스 동적 컨텐츠</li>
