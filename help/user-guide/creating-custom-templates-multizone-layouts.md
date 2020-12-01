@@ -41,14 +41,14 @@ ht-degree: 1%
    >[!IMPORTANT]
    >사용자 지정 레이아웃 내에 정의된 영역이 전체 레이아웃의 전체 종횡비와 일치하지 않을 수 있습니다. 이 문서에서 수행한 이름 지정 규칙은 사용자 지정 레이아웃의 종횡비를 전체적으로 지정합니다.
 
-## 사용 사례 Left20-LandscapeHD3Zone 레이아웃 예 {#custom-template-one}
+## 예제 사용 사례 Left20-LandscapeHD3Zone 레이아웃 {#custom-template-one}
 
-아래 섹션에 따라 다음 구성을 사용하여 사용자 지정 템플릿 *Left20-LandscapeHD3Zone* 을 만듭니다.
+아래 섹션에 따라 다음 구성으로 사용자 지정 템플릿 *Left20-LandscapeHD3Zone*&#x200B;을(를) 만드십시오.
 
-* **Left20은** 가로 및 세로 화면 크기의 20%를 덮는 왼쪽 맨 위 영역을 나타냅니다.
-* **가로** : 화면 방향을 나타냅니다.
-* **HD는** 종횡비를 16:9로 나타냅니다.
-* **3Zone** 이 디스플레이의 세 영역을 참조합니다.
+* **Left20** 은 가로 및 세로 화면 크기의 20%를 포함하는 왼쪽 맨 위의 영역을 나타냅니다.
+* **가로** 는 화면 방향을 나타냅니다.
+* **HD** 는 종횡비를 16:9로 나타냅니다.
+* **3** Zoneyes는 디스플레이의 세 영역을 나타냅니다.
 
 ## 다중 영역 레이아웃의 시각적 표현 {#multi-layout-visual-one}
 
@@ -60,41 +60,41 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
 
 아래 절차에 따라 AEM Screens 프로젝트에 사용할 Left20-LandscapeHD3Zone 레이아웃을 만드십시오.
 
-1. 사용자 지정 템플릿으로 **명명된 AEM Screens 프로젝트를 만듭니다**.
+1. **customtemplate**&#x200B;이라는 이름의 AEM Screens 프로젝트를 만듭니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. AEM 인스턴스 —> 도구 —> **CRXDE Lite** 에서 CRXDE Lite으로 **이동합니다**.
+1. AEM 인스턴스 —> 도구 —> **CRXDE Lite**&#x200B;으로 이동합니다.****
 
-1. 사용자 지정 템플릿으로 **명명된 앱** 아래에 폴더를 **만듭니다**. 마찬가지로, 아래 그림과 같이 사용자 지정 템플릿 **아래에** 템플릿으로 **명명된 또 다른 폴더를 만듭니다**.
+1. **customtemplate**&#x200B;이라는 제목이 있는 **apps** 아래에 폴더를 만듭니다. 마찬가지로, 아래 그림과 같이 **customtemplate**&#x200B;에 **template**&#x200B;이라는 이름의 다른 폴더를 만드십시오.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >컨텐츠를 작성, 편집 또는 노드 **에 복사할 때마다 CRXDE Lite의 작업 표시줄에서 모두** 저장을 클릭하면 업데이트를 커밋할 수 없습니다.
+   >컨텐츠를 만들거나 편집 또는 노드 전체에 복사할 때마다 CRXDE Lite의 작업 표시줄에서 **모두 저장**&#x200B;을 클릭하는 것이 좋습니다. 그렇지 않으면 업데이트를 커밋할 수 없습니다.
 
-1. 왼쪽 막대 템플릿을 다음 위치에 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 복사합니다 `/apps/customtemplate/template`.
+1. 왼쪽 막대 템플릿을 `/libs/screens/core/templates/splitscreenchannel/lbar-left`에서 `/apps/customtemplate/template`(으)로 복사합니다.
 
-1. 복사한 **왼쪽** (`/apps/customtemplate/template`)의 이름을 **my-custom-layout**으로 변경합니다.
+1. 복사한 **lbar-left**(`/apps/customtemplate/template`)의 이름을 **my-custom-layout**로 변경합니다.
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. Left20- `/apps/customtemplate/template/my-custom-layout` LandscapeHD3Zone과 **jcr:title** to *Template 속성 jcr:description* to Template and **jcr:title** ** to Left20-LandscapeHD3Zone으로 이동하여 업데이트합니다.
+1. `/apps/customtemplate/template/my-custom-layout`으로 이동하고 속성 **jcr:description**&#x200B;을 *Template for Left20-LandscapeHD3Zone* 및 **jcr:title**&#x200B;을 *Left20-LandscapeHD3Zone*&#x200B;으로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
-1. 에서 **offline-config** 노드 `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` 로 이동하여 **jcr:title** 을 *Left20-LandscapeHD3Zone으로 업데이트합니다*.
+1. `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config`에서 **offline-config** 노드로 이동하고 **jcr:title**&#x200B;을 *Left20-LandscapeHD3Zone*&#x200B;으로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
-1. my-custom-template의 *jcr:content* 속성 **으로 이동하고** cq:cssClass `/apps/customtemplate/template/my-custom-layout/jcr:content` 속성을 aem-Layout my-custom-layout으로 **업데이트합니다** ****.
+1. `/apps/customtemplate/template/my-custom-layout/jcr:content`에서 **my-custom-template**&#x200B;의 *jcr:content* 속성으로 이동하고 **cq:cssClass** 속성을 **aem-Layout my-custom-layout**&#x200B;로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. (4) 단계 참조. 여기서 왼쪽 막대 템플릿을 복사하면 아래 3개의 응답형 그리드가 표시됩니다 `my-custom-layout/jcr:content`. 사용자 지정 css 클래스를 *cq:cssClass* 속성 *의 각 응답형 격자에 추가합니다(예:* my-custom-layout— *r1c1* 노드의 왼쪽 위).
+1. (4) 단계 참조. 여기서 왼쪽 막대 템플릿을 복사하면 `my-custom-layout/jcr:content` 아래에 3개의 응답형 그리드가 표시됩니다. *r1c1* 노드에 대해 *cq:cssClass* 속성의 각 응답형 격자에 사용자 지정 css 클래스를 추가합니다. 예를 들어 *my-custom-layout—top-left*
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   마찬가지로 *r1c2의 경우 오른쪽* 맨 위 *와* 내-사용자 지정 레이아웃 *및* my-custom-layout의 맨 아래 *-* r2c1 노드를 추가합니다.
+   마찬가지로 *r1c2*&#x200B;에 대해 *my-custom-layout—top-right* 및 *r2c1* 노드에 *my-custom-layout—bottom*&#x200B;을 추가합니다.
 
    >[!NOTE]
    >이러한 사용자 지정 클래스는 css에서 사용하여 이러한 응답형 그리드의 너비/높이를 설정합니다.
@@ -102,13 +102,13 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
    >[!NOTE]
    >원하는 전체 격자 수에 따라 응답형 그리드를 추가하거나 제거할 수 있습니다. 이 예에서는 첫 번째 행에 2개의 격자를 표시하고 두 번째 행에 1개의 격자를 표시하므로 총 3개의 응답형 격자(r1c1, r1c2, r2c1)가 있습니다.
 
-1. 복사한 디자인 `/libs/settings/wcm/designs/screens``/apps/settings/wcm/designs/` 을 사용자 **정의 템플릿 디자인으로 복사하고 이름을 변경합니다**.
+1. `/libs/settings/wcm/designs/screens`을(를) `/apps/settings/wcm/designs/`에 복사하고 복사한 디자인의 이름을 **custom-template-designs**&#x200B;으로 변경합니다.
 
-1. 사용자 지정 템플릿 디자인 `/apps/settings/wcm/designs/custom-template-designs` 의 *jcr:title* 속성 **을 탐색하여 사용자 지정 템플릿** 디자인 **으로**&#x200B;업데이트합니다.
+1. `/apps/settings/wcm/designs/custom-template-designs`으로 이동하고 **custom-template-designs**&#x200B;의 *jcr:title* 속성을 **customtemplate-design**&#x200B;으로 업데이트합니다.
 
-1. static.css 파일로 이동하여 `/apps/settings/wcm/designs/custom-template-designs` 만듭니다.
+1. `/apps/settings/wcm/designs/custom-template-designs`으로 이동하여 static.css 파일을 만듭니다.
 
-1. 다음 파일에 컨텐츠를 `static.css` 복사합니다.
+1. 내용을 `static.css` 파일에 복사:
 
    ```shell
        /*my-custom-layout styles*/
@@ -131,7 +131,7 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
    >[!NOTE]
    >사용자 지정 템플릿의 요구 사항에 맞게 비율을 업데이트할 수 있습니다.
 
-1. static.css로 구성된 스타일을 로드하려면 `/apps/<project>/templates/my-custom-layout/jcr:content` cq:designPath *속성* `/apps/settings/wcm/designs/customtemplate-designs` 으로 이동하고 업데이트합니다.
+1. `/apps/<project>/templates/my-custom-layout/jcr:content`으로 이동하고 *cq:designPath* 속성을 `/apps/settings/wcm/designs/customtemplate-designs`으로 업데이트하여 static.css로 구성된 스타일을 로드합니다.
 
    >[!NOTE]
    >복사 또는 붙여넣기가 아닌 모든 스타일을 입력할 것을 권장합니다. 이렇게 하면 공백으로 인해 css 스타일 문제가 발생할 수 있습니다.
@@ -140,11 +140,11 @@ Left20-LandscapeHD3Zone 레이아웃을 사용하면 프로젝트에 다음과 �
 
 AEM Screens 프로젝트에서 위의 사용자 정의된 템플릿을 사용하려면 아래 절차를 따르십시오.
 
-1. (1) 단계에서 만든 스크린 프로젝트로 이동하고 채널 **폴더를** 선택합니다.
+1. (1) 단계에서 만든 스크린 프로젝트로 이동하고 **채널** 폴더를 선택합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. 작업 표시줄에서 **만들기를** 클릭하고 **만들기** 마법사에서 **Left20-LandscapeHD3Zone** 템플릿을선택합니다.
+1. 작업 표시줄에서 **만들기**&#x200B;를 클릭하고 **만들기** 마법사에서 **Left20-LandscapeHD3Zone** 템플릿을 선택합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
@@ -152,11 +152,11 @@ AEM Screens 프로젝트에서 위의 사용자 정의된 템플릿을 사용하
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 배경 레이어로 이미지 삽입  {#inserting-image}
+## 배경 레이어 {#inserting-image}로 이미지 삽입
 
 레이아웃에 이미지를 배경 레이어로 삽입할 수 있습니다.
 
-CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하고 CSS 파일에서 직접 이미지(Base64 인코딩)를 인라인(13단계)인 *static.css*&#x200B;로 만들 수 있습니다.
+CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하고 이미지(Base64 인코딩됨)를 CSS 파일에서 바로 인라인(13단계), *static.css*&#x200B;으로 만들 수 있습니다.
 
 이 작업은 다음과 같이 수행됩니다.
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -167,9 +167,9 @@ CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하
 1. 위의 CSS에서 &quot;data-uri&quot; 변형 대신 이미지에 대한 직접 링크 사용
 
 
-## 배경색 업데이트 {#updating-color}
+## 배경색 {#updating-color} 업데이트
 
-배경색을 변경하려면 다음 코드를 xml 파일(13단계)에 *static.css*&#x200B;추가합니다.
+배경색을 변경하려면 다음 코드를 xml 파일에 추가합니다(13단계). *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
