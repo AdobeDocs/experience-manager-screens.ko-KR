@@ -19,7 +19,7 @@ ht-degree: 2%
 ---
 
 
-# AEM Screens과 Adobe Analytics 통합 {#adobe-analytics-integration-with-aem-screens}
+# Adobe Analytics과 AEM Screens {#adobe-analytics-integration-with-aem-screens} 통합
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 개요 {#overview}
 
-***AEM Screens*** 는 Adobe Analytics을 활용하며, 이를 통해 시장에서 고유한 것을 얻을 수 있습니다. 즉, 위치에 표시된 컨텐츠를 다른 데이터 소스와 상호 연관시킬 수 있는 크로스 채널 분석을 수행할 수 있습니다.
+***AEM*** 는 Adobe Analytics을 배경으로 하고, 여기에서 고유한 것을 얻을 수 있습니다. 즉, 위치에 표시된 컨텐츠를 다른 데이터 소스와 상호 작용할 수 있는 크로스 채널 분석을 통해 가능합니다.
 
 AEM Screens은 Adobe Analytics와의 긴밀한 통합을 제공하며 게임 증거를 제공합니다.
 
@@ -50,12 +50,12 @@ AEM Screens은 Adobe Analytics와의 긴밀한 통합을 제공하며 게임 증
 * 시간 경과에 따라 재생 이벤트를 추적하는 피드백 루프를 만들 수 있습니다.
 * 시스템에서 컨텐츠 작성자가 정의한 성공 기준을 기반으로 컨텐츠 및 레이아웃을 수정할 수 있습니다.
 
-Adobe Analytics과 AEM Screens의 통합은 다음과 같은 *목표를 적용합니다*.
+그러므로 Adobe Analytics과의 통합은 다음과 같은 *목표를 적용합니다.*
 
 * 디지털 사이니지 구현을 통한 ROI 활성화
 * 사용 정보 수집 및 분석을 위한 향후 역량 강화를 위한 토대가 되는 Analytics 통합
 
-## 건축 세부 사항 {#architectural-details}
+## 아키텍처 세부 사항 {#architectural-details}
 
 AEM Screens 고객은 언제 어떤 컨텐츠가 표시되었는지에 대해, 그리고 얼마나 오랫동안(집계됨)에 대해 알고 싶어합니다. 사이니지 솔루션의 일반적인 기능입니다. AEM Screens은 자체 분석을 구축하는 대신 Adobe Analytics을 활용할 수 있으며, 이를 통해 시장에서 고유한 것을 얻을 수 있습니다. 즉, 위치에 표시된 컨텐츠와 다른 데이터 소스를 연계하는 데 도움이 되는 크로스 채널 분석을 활용할 수 있습니다.
 
@@ -63,11 +63,11 @@ AEM Screens 고객은 언제 어떤 컨텐츠가 표시되었는지에 대해, �
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## AEM Screens의 Adobe Analytics 활성화 {#enabling-adobe-analytics-in-aem-screens}
+## AEM Screens {#enabling-adobe-analytics-in-aem-screens}에서 Adobe Analytics 활성화
 
 OSGi 콘솔에서 Adobe Analytics 설정을 구성할 수 있습니다.
 
-아래 그림과 같이 **Adobe Experience Manager 웹 콘솔** 구성으로 이동하여 AEM Screens에 대한 Adobe Analytics을 구성합니다.
+아래 그림과 같이 **Adobe Experience Manager 웹 콘솔 구성**&#x200B;으로 이동하여 AEM Screens에 대한 Adobe Analytics을 구성합니다.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -75,15 +75,15 @@ OSGi 콘솔에서 Adobe Analytics 설정을 구성할 수 있습니다.
 
 >[!CAUTION]
 >
->속성을 구성하려면 Adobe 관계 관리자에게 문의하여 AEM Screens에서 사용할 **Analytics API 키** 및 **Analytics 프로젝트** 티켓을 받으십시오.
+>속성을 구성하기 전에 Adobe 관계 관리자에게 문의하여 AEM Screens에서 사용할 수 있는 **Analytics API 키** 및 **Analytics 프로젝트**&#x200B;를 가져올 티켓을 생성하십시오.
 
 ![]()
 
-### 속성 구성 {#configuring-the-properties}
+### 속성 {#configuring-the-properties} 구성
 
 >[!CAUTION]
 >
->속성을 구성하려면 Adobe 관계 관리자에게 문의하여 AEM Screens에서 사용할 **Analytics API 키** 및 **Analytics 프로젝트** 티켓을 받으십시오.
+>속성을 구성하기 전에 Adobe 관계 관리자에게 문의하여 AEM Screens에서 사용할 수 있는 **Analytics API 키** 및 **Analytics 프로젝트**&#x200B;를 가져올 티켓을 생성하십시오.
 
 다음 표에서는 AEM Screens에 대한 Adobe Analytics 구성에 대한 설명과 함께 속성을 강조 표시합니다.
 
@@ -96,7 +96,7 @@ OSGi 콘솔에서 Adobe Analytics 설정을 구성할 수 있습니다.
   <tr>
    <td><strong>분석 URL</strong></td>
    <td>플레이어에서 분석 데이터를 게시하는 URL. <br>
-   개발/스테이지</em> - https://cc-api-data-stage.adobe.io/ingest/제작<br /> <em>용</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   개발/스테이지</em>  - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>제작</em>  - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API 키</strong></td>
@@ -119,7 +119,7 @@ OSGi 콘솔에서 Adobe Analytics 설정을 구성할 수 있습니다.
 
 >[!NOTE]
 >
->기본적으로 **Analytics 전송 빈도는** 15분입니다.
+>기본적으로 **Analytics 전송 빈도**&#x200B;는 15분입니다.
 
 #### AEM Screens에서 Adobe Analytics 서비스 사용 {#using-adobe-analytics-service-in-aem-screens}
 
@@ -129,5 +129,5 @@ Analytics 이벤트는 indexedDB에 오프라인으로 저장되고 나중에 �
 
 >[!NOTE]
 >
->이벤트에 대한 ***시퀀스*** 및 ***표준 데이터 모델***&#x200B;에 대한 자세한 내용은 AEM Screens에 **[대한 Adobe Analytics 구성을 참조하십시오](configuring-adobe-analytics-aem-screens.md)**.
+>***시퀀스*** 및 ***이벤트에 대한 표준 데이터 모델***&#x200B;에 대한 자세한 내용은 **[AEM Screens에 대한 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)**&#x200B;을 참조하십시오.
 
