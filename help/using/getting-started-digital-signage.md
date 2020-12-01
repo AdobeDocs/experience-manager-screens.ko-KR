@@ -1,6 +1,6 @@
 ---
-title: 디지털 [!UICONTROL 사인지의 기초]
-seo-title: 디지털 [!UICONTROL 사인지의 기초]
+title: '[!UICONTROL AEM Screens]에 대한 디지털 사이니지의 기본 사항'
+seo-title: '[!UICONTROL AEM Screens]에 대한 디지털 사이니지의 기본 사항'
 description: 디지털 사이니지 프로젝트의 기본 사항에 대해 설명합니다.
 seo-description: 디지털 사이니지 프로젝트의 기본 사항에 대해 설명합니다.
 translation-type: tm+mt
@@ -18,9 +18,9 @@ AEM Screens 구현 모범 사례를 살펴보려면 기존 소프트웨어 개�
 
 이 섹션에서는 AEM Screens 프로젝트 구현 전에 중요한 주요 요소에 대한 권장 사항을 제공합니다.
 
-## 디지털 서명 기능의 주요 요소 {#key-elements}
+## 디지털 서명 {#key-elements}의 주요 요소
 
-디지털 *사이니지 프로젝트의 주요* 요소는 다음과 같습니다.
+디지털 사이니지 프로젝트의 *주요 요소*&#x200B;는 다음과 같습니다.
 
 ![](/help/assets/Elements-Revised.png)
 
