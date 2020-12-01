@@ -14,7 +14,7 @@ ht-degree: 83%
 
 # AEM Screens 소개 {#introduction}
 
-**AEM(Adobe Experience Manager** ) Screens는 포괄적인 옴니채널 디지털 마케팅 전략과 함께 다양한 유형의 매장 디스플레이 스크린과 관련된 다이내믹하고 인터랙티브한 디지털 경험을 제작, 게시 및 재생할 수 있는 디지털 서명 솔루션입니다.
+**AEM(Adobe Experience Manager)** Screensis 디지털 서명 솔루션을 사용하면 포괄적인 옴니채널 디지털 마케팅 전략과 함께 다양한 유형의 매장 디스플레이 스크린과 관련된 다이내믹하고 인터랙티브한 디지털 경험을 제작, 게시 및 재생할 수 있습니다.
 
 AEM Screens에서 다음을 만들 수 있습니다.
 
