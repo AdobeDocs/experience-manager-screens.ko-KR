@@ -1,6 +1,6 @@
 ---
-title: AEM Screens 환경 [!UICONTROL ]
-seo-title: AEM Screens 환경 [!UICONTROL ]
+title: '[!UICONTROL AEM Screens]용 환경'
+seo-title: '[!UICONTROL AEM Screens]용 환경'
 description: 이 페이지에서는 AEM Screens 프로젝트의 환경에 대해 설명합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트의 환경을 강조합니다.
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 환경 {#environments}
 
-고객이 *개발* 및 *배포*&#x200B;시 사용할 AEM 환경을 미리 결정하고,
+*development* 및 *deployment*&#x200B;에 대해 클라이언트가 사용하고 있어야 할 AEM 환경을 미리 확인합니다.
 
 >[!NOTE]
 >
