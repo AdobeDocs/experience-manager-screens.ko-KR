@@ -37,21 +37,21 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->디스플레이를 생성하려면 먼저 위치를 생성해야 합니다. To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
+>디스플레이를 생성하려면 먼저 위치를 생성해야 합니다. 위치를 만드는 방법을 보려면 [위치 만들기 및 관리](managing-locations.md)를 참조하십시오.
 
 사용자의 위치에 새 디스플레이를 생성하려면 아래 절차를 따르십시오.
 
-1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. 마법사가 열립니다.
-1. **만들기** 마법사 **에서** 표시를 선택하고 **다음을**&#x200B;클릭합니다.
+1. 적절한 위치(예: `http://localhost:4502/screens.html/content/screens/TestProject`)로 이동합니다.
+1. 위치 폴더를 선택하고 작업 표시줄의 더하기 아이콘 옆에 있는 **만들기**&#x200B;를 탭/클릭합니다. 마법사가 열립니다.
+1. **만들기** 마법사에서 **표시**&#x200B;를 선택하고 **다음**&#x200B;을 클릭합니다.
 
-1. Enter **Name** and **Title** for your display location.
+1. 표시 위치에 대해 **이름** 및 **제목**&#x200B;을 입력합니다.
 
-1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). 또한 가로 및 세로 장치의 수를 선택할 수 있습니다.
+1. **표시** 탭에서 레이아웃의 세부 사항을 선택합니다. 원하는 **해상도**(예: **Full HD**)를 선택합니다. 또한 가로 및 세로 장치의 수를 선택할 수 있습니다.
 
 1. **만들기**&#x200B;를 클릭합니다.
 
-The display (*StoreDisplay*) is created and added to the location (*SanJose*).
+표시(*StoreDisplay*)가 만들어지고 위치(*SanJose*)에 추가됩니다.
 
 ![디스플레이](assets/display.gif)
 
@@ -63,7 +63,7 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 >
 >위치에 대한 디스플레이가 생성되면 컨텐츠를 활용할 수 있도록 채널을 디스플레이에 지정해야 합니다.
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>디스플레이에 채널을 할당하는 방법을 알려면 [채널 지정](channel-assignment.md) 섹션을 참조하십시오.
 
 ## 새 장치 구성 생성 {#creating-a-new-device-config}
 
@@ -71,15 +71,15 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
 아래 절차에 따라 새 장치 구성을 생성하십시오.
 
-1. 예를 들어 적절한 디스플레이로 이동합니다 `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Select your display folder and tap/click **View Dashboard** in the action bar.
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. 적절한 디스플레이(예: `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`)로 이동합니다.
+1. 표시 폴더를 선택하고 작업 표시줄에서 **대시보드 보기**&#x200B;를 탭/클릭합니다.
+1. **장치** 패널의 오른쪽 위에 있는 **+ 장치 구성 추가**&#x200B;를 탭/클릭합니다.
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. 필요한 템플릿으로 **장치 구성**&#x200B;을 선택하고 **다음**&#x200B;을 탭/클릭합니다.
 
-1. Enter the properties as required and tap/click **Create**.
+1. 필요에 따라 속성을 입력하고 **만들기**&#x200B;를 탭/클릭합니다.
 
-The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
+장치 구성이 생성되어 현재 디스플레이에 추가됩니다(다음 데모에서는 새 장치 구성이 *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
 
@@ -89,9 +89,9 @@ The device config is created and added to the current display (in the following 
 >
 >장치 구성이 위치에 있는 사용자의 디스플레이로 설정되면 다음 단계에서는 디스플레이에 채널을 지정합니다.
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>아래 그림에서와 같이, 해당 특정 장치 구성에 지정된 채널이 없는 경우 장치 구성이 **DEVICES** 패널에 [지정되지 않음]으로 표시되는 경우.
 >
->채널 생성 및 관리에 대한 사전 이해가 있어야 합니다. 자세한 [내용은 채널](managing-channels.md) 만들기 및 관리를 참조하십시오.
+>채널 생성 및 관리에 대한 사전 이해가 있어야 합니다. 자세한 내용은 [채널 만들기 및 관리](managing-channels.md)를 참조하십시오.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -120,9 +120,9 @@ The device config is created and added to the current display (in the following 
 
 디스플레이의 속성을 보거나 변경하려면 **속성**&#x200B;을 클릭하십시오.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. 기본값은 *300초*&#x200B;로 설정되어 있습니다.
+또한 **디스플레이** 탭 아래의 **유휴 시간 초과** 속성에서 대화형 채널에 대한 이벤트 타이머 값을 조정할 수 있습니다. 기본값은 *300초*&#x200B;로 설정되어 있습니다.
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+**CRXDE Lite**&#x200B;을 사용하여 **idleTimeout** 속성(즉, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`)에 액세스합니다.
 
 
 ### 지정된 채널 패널 {#assigned-channels-panel}
@@ -134,7 +134,7 @@ Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://loc
 
 **장치** 패널은 장치 구성에 대한 정보를 제공합니다.
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+(**...을 클릭합니다.**) 장치 구성을 추가하고 장치를 업데이트하기 위해 **DEVICES** 패널의 오른쪽 위 모서리에 있습니다.
 
 또한, 속성을 보거나, 장치를 지정하거나, 완전히 삭제하려면 장치 구성을 클릭합니다.
 
@@ -144,4 +144,4 @@ Click on the (**...**) in the top right corner in the **DEVICES** panel to add d
 
 위치에 대한 디스플레이 생성을 완료하면 디스플레이를 위한 채널을 지정해야 합니다.
 
-See [Assign Channels](channel-assignment.md) for more details.
+자세한 내용은 [채널 지정](channel-assignment.md)을 참조하십시오.
