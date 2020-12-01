@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 학습합니다.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '431'
 ht-degree: 19%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 19%
       + [문제 해결을 위한 익스텐션으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [티젠 플레이어](tizen-player.md)
    + 작성자 게시 {#author-publish}
       + [저작-출판 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 19%
       + [명령 동기화](using-command-sync.md)
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
       + [음성 인식](voice-recognition.md)
+      + [컨텐츠 할당 보고서](content-assignment-report.md)
    + 콘텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
       + [컨텐츠 서비스 업데이트](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 19%
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
+   + [Feature Pack 202011용 릴리스 노트](release-notes-fp-202011.md)
    + [Feature Pack 202008용 릴리스 노트](release-notes-fp-202008.md)
    + [Feature Pack 202004용 릴리스 노트](release-notes-fp-202004.md)
    + [Feature Pack 202001용 릴리스 노트](release-notes-fp-202001.md)
