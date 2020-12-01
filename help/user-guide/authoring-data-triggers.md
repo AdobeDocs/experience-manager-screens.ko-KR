@@ -21,7 +21,7 @@ ht-degree: 4%
 
 ## 전제 조건 {#prereqs}
 
-채널에서의 타깃팅을 활성화하려면 아래 단계를 따르십시오. AEM Screens에서 ContextHub 및 타깃팅을 이해하는 데 필요한 AEM Screens [에서](configuring-context-hub.md) 구성의 주요 약관에 대해 알아야 합니다.
+채널에서의 타깃팅을 활성화하려면 아래 절차를 따르십시오. AEM Screens에서 ContextHub 및 타깃팅을 이해하는 데 필요한 [AEM Screens 구성의 주요 약관](configuring-context-hub.md)에 대해 알아야 합니다.
 
 >[!IMPORTANT]
 >
@@ -42,17 +42,17 @@ ht-degree: 4%
 
 채널에서 타깃팅을 활성화하려면 아래 절차를 따르십시오.
 
-1. AEM Screens 채널 중 하나로 이동합니다. 다음 단계는 AEM Screens 채널에서 만든 **DataDrivenRetail***(시퀀스 채널)* 을 사용하여 타깃팅을 활성화하는 방법을 보여줍니다.
+1. AEM Screens 채널 중 하나로 이동합니다. 다음 단계는 AEM Screens 채널에서 만든 **DataDrivenRetail** *(시퀀스 채널)*&#x200B;을 사용하여 타깃팅을 활성화하는 방법을 보여줍니다.
 
-1. 채널 DataDriven **Retail을** 선택하고 작업 표시줄에서 **속성** 을 클릭합니다.
+1. 채널 **DataDrivenRetail**&#x200B;을 선택하고 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 개인화 **탭을** 선택하여 ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 선택합니다.
+1. **개인화** 탭을 선택하여 ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 선택합니다.
 
-   1. libs **>** 설정 **** > 설정 ******> cloudsettings** 설정 **> 기본** **** ****> DefaultConfigurations ContextCumulative 및 Click Hub SelectCuts로 ContextHub 경로를 선택합니다.
+   1. **ContextHub 경로**&#x200B;를 **libs** > **settings** > **cloudsettings** > **default** > **ContextHub 구성**&#x200B;으로 선택하고 &lt;a를 클릭합니다. 12/>선택&#x200B;**.**
 
-   1. 세그먼트 경로 **를** conf **>** we.Retail **설정** > wcmCumnCumn **** **** **** ****> SegmentsCumn 및 ClickSelect로 선택합니다.
+   1. **세그먼트 경로**&#x200B;를 **conf** > **We.Retail** > **설정** > **wcm** 세그먼트&#x200B;**로 선택하고**&#x200B;선택 **.**
 
    1. **저장 후 닫기**&#x200B;를 클릭합니다.
    >[!NOTE]
@@ -61,19 +61,19 @@ ht-degree: 4%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. DataDrivenAssets **> 채널** 에서 DataDrivenRetail **을** 찾아 선택하고 **작업 막대에서** **** 편집을 클릭합니다. 채널 편집기에서 자산을 드래그하여 놓습니다.
+1. **DataDrivenAssets** > **채널**&#x200B;에서 **DataDrivenRetail**&#x200B;을 탐색하고 선택하고 작업 막대에서 **편집**&#x200B;을 클릭합니다. 채널 편집기에서 자산을 드래그하여 놓습니다.
 
    >[!NOTE]
    >
-   >모든 것을 올바르게 설정한 경우 아래 그림과 같이 편집기의 **드롭다운에 타깃팅** 옵션이 표시됩니다.
+   >모든 것을 올바르게 설정한 경우 아래 그림과 같이 편집기의 드롭다운에 **타깃팅** 옵션이 표시됩니다.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 타깃팅을 **클릭합니다**.
+1. **타깃팅**&#x200B;을 클릭합니다.
 
-1. 드롭다운 메뉴에서 **** 브랜드 **** 및 **활동**&#x200B;을 선택하고 타깃팅시작을 클릭합니다.
+1. 드롭다운 메뉴에서 **브랜드**&#x200B;와 **활동**&#x200B;을 선택하고 **타깃팅 시작**&#x200B;을 클릭합니다.
 
-### 자세한 내용:사용 사례 예 {#learn-more-example-use-cases}
+### 자세한 내용:예제 사용 사례 {#learn-more-example-use-cases}
 
 AEM Screens 프로젝트에 대해 ContextHub를 구성한 후에는 다른 사용 사례를 따라 데이터가 트리거된 자산이 다양한 산업 분야에서 중요한 역할을 수행하는 방식을 이해할 수 있습니다.
 
