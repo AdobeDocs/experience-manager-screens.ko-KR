@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# AEM Screens 시스템 보안 고려 사항 {#security-checklist}
+# AEM Screens {#security-checklist}에 대한 시스템 보안 고려 사항
 
 >[!IMPORTANT]
 >내부 Git 리소스입니다.
@@ -25,7 +25,7 @@ ht-degree: 1%
 이 섹션에서는 백서에 대해 설명합니다. (백서 첨부 보류 중)
 
 
-## AEM Screens 보안을 위한 FAQ {#faqs-screens}
+## AEM Screens 보안에 대한 FAQ {#faqs-screens}
 
 다음 FAQ는 HTTPS를 사용하는 인증된 등록 플레이어 아키텍처를 플레이어와 AEM 서버 간의 통신 프로토콜로 간주합니다.
 
