@@ -12,15 +12,16 @@ ht-degree: 0%
 
 # 직접 인터넷 네트워크(유선/무선) {#direct-internet-access}
 
-DM(Direct Internet Network)에는 AEM cloud services에 연결하기 위해 인터넷 액세스를 위한 진입점이 포함되어 있습니다.
+DM(Direct Internet Network)에는 AEM Screens이 연결해야 하는 AEM Cloud 서비스에 도달하기 위해 인터넷 액세스를 위한 시작 액세스 포인트가 포함되어 있습니다.
 
 AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 * `ssl-secured https (TCP Port 443)`
+
    <br>또는,</br>
 
 * `http (TCP Port 80)`, if your specific use case doesn&#39;t require that level security.
 
-포트는 전용 AEM 구성 설정 구성 때문에 달라질 수 있습니다. 이 SetUp 내에서 모든 장치는 아래 그림과 같이 인터넷 라우터에 직접 연결됩니다.
+포트는 전용 AEM 구성 설정 구성에 따라 달라질 수 있습니다. 이 SetUp 내에서 모든 장치는 아래 그림과 같이 인터넷 라우터에 직접 연결됩니다.
 
 ![](/help/assets/direct-access-2.png)
 
@@ -28,9 +29,9 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 
 ## 직접 인터넷 액세스에 AEM Screens 플레이어 연결 {#connecting-aem-screens-players}
 
-아래 절차에 따라 이 구성에서 AEM Screen 플레이어의 적절한 연결을 확인하십시오.
+아래 절차에 따라 이 구성에서 AEM Screen Player가 제대로 연결되었는지 확인하십시오.
 
-1. 각 AEM 화면 플레이어가 라우터의 네트워크에 연결되어 있는지 확인합니다.
+1. AEM 화면 각 플레이어가 라우터의 네트워크에 연결되어 있는지 확인합니다.
 1. 시스템 브라우저에서 URL을 호출하여 인터넷 연결을 테스트합니다.
 
    >[!NOTE]
@@ -46,9 +47,9 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 
    >[!NOTE]
    >**문제 해결 팁**
-   >AEM Screens이 제대로 연결되지 않고 예상 콘텐트가 표시되지 않는 경우:
+   >AEM Screens이 제대로 연결되지 않고 예상 컨텐츠가 표시되지 않는 경우:
    >
-   >1. 인터넷 라우터 방화벽에 대한 제한 사항이 있는지 확인하십시오 `TCP/IP Port 80/443`.
+   >1. `TCP/IP Port 80/443`에 대한 제한 사항이 있는 경우 인터넷 라우터 방화벽을 확인하십시오.
    >1. 모든 필수 포트가 허용되었는지 확인하십시오.
 
 
@@ -64,18 +65,18 @@ DM(Direct Internet Network)은
 
 네트워크의 연결 기능 외에 인터넷 연결의 성능은 AEM Screens을 작동하기 위한 충분한 대역폭을 제공하는 것입니다.
 
-*연결된 AEM 화면의 수와 네트워크 내의 다른 소비자(예: 스마트폰, 타블렛, 계산원, 컴퓨터 또는 게스트 Wi-Fi 네트워크)의 사용에 따라 충분한* 콘텐츠가 결정됩니다.
+*인터넷* 에 깔린 PC의 접속수나 스마트폰, 태블릿PC, 게스트 Wi-Fi 네트워크 등 네트워크 내에서 다른 소비자의 사용 방식에 따라 소비자의 고민도 깊어지고 있다.
 
 >[!NOTE]
 >
 >위에 언급된 모든 장치는 인터넷 연결에 동시에 액세스할 수 있으며 네트워크에 더 많은 소비자나 컴퓨터를 추가하면 대역폭이 선형으로 줄어듭니다.
 
-### LAN {#lan-connection}
+### 로컬 영역 네트워크 {#lan-connection}
 
-네트워크의 연결 기능 외에 LAN(Local Area Network)의 성능은 AEM Screens을 작동시키는 데 충분한 대역폭을 제공합니다.
+네트워크의 연결 기능 외에 LAN(Local Area Network)의 성능은 AEM Screens을 작동하기에 충분한 대역폭을 제공합니다.
 
 LAN 네트워크는 일반적으로 100Mbps 네트워크와 일치하므로 많은 장치를 시스템에 연결하기에 충분한 대역폭이 있습니다.
-Wi-Fi 솔루션이 AEM Screens을 인터넷 링크에 연결하기 위해 예상되는 경우 최신 Wi-Fi 표준을 최소 `IEEE 802.11g` 로 사용하는 것이 좋습니다. 이 표준은 최대 54Mbps의 연결을 지원합니다. 이와 같은 *새로운* 표준은 `802.11h-n` 품질이 더 좋습니다.
+Wi-Fi 솔루션이 AEM Screens을 인터넷 링크에 연결하도록 예상되는 경우 최소한으로 `IEEE 802.11g`과 같은 최신 Wi-Fi 표준을 사용하는 것이 좋습니다. 이 표준은 최대 54Mbps의 연결을 지원합니다. *최신* 표준(예: `802.11h-n`)의 품질이 더 좋습니다.
 
 >[!NOTE]
 >
