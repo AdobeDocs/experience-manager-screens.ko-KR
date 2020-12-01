@@ -19,7 +19,7 @@ ht-degree: 7%
 ---
 
 
-# 채널 레벨 벌크 이미지 재생 기간 {#channel-level-bulk-image-playback-duration}
+# 채널 수준 벌크 이미지 재생 지속 시간 {#channel-level-bulk-image-playback-duration}
 
 ## 개요 {#overview}
 
@@ -29,21 +29,21 @@ ht-degree: 7%
 
 이 기능 구현을 시작하기 전에 이 기능 구현을 시작하기 위한 전제 조건으로 프로젝트를 설정해야 합니다. 예,
 
-1. AEM Screens 프로젝트 예제 ChannelLevelPlayback을 **만듭니다**.
+1. AEM Screens 프로젝트 예 **ChannelLevelPlayback**&#x200B;을 만듭니다.
 
-1. 시퀀스 채널을 채널 폴더 아래에 **PlaybackChannel** 으로 **만듭니다** .
+1. **채널** 폴더 아래에 **PlaybackChannel**&#x200B;으로 시퀀스 채널을 만듭니다.
 
-1. PlaybackChannel에 컨텐츠를 **추가합니다**.
+1. **PlaybackChannel**&#x200B;에 컨텐츠를 추가합니다.
 
 ## 채널 수준 이미지 재생 시간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
 
 아래 섹션에서는 AEM Screens 채널에서 컨텐츠의 재생 시간을 편집하는 방법에 대해 설명합니다.
 
-### 채널에서 이미지의 재생 지속 시간 업데이트 {#updating-the-playback-duration-for-images-in-a-channel}
+### 채널 {#updating-the-playback-duration-for-images-in-a-channel}에서 이미지의 재생 기간 업데이트
 
 채널 레벨 이미지 재생 기간 할당을 업데이트하는 방법을 알려면 아래 단계를 따르십시오.
 
-1. 시퀀스 채널 PlaybackChannel **으로 이동합니다**.
+1. 시퀀스 채널 **PlaybackChannel**&#x200B;으로 이동합니다.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
@@ -66,7 +66,7 @@ ht-degree: 7%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   지속 시간 **을** 8000ms에서 3000ms(3초)로 편집합니다. 페이지 대화 상자의 오른쪽 상단에 있는 **확인** 표시를 클릭하여 변경 사항을 저장합니다.
+   **지속 시간**&#x200B;을 8000(ms)에서 3000(ms)까지, 즉 3초를 편집합니다. **페이지** 대화 상자의 오른쪽 상단에 있는 확인 표시를 클릭하여 변경 사항을 저장합니다.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
