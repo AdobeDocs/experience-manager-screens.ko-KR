@@ -28,7 +28,7 @@ AEM Screens 디지털 사이니지 솔루션을 구현하기 전에 다음 요�
 * **예약**
 * **컨텐츠 미리 보기**
 
-이러한 용어에 대한 자세한 내용은 [용어집을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+이러한 용어에 대한 자세한 내용은 [용어집](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -58,4 +58,4 @@ AEM Screens 작성자는 AEM Screens에서 사용 가능한 구성 요소를 사
 * [aem screens 플레이어에서 컨텐츠 보기](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->또한 CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 일련의 위치를 대량으로 가져올 수도 있습니다. 자세한 [내용은 파일의](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) 새 프로젝트 가져오기 기능에 따릅니다.
+>또한 CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 일련의 위치를 대량으로 가져올 수도 있습니다. 자세한 내용은 [파일](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html)의 새 프로젝트 가져오기 다음에 문의하십시오.
