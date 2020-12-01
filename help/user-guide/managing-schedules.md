@@ -20,9 +20,9 @@ ht-degree: 49%
 
 # 일정 생성 및 관리 {#creating-and-managing-schedules}
 
-**AEM Screens에서 일정을**&#x200B;사용하면 컨텐츠를 표시할 각 디스플레이에 대해 개별적으로 지정을 반복할 필요가 없도록 채널을 재사용 가능 그룹으로 구성할 수 있습니다.
+**AEM Screens에서 일정을** 사용하면 컨텐츠를 표시할 각 디스플레이에 대해 개별적으로 지정을 반복할 필요가 없도록 채널을 재사용 가능 그룹으로 구성할 수 있습니다.
 
-Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+***DayParting***&#x200B;과 결합될 때 예약하면 하루 중 특정 시간에 실행되는 여러 채널을 사용하여 전역 일정을 설정하고 해당 설정을 한 번에 모든 디스플레이에 다시 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -34,8 +34,8 @@ Schedules when combined with ***DayParting***, allows you to set a global schedu
 
 아래 절차에 따라 채널에 사용할 예약을 생성하십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Schedules**.
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 다음 위치로 바로 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`.
+1. 스크린 프로젝트로 이동하고 **일정**&#x200B;을 클릭합니다.
 1. 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
 1. **만들기** 마법사에서 **예약**&#x200B;을 선택하고 **다음**&#x200B;을 클릭합니다.
 
@@ -60,9 +60,9 @@ Schedules when combined with ***DayParting***, allows you to set a global schedu
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **예약 정보 패널** 예약 정보 패널의 오른쪽 위 모서리에서 속성을 클릭하여 예약의 속성을 보거나 변경합니다.
+   **예약 정보** 패널일정 정보 패널의 오른쪽 위 모서리에서 속성을 클릭하여 예약의 속성을 보거나 변경합니다.
 
-   **지정된 채널 패널** 지정된 채널 패널의 오른쪽 위 모서리에서 +채널 지정을 클릭하여 채널 지정 대화 상자를 엽니다.
+   **지정된 채널** 패널지정된 채널 패널의 오른쪽 위 모서리에서 +채널 지정을 클릭하여 채널 지정 대화 상자를 엽니다.
 
-   **지정된 디스플레이 패널** 지정된 디스플레이 패널에서 디스플레이를 선택하여 디스플레이 대시보드를 엽니다.
+   **지정된 디스플레이** 패널지정된 디스플레이 패널에서 디스플레이를 선택하여 디스플레이 대시보드를 엽니다.
 
