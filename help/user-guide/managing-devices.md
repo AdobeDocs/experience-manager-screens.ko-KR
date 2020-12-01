@@ -38,19 +38,19 @@ ht-degree: 69%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. 지정된 장치 및 지정이 취소된 장치가 표시됩니다.
+1. **장치** 폴더를 선택하고 작업 표시줄에서 **장치 관리자**&#x200B;를 탭/클릭합니다. 지정된 장치 및 지정이 취소된 장치가 표시됩니다.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. 목록에서 할당되지 않은 장치를 선택하고 작업 표시줄에서 **장치 지정**&#x200B;을 탭/클릭합니다.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. 목록에서 장치를 할당할 디스플레이를 선택하고 **할당**&#x200B;을 탭/클릭합니다.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. **Finish**&#x200B;를 탭/클릭하여 할당 프로세스를 완료합니다.
 
 
    디스플레이 대시보드의 **장치** 패널에는 지정된 장치가 표시됩니다.
@@ -64,7 +64,7 @@ ht-degree: 69%
 >[!NOTE]
 >
 >첫 장치가 새 스크린 프로젝트에 추가될 때마다 사용자 그룹이 작성됩니다.
->For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
+>예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*입니다.
 > 이 그룹은 아래 그림에서와 같이 **기여자** 그룹의 멤버로 추가됩니다.
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
