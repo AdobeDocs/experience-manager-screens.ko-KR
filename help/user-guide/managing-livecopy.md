@@ -1,5 +1,5 @@
 ---
-title: Live Copy 만들기 및 관리
+title: Live Copy 생성 및 관리
 seo-title: LiveCopy 관리
 description: 이 페이지에서는 채널의 Live Copy 생성 및 관리에 대해 설명합니다.
 seo-description: 채널의 Live Copy를 생성하고, 속성을 보고, 상태를 확인하고, Live Copy에 해당 채널의 변경 사항을 전파하려면 이 페이지를 따르십시오.
@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 이 페이지에서는 채널의 Live Copy 생성 및 관리에 대해 설명합니다.
 
-A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. 이 라이브 관계를 사용하면 Live Copy가 소스의 컨텐츠 및 페이지 속성을 상속할 수 있습니다.
+***Live Copy***&#x200B;는 원래 소스와의 라이브 관계가 유지되는 특정 사이트 컨텐츠의 사본입니다. 이 라이브 관계를 사용하면 Live Copy가 소스의 컨텐츠 및 페이지 속성을 상속할 수 있습니다.
 
 이 페이지에서는 채널의 Live Copy 생성, 속성 보기, 상태 확인, Live Copy에 해당 채널의 변경 사항을 전파하는 것에 대해 설명합니다.
 
@@ -28,10 +31,10 @@ A ***Live Copy*** is a copy of specific site content for which a live relationsh
 
 아래 절차에 따라 프로젝트 폴더에 채널의 Live Copy를 생성하십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. 또는 다음 위치로 바로 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`.
 
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** and select **Live Copy** to create a live copy of the channel.
+1. 스크린 프로젝트로 이동하고 **채널**&#x200B;을 클릭합니다.
+1. **만들기**&#x200B;를 클릭하고 **Live Copy**&#x200B;를 선택하여 채널의 Live Copy를 만듭니다.
 
 1. 대상을 선택하고 **다음**&#x200B;을 클릭합니다.
 1. Live Copy가 상주할 위치를 선택합니다.
@@ -41,7 +44,7 @@ A ***Live Copy*** is a copy of specific site content for which a live relationsh
 
 또는, 채널의 새 Live Copy를 생성하기 위한 시각적 표시에 대해서는 아래 절차를 참조하십시오.
 
-다음 예제는 대상 폴더가 ***채널**인**유휴 채널&#x200B;****에 대한 Live Copy(**IdleLiveCopy **) 생성을 보여줍니다***.
+다음 예제는 대상 폴더가 ***채널***&#x200B;인 ***유휴 채널***&#x200B;에 대한 Live Copy(***IdleLiveCopy***) 생성을 보여줍니다.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,7 +54,7 @@ Live Copy는 이미 존재하는 채널의 사본입니다.
 
 Live Copy의 컨텐츠를 보려면 아래 절차를 참조하십시오.
 
-1. [스크린] 프로젝트로 이동하고 위 섹션에 표시된 대로 Live Copy를 원래 생성한 위치를 클릭합니다. (Here, the location was chosen as **Channels** folder)
+1. [스크린] 프로젝트로 이동하고 위 섹션에 표시된 대로 Live Copy를 원래 생성한 위치를 클릭합니다. (여기에서 위치는 **채널** 폴더로 선택되었습니다.)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +82,7 @@ Live Copy의 컨텐츠를 보려면 아래 절차를 참조하십시오.
 
 아래 그림에 표시된 대로 **Live Copy 상태** 모드를 사용하면 채널에 있는 모든 자산의 관계 상태를 볼 수 있습니다.
 
-1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. **편집**&#x200B;을 클릭하여 **Live Copy 상태**&#x200B;를 선택하고 채널 컨텐츠의 Live Copy가 생성된 원래 채널과 연관성을 확인합니다.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -125,7 +128,7 @@ Live Copy에서 상속을 취소할 수도 있습니다. 그렇게 되면 컨텐
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. **동기화**&#x200B;를 클릭하여 변경 사항을 확인합니다. Click **Save &amp; Close** to navigate back to the AEM dashboard.
+1. **동기화**&#x200B;를 클릭하여 변경 사항을 확인합니다. AEM 대시보드로 돌아가려면 **저장 및 닫기**&#x200B;를 클릭합니다.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
