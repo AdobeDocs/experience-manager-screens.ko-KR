@@ -23,23 +23,23 @@ ht-degree: 37%
 >[!NOTE]
 >디스플레이에 여러 채널을 지정할 수 있습니다.
 
-## Assigning a Channel {#assign-a-channel}
+## 채널 {#assign-a-channel} 할당
 
 아래 절차에 따라 디스플레이에 채널을 지정하십시오.
 
-1. 필요한 디스플레이(예: **DemoProject** —> **위치** —> **SanJose** —> Store **Display)로**&#x200B;이동합니다.
+1. 필요한 디스플레이로 이동합니다(예: **DemoProject** —> **위치** —> **SanJose** —> **StoreDisplay**).
 
    ![이미지](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. 작업 표시줄에서 **채널 지정**&#x200B;을 탭/클릭합니다.
 
    또는,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
+   **대시보드**&#x200B;를 탭/클릭하고 **지정된 채널** 패널에서 **+채널 지정**&#x200B;을 클릭하여 **채널 지정** 대화 상자를 엽니다.
 
    ![이미지](/help/user-guide/assets/channel-assign1.png)
 
-   아래 섹션에서 **채널 지정** 대화 상자에서 속성을 구성할 수 있습니다. 채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
+   아래 섹션의 **채널 지정** 대화 상자에서 속성을 구성할 수 있습니다. 채널 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
 
 ## 채널 할당의 채널 속성 이해 {#channel-properties}
@@ -50,7 +50,7 @@ ht-degree: 37%
 
 * **경로 기준**: 채널의 절대 경로를 사용하여 명시적 참조를 제공합니다.
 
-* **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. 예를 들어, 실제 컨텐츠가 두 도시에서 다르지만 모든 디스플레이에서 여전히 동일한 채널 역할이 있는 날짜의 *거래 이름이 있는 채널*&#x200B;이(가) 있습니다.
 
 ### 채널 역할 {#role-channel}
 
@@ -78,28 +78,28 @@ ht-degree: 37%
 
 컨텐츠 작성자는 채널이 중단되는 시점을 지정할 수 있으므로 중요하지 않은 컨텐츠를 차단하도록 선택할 수 있지만 일정 때문에 재생을 중단하기 전에 중요한 컨텐츠가 완전히 재생되도록 할 수 있습니다.
 
-채널 지정 대화 상자에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 하나를 **선택합니다** .
+**채널 지정** 대화 상자에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 하나를 선택합니다.
 
 * **즉시**:일정이 활성화되거나 업데이트가 수신될 때마다 재생을 중단하고 즉시 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
-* **현재 항목**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다릴 수 있는 옵션을 사용할 수 있습니다. 단, 새 컨텐츠를 새로 고치거나 재생한 후에만 가능합니다
+* **현재 항목** 끝:새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다릴 수 있는 옵션을 사용할 수 있습니다. 단, 새 컨텐츠를 새로 고치거나 재생한 후에만 가능합니다
    >[!NOTE]
    >이 옵션은 기본적으로 선택되어 있습니다.
-* **시퀀스**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있으며 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프하면 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
+* **시퀀스** 끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있으며 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프하면 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
 
    >[!NOTE]
    >두 번째 또는 세 번째 옵션을 사용하면 플레이어가 새로 고치기 전에 항목이나 시퀀스의 끝(지정된 시간 후)을 기다리기 때문에 할당에 정의된 예약 시간이 약간 지연될 수 있습니다. 지연 시간은 항목의 재생 기간에 따라 다릅니다.
 
 ### 예약 {#schedule-channel}
 
-일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown.
+일정을 사용하면 채널이 표시될 때 텍스트로 된 설명을 제공할 수 있습니다. 또한 표시할 채널의 시작 날짜(**부터**&#x200B;활성)와 종료 날짜(**활성 -**)를 정의할 수도 있습니다.
 
 **명소 도구 설명 표시**:
 
 [명소 도구 설명 표시]는 채널이 실행될 때 명소 도구 설명(&quot;*시작하려면 아무 데나 터치하세요*&quot;)을 표시해야 할지 여부를 정의합니다.
 
-### DayParting {#dayparting}
+### 한시적 입찰 {#dayparting}
 
-Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+**DayParting**&#x200B;과 결합될 때 예약하면 하루 중 특정 시간에 실행되는 여러 채널을 사용하여 전역 일정을 설정하고 해당 설정을 한 번에 모든 디스플레이에 다시 사용할 수 있습니다.
 
 방송 시간 분할은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 말합니다. AEM Screens을 사용하면 요구 사항에 따라 하루, 주 또는 월 내에 한시적으로 채널을 예약할 수 있습니다.
 
@@ -133,13 +133,13 @@ Schedules when combined with **DayParting**, allows you to set a global schedule
    <td>라이브 콘서트</td>
    <td>주말</td>
    <td> </td>
-   <td>2017년 10월 21일 - 20:00 <br /> 이후 2017년 10월 22일 22:00 이전</td>
+   <td>2017년 10월 21일 - 2017년 10월 22일 20:00이 지난 20:00에 <br /></td>
   </tr>
   <tr>
    <td>스페셜 디너</td>
    <td>주말</td>
    <td> </td>
-   <td>2017년 10월 21일 - 2017년 10월 22일 <br /> 후 22:00분 전 1:00</td>
+   <td>2017년 10월 21일 - 2017년 10월 22일 - 22:00 이후 1:00 이전 <br /></td>
   </tr>
  </tbody>
 </table>
