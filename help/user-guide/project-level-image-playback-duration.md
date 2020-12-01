@@ -23,15 +23,15 @@ ht-degree: 1%
 
 이 기능을 사용하기 전에 이 기능 구현을 시작하기 위한 사전 요구 사항으로 프로젝트를 설정해야 합니다. 예,
 
-1. AEM Screens 프로젝트 만들기(이 예에서 **ProjectLevelPlayback**)
+1. AEM Screens 프로젝트 만들기(이 예에서는 **ProjectLevelPlayback**)
 
-1. 시퀀스 채널을 채널 폴더 아래에 **PlayBackChannel** 으로 **만듭니다**
+1. **채널** 폴더 아래에 **PlayBackChannel**&#x200B;으로 시퀀스 채널을 만듭니다.
 
-1. PlayBackChannel에 컨텐츠 **추가**
+1. **PlayBackChannel**&#x200B;에 컨텐츠 추가
 
    ![자산](assets/image_playback1.png)
 
-   예를 들어 다음 이미지는 PlayBackChannel 편집기에 추가된 이미지를 **보여** 줍니다.
+   예를 들어 다음 이미지는 **PlayBackChannel** 편집기에 추가된 이미지를 보여 줍니다.
 
    ![자산](assets/image_playback2.png)
 
@@ -39,19 +39,19 @@ ht-degree: 1%
 
 아래 섹션에서는 AEM Screens 프로젝트에서 컨텐츠의 재생 시간을 편집하는 방법에 대해 설명합니다.
 
-### 프로젝트 수준에서 이미지의 재생 지속 시간 업데이트 {#updating-the-playback-duration-for-images-in-a-project}
+### 프로젝트 수준 {#updating-the-playback-duration-for-images-in-a-project}에서 이미지의 재생 기간 업데이트
 
 
 >[!NOTE]
 >
->이미지 또는 채널 레벨 재생 지속 시간을 업데이트하려면 [채널 레벨 이미지 재생 지속 시간을 참조하십시오](channel-level-image-playback.md).
+>이미지 또는 채널 수준 재생 지속 시간을 업데이트하려면 [채널 수준 이미지 재생 기간](channel-level-image-playback.md)을 참조하십시오.
 
 프로젝트 레벨 이미지 재생 지속 시간을 업데이트하는 방법에 대해 알려면 아래 단계를 따르십시오.
 
-1. Navigate to your project **ProjectLevelPlayback** and click **Properties** from the action bar.
+1. 프로젝트 **ProjectLevelPlayback**&#x200B;으로 이동하고 작업 표시줄에서 **속성**을 클릭합니다.
    ![자산](assets/image_playback3.png)
 
-1. 채널에서 모든 이미지를 선택하고 왼쪽 상단의 공구 모양 아이콘(아래 그림에 표시된 대로)을 클릭하여 채널 수준 구성 대화 상자를 엽니다.
+1. 채널에서 모든 이미지를 선택하고 왼쪽 상단에 있는 공구 모양 아이콘(아래 그림에 표시된 대로)을 클릭하여 채널 수준 구성 대화 상자를 엽니다.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   지속 시간 **을** 8000ms에서 3000ms(3초)로 편집합니다. 페이지 대화 상자의 오른쪽 상단에 있는 **확인** 표시를 클릭하여 변경 사항을 저장합니다.
+   **지속 시간**&#x200B;을 8000(ms)에서 3000(ms)까지, 즉 3초를 편집합니다. **페이지** 대화 상자의 오른쪽 상단에 있는 확인 표시를 클릭하여 변경 사항을 저장합니다.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
