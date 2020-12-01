@@ -12,7 +12,7 @@ ht-degree: 7%
 ---
 
 
-# 실행 후 지원 {#post-launch-support}
+# 게시물 시작 지원 {#post-launch-support}
 
 
 출시 후 지원은 초기 단계에서 간과되어서는 안 됩니다.
