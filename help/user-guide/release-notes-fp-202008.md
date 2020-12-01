@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Feature Pack 202008용 릴리스 노트 {#release-notes-for-feature-pack}
+# 기능 팩 202008 릴리스 노트 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 AEM Screens은 AEM 6.5 기능 팩 5를 출시했습니다.
 
-Adobe ID을 사용하여 [소프트웨어 배포 포털에서](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) AEM Screens 6.5.5 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. 최신 기능 팩을 얻으려면 **Adobe Experience Manager** 탭으로 **** 이동하고 화면을 검색합니다.
+Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Screens 6.5.5 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하여 **Screens**&#x200B;를 검색하여 최신 기능 팩을 가져옵니다.
 
 ## 릴리스 날짜 {#release-date}
 
@@ -32,13 +32,13 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 
    타임라인 보기를 사용하면 사용자가 디스플레이 대시보드에서 채널에 지정된 일정을 볼 수 있습니다.
 
-   자세한 내용은 [타임라인](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) 보기를 참조하십시오.
+   자세한 내용은 [타임라인 보기](/help/user-guide/channel-assignment-latest-fp.md#timeline-view)를 참조하십시오.
 
 * **재현 예약**
 
    되풀이 일정을 사용하면 채널에 대한 반복 일정을 설정할 수 있습니다. 채널에 대해 여러 개의 되풀이 일정을 설정합니다.
 
-   자세한 [내용은 되풀이](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 일정을 참조하십시오.
+   자세한 내용은 [되풀이 일정](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)을 참조하십시오.
 
 * **AEM Screens에 대한 음성 인식 기능**
 
@@ -46,19 +46,20 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 
    콘텐츠 작성자는 음성을 사용하도록 디스플레이를 구성할 수 있습니다. 이 기능의 목적은 고객이 음성을 디스플레이와 상호 작용하는 방법으로 활용할 수 있도록 하는 것입니다.
 
-   자세한 내용은 [음성](voice-recognition.md) 인식을 참조하십시오.
+   자세한 내용은 [음성 인식](voice-recognition.md)을 참조하십시오.
 
 ### 알려진 문제 및 수정 사항 {#known-issues}
 
 AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 또는 Android 플레이어에 대한 환경을 설정해야 합니다.
 
-로그인 **토큰 쿠키에** 대한 **SameSite 속성을 Lax에서** None으로 **설정하** 는 **Facebook 웹 콘솔Configuration모든 AEM 작성자 및 게시 인스턴스의 SameSite 속성을 None으로** 설정합니다.
+로그인 토큰 쿠키에 대한 **SameSite 특성을** Lax **에서** Adobe Experience Manager 웹 콘솔에서 &lt;a4/>None **으로 설정합니다
+모든 AEM 작성자 및 게시 인스턴스에 대한 구성**.****
 
-* 자세한 [내용은 Windows 10 Player](implementing-windows-player.md#fp-environment-setup) 구현을 참조하십시오.
+* 자세한 내용은 [Windows 10 Player 구현](implementing-windows-player.md#fp-environment-setup)을 참조하십시오.
 
-* 자세한 [내용은 Android 플레이어](implementing-android-player.md#fp-environment-setup) 구현을 참조하십시오.
+* 자세한 내용은 [Android 플레이어 구현](implementing-android-player.md#fp-environment-setup)을 참조하십시오.
 
-### 개봉한 AEM Screens 선수 {#released-aem-screens-players}
+### 출시된 AEM Screens 플레이어 {#released-aem-screens-players}
 
 다음 AEM Screens 플레이어는 AEM 6.5 Feature Pack 5에서 출시되었습니다.
 
@@ -66,6 +67,6 @@ AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 또는 Android �
 * Windows
 * Android
 
-#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
+#### AEM Screens 플레이어 다운로드 {#aem-screens-player-downloads}
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 **[AEM Screens 플레이어 다운로드를 참조하십시오](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 **[AEM Screens Player 다운로드](https://download.macromedia.com/screens/index.html)**&#x200B;를 참조하십시오.
