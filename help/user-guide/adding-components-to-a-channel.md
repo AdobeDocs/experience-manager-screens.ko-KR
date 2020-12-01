@@ -27,7 +27,7 @@ ht-degree: 60%
 
 AEM Screens에서는 스크린 프로젝트에서 사용할 수 있는 다양한 AEM 구성 요소를 제공합니다.
 
-### AEM Screens 구성 요소 보기 {#viewing-aem-screens-components}
+### AEM Screens 구성 요소 보기  {#viewing-aem-screens-components}
 
 AEM Screens 프로젝트를 만들 때마다 프로젝트에 추가할 수 있는 기본 구성 요소 목록이 표시됩니다.
 
@@ -52,7 +52,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
 1. **디자인** 모드를 선택합니다.
 1. 오른쪽에 있는 전체 디자인 편집기를 선택하고 설정 기호를 클릭하여 **ParSys 디자인** 대화 상자를 엽니다.
-1. AEM Screens 프로젝트에 가져오려는 구성 요소를 선택할 수 있습니다. The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. AEM Screens 프로젝트에 가져오려는 구성 요소를 선택할 수 있습니다. 다음 예는 AEM Screens 프로젝트에 **Livefyre** 구성 요소를 추가하는 것을 보여줍니다.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -60,7 +60,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 >
 >유사하게, 프로젝트에 AEM Screens와 호환하는 다른 새 구성 요소를 원하는 개수만큼 추가할 수 있습니다.
 
-## AEM Screens 구성 요소 이해 {#understanding-aem-screen-components}
+## AEM Screens 구성 요소 이해  {#understanding-aem-screen-components}
 
 다음 섹션에서는 프로젝트에서 사용할 수 있는 AEM Screens 구성 요소에 대해 설명합니다.
 
@@ -68,7 +68,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 >
 >구성 요소의 속성을 보려면 구성 요소를 선택하고 망치 아이콘을 클릭하십시오.
 
-### 애플리케이션 {#application}
+### 애플리케이션  {#application}
 
 **애플리케이션** 구성 요소를 사용하면 채널에 애플리케이션을 추가할 수 있습니다.
 
@@ -87,7 +87,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 >
 >아래의 각 구성 요소에 대한 속성을 보려면 위의 예를 참조하십시오.
 
-### 채널 {#channel}
+### 채널  {#channel}
 
 **채널** 구성 요소를 사용하면 전체 채널을 프로젝트에 추가할 수 있습니다.
 
@@ -137,7 +137,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 
 >[!NOTE]
 >
->Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+>포함된 시퀀스에 대한 자세한 내용은 스크린 작성 섹션 아래의 [포함된 시퀀스](embedded-sequences.md)를 참조하십시오.
 
 포함된 시퀀스를 사용하면 기존 채널 내부의 포함된 시퀀스 채널을 추가할 수 있습니다(기타 자산 포함).
 
@@ -159,7 +159,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
   </tr>
   <tr>
    <td><strong><em>전략</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td><strong>원본</strong> 또는 <strong>single</strong>으로 설정합니다. 값을 <strong>original</strong>으로 설정하면 하위 시퀀스가 상위 시퀀스의 각 주기에 완전히 실행됩니다. 다른 가능한 값은 <strong>single</strong>이며, 이 값은 각 실행 시 하위 시퀀스의 한 항목만 표시합니다(예: 첫 번째 루프의 첫 번째 항목, 두 번째 루프의 두 번째 항목 등).</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +168,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 
 동적 포함된 시퀀스를 사용하면 채널 역할에 의한 경우를 제외하고 위에서 언급한 것과 유사한 시퀀스를 추가할 수 있습니다.
 
-Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+포함된 시퀀스에 대한 자세한 내용은 스크린 작성 섹션 아래의 [포함된 시퀀스](embedded-sequences.md)를 참조하십시오.
 
 동적 포함된 시퀀스에는 다음 속성이 있습니다.
 
@@ -188,7 +188,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>전략</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td><strong>원본</strong> 또는 <strong>single</strong>으로 설정합니다. 값을 <strong>original</strong>으로 설정하면 하위 시퀀스가 상위 시퀀스의 각 주기에 완전히 실행됩니다. 다른 가능한 값은 <strong>single</strong>이며, 이 값은 각 실행 시 하위 시퀀스의 한 항목만 표시합니다(예: 첫 번째 루프의 첫 번째 항목, 두 번째 루프의 두 번째 항목 등).</td>
   </tr>
  </tbody>
 </table>
@@ -197,7 +197,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 경험 조각을 사용하면 경험 조각(페이지 내에서 참조할 수 있는 컨텐츠 및 레이아웃을 포함한 하나 이상의 구성 요소 그룹)을 AEM Screens 채널에 추가할 수 있습니다. 구성 요소를 AEM 편집기로 드래그하여 놓고 경험 조각을 선택합니다.
 
-경험 조각을 만들고 이를 AEM Screens 프로젝트에 활용하는 방법에 대한 자세한 내용은 경험 조각 [사용을 참조하십시오](experience-fragments-in-screens.md).
+경험 조각을 만들고 이를 AEM Screens 프로젝트에 활용하는 방법에 대한 자세한 내용은 [경험 조각 사용](experience-fragments-in-screens.md)을 참조하십시오.
 
 ![exp](assets/exp.gif)
 
@@ -212,7 +212,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->이 구성 요소에서 추가하는 **클라이언트측 라이브러리****및** 정적 파일 **은 이미 구성된** 클라이언트측 라이브러리 **및 경험 조각의 Properties**&#x200B;에서 추가되는 정적 파일 이외에도추가됩니다.
+>이 구성 요소에서 추가한 **클라이언트측 라이브러리** 및 **정적 파일**&#x200B;은 이미 구성된 **클라이언트측 라이브러리**&#x200B;와 경험 조각의 **속성**&#x200B;에서 추가된 정적 파일 이외에 추가됩니다.
 
 ### 이미지 {#image}
 
@@ -231,7 +231,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | **접근성** |
 | ***대체 텍스트*** | 이미지의 대체 텍스트입니다. |
 | **시퀀스** |
-| ***기간*** | 기본적으로 지속 시간은 *8000ms로 설정됩니다*. 이미지의 재생 시간을 변경하려면 지속 시간 **필드를** 업데이트합니다. |
+| ***기간*** | 기본적으로 지속 시간은 *8000ms*&#x200B;로 설정됩니다. 이미지의 재생 시간을 변경하려면 **지속 시간** 필드를 업데이트하십시오. |
 
 ### 전환 {#transition}
 
@@ -241,7 +241,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-전환 아이콘을 선택하고 구성( **공구모양** 아이콘)을 클릭하여 **전환** 대화 상자를 엽니다. 이 대화 상자에는 다음과 같은 세 개의 탭이 있습니다.
+전환 아이콘을 선택하고 **구성**(렌치 아이콘)을 클릭하여 **전환** 대화 상자를 엽니다. 이 대화 상자에는 다음과 같은 세 개의 탭이 있습니다.
 
 * **전환**
 * **시퀀스**
@@ -249,7 +249,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->기본적으로 시퀀스는 600ms로 설정됩니다. [시퀀스] 탭을 사용하여 전환 시퀀스를 다른 값으로 **업데이트할** 수 있습니다.
+>기본적으로 시퀀스는 600ms로 설정됩니다. **시퀀스** 탭을 사용하여 전환 시퀀스를 다른 값으로 업데이트할 수 있습니다.
 
 ![전환](assets/transition.gif)
 
@@ -267,7 +267,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>유형</em></strong></td>
-   <td><p>전환 전 요소와 후 요소 간의 전환 유형입니다. 전환 <strong>유형에는</strong> 다음 옵션이 포함됩니다.</p>
+   <td><p>전환 전 요소와 후 요소 간의 전환 유형입니다. 전환 <strong>Type</strong>에는 다음 옵션이 포함되어 있습니다.</p>
     <ul>
      <li><strong>일반</strong></li>
      <li><strong>페이드</strong></li>
@@ -291,7 +291,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>활성</em></strong></td>
-   <td>전환 활성화 시기를 설명하는 타임스탬프<br /> </td>
+   <td>전환이 활성 상태일 수 있는 시기를 설명하는 타임스탬프입니다.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>활성</em></strong></td>
