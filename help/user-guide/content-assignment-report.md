@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # 컨텐츠 할당 보고서 {#content-assignment-report}
 
-컨텐츠 할당 보고서 기능을 사용하면 AEM Screens 관리자 또는 작성자가 *컨텐츠 할당 보고서를 스프레드시트 형식으로* 내보낼 수 있습니다.
+컨텐츠 할당 보고서 기능을 사용하면 AEM Screens 관리자 또는 작성자가 스프레드시트 형식으로 *컨텐츠 할당 보고서*&#x200B;를 내보낼 수 있습니다.
 
 ## 컨텐츠 할당 보고서 사용 {#using-content-assignment-report}
 
@@ -22,32 +22,32 @@ AEM Screens 작성자 또는 관리자는 컨텐츠 할당 보고서를 통해 A
 
 ### 컨텐츠 할당 보고서 사용 {#downloading-content-assignment-report-fp}
 
-#### 프로젝트 설정 {#setting-up-project}
+#### 프로젝트 {#setting-up-project} 설정
 
 AEM Screens 프로젝트에서 컨텐츠 할당 보고서를 다운로드하려면 아래 절차에 따르십시오.
 
-1. DemoScreens라는 이름의 AEM Screens **를 만듭니다**.
+1. **DemoScreens**&#x200B;라는 이름의 AEM Screens을 만듭니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. DemoScreens에서 **ChannelOne** 및 **ChannelTwo와 같은** 두 개의 시퀀스 채널 **을 만들 수**&#x200B;있습니다.
+1. **DemoScreens**&#x200B;에 **ChannelOne** 및 **ChannelTwo**&#x200B;와 같은 두 개의 시퀀스 채널을 만듭니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/car-2.png)
 
-1. ChannelOne **을** 선택하고 작업 **표시줄에서** 편집을 클릭합니다. 이 채널에 자산(이미지/비디오)을 몇 개 추가합니다. 마찬가지로 ChannelTwo에 자산을 **추가합니다**.
+1. **ChannelOne**&#x200B;을 선택하고 작업 표시줄에서 **편집**&#x200B;을 클릭합니다. 이 채널에 자산(이미지/비디오)을 몇 개 추가합니다. 마찬가지로 **ChannelTwo**&#x200B;에 자산을 추가합니다.
 
-1. DemoScreens에서 위치 폴더 **—>** 위치 **로 이동하여** Jose **, DublinSan**, 및 DublinSanFranciscoFrancisco라는 이름의 세 개의 다른 위치 **를 만듭니다******.
+1. **DemoScreens** —> **위치**&#x200B;에서 위치 폴더로 이동하고 **SanJose**, **Dublin** 및 **SanFrancisco**&#x200B;라는 이름의 세 개의 다른 위치를 만듭니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/car-3.png)
 
-1. 각 위치로 이동하여 SanJoseMain **** 과 같은 각 위치에 대한 디스플레이 **를 만듭니다.** SanJose **위치 아래** , Dublin **위치 아래** DublinDublinLocation **에 있는 Dublin, Vertisan 및 MainFrancisco MainFranciscoFrancisco Francisco 위치 아래에 있는 SanFranciscoFranciscoFranciscoMain** **** 위치 아래에 표시됩니다.
+1. 각 위치로 이동하여 **SanJose** 위치, **Dublin** 위치 및 **SanJoseMain**&#x200B;과 같은 각 위치에 대한 디스플레이를 만듭니다. **SanFrancisco** 위치 아래.********
 
 1. 각 디스플레이에 장치를 할당합니다.
 
    >[!NOTE]
-   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 [채널 지정을 참조하십시오](/help/user-guide/channel-assignment.md).
+   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 [채널 지정](/help/user-guide/channel-assignment.md)을 참조하십시오.
 
-#### 컨텐츠 할당 보고서 다운로드 {#downloading-content-assignment-report}
+#### 콘텐트 할당 보고서 다운로드 {#downloading-content-assignment-report}
 
 AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 각 위치에 표시를 지정했으면 컨텐츠 지정 보고서를 다운로드할 준비가 됩니다.
 
@@ -56,14 +56,14 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 각 위치�
 
 아래의 지침에 따라 콘텐트 할당 보고서를 다운로드하십시오.
 
-1. AEM Screens 프로젝트로 이동하고 프로젝트 DemoScreens를 **선택합니다**.
+1. AEM Screens 프로젝트로 이동하고 프로젝트 **DemoScreens**&#x200B;를 선택합니다.
 
-1. 작업 표시줄에서 **컨텐츠** 할당 보고서를 클릭합니다. Excel 시트를 로컬 컴퓨터에 다운로드해야 합니다.
+1. 작업 표시줄에서 **컨텐트 지정 보고서**&#x200B;를 클릭합니다. Excel 시트를 로컬 컴퓨터에 다운로드해야 합니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
-   >다운로드한 스프레드시트는 **채널**, 자산 **,**&#x200B;디스플레이 **및 장치**&#x200B;등 **이러한 4개의 개체** 를 AEM Screens 프로젝트와 관련된 추가 조사에 사용할 수 있는 네 개의 열로 구성되어 있습니다.
+   >다운로드한 스프레드시트는 AEM Screens 프로젝트와 관련된 이러한 4개의 엔티티를 추가로 조사하는 데 사용할 수 있는 **채널**, **자산**, **디스플레이** 및 **장치**&#x200B;과 같은 4개의 열로 구성됩니다.
 
 
 
