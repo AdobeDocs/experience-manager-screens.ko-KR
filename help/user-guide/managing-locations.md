@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 51%
 
 ---
 
@@ -24,34 +27,34 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 **전제 조건**:
 
 * [스크린 구성 및 배치](configuring-screens-introduction.md)
-* [스크린 프로젝트 만들기 및 관리](creating-a-screens-project.md)
+* [스크린 프로젝트 생성 및 관리](creating-a-screens-project.md)
 * [채널 생성 및 관리](managing-channels.md)
 
 ## 새 위치 만들기 {#creating-a-new-location}
 
 스크린에 대한 프로젝트를 만들었으면 아래 절차에 따라 스크린 프로젝트를 위한 새 위치를 만드십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 다음 항목으로 직접 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`Adobe
-1. Navigate to Screens project and click **Locations**.
-1. Click **Create** next to the plus icon in the action bar. 마법사가 열립니다.
-1. Select the template **Location** from the wizard and click **Next**.
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 다음 위치로 직접 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`.
+1. 스크린 프로젝트로 이동하고 **위치**&#x200B;를 클릭합니다.
+1. 작업 표시줄의 더하기 아이콘 옆에 있는 **만들기**&#x200B;를 클릭합니다. 마법사가 열립니다.
+1. 마법사에서 **위치** 템플릿을 선택하고 **다음**&#x200B;을 클릭합니다.
 
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. **제목 및 태그**, **더 많은 제목 및 설명**, **온/오프 시간** 및 **별칭 URL**&#x200B;에 대한 속성을 입력합니다.
 
-1. Click **Create** and the location is created and added to your locations folder.
+1. **만들기**&#x200B;를 클릭하면 위치가 만들어지고 위치 폴더에 추가됩니다.
 
-AEM Screens 프로젝트에 대한 새 위치 만들기에 대해 이해하려면 아래 단계를 참조하십시오. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
+AEM Screens 프로젝트에 대한 새 위치를 만드는 방법을 이해하려면 아래 단계를 참조하십시오. 데모용으로 새 위치(SanJose)는 *DemoProject* 아래에 만들어집니다.
 
 ![player2](assets/player2.gif)
 
 위치를 생성한 후에는 해당 위치에 대한 새로운 디스플레이를 생성해야 합니다.
 
-### 위치에 대한 속성 편집 {#editing-properties-for-a-location}
+### 위치 {#editing-properties-for-a-location}에 대한 속성 편집
 
-위치의 속성을 편집/액세스하려면
+위치의 속성을 편집/액세스하려면:
 
 1. 위치를 선택합니다.
-1. Click **Properties** from the action bar.
+1. 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
 
 ![player3](assets/player3.gif)
 
@@ -59,4 +62,4 @@ AEM Screens 프로젝트에 대한 새 위치 만들기에 대해 이해하려�
 
 위치를 생성한 후에는 해당 위치에 대한 새로운 디스플레이를 생성해야 합니다.
 
-See [Creating and Managing Displays](managing-displays.md) for more details.
+자세한 내용은 [디스플레이 만들기 및 관리](managing-displays.md)를 참조하십시오.
