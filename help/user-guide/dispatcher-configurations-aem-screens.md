@@ -28,7 +28,7 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 
 AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
 
-자세한 내용은 [발송자](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 구성을 참조하십시오.
+자세한 내용은 [Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 구성을 참조하십시오.
 
 ## Dispatcher 구성 {#configuring-dispatcher}
 
@@ -51,7 +51,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ### 1단계:클라이언트 헤더 구성 {#step-configuring-client-headers}
 
-섹션에 다음을 `/clientheaders`추가합니다.
+`/clientheaders`섹션 추가:
 
 **X-Requested-With**
 
@@ -61,7 +61,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ### 2단계:스크린 필터 구성 {#step-configuring-screens-filters}
 
-스크린 필터를 구성하려면 다음을 추가 ***/필터링합니다***.
+스크린 필터를 구성하려면 ***/filter***&#x200B;에 다음을 추가하십시오.
 
 ```
 ## AEM Screens Filters
@@ -84,14 +84,14 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ### 3단계:발송자 캐시 비활성화 {#step-disabling-dispatcher-cache}
 
-/content/screens 경로에 대한 발송자 캐싱 ***을 비활성화합니다***.
+***/content/screens path***&#x200B;에 대해 디스패처 캐싱을 비활성화합니다.
 
-스크린 플레이어는 인증된 세션을 사용하므로 디스패처는 플레이어에서 요구하는 모든 스크린 세트를 캐시하지 않습니다 `channels/assets`.
+스크린 플레이어는 인증된 세션을 사용하므로 디스패처는 플레이어에서 `channels/assets`에 대해 요청하는 모든 화면 플레이어를 캐시하지 않습니다.
 
 에셋이 디스패처 캐시에서 제공되도록 에셋의 캐시를 활성화하려면 다음을 수행해야 합니다.
 
-* 섹션 `/allowAuthorization 1` 에 `/cache` 추가
-* 아래의 규칙을 `/rules` `/cache`
+* `/cache` 섹션에 `/allowAuthorization 1` 추가
+* `/cache`의 `/rules` 섹션에 아래 규칙을 추가합니다.
 
 ```xml
 /0000
