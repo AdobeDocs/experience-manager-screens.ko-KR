@@ -26,7 +26,7 @@ ht-degree: 21%
 >디스플레이에 여러 채널을 지정할 수 있습니다.
 
 
-## Assigning a Channel {#assign-a-channel-new-release}
+## 채널 {#assign-a-channel-new-release} 할당
 
 아래 섹션에 따라 AEM Screens 프로젝트를 만들고 디스플레이에 채널을 지정합니다.
 
@@ -34,93 +34,93 @@ ht-degree: 21%
 
 아래 절차에 따라 프로젝트 및 채널을 설정합니다.
 
-1. DemoScreens라는 이름의 AEM Screens **프로젝트를 만듭니다**.
+1. **DemoScreens**&#x200B;라는 이름의 AEM Screens 프로젝트를 만듭니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >AEM Screens 프로젝트 [를 만드는](creating-a-screens-project.md) 방법을 알려면 프로젝트 만들기 및 관리를 참조하십시오.
+   >AEM Screens 프로젝트를 만드는 방법을 알려면 [프로젝트 만들기 및 관리](creating-a-screens-project.md)를 참조하십시오.
 
-1. 채널 폴더에 **카페테리아라는** 이름의 시퀀스 채널을 **만듭니다** .
+1. **채널** 폴더에 **Cafereus**&#x200B;라는 이름의 시퀀스 채널을 만듭니다.
 
-1. 채널을 선택하고 작업 표시줄에서 **편집을** 클릭하여 채널에 컨텐츠를 추가합니다.
+1. 채널을 선택하고 작업 표시줄에서 **편집**&#x200B;을 클릭하여 채널에 컨텐츠를 추가합니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   예를 들어, **카페테리아** 채널은 이제 다음 이미지를 표시합니다.
+   예를 들어, **Cafefra** 채널에는 다음 이미지가 표시됩니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. SanJose라는 이름의 위치 **를 만들고** Lobby로 **표시합니다**.
+1. **SanJose**&#x200B;라는 이름의 위치를 만들고 **Lobby**&#x200B;로 표시합니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### 디스플레이에 채널 지정 {#assigning-channel-to-display}
+### 디스플레이 {#assigning-channel-to-display}에 채널 할당
 
 프로젝트 설정이 완료되면, 컨텐츠를 보려면 디스플레이에 채널을 지정해야 합니다.
 
-1. 필요한 디스플레이(예: **DemoScreens** —> **위치** —> **SanJose** —> **LobbyCover**&#x200B;로이동합니다.
+1. 필요한 디스플레이로 이동합니다(예: **DemoScreens** —> **위치** —> **SanJose** —> **Lobby**).
 
-1. Tap/click **Assign Channel** from the action bar.
+1. 작업 표시줄에서 **채널 지정**&#x200B;을 탭/클릭합니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    또는,
 
-   작업 표시줄에서 **대시보드** 를 탭/클릭하고 지정된 채널 및 일정 **패널에서** 채널 **지정을** 클릭합니다.
+   작업 표시줄에서 **대시보드**&#x200B;를 탭/클릭하고 **지정된 채널 및 일정** 패널에서 **+채널 지정**&#x200B;을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. **채널 지정** 대화 상자가 열립니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. [ **설정** ] 옵션 **에서 이름별로 경로** 또는 경로 **별로 채널을 선택하고, 역할**, 채널, **채널PriorityPriority**, 지원되는Events,지원되는Events, 및Safety ************&#x200B;와 SafetyAInterftion Methods를 입력합니다. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
+1. **설정** 옵션에서 채널 **을 경로** 또는 **이름**&#x200B;별로 선택하고 **채널 역할**, **우선 순위**, **지원되는 이벤트** 및 &lt;a11/>를 입력합니다. **중단 메서드**. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >채널 지정 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
+   >채널 할당 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
-1. 예약 **옵션** 에서 **활성화 창** 및 **되풀이 일정**을선택합니다.
+1. **일정** 옵션에서 **활성화 창** 및 **되풀이 일정**을 선택합니다.
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >채널 지정 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
+   >채널 할당 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
-1. 환경 **설정을** 구성했으면 저장을 클릭합니다.
+1. 환경 설정을 구성했으면 **저장**&#x200B;을 클릭합니다.
 
 ### Chrome Player에서 콘텐트 보기 {#viewing-content-output}
 
 이 예에서는 Chrome Player에서 출력을 보여 줍니다. 디스플레이에 채널을 지정했으면 플레이어를 플레이어에 등록해야 합니다.
 
-AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 방법은 장치 등록을 참조하십시오.
+AEM Screens 플레이어에서 장치를 등록하는 방법을 알려면 [장치 등록](device-registration.md)을 참조하십시오.
 
 플레이어를 선택한 경우 다음 출력을 볼 수 있습니다.
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## 타임라인 보기 {#timeline-view}
 
-디스플레이에 채널을 지정하고 되풀이 일정을 설정했으면 지정된 채널 및 일정 **패널에서 타임라인을** 볼 수 있습니다.
+디스플레이에 채널을 지정하고 되풀이 일정을 설정했으면 **지정된 채널 및 일정** 패널에서 타임라인을 볼 수 있습니다.
 
 아래 절차에 따라 타임라인 보기로 이동합니다.
 
-1. 필요한 디스플레이(예: **DemoScreens** —> **위치** —> **SanJose** —> **LobbyCover**&#x200B;로이동합니다.
+1. 필요한 디스플레이로 이동합니다(예: **DemoScreens** —> **위치** —> **SanJose** —> **Lobby**).
 
-1. Tap/click **Assign Channel** from the action bar.
+1. 작업 표시줄에서 **채널 지정**&#x200B;을 탭/클릭합니다.
 
    또는,
 
-   대시보드 **를 탭/클릭하고** 지정된 채널 **및 일정** 패널에서 **** 타임라인을클릭합니다.
+   **대시보드**&#x200B;를 탭/클릭하고 **지정된 채널 및 일정** 패널에서 **타임라인**&#x200B;을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## 채널 지정 대화 상자에서 채널 속성 이해 {#channel-properties}
+## 채널 지정 대화 상자 {#channel-properties}의 채널 속성 이해
 
-다음 속성은 채널 지정 대화 상자의 **설정** 옵션 **에서** 설정됩니다.
+다음 속성은 **채널 지정** 대화 상자의 **설정** 옵션에서 설정됩니다.
 
 ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -130,7 +130,7 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 * **경로 기준**: 채널의 절대 경로를 사용하여 명시적 참조를 제공합니다.
 
-* **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **이름별**:컨텍스트별로 실제 채널로 확인할 채널의 이름을 입력합니다. 이 기능을 사용하면 위치별 컨텐츠를 동적으로 확인할 수 있도록 채널의 로컬 버전을 만들 수 있습니다. 예를 들어, 실제 컨텐츠가 두 도시에서 다르지만 모든 디스플레이에서 여전히 동일한 채널 역할이 있는 날짜의 *거래 이름이 있는 채널*&#x200B;이(가) 있습니다.
 
 ### 채널 역할 {#role-channel}
 
@@ -158,45 +158,45 @@ AEM Screens 플레이어에서 [장치를 등록하는](device-registration.md) 
 
 컨텐츠 작성자는 채널이 중단되는 시점을 지정할 수 있으므로 중요하지 않은 컨텐츠를 차단하도록 선택할 수 있지만 일정 때문에 재생을 중단하기 전에 중요한 컨텐츠가 완전히 재생되도록 할 수 있습니다.
 
-채널 지정 대화 상자에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 하나를 **선택합니다** .
+**채널 지정** 대화 상자에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 하나를 선택합니다.
 
 * **즉시**:일정이 활성화되거나 업데이트가 수신될 때마다 재생을 중단하고 즉시 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
-* **현재 항목**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다릴 수 있는 옵션을 사용할 수 있습니다. 단, 새 컨텐츠를 새로 고치거나 재생한 후에만 가능합니다
+* **현재 항목** 끝:새 일정이 활성화되거나 업데이트가 수신되면 시퀀스의 현재 항목이 재생을 완료할 때까지 기다릴 수 있는 옵션을 사용할 수 있습니다. 단, 새 컨텐츠를 새로 고치거나 재생한 후에만 가능합니다
 
    >[!NOTE]
    >이 옵션은 기본적으로 선택되어 있습니다.
 
-* **시퀀스**&#x200B;끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있으며 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프하면 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
+* **시퀀스** 끝:새 일정이 활성화되거나 업데이트가 수신되면 전체 시퀀스가 해당 끝에 도달할 때까지 기다리는 옵션을 사용할 수 있으며 원하는 시퀀스 바로 전에 첫 번째 요소로 다시 루프하면 새 컨텐츠를 새로 고치거나 재생할 수 있습니다
 
    >[!NOTE]
    >두 번째 또는 세 번째 옵션을 사용하면 플레이어가 새로 고치기 전에 항목이나 시퀀스의 끝(지정된 시간 후)을 기다리기 때문에 할당에 정의된 예약 시간이 약간 지연될 수 있습니다. 지연 시간은 항목의 재생 기간에 따라 다릅니다.
 
-다음 속성은 채널 지정 대화 상자의 **예약** 옵션 **에서** 설정됩니다.
+다음 속성은 **채널 지정** 대화 상자의 **일정** 옵션에서 설정됩니다.
 
 ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### 활성화 창 {#activation-window}
 
-활성화 창을 사용하면 컨텐츠를 표시할 **시작 날짜** 및 **종료 날짜를** 선택할 수 있습니다.
+활성화 창을 사용하면 **시작 날짜**&#x200B;와 **종료 날짜**&#x200B;를 선택하여 내용을 표시할 수 있습니다.
 
 ### 재현 예약 {#recurrence-schedule}
 
-되풀이 일정을 사용하면 컨텐츠에 대한 반복 일정을 설정할 수 있습니다. 채널에 반복 일정을 추가하려면 **+ 일정** 추가를 클릭합니다.
+되풀이 일정을 사용하면 컨텐츠에 대한 반복 일정을 설정할 수 있습니다. 채널에 되풀이 일정을 추가하려면 **+ 일정 추가**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >여러 개의 반복되는 일정을 채널에 추가할 수 있습니다.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>되풀이 일정에는 *DayParting*&#x200B;이 도입되어 하루 중 특정 시간에 실행되는 여러 채널을 사용하여 글로벌 일정을 설정하고 해당 설정을 한 번에 모든 디스플레이에 다시 사용할 수 있습니다.
 
 다음 옵션을 설정할 수 있습니다.
 
 * **이름**:되풀이 일정의 제목입니다.
-* **반복**:일정이 **일별**, **주별**, **월별****또는**&#x200B;연간을실행할지 여부를 선택합니다.
+* **반복**:일정이  **일별**,  **주별**,  **월별** **또는**&#x200B;연간을실행할지 여부를 선택합니다.
 * **시작**:일정의 시작 시간입니다.
 * **끝**:일정의 종료 시간입니다. 시간 또는 기간별로 설정할 수 있습니다.
    * **시간**:일정은 지정된 시간에 종료됩니다.
    * **지속 시간**:특정 시간(시간 또는 분)에 대해 일정이 실행됩니다.
 
-### DayParting {#dayparting}
+### 한시적 입찰 {#dayparting}
 
 방송 시간 분할은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생되는 컨텐츠를 지정하는 것을 말합니다. AEM Screens을 사용하면 요구 사항에 따라 하루, 주 또는 월 내에 채널 일정을 지정할 수 있습니다.
 
