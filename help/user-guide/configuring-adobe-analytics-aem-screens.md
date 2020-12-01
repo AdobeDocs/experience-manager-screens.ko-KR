@@ -19,7 +19,7 @@ ht-degree: 9%
 ---
 
 
-# AEM Screens과 Adobe Analytics 구성 {#configuring-adobe-analytics-with-aem-screens}
+# AEM Screens {#configuring-adobe-analytics-with-aem-screens}으로 Adobe Analytics 구성
 
 >[!CAUTION]
 >
@@ -32,9 +32,9 @@ ht-degree: 9%
 * **AEM Screens의 시퀀싱**
 * **오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트 전송**
 
-## AEM Screens의 시퀀싱 {#sequencing-in-adobe-analytics-with-aem-screens}
+## Adobe Analytics에서 {#sequencing-in-adobe-analytics-with-aem-screens} 시퀀싱
 
-순서 ***지정 프로세스는*** Adobe Analytics 서비스를 활성화하는 데이터 스토리지 서비스로 시작됩니다. 채널 컨텐츠는 급여와 함께 Adobe Analytics 이벤트를 전송하며, 즉 데이터 테스트 캡처를 Windows I/O로 보내고 유지 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자는 일정에 따라 객체 저장소에서 데이터를 삭제하고 청크 스토어에서 추가로 전송합니다. 연결 시 최대 데이터 양을 보냅니다.
+***시퀀싱 프로세스***&#x200B;는 Adobe Analytics 서비스를 활성화하는 데이터 저장소 서비스로 시작됩니다. 채널 컨텐츠는 급여와 함께 Adobe Analytics 이벤트를 전송하며, 즉 데이터 테스트 캡처를 Windows I/O로 보내고 유지 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자는 일정에 따라 객체 저장소에서 데이터를 삭제하고 청크 스토어에서 추가로 전송합니다. 연결 시 최대 데이터 양을 보냅니다.
 
 ### 시퀀싱 다이어그램 {#sequencing-diagram}
 
@@ -42,7 +42,7 @@ ht-degree: 9%
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트 전송 {#sending-custom-events-using-offline-adobe-analytics}
+## 오프라인 Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}을(를) 사용하여 사용자 지정 이벤트 전송
 
 다음 표는 이벤트의 표준 데이터 모델을 요약합니다. Adobe Analytics으로 보낸 모든 필드가 나열됩니다.
 
@@ -109,7 +109,7 @@ ht-degree: 9%
    <td>required</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>기본 카테고리(데스크탑, 모바일, 웹, 프로세스, SDK, 서비스, 에코시스템) - 이벤트 유형 그룹 - <strong>Adobe Send Player</strong></td> 
+   <td>기본 카테고리(DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - 이벤트 유형 그룹화 - <strong>Adobe는 플레이어</strong> 전송</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -235,7 +235,7 @@ ht-degree: 9%
    <td> </td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>실패 설명<br /> </td> 
+   <td>오류 설명<br /> </td> 
   </tr>
   <tr>
    <td><strong><em>출처/출처 제품</em></strong></td> 
