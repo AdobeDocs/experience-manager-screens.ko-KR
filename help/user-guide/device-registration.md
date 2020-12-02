@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 2%
@@ -155,7 +155,7 @@ ht-degree: 2%
 
 * 와일드카드 `*`는 검색에 지원됩니다. 예를 들어 *boston*&#x200B;으로 시작하는 이름의 모든 장치를 찾으려면 *boston**을 사용할 수 있습니다.
 
-1. 장치 이름이 *BostonStoreLobby*&#x200B;이고 *boston*&#x200B;을 검색해도 검색 기준에 *boston**을 사용하는 대신 결과가 반환됩니다.
+* 장치 이름이 *BostonStoreLobby*&#x200B;이고 *boston*&#x200B;을 검색해도 검색 기준에 *boston**을 사용하는 대신 결과가 반환됩니다.
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
