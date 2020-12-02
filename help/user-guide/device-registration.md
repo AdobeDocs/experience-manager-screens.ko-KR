@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 2%
 
 ---
 
@@ -129,20 +129,33 @@ ht-degree: 1%
 
 1. **장치** 폴더를 선택하고 작업 표시줄에서 **장치 관리자**&#x200B;를 클릭합니다.
 
+   ![이미지](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. 등록된 장치 목록이 표시됩니다.
 
-1. 등록된 장치 목록이 긴 경우 이제 작업 표시줄의 검색 아이콘을 사용하여 검색하거나 `/`(슬래시)를 클릭하여 검색 기능을 호출할 수 있습니다.
+1. 등록된 장치의 긴 목록이 있는 경우 이제 작업 표시줄의 검색 아이콘을 사용하여 검색할 수 있습니다
+
+   ![이미지](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   또는,
+
+   검색 기능을 불러오려면 `/`(슬래시)를 클릭합니다.
+
+   ![이미지](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### 검색 기능 제한 사항 {#limitations}
 
-* 사용자는 장치 ID나 장치 이름에서 모든 단어를 검색할 수 있습니다. 장치 이름을 &quot;BostonStoreLobby&quot; 대신 &quot;Boston Store Lobby&quot;과 같은 여러 단어로 저장해 두십시오.
+* 사용자는 *장치 ID* 또는 *장치 이름*&#x200B;에 존재하는 단어를 검색할 수 있습니다.
 
-* 전에는 &quot;보스턴&quot;, &quot;스토어&quot;, &quot;로비&quot;라는 단어를 검색할 수 있지만 후자의 경우 &quot;보스턴&quot;을 검색해도 결과가 표시되지 않습니다.
+   >[!NOTE]
+   >한 개의 *BostonStoreLobby*&#x200B;이 아닌 *Boston Store Lobby*&#x200B;과 같은 여러 단어로 장치 이름을 만드는 것이 좋습니다.
 
-* 와일드카드 `*`는 검색에 지원됩니다. 예를 들어 **boston**&#x200B;으로 시작하는 이름의 모든 장치를 찾으려면 **boston***을 사용할 수 있습니다.
+* *보스턴 스토어 로비*&#x200B;와 같은 장치 이름을 만드는 경우 *보스턴*, *store* 또는 *로비*&#x200B;이지만 장치 이름이 *BostonStoreLobby*&#x200B;라고 하는 경우 *검색 0/>boston&lt;a11/>은 결과를 표시하지 않습니다.*
 
-1. 장치 이름이 **BostonStoreLobby**&#x200B;이고 **boston**&#x200B;을 검색해도 결과는 반환되지 않지만 **boston***은 결과를 반환합니다.
+* 와일드카드 `*`는 검색에 지원됩니다. 예를 들어 *boston*&#x200B;으로 시작하는 이름의 모든 장치를 찾으려면 *boston**을 사용할 수 있습니다.
 
+1. 장치 이름이 *BostonStoreLobby*&#x200B;이고 *boston*&#x200B;을 검색해도 검색 기준에 *boston**을 사용하는 대신 결과가 반환됩니다.
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
