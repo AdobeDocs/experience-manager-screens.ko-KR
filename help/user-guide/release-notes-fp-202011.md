@@ -2,9 +2,9 @@
 title: Feature Pack 202011용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202011에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adob
 
 * **컨텐츠 할당 보고서**
 
-   컨텐츠 할당 보고서 기능을 사용하면 AEM Screens 관리자 또는 작성자가 스프레드시트 형식으로 될 수 있는 *컨텐츠 할당 보고서*를 내보낼 수 있습니다.
+   컨텐츠 할당 보고서 기능을 사용하면 AEM Screens 관리자 또는 작성자가 스프레드시트 형식으로 *컨텐츠 할당 보고서*를 내보낼 수 있습니다.
 자세한 내용은 [콘텐츠 할당 보고서](/help/user-guide/content-assignment-report.md)를 참조하십시오.
 
 
