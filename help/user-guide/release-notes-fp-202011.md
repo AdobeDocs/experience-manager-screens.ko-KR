@@ -2,9 +2,9 @@
 title: Feature Pack 202011용 릴리스 노트
 description: 이 페이지에서는 기능 팩 202011에 대한 릴리스 노트를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '277'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 AEM Screens은 AEM 6.5 Feature Pack 6을 출시했습니다.
 
-Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Screens 6.5.6 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하여 **Screens**&#x200B;를 검색하여 최신 기능 팩을 가져옵니다.
+Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Screens 6.5.6 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하고 **스크린**&#x200B;을 검색하여 **AEM 6.5 Screens FP6**&#x200B;라는 이름의 최신 기능 팩을 가져옵니다.
 
 ## 릴리스 날짜 {#release-date}
 
@@ -41,10 +41,11 @@ Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adob
 * **장치 관리자의 검색 기능**
 
    이제 Device Manager UI에서 AEM Screens 6.5.6 릴리스의 최신 기능 팩과 함께 새로운 검색 기능을 사용할 수 있습니다.
+자세한 내용은 [장치 관리자에서 장치 검색](/help/user-guide/device-registration.md#search-device)을 참조하십시오.
 
 * **기본 Ping 간격**
 
-   이제 이 릴리스의 기본 핑 간격이 30초로 설정됩니다.
+   이 릴리스에서는 기본 핑 간격이 30초로 설정됩니다.
 
 ### 출시된 AEM Screens 플레이어 {#released-aem-screens-players}
 
