@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -120,6 +120,29 @@ ht-degree: 2%
    또한 **마침**&#x200B;을 클릭하면 디스플레이 대시보드를 볼 수 있습니다.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### 장치 관리자에서 장치 검색 {#search-device}
+
+플레이어에 장치를 등록하면 장치 관리자 UI에서 모든 장치를 볼 수 있습니다.
+
+1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: **DemoScreens** —> **장치**).
+
+1. **장치** 폴더를 선택하고 작업 표시줄에서 **장치 관리자**&#x200B;를 클릭합니다.
+
+1. 등록된 장치 목록이 표시됩니다.
+
+1. 등록된 장치 목록이 긴 경우 이제 작업 표시줄의 검색 아이콘을 사용하여 검색하거나 `/`(슬래시)를 클릭하여 검색 기능을 호출할 수 있습니다.
+
+#### 검색 기능 제한 사항 {#limitations}
+
+* 사용자는 장치 ID나 장치 이름에서 모든 단어를 검색할 수 있습니다. 장치 이름을 &quot;BostonStoreLobby&quot; 대신 &quot;Boston Store Lobby&quot;과 같은 여러 단어로 저장해 두십시오.
+
+* 전에는 &quot;보스턴&quot;, &quot;스토어&quot;, &quot;로비&quot;라는 단어를 검색할 수 있지만 후자의 경우 &quot;보스턴&quot;을 검색해도 결과가 표시되지 않습니다.
+
+* 와일드카드 `*`는 검색에 지원됩니다. 예를 들어 **boston**&#x200B;으로 시작하는 이름의 모든 장치를 찾으려면 **boston***을 사용할 수 있습니다.
+
+1. 장치 이름이 **BostonStoreLobby**&#x200B;이고 **boston**&#x200B;을 검색해도 결과는 반환되지 않지만 **boston***은 결과를 반환합니다.
+
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
