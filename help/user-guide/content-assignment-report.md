@@ -2,10 +2,10 @@
 title: 컨텐츠 할당 보고서
 description: 이 페이지에서는 컨텐츠 할당 보고서의 다운로드 및 사용에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 7%
+source-wordcount: '332'
+ht-degree: 6%
 
 ---
 
@@ -45,10 +45,14 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 각 위치�
 
 1. AEM Screens 프로젝트로 이동하고 프로젝트 **DemoScreens**&#x200B;를 선택합니다.
 
-1. 작업 표시줄에서 **컨텐트 지정 보고서**&#x200B;를 클릭합니다. Excel 시트를 로컬 컴퓨터에 다운로드해야 합니다.
+1. 작업 표시줄에서 **컨텐트 지정 보고서**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >다운로드한 스프레드시트는 AEM Screens 프로젝트와 관련된 이러한 4개의 엔티티를 추가로 조사하는 데 사용할 수 있는 **채널**, **자산**, **디스플레이** 및 **장치**&#x200B;과 같은 4개의 열로 구성됩니다.
+
+1. Excel 시트가 AEM Screens 프로젝트 이름과 미리 동일한 이름으로 로컬 컴퓨터에 다운로드됩니다. 예를 들어 프로젝트 이름이 **DemoScreens**&#x200B;인 경우 다운로드한 파일 이름은 **demoscreens-content-assignment-report.xlxs**&#x200B;입니다.
+
+   ![이미지](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
