@@ -1,8 +1,8 @@
 ---
-title: AEM Screens과 Adobe Analytics 구성
-seo-title: AEM Screens과 Adobe Analytics 구성
-description: '오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트를 시퀀스 지정하고 전송하는 방법에 대해 자세히 알아보려면 이 섹션을 따르십시오 '
-seo-description: '오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트를 시퀀스 지정하고 전송하는 방법에 대해 자세히 알아보려면 이 섹션을 따르십시오 '
+title: AEM Screens으로 Adobe Analytics 구성
+seo-title: AEM Screens으로 Adobe Analytics 구성
+description: 'Offline Adobe Analytics을 사용하여 사용자 지정 이벤트를 시퀀싱하고 전송하는 방법에 대해 자세히 알아보려면 이 섹션을 따르십시오 '
+seo-description: 'Offline Adobe Analytics을 사용하여 사용자 지정 이벤트를 시퀀싱하고 전송하는 방법에 대해 자세히 알아보려면 이 섹션을 따르십시오 '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -23,28 +23,28 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 AEM 6.4.2 기능 팩 2 및 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다.
+>이 AEM Screens 기능은 AEM 6.4.2 Feature Pack 2 및 AEM 6.3.3 Feature Pack 4를 설치한 경우에만 사용할 수 있습니다.
 >
->이러한 기능 팩에 액세스하려면 Adobe 지원 센터에 문의하고 액세스 권한을 요청해야 합니다. 권한이 있으면 [패키지 공유]에서 다운로드할 수 있습니다.
+>이러한 기능 팩을 액세스하려면 Adobe 지원 센터에 문의하고 액세스 권한을 요청해야 합니다. 권한이 있으면 [패키지 공유]에서 다운로드할 수 있습니다.
 
-이 섹션에서는 다음과 같은 주제를 다룹니다.
+이 섹션에서는 다음 주제를 다룹니다.
 
-* **AEM Screens의 시퀀싱**
-* **오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트 전송**
+* **AEM Screens을 사용하여 Adobe Analytics에서 시퀀스 지정**
+* **오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트 보내기**
 
-## Adobe Analytics에서 {#sequencing-in-adobe-analytics-with-aem-screens} 시퀀싱
+## AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}을(를) 사용하여 Adobe Analytics에서 시퀀스 지정
 
-***시퀀싱 프로세스***&#x200B;는 Adobe Analytics 서비스를 활성화하는 데이터 저장소 서비스로 시작됩니다. 채널 컨텐츠는 급여와 함께 Adobe Analytics 이벤트를 전송하며, 즉 데이터 테스트 캡처를 Windows I/O로 보내고 유지 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자는 일정에 따라 객체 저장소에서 데이터를 삭제하고 청크 스토어에서 추가로 전송합니다. 연결 시 최대 데이터 양을 보냅니다.
+***시퀀싱 프로세스***&#x200B;는 Adobe Analytics 서비스를 활성화하는 데이터 저장소 서비스로 시작됩니다. 채널 컨텐츠는 급여와 함께 Adobe Analytics 이벤트를 전송하며, 즉 데이터 테스트 캡처를 Windows I/O로 보내고 유지 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 스토어에 추가로 저장됩니다. 일정에 따라 관리자가 설정하고, 개체 저장소에서 데이터를 잘라내고, 청크 저장소에 추가로 전송합니다. 연결 시 최대 데이터 양을 전송합니다.
 
 ### 시퀀싱 다이어그램 {#sequencing-diagram}
 
-다음 시퀀싱 다이어그램에서는 AEM Screens과의 Adobe Analytics 통합에 대해 설명합니다.
+다음 시퀀싱 다이어그램에서는 AEM Screens와의 Adobe Analytics 통합에 대해 설명합니다.
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 오프라인 Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}을(를) 사용하여 사용자 지정 이벤트 전송
+## 오프라인 Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}을(를) 사용하여 사용자 지정 이벤트 보내기
 
-다음 표는 이벤트의 표준 데이터 모델을 요약합니다. Adobe Analytics으로 보낸 모든 필드가 나열됩니다.
+다음 표에 이벤트에 대한 표준 데이터 모델이 요약되어 있습니다. Adobe Analytics으로 보낸 모든 필드가 나열됩니다.
 
 <table>
  <tbody>
@@ -61,10 +61,10 @@ ht-degree: 9%
    <td><strong><em>핵심/이벤트</em></strong></td> 
    <td>이벤트 GUID</td> 
    <td>event.guid</td> 
-   <td>권장</td> 
+   <td>recommended</td> 
    <td>문자열</td> 
    <td>UUID</td> 
-   <td>이벤트의 인스턴스를 식별하는 고유 ID</td> 
+   <td>이벤트 인스턴스를 식별하는 고유 ID</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -79,7 +79,7 @@ ht-degree: 9%
    <td> </td> 
    <td>이벤트 날짜 시간(시작)</td> 
    <td>event.dts_start</td> 
-   <td>권장</td> 
+   <td>recommended</td> 
    <td>문자열</td> 
    <td>timestamp - UTC</td> 
    <td>이벤트 시작 날짜 시간으로, 이것을 지정하지 않으면 이벤트 시간은 서버에서 받은 시간으로 가정합니다</td> 
@@ -97,28 +97,28 @@ ht-degree: 9%
    <td> </td> 
    <td>워크플로우</td> 
    <td>event.workflow</td> 
-   <td>권장</td> 
+   <td>recommended</td> 
    <td>문자열</td> 
    <td> </td> 
    <td>워크플로우 이름(스크린)</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>기본 DMe 범주</td> 
+   <td>기본 DMe 카테고리</td> 
    <td>event.category</td> 
    <td>required</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>기본 카테고리(DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - 이벤트 유형 그룹화 - <strong>Adobe는 플레이어</strong> 전송</td> 
+   <td>기본 카테고리(데스크탑, 모바일, 웹, 프로세스, SDK, 서비스, 에코시스템) - 이벤트 유형의 그룹화 - <strong>Adobe는 플레이어</strong></td> 
   </tr>
   <tr>
    <td> </td> 
    <td>하위 카테고리</td> 
    <td>event.subcategory</td> 
-   <td>권장</td> 
+   <td>recommended</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>하위 카테고리 - 워크플로우 또는 화면 영역 (최근 파일, CC 파일, 모바일 작성 등)</td> 
+   <td>하위 카테고리- 워크플로우 섹션 또는 화면 영역 등 (최근 파일, CC 파일, 모바일 작성 등)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -127,13 +127,13 @@ ht-degree: 9%
    <td>required</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>이벤트 유형(render, click, pinch, zoom) - 기본 사용자 작업</td> 
+   <td>이벤트 유형(렌더링, 클릭, 핀치, 확대/축소) - 기본 사용자 작업</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>하위 유형</td> 
    <td>event.subtype</td> 
-   <td>권장</td> 
+   <td>recommended</td> 
    <td>문자열</td> 
    <td> </td> 
    <td>이벤트 하위 유형(만들기, 업데이트, 삭제, 게시 등) - 사용자 작업의 추가 세부 정보</td> 
@@ -160,10 +160,10 @@ ht-degree: 9%
    <td> </td> 
    <td>언어/로케일</td> 
    <td>event.language</td> 
-   <td>권장</td> 
+   <td>recommended</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>사용자 로케일은 RFC 3066의 언어 태그 지정 규칙(예: en-US, fr-FR 또는 es-ES)을 기반으로 하는 문자열입니다</td> 
+   <td>사용자 로캘은 RFC 3066의 언어 태그 지정 규칙(예: en-US, fr-FR 또는 es-ES)을 기반으로 하는 문자열입니다.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -172,7 +172,7 @@ ht-degree: 9%
    <td>옵션</td> 
    <td>문자열<br /> </td> 
    <td>UUID</td> 
-   <td>장치 GUID(예: 시스템 ID 또는 IP 주소 + 서브넷 마스크 + 네트워크 ID + 사용자 에이전트)를 식별합니다. 여기서 등록 시 생성된 플레이어의 사용자 이름을 전송합니다.</td> 
+   <td>장치 GUID 식별(예: IP 주소 + 서브넷 마스크 + 네트워크 ID + 사용자 에이전트) - 등록 시 생성된 플레이어의 사용자 이름을 전송합니다.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -190,7 +190,7 @@ ht-degree: 9%
    <td>옵션</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>이벤트의 값(예: 설정 켜기/끄기)</td> 
+   <td>이벤트 값(예: 설정 켜기/끄기)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -235,10 +235,10 @@ ht-degree: 9%
    <td> </td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>오류 설명<br /> </td> 
+   <td>실패 설명<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>출처/출처 제품</em></strong></td> 
+   <td><strong><em>소스/원래 제품</em></strong></td> 
    <td>이름</td> 
    <td>source.name</td> 
    <td>required</td> 
@@ -316,7 +316,7 @@ ht-degree: 9%
    <td>required</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>자산의 URL(변환 제외)</td> 
+   <td>자산에 대한 URL(변환 제외)</td> 
   </tr>
   <tr>
    <td> </td> 
