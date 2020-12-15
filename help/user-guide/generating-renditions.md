@@ -40,13 +40,13 @@ Full HD 표현물을 자동으로 생성하려면 아래 절차를 따르십시�
 
 1. **DAM 자산 업데이트** 모델을 선택하고 작업 표시줄에서 편집을 클릭하여 **DAM 자산 업데이트** 창을 엽니다.
 
-   ![step5_-_edit_thdamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
+   ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
 1. **FFmpeg 코드 변환** 단계를 두 번 클릭합니다.
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. **프로세스** 탭을 선택하여 프로세스 인수를 편집합니다. **Arguments**&#x200B;의 목록에 대한 전체 HD 프로필을 다음과 같이 입력합니다.***,profile:fullhd-bp,profile:fullhd-hp***&#x200B;을 클릭하고 **확인**&#x200B;을 클릭합니다.
+1. **프로세스** 탭을 선택하여 프로세스 인수를 편집합니다. **인수**&#x200B;의 목록에 대한 전체 HD 프로필을 다음과 같이 입력합니다.***,profile:fullhd-bp,profile:fullhd-hp***&#x200B;을(를) 클릭하고 **확인**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -54,17 +54,17 @@ Full HD 표현물을 자동으로 생성하려면 아래 절차를 따르십시�
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. **자산**&#x200B;으로 이동하여 새 비디오를 업로드합니다. 비디오를 클릭하고 표현물 사이드 레일을 여십시오. 그러면 두 개의 Full HD 비디오가 표시됩니다.
+1. **자산**&#x200B;으로 이동하여 새 비디오를 업로드합니다. 비디오를 클릭하고 표현물 사이드 레일을 열면 2개의 Full HD 비디오를 볼 수 있습니다.
 
    ![step10_-_open_tevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. 사이드 레일에서 **변환**&#x200B;을 엽니다.
+1. 사이드 레일에서 **표현물**&#x200B;을 엽니다.
 
    ![step11_-_open_renditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
 1. 새로운 Full HD 표현물 두 개를 발견할 수 있습니다.
 
-   ![step12_-_2_new_renditions비디오로 변환](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditionsarededtothe video](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## Full HD 표현물 수동 생성 {#manually-generating-full-hd-renditions}
 
@@ -82,7 +82,7 @@ Full HD 표현물을 수동으로 생성하려면 아래 절차를 따르십시�
 
 1. **페이로드**&#x200B;에서 원하는 비디오를 선택하고 **실행**&#x200B;을 클릭합니다.
 
-   ![step6_-_select_thedesedicedvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![step6_-_select_thedesedvideo](assets/step6_-_select_thedesiredvideo.png)
 
 1. **자산**&#x200B;으로 이동하여 자산으로 드릴다운하고 해당 자산을 클릭합니다.
 
