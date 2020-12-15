@@ -1,8 +1,8 @@
 ---
-title: AEM Screens용 발송자 구성
-seo-title: AEM Screens용 발송자 구성
-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 설명합니다.
-seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 설명합니다.
+title: AEM Screens용 Dispatcher 구성
+seo-title: AEM Screens용 Dispatcher 구성
+description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
+seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
 translation-type: tm+mt
 source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
@@ -12,15 +12,15 @@ ht-degree: 5%
 ---
 
 
-# AEM Screens용 발송자 구성{#dispatcher-configurations-for-aem-screens}
+# AEM Screens{#dispatcher-configurations-for-aem-screens}용 발송자 구성
 
 Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다.
 
-다음 페이지에서는 AEM Screens 프로젝트에 대해 발송자를 구성하기 위한 지침을 제공합니다.
+다음 페이지에서는 AEM Screens 프로젝트에 대한 디스패처를 구성하기 위한 지침을 제공합니다.
 
 >[!NOTE]
 >
->발송자를 사용할 수 있는 경우 발송자 규칙에서 필터링하여 등록 서블릿에 대한 연결을 방지할 수 있습니다.
+>디스패처가 사용 가능한 경우 디스패처 규칙에서 필터링하여 등록 서블릿에 대한 연결을 방지할 수 있습니다.
 >
 >디스패처가 없으면 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
 
@@ -32,7 +32,7 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ## Dispatcher 구성 {#configuring-dispatcher}
 
-아래 절차에 따라 AEM Screens 프로젝트에 대한 디스패처를 구성합니다.
+AEM Screens 프로젝트에 대한 디스패처를 구성하려면 아래 절차를 따르십시오.
 
 ### 고정 세션 활성화 {#enable-sticky-session}
 
@@ -49,9 +49,9 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 }
 ```
 
-### 1단계:클라이언트 헤더 구성 {#step-configuring-client-headers}
+### 1단계:클라이언트 헤더 구성 중 {#step-configuring-client-headers}
 
-`/clientheaders`섹션 추가:
+`/clientheaders`섹션에 다음을 추가합니다.
 
 **X-Requested-With**
 
@@ -84,11 +84,11 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ### 3단계:발송자 캐시 비활성화 {#step-disabling-dispatcher-cache}
 
-***/content/screens path***&#x200B;에 대해 디스패처 캐싱을 비활성화합니다.
+***/content/screens 경로***&#x200B;에 대해 디스패처 캐싱을 비활성화합니다.
 
-스크린 플레이어는 인증된 세션을 사용하므로 디스패처는 플레이어에서 `channels/assets`에 대해 요청하는 모든 화면 플레이어를 캐시하지 않습니다.
+스크린 플레이어는 인증된 세션을 사용하므로 디스패처는 플레이어가 `channels/assets`에 대한 스크린 요청을 캐시하지 않습니다.
 
-에셋이 디스패처 캐시에서 제공되도록 에셋의 캐시를 활성화하려면 다음을 수행해야 합니다.
+디스패처 캐시에서 에셋이 제공되도록 에셋에 대한 캐시를 활성화하려면 다음을 수행해야 합니다.
 
 * `/cache` 섹션에 `/allowAuthorization 1` 추가
 * `/cache`의 `/rules` 섹션에 아래 규칙을 추가합니다.
