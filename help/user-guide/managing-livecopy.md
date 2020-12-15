@@ -1,5 +1,5 @@
 ---
-title: Live Copy 생성 및 관리
+title: Live Copy 만들기 및 관리
 seo-title: LiveCopy 관리
 description: 이 페이지에서는 채널의 Live Copy 생성 및 관리에 대해 설명합니다.
 seo-description: 채널의 Live Copy를 생성하고, 속성을 보고, 상태를 확인하고, Live Copy에 해당 채널의 변경 사항을 전파하려면 이 페이지를 따르십시오.
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. 또는 다음 위치로 바로 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`.
 
-1. 스크린 프로젝트로 이동하고 **채널**&#x200B;을 클릭합니다.
+1. [스크린] 프로젝트로 이동하고 **채널**&#x200B;을 클릭합니다.
 1. **만들기**&#x200B;를 클릭하고 **Live Copy**&#x200B;를 선택하여 채널의 Live Copy를 만듭니다.
 
 1. 대상을 선택하고 **다음**&#x200B;을 클릭합니다.
@@ -82,7 +82,7 @@ Live Copy의 컨텐츠를 보려면 아래 절차를 참조하십시오.
 
 아래 그림에 표시된 대로 **Live Copy 상태** 모드를 사용하면 채널에 있는 모든 자산의 관계 상태를 볼 수 있습니다.
 
-1. **편집**&#x200B;을 클릭하여 **Live Copy 상태**&#x200B;를 선택하고 채널 컨텐츠의 Live Copy가 생성된 원래 채널과 연관성을 확인합니다.
+1. **편집**&#x200B;을 클릭하여 **Live Copy 상태**&#x200B;를 선택하고 채널 컨텐츠의 Live Copy가 생성되는 원래 채널 연결을 확인합니다.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
