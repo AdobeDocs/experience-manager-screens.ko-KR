@@ -25,17 +25,17 @@ ht-degree: 2%
 
 ## {#registering-a-device} 장치 등록
 
-장치 등록 프로세스는
+장치 등록 프로세스는 2개의 개별 컴퓨터에서 수행됩니다.
 
 * 등록할 실제 장치(예: 신호 표시)
 * 장치를 등록하는 데 사용되는 AEM 서버
 
 >[!NOTE]
 >
->최신 Windows Player(*.exe*)를 다운로드하면 [AEM 6.4 Player 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
+>최신 Windows Player(*.exe*)를 다운로드한 후 [AEM 6.4 Player 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
->1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
->1. 왼쪽 작업 메뉴에서 **구성**&#x200B;으로 이동하고 **Server**&#x200B;에 AEM 인스턴스의 위치 주소를 입력하고 **저장**&#x200B;을 클릭합니다.
+>1. 왼쪽 위 모서리를 길게 눌러 관리 패널을 엽니다.
+>1. 왼쪽 작업 메뉴에서 **구성**&#x200B;으로 이동하고 **서버**&#x200B;에 AEM 인스턴스의 위치 주소를 입력하고 **저장**&#x200B;을 클릭합니다.
 >1. 장치 등록 프로세스를 완료하려면 왼쪽 작업 메뉴에서 **등록** 링크를 클릭하십시오.
 
 >
@@ -52,7 +52,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >AEM 대시보드에서 Screens용 새 프로젝트를 만드는 방법에 대한 자세한 내용은 [스크린 프로젝트 만들기 및 관리](creating-a-screens-project.md)를 참조하십시오.
+   >AEM 대시보드에서 스크린용 새 프로젝트를 만드는 방법에 대한 자세한 내용은 [스크린 프로젝트 만들기 및 관리](creating-a-screens-project.md)를 참조하십시오.
 
 1. 작업 표시줄에서 **장치 관리자** 단추를 탭/클릭합니다.
 
@@ -70,16 +70,16 @@ ht-degree: 2%
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 장치에서 **등록 코드**&#x200B;를 확인하십시오.
+1. 장치에서 **등록 코드**&#x200B;를 선택합니다.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. **등록 코드**&#x200B;가 두 컴퓨터 모두에서 동일한 경우, (6) 단계에 표시된 대로 AEM에서 **유효성 검사** 단추를 탭/클릭합니다.
+1. **등록 코드**&#x200B;가 두 컴퓨터 모두에서 동일한 경우, 단계(6)와 같이 AEM의 **유효성 검사** 단추를 탭/클릭합니다.
 1. 장치의 원하는 이름을 설정하고 **등록**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 등록 프로세스를 완료하려면 **마침**&#x200B;을 탭/클릭합니다.
+1. 등록 프로세스를 완료하려면 **완료**&#x200B;를 탭/클릭합니다.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -89,13 +89,13 @@ ht-degree: 2%
    >
    >**디스플레이 지정**&#x200B;을 사용하면 장치를 디스플레이에 직접 추가할 수 있습니다.
 
-   **마침**&#x200B;을 클릭하는 경우 장치를 디스플레이에 할당해야 합니다.
+   **완료**&#x200B;를 클릭하면 장치를 디스플레이에 할당해야 합니다.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >스크린 프로젝트에 대한 디스플레이 생성 및 관리에 대한 자세한 내용은 [디스플레이 만들기 및 관리](managing-displays.md)를 참조하십시오.
+   >스크린 프로젝트에 대한 디스플레이 만들기 및 관리에 대한 자세한 내용은 [디스플레이 만들기 및 관리](managing-displays.md)를 참조하십시오.
 
 ### 디스플레이 {#assigning-device-to-a-display}에 장치 할당
 
@@ -103,21 +103,21 @@ ht-degree: 2%
 
 1. 장치를 선택하고 작업 표시줄에서 **장치 지정**&#x200B;을 클릭합니다.
 
-   ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
+   ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
 1. **표시/장치 구성 경로**&#x200B;에서 표시 경로를 선택합니다.
 
-   ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
+   ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 경로를 선택하면 **할당**&#x200B;을 클릭합니다.
+1. 경로를 선택할 때 **할당**&#x200B;을 클릭합니다.
 
-   ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
+   ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 아래 그림과 같이 장치가 성공적으로 지정되면 **마침**&#x200B;을 클릭합니다.
+1. 아래 그림과 같이 장치가 성공적으로 할당되면 **완료**&#x200B;를 클릭합니다.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   또한 **마침**&#x200B;을 클릭하면 디스플레이 대시보드를 볼 수 있습니다.
+   또한 **완료**&#x200B;를 클릭하면 디스플레이 대시보드를 볼 수 있습니다.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 
    또는,
 
-   검색 기능을 불러오려면 `/`(슬래시)를 클릭합니다.
+   검색 기능을 호출하려면 `/`(슬래시)를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/device-manager/device-manager-3.png)
 
@@ -149,13 +149,13 @@ ht-degree: 2%
 * 사용자는 *장치 ID* 또는 *장치 이름*&#x200B;에 존재하는 단어를 검색할 수 있습니다.
 
    >[!NOTE]
-   >한 개의 *BostonStoreLobby*&#x200B;이 아닌 *Boston Store Lobby*&#x200B;과 같은 여러 단어로 장치 이름을 만드는 것이 좋습니다.
+   >하나의 *BostonStoreLobby*&#x200B;이 아닌 *보스턴 스토어 로비*&#x200B;와 같은 여러 단어로 장치 이름을 만드는 것이 좋습니다.
 
-* *보스턴 스토어 로비*&#x200B;와 같은 장치 이름을 만드는 경우 *보스턴*, *store* 또는 *로비*&#x200B;이지만 장치 이름이 *BostonStoreLobby*&#x200B;라고 하는 경우 *검색 0/>boston&lt;a11/>은 결과를 표시하지 않습니다.*
+* *보스턴 스토어 로비*&#x200B;와 같은 장치 이름을 만드는 경우 *보스턴*, *스토어* 또는 *로비*&#x200B;로 표시되지만 장치 이름이 *BostonStoreLobby* 검색 &lt;a110/> 0/>boston *은 결과를 표시하지 않습니다.*
 
-* 와일드카드 `*`는 검색에 지원됩니다. 예를 들어 *boston*&#x200B;으로 시작하는 이름의 모든 장치를 찾으려면 *boston**을 사용할 수 있습니다.
+* 와일드카드 `*`는 검색에 지원됩니다. 이름이 *boston*&#x200B;인 모든 장치를 찾으려면 *boston**을 사용할 수 있습니다.
 
-* 장치 이름이 *BostonStoreLobby*&#x200B;이고 *boston*&#x200B;을 검색해도 검색 기준에 *boston**을 사용하는 대신 결과가 반환됩니다.
+* 장치 이름이 *BostonStoreLobby*&#x200B;이고 *boston*&#x200B;을 검색해도 검색 조건에 *boston**을 사용하는 대신 결과가 반환됩니다.
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
@@ -177,4 +177,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 추가 리소스 {#additional-resources}
 
-AEM Screens 플레이어에 대한 자세한 내용은 [AEM Screens 플레이어](working-with-screens-player.md)를 참조하십시오.
+AEM Screens Player에 대한 자세한 내용은 [AEM Screens Player](working-with-screens-player.md)를 참조하십시오.
