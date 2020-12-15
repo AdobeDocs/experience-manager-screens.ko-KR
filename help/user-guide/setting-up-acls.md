@@ -1,8 +1,8 @@
 ---
 title: ACL 설정
 seo-title: ACL 설정
-description: 각 개인 또는 팀이 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 알려면 이 페이지를 따르십시오.
-seo-description: 각 개인 또는 팀이 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 알려면 이 페이지를 따르십시오.
+description: 각 개인 또는 팀이 자신의 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 알아보려면 이 페이지를 따르십시오.
+seo-description: 각 개인 또는 팀이 자신의 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 알아보려면 이 페이지를 따르십시오.
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
@@ -20,13 +20,13 @@ ht-degree: 6%
 
 # ACL 설정 {#setting-up-acls}
 
-다음 섹션에서는 개별 또는 팀이 자체 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 설명합니다.
+다음 섹션에서는 개별 또는 팀별로 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 설명합니다.
 
 AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해하지 않도록 하고 각 사용자에게 프로젝트 요구 사항에 따라 특정 역할이 할당되도록 해야 합니다.
 
 ## 권한 설정 {#setting-up-permissions}
 
-다음 단계에서는 프로젝트에 대한 ACL 설정 절차에 대해 설명합니다.
+다음 단계는 프로젝트에 대한 ACL 설정 절차를 요약합니다.
 
 1. AEM에 로그인하고 **도구** > **보안**&#x200B;으로 이동합니다.
 
@@ -34,7 +34,7 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
 
 1. **그룹**&#x200B;을 클릭하고 ID(예: Acme)를 입력합니다.
 
-   또는 `http://localhost:4502/libs/granite/security/content/groupadmin.html` 링크를 사용하십시오.
+   또는 `http://localhost:4502/libs/granite/security/content/groupadmin.html` 링크를 사용합니다.
 
    그런 다음 **저장**&#x200B;을 클릭합니다.
 
@@ -50,15 +50,15 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
 
    >[!NOTE]
    >
-   >프로젝트 팀 구성원이 플레이어를 등록하도록 하는 경우(모든 플레이어용 사용자를 만드는 과정) 그룹 사용자 관리자를 찾아 사용자 관리자에게 ACME 그룹을 추가합니다
+   >프로젝트 팀 구성원이 플레이어를 등록하도록 하는 경우(모든 플레이어에 대해 사용자 생성을 포함함) 그룹 사용자 관리자를 찾아 사용자 관리자에게 ACME 그룹을 추가합니다
 
 1. **Acme** 프로젝트에서 작업할 모든 사용자를 **Acme** 그룹에 추가합니다.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 이 `(http://localhost:4502/useradmin)`를 사용하여 **Acme** 그룹에 대한 권한을 설정합니다.
+1. 이 `(http://localhost:4502/useradmin)`을(를) 사용하여 **Acme** 그룹에 대한 권한을 설정합니다.
 
-   **Acme** 그룹을 선택하고 **permissions**&#x200B;을 클릭합니다.
+   **Acme** 그룹을 선택하고 **권한**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -77,19 +77,19 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
 
 >[!NOTE]
 >
->경우에 따라 작성자 기능(예: 자산 관리 및 채널 만들기)을 관리 기능에서 분리할 수 있습니다(플레이어 등록 등). 이러한 시나리오에서 두 그룹을 만들고 작성자 그룹을 작성자에게 추가하고 작성자 및 사용자 관리자 모두에게 관리 그룹을 추가합니다.
+>경우에 따라 작성자 함수(예: 자산 관리 및 채널 만들기)를 관리 함수(예: 플레이어 등록)에서 분리할 수 있습니다. 이러한 시나리오에서 2개의 그룹을 만들고 작성자 그룹을 작성자에게 추가하고 관리자 그룹은 기여자 및 사용자 관리자 모두에게 추가합니다.
 
-### 그룹 {#creating-groups} 만들기
+### 그룹 만들기 {#creating-groups}
 
-새 프로젝트를 만들면 기본 권한 세트가 지정된 기본 사용자 그룹도 만들어야 합니다. 권한을 AEM Screens에 대한 일반적인 역할로 확장해야 합니다.
+새 프로젝트를 만들면 기본 권한 집합이 할당된 기본 사용자 그룹도 만들어야 합니다. 권한을 AEM Screens에 대한 일반적인 역할로 확장해야 합니다.
 
-예를 들어 다음 프로젝트 특정 그룹을 만들 수 있습니다.
+예를 들어 다음과 같은 프로젝트 특정 그룹을 만들 수 있습니다.
 
 * 스크린 프로젝트 관리자
 * 스크린 프로젝트 운영자(플레이어 등록 및 위치 및 장치 관리)
 * 스크린 프로젝트 사용자(채널, 일정 및 채널 지정 작업)
 
-다음 표에는 AEM Screens 프로젝트에 대한 설명 및 권한이 있는 그룹이 요약되어 있습니다.
+다음 표는 AEM Screens 프로젝트에 대한 설명 및 권한이 있는 그룹을 요약해 줍니다.
 
 <table>
  <tbody>
@@ -100,20 +100,20 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
   </tr>
   <tr>
    <td>스크린 관리자<br /> <em>screens-admins</em></td>
-   <td>AEM Screens 기능에 대한 관리자 수준 액세스</td>
+   <td>AEM Screens 기능에 대한 관리자 수준의 액세스</td>
    <td>
     <ul>
      <li>기여자 회원</li>
      <li>사용자 관리자 구성원</li>
      <li>모든 /content/screens</li>
      <li>모든 /content/dam</li>
-     <li>ALL /content/experience-fragments</li>
+     <li>모든 /content/experience-fragments</li>
      <li>모든 /etc/design/screens</li>
     </ul> </td>
   </tr>
   <tr>
    <td>스크린 사용자<br /> <em>screens-users</em></td>
-   <td>채널 및 일정을 생성 및 업데이트하고 AEM Screens의 위치에 할당</td>
+   <td>채널 및 일정을 생성 및 업데이트하고 AEM Screens에서 위치에 할당</td>
    <td>
     <ul>
      <li>기여자 회원</li>
@@ -123,8 +123,8 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens 연산자<br /> <em>screens-operators</em></td>
-   <td>AEM Screens에서 위치 구조 생성 및 업데이트, 플레이어 등록</td>
+   <td>스크린 연산자<br /> <em>screens-operators</em></td>
+   <td>AEM Screens에서 위치 구조 만들기 및 업데이트, 플레이어 등록</td>
    <td>
     <ul>
      <li>기여자 회원</li>
@@ -135,8 +135,8 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
   </tr>
   <tr>
    <td>스크린 플레이어<br /> <em>screens-&lt;project&gt;-devices</em></td>
-   <td>모든 플레이어 및 모든 플레이어/장치를 그룹화하는 것이 자동으로 기여자의 구성원입니다.</td>
-   <td><p> 기여자</p> </td>
+   <td>모든 플레이어 및 모든 플레이어/장치는 자동으로 기여자 멤버입니다.</td>
+   <td><p> 기여자 회원</p> </td>
   </tr>
  </tbody>
 </table>
