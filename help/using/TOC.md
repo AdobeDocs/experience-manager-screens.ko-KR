@@ -42,7 +42,7 @@ ht-degree: 78%
       + [네트워크 트래픽 관리](/help/using/managing-network-traffic.md)
       + [직접 인터넷 네트워크(유선/무선)](/help/using/direct-internet-network.md)
       + [직접 모바일 네트워크](/help/using/mobile-network.md)
-      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크](/help/using/mobile-network-router.md)
+      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소가 있는 모바일 네트워크](/help/using/mobile-network-router.md)
       + [동봉된 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
    + [장치 구성](device-configurations.md)
    + [테스트 및 품질 보증](testing-quality-assurance.md)
