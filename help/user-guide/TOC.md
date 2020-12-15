@@ -16,14 +16,14 @@ ht-degree: 19%
 
 # AEM Screens 사용 안내서 {#user-guide}
 
-+ [화면 소개](aem-screens-introduction.md)
++ [스크린 소개](aem-screens-introduction.md)
 + 개요 및 시작 안내서 {#overview}
    + [시작 안내서](kickstart-for-aem-screens.md)
    + [스크린 우수 사례 가이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-screens/using/about-guide.html)
    + [주요 용어](screens-glossary.md)
-+ 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
++ 디지털 신호 네트워크 기본 사항 {#digital-signage-network}
    + [1부:프로젝트 역할 및 책임](project-roles-responsibilities.md)
-   + [2부:프로젝트 범위 시 고려 사항](project-considerations.md)
+   + [2부:프로젝트가 범위가 지정되므로 고려 사항](project-considerations.md)
    + [3부:테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
    + [4부:프로젝트 관리 및 배포](project-management-and-deployment.md)
    + [5부:지원 고려 사항](support-considerations.md)
@@ -34,22 +34,22 @@ ht-degree: 19%
    + [Screens 플레이어 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
    + [ACL 설정](setting-up-acls.md)
-   + [AEM Screens 보안 체크리스트](security-checklist.md)
+   + [AEM Screens 보안 검사 목록](security-checklist.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
-   + [파일의 새 프로젝트 가져오기](project-importer.md)
+   + [파일에서 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
-      + [문제 해결을 위한 익스텐션으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
+      + [문제 해결을 위한 확장 프로그램으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [티젠 플레이어](tizen-player.md)
    + 작성자 게시 {#author-publish}
-      + [저작-출판 아키텍처 개요](author-publish-architecture-overview.md)
+      + [제작-게시 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
-   + AEM Screens과 분석 통합 {#analytics-integration}
+   + AEM Screens {#analytics-integration}과(와) 분석 통합
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
-      + [AEM Screens과 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
+      + [AEM Screens으로 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
 + 작성 및 사용 사례 예 {#authoring}
    + 스크린 프로젝트 설정 {#setting-up-projects}
       + [프로젝트 만들기 및 관리](creating-a-screens-project.md)
@@ -63,12 +63,12 @@ ht-degree: 19%
          + [채널 지정:이전 AEM Screens 기능 팩](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}
       + [텍스트 오버레이](text-overlay.md)
-      + [일괄 오프라인 업데이트](bulk-offline-update.md)
+      + [오프라인 일괄 업데이트](bulk-offline-update.md)
       + [AEM Screens 알림 서비스](screens-notifications-service.md)
       + [경험 조각 사용](experience-fragments-in-screens.md)
       + [자산 수준 활성화](asset-level-scheduling.md)
       + [채널 수준 활성화](channel-level-activation.md)
-      + [Live Copy 생성 및 관리](managing-livecopy.md)
+      + [Live Copy 만들기 및 관리](managing-livecopy.md)
       + [비디오 패딩 작업 과정 만들기](creating-a-video-padding-workflow.md)
       + [채널에 구성 요소 추가](adding-components-to-a-channel.md)
       + [포함된 시퀀스](embedded-sequences.md)
@@ -82,20 +82,20 @@ ht-degree: 19%
       + [컨텐츠 할당 보고서](content-assignment-report.md)
    + 콘텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 컨텐츠 업데이트](on-demand-content.md)
-      + [컨텐츠 서비스 업데이트](content-update-as-a-service.md)
+      + [서비스로 제공되는 컨텐츠 업데이트](content-update-as-a-service.md)
       + [스크린 시작을 사용한 컨텐츠 업데이트](launches.md)
    + 사용 사례 예 {#use-case-examples}
       + [비상 채널](emergency-channel.md)
       + [여행 센터 온도 활성화](local-temperature-activation.md)
       + [숙박 예약 활성화](hospitality-reservation-activation.md)
-      + [소매 재고 타깃팅 활성화](retail-inventory-activation.md)
+      + [소매 인벤토리 타깃팅 활성화](retail-inventory-activation.md)
       + [전환 적용](applying-transitions.md)
-      + [여러 영역을 단일 영역으로 전환](multizone-to-singlezone.md)
+      + [단일 영역 전환을 위한 다중 영역](multizone-to-singlezone.md)
       + [단일 사용 인계채널](single-use-takeover-channel.md)
       + [영구 사용 인계채널](perpetual-takeover-channel.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
-   + [AEM Screens용 사용자 지정 구성 요소 개발](developing-custom-component-tutorial-develop.md)
+   + [AEM Screens용 사용자 정의 구성 요소 개발](developing-custom-component-tutorial-develop.md)
    + [오프라인 채널](offline-channels.md)
    + [AEM Screens 구성 요소 확장](extending-component-tutorial-develop.md)
    + [구성 요소 만들기](creating-components.md)
@@ -103,17 +103,17 @@ ht-degree: 19%
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
-+ 문제 해결 및 FAQ {#troubleshooting}
++ 문제 해결 및 FAQ의 {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
-   + [Feature Pack 202011용 릴리스 노트](release-notes-fp-202011.md)
+   + [기능 팩 202011에 대한 릴리스 노트](release-notes-fp-202011.md)
    + [Feature Pack 202008용 릴리스 노트](release-notes-fp-202008.md)
-   + [Feature Pack 202004용 릴리스 노트](release-notes-fp-202004.md)
+   + [Feature Pack 202004의 릴리스 노트](release-notes-fp-202004.md)
    + [Feature Pack 202001용 릴리스 노트](release-notes-fp-202001.md)
-   + [Feature Pack 201909용 릴리스 노트](release-notes-fp-201909.md)
-   + [Feature Pack 201907용 릴리스 노트](release-notes-fp-201907.md)
-   + [Feature Pack 201905용 릴리스 노트](screens-release-notes-fp-201905.md)
-   + [Feature Pack 201812용 릴리스 노트](release-notes-fp-201812.md)
-   + [Feature Pack 201809용 릴리스 노트](screens-release-notes.md)
+   + [기능 팩 201909에 대한 릴리스 노트](release-notes-fp-201909.md)
+   + [기능 팩 201907에 대한 릴리스 노트](release-notes-fp-201907.md)
+   + [기능 팩 201905에 대한 릴리스 노트](screens-release-notes-fp-201905.md)
+   + [기능 팩 201812에 대한 릴리스 노트](release-notes-fp-201812.md)
+   + [기능 팩 201809에 대한 릴리스 노트](screens-release-notes.md)
