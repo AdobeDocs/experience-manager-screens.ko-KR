@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 69%
+ht-degree: 72%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 69%
 
 디스플레이에 장치를 지정하려면 아래 단계를 따르십시오.
 
-1. 프로젝트의 장치 폴더로 이동합니다(예:
+1. 프로젝트의 장치 폴더로 이동하십시오. 예를 들면 다음과 같습니다.
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
@@ -50,7 +50,7 @@ ht-degree: 69%
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. **Finish**&#x200B;를 탭/클릭하여 할당 프로세스를 완료합니다.
+1. **완료**&#x200B;를 탭/클릭하여 할당 프로세스를 완료합니다.
 
 
    디스플레이 대시보드의 **장치** 패널에는 지정된 장치가 표시됩니다.
