@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Android 아키텍처로 인해 장치를 재부팅하려면 응용 프로그램�
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensored.apk
 1. 장치에 adb 설치를 사용하여 ***aemscreensalested.apk*** 설치
 
-## Android Watchdog 구현 {#android-watchdog-implementation}
+## Android Watchdog 서비스 이해 {#android-watchdog-services}
 
 크로스 Android 감시 서비스는 *AlarmManager*&#x200B;를 사용하여 cordova 플러그인으로 구현됩니다.
 
@@ -129,7 +129,7 @@ Android 플레이어에서 벌크 프로비저닝을 허용하려면 아래 절�
 1. 플레이어 응용 프로그램이 실행되면 이 구성 파일을 읽고 등록 및 제어될 수 있는 해당 AEM 서버를 가리킵니다.
 
    >[!NOTE]
-   >이 파일은 응용 프로그램을 처음 실행할 때 *읽기 전용* 파일이며 이후 구성에 사용할 수 없습니다. 구성 파일을 삭제하기 전에 플레이어를 실행한 경우 간단히 해당 애플리케이션을 제거하고 장치에 다시 설치하십시오.
+   >이 파일은 응용 프로그램을 처음 실행할 때 *읽기 전용*&#x200B;으로, 후속 구성에 사용할 수 없습니다. 구성 파일을 삭제하기 전에 플레이어를 실행한 경우 간단히 해당 애플리케이션을 제거하고 장치에 다시 설치하십시오.
 
 ### 정책 특성 {#policy-attributes}
 
