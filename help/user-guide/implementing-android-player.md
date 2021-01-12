@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -109,3 +109,65 @@ Android 아키텍처로 인해 장치를 재부팅하려면 응용 프로그램�
 >Android에서 *AlarmManager*&#x200B;는 앱이 충돌했고 API 19(Kitkat)에서 경보 배달이 정확하지 않은 경우에도 실행할 수 있는 *pendingIntents*&#x200B;을 등록하는 데 사용됩니다. 타이머의 간격과 *AlarmManager의* *pendingIntent의* 경고 사이에 약간의 간격을 유지하십시오.
 
 **3. 응용 프로그램 충돌** 충돌이 발생한 경우 AlarmManager에 등록된 다시 부팅에 대한 보류 중인 의도가 더 이상 재설정되지 않으므로 응용 프로그램의 다시 부팅 또는 다시 시작을 실행합니다(cordova 플러그인의 초기화 시 사용 가능한 권한에 따라).
+
+## Android Player {#bulk-provision-android-player} 벌크 프로비저닝
+
+Android 플레이어를 일괄적으로 롤아웃할 때는 Admin UI에 수동으로 입력하지 않고도 AEM 인스턴스를 가리키도록 플레이어를 프로비저닝하고 다른 속성을 구성해야 합니다.
+
+>[!NOTE]
+>이 기능은 Android 플레이어 42.0.372에서 사용할 수 있습니다.
+
+Android 플레이어에서 벌크 프로비저닝을 허용하려면 아래 절차를 따르십시오.
+
+1. 이름이 `player-config.default.json`인 구성 JSON 파일을 만듭니다.
+[JSON 정책 예](#example-json) 및 다양한 [정책 특성](#policy-attributes)의 사용을 설명하는 표를 참조하십시오.
+
+1. MDM, ADB 또는 Android Studio 파일 탐색기를 사용하여 이 정책 JSON 파일을 Android 장치의 *sdcard* 폴더에 드롭합니다.
+
+1. 파일이 배포되면 MDM을 사용하여 플레이어 애플리케이션을 설치합니다.
+
+1. 플레이어 응용 프로그램이 실행되면 이 구성 파일을 읽고 등록 및 제어될 수 있는 해당 AEM 서버를 가리킵니다.
+
+   >[!NOTE]
+   >이 파일은 응용 프로그램을 처음 실행할 때 *읽기 전용* 파일이며 이후 구성에 사용할 수 없습니다. 구성 파일을 삭제하기 전에 플레이어를 실행한 경우 간단히 해당 애플리케이션을 제거하고 장치에 다시 설치하십시오.
+
+### 정책 특성 {#policy-attributes}
+
+다음 표는 참조용 JSON 정책 예제와 함께 정책 속성을 요약합니다.
+
+| **정책 이름** | **목적** |
+|---|---|
+| *서버* | Adobe Experience Manager 서버에 대한 URL. |
+| *해상도* | 장치의 해상도입니다. |
+| *rebootSchedule* | 재부팅할 일정은 모든 플랫폼에 적용됩니다. |
+| *enableAdminUI* | 사이트에서 장치를 구성하려면 관리자 UI를 활성화합니다. 프로덕션 및 구성이 완료되면 *false*&#x200B;로 설정합니다. |
+| *enableOSD* | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 완전히 구성되어 프로덕션에 있으면 *false*&#x200B;로 설정하는 것이 좋습니다. |
+| *enableActivityUI* | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시할 수 있습니다. 문제 해결을 활성화하거나, 완전히 구성된 후 프로덕션에서 비활성화할 수 있습니다. |
+| *enableNativeVideo* | 비디오 재생에 기본 하드웨어 가속 사용(Android만 해당) |
+
+### JSON 정책 예 {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>모든 Android 장치에는 실제 *sdcard*&#x200B;가 삽입되었는지 여부에 관계 없이 *sdcard* 폴더가 있습니다. 배포될 때 이 파일은 다운로드 폴더와 동일한 수준에 있게 됩니다. Samsung Knox와 같은 일부 MDM은 이 *sdcard* 폴더 위치를 *내부 저장소*&#x200B;로 참조할 수 있습니다.
