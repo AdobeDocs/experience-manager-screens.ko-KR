@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,22 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 1. 장치의 리모콘에서 **MENU** 단추를 클릭하고 왼쪽 탐색 막대에서 **System**&#x200B;으로 아래로 스크롤합니다.
 
-1. 아래로 스크롤하고 **URL 실행 프로그램** 옵션을 선택합니다.
+1. 아래로 스크롤하고 **을 통해 재생 옵션을 선택하고** URL 시작 관리자&#x200B;**옵션으로 변경합니다.**
    ![이미지](/help/user-guide/assets/tizen/rms-2.png)
 
-1. 리모콘에서 **홈** 단추를 누릅니다.
+1. URL 실행(Launcher)이 설정되면 리모컨에서 **Home** 단추를 누릅니다.
 
-1. localhost 서버의 IP 주소를 입력합니다.
-
-1. **개발자 모드**&#x200B;에서 **원격**&#x200B;을 선택합니다.
-
-1. 장치의 원격 장치에서 **홈** 단추를 클릭하고 **URL 시작 관리자**&#x200B;를 선택합니다.
+1. **URL 시작 설정**&#x200B;으로 이동하고 로컬 호스트 서버의 IP 주소를 입력합니다.
 
 1. 이제 AEM Screens Player가 Samsung 장치에 자동으로 설치 및 실행되어야 합니다.
+
+   >[!NOTE]
+   >Tizen 장치와 `http` 서버 모두 서로 연결할 수 있어야 합니다. 즉, 서버에 Tizen 플레이어에 연결할 수 있어야 합니다.
 
 ## Tizen Player의 벌크 프로비저닝 {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->많은 수의 장치에 대해 각 및 모든 장치의 관리자 UI에 AEM 서버 주소를 수동으로 입력하는 것은 번거로운 작업일 수 있습니다. 솔루션 배포 및 관리에 RMS(Samsung Remote Management) 솔루션을 사용하는 것이 좋습니다. 자세한 내용은 [RMS(Samsung Remote Management Service)](#enroll-tizen-device-rm)에 Tizen 장치 등록을 참조하십시오.
+>많은 수의 장치에 대해 각 및 모든 장치의 관리자 UI에 AEM 서버 주소를 수동으로 입력하는 것은 번거로운 작업일 수 있습니다. 대규모 솔루션을 배포하고 관리하는 경우 Samsung Remote Management(RMS) 솔루션을 사용하는 것이 좋습니다. 자세한 내용은 [RMS(Samsung Remote Management Service)](#enroll-tizen-device-rm)에 Tizen 장치 등록을 참조하십시오.
 
 실행 시 AEM 작성자 인스턴스를 가리키도록 애플리케이션을 일괄 프로비저닝하려면 아래 단계를 따르십시오.
 
@@ -111,9 +110,9 @@ RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launc
    >화면이 URL 실행 프로그램을 통해 재생되도록 설정되어 있는지 확인합니다.
    >![이미지](/help/user-guide/assets/tizen/rms-2.png)
 
-1. [서버 주소]로 이동하여 MagicInfo URL 액세스를 입력하고 [완료]를 누릅니다.
+1. 서버 주소로 이동하여 MagicInfo URL 액세스 권한을 입력하고 **Done**&#x200B;을 누릅니다.
 
-1. 필요한 경우 TLS를 설정합니다. 포트를 탐색하고 서버에서 포트 번호를 선택합니다. **저장**&#x200B;을 클릭합니다.
+1. 필요한 경우 TLS를 설정합니다. 포트로 이동하여 서버에서 포트 번호를 선택하고 **저장**&#x200B;을 클릭합니다.
 
 1. **장치** 탭으로 이동하여 방금 구성한 장치를 확인합니다. 장치가 발견되면 확인란을 클릭하고 **승인**&#x200B;을 선택합니다.
 
