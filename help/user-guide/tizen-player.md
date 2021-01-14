@@ -2,10 +2,10 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,9 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 1. Adobe Experience Manager(AEM) 서비스 팩 6.5.8으로 업그레이드하십시오.
 
+   >[!NOTE]
+   >AEM 6.5.8을 설치하는 경우 2단계와 3단계를 건너뛸 수 있습니다.
+
 1. AEM에서 `/system/console/bundles`으로 이동하고 `install/update` 단추를 클릭합니다.
 
 1. `crx-auth-token` jar 파일을 설치합니다. 이 jar는 인증과 관련되어 있으므로 이 jar를 설치한 후 AEM을 종료하고 다시 시작해야 할 수 있습니다.
@@ -38,27 +41,23 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 1. 샘플 속성&#x200B;*에서 제외되는 새 옵션*&#x200B;사용자 에이전트가 표시됩니다. *SameSite=None* 속성과 호환되지 않는 사용자 에이전트에 해당하는 regex로 이 값을 채웁니다.
    >[!NOTE]
-   >[SameSite=None을 참조하십시오.자세한 내용은 호환되지 않는 클라이언트](https://www.chromium.org/updates/same-site/incompatible-clients)을(를) 참조하십시오. Tizen 플레이어의 경우 regex를 사용합니다.`(.*)Tizen (4|5)(.*)`.
+   >[SameSite=None을 참조하십시오.자세한 내용은 호환되지 않는 클라이언트](https://www.chromium.org/updates/same-site/incompatible-clients)을(를) 참조하십시오. Tizen 플레이어의 경우 regex를 사용합니다.`(.*)Tizen(.*)`.
 
 1. AEM 6.5.5 이상 인스턴스에 대해 Tizen 플레이어를 등록하면 정상적으로 컨텐츠를 등록하고 표시할 수 있습니다.
 
 
 ## 로컬 서버 설정 및 Zip 파일 압축 해제 {#setting-local-server}
 
-아래 절차에 따라 로컬 서버를 설정하고 추출된 파일을 복사합니다.
-
-1. 로컬 컴퓨터의 IP 주소를 가져옵니다.
-   >[!NOTE]
-   >공식 설명서를 검토하여 플랫폼에서 로컬 서버를 활성화하는 방법에 대해 알아보십시오.
-
-1. Terminal에서 압축을 푼 설치 프로그램 폴더의 동일한 디렉토리로 이동하여 localhost가 작동하는지 확인합니다.
-
-1. Tizen 플레이어는 로컬 서버에서 설치 프로그램을 다운로드합니다.
+아래 단계를 따르십시오.
 
 1. 추출된 두 파일(예: `AEMScreensPlayer.wgt` 및 `sssp_config.xml`)을 로컬 Apache 웹 서버의 루트 디렉토리에 복사합니다.
 
    >[!NOTE]
    >`AEMScreensPlayer.wgt`은 실제 Tizen 플레이어 응용 프로그램이며 `sssp_config.xml`에는 이 맵을 Tizen 장치에 설치할 수 있도록 돕는 이 맵에 대한 정보가 포함되어 있습니다.
+
+1. 로컬 HTTP 서버의 IP 또는 URL(루트 폴더가 아닌 하위 폴더로 추출된 파일이 들어 있는 폴더의 경로) 가져오기
+
+1. Tizen 플레이어는 로컬 서버에서 설치 프로그램을 다운로드합니다.
 
 ### Samsung 장치에 업데이트 구성 {#config-updates}
 
@@ -73,7 +72,9 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 1. URL 실행(Launcher)이 설정되면 리모컨에서 **Home** 단추를 누릅니다.
 
-1. **URL 시작 설정**&#x200B;으로 이동하고 로컬 호스트 서버의 IP 주소를 입력합니다.
+1. **URL 시작 설정**&#x200B;으로 이동하고 로컬 호스트 서버의 IP 주소를 입력하고 **완료**&#x200B;를 클릭합니다.
+   >[!NOTE]
+   >Tizen 플레이어는 http 서버에 연결할 수 있어야 합니다.
 
 1. 이제 AEM Screens Player가 Samsung 장치에 자동으로 설치 및 실행되어야 합니다.
 
@@ -115,6 +116,8 @@ RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launc
 1. 필요한 경우 TLS를 설정합니다. 포트로 이동하여 서버에서 포트 번호를 선택하고 **저장**&#x200B;을 클릭합니다.
 
 1. **장치** 탭으로 이동하여 방금 구성한 장치를 확인합니다. 장치가 발견되면 확인란을 클릭하고 **승인**&#x200B;을 선택합니다.
+
+   >![이미지](/help/user-guide/assets/tizen/rms-3.png)
 
 1. 필요한 정보를 입력하고 장치 그룹을 선택합니다. 승인 프로세스를 완료하려면 **확인**&#x200B;을 클릭하십시오.
 
