@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
+source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 1. [AEM 6.5 Player 다운로드](https://download.macromedia.com/screens/) 페이지로 이동하여 티젠 플레이어를 다운로드합니다.
 
 1. 로컬 컴퓨터에서 Tizen 플레이어 *(.zip)* 파일을 설치합니다.
+
+## 샘플 쿠키 문제로 사용자 에이전트 제외 {#exempting-user-agents}
+
+>[!IMPORTANT]
+>**이 섹션은 AEM 6.5.5에서 AEM 6.5.7**에 적용됩니다.
+>AEM 6.5에서 AEM 6.7로 발행한 로그인 토큰에 사용된 *SameSite=None* 속성과 호환되지 않는 브라우저 엔진이 있습니다. 대부분의 경우 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 내장 검색 엔진이 있는 상단 상자 또는 기타 장치 등 일부 경우에는 업그레이드를 수행할 수 없습니다. SameSite=None을 사용할 때 이러한 호환되지 않는 클라이언트를 제외하려면 다음 단계를 사용하십시오.
+
+1. `https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`에서 *jar 파일* 패치를 다운로드합니다.
+
+1. AEM에서 `/system/console/bundles`으로 이동하고 `install/update` 단추를 클릭합니다.
+
+1. `crx-auth-token` jar 파일을 설치합니다. 이 jar는 인증과 관련되어 있으므로 이 jar를 설치한 후 AEM을 종료하고 다시 시작해야 할 수 있습니다.
+
+1. AEM이 다시 시작되면 `/system/console/configMgr`으로 이동하여 **Adobe Granite Token 인증 핸들러**&#x200B;를 검색합니다. SameSite 설정에 대한 값을 None으로 설정합니다.
+
+1. 샘플 속성&#x200B;*에서 제외되는 새 옵션*&#x200B;사용자 에이전트가 표시됩니다. *SameSite=None* 속성과 호환되지 않는 사용자 에이전트에 해당하는 regex로 이 값을 채웁니다.
+   >[!NOTE]
+   >[SameSite=None을 참조하십시오.자세한 내용은 호환되지 않는 클라이언트](https://www.chromium.org/updates/same-site/incompatible-clients)을(를) 참조하십시오.
+
+1. Tizen 플레이어의 경우 regex를 사용합니다.`(.*)Tizen (4|5)(.*)` AEM 6.5.5 이상 인스턴스에 대해 Tizen 플레이어를 등록하면 정상적으로 컨텐츠를 등록하고 표시합니다.
+
 
 ## 로컬 서버 설정 및 Zip 파일 압축 해제 {#setting-local-server}
 
@@ -46,7 +67,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 1. 장치의 리모콘에서 **MENU** 단추를 클릭하고 왼쪽 탐색 막대에서 **System**&#x200B;으로 아래로 스크롤합니다.
 
 1. 아래로 스크롤하고 **URL 실행 프로그램** 옵션을 선택합니다.
-   ![이미지](/help/user-guide/assets/tizen/url-launcher.png)
+   ![이미지](/help/user-guide/assets/tizen/rms-2.png)
 
 1. 리모콘에서 **홈** 단추를 누릅니다.
 
@@ -86,34 +107,31 @@ RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launc
 
    >[!NOTE]
    >화면이 URL 실행 프로그램을 통해 재생되도록 설정되어 있는지 확인합니다.
+   >![이미지](/help/user-guide/assets/tizen/rms-2.png)
 
 1. [서버 주소]로 이동하여 MagicInfo URL 액세스를 입력하고 [완료]를 누릅니다.
 
-1. 대/소문자별로 TLS를 사용하거나 사용하지 않도록 설정
-   1. 포트로 이동하여 서버에서 포트 번호를 선택합니다.
-   1. 옵션이 준비되면 저장을 누릅니다.
+1. 필요한 경우 TLS를 설정합니다. 포트를 탐색하고 서버에서 포트 번호를 선택합니다. **저장**&#x200B;을 클릭합니다.
 
-1. MIS에 로그인한 후 장치 탭으로 이동
-   1. IP 주소 및/또는 Mac 주소를 보고 방금 구성한 장치를 찾습니다.
-   1. 장치가 발견되면 확인란을 클릭하고 승인을 선택합니다.
+1. 장치 탭으로 이동하여 방금 구성한 장치를 찾습니다.
 
-1. [승인됨] 단추를 클릭하면 다음 팝업이 나타납니다
-   1. 필요한 정보 채우기
-   1. 장치 그룹 선택
-   1. 확인 단추를 클릭하여 승인 프로세스를 완료합니다.
+1. 장치가 발견되면 확인란을 클릭하고 **승인**&#x200B;을 선택합니다.
 
-1. 장치가 승인되면 장치 목록에 다음과 같이 나타납니다.
-   1. 장치 상자 &quot;i&quot;에 있는 정보 단추를 클릭합니다.
+1. 필요한 정보를 입력하고 장치 그룹을 선택합니다. 승인 프로세스를 완료하려면 **확인**&#x200B;을 클릭하십시오.
 
-1. [장치 정보] 팝업이 다음과 같이 나타나고 [편집] 단추를 클릭합니다.
+   >![이미지](/help/user-guide/assets/tizen/rms-7.png)
 
-1. 장치 옵션을 편집하고 **설정** 탭을 선택합니다.
+1. 장치가 승인되면 장치 목록에 표시됩니다. 장치 상자 **i**&#x200B;에 있는 *정보* 단추를 클릭합니다.
 
-1. **URL Launcher** 섹션으로 이동하여 아래 그림과 같이 wgt를 호스팅하는 URL 및 `SSSP config file` 애플리케이션을 설치합니다.`SSSP`
+   >![이미지](/help/user-guide/assets/tizen/rms-6.png)
+
+1. 장치 정보 대화 상자가 표시됩니다. **장치 정보** 탭을 선택하고 **편집**&#x200B;을 클릭합니다.
+
+1. 장치 옵션을 편집하고 **설정** 탭을 선택합니다. **URL Launcher** 섹션으로 이동하여 아래 그림과 같이 wgt를 호스팅하는 URL 및 `SSSP config file` 애플리케이션을 설치합니다.`SSSP`
 
    ![이미지](/help/user-guide/assets/tizen/rms-9.png)
 
-1. 표시 화면에서 변경 사항을 적용하려면 **저장**&#x200B;을 클릭합니다.
+1. 변경 내용이 표시 화면에 표시하려면 **저장**&#x200B;을 클릭합니다.
 
 
 
