@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 ### RMS(Samsung Remote Management Service) {#enroll-tizen-device-rms}에 Tizen 장치 등록
 
-RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launcher를 원격으로 구성하려면 아래 단계를 따르십시오.
+RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launcher를 원격으로 구성하려면 아래 절차를 따르십시오.
 
 >[!NOTE]
 >네트워크 설정과 모니터를 확인합니다.
@@ -107,9 +107,13 @@ RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launc
 
 1. [장치 정보] 팝업이 다음과 같이 나타나고 [편집] 단추를 클릭합니다.
 
-1. 장치 편집 옵션이 다음과 같이 나타나고 설정 탭을 선택합니다.
+1. 장치 옵션을 편집하고 **설정** 탭을 선택합니다.
 
-1. URL 시작 관리자 섹션을 찾아 SSSP 응용 프로그램을 설치하려면 wgt를 호스팅하는 URL과 `SSSP config file`을 입력합니다.
+1. **URL Launcher** 섹션으로 이동하여 아래 그림과 같이 wgt를 호스팅하는 URL 및 `SSSP config file` 애플리케이션을 설치합니다.`SSSP`
+
+   ![이미지](/help/user-guide/assets/tizen/rms-9.png)
+
+1. 표시 화면에서 변경 사항을 적용하려면 **저장**&#x200B;을 클릭합니다.
 
 
 
