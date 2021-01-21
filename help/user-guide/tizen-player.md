@@ -2,9 +2,9 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 >[!IMPORTANT]
 >**이 섹션은 Adobe Experience Manager(AEM) 6.5.5에서 AEM 6.5.7**에 적용됩니다.
->AEM 6.5에서 AEM 6.7로 발행한 로그인 토큰에 사용된 *SameSite=None* 속성과 호환되지 않는 브라우저 엔진이 있습니다. 대부분의 경우 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 내장 검색 엔진이 있는 상단 상자 또는 기타 장치 등 일부 경우에는 업그레이드를 수행할 수 없습니다.
+>AEM 6.5에서 AEM 6.7로 발행한 로그인 토큰에 사용되는 *SameSite=None* 속성과 호환되지 않는 브라우저 엔진이 있습니다. 대부분의 경우 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 내장 검색 엔진이 있는 상단 상자 또는 기타 장치 등 일부 경우에는 업그레이드를 수행할 수 없습니다.
 
 *SameSite=None*&#x200B;을 사용할 때 이러한 호환되지 않는 클라이언트를 제외하려면 아래 단계를 따르십시오.
 
@@ -102,10 +102,6 @@ RMS(Samsung Remote Management Service)에 Tizen 장치를 등록하고 URL Launc
 >네트워크 설정과 모니터를 확인합니다.
 
 1. **메뉴** -> **네트워크** -> **서버 네트워크 설정**&#x200B;으로 이동하고 **Enter**&#x200B;를 누릅니다.
-
-   >[!NOTE]
-   >화면이 URL 실행 프로그램을 통해 재생되도록 설정되어 있는지 확인합니다.
-   >![이미지](/help/user-guide/assets/tizen/rms-2.png)
 
 1. 서버 주소로 이동하여 MagicInfo URL 액세스 권한을 입력하고 **Done**&#x200B;을 누릅니다.
 
