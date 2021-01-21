@@ -2,7 +2,7 @@
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
+source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 1%
@@ -67,7 +67,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 *SameSite=None*&#x200B;을 사용할 때 이러한 호환되지 않는 클라이언트를 제외하려면 아래 단계를 따르십시오.
 
-1. Adobe Experience Manager(AEM) 서비스 팩 6.5.8으로 업그레이드하십시오.
+1. Adobe Experience Manager(AEM) 서비스 팩 6.5.7으로 업그레이드하십시오.
 
 1. AEM이 다시 시작되면 `/system/console/configMgr`으로 이동하여 **Adobe Granite Token 인증 핸들러**&#x200B;를 검색합니다. **SameSite** 값의 값을 **None**&#x200B;으로 설정합니다.
 
