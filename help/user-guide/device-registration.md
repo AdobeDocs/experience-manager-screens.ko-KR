@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 2%
@@ -121,7 +121,7 @@ ht-degree: 2%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### 장치 관리자에서 장치 검색 {#search-device}
+## 장치 관리자에서 장치 검색 {#search-device}
 
 플레이어에 장치를 등록하면 장치 관리자 UI에서 모든 장치를 볼 수 있습니다.
 
@@ -144,14 +144,14 @@ ht-degree: 2%
    ![이미지](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### 검색 기능 제한 사항 {#limitations}
+### 검색 기능 제한 사항 {#limitations}
 
 * 사용자는 *장치 ID* 또는 *장치 이름*&#x200B;에 존재하는 단어를 검색할 수 있습니다.
 
    >[!NOTE]
    >하나의 *BostonStoreLobby*&#x200B;이 아닌 *보스턴 스토어 로비*&#x200B;와 같은 여러 단어로 장치 이름을 만드는 것이 좋습니다.
 
-* *보스턴 스토어 로비*&#x200B;와 같은 장치 이름을 만드는 경우 *보스턴*, *스토어* 또는 *로비*&#x200B;로 표시되지만 장치 이름이 *BostonStoreLobby* 검색 &lt;a110/> 0/>boston *은 결과를 표시하지 않습니다.*
+* *보스턴 스토어 로비*&#x200B;와 같은 장치 이름을 만드는 경우 *보스턴*, *스토어* 또는 *로비*&#x200B;로 표시되지만 장치 이름이 *BostonStoreLobby* 검색 *0/>boston*&#x200B;은 결과를 표시하지 않습니다.
 
 * 와일드카드 `*`는 검색에 지원됩니다. 이름이 *boston*&#x200B;인 모든 장치를 찾으려면 *boston**을 사용할 수 있습니다.
 
