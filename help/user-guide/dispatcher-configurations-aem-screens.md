@@ -4,9 +4,9 @@ seo-title: AEM Screens용 Dispatcher 구성
 description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '391'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,9 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 아래 절차
  }
 ```
 
-한 디스패처가 앞에 하나의 게시 인스턴스를 두고 있는 경우, 로드 밸런서가 각 요청을 디스패처에 보낼 수 있으므로 디스패처의 설정 지연을 활성화해도 도움이 되지 않습니다. 이 경우 부하 균형 조정기 수준에서 고착성을 활성화해야 합니다.
+한 디스패처가 앞에 하나의 게시 인스턴스를 두고 있는 경우, 로드 밸런서가 각 요청을 디스패처에 보낼 수 있으므로 디스패처의 설정 지연을 활성화해도 도움이 되지 않습니다. 이 경우, 아래 그림과 같이 **스티커** 필드에서 **활성화** 필드를 클릭하여 부하 균형 조정기 수준에서 활성화합니다.
+
+![이미지](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 예를 들어, AWS ALB를 사용하는 경우, ALB 수준에서 고착성을 활성화하려면 애플리케이션 로드 밸런서에 대한 [타겟 그룹](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)을 참조하십시오. 1일 동안 고착성을 활성화합니다.
 
