@@ -4,10 +4,10 @@ seo-title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 미리 복제됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 seo-description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 미리 복제됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
+source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -165,8 +165,8 @@ ht-degree: 4%
 1. **Apache ActiveMQ Artemis JMS 공급자** 구성을 선택합니다.
 1. 다음을 업데이트합니다.
 
-   * ***클러스터 암호***:(각 인스턴스당 이전 단계의 암호화된 값 사용)
-   * ***항목***:{name:&#39;commands&#39;, 주소:&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
+   * ***클러스터 암호***:각 인스턴스당 이전 단계의 암호화된 값 사용
+   * ***항목***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### ActiveMQ 아르테미 클러스터 {#verify-activemq-artemis-cluster} 확인
 
