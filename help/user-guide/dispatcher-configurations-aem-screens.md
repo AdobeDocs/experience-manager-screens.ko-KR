@@ -4,10 +4,10 @@ seo-title: AEM Screens용 Dispatcher 구성
 description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 5%
+source-wordcount: '380'
+ht-degree: 3%
 
 ---
 
@@ -32,22 +32,26 @@ AEM Screens 프로젝트에 대한 디스패처를 구성하려면 먼저 Dispat
 
 ## Dispatcher 구성 {#configuring-dispatcher}
 
+AEM Screens 플레이어/장치는 인증된 세션을 사용하여 게시 인스턴스의 리소스에 액세스할 수도 있습니다. 따라서 여러 게시 인스턴스가 있는 경우 인증된 세션이 AEM Screens 플레이어/장치에서 들어오는 모든 요청에 대해 유효하도록 항상 동일한 게시 인스턴스로 이동되어야 합니다.
+
 AEM Screens 프로젝트에 대한 디스패처를 구성하려면 아래 절차를 따르십시오.
 
 ### 고정 세션 활성화 {#enable-sticky-session}
 
-디스패처와 함께 둘 이상의 게시 인스턴스를 사용하려면 `dispatcher.any` 파일을 업데이트해야 합니다.
+단일 디스패처가 앞에 두고 있는 여러 게시 인스턴스를 사용하려면 `dispatcher.any` 파일을 업데이트하여 설정 지연을 활성화해야 합니다
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+한 디스패처가 앞에 하나의 게시 인스턴스를 두고 있는 경우, 로드 밸런서가 각 요청을 디스패처에 보낼 수 있으므로 디스패처의 설정 지연을 활성화해도 도움이 되지 않습니다. 이 경우 부하 균형 조정기 수준에서 고착성을 활성화해야 합니다.
+
+예를 들어, AWS ALB를 사용하는 경우, ALB 수준에서 고착성을 활성화하려면 애플리케이션 로드 밸런서에 대한 [타겟 그룹](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)을 참조하십시오. 1일 동안 고착성을 활성화합니다.
 
 ### 1단계:클라이언트 헤더 구성 중 {#step-configuring-client-headers}
 
