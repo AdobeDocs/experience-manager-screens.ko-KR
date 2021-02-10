@@ -4,9 +4,9 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 2%
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. 아래 그림과 같이 **위치** 폴더에 디스플레이를 만듭니다.
+1. 아래 그림과 같이 **위치** 폴더에 **Lobby** 위치를 만들고 **LobbyDisplay**라는 제목의 디스플레이를 아래 그림과 같이 아래 표에 적어 둡니다.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. **ChannelLobby** 채널을 **LobbyDisplay**에 할당합니다.
+1. **ChannelLobby** 채널을 **LobbyDisplay**에 할당합니다. 이제 디스플레이 대시보드에서 디스플레이에 지정된 채널을 볼 수 있습니다.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md)를 참조하십시오.
+   >장치를 등록하는 방법을 알려면 [장치 등록](/help/user-guide/device-registration.md)을 참조하십시오.
 
 1. 데모 목적으로 이 예는 크롬 장치와 Windows 플레이어를 별도의 두 디바이스로 보여줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
    ![image1](assets/command-sync6.png)
