@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -37,8 +37,8 @@ AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player�
 >[!NOTE]
 >AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows Player용 환경을 설정해야 합니다.
 
-로그인 토큰 쿠키에 대한 **SameSite 특성을** Lax **에서** Adobe Experience Manager 웹 콘솔에서 &lt;a4/>None **으로 설정합니다.
-모든 AEM 작성자 및 게시 인스턴스에 대한 구성**.****
+로그인 토큰 쿠키에 대한 **SameSite 특성을** Lax **에서** Adobe Experience Manager 웹 콘솔에서 **None**으로 설정합니다.
+모든 AEM 작성자 및 게시 인스턴스에 대한 구성**.**
 
 아래 단계를 따르십시오.
 
@@ -71,6 +71,25 @@ AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player�
 ### 벌크 서버 구성:하나의 구성 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}으로 여러 Windows 10 플레이어 등록
 
 Windows 플레이어를 설치한 후에는 하나의 구성으로 여러 플레이어를 등록할 수 있습니다.
+
+## CLI(PowerShell) {#install-powershell}을(를) 사용한 설치
+
+1. Screens 플레이어용 사용자 지정 위치 **전용**을(를) 만듭니다. 예:
+   `C:\Users\User\screens-player`)
+1.  설치
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. 열기
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**예**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
