@@ -6,7 +6,7 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 * 예약된 컨텐츠가 있는지, 그리고 시간이 올바른지 확인하십시오. 플레이어에서 설정한 시간이 올바른지 확인합니다.
 * Inspect 플레이어 콘솔 로그가 기록되고 오류가 있는지 확인합니다. 마우스 오른쪽 단추를 클릭하고 검사하여 콘솔 로그를 확인합니다. windows 플레이어를 사용하는 경우 `CTRL + ALT +I`을 눌러 개발 콘솔을 표시하여 로그를 봅니다.
 
-### 2. 기본 채널 또는 일정을 만들어 AEM Screens의 빈 화면 문제를 해결하는 방법?
+### 2. 기본 채널 또는 일정을 만들어 AEM Screens의 회색 화면 문제를 해결하는 방법?
 
 필드의 빈 화면이나 회색 화면을 피하려면 우선 순위가 가장 낮은 모든 디스플레이에 지정된 기본 전역 채널 또는 일정을 만드십시오. 네트워크, 플레이어, 서버 또는 복제로 인해 컨텐츠 업데이트(네트워크, 플레이어, 서버 또는 복제)에 문제가 있는 경우 플레이어는 이 컨텐츠를 이미 디스크에 캐시하므로 제대로 재생되고 회색 스크린은 표시되지 않습니다.
 
