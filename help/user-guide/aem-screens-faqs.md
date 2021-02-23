@@ -6,9 +6,9 @@ seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 �
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -165,6 +165,24 @@ Windows Player에는 윈도우 모드가 없습니다. 항상 전체 화면 모�
 1. *author* 또는 *publish* 인스턴스와 화면 경로가 `sling:match`에 일치하고 내부적으로 다른 경로로 리디렉션되었는지 확인합니다. `/etc/map` `/system/console/jcrresolver`의 정확한 URL을 확인하면 *publish* 인스턴스가 이러한 URL을 다른 경로로 재작성하고 있는지 확인할 수 있습니다.
 
 1. Apache Sling 리소스 확인자 팩토리 구성 때문에 내부 다시 쓰기가 발생하는지 확인하십시오.
+
+### 플레이어 API에서 디스플레이 및 디바이스의 세부 정보를 얻는 방법?
+
+다음 두 가지 방법으로 세부 정보를 얻을 수 있습니다.
+
+* **내부 JS API**
+* **ContextHub 저장소**:채널, 장치 및 디스플레이 정보 `/libs/screens/clientlibs/contexthub` 를 노출하기 위해 3개의 ContextHub 저장소가 정의됩니다.
+
+   다음 ContentHub 저장소 값을 사용하려면 아래 절차를 따르십시오.
+
+   * 채널 속성을 편집하고 개인화 탭의 ContextHub 경로를 값(위에 언급된 대로)으로 설정합니다.
+   * 채널 JS에서 다음을 사용할 수 있습니다.
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## 일반 문제 해결 팁 {#general-troubleshooting-tips}
 
