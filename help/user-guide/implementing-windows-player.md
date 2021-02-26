@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -67,10 +67,6 @@ AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player�
 >**상태**&#x200B;가 **REGISTERED**&#x200B;이면 **장치 ID** 필드가 채워지는 것을 확인할 수 있습니다.
 >
 >**상태**&#x200B;가 **UNREGISTERED**&#x200B;인 경우 **토큰**&#x200B;을 사용하여 장치를 등록할 수 있습니다.
-
-### 벌크 서버 구성:하나의 구성 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}으로 여러 Windows 10 플레이어 등록
-
-Windows 플레이어를 설치한 후에는 하나의 구성으로 여러 플레이어를 등록할 수 있습니다.
 
 ## CLI(PowerShell) {#install-powershell}을(를) 사용한 설치
 
