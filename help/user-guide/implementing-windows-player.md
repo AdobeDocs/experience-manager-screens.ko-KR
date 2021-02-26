@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player�
 >**상태**&#x200B;가 **REGISTERED**&#x200B;이면 **장치 ID** 필드가 채워지는 것을 확인할 수 있습니다.
 >
 >**상태**&#x200B;가 **UNREGISTERED**&#x200B;인 경우 **토큰**&#x200B;을 사용하여 장치를 등록할 수 있습니다.
+
+## Windows Installer {#changing-default-options}에서 기본 옵션 변경
+
+Windows Installer의 기본 옵션을 변경하는 방법 및 사용 가능한 사용자 정의 목록을 확인하려면 이 섹션을 따르십시오.
 
 ## CLI(PowerShell) {#install-powershell}을(를) 사용한 설치
 
