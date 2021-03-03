@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 1%
@@ -91,13 +91,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Windows Player 벌크 등록**
->
->Windows 플레이어를 구현할 때 모든 단일 플레이어를 수동으로 구성할 필요가 없습니다. 대신 구성 JSON 파일을 테스트하여 배포할 준비가 된 후에 업데이트할 수 있습니다.
->
->이 구성을 통해 구성 파일에 제공된 동일한 서버에 ping하는 모든 플레이어가 있는지 확인합니다. 여전히 각 플레이어를 수동으로 등록해야 합니다.
+## Windows Player {#bulk-registration} 벌크 등록
+
+Windows 플레이어를 구현할 때 모든 단일 플레이어를 수동으로 구성할 필요가 없습니다. 대신 구성 JSON 파일을 테스트하여 배포할 준비가 된 후에 업데이트할 수 있습니다.
+
+이 구성을 통해 구성 파일에 제공된 동일한 서버에 ping하는 모든 플레이어가 있는지 확인합니다. 여전히 각 플레이어를 수동으로 등록해야 합니다.
 
 아래 절차에 따라 Windows 10 플레이어를 구성합니다.
 
