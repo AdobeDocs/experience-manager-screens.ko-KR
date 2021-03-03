@@ -2,10 +2,10 @@
 title: 기능 팩 202103에 대한 릴리스 노트
 description: 이 페이지에서는 기능 팩 202103에 대한 릴리스 정보를 강조 표시합니다.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 10%
+source-wordcount: '355'
+ht-degree: 4%
 
 ---
 
@@ -33,11 +33,8 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 08일입니다
 
 * **Enterprise Mobility Management를 사용하여 Android Player의 대량 프로비저닝**
 
-   Android 플레이어를 일괄 배포할 때 AEM에 모든 단일 플레이어를 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 준비하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 업계 표준 EMM Appconfig를 지원하여 원격 프로비저닝을 허용합니다.
+   Android 플레이어를 일괄 배포할 때 AEM에 모든 단일 플레이어를 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 준비하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 업계 표준 EMM AppConfig를 지원하여 원격 프로비저닝을 허용합니다.
 
-* **AEM Screens 채널에서 페이지 잠금**
-
-   AEM Screens은 이제 AEM Sites에 이미 구현된 대로 *페이지 잠금*&#x200B;을 지원합니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
 
 ### 버그 수정 {#bug-fixes}
 
