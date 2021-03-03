@@ -2,10 +2,10 @@
 title: 기능 팩 202103에 대한 릴리스 노트
 description: 이 페이지에서는 기능 팩 202103에 대한 릴리스 정보를 강조 표시합니다.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 14%
+source-wordcount: '379'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,10 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 08일입니다
 * **AEM Screens 일괄 등록 및 할당**
 
    수천 명의 플레이어를 수동으로 등록하는 것은 매우 번거롭고 시간과 비용을 더합니다. 이 프로세스를 간소화하기 위해 벌크 등록 기능을 사용하면 구성 파일 또는 MDM(Mobile Device Management) 솔루션을 통해 플레이어로 프로비저닝할 수 있는 AEM의 사전 공유 키를 지정할 수 있습니다.
+
+* **Enterprise Mobility Management를 사용하여 Android Player의 대량 프로비저닝**
+
+   Android 플레이어를 일괄 배포할 때 AEM에 모든 단일 플레이어를 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 준비하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 업계 표준 EMM Appconfig를 지원하여 원격 프로비저닝을 허용합니다.
 
 * **AEM Screens 채널에서 페이지 잠금**
 
