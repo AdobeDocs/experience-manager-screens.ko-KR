@@ -3,9 +3,9 @@ title: 플레이어 자동 등록
 seo-title: 플레이어 자동 등록
 description: AMS/On-Prem Screens에서 플레이어의 자동 등록에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ ht-degree: 0%
 
 플레이어에 대한 자동 등록을 구현하려면 아래 절차를 따르십시오.
 
-1. AEM 인스턴스에 로그인하고 AEM 스크린 프로젝트를 선택하고 속성 및 고급 탭을 클릭합니다.
-1. 일괄 등록 코드를 지정할 수 있고 일괄 등록된 플레이어에 할당할 기본 표시(선택 사항)를 지정할 수 있는 일괄 등록 섹션이 표시됩니다
-1. 원하는 코드를 입력하고 필요한 경우 기본 표시를 선택합니다.
-1. MDM 또는 구성 JSON 파일을 사용하여 해당 서버 URL 및 등록 코드를 플레이어에 제공합니다. 자세한 내용은 OS용 특정 플레이어의 구현 페이지를 참조하십시오. 관리자 UI를 사용하여 등록 코드를 입력할 수도 있습니다.
+1. AEM 인스턴스에 로그인하고 AEM 스크린 프로젝트를 선택하고 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
+1. **고급** 탭을 선택하여 **장치 등록** 섹션을 아래 그림과 같이 봅니다.
+
+   ![이미지](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. **일괄 등록 코드** 필드에 자동 등록 코드를 지정하고 **기본 표시 할당**&#x200B;에 선택적인 기본 표시를 지정하여 자동으로 등록된 플레이어에 할당합니다.
+   >[!NOTE]
+   >원하는 코드를 입력하고 필요한 경우 기본 표시를 선택합니다.
+1. MDM 또는 구성 JSON 파일을 사용하여 해당 서버 URL 및 등록 코드를 플레이어에 제공합니다.
+
+   >[!NOTE]
+   >자세한 내용은 운영 체제(OS)의 특정 플레이어에 대한 구현 페이지를 참조하십시오. 관리자 UI를 사용하여 등록 코드를 입력할 수도 있습니다.
+
 1. `registrationKey` 속성이 AEM에 구성된 속성과 일치하면 플레이어는 자동으로 등록되고 기본 표시가 구성된 경우 해당 컨텐츠가 다운로드 및 재생됩니다.
+
+   ![이미지](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## 보안 우수 사례 {#security-best-practices}
 
