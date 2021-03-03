@@ -3,9 +3,9 @@ title: MDM 또는 EMM을 사용하여 Android Player 벌크 프로비저닝
 seo-title: EMM 또는 MDM을 사용하여 Android Player의 벌크 프로비저닝
 description: EMM 또는 MDM을 사용하여 Android Player의 벌크 프로비저닝에 대해 알려면 이 페이지를 따르십시오
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Enterprise Mobility Management {#bulk-provisioning}을(를) 사용하여 Android Player의 벌크 프로비저닝
 
-Android 플레이어를 일괄 배포할 때 AEM에 모든 단일 플레이어를 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 준비하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 업계 표준 EMM Appconfig를 지원하여 원격 프로비저닝을 허용합니다. 플레이어를 대량으로 제공하려면 아래 단계를 따르십시오.
+Android 플레이어를 일괄 배포할 때 AEM에 모든 단일 플레이어를 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 준비하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 업계 표준 EMM Appconfig를 지원하여 원격 프로비저닝을 허용합니다.
 
 ## Enterprise Mobility Management {#implementation}을(를) 사용하여 Android Player의 벌크 프로비저닝 구현
 
