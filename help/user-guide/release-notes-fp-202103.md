@@ -2,9 +2,9 @@
 title: 기능 팩 202103에 대한 릴리스 노트
 description: 이 페이지에서는 기능 팩 202103에 대한 릴리스 정보를 강조 표시합니다.
 translation-type: tm+mt
-source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
+source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '373'
 ht-degree: 4%
 
 ---
@@ -44,14 +44,17 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 08일입니다
 
 * 할당에 *OfflineConfig*&#x200B;이 있는 경우 오프라인 캐시가 생성되지 않았습니다.
 
-* 레퍼러 정책 strict-origin-when-cross-origin은 지원되지 않으므로 Tizen player 문제를 업데이트합니다.
+* 레퍼러 정책 strict-origin-when-cross-origin이 지원되지 않으므로 오류가 발생한 티젠 플레이어에 대한 업데이트입니다.
 
-* 할당된 채널의 예약 &quot;반복&quot; 필드를 변경하면 UI가 중단되었습니다.
+* SmartSync 다운로드에 실패할 때 기본 오류를 기록합니다.
+
+* 할당된 채널의 일정 *반복* 필드를 변경하면 UI가 중단되었습니다.
 
 * 쿼리 예외로 인해 오프라인 콘텐츠를 업데이트하지 못했습니다.
 
-* 캐시가 무효화되지 않은 경우 SmartSync 마이그레이션이 플레이어를 제거했습니다.
+* 이제 인터랙티브한 경험의 인터랙션 중 전환 간 시간 지연이 수정되었습니다.
 
+* 구성 업데이트 요청이 실패하여 빈 화면이 표시되었습니다.
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
 
