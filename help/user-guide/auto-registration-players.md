@@ -3,9 +3,9 @@ title: 플레이어 자동 등록
 seo-title: 플레이어 자동 등록
 description: AMS/On-Prem Screens에서 플레이어의 자동 등록에 대해 알려면 이 페이지를 따르십시오.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 플레이어에 대한 자동 등록을 구현하려면 아래 절차를 따르십시오.
 
 1. AEM 인스턴스에 로그인하고 AEM 스크린 프로젝트를 선택하고 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
-1. **고급** 탭을 선택하여 **장치 등록** 섹션을 아래 그림과 같이 봅니다.
-
-   ![이미지](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. **고급** 탭을 선택하여 **장치 등록** 섹션을 봅니다.
 
 1. **일괄 등록 코드** 필드에 자동 등록 코드를 지정하고 **기본 표시 할당**&#x200B;에 선택적인 기본 표시를 지정하여 자동으로 등록된 플레이어에 할당합니다.
    >[!NOTE]
    >원하는 코드를 입력하고 필요한 경우 기본 표시를 선택합니다.
+
+   ![이미지](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. MDM 또는 구성 JSON 파일을 사용하여 해당 서버 URL 및 등록 코드를 플레이어에 제공합니다.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * 등록 코드가 손상되지 않도록 하려면 벌크 등록을 시작하기 직전에 AEM에서 코드를 구성하여 완료하면 해당 필드를 지운 후 AEM에 저장하십시오.
 
-* 가능한 경우 `/bin/screens/`등록 경로에 알려진 IP 범위에서만 액세스할 수 있도록 구성할 수 있습니다.
+* 가능한 경우 알려진 IP 범위에서만 액세스할 수 있도록 `/bin/screens/registration` 경로를 구성할 수 있습니다.
 
 * MDM을 사용하여 해당 구성으로 플레이어를 프로비저닝하는 것을 고려해 보십시오.
 
