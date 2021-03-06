@@ -2,9 +2,9 @@
 title: 기능 팩 202103에 대한 릴리스 노트
 description: 이 페이지에서는 기능 팩 202103에 대한 릴리스 정보를 강조 표시합니다.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 5일입니다.
 
 * **AEM Screens 플레이어 자동 등록**
 
-   수천 명의 플레이어를 수동으로 등록하는 것은 매우 번거롭고 시간과 비용을 더합니다. 이 프로세스를 간소화하기 위해 벌크 등록 기능을 사용하면 구성 파일 또는 MDM(Mobile Device Management) 솔루션을 통해 플레이어로 프로비저닝할 수 있는 AEM의 사전 공유 키를 지정할 수 있습니다.
+   수천 명의 플레이어를 수동으로 등록하는 것은 매우 번거롭고 시간과 비용을 더합니다. 이 프로세스를 간소화하기 위해 플레이어 자동 등록 기능을 사용하면 AEM에서 구성 파일 또는 MDM(Mobile Device Management) 솔루션을 통해 플레이어로 프로비저닝할 수 있는 사전 공유 키를 지정할 수 있습니다.
 
    자세한 내용은 [플레이어 자동 등록](/help/user-guide/auto-registration-players.md)을 참조하십시오.
 
