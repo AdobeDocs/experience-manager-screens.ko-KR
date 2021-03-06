@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 학습합니다.
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 20%
+source-wordcount: '449'
+ht-degree: 19%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 20%
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [티젠 플레이어](tizen-player.md)
+      + [플레이어 자동 등록](auto-registration-players.md)
+      + [Enterprise Mobility Management를 사용하여 Android Player의 대량 프로비저닝](using-emm-bulkprovision-android-player.md)
    + 작성자 게시 {#author-publish}
       + [제작-게시 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 20%
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
+   + [기능 팩 202103에 대한 릴리스 노트](release-notes-fp-202103.md)
    + [기능 팩 202011에 대한 릴리스 노트](release-notes-fp-202011.md)
    + [Feature Pack 202008용 릴리스 노트](release-notes-fp-202008.md)
    + [Feature Pack 202004의 릴리스 노트](release-notes-fp-202004.md)
