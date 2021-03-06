@@ -2,9 +2,9 @@
 title: 기능 팩 202103에 대한 릴리스 노트
 description: 이 페이지에서는 기능 팩 202103에 대한 릴리스 정보를 강조 표시합니다.
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,6 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 5일입니다.
 
 * Chrome OS
 * Windows
-* 티젠
 * Linux
 
 #### AEM Screens Player 다운로드 {#aem-screens-player-downloads}
