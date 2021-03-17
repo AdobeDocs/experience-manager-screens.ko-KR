@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
+source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '702'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이러한 기능 팩을 액세스하려면 Adobe 지원 센터에 문의하고 액세스 권한을 요청해야 합니다. 권한이 있으면 [패키지 공유]에서 다운로드할 수 있습니다.
+>이러한 기능 팩을 액세스하려면 Adobe 지원 센터에 문의하고 액세스 권한을 요청해야 합니다. Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Screens용 최신 기능 팩을 다운로드할 수 있습니다.
 
 이 섹션에서는 다음 주제를 다룹니다.
 
