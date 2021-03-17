@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 AEM 6.4.2 Feature Pack 2 및 AEM 6.3.3 Feature Pack 4를 설치한 경우에만 사용할 수 있습니다.
+>이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 Feature Pack 2 또는 AEM 6.3.3 Feature Pack 4를 설치한 경우에만 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Adobe Analytics 설정은 OSGi 콘솔에서 구성할 수 있습니다.
   <tr>
    <td><strong>분석 URL</strong></td>
    <td>플레이어에서 분석 데이터를 게시하는 URL입니다. <br>
-   개발/스테이지의 경우</em>  - https://cc-api-data-stage.adobe.io/ingest/제작<br /> <em>을 위한</em>  VPAT - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   개발/스테이지의 경우</em>  - https://cc-api-data-stage.adobe.io/ingest/제작<br /> <em>을 위한</em>  - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>분석 API 키</strong></td>
