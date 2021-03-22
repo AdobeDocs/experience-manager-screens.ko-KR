@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 13%
+source-wordcount: '1127'
+ht-degree: 12%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 13%
 
 1. **We.Retail에서 사이트 페이지로 이동**
 
-   1. 사이트로 이동하고 **We.Retail 인스토어** -> **채널** ->**유휴 채널 - 야간**&#x200B;을 선택하고 이 페이지를 선택하여 이 페이지를 스크린 채널에 대한 경험 조각으로 사용합니다.
+   1. 사이트로 이동하고 **We.Retail** -> **미국** -> **영어** -> **장비**&#x200B;이 페이지를 선택하여 이 페이지를 스크린 채널에 대한 경험 조각으로 사용합니다.
 
    1. 작업 표시줄에서 **편집**&#x200B;을 클릭하여 스크린 채널의 경험 조각으로 사용할 페이지를 엽니다.
 
@@ -86,13 +86,15 @@ ht-degree: 13%
    1. **작업**&#x200B;을 **새 경험 조각 만들기**&#x200B;로 선택합니다.
 
    1. **상위 경로**&#x200B;를 선택합니다.
-   1. **템플릿**&#x200B;을 선택합니다. 여기에서 **경험 조각 - 화면 변형** 템플릿을 선택합니다.
+   1. **템플릿**&#x200B;을 선택합니다. **경험 조각 - 화면 변형** 템플릿(필드 `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`에 값)을 선택합니다.
 
    1. **조각 제목**&#x200B;을 **ScreensFragment**&#x200B;로 입력합니다.
 
    1. 확인 표시를 클릭하여 새 경험 조각 만들기를 완료합니다.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   참고:보다 쉬운 옵션을 선택하려면 필드 오른쪽의 확인 표시를 클릭하여 선택 대화 상자를 엽니다.
 
 1. **경험 조각의 Live Copy 만들기**
 
