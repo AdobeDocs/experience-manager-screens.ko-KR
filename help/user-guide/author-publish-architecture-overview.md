@@ -9,10 +9,13 @@ topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
+feature: 스크린 관리
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1031'
 ht-degree: 4%
 
 ---
