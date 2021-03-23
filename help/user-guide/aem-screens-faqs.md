@@ -5,10 +5,13 @@ description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 얻�
 seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 얻으려면 이 페이지를 따르십시오.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
+feature: 디지털 사이니지, 컨텐츠
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 1%
 
 ---
