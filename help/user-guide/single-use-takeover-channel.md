@@ -4,10 +4,13 @@ seo-title: 단일 사용 인계채널
 description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 따르십시오.
 seo-description: 단일 사용 TakeOver 채널을 만들려면 이 사용 사례를 따르십시오.
 contentOwner: jsyal
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
