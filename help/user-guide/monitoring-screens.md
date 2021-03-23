@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
+feature: 디지털 사이니지, 컨텐츠, 플레이어
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '807'
 ht-degree: 8%
 
 ---
@@ -83,7 +86,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->장치의 자동 또는 수동 업데이트와 관련된 이벤트에 대한 자세한 내용은 ***채널 관리[의 장치 대시보드***&#x200B;에서 자동 대 수동 업데이트 섹션을 참조하십시오.](managing-channels.md)
+>장치의 자동 또는 수동 업데이트와 관련된 이벤트에 대한 자세한 내용은 [채널 관리](managing-channels.md)의 장치 대시보드&#x200B;***에서 자동 대 수동 업데이트 섹션을 참조하십시오.***
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
@@ -145,7 +148,7 @@ ht-degree: 8%
 
 AEM은 다음을 위해 내장된 모니터링 기능을 제공합니다.
 
-* *aem screens* Player가 작동 중임을 나타내는 하트비트를 5초마다 합니다.
+* *AEM Screens* Player가 작동 중임을 나타내는 하트비트를 5초마다 합니다.
 * *플레이어에* 현재 표시된 내용을 보여주는 플레이어의 스크린샷.
 * 플레이어에 설치된 *AEM Screens 플레이어 펌웨어* 버전.
 * *플레이어에서* 무료 저장 공간.
