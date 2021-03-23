@@ -10,10 +10,13 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
+feature: 스크린 개발
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1535'
 ht-degree: 2%
 
 ---
@@ -233,7 +236,7 @@ json을 정의하는 프로세스를 건너뛰고 공백으로 유지해야 합�
 
    1. **활동 구성 마법사**&#x200B;에서 **경험 추가**&#x200B;를 클릭합니다.
 
-   1. **대상**&#x200B;에서 **Higherthan50**&#x200B;을 선택하고 **경험 추가**&#x200B;를 클릭한 다음 **제목**&#x200B;을 50 ****&#x200B;이름&lt;a10/>을 입력합니다. 1/>은(는) **higherthan50**&#x200B;으로 지정됩니다. **** **확인**&#x200B;을 클릭합니다.
+   1. **대상**&#x200B;에서 **Higherthan50**&#x200B;을 선택하고 **경험 추가**&#x200B;를 클릭한 다음 **제목**&#x200B;을 50 ****&#x200B;이름&#x200B;**을 입력합니다. 1/>은(는)** higherthan50 **으로 지정됩니다.** **확인**&#x200B;을 클릭합니다.
 
    1. **대상**&#x200B;에서 **50 미만**&#x200B;경험 추가&#x200B;**경험 추가**&#x200B;를 클릭하고 **제목**&#x200B;을 **50** **이름**&#x200B;을 입력합니다. **lower than50**) **확인**&#x200B;을 클릭합니다.
 
