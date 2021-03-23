@@ -2,10 +2,13 @@
 title: 데이터 트리거를 사용하여 작성
 seo-title: 데이터 트리거를 사용하여 작성
 description: 데이터 트리거를 사용하여 작성하는 방법을 알려면 이 페이지를 따르십시오.
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -52,7 +55,7 @@ ht-degree: 4%
 
    1. **ContextHub 경로**&#x200B;를 **libs** > **설정** > **cloudsettings** > **기본** > **ContextHub 구성**&#x200B;으로 선택하고 &lt;a를 클릭합니다. 12/>선택&#x200B;**.**
 
-   1. **세그먼트 경로**&#x200B;를 **conf** > **We.Retail** > **설정** > **wcm** > &lt;a10/>세그먼트&#x200B;**로 선택하고**&#x200B;선택 **.**
+   1. **세그먼트 경로**&#x200B;를 **conf** > **We.Retail** > **설정** > **wcm** > **세그먼트**&#x200B;로 선택하고 **선택**.
 
    1. **저장 후 닫기**&#x200B;를 클릭합니다.
    >[!NOTE]
