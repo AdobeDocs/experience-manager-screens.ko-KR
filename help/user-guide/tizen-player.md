@@ -1,10 +1,13 @@
 ---
 title: 티젠 플레이어
 description: 이 페이지에서는 Tizen Player의 설치 및 작업에 대해 설명합니다.
+feature: 스크린 관리, 플레이어
+role: 관리자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
