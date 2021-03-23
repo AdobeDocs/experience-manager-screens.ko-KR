@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -27,7 +30,7 @@ ht-degree: 1%
 
 이 사용 사례의 경우, Google Sheet는 두 개의 레스토랑 **Restaurant1** 및 **Restaurant2**&#x200B;에 대한 예약 백분율로 채워집니다. 수식은 Restaurant1 및 Restaurant2의 값을 기반으로 적용되며 공식을 기준으로 값 1 또는 2가 **AdTarget** 열에 할당됩니다.
 
-**Restaurant1** > **Restaurant2** Restaurant2&lt;a3/>의 값이 할당된 경우 **AdTarget** 1 **다른 경우** AdTarget **에** 2 **값이 할당됩니다. .** 값 1은 *스테이크음식* 옵션을 생성하고 값 2는 표시 화면에 *태국 음식* 옵션이 표시됩니다.
+**Restaurant1** > **Restaurant2** Restaurant2 **의 값이 할당된 경우** AdTarget **1**&#x200B;다른 경우 **AdTarget**&#x200B;에 **2** 값이 할당됩니다. . 값 1은 *스테이크음식* 옵션을 생성하고 값 2는 표시 화면에 *태국 음식* 옵션이 표시됩니다.
 
 ## 조건 {#preconditions}
 
