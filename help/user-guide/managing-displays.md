@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 60%
+source-wordcount: '778'
+ht-degree: 59%
 
 ---
 
@@ -122,7 +125,7 @@ ht-degree: 60%
 
 또한 **표시** 탭 아래의 **유휴 시간 초과** 속성에서 대화형 채널에 대한 이벤트 타이머 값을 조정할 수 있습니다. 기본값은 *300초*&#x200B;로 설정되어 있습니다.
 
-**CRXDE Lite**&#x200B;을 사용하여 **idleTimeout** 속성(즉, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`)에 액세스합니다.
+**CRXDE Lite**&#x200B;을 사용하여 **idleTimeout** 속성, 즉 `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`에 액세스합니다.
 
 
 ### 지정된 채널 패널 {#assigned-channels-panel}
