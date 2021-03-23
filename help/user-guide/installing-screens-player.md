@@ -1,13 +1,16 @@
 ---
 title: Screens 플레이어 설치
 seo-title: Screens 플레이어 설치
-description: Screens 플레이어 설치
+description: 사용 가능한 AEM Screens Player 설치에 대해 알려면 이 페이지를 따르십시오.
 seo-description: Screens 플레이어 설치
 contentOwner: jsyal
+feature: 스크린 관리
+role: 관리자
+level: 중간
 translation-type: tm+mt
-source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
