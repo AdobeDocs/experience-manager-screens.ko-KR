@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 1%
+source-wordcount: '696'
+ht-degree: 2%
 
 ---
 
@@ -97,7 +100,7 @@ ht-degree: 1%
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   타깃팅 프로세스를 시작할 때 활동이 제대로 나열되도록 하려면 **브랜드** 및 **영역**&#x200B;을 모두 선택해야 합니다.
+   타깃팅 프로세스를 시작할 때 활동이 제대로 나열되도록 하려면 **브랜드**&#x200B;와 **영역**&#x200B;을 모두 선택해야 합니다.
 
 1. **기본 이미지 추가**
 
