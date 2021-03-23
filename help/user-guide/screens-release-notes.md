@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
+feature: 기능 팩
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 7748c921aab25f779a9850455188c7fc6cef9f25
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 2%
+source-wordcount: '269'
+ht-degree: 3%
 
 ---
 
