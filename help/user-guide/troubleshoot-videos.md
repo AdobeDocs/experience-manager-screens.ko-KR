@@ -1,7 +1,7 @@
 ---
 title: 비디오 재생 구성 및 문제 해결
 seo-title: 비디오 문제 해결
-description: null
+description: 채널에서 비디오 재생을 디버깅하고 문제를 해결하는 방법을 알아보려면 이 페이지를 따르십시오.
 seo-description: 비디오 문제 해결 방법을 알려면 이 페이지를 따르십시오. 비디오를 DAM에 업로드하고 채널을 추가할 때 Screens 플레이어에서 비디오가 재생되지 않을 수 있는 문제가 발생할 수 있으며 이 섹션에서는 채널에서 재생되는 비디오를 디버깅하고 문제를 해결하는 방법을 설명합니다.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: 채널, 인터랙티브
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
