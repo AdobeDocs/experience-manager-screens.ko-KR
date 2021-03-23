@@ -1,18 +1,21 @@
 ---
 title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 포함 및 AEM Screens Analytics와 통합
 seo-title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 포함 및 AEM Screens Analytics와 통합
-description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 인터랙티브한 단일 페이지 애플리케이션을 임베드하는 방법 및 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법을 살펴보려면 이 페이지를 따르십시오.
-seo-description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 인터랙티브한 단일 페이지 애플리케이션을 임베드하는 방법 및 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법을 살펴보려면 이 페이지를 따르십시오.
+description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 인터랙티브한 단일 페이지 애플리케이션(또는 Angular)을 임베드하는 방법 및 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법을 알아보려면 이 페이지를 따르십시오.
+seo-description: AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 인터랙티브한 단일 페이지 애플리케이션(또는 Angular)을 임베드하는 방법 및 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법을 알아보려면 이 페이지를 따르십시오.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
+feature: 스크린 개발
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 # AEM SPA Editor를 사용하여 REACT 응용 프로그램 포함 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-이 섹션에서는 AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 인터랙티브한 단일 페이지 애플리케이션을 임베드하는 방법과 오프라인 Adobe Analytics과 인터랙티브한 애플리케이션을 통합하는 방법에 대해 설명합니다.
+이 섹션에서는 AEM의 비즈니스 전문가가 구성할 수 있는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)을 사용하여 대화형 단일 페이지 애플리케이션을 포함하는 방법과 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법에 대해 설명합니다.
 
 ## AEM SPA 편집기 사용 {#using-the-aem-spa-editor}
 
