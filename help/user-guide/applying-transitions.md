@@ -5,11 +5,14 @@ description: 화면 프로젝트에 전환을 적용하는 방법을 알려면 �
 seo-description: 화면 프로젝트에 전환을 적용하는 방법을 알려면 이 페이지를 따르십시오.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 1%
+source-wordcount: '292'
+ht-degree: 2%
 
 ---
 
