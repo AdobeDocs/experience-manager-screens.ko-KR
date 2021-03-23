@@ -7,10 +7,10 @@ breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 19%
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위한 확장 프로그램으로 Chrome Player 사용](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
-      + [Enterprise Mobility Management를 사용하여 Android Player의 대량 프로비저닝](using-emm-bulkprovision-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [티젠 플레이어](tizen-player.md)
       + [플레이어 자동 등록](auto-registration-players.md)
