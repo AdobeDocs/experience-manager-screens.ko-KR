@@ -1,18 +1,21 @@
 ---
 title: AEM Screens 구성 요소 확장
 seo-title: AEM Screens 구성 요소 확장
-description: 다음 자습서에서는 AEM Screens 구성 요소 밖으로 확장에 대한 단계 및 우수 사례를 안내합니다. 이미지 구성 요소는 제작 가능한 텍스트 오버레이를 추가하기 위해 확장됩니다.
-seo-description: 다음 자습서에서는 AEM Screens 구성 요소 밖으로 확장에 대한 단계 및 우수 사례를 안내합니다. 이미지 구성 요소는 제작 가능한 텍스트 오버레이를 추가하기 위해 확장됩니다.
+description: 다음 자습서에서는 AEM Screens 구성 요소 밖으로 확장하기 위한 단계 및 우수 사례를 안내합니다. 이미지 구성 요소는 제작 가능한 텍스트 오버레이를 추가하기 위해 확장됩니다.
+seo-description: 다음 자습서에서는 AEM Screens 구성 요소 밖으로 확장하기 위한 단계 및 우수 사례를 안내합니다. 이미지 구성 요소는 제작 가능한 텍스트 오버레이를 추가하기 위해 확장됩니다.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
+feature: 스크린 개발
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1856'
 ht-degree: 1%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 1%
 
 # AEM Screens 구성 요소 {#extending-an-aem-screens-component} 확장
 
-다음 자습서에서는 AEM Screens 구성 요소 밖으로 확장에 대한 단계 및 우수 사례를 안내합니다. 이미지 구성 요소는 제작 가능한 텍스트 오버레이를 추가하기 위해 확장됩니다.
+다음 자습서에서는 AEM Screens 구성 요소 밖으로 확장하기 위한 단계 및 우수 사례를 안내합니다. 이미지 구성 요소는 제작 가능한 텍스트 오버레이를 추가하기 위해 확장됩니다.
 
 ## 개요 {#overview}
 
@@ -38,7 +41,7 @@ ht-degree: 1%
 
 이 자습서를 완료하려면 다음 사항이 필요합니다.
 
-1. [AEM 6.4 ](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) 또는  [AEM 6.3](https://helpx.adobe.com/kr/experience-manager/6-3/release-notes.html) + 최신 스크린 기능 팩
+1. [AEM 6.4 ](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/release-notes/release-notes.html) 또는  [AEM 6.3](https://helpx.adobe.com/kr/experience-manager/6-3/release-notes.html) + 최신 스크린 기능 팩
 1. [AEM 스크린 플레이어](/help/user-guide/aem-screens-introduction.md)
 1. 로컬 개발 환경
 
