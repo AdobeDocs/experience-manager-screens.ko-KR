@@ -10,10 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '365'
 ht-degree: 7%
 
 ---
@@ -35,7 +38,7 @@ ht-degree: 7%
 
 1. **PlaybackChannel**&#x200B;에 콘텐트를 추가합니다.
 
-## 채널 수준 이미지 재생 시간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
+## 채널 수준 이미지 재생 기간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
 
 아래 섹션에서는 AEM Screens 채널의 컨텐츠 재생 기간을 편집하는 방법에 대해 설명합니다.
 
