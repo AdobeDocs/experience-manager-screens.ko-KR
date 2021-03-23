@@ -14,7 +14,7 @@ feature: 스크린 관리, Android 플레이어
 role: 관리자
 level: 중간
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 1%
@@ -186,8 +186,8 @@ Android Player에서 벌크 프로비저닝을 허용하려면 아래 절차를 
 1. Android 장치가 Google Play 서비스를 지원하는지 확인합니다.
 1. AppConfig를 지원하는 즐겨 사용하는 EMM 솔루션으로 Android 플레이어 디바이스를 등록합니다.
 1. EMM 콘솔에 로그인하고 Google Play에서 AEM Screens Player 애플리케이션을 가져옵니다.
-1. 관리 구성(또는 관련 옵션)을 선택합니다.
-1. 서버 및 벌크 등록 코드와 같이 구성할 수 있는 플레이어 옵션 목록이 표시됩니다.
+1. 관리 구성 또는 관련 옵션을 선택합니다.
+1. 이제 서버 및 벌크 등록 코드와 같이 구성할 수 있는 플레이어 옵션 목록이 표시됩니다.
 1. 이러한 매개 변수를 구성하고, 정책을 저장하고 장치에 배포합니다.
 
    >[!NOTE]
