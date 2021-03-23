@@ -1,11 +1,14 @@
 ---
 title: Feature Pack 202008용 릴리스 노트
-description: 이 페이지에서는 기능 팩 202008의 릴리스 노트를 설명합니다.
+description: '"2020년 9월 30일 릴리스된 AEM Screens Feature Pack 2008에 대한 정보를 보려면 이 페이지를 따르십시오."'
+feature: 기능 팩
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 4%
+source-wordcount: '343'
+ht-degree: 5%
 
 ---
 
@@ -52,8 +55,8 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 
 AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 또는 Android 플레이어용 환경을 설정해야 합니다.
 
-로그인 토큰 쿠키에 대한 **SameSite 특성을** Lax **에서** Adobe Experience Manager 웹 콘솔에서 &lt;a4/>None **으로 설정합니다.
-모든 AEM 작성자 및 게시 인스턴스에 대한 구성**.****
+로그인 토큰 쿠키에 대한 **SameSite 특성을** Lax **에서** Adobe Experience Manager 웹 콘솔에서 **None**으로 설정합니다.
+모든 AEM 작성자 및 게시 인스턴스에 대한 구성**.**
 
 * 자세한 내용은 [Windows 10 Player 구현](implementing-windows-player.md#fp-environment-setup)을 참조하십시오.
 
