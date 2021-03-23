@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
+feature: 스크린 관리
+role: 관리자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 3%
 
 ---
