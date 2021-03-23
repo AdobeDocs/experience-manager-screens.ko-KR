@@ -4,10 +4,13 @@ seo-title: 다중 영역 레이아웃에서 사용자 정의 템플릿 만들기
 description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: MultiZone 레이아웃에서 사용자 정의 템플릿을 만드는 방법에 대해 알려면 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
+feature: 스크린 개발
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -90,7 +93,7 @@ AEM Screens 프로젝트에 대한 Left20-LandscapeHD3Zone 레이아웃을 만�
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. 왼쪽 막대 템플릿을 복사한 단계(4)를 참조하면 `my-custom-layout/jcr:content` 아래에 3개의 응답형 그리드를 볼 수 있습니다. *r1c1* 노드의 *cq:cssClass* 속성에 있는 각 응답형 격자에 사용자 지정 css 클래스를 추가합니다. 예를 들어 *my-custom-layout—top-left* for &lt;a4/> node.
+1. 왼쪽 막대 템플릿을 복사한 단계(4)를 참조하면 `my-custom-layout/jcr:content` 아래에 3개의 응답형 그리드를 볼 수 있습니다. *r1c1* 노드의 *cq:cssClass* 속성에 있는 각 응답형 격자에 사용자 지정 css 클래스를 추가합니다. 예를 들어 *my-custom-layout—top-left* for  node.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
@@ -154,7 +157,7 @@ AEM Screens 프로젝트에서 위의 사용자 정의된 템플릿을 사용하
 
 ## 배경 레이어 {#inserting-image}으로 이미지 삽입
 
-이미지를 레이아웃에 배경 레이어로 삽입할 수 있습니다.
+레이아웃에 이미지를 배경 레이어로 삽입할 수 있습니다.
 
 CSS 규칙을 조정하여 CSS 파일에서 &quot;data-uri&quot;라고 하는 항목을 사용하고 이미지(Base64 인코딩됨)를 바로 인라인(13단계), *static.css*&#x200B;에 만들 수 있습니다.
 
