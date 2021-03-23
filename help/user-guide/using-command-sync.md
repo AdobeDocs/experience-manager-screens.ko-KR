@@ -3,10 +3,13 @@ title: 명령 동기화 사용
 seo-title: 명령 동기화 사용
 description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화 사용 방법에 대해 알려면 이 페이지를 따르십시오.
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
