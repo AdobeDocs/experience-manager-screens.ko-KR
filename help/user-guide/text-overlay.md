@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 4%
+source-wordcount: '853'
+ht-degree: 5%
 
 ---
 
@@ -106,7 +109,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정해야 합니다.
 
    1. **ContextHub 경로**&#x200B;를 **libs** > **설정** > **cloudsettings** > **기본** > **ContextHub 구성**&#x200B;으로 선택하고 &lt;a를 클릭합니다. 12/>선택&#x200B;**.**
 
-   1. **세그먼트 경로**&#x200B;를 **conf** > **screens** > **설정** > **wcm** > &lt;a10/>세그먼트&#x200B;**를 선택하고**&#x200B;선택&lt;a1> 3/>.****
+   1. **세그먼트 경로**&#x200B;를 **conf** > **screens** > **설정** > **wcm** > **세그먼트**&#x200B;를 선택하고 **선택** 3/>.
 
    1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
