@@ -5,11 +5,14 @@ description: 서비스로 컨텐트 업데이트에 대해 알려면 이 페이�
 seo-description: 서비스로 컨텐트 업데이트에 대해 알려면 이 페이지를 따르십시오.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 10%
+source-wordcount: '361'
+ht-degree: 11%
 
 ---
 
