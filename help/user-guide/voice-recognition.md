@@ -1,10 +1,13 @@
 ---
 title: AEM Screens의 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1129'
 ht-degree: 3%
 
 ---
