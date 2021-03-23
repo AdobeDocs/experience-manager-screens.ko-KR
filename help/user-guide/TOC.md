@@ -4,9 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
-user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 학습합니다.
+user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
+feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 19%
