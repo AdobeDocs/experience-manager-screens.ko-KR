@@ -2,10 +2,13 @@
 title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
+feature: 스크린 작성, 채널 지정
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1478'
 ht-degree: 23%
 
 ---
@@ -75,7 +78,7 @@ ht-degree: 23%
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. **설정** 옵션에서 채널 **경로** 또는 **이름**&#x200B;별로 선택하고 **채널 역할**, **우선 순위**, **지원되는 이벤트** 및 &lt;a11/> 및 **중단 메서드**. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
+1. **설정** 옵션에서 채널 **경로** 또는 **이름**&#x200B;별로 선택하고 **채널 역할**, **우선 순위**, **지원되는 이벤트** 및  및 **중단 메서드**. 또한 이 대화 상자에서 명소 도구 설명을 활성화할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
