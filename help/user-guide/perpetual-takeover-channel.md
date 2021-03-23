@@ -4,10 +4,13 @@ seo-title: 영구 인계채널
 description: 영구 인계받기 채널을 만들려면 이 사용 사례를 따르십시오.
 seo-description: 특정 시간 및 시간에 대해 지속적으로 재생되는 영구 TakeOver 채널을 만드는 프로젝트를 설정하는 경우 이 사용 사례를 따르십시오.
 contentOwner: jsyal
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -63,7 +66,7 @@ ht-degree: 1%
 
    ![자산](assets/p_usecase4.png)
 
-1. 채널의 위치와 디스플레이를 설정합니다. 예를 들어 이 프로젝트에 대해 **MainLobby** 위치 및 **MainLobbyDisplay**&#x200B;가 설정되어 있습니다.
+1. 채널의 위치와 디스플레이를 설정합니다. 예를 들어 이 프로젝트에 대해 **MainLobby** 위치 및 표시 **MainLobbyDisplay**&#x200B;가 설정되어 있습니다.
 
    ![자산](assets/p_usecase5.png)
 
@@ -96,7 +99,7 @@ ht-degree: 1%
    * **활성 위치**:시작 날짜 및 시간입니다.
    * **활성 기간**:종료 날짜 및 시간입니다.
 
-      예를 들어 **예약** 및 **활성**&#x200B;부터 **활성 날짜까지 &lt;a4/>활성 상태의 텍스트는 매주 수요일 오후 2시에서 오후 4시까지 컨텐츠를 재생할 수 있습니다.**
+      예를 들어 **예약** 및 **활성**&#x200B;부터 **활성 날짜까지**&#x200B;활성 상태의 텍스트는 매주 수요일 오후 2시에서 오후 4시까지 컨텐츠를 재생할 수 있습니다.
 
 
       ![자산](assets/p_usecase7.png)
