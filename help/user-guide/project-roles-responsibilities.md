@@ -2,10 +2,13 @@
 title: '"1부:프로젝트 역할 및 책임"'
 seo-title: '"1부:프로젝트 역할 및 책임"'
 description: 디지털 사이니지 프로젝트에 대한 판매 및 프로젝트 수명 주기 동안 필요한 역할, 책임 및 타임라인을 더 잘 이해하려면 이 튜토리얼을 따르십시오.
+feature: 개요
+role: 비즈니스 전문가, 데이터 아키텍트
+level: 초급
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '477'
 ht-degree: 2%
 
 ---
