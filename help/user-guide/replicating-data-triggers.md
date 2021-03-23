@@ -1,12 +1,15 @@
 ---
 title: 게시 서버에 데이터 트리거 복제
 seo-title: 게시 서버에 데이터 트리거 복제
-description: 게시 서버에 데이터 트리거를 복제합니다.
+description: 게시 서버에 데이터 트리거를 복제하는 방법을 알아보려면 이 페이지를 따르십시오.
 seo-description: 게시 서버에 데이터 트리거를 복제합니다.
+feature: 화면 관리, 데이터 트리거
+role: 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '538'
 ht-degree: 2%
 
 ---
