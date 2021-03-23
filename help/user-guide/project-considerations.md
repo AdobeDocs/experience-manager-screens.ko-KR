@@ -10,10 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
+feature: 개요
+role: 비즈니스 전문가, 데이터 아키텍트
+level: 초급
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '672'
 ht-degree: 1%
 
 ---
@@ -21,7 +24,7 @@ ht-degree: 1%
 
 # 2부:프로젝트 범위가 {#part-considerations-as-projects-are-scoped}인 고려 사항
 
-이 페이지에서는 팀 구성원이 AEM Screens 배포를 성공적으로 개발하기 위한 사전 판매 측면을 보다 잘 이해할 수 있도록 고안된 5부 시리즈의 2부를 집중적으로 살펴봅니다.
+이 페이지에서는 팀 구성원이 AEM Screens 배포를 성공적으로 개발하기 위한 사전 판매 측면을 보다 잘 이해할 수 있도록 고안된 5부 시리즈 중 2부에 대해 설명합니다.
 
 ## 개요 {#overview}
 
@@ -50,7 +53,7 @@ I/O는 고객의 근접성 감지를 기반으로 컨텐츠를 조건부 재생�
 
 ### 콘텐츠 자산 유형 {#content-asset-types}
 
-컨텐츠 자산과 관련하여 다음 사항은 최종 클라이언트의 의도를 이해하는 것으로 간주됩니다.
+컨텐츠 자산에 대한 최종 클라이언트 의도를 이해하는 데 다음 사항이 고려됩니다.
 
 * 컨텐츠가 인쇄, TV 또는 웹 캠페인에서 재활용됩니까?
 * 컨텐츠가 정적 이미지나 동적으로 제공되는 구성 요소를 포함하는 템플릿으로 구성됩니까?
