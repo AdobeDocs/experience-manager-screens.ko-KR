@@ -5,7 +5,7 @@ feature: 기능 팩
 role: 개발자
 level: 중간
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 4%
@@ -41,7 +41,7 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 5일입니다.
 
    Android 플레이어를 일괄 배포할 때 AEM에 모든 단일 플레이어를 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 준비하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 업계 표준 EMM AppConfig를 지원하여 원격 프로비저닝을 허용합니다.
 
-   자세한 내용은 [Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md)를 사용하여 Android Player의 대량 제공을 참조하십시오.
+   자세한 내용은 [Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation)를 사용하여 Android Player의 대량 제공을 참조하십시오.
 
 
 ### 버그 수정 {#bug-fixes}
