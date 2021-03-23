@@ -3,10 +3,13 @@ title: AEM Screens용 Dispatcher 구성
 seo-title: AEM Screens용 Dispatcher 구성
 description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트용 디스패처를 구성하기 위한 지침을 집중적으로 살펴봅니다.
+feature: 스크린 관리
+role: 개발자, 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
