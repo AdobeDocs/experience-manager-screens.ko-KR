@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
+feature: 스크린 작성
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1469'
 ht-degree: 60%
 
 ---
@@ -298,7 +301,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
    <td>전환을 활성화할 수 있을 때까지 설명하는 타임스탬프.</td>
   </tr>
   <tr>
-   <td><strong><em>예약</em></strong></td>
+   <td><strong><em>일정</em></strong></td>
    <td>미리 정의된 일정을 추가합니다.</td>
   </tr>
  </tbody>
