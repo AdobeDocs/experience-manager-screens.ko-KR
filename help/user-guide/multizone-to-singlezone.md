@@ -3,11 +3,14 @@ title: MultiZone에서 SingleZone 전환 사용 사례
 description: MultiZone에서 SingleZone 전환 사용 사례에 대해 알려면 이 페이지를 따르십시오.
 seo-description: MultiZone에서 SingleZone 전환 사용 사례
 contentOwner: Jyotika Syal
+feature: 스크린 작성
+role: 개발자, 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 6f770734941635a0cd404986c259022137355af3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 2%
+source-wordcount: '407'
+ht-degree: 3%
 
 ---
 
