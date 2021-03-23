@@ -3,10 +3,13 @@ title: 자산 수준 활성화
 seo-title: 자산 수준 활성화
 description: 플레이어의 로컬 시간대에서 예약된 기간에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
 seo-description: 플레이어의 로컬 시간대에서 예약된 기간에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
+feature: 스크린 작성, 자산 수준 활성화
+role: 관리자, 개발자
+level: 중간
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -72,7 +75,7 @@ ht-degree: 3%
 
 1. **Active from** 및 **Active -** 필드를 사용하여 날짜 선택기에서 날짜를 지정할 수 있습니다.
 
-   **Active from** 및 **Active from** 날짜와 시간으로 &lt;a2/>을 선택하면 자산이 각각 해당 시작 날짜/시간과 종료 날짜/시간 사이에만 표시되고 반복됩니다.
+   **Active from** 및 **Active from** 날짜와 시간으로 을 선택하면 자산이 각각 해당 시작 날짜/시간과 종료 날짜/시간 사이에만 표시되고 반복됩니다.
 
    ![이미지](/help/user-guide/assets/asset-activation/asset-level3.png)
 
