@@ -3,9 +3,9 @@ title: AEM Screens에서 작성자 및 게시 구성
 seo-title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 미리 복제됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
 seo-description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 저작된 다음 여러 게시 인스턴스에 미리 복제됩니다. AEM Screens에 대한 작성자 및 게시 구성 방법을 알려면 이 페이지를 따르십시오.
-feature: 스크린 관리
-role: 관리자, 개발자
-level: 중간
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

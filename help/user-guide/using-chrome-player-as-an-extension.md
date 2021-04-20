@@ -3,9 +3,9 @@ title: Chrome Player를 확장 프로그램으로 사용
 seo-title: Chrome Player를 확장 프로그램으로 사용
 description: 브라우저 확장 프로그램으로 크롬 플레이어를 설치하는 방법에 대해 알아보려면 이 페이지를 따르십시오.
 seo-description: 'null'
-feature: 스크린 관리
-role: 관리자
-level: 중간
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

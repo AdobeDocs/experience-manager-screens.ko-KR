@@ -2,9 +2,9 @@
 title: 시작 안내서
 seo-title: 시작 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. AEM Screens 플레이어에서 컨텐츠를 볼 수 있도록 새 프로젝트를 설정하고 설치에서부터 디지털 사이니지 경험을 만들 수 있습니다.
-feature: 개요, 디지털 사이니지
-role: 비즈니스 전문가
-level: 초급
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

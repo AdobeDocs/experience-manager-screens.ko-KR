@@ -3,9 +3,9 @@ title: 채널 생성 및 관리
 seo-title: 채널 관리
 description: 채널 만들기 및 관리에 대해 알려면 이 페이지를 따르십시오. 이 페이지에서는 채널 대시보드 및 채널 컨텐츠 편집에 대해서도 설명합니다.
 seo-description: 채널 만들기 및 관리에 대해 알려면 이 페이지를 따르십시오. 이 페이지에서는 채널 대시보드 및 채널 컨텐츠 편집에 대해서도 설명합니다.
-feature: 스크린 작성
-role: 관리자, 개발자
-level: 중간
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

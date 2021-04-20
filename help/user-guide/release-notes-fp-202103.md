@@ -1,9 +1,9 @@
 ---
 title: 기능 팩 202103에 대한 릴리스 노트
 description: '"2021년 3월 5일 릴리스된 AEM Screens 기능 팩 202103에 대한 정보를 보려면 이 페이지를 따르십시오."'
-feature: 기능 팩
-role: 개발자
-level: 중간
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt

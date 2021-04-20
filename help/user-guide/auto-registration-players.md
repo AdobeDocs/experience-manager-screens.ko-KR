@@ -2,9 +2,9 @@
 title: 플레이어 자동 등록
 seo-title: 플레이어 자동 등록
 description: AMS/On-Prem Screens에서 플레이어의 자동 등록에 대해 알려면 이 페이지를 따르십시오.
-feature: 스크린 관리, 플레이어
-role: 관리자
-level: 중간
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

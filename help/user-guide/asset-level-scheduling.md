@@ -3,9 +3,9 @@ title: 자산 수준 활성화
 seo-title: 자산 수준 활성화
 description: 플레이어의 로컬 시간대에서 예약된 기간에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
 seo-description: 플레이어의 로컬 시간대에서 예약된 기간에 대해 채널에서 특정 자산을 활성화하는 방법을 알아보려면 이 페이지를 따르십시오.
-feature: 스크린 작성, 자산 수준 활성화
-role: 관리자, 개발자
-level: 중간
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

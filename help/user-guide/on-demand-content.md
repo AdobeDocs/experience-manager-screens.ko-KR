@@ -5,9 +5,9 @@ description: '온디맨드 컨텐츠 업데이트에 대해 알려면 이 페이
 seo-description: '온디맨드 컨텐츠 업데이트에 대해 알려면 이 페이지를 따르십시오.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-feature: 스크린 작성
-role: 개발자
-level: 중간
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

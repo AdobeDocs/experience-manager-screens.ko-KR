@@ -1,9 +1,9 @@
 ---
 title: 컨텐츠 할당 보고서
 description: 이 페이지에서는 컨텐츠 할당 보고서의 다운로드 및 사용에 대해 설명합니다.
-feature: 스크린 작성
-role: 개발자
-level: 중간
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

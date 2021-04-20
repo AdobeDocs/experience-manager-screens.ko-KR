@@ -3,9 +3,9 @@ title: 용어 설명
 seo-title: 용어 설명
 description: AEM Screens과 관련된 주요 용어를 이해하려면 이 페이지를 따르십시오.
 seo-description: AEM Screens과 관련된 주요 용어를 이해하려면 이 페이지를 따르십시오.
-feature: 개요
-role: 비즈니스 전문가
-level: 초급
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

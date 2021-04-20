@@ -2,9 +2,9 @@
 title: AEM Screens 소개
 seo-title: AEM Screens 소개
 description: '"AEM Screens - 포괄적인 디지털 마케팅 플랫폼과 함께 다양한 유형의 스크린과 관련된 다이내믹하고 인터랙티브한 디지털 경험과 인터랙션을 게시할 수 있는 디지털 서명 솔루션입니다."'
-feature: 개요, 디지털 사이니지
-role: 비즈니스 전문가
-level: 초급
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

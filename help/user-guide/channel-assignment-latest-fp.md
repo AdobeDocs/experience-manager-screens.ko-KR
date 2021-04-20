@@ -2,9 +2,9 @@
 title: 채널 지정 - 최신 FP
 seo-title: 채널 지정 - 최신 FP
 description: 채널 지정 및 한시적 분할에 대해 알려면 이 페이지를 따르십시오.
-feature: 스크린 작성, 채널 지정
-role: 관리자, 개발자
-level: 중간
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

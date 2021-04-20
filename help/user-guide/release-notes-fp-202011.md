@@ -1,9 +1,9 @@
 ---
 title: 기능 팩 202011에 대한 릴리스 노트
 description: '"2020년 11월 30일 릴리스된 AEM Screens 기능 팩 202011에 대한 정보를 보려면 이 페이지를 따르십시오."'
-feature: 기능 팩
-role: 개발자
-level: 중간
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

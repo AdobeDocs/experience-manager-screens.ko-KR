@@ -3,9 +3,9 @@ title: Security 검사 목록
 seo-title: Security 검사 목록
 description: 이 페이지에서는 질문 및 고려 사항의 체크리스트가 포함된 주요 보안 영역에 대해 설명합니다.
 seo-description: 이 페이지에서는 보안 체크리스트에 대해 설명합니다.
-feature: 스크린 관리
-role: 관리자
-level: 중간
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
