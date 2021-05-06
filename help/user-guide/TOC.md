@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
+source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 20%
+source-wordcount: '445'
+ht-degree: 19%
 
 ---
 
@@ -104,6 +104,7 @@ ht-degree: 20%
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
+   + [워크플로우를 통해 채널 업데이트 자동화](automate-channel-updates-workflow.md)
 + 문제 해결 및 FAQ의 {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [장치 컨트롤 센터 문제 해결](monitoring-screens.md)
