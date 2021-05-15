@@ -9,18 +9,17 @@ topic-tags: developing
 feature: 스크린 개발
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 2%
 
 ---
 
 
 # 워크플로우를 사용하여 AEM Screens 채널 {#automate-channel-updates-workflow}에 대한 자산 업데이트 자동화
 
-Adobe Experience Manager에 업로드된 자산을 자동으로 처리하고 스크린 채널에 동적으로 할당하는 워크플로우를 만드는 방법을 알아봅니다. 이 예에서는 특정 폴더에 이미지가 추가되면 동적 워터마크를 적용하고 스크린 채널에 이미지를 할당하는 워크플로우가 트리거됩니다. 이 예제를 통해 얻은 교훈을 다양한 자동화 시나리오에 적용할 수 있습니다.
+Adobe Experience Manager에 업로드된 자산을 자동으로 처리하고 스크린 채널에 동적으로 할당하는 워크플로우를 만드는 방법을 알아봅니다. 이 예에서 특정 폴더에 이미지가 추가되면 동적 텍스트 오버레이(워터마크 프로세스)를 적용하고 스크린 채널에 이미지를 할당하는 워크플로우가 트리거됩니다. 이 예제를 통해 얻은 교훈을 다양한 자동화 시나리오에 적용할 수 있습니다.
 
 ## 전제 조건 {#prerequisites}
 
