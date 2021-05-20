@@ -6,7 +6,6 @@ getting-started-title: AEM Screens 모범 사례 안내서
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: tm+mt
 source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
 workflow-type: tm+mt
 source-wordcount: '138'
@@ -42,7 +41,7 @@ ht-degree: 78%
       + [네트워크 트래픽 관리](/help/using/managing-network-traffic.md)
       + [직접 인터넷 네트워크(유선/무선)](/help/using/direct-internet-network.md)
       + [직접 모바일 네트워크](/help/using/mobile-network.md)
-      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소가 있는 모바일 네트워크](/help/using/mobile-network-router.md)
+      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크](/help/using/mobile-network-router.md)
       + [동봉된 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
    + [장치 구성](device-configurations.md)
    + [테스트 및 품질 보증](testing-quality-assurance.md)
