@@ -3,14 +3,13 @@ title: 이 안내서 정보
 seo-title: 안내서에 대한 설명
 description: 이 페이지에서는 모범 사례 안내서의 의도를 설명합니다.
 seo-description: 이 페이지에서는 모범 사례 안내서의 의도를 설명합니다.
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 98%
 
 ---
-
 
 # 이 안내서 정보 {#about-guide}
 
