@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-feature: Authoring Screens
+feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 72%
 
 ---
-
 
 # 장치 관리 {#managing-devices}
 
@@ -45,15 +44,15 @@ ht-degree: 72%
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 목록에서 할당되지 않은 장치를 선택하고 작업 표시줄에서 **장치 지정**&#x200B;을 탭/클릭합니다.
+1. 목록에서 지정되지 않은 장치를 선택하고 작업 표시줄에서 **장치 지정**&#x200B;을 탭/클릭합니다.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. 목록에서 장치를 할당할 디스플레이를 선택하고 **할당**&#x200B;을 탭/클릭합니다.
+1. 목록에서 장치를 지정할 디스플레이를 선택하고 **할당**&#x200B;을 탭/클릭합니다.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. **완료**&#x200B;를 탭/클릭하여 할당 프로세스를 완료합니다.
+1. **완료**&#x200B;를 탭/클릭하여 지정 프로세스를 완료합니다.
 
 
    디스플레이 대시보드의 **장치** 패널에는 지정된 장치가 표시됩니다.
@@ -77,4 +76,3 @@ ht-degree: 72%
 디스플레이에 채널을 지정하는 방법을 잘 아는 경우 다음 리소스를 참조하십시오.
 
 * [모니터링 및 문제 해결](monitoring-screens.md)
-
