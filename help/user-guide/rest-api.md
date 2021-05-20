@@ -1,44 +1,43 @@
 ---
 title: REST API
 seo-title: REST API
-description: AEM Screens은 사이렌 사양을 따르는 간단한 RESTful API를 제공합니다. 컨텐츠 구조를 탐색하고 해당 환경의 장치에 명령을 보내는 방법을 알아보려면 이 페이지를 따르십시오.
-seo-description: AEM Screens은 사이렌 사양을 따르는 간단한 RESTful API를 제공합니다. 컨텐츠 구조를 탐색하고 해당 환경의 장치에 명령을 보내는 방법을 알아보려면 이 페이지를 따르십시오.
+description: AEM Screens은 Searn 사양을 따르는 간단한 RESTful API를 제공합니다. 컨텐츠 구조를 탐색하고 환경의 장치로 명령을 전송하는 방법을 배우려면 이 페이지를 따르십시오.
+seo-description: AEM Screens은 Searn 사양을 따르는 간단한 RESTful API를 제공합니다. 컨텐츠 구조를 탐색하고 환경의 장치로 명령을 전송하는 방법을 배우려면 이 페이지를 따르십시오.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Developing Screens
+feature: 화면 개발
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
-
 # REST API{#rest-apis}
 
-AEM Screens은 [Sannes](https://github.com/kevinswiber/siren) 사양을 따르는 간단한 RESTful API를 제공합니다. 컨텐츠 구조를 탐색하고 해당 환경의 장치에 명령을 보낼 수 있습니다.
+AEM Screens은 [사이렌](https://github.com/kevinswiber/siren) 사양을 따르는 간단한 RESTful API를 제공합니다. 컨텐츠 구조를 탐색하고 환경의 장치로 명령을 보낼 수 있습니다.
 
 API는 [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)에서 액세스할 수 있습니다.
 
-## 내용 구조 탐색 {#navigating-content-structure}
+## 컨텐츠 구조 탐색 {#navigating-content-structure}
 
-API 호출에서 반환된 JSON에는 현재 리소스와 관련된 개체가 나열됩니다. 나열된 자체 링크에 따라 이러한 각 엔티티는 REST 리소스로 다시 액세스할 수 있습니다.
+API 호출에서 반환되는 JSON에는 현재 리소스와 관련된 엔티티가 나열됩니다. 나열된 자체 링크에 따라 이러한 각 엔티티는 REST 리소스로 다시 액세스할 수 있습니다.
 
-예를 들어, 데모 대표 위치의 디스플레이에 액세스하려면 다음 사항을 호출하십시오.
+예를 들어, 데모 대표 위치의 디스플레이에 액세스하려면 다음을 호출할 수 있습니다.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-말림 사용:
+curl 사용:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship.json
@@ -98,7 +97,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-그런 다음 단일 화면 디스플레이에 액세스하려면 다음과 같이 하십시오.
+그런 다음 단일 화면 디스플레이에 액세스하려면 다음을 호출할 수 있습니다.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -109,14 +108,14 @@ Host: http://localhost:4502
 
 API 호출에서 반환되는 JSON에는 리소스에서 사용 가능한 작업 목록이 포함될 수 있습니다.
 
-예를 들어 디스플레이에는 해당 디스플레이에 할당된 모든 장치에 명령을 보낼 수 있는 *broadcast-command* 동작이 나열됩니다.
+예를 들어 디스플레이에는 해당 디스플레이에 지정된 모든 장치에 명령을 보낼 수 있는 *broadcast-command* 작업이 표시됩니다.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-말림 사용:
+curl 사용:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
@@ -154,7 +153,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-이 작업을 트리거하려면 다음과 같이 합니다.
+이 작업을 트리거하려면 다음을 호출합니다.
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -163,9 +162,8 @@ Host: http://localhost:4502
 :operation=broadcast-command&msg=reboot
 ```
 
-말림 사용:
+curl 사용:
 
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-
