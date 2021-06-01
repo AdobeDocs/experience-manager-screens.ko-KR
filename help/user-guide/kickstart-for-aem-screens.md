@@ -5,13 +5,13 @@ description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 �
 feature: 개요, 디지털 서명
 role: Business Practitioner
 level: Beginner
-exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 6%
 
 ---
+
 
 # 시작 안내서 {#kickstart-guide}
 
