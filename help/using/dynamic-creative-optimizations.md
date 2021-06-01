@@ -3,13 +3,13 @@ title: 데이터 트리거
 seo-title: 데이터 트리거
 description: 이 페이지에서는 데이터 트리거를 설명합니다
 seo-description: 이 페이지에서는 데이터 트리거를 설명합니다
-exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
+
 
 # 동적 크리에이티브 최적화 {#dynamic-creative}
 
@@ -40,3 +40,4 @@ DCO를 포함하는 시각적 머천다이징 전략을 통해 네트워크 뷰�
 
 * **로컬 데이터 트리거**:이러한 데이터 트리거는 장치에서 로컬입니다. 예를 들어 화면을 터치하면 로컬 데이터 자산 또는 채널 스위치를 트리거하는 센서가 활성화됩니다.
 * **원격 데이터 트리거**:여기에는 웹 서비스 API에서 반환된 값을 기반으로 데이터 트리거된 채널 스위치 또는 자산 스위치가 포함되었습니다.
+
