@@ -12,13 +12,13 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: 화면 개발
 role: Developer
 level: Intermediate
-exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%
 
 ---
+
 
 # 구성 요소 {#creating-components} 만들기
 
@@ -58,3 +58,4 @@ AEM 구성 요소는 웹 페이지에서 사용할 수 있는 컨텐츠를 저�
 >[!NOTE]
 >
 >사용자 지정 구성 요소를 개발하려면 ***[AEM Screens 샘플 구성 요소 템플릿](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)*** 을 사용하십시오.
+
