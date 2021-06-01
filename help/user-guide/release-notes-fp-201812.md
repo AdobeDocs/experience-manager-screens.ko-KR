@@ -13,13 +13,13 @@ noindex: true
 feature: 기능 팩
 role: Developer
 level: Intermediate
-exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
 
 ---
+
 
 # 기능 팩 201812 릴리스 노트{#release-notes-for-feature-pack}
 
