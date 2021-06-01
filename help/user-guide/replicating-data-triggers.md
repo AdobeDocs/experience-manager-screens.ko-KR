@@ -6,13 +6,13 @@ seo-description: 게시 서버에 데이터 트리거를 복제합니다.
 feature: 화면 관리, 데이터 트리거
 role: Developer
 level: Intermediate
-exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 2%
 
 ---
+
 
 # 게시 서버에 데이터 트리거 복제 {#replicating-data-triggers}
 
