@@ -7,13 +7,13 @@ contentOwner: Jyotika Syal
 feature: 화면 개발
 role: Developer
 level: Intermediate
-exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
 
 ---
+
 
 # 다중 영역 레이아웃에 대한 사용자 지정 템플릿 만들기 {#creating-custom-templates-multizone}
 
@@ -174,3 +174,6 @@ CSS 규칙을 조정하여 &quot;data-uri&quot;라고 하는 항목을 사용하
 배경색을 변경하려면 다음 코드를 xml 파일(13단계), *static.css*&#x200B;에 추가합니다.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+
