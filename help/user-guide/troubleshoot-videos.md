@@ -12,13 +12,13 @@ discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: 채널, 대화형
 role: Developer
 level: Intermediate
-exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
 
 ---
+
 
 # 비디오 재생 구성 및 문제 해결 {#video-playback-configuration-and-troubleshooting}
 
@@ -157,3 +157,4 @@ google의 자동 재생 정책 플래그 문제를 해결하려면 아래 절차
 1. 2개 이상의 플레이어 시작
 
 플레이어가 정렬된 새 시퀀스를 시작하기 전에 시간이 걸릴 수 있습니다.
+
