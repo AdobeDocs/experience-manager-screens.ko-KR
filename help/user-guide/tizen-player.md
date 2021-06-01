@@ -4,13 +4,13 @@ description: 이 페이지에서는 타이젠 플레이어의 설치 및 작업�
 feature: 스크린, 플레이어 관리
 role: Administrator
 level: Intermediate
-exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 1%
 
 ---
+
 
 # 타이젠 플레이어 구현 {#tizen-player}
 
@@ -130,3 +130,4 @@ RMS(Samsung Remote Management Service)에 타이젠 장치를 등록하고 URL �
    ![이미지](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 변경 사항이 표시 화면에 나타나려면 **저장**&#x200B;을 클릭하십시오.
+
