@@ -12,13 +12,13 @@ discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Administrator
 level: Intermediate
-exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
 
 ---
+
 
 # AEM Screens 구성 및 배포 {#configuring-and-deploying-aem-screens}
 
@@ -152,3 +152,11 @@ AEM Screens 프로젝트에 대한 Dispatcher를 구성하는 방법에 대해 �
 >[!NOTE]
 >**추천:**
 >프로덕션 사용 시 AEM Screens 서버에 HTTPS를 사용하는 것이 좋습니다.
+
+
+
+
+
+
+
+
