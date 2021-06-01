@@ -13,13 +13,13 @@ docset: aem65
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 1%
 
 ---
+
 
 # 숙박 예약 활성화 {#hospitality-reservation-activation}
 
@@ -86,4 +86,6 @@ AEM Screens 프로젝트에 대한 숙박 예약 활성화 사용 사례를 구�
 
    1. **미리 보기 를 클릭합니다.** 또한 Google Sheet를 열고 값을 업데이트합니다.
    1. **Restaurant1** 및 **Restaurant2** 열의 값을 업데이트합니다. **Restaurant1** > **Restaurant2,**&#x200B;에서는 *Steak* food의 이미지를 볼 수 있습니다. 그렇지 않으면 *Thai* 음식 이미지가 화면에 표시됩니다.
+
    ![결과5](assets/result5.gif)
+
