@@ -12,13 +12,13 @@ discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 6%
 
 ---
+
 
 # 동적 포함된 시퀀스 사용 {#using-dynamic-embedded-sequence}
 
@@ -406,3 +406,4 @@ AEM Screens 프로젝트에서 Dynamic Embedded Sequence를 구현하려면 다�
 
 >[!NOTE]
 권한 설정에 대한 자세한 내용은 [ACL 설정](setting-up-acls.md)을 참조하십시오.
+
