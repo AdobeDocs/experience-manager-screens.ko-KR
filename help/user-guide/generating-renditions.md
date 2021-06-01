@@ -12,13 +12,13 @@ discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 66%
 
 ---
+
 
 # 비디오 표현물 {#video-renditions}
 
@@ -93,3 +93,4 @@ Full HD 표현물을 수동으로 생성하려면 아래 절차를 따르십시�
 1. **표현물** 사이드 레일을 여십시오. 그러면 새 Full HD 표현물을 확인할 수 있습니다.
 
    ![step8_-_open_therenditionsiderail](assets/step8_-_open_therenditionssiderail.png)
+
