@@ -7,13 +7,13 @@ contentOwner: Jyotika Syal
 feature: 화면 개발
 role: Developer
 level: Intermediate
-exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 1%
 
 ---
+
 
 # 텍스트 오버레이에 대한 사용자 지정 브랜딩 및 스타일링 {#creating-custom-branding-styling}
 
@@ -131,3 +131,12 @@ AEM Screens 채널의 자산에 적용된 텍스트 오버레이에 사용자 �
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    이제 자산에 추가된 텍스트 오버레이에 대한 브랜드 및 사용자 지정 스타일을 업데이트할 준비가 되었습니다.
+
+
+
+
+
+
+
+
+
