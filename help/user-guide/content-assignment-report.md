@@ -4,13 +4,13 @@ description: 이 페이지에서는 컨텐츠 지정 보고서 다운로드 및 
 feature: 스크린 작성
 role: Developer
 level: Intermediate
-exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 7%
 
 ---
+
 
 # 컨텐츠 할당 보고서 {#content-assignment-report}
 
@@ -57,3 +57,4 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 �
 1. Excel 시트가 AEM Screens 프로젝트 이름과 미리 동일한 이름으로 로컬 시스템에 다운로드됩니다. 예를 들어 프로젝트 이름이 **DemoScreens**&#x200B;이면 다운로드한 파일 이름은 **demoscreens-content-assignment-report.xlxs**&#x200B;입니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/car-download1.png)
+
