@@ -4,13 +4,13 @@ description: '"2020년 11월 30일에 릴리스된 AEM Screens 기능 팩 202011
 feature: 기능 팩
 role: Developer
 level: Intermediate
-exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 7%
 
 ---
+
 
 # 기능 팩 202011 릴리스 노트 {#release-notes-for-feature-pack}
 
