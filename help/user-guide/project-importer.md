@@ -13,13 +13,13 @@ docset: aem65
 feature: 화면 관리
 role: Administrator
 level: Intermediate
-exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 3%
 
 ---
+
 
 # 파일 {#new-project-importer-from-file}에서 새 프로젝트 가져오기
 
@@ -126,3 +126,4 @@ AEM Screens 프로젝트를 설정할 때 조직에서 처음으로 모든 위�
 1. 따라서 이제 프로젝트에 가져온 모든 위치를 볼 수 있습니다.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+
