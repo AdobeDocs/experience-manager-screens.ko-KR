@@ -13,13 +13,13 @@ noindex: true
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 5%
 
 ---
+
 
 # 텍스트 오버레이 {#text-overlay}
 
@@ -149,3 +149,18 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정해야 합니다.
 1. **미리 보기**&#x200B;를 클릭하여 원하는 출력을 봅니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
