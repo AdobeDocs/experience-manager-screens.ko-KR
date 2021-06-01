@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: 디지털 서명, 컨텐츠
 role: Developer
 level: Intermediate
-exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 1%
 
 ---
+
 
 # AEM Screens FAQ {#aem-screens-faqs}
 
@@ -210,3 +210,5 @@ AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만�
 `error.log`에 *쿼리 순회 경고*&#x200B;가 있는 경우 쿼리에 대한 사용자 지정 인덱스를 만듭니다. 자세한 내용은 [인덱스 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes)을 참조하십시오.
 
 [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html)에서 추가 리소스를 참조할 수도 있습니다.
+
+
