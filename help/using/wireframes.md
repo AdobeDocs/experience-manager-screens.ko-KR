@@ -3,13 +3,13 @@ title: 와이어프레임
 seo-title: AEM Screens용 와이어프레임
 description: 이 페이지에서는 AEM Screens 프로젝트에 대한 와이어프레임에 대해 설명합니다
 seo-description: 이 페이지에서는 AEM Screens 프로젝트에 대한 와이어프레임에 대해 설명합니다
-exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
+
 
 # 와이어프레임 {#wireframes}
 
@@ -34,3 +34,4 @@ ht-degree: 0%
 **프로젝트 수준**&#x200B;에서, 물리적 공간에서 여러 화면이나 경험이 함께 작동하는 방식을 모델링하여 완벽한 다중 접점 사용자 여정을 제공할 수 있습니다.
 
 이 옵션은 이전에 만든 UX 여정 맵과 일치해야 합니다.
+
