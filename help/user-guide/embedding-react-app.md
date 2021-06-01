@@ -12,13 +12,13 @@ docset: aem65
 feature: 화면 개발
 role: Developer
 level: Intermediate
-exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 0%
 
 ---
+
 
 # AEM SPA 편집기를 사용하여 REACT 애플리케이션을 포함 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -138,3 +138,4 @@ AEM Screens을 통해 SPA을 Adobe Analytics과 오프라인 기능과 통합하
    >[!NOTE]
    >
    >플레이어 펌웨어는 사용자가 전송하는 사용자 지정 분석 데이터에 플레이어 및 런타임 환경에 대한 자세한 정보를 자동으로 추가합니다. 따라서 반드시 필요한 경우가 아니면 낮은 수준의 OS/장치 세부 사항을 캡처할 필요가 없습니다. 비즈니스 분석 데이터에 집중하기만 하면 됩니다.
+
