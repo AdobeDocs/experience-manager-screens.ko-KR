@@ -1,13 +1,13 @@
 ---
 title: 직접 모바일 네트워크
 description: 이 페이지에서는 직접 모바일 네트워크 설정에 대해 설명합니다
-exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
+
 
 # 직접 모바일 네트워크 {#mobile-network-setup}
 
@@ -95,3 +95,6 @@ AEM Screens은 디지털 간판 사용자에게 큰 이점을 제공합니다. �
 >모든 정보는 인터넷 소스를 요청하고 다운로드하는 네트워크에서 각 장치의 소비를 나타냅니다. 이러한 각 요청이 다운로드 시간을 추가하고 확장합니다.
 
 ![](/help/using/assets/download-times-mobile.png)
+
+
+
