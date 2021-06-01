@@ -13,13 +13,13 @@ docset: aem65
 feature: 개요
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
+
 
 # 4부:프로젝트 관리 및 배포 {#part-project-management-and-deployment}
 
@@ -93,3 +93,4 @@ Day One Initiative의 마지막 부분은 NOC 핸드오프를 완료하는 것�
 AEM Screens 배포를 위한 프로젝트 관리와 관련된 주요 고려 사항을 완벽하게 숙지하고 나면
 
 **[부품 5로 이동합니다.2일 지원 및 관련 프로세스를 이해하려면 지원 고려 사항](support-considerations.md)**&#x200B;을 참조하십시오.
+
