@@ -3,13 +3,13 @@ title: 테스트 및 품질 보증
 seo-title: AEM Screens 테스트 및 품질 보증
 description: 이 페이지에서는 AEM Screens 우수 사례 가이드 테스트 및 품질 보증 방법에 대해 설명합니다
 seo-description: 이 페이지에서는 AEM Screens 우수 사례 가이드 테스트 및 품질 보증 방법에 대해 설명합니다
-exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
 
 ---
+
 
 # 테스트 및 품질 보증 {#testing-quality}
 
