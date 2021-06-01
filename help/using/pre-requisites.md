@@ -3,13 +3,13 @@ title: 사전 요구 사항 [!UICONTROL AEM Screens]
 seo-title: '[!UICONTROL AEM Screens] 프로젝트에 대한 사전 요구 사항'
 description: 이 안내서에서는 AEM Screens 프로젝트를 시작하기 전에 사전 요구 사항에 대해 설명합니다.
 seo-description: 이 안내서에서는 AEM Screens 프로젝트를 시작하기 전에 사전 요구 사항에 대해 설명합니다.
-exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
 
 ---
+
 
 # 전제 조건 {#prerequisites}
 
