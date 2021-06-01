@@ -8,13 +8,13 @@ contentOwner: Jyotika syal
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 11%
 
 ---
+
 
 # 컨텐츠 업데이트 As a Service {#content-update-as-a-service}
 
@@ -74,3 +74,4 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
    **일정** 빈도이 서비스가 오프라인 콘텐츠를 업데이트할 시간(예: 오후 5시 또는 17시)을 지정합니다.
 
 1. 설정을 저장하려면 **저장**&#x200B;을 클릭하십시오. 그러면 지정된 시간에 컨텐츠가 업데이트됩니다.
+
