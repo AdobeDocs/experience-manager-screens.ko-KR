@@ -12,13 +12,13 @@ docset: aem65
 feature: 화면 관리
 role: Administrator, Developer
 level: Intermediate
-exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 4%
 
 ---
+
 
 # 작성자 및 게시 아키텍처 개요 {#author-and-publish-architectural-overview}
 
