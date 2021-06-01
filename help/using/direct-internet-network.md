@@ -1,13 +1,13 @@
 ---
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
-exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
+
 
 # 직접 인터넷 네트워크(유선/무선) {#direct-internet-access}
 
@@ -96,3 +96,4 @@ AEM Screens은 디지털 간판 사용자에게 큰 이점을 제공합니다. �
 >이 정보를 통해 인터넷 소스를 요청하고 다운로드하는 네트워크에서 각 장치의 소비를 볼 수 있습니다. 이러한 각 요청이 다운로드 시간을 추가하고 확장합니다.
 
 ![](/help/assets/download-times-direct.png)
+
