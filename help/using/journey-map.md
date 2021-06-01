@@ -3,13 +3,13 @@ title: 여정 맵
 seo-title: AEM Screens용 여정 맵
 description: 이 페이지에서는 AEM Screens용 여정 맵을 설명합니다
 seo-description: 이 페이지에서는 AEM Screens용 여정 맵을 설명합니다
-exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
+
 
 # UX 경로 맵 {#journey-map}
 
