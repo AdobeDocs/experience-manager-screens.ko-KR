@@ -13,13 +13,13 @@ docset: aem65
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 7%
 
 ---
+
 
 # 채널 수준 벌크 이미지 재생 기간 {#channel-level-bulk-image-playback-duration}
 
@@ -77,3 +77,4 @@ ht-degree: 7%
 채널 재생 지속 시간을 업데이트하면(이 예에서는 세 개의 이미지 모두) 이제 이미지가 8초(기본값)가 아닌 3초 동안 재생됩니다.
 
 ![channel_preview](assets/channel_preview.gif)
+
