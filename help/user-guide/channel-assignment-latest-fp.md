@@ -5,13 +5,13 @@ description: 채널 지정 및 방송 시간 분할에 대해 알려면 이 페�
 feature: 스크린 작성, 채널 지정
 role: Administrator, Developer
 level: Intermediate
-exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 23%
 
 ---
+
 
 # 채널 지정 {#channel-assignment}
 
