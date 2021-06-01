@@ -6,13 +6,13 @@ seo-description: 2019년 10월 7일에 릴리스된 AEM Screens 기능 팩 20190
 feature: 기능 팩
 role: Developer
 level: Intermediate
-exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 2%
 
 ---
+
 
 # 기능 팩 201909 릴리스 노트{#release-notes-for-feature-pack}
 
