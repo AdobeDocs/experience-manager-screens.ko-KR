@@ -6,13 +6,13 @@ seo-description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와
 feature: 화면 관리
 role: Administrator, Developer
 level: Intermediate
-exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 4%
 
 ---
+
 
 # AEM Screens에서 작성자 및 게시 구성 {#configuring-author-and-publish-in-aem-screens}
 
@@ -307,3 +307,5 @@ AEM Screens 플레이어에서 변경 사항을 확인합니다.
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 **게시 관리** 기능을 사용하면 작성자에서 장치에 게시할 때까지 컨텐츠 업데이트를 제공할 수 있습니다. 전체 AEM Screens 프로젝트 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대해서만 컨텐츠를 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](on-demand-content.md)를 참조하십시오.
+
+
