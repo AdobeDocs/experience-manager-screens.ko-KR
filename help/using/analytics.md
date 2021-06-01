@@ -3,13 +3,13 @@ title: AEM Screens을 사용한 Analytics
 seo-title: AEM Screens을 사용한 Analytics
 description: 이 페이지에서는 AEM Screens을 사용하는 Analytics에 대해 설명합니다
 seo-description: 이 페이지에서는 AEM Screens을 사용하는 분석에 대해 설명합니다
-exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
 
 ---
+
 
 # AEM Screens이 있는 Analytics {#analytics-screens}
 
@@ -27,3 +27,4 @@ AEM Screens은 각 플레이어 장치가 실행하는 모든 추적 가능한 �
 
 analytics를 사용하는 두 번째 사용 사례는 보고서 및 대시보드를 통해 인류에 맞게 재생 이벤트 및 사용 데이터를 처리하는 것입니다.
 이 데이터를 사용하여 대화형 경험의 열 맵을 만들어 애플리케이션을 통해 기본 여정 맵을 결정할 수 있습니다. 소비자가 Adobe 애플리케이션과 상호 작용하는 횟수를 그래픽으로 변환하는 대시보드 만들기를 선택할 수도 있습니다.
+
