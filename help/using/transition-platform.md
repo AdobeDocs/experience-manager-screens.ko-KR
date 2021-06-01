@@ -3,13 +3,13 @@ title: 플랫폼으로 전환
 seo-title: AEM Screens용 Platform으로 전환
 description: 이 페이지에서는 Platform으로 전환하는 방법에 대해 설명합니다
 seo-description: 이 페이지에서는 Platform으로 전환하는 방법에 대해 설명합니다
-exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 3%
 
 ---
+
 
 # 플랫폼으로 전환 {#transition-platform}
 
