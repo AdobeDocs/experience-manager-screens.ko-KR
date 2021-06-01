@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
 
 ---
+
 
 # 전환 적용 중 {#applying-transitions}
 
@@ -60,3 +60,4 @@ ht-degree: 2%
 1. 또한 이 채널 편집기에 **포함된 시퀀스** 구성 요소(시퀀스 채널을 포함하는)를 추가하는 경우 아래 그림과 같이 컨텐츠가 순서대로 재생되도록 끝에 전환 구성 요소를 추가할 수 있습니다.
 
    ![image3](assets/transitions5.png)
+
