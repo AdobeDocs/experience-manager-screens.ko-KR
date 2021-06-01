@@ -3,13 +3,13 @@ title: 프로젝트 범위 지정 시 고려 사항
 seo-title: 프로젝트 범위 지정 시 고려 사항
 description: 이 페이지에서는 프로젝트 범위 지정 시 고려 사항을 설명합니다
 seo-description: 이 페이지에서는 프로젝트 범위 지정 시 고려 사항을 설명합니다
-exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 4%
 
 ---
+
 
 # 프로젝트 범위 지정 시 고려 사항 {#pre-sales-considerations}
 
