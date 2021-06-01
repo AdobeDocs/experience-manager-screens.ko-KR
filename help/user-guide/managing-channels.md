@@ -6,13 +6,13 @@ seo-description: 채널 만들기 및 관리에 대해 알려면 이 페이지�
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 44%
 
 ---
+
 
 # 채널 생성 및 관리 {#creating-and-managing-channels}
 
@@ -259,3 +259,4 @@ AEM Screens용 프로젝트를 만들었으면 아래 절차에 따라 프로젝
 * [채널 만들기 및 관리](managing-channels.md)
 * [위치 만들기 및 관리](managing-locations.md)
 * [디스플레이 만들기 및 관리](managing-displays.md)
+
