@@ -3,13 +3,13 @@ title: 지원 모니터링
 seo-title: AEM Screens 지원 모니터링
 description: 이 페이지에서는 AEM Screens 모범 사례 가이드 지원 모니터링에 대해 설명합니다
 seo-description: 이 페이지에서는 AEM Screens 모범 사례 가이드 지원 모니터링에 대해 설명합니다
-exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
+
 
 # 지원 모니터링 {#support-monitoring}
 
@@ -46,3 +46,4 @@ ht-degree: 0%
    * *display* 전원이 켜져 있는지 확인합니다.
    * *컴퓨터*&#x200B;의 전원이 켜져 있고 신호를 보내고 있는지 확인하십시오.
    * 마우스 오른쪽 단추를 클릭하고 *적용 가능한 로그*&#x200B;를 검사 및 확인합니다.
+
