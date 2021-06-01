@@ -12,13 +12,13 @@ discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 49%
 
 ---
+
 
 # 일정 생성 및 관리 {#creating-and-managing-schedules}
 
@@ -67,3 +67,4 @@ ht-degree: 49%
    **지정된 채널** 패널지정된 채널 패널의 오른쪽 위 모서리에서 +채널 지정 을 클릭하여 채널 지정 대화 상자를 엽니다.
 
    **지정된 디스플레이** 패널지정된 디스플레이 패널에서 디스플레이를 선택하여 디스플레이 대시보드를 엽니다.
+
