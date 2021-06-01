@@ -13,13 +13,13 @@ docset: aem65
 feature: 개요
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
+
 
 # 5부:지원 고려 사항 {#part-support-considerations}
 
@@ -72,3 +72,4 @@ ht-degree: 0%
 ## 결론 {#conclusion}
 
 이 5가지 부분 시리즈는 프로젝트의 성공을 보장하기 위해 중요한 주요 고려 사항에 중점을 둡니다. 구현 세부 사항은 AEM Screens 사용 안내서의 다른 섹션을 참조하십시오.
+
