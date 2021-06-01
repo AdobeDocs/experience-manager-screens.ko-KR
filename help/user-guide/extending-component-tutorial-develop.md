@@ -12,13 +12,13 @@ targetaudience: target-audience new
 feature: 화면 개발
 role: Developer
 level: Intermediate
-exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1854'
 ht-degree: 1%
 
 ---
+
 
 # AEM Screens 구성 요소 확장 {#extending-an-aem-screens-component}
 
