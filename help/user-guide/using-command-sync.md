@@ -6,13 +6,13 @@ seo-description: 명령 동기화를 사용하는 방법에 대해 알아보려�
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
+
 
 # 명령 동기화 {#command-sync}
 
