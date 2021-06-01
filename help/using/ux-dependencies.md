@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens]에 대한 UX 종속성'
 seo-title: '[!UICONTROL AEM Screens]에 대한 UX 종속성'
 description: 이 안내서에서는 [!UICONTROL AEM Screens]에 대한 UX 종속성을 설명합니다
 seo-description: 이 안내서에서는 [!UICONTROL AEM Screens]에 대한 UX 종속성을 설명합니다
-exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
 
 ---
+
 
 # UX 종속성 {#ux-dependencies}
 
@@ -40,3 +40,5 @@ UX 종속성은 컨텐츠가 전략화되는 위치와 방법을 정의하므로
 1. 하나의 디스플레이에 여러 장치가 필요합니까(예: 다중 영역, 추가 큰 보드)?
 
 1. 밝기, 온도, 계절 등과 같은 환경 고려 사항은 무엇입니까?
+
+
