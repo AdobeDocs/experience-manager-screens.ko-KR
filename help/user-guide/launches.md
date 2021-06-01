@@ -13,13 +13,13 @@ docset: aem65
 feature: 스크린 작성, 시작
 role: Administrator, Developer
 level: Intermediate
-exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
+
 
 # Screens Launch를 사용한 컨텐츠 업데이트 {#launches}
 
@@ -207,3 +207,4 @@ AEM Screens 프로젝트에 Screens Launch 기능을 구현하려면 아래 절�
 >[!CAUTION]
 >
 >이 작업을 수행하면 모든 하위 항목(중첩된 론치)도 삭제됩니다.
+
