@@ -13,13 +13,13 @@ docset: aem65
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 43%
 
 ---
+
 
 # 포함된 시퀀스 {#embedded-sequences}
 
@@ -111,3 +111,4 @@ ht-degree: 43%
 1. 시퀀스에 포함된 채널에 대한 **시퀀스** 탭에서 **기간(ms)**&#x200B;을 선택합니다.
 
 ![최신](assets/latest.gif)
+
