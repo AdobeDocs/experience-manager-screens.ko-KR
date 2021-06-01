@@ -13,13 +13,13 @@ noindex: true
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 8%
 
 ---
+
 
 # 다중 영역 레이아웃 {#multi-zone-layout}
 
@@ -192,3 +192,5 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
 왼쪽 영역은 시퀀스 채널이고 오른쪽 영역은 비디오를 포함합니다.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
+
+
