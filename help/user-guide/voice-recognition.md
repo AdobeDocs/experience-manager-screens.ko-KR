@@ -4,13 +4,13 @@ description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대�
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
+
 
 # AEM Screens의 음성 인식 {#voice-recognition}
 
@@ -184,3 +184,8 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 **분할 화면 채널에 대해 원하는 출력**
 
 **Main** 채널에서 콘텐츠를 재생하고 있지만 키워드 **hot** 및 **cold**&#x200B;와 함께 *핫 및 콜드 음료*&#x200B;에 대한 메뉴를 보려면 **SplitScreen** 채널의 내용을 재생하기 시작합니다. *을 기본 메뉴*&#x200B;로 돌아가면 기본 채널로 다시 전환합니다.
+
+
+
+
+
