@@ -1,13 +1,13 @@
 ---
 title: 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크
 description: 이 페이지에서는 모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크에 대해 설명합니다
-exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
 
 ---
+
 
 # 모바일 데이터 라우터 및 활성 네트워크 구성 요소가 있는 모바일 네트워크 {#mobile-network-setup}
 
