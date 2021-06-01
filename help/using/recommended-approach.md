@@ -3,13 +3,13 @@ title: 권장 방법
 seo-title: AEM Screens 프로젝트에서 권장되는 방법
 description: 이 페이지에서는 AEM Screens 프로젝트의 권장 접근 방식을 설명합니다
 seo-description: 이 페이지에서는 AEM Screens 프로젝트의 권장 접근 방식을 설명합니다
-exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
 
 ---
+
 
 # 권장 방법 {#recommended-approach}
 
@@ -46,3 +46,4 @@ ht-degree: 0%
 * **로드맵 개발**:클라이언트가 기능이 풍부한 제품을 원하는 경우 프로젝트 초기에 계획된 기능의 일부를 제공하고 향후 단계를 위해 다른 기능을 예약하십시오. 첫 번째 결과물이 많은 경우에는 더 큰 위험이 따르며 고객과의 유효성 검사가 더 어렵습니다.
 
 * **사용자 지정 통합 범위 이해**:터치 스크린 상호 작용, 모션 센서 또는 RFID를 사용하는 대화형 구성 요소는 구현 방법에서 중요한 사용자 지정 개발이 필요합니다. 슬라이드 쇼, 비디오 광고 또는 정적 메뉴는 스크린 채널에서 그래픽 컨텐츠 또는 HTML로 제공할 수 있습니다.
+
