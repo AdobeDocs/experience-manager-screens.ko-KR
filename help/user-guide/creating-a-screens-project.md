@@ -12,13 +12,13 @@ discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 38%
 
 ---
+
 
 # 프로젝트 만들기 및 관리 {#creating-and-managing-projects}
 
@@ -85,3 +85,4 @@ Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음, [스크린]을 
 ### 다음 단계 {#the-next-steps}
 
 고유한 프로젝트를 만들었으면 [채널 관리](managing-channels.md)를 참조하여 채널에서 컨텐츠를 만들고 관리하십시오.
+
