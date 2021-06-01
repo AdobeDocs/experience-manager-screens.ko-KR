@@ -13,13 +13,13 @@ docset: aem65
 feature: 스크린 작성, 경험 조각
 role: Administrator, Developer
 level: Intermediate
-exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 12%
 
 ---
+
 
 # 경험 조각 사용 {#using-experience-fragments}
 
@@ -219,3 +219,4 @@ ht-degree: 12%
 
 다음 이미지는 **TestChannel**&#x200B;의 변경 사항을 보여줍니다.\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
+
