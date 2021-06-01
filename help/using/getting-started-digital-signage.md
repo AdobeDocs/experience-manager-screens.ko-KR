@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens]에 대한 디지털 사이니지의 기본 사�
 seo-title: '[!UICONTROL AEM Screens]에 대한 디지털 사이니지의 기본 사항'
 description: 이 안내서에서는 디지털 간판 프로젝트의 기본 사항을 설명합니다
 seo-description: 이 안내서에서는 디지털 간판 프로젝트의 기본 사항을 설명합니다
-exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 2%
 
 ---
+
 
 # 디지털 서명 프로젝트 {#basics-digital-signage} 의 기본 사항
 
