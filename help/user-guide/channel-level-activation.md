@@ -13,13 +13,13 @@ noindex: true
 feature: 제작 화면, 채널 수준 활성화
 role: Administrator, Developer
 level: Intermediate
-exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 1%
 
 ---
+
 
 # 채널 수준 활성화 {#channel-level-activation-single-event-playback}
 
@@ -265,3 +265,4 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 
 >[!NOTE]
 요일 및 월을 정의할 때 월/월요일 및 1월/1월과 같은 약식 및 전체 이름 표기법을 사용할 수 있습니다.  또한 *am/pm* 표기법(즉, 오후 2:00) 대신 _군대 시간_ 표기법(즉, 14:00)을 사용할 수도 있습니다.
+
