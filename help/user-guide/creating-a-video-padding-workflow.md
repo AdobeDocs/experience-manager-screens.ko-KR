@@ -13,13 +13,13 @@ docset: aem65
 feature: 스크린 작성
 role: Administrator, Developer
 level: Intermediate
-exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 7%
 
 ---
+
 
 # 비디오 패딩 워크플로우 만들기 {#creating-a-video-padding-workflow}
 
@@ -121,3 +121,4 @@ AEM Screens 프로젝트에서 워크플로우를 사용하려면 아래 절차�
 * 아래 그림과 같이 CRXDE Lite의 ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4***&#x200B;로 이동합니다.
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
+
