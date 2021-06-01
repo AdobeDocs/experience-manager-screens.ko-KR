@@ -6,13 +6,13 @@ seo-description: 2020년 4월 20일에 릴리스된 AEM Screens 기능 팩 20200
 feature: 기능 팩
 role: Developer
 level: Intermediate
-exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 8%
 
 ---
+
 
 # 기능 팩 202004 릴리스 노트 {#release-notes-for-feature-pack}
 
