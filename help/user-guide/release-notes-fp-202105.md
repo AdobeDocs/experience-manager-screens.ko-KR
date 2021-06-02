@@ -4,10 +4,10 @@ description: '"2021년 6월 1일에 릴리스된 AEM Screens 기능 팩 202105�
 feature: 기능 팩
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 15%
+source-wordcount: '286'
+ht-degree: 16%
 
 ---
 
@@ -36,10 +36,8 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 3일입니다.
 
    서버의 리소스를 적게 할당하는 등 성능이 향상된 채널 매니페스트 생성 속도가 빨라집니다.
 
-
 ### 버그 수정 {#bug-fixes}
 
-* 채널 매니페스트 생성 성능이 개선되었습니다.
 * 채널에 동적 포함된 시퀀스가 포함되어 있으면 플레이어가 검정색 화면을 표시합니다.
 * 이제 스크린 플레이어에서 404 오류나 오류 메시지가 있는 페이지가 추가로 발생하지 않는 끊어진 채널로의 전환을 차단합니다.
 
