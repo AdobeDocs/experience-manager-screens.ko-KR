@@ -4,10 +4,10 @@ description: '"2021년 6월 1일에 릴리스된 AEM Screens 기능 팩 202105�
 feature: 기능 팩
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 10%
+source-wordcount: '274'
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,10 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 3일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
-* 페이지 잠금
+* **AEM Screens 채널에서 페이지 잠금**
+
+   AEM Screens은 이제 AEM Sites에 이미 구현된 대로 *페이지 잠금*&#x200B;을 지원합니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
+
 
 ### 버그 수정 {#bug-fixes}
 
