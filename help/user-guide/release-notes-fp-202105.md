@@ -4,9 +4,9 @@ description: '"2021년 6월 1일에 릴리스된 AEM Screens 기능 팩 202105�
 feature: 기능 팩
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 10%
 
 ---
@@ -24,7 +24,7 @@ AEM Screens 6.5.8 릴리스의 최신 기능 팩은 [소프트웨어 배포 포�
 
 ## 릴리스 날짜 {#release-date}
 
-AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 1일입니다.
+AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 3일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
@@ -32,8 +32,8 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 1일입니다.
 
 ### 버그 수정 {#bug-fixes}
 
-* 채널에 동적 포함된 시퀀스가 포함되어 있으면 플레이어가 검정색 화면을 표시합니다.
 * 채널 매니페스트 생성 성능이 개선되었습니다.
+* 채널에 동적 포함된 시퀀스가 포함되어 있으면 플레이어가 검정색 화면을 표시합니다.
 * 이제 스크린 플레이어에서 404 오류나 오류 메시지가 있는 페이지가 추가로 발생하지 않는 끊어진 채널로의 전환을 차단합니다.
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
@@ -45,7 +45,6 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 1일입니다.
 * 타이젠
 * Android
 * Linux
-* iOS
 
 #### AEM Screens 플레이어 다운로드 {#aem-screens-player-downloads}
 
