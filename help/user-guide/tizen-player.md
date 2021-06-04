@@ -4,9 +4,9 @@ description: 이 페이지에서는 타이젠 플레이어의 설치 및 작업�
 feature: 스크린, 플레이어 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 1. 로컬 HTTP 서버의 IP 또는 URL(및 루트 폴더가 아닌 하위 폴더로 추출된 경우 2단계에서 추출된 파일이 포함된 폴더의 경로)을 가져옵니다.
 
 1. 타이젠 플레이어는 로컬 서버에서 설치 프로그램을 다운로드합니다.
+
+### 이름 지정 타이젠 플레이어 {#name-tizen}
+
+타이젠 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 타이젠 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+
+타이젠 플레이어에서 이름을 구성하려면 아래 단계를 따르십시오.
+
+1. 리모컨의 메뉴 단추를 클릭합니다.
+1. **네트워크** —> **장치 이름**&#x200B;으로 이동하여 플레이어에 이름을 지정합니다.
 
 ### 삼성 장치에 대한 업데이트 구성 {#config-updates}
 
