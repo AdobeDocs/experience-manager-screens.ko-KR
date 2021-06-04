@@ -1,13 +1,13 @@
 ---
 title: 기능 팩 202105 릴리스 노트
-description: '"2021년 6월 1일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오."'
+description: '"2021년 6월 4일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오."'
 feature: 기능 팩
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ AEM Screens 6.5.8 릴리스의 최신 기능 팩은 [소프트웨어 배포 포�
 
 ## 릴리스 날짜 {#release-date}
 
-AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 3일입니다.
+AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 4일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
@@ -32,13 +32,25 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 3일입니다.
 
    AEM Screens은 이제 AEM Sites에 이미 구현된 대로 *페이지 잠금*&#x200B;을 지원합니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
 
+* **AEM Screens 플레이어 장치 이름 지정**
+
+   이제 AEM Screens 플레이어에 장치 이름을 Adobe Experience Manager(AEM)에 전송하는 기능이 포함됩니다.
+기본적으로 대량 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 다른 방법으로는, 고객이 자산 태그 또는 기타 친숙한 이름을 사용할 수 있으므로 AEM에서 볼 수 있고 적절한 컨텐츠를 보다 쉽게 할당할 수 있습니다.
+
+   지원되는 각 운영 체제에서 이름을 구성하는 방법에 대해 알아보려면 다음 설명서를 참조하십시오.
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **매니페스트 생성**
 
    서버의 리소스를 적게 할당하는 등 성능이 향상된 채널 매니페스트 생성 속도가 빨라집니다.
 
 ### 버그 수정 {#bug-fixes}
 
-* 채널에 동적 포함된 시퀀스가 포함되어 있으면 플레이어가 검정색 화면을 표시합니다.
+* 플레이어가 동적 포함된 시퀀스가 포함된 채널로 전환할 때 블랙 화면이 표시됩니다.
 * 이제 스크린 플레이어에서 404 오류나 오류 메시지가 있는 페이지가 추가로 발생하지 않는 끊어진 채널로의 전환을 차단합니다.
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
