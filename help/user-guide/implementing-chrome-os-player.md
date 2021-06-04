@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: 화면 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,27 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Chrome OS 장치의 배포 및 관리에 Chrome 관리 콘솔과 같은 장치 관리 솔루션이 권장됩니다. 이 문서에서는 Chrome 관리 콘솔에 대한 구현을 제공하며 유사한 기능을 제공한다고 주장하는 다른 공급업체가 있습니다. 장치 관리 소프트웨어 공급업체에 문의하십시오.
+
+## Chrome OS 플레이어의 이름 지정 {#name-chrome}
+
+Chrome 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 Chrome 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+
+아래 절차에 따라 Chrome 플레이어에서 이름을 구성하십시오.
+
+1. 선택적으로 AV 통합업체 또는 IT 관리자가 자산 ID와 위치를 엔터프라이즈 등록의 일부로 설정하도록 허용할 수 있습니다.
+
+   ![이미지](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. 장치를 등록할 수 있는 경우 옵션이 제공됩니다.
+
+   ![이미지](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. 자산 ID를 엔터프라이즈 등록뿐만 아니라 Chrome 관리 콘솔에서 설정할 수 있습니다.
+
+   ![이미지](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Chrome 플레이어는 엔터프라이즈 등록에 등록되어야 하며 Chrome 플레이어는 Chrome Management Console을 통해 배포되어야 합니다. 그렇지 않으면 자산 ID가 공백으로 반환됩니다(예: 확장으로 chrome). 장치 이름은 등록 시에만 기록됩니다. 향후 변경 사항은 Adobe Experience Manager (AEM)에서 선택하지 않습니다.
 
 ### 키오스크 모드 {#enabling-kiosk-mode} 활성화
 
