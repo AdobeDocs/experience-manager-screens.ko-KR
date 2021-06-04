@@ -13,10 +13,10 @@ docset: aem65
 feature: Screens 관리, Android Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 1%
+source-wordcount: '1513'
+ht-degree: 0%
 
 ---
 
@@ -177,6 +177,15 @@ Android 플레이어에서 벌크 프로비저닝을 허용하려면 아래 단�
 ## Enterprise Mobility Management를 사용하여 Android Player의 벌크 프로비저닝 {#bulk-provisioning}
 
 Android 플레이어를 일괄적으로 배포할 때 모든 단일 플레이어를 AEM에 수동으로 등록하는 것은 번거롭습니다. VMWare Airwatch, MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 원격으로 배포를 프로비저닝하고 관리하는 것이 좋습니다. AEM Screens Android 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig 를 지원합니다.
+
+## Android 플레이어 이름 지정 {#name-android}
+
+Android 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 Android 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+
+아래 절차에 따라 Android 플레이어에서 이름을 구성하십시오.
+
+1. **설정** —> **장치 정보**&#x200B;로 이동합니다.
+1. 장치 이름을 편집하고 설정하여 Android 플레이어의 이름을 지정합니다
 
 ### Enterprise Mobility Management를 사용하여 Android Player의 벌크 프로비저닝 구현 {#implementation}
 
