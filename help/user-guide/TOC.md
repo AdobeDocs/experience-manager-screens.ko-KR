@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 feature-set: Experience Manager Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 20%
+source-wordcount: '445'
+ht-degree: 19%
 
 ---
 
@@ -109,6 +109,7 @@ ht-degree: 20%
    + [Device Control Center 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
+   + [기능 팩 202105 릴리스 노트](release-notes-fp-202105.md)
    + [기능 팩 202103 릴리스 노트](release-notes-fp-202103.md)
    + [기능 팩 202011 릴리스 노트](release-notes-fp-202011.md)
    + [기능 팩 202008 릴리스 노트](release-notes-fp-202008.md)
