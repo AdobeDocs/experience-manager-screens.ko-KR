@@ -13,9 +13,9 @@ docset: aem65
 feature: Screens 관리, Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -69,6 +69,16 @@ Ad-Hoc 메서드를 사용하면 최신 Windows Player(*.exe*)를 설치할 수 
 >**State**&#x200B;가 **REGISTERED**&#x200B;이면 **장치 id** 필드가 채워지는 것을 볼 수 있습니다.
 >
 >**State**&#x200B;가 **UNREGISTER**&#x200B;인 경우 **토큰**&#x200B;을 사용하여 장치를 등록할 수 있습니다.
+
+## Windows Player 이름 지정 {#name-windows}
+
+사용자에게 친숙한 장치 이름을 Windows 플레이어에 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 보낼 수 있습니다. 이 기능을 사용하면 Windows 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 콘텐츠를 쉽게 할당할 수 있습니다.
+
+Windows Player에서 이름을 구성하려면 아래 단계를 따르십시오.
+
+1. **start** —> **run**&#x200B;을 클릭합니다.
+1. `system.cpl` 입력
+1. 컴퓨터 이름 탭을 사용하여 컴퓨터의 호스트 이름을 설정합니다
 
 ## Windows Installer {#changing-default-options}에서 기본 옵션 변경
 
