@@ -4,9 +4,9 @@ description: 이 페이지에서는 타이젠 플레이어의 설치 및 작업�
 feature: 스크린, 플레이어 관리
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 ### 이름 지정 타이젠 플레이어 {#name-tizen}
 
-타이젠 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 타이젠 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+Tizen 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 타이젠 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
 
 타이젠 플레이어에서 이름을 구성하려면 아래 단계를 따르십시오.
 
@@ -74,7 +74,7 @@ Samsung 장치에서 아래 절차에 따라 장치에서 AEM Screens 플레이�
 
 >[!IMPORTANT]
 >**이 섹션은 Adobe Experience Manager(AEM) 6.5.5에서 AEM 6.5.7에 적용됩니다.**
->AEM 6.5에서 AEM 6.7로 발급한 로그인 토큰에 사용되는 *SameSite=None* 속성과 호환되지 않는 브라우저 엔진이 있습니다. 대부분의 경우 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 상위 박스 또는 검색 엔진이 내장된 다른 장치 설정 등과 같이 일부 경우에는 업그레이드할 수 없습니다.
+>AEM 6.5에서 AEM 6.7로 발급한 로그인 토큰에 사용되는 *SameSite=None* 속성과 호환되지 않는 브라우저 엔진이 있습니다. 일반적으로 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 상위 박스 또는 검색 엔진이 내장된 다른 장치 설정 등과 같이 일부 경우에는 업그레이드할 수 없습니다.
 
 *SameSite=None*&#x200B;을 사용할 때 호환되지 않는 클라이언트를 제외하려면 아래 절차를 따르십시오.
 
