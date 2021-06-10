@@ -4,9 +4,9 @@ description: 이 페이지에서는 타이젠 플레이어의 설치 및 작업�
 feature: 스크린, 플레이어 관리
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -124,9 +124,9 @@ Tizen Player를 원격으로 프로비저닝하면 많은 노력 없이 수백, 
 | 해상도 | 장치의 해상도. |
 | rebootSchedule | 플레이어를 재부팅하는 일정입니다. |
 | enableAdminUI | 사이트에서 장치를 구성하려면 관리자 UI를 활성화합니다. 완전히 구성 및 프로덕션에서 false로 설정합니다. |
-| enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 완전히 구성 및 프로덕션에서 를 설정한 후에는 을 false 로 설정하는 것이 좋습니다. |
+| enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 구성이 완전히 완료되고 프로덕션에서 false로 설정하는 것이 좋습니다. |
 | enableActivityUI | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시하도록 활성화합니다. 문제 해결을 활성화하고 완전히 구성하고 프로덕션에서 비활성화합니다. |
-| cloudMode | 타이젠 플레이어에서 화면을 클라우드 서비스로 연결하려면 true로 설정합니다. AMS 또는 onPrem AEM에 연결하는 경우 false입니다. |
+| cloudMode | 타이젠 플레이어에서 Cloud Service으로 Screens에 연결하려면 true로 설정합니다. AMS 또는 On-Prem AEM에 연결하려면 false로 설정하십시오. |
 | cloudToken | Screens에 Cloud Service으로 등록할 등록 토큰입니다. |
 
 
