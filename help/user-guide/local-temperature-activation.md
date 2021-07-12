@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
 
 ---
-
 
 # 여행 센터 온도 활성화 {#travel-center-temperature-activation}
 
@@ -90,6 +90,4 @@ ht-degree: 0%
 
    1. **미리 보기 를 클릭합니다.** 또한 Google Sheet를 열고 값을 업데이트합니다.
    1. 값을 50세 미만으로 변경하세요. 여름 음료 이미지를 볼 수 있을 거예요. Google Sheet의 값이 50 이상이면 핫 음료 이미지를 볼 수 있습니다.
-
    ![result3](assets/result3.gif)
-
