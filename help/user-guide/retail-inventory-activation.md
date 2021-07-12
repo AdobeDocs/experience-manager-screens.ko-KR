@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
 
 ---
-
 
 # 소매 재고 타깃팅된 활성화 {#retail-inventory-targeted-activation}
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
    1. **For_Red**&#x200B;을 선택하고 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
-   1. **비교 를 끌어다 놓습니다.속성 - 편집기에 속성** 을 추가하고 구성 아이콘을 클릭하여 속성을 편집합니다.
+   1. **비교 를 끌어다 놓습니다. 속성 - 편집기에 속성** 을 추가하고 구성 아이콘을 클릭하여 속성을 편집합니다.
    1. **첫 번째 속성 이름**&#x200B;의 드롭다운에서 **googlesheets/value/1/2**&#x200B;을 선택합니다.
 
    1. 드롭다운 메뉴에서 **Operator** 를 **보다 큼** 로 선택합니다
@@ -65,7 +65,7 @@ ht-degree: 2%
 
    1. **두 번째 속성 이름**&#x200B;의 드롭다운에서 **googlesheets/value/1/1**&#x200B;을 선택합니다.
 
-   1. **다른 비교 를 끌어다 놓습니다.속성 - 편집기에 속성** 을 추가하고 구성 아이콘을 클릭하여 속성을 편집합니다.
+   1. **다른 비교 를 끌어다 놓습니다. 속성 - 편집기에 속성** 을 추가하고 구성 아이콘을 클릭하여 속성을 편집합니다.
    1. **첫 번째 속성 이름**&#x200B;의 드롭다운에서 **googlesheets/value/1/2**&#x200B;을 선택합니다.
 
    1. 드롭다운 메뉴에서 **Operator** 를 **보다 큼** 로 선택합니다
@@ -123,6 +123,4 @@ ht-degree: 2%
 
    1. **미리 보기 를 클릭합니다.** 또한 Google Sheet를 열고 값을 업데이트합니다.
    1. 세 개의 서로 다른 열 모두에 대한 값을 변경하면 인벤토리에서 가장 높은 값에 따라 디스플레이 이미지 업데이트가 표시됩니다.
-
    ![retail_result](assets/retail_result.gif)
-
