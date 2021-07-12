@@ -4,17 +4,17 @@ seo-title: AEM Screens용 Dispatcher 구성
 description: 이 페이지에서는 AEM Screens 프로젝트에 대한 Dispatcher 구성을 위한 지침을 소개합니다.
 seo-description: 이 페이지에서는 AEM Screens 프로젝트에 대한 Dispatcher 구성을 위한 지침을 소개합니다.
 feature: 화면 관리
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
-
-# AEM Screens{#dispatcher-configurations-for-aem-screens}에 대한 디스패처 구성
+# AEM Screens용 Dispatcher 구성{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다.
 
@@ -57,7 +57,7 @@ AEM Screens 플레이어/장치는 인증된 세션을 사용하여 게시 인�
 
 예를 들어, AWS ALB를 사용하는 경우, ALB 수준에서 고착성을 사용하려면 [애플리케이션 로드 밸런서용 타겟 그룹](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)을 참조하십시오. 1일 동안 고착성을 활성화합니다.
 
-### 1단계:클라이언트 헤더 구성 {#step-configuring-client-headers}
+### 1단계: 클라이언트 헤더 구성 {#step-configuring-client-headers}
 
 `/clientheaders`섹션에 다음을 추가하십시오.
 
@@ -67,7 +67,7 @@ AEM Screens 플레이어/장치는 인증된 세션을 사용하여 게시 인�
 
 **X-REQUEST-COMMAND**
 
-### 2단계:스크린 필터 구성 {#step-configuring-screens-filters}
+### 2단계: 스크린 필터 구성 {#step-configuring-screens-filters}
 
 스크린 필터를 구성하려면 다음을 ***/filter***&#x200B;에 추가합니다.
 
@@ -90,7 +90,7 @@ AEM Screens 플레이어/장치는 인증된 세션을 사용하여 게시 인�
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 3단계:Dispatcher 캐시 비활성화 {#step-disabling-dispatcher-cache}
+### 3단계: Dispatcher 캐시 비활성화 {#step-disabling-dispatcher-cache}
 
 ***/content/screens 경로***&#x200B;에 대해 디스패처 캐싱을 비활성화합니다.
 
