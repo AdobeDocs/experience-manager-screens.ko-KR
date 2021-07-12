@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 61%
 
 ---
-
 
 # 채널에 구성 요소 추가{#adding-components-to-a-channel}
 
@@ -29,7 +29,7 @@ ht-degree: 61%
 
 AEM Screens에서는 스크린 프로젝트에서 사용할 수 있는 다양한 AEM 구성 요소를 제공합니다.
 
-### AEM Screens 구성 요소 보기  {#viewing-aem-screens-components}
+### AEM Screens 구성 요소 보기 {#viewing-aem-screens-components}
 
 AEM Screens 프로젝트를 만들 때마다 프로젝트에 추가할 수 있는 기본 구성 요소 목록이 표시됩니다.
 
@@ -62,7 +62,7 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
 >
 >유사하게, 프로젝트에 AEM Screens와 호환하는 다른 새 구성 요소를 원하는 개수만큼 추가할 수 있습니다.
 
-## AEM Screens 구성 요소 이해  {#understanding-aem-screen-components}
+## AEM Screens 구성 요소 이해 {#understanding-aem-screen-components}
 
 다음 섹션에서는 프로젝트에서 사용할 수 있는 AEM Screens 구성 요소에 대해 설명합니다.
 
@@ -336,4 +336,3 @@ AEM에서는 다양한 다른 구성 요소도 제공합니다. AEM Screens와 �
   </tr>
  </tbody>
 </table>
-
