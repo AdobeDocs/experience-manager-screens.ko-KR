@@ -3,17 +3,17 @@ title: Kickstart 안내서
 seo-title: Kickstart 안내서
 description: 데모 AEM Screens 프로젝트를 만들려면 이 페이지를 따르십시오. 설치 및 새 프로젝트를 설정하여 AEM Screens 플레이어에서 콘텐츠를 볼 수 있는 디지털 서명 경험을 만드는 데 도움이 됩니다.
 feature: 개요, 디지털 서명
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 6%
 
 ---
 
-
-# 시작 안내서 {#kickstart-guide}
+# Kickstart 안내서 {#kickstart-guide}
 
 AEM Screens의 킥스타트는 AEM Screens 프로젝트를 설정하고 실행하는 방법을 보여줍니다. 기본 디지털 간판 경험을 설정하고, 각 채널에 자산 및/또는 비디오와 같은 컨텐츠를 추가하고, AEM Screens 플레이어에 컨텐츠를 추가로 게시하는 과정을 안내합니다.
 
@@ -123,7 +123,7 @@ AEM Screens 프로젝트를 만들었으면 컨텐츠를 관리하는 새 채널
 **TestLocation**&#x200B;이(가) 만들어지고 **Locations** 폴더에 추가됩니다.
 
 
-### 위치 {#creating-display}에 대한 표시 만들기
+### 위치에 대한 디스플레이 생성 {#creating-display}
 
 위치를 만들었으면 위치에 대한 새 디스플레이를 만들어야 합니다.
 
@@ -148,7 +148,7 @@ AEM Screens 프로젝트를 만들었으면 컨텐츠를 관리하는 새 채널
 
    ![이미지](assets/kickstart/demo-disp4.png)
 
-### 채널 {#assigning-channel} 할당
+### 채널 지정 {#assigning-channel}
 
 프로젝트 설정이 완료되면 컨텐츠를 보려면 채널을 디스플레이에 지정해야 합니다.
 
@@ -182,7 +182,7 @@ AEM Screens 프로젝트를 만들었으면 컨텐츠를 관리하는 새 채널
 
 1. 환경 설정을 구성했으면 **저장**&#x200B;을 클릭합니다.
 
-### 장치 등록 및 디스플레이에 장치 지정 {#registering-device}
+### 장치 등록 및 디스플레이에 장치 할당 {#registering-device}
 
 AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 
