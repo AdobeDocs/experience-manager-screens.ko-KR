@@ -5,17 +5,17 @@ description: 사용 가능한 AEM Screens Player 설치에 대해 알려면 이 
 seo-description: Screens 플레이어 설치
 contentOwner: jsyal
 feature: 화면 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-
-# AEM Screens Player {#installing-player} 설치
+# AEM Screens Player 설치 {#installing-player}
 
 이 페이지에서는 AEM Screens 플레이어를 설치하는 방법을 설명합니다.
 
