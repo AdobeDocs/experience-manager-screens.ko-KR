@@ -2,19 +2,19 @@
 title: 타이젠 플레이어
 description: 이 페이지에서는 타이젠 플레이어의 설치 및 작업에 대해 설명합니다.
 feature: 스크린, 플레이어 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
 
 ---
 
-
 # 타이젠 플레이어 구현 {#tizen-player}
 
-## 타이젠 플레이어 {#installing-tizen-player} 설치
+## 타이젠 플레이어 설치 {#installing-tizen-player}
 
 AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
@@ -70,7 +70,7 @@ Samsung 장치에서 아래 절차에 따라 장치에서 AEM Screens 플레이�
    >타이젠 장치와 `http` 서버 모두 서로 연결할 수 있어야 합니다. 즉, 서버가 타이젠 플레이어에 연결할 수 있어야 합니다.
 
 
-## SameSite 쿠키 문제가 있는 사용자 에이전트 제외 {#exempting-user-agents}
+## SameSite 쿠키 문제로 사용자 에이전트 제외 {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**이 섹션은 Adobe Experience Manager(AEM) 6.5.5에서 AEM 6.5.7에 적용됩니다.**
@@ -84,11 +84,11 @@ Samsung 장치에서 아래 절차에 따라 장치에서 AEM Screens 플레이�
 
 1. samesite 속성&#x200B;*에서 제외할 새 옵션*&#x200B;사용자 에이전트가 표시됩니다. *SameSite=None* 속성과 호환되지 않는 사용자 에이전트에 해당하는 regex로 이 값을 채웁니다.
    >[!NOTE]
-   >[SameSite=None을 참조하십시오.자세한 내용은 호환되지 않는 클라이언트](https://www.chromium.org/updates/same-site/incompatible-clients)를 참조하십시오. 타이젠 플레이어의 경우 regex를 사용합니다.`(.*)Tizen(.*)`
+   >[SameSite=None을 참조하십시오. 자세한 내용은 호환되지 않는 클라이언트](https://www.chromium.org/updates/same-site/incompatible-clients)를 참조하십시오. 타이젠 플레이어의 경우 regex를 사용합니다. `(.*)Tizen(.*)`
 
 1. AEM 6.5.5 이상 인스턴스에 Tizen 플레이어를 등록하면 컨텐츠를 정상적으로 등록하고 표시됩니다.
 
-## 타이젠 플레이어 {#remote-provisioning} 원격 프로비저닝
+## 타이젠 플레이어 원격 프로비저닝 {#remote-provisioning}
 
 Tizen Player를 원격으로 프로비저닝하면 많은 노력 없이 수백, 수천 개의 삼성 타이젠 디스플레이를 배포할 수 있습니다. 서버 URL 및 벌크 등록 코드 또는 기타 매개 변수로 각 플레이어를 구성하거나, Screens에서 클라우드 모드 및 클라우드 토큰을 구성하는 Cloud Service으로 작업하는 경우 번거로운 수동 작업이 발생하지 않습니다.
 
@@ -130,7 +130,7 @@ Tizen Player를 원격으로 프로비저닝하면 많은 노력 없이 수백, 
 | cloudToken | Screens에 Cloud Service으로 등록할 등록 토큰입니다. |
 
 
-## RMS(Samsung Remote Management Service)에 타이젠 장치를 등록 {#enroll-tizen-device-rms}
+## RMS(Samsung Remote Management Service)에 타이젠 장치 등록 {#enroll-tizen-device-rms}
 
 RMS(Samsung Remote Management Service)에 타이젠 장치를 등록하고 URL 런처를 원격으로 구성하려면 아래 단계를 따르십시오.
 
@@ -164,4 +164,3 @@ RMS(Samsung Remote Management Service)에 타이젠 장치를 등록하고 URL �
    ![이미지](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 변경 사항이 표시 화면에 나타나려면 **저장**&#x200B;을 클릭하십시오.
-
