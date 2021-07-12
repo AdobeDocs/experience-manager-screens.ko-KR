@@ -6,17 +6,17 @@ seo-description: Content Update As A Service에 대해 알아보려면 이 페�
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 11%
 
 ---
 
-
-# 컨텐츠 업데이트 As a Service {#content-update-as-a-service}
+# Content Update As A Service {#content-update-as-a-service}
 
 이 섹션에서는 컨텐츠 as-a-service 업데이트에 대한 다음 주제를 다룹니다.
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >
 >벌크 오프라인 업데이트 기능은 수정된 채널만 업데이트하도록 최적화되었습니다.
 
-## 대량 오프라인 업데이트 사용 {#using-bulk-offline-update}
+## 벌크 오프라인 업데이트 사용 {#using-bulk-offline-update}
 
 UI(사용자 인터페이스)에서 수동으로 벌크 오프라인 업데이트를 사용하거나 OSGi 서비스에서 벌크 업데이트를 예약할 수 있습니다.
 
@@ -74,4 +74,3 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
    **일정** 빈도이 서비스가 오프라인 콘텐츠를 업데이트할 시간(예: 오후 5시 또는 17시)을 지정합니다.
 
 1. 설정을 저장하려면 **저장**&#x200B;을 클릭하십시오. 그러면 지정된 시간에 컨텐츠가 업데이트됩니다.
-
