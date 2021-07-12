@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: 스크린 작성, 시작
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # Screens Launch를 사용한 컨텐츠 업데이트 {#launches}
 
@@ -137,9 +137,9 @@ AEM Screens 프로젝트에 Screens Launch 기능을 구현하려면 아래 절�
 
    **Launch 프로모션 범위 이해**
 
-   * **전체 론치 홍보**:론치의 모든 채널은 설정된 라이브 날짜에 홍보됩니다.
-   * **수정된 페이지 홍보**:수정된 실행 리소스만 승격됩니다. 론치 검토를 필요로 하지 않는 경우 이 옵션을 사용하는 것이 좋습니다.
-   * **승인된 페이지 홍보**:이 옵션을 사용하려면 론치 채널에서 론치 승인 워크플로우를 실행해야 합니다. 승인된 페이지만 설정된 라이브 날짜에 홍보됩니다.
+   * **전체 론치 홍보**: 론치의 모든 채널은 설정된 라이브 날짜에 홍보됩니다.
+   * **수정된 페이지 홍보**: 수정된 실행 리소스만 승격됩니다. 론치 검토를 필요로 하지 않는 경우 이 옵션을 사용하는 것이 좋습니다.
+   * **승인된 페이지 홍보**: 이 옵션을 사용하려면 론치 채널에서 론치 승인 워크플로우를 실행해야 합니다. 승인된 페이지만 설정된 라이브 날짜에 홍보됩니다.
 
       >[!CAUTION]
       >
@@ -154,7 +154,7 @@ AEM Screens 프로젝트에 Screens Launch 기능을 구현하려면 아래 절�
    ![이미지](/help/user-guide/assets/launches-images/launches-16.png)
 
 
-### Launch 속성을 편집하여 라이브 날짜 및 범위 {#editing-the-launch-properties-to-set-the-live-date-and-scope} 설정
+### Launch 속성을 편집하여 라이브 날짜 및 범위 설정 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 론치가 만들어지면 **Launch 속성**&#x200B;을 사용하여 라이브 날짜, 론치 제목 및 프로모션 범위와 같은 속성을 업데이트할 수 있습니다.
 
@@ -177,13 +177,13 @@ AEM Screens 프로젝트에 Screens Launch 기능을 구현하려면 아래 절�
 
    ![이미지](/help/user-guide/assets/launches-images/launches-19.png)
 
-### 채널 {#editing-the-screens-launch-to-add-or-remove-channels}을 추가 또는 제거하기 위해 Screens Launch 편집
+### 채널 추가 또는 제거를 위해 스크린 실행 편집  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 론치를 만든 후 **Edit Launch** 옵션을 사용하여 기존 론치에 채널을 추가하거나 제거할 수 있습니다.
 
 완료되면 **저장**&#x200B;을 클릭하여 **FutureLaunch** 채널로 돌아갑니다.
 
-### 스크린 시작 홍보 수동{#promote-the-screens-launch-manually}
+### 수동으로 스크린 시작 홍보{#promote-the-screens-launch-manually}
 
 **PENDING LAUNCHES** 패널에서 **Promote Launch** 옵션을 사용하여 론치를 수동으로 홍보할 수 있습니다.
 
@@ -193,10 +193,10 @@ AEM Screens 프로젝트에 Screens Launch 기능을 구현하려면 아래 절�
 
 1. 프로덕션 후에 론치를 삭제하는 옵션을 활성화하거나 비활성화할 수 있습니다.
 1. 다음 옵션을 사용하여 론치의 **범위**&#x200B;를 설정할 수 있습니다.
-   1. **전체 론치 홍보**:론치의 모든 채널은 설정된 라이브 날짜에 홍보됩니다.
-   1. **수정된 페이지 홍보**:수정된 실행 리소스만 승격됩니다. 론치 검토를 필요로 하지 않는 경우 이 옵션을 사용하는 것이 좋습니다.
-   1. **승인된 페이지 홍보**:이 옵션을 사용하려면 론치 채널에서 론치 승인 워크플로우를 실행해야 합니다. 승인된 페이지만 설정된 라이브 날짜에 홍보됩니다.
-   1. **현재 페이지 홍보**:이 옵션을 사용하려면 현재 페이지에 대해서만 론치 승인 워크플로우를 실행해야 합니다.
+   1. **전체 론치 홍보**: 론치의 모든 채널은 설정된 라이브 날짜에 홍보됩니다.
+   1. **수정된 페이지 홍보**: 수정된 실행 리소스만 승격됩니다. 론치 검토를 필요로 하지 않는 경우 이 옵션을 사용하는 것이 좋습니다.
+   1. **승인된 페이지 홍보**: 이 옵션을 사용하려면 론치 채널에서 론치 승인 워크플로우를 실행해야 합니다. 승인된 페이지만 설정된 라이브 날짜에 홍보됩니다.
+   1. **현재 페이지 홍보**: 이 옵션을 사용하려면 현재 페이지에 대해서만 론치 승인 워크플로우를 실행해야 합니다.
 1. **Promote Launch** 마법사에서 **다음**&#x200B;을 클릭합니다.
 1. **Promote** 를 클릭하여 론치를 홍보합니다.
 
@@ -207,4 +207,3 @@ AEM Screens 프로젝트에 Screens Launch 기능을 구현하려면 아래 절�
 >[!CAUTION]
 >
 >이 작업을 수행하면 모든 하위 항목(중첩된 론치)도 삭제됩니다.
-
