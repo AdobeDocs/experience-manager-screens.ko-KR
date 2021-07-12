@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 6%
 
 ---
-
 
 # 동적 포함된 시퀀스 사용 {#using-dynamic-embedded-sequence}
 
@@ -291,7 +291,7 @@ AEM Screens 프로젝트에서 Dynamic Embedded Sequence를 구현하려면 다�
 
 사용자가 해당 위치에 따라 컨텐츠에 대한 액세스를 제한하려면 ACL을 수정해야 합니다.
 
-### 예제 사용 사례 {#example-use-case}
+### 사용 사례 예 {#example-use-case}
 
 다음 예에서는 위의 데모 프로젝트에 대해 세 명의 사용자를 만들 수 있습니다.
 
@@ -299,13 +299,13 @@ AEM Screens 프로젝트에서 Dynamic Embedded Sequence를 구현하려면 다�
 
 **그룹**:
 
-* **Global-Author**:Demoproject에서 모든 위치 및 채널에 액세스할 수  **** 있고 모든 읽기, 쓰기 및 편집 권한이 있는 사용자로 구성됩니다.
+* **Global-Author**: Demoproject에서 모든 위치 및 채널에 액세스할 수  **** 있고 모든 읽기, 쓰기 및 편집 권한이 있는 사용자로 구성됩니다.
 
-* **Region-Author**:영역  **A 및 영역 B** 에 대한 읽기, 쓰기 및 편집 권한이  **있는 사용자로 구성됩니다**.
+* **Region-Author**: 영역  **A 및 영역 B** 에 대한 읽기, 쓰기 및 편집 권한이  **있는 사용자로 구성됩니다**.
 
-* **Store-Author**: **스토어 1**,  **스토어 2**,  **스토어 3** 및  **스토어 4**&#x200B;에 대한 읽기, 쓰기 및 편집 권한만 있는 사용자로 구성됩니다.
+* **Store-Author**:  **스토어 1**,  **스토어 2**,  **스토어 3** 및  **스토어 4**&#x200B;에 대한 읽기, 쓰기 및 편집 권한만 있는 사용자로 구성됩니다.
 
-#### 사용자 그룹, 사용자 및 ACL {#steps-for-creating-user-groups-users-and-setting-up-acls} 설정 절차
+#### 사용자 그룹, 사용자 및 ACL 생성 절차 {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
 개별 또는 팀이 자체 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법에 대한 자세한 내용은 **ACL 설정**&#x200B;을 참조하십시오.
@@ -406,4 +406,3 @@ AEM Screens 프로젝트에서 Dynamic Embedded Sequence를 구현하려면 다�
 
 >[!NOTE]
 권한 설정에 대한 자세한 내용은 [ACL 설정](setting-up-acls.md)을 참조하십시오.
-
