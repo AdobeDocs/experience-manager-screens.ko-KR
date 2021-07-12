@@ -2,15 +2,15 @@
 title: AEM Screens의 음성 인식
 description: 이 페이지에서는 AEM Screens의 음성 인식 기능에 대해 설명합니다.
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
-
 
 # AEM Screens의 음성 인식 {#voice-recognition}
 
@@ -77,7 +77,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    ![이미지](assets/voice-recognition/vr-emb-6.png)
 
 
-### 채널 {#setting-tags}에 대한 태그 설정
+### 채널용 태그 설정 {#setting-tags}
 
 채널에 컨텐츠를 추가한 후에는 각 채널로 이동하고 음성 인식을 트리거하는 적절한 태그를 추가해야 합니다.
 
@@ -132,7 +132,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 
 이제 AEM Screens 프로젝트에서 이러한 태그를 사용할 수 있습니다.
 
-### 디스플레이에 채널 할당 및 음성 인식 활성화 {#channel-assignment}
+### 디스플레이에 채널 지정 및 음성 인식 활성화 {#channel-assignment}
 
 1. 아래 그림과 같이 **위치** 폴더에 디스플레이를 만듭니다.
 
@@ -152,8 +152,8 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
    |---|---|---|
    | 기본 | 2 | 초기 로드, 유휴 화면, 타이머 |
    | 핫 드링크 | 1 | 사용자 상호 작용 |
-   | 콜드음료 | 3 | 사용자 상호 작용 |
-   | 분할 화면 | 3 | 사용자 상호 작용 |
+   | 콜드음료 | 1 | 사용자 상호 작용 |
+   | 분할 화면 | 1 | 사용자 상호 작용 |
 
    >[!NOTE]
    >
@@ -184,8 +184,3 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 디스플레이�
 **분할 화면 채널에 대해 원하는 출력**
 
 **Main** 채널에서 콘텐츠를 재생하고 있지만 키워드 **hot** 및 **cold**&#x200B;와 함께 *핫 및 콜드 음료*&#x200B;에 대한 메뉴를 보려면 **SplitScreen** 채널의 내용을 재생하기 시작합니다. *을 기본 메뉴*&#x200B;로 돌아가면 기본 채널로 다시 전환합니다.
-
-
-
-
-
