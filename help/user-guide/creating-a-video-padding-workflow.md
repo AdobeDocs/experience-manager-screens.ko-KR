@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 7%
 
 ---
-
 
 # 비디오 패딩 워크플로우 만들기 {#creating-a-video-padding-workflow}
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 ## 개요 {#overview}
 
-다음 사용 사례에는 비디오를 배치하는 작업이 포함됩니다(예:1920 x 1080인 채널에서 1280 x 720) 비디오를 0x0(왼쪽 위)에 배치할 수 있습니다. 비디오는 어떤 식으로든 확장하거나 수정해서는 안 되며 비디오 구성 요소에서 **Cover**&#x200B;를 사용하지 마십시오.
+다음 사용 사례에는 비디오를 배치하는 작업이 포함됩니다(예: 1920 x 1080인 채널에서 1280 x 720) 비디오를 0x0(왼쪽 위)에 배치할 수 있습니다. 비디오는 어떤 식으로든 확장하거나 수정해서는 안 되며 비디오 구성 요소에서 **Cover**&#x200B;를 사용하지 마십시오.
 
 비디오는 픽셀 1부터 픽셀 720까지 픽셀 1에서 픽셀 1280까지 오브젝트로 표시되며 나머지 채널은 기본 색상으로 표시됩니다.
 
@@ -113,7 +113,7 @@ AEM Screens 프로젝트에서 워크플로우를 사용하려면 아래 절차�
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## 워크플로우 {#validating-the-output-for-the-workflow}에 대한 출력 유효성 검사
+## 워크플로우에 대한 출력 유효성 검사 {#validating-the-output-for-the-workflow}
 
 다음 방법으로 출력의 유효성을 검사할 수 있습니다.
 
@@ -121,4 +121,3 @@ AEM Screens 프로젝트에서 워크플로우를 사용하려면 아래 절차�
 * 아래 그림과 같이 CRXDE Lite의 ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4***&#x200B;로 이동합니다.
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
