@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 5%
 
 ---
-
 
 # 텍스트 오버레이 {#text-overlay}
 
@@ -133,7 +133,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정해야 합니다.
    >[!NOTE]
    >ContextHub 구성을 설정하지 않은 경우 이 옵션은 프로젝트에 대해 비활성화됩니다.
 
-1. **자리 표시자** 필드에 **값**&#x200B;을 입력하고 **ContextHub 변수**&#x200B;에서 google 시트의 값을 가져올 행을 선택하고(이 경우, 값은 google 시트의 행 2 및 열 1에서 검색됨) **기본값**&#x200B;을 **20**&#x200B;로 입력합니다. 아래 그림과 같이 입력합니다. 완료되면 확인 표시를 클릭합니다.
+1. **자리 표시자** 필드에 **값**&#x200B;을 입력하고 **ContextHub 변수**&#x200B;에 있는 google 시트의 값을 가져올 행을 선택하고(이 경우, 값은 google 시트의 행 2 및 열 1에서 검색됨) **기본값**&#x200B;을 **20**&#x200B;로 입력합니다. 아래 그림과 같이 입력합니다. 완료되면 확인 표시를 클릭합니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -149,18 +149,3 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정해야 합니다.
 1. **미리 보기**&#x200B;를 클릭하여 원하는 출력을 봅니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
