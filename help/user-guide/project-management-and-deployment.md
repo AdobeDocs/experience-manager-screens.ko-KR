@@ -1,6 +1,6 @@
 ---
-title: '"4부:프로젝트 관리 및 배포"'
-seo-title: '"4부:프로젝트 관리 및 배포"'
+title: '"4부: 프로젝트 관리 및 배포"'
+seo-title: '"4부: 프로젝트 관리 및 배포"'
 description: 프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알려면 이 자습서를 따르십시오. 또한 공급업체, 내부 인건비 및 컷시트에 대한 정보를 수집하여 프로젝트 범위 및 일정이 어떻게 정의되는지 확인하십시오.
 seo-description: 프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알려면 이 자습서를 따르십시오. 또한 공급업체, 내부 인건비 및 컷시트에 대한 정보를 수집하여 프로젝트 범위 및 일정이 어떻게 정의되는지 확인하십시오.
 uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: 개요
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
 
-
-# 4부:프로젝트 관리 및 배포 {#part-project-management-and-deployment}
+# 4부: 프로젝트 관리 및 배포 {#part-project-management-and-deployment}
 
 이 페이지에서는 프로젝트 관리 및 배포 준비를 비롯하여 프로젝트 관리 및 배포 준비와 관련하여 AV 통합자가 책임져야 하는 주요 요소를 정의하기 위해 설계된 5파트로 구성된 시리즈 중 4부분을 소개합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >프로젝트 &quot;사전 프로덕션&quot;, 초기화 및 진행 단계를 관리하는 데 있어 전체적인 접근 방식을 이용하는 파트너는 최종 고객이 투자 가치를 최대한 활용할 수 있도록 지원할 것입니다
 
-## 프로젝트 관리 {#summary-of-all-three-phases-in-project-management} 의 세 단계 모두 요약
+## Project Management의 세 단계 모두 요약 {#summary-of-all-three-phases-in-project-management}
 
 성공적인 디지털 서명 배포를 지원하려면 프로젝트를 3단계로 분류하는 것이 좋습니다. 이러한 단계는 일반적으로 ***일***&#x200B;이라고 합니다.
 
@@ -78,7 +78,7 @@ Day One Initiative의 마지막 부분은 NOC 핸드오프를 완료하는 것�
 
 이 회의는 주로 계정 관리, 네트워크 운영, 현장 물류, 컨텐츠 서비스 및 회계 부서의 AV 통합자 담당자로 구성됩니다. Adobe의 프로젝트 관리 담당자, AEM 구현자 및 최종 고객은 일반적으로 일정, 간격 및 톨게이트를 정의하는 AV 통합자 와 함께 관련되어 있습니다. 프로젝트 관리자는 일반적으로 적절한 당사자를 정렬하고 NOC 핸드오프 회의에 필요한 설명서를 개발하기 위해 토론을 조정하는 것이 가장 좋습니다. IT 및/또는 AV 엔지니어링에서 중요한 지원 설명서가 제공될 수 있으며, 관련 모든 당사에서 영업 및 계정 관리 리소스도 제공될 수 있습니다. NOC에서 기술 지원 서비스를 필요로 하는 모든 클라이언트의 경우 기술 자료 플랫폼으로 업로드할 수 있도록 NOC 관리자에게 설명서를 제공해야 합니다.
 
-## 4부:프로젝트 관리 및 배포에 대한 비디오 자습서 {#part-video-tutorial-on-project-management-and-deployment}
+## 4부: 프로젝트 관리 및 배포에 대한 비디오 자습서 {#part-video-tutorial-on-project-management-and-deployment}
 
 프로젝트 관리 및 배포 준비에 대해 알아보고 AV 통합자가 프로젝트 관리 및 배포 준비와 관련하여 책임져야 하는 주요 요소를 정의하려면 이 자습서를 따르십시오.
 
@@ -92,5 +92,4 @@ Day One Initiative의 마지막 부분은 NOC 핸드오프를 완료하는 것�
 
 AEM Screens 배포를 위한 프로젝트 관리와 관련된 주요 고려 사항을 완벽하게 숙지하고 나면
 
-**[부품 5로 이동합니다.2일 지원 및 관련 프로세스를 이해하려면 지원 고려 사항](support-considerations.md)**&#x200B;을 참조하십시오.
-
+**[부품 5로 이동합니다. 2일 지원 및 관련 프로세스를 이해하려면 지원 고려 사항](support-considerations.md)**&#x200B;을 참조하십시오.
