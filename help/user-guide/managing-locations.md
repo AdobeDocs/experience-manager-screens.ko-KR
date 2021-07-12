@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 52%
 
 ---
-
 
 # 위치 생성 및 관리 {#creating-and-managing-locations}
 
@@ -36,7 +36,7 @@ ht-degree: 52%
 
 스크린에 대한 프로젝트를 만들었으면 아래 절차에 따라 스크린 프로젝트를 위한 새 위치를 만드십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 다음 위치로 직접 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 스크린을 선택합니다. 또는 다음 위치로 직접 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`
 1. 스크린 프로젝트로 이동하고 **위치**&#x200B;를 클릭합니다.
 1. 작업 표시줄의 더하기 아이콘 옆에 있는 **만들기**&#x200B;를 클릭합니다. 마법사가 열립니다.
 1. 마법사에서 **위치** 템플릿을 선택하고 **다음**&#x200B;을 클릭합니다.
@@ -51,7 +51,7 @@ AEM Screens 프로젝트를 위한 새 위치 만들기에 대해 이해하려�
 
 위치를 생성한 후에는 해당 위치에 대한 새로운 디스플레이를 생성해야 합니다.
 
-### 위치 {#editing-properties-for-a-location}에 대한 속성 편집
+### 위치에 대한 속성 편집 {#editing-properties-for-a-location}
 
 위치의 속성을 편집/액세스하려면
 
