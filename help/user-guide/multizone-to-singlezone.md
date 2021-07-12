@@ -4,15 +4,15 @@ description: MultiZone-SingleZone 전환 사용 사례에 대해 알아보려면
 seo-description: MultiZone-SingleZone 전환 사용 사례
 contentOwner: Jyotika Syal
 feature: 스크린 작성
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
 
 ---
-
 
 # 다중 영역을 단일 영역으로 전환 {#multizone-to-singlezone-use-case}
 
@@ -30,11 +30,11 @@ ht-degree: 3%
 * **[예약 생성 및 관리](managing-schedules.md)**
 * **[장치 등록](device-registration.md)**
 
-### 주 배우 {#primary-actors}
+### 기본 배우 {#primary-actors}
 
 컨텐츠 작성자
 
-## 프로젝트 {#setting-up-the-project} 설정
+## 프로젝트 설정 {#setting-up-the-project}
 
 프로젝트를 설정하려면 아래 절차를 따르십시오.
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![자산](assets/mz-to-sz7.png)
 
-## 미리 보기 {#checking-the-preview} 확인
+## 미리 보기 확인 {#checking-the-preview}
 
 플레이어에서 또는 편집기에서 **미리 보기**&#x200B;를 클릭하여 원하는 출력을 볼 수 있습니다.
 
