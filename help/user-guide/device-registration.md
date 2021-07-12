@@ -11,21 +11,21 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: 화면 관리, 장치 등록
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 2%
 
 ---
 
-
 # 장치 등록 {#device-registration}
 
 다음 페이지에서는 AEM Screens 프로젝트의 장치 등록 프로세스에 대해 설명합니다.
 
-## 장치 {#registering-a-device} 등록
+## 장치 등록 {#registering-a-device}
 
 장치 등록 프로세스는 두 개의 별도 시스템에서 수행됩니다.
 
@@ -153,7 +153,7 @@ ht-degree: 2%
    >[!NOTE]
    >장치 이름은 단일 *BostonStoreLobby*&#x200B;보다 *Boston Store Lobby*&#x200B;과 같은 여러 단어로 만드는 것이 좋습니다.
 
-* *보스턴 스토어 로비와 같은 장치 이름을 만드는 경우*&#x200B;보스턴&#x200B;*,*&#x200B;스토어&#x200B;*또는*&#x200B;로비&#x200B;*라는 단어를 검색할 수 있지만, 장치 이름이* BostonStoreLobby *검색*&#x200B;보스톤&#x200B;*은 결과를 표시하지 않습니다.*
+* *보스턴 스토어 로비와 같은 장치 이름을 만드는 경우*&#x200B;보스턴&#x200B;*,*&#x200B;스토어&#x200B;*또는*&#x200B;로비&#x200B;*라는 단어를 검색할 수 있지만, 장치 이름이* BostonStoreLobby *검색*&#x200B;보스톤&#x200B;*이 결과를 표시하지 않습니다.*
 
 * 와일드카드, `*`에서 검색을 지원합니다. *boston*&#x200B;로 시작하는 이름을 가진 모든 장치를 찾으려면 *boston**을 사용할 수 있습니다.
 
