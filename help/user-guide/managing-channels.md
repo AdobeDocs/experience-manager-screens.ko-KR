@@ -4,15 +4,15 @@ seo-title: 채널 관리
 description: 채널 만들기 및 관리에 대해 알려면 이 페이지를 따르십시오. 이 페이지에서는 채널 대시보드 및 채널 컨텐츠 편집에 대해서도 설명합니다.
 seo-description: 채널 만들기 및 관리에 대해 알려면 이 페이지를 따르십시오. 이 페이지에서는 채널 대시보드 및 채널 컨텐츠 편집에 대해서도 설명합니다.
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 44%
 
 ---
-
 
 # 채널 생성 및 관리 {#creating-and-managing-channels}
 
@@ -204,7 +204,7 @@ AEM Screens용 프로젝트를 만들었으면 아래 절차에 따라 프로젝
   <tr>
    <td>온라인 채널의 변경</td>
    <td>자동으로 업데이트된 컨텐츠</td>
-   <td><p>"장치:푸시 구성"</p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 컨텐츠:다시 시작</i></strong></p> </td>
+   <td><p>"장치: 푸시 구성"</p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 컨텐츠: 다시 시작</i></strong></p> </td>
   </tr>
   <tr>
    <td>오프라인 채널에서 변경되지만 채널 "푸시 콘텐츠"가 트리거되지 않습니다(오프라인 패키지를 다시 만들 수 없음)</td>
@@ -214,7 +214,7 @@ AEM Screens용 프로젝트를 만들었으면 아래 절차에 따라 프로젝
   <tr>
    <td>오프라인 채널과 채널 "푸시 컨텐츠"의 변경이 트리거됩니다(새 오프라인 패키지)</td>
    <td>자동으로 업데이트된 컨텐츠</td>
-   <td><p><strong><i>장치에서 업데이트된 컨텐츠:푸시 구성</i></strong></p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 컨텐츠:다시 시작</i></strong></p> </td>
+   <td><p><strong><i>장치에서 업데이트된 컨텐츠: 푸시 구성</i></strong></p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 컨텐츠: 다시 시작</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>구성 변경</p>
@@ -225,7 +225,7 @@ AEM Screens용 프로젝트를 만들었으면 아래 절차에 따라 프로젝
      <li>채널 지정(역할, 이벤트, 예약)</li>
     </ul> </td>
    <td>구성이 자동으로 업데이트됨</td>
-   <td><p><strong><i>장치에서 업데이트된 구성:푸시 구성</i></strong></p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 구성:다시 시작</i></strong></p> </td>
+   <td><p><strong><i>장치에서 업데이트된 구성: 푸시 구성</i></strong></p> <p>또는,</p> <p><strong><i>장치에서 업데이트된 구성: 다시 시작</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -259,4 +259,3 @@ AEM Screens용 프로젝트를 만들었으면 아래 절차에 따라 프로젝
 * [채널 만들기 및 관리](managing-channels.md)
 * [위치 만들기 및 관리](managing-locations.md)
 * [디스플레이 만들기 및 관리](managing-displays.md)
-
