@@ -11,29 +11,29 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Screens 관리, Android Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
 
-
-# Android 플레이어 {#implementing-android-player} 구현
+# Android Player 구현 {#implementing-android-player}
 
 이 섹션에서는 Android 플레이어 구성에 대해 설명합니다. 구성 파일 및 사용 가능한 옵션에 대한 정보와 개발 및 테스트에 사용할 설정에 대한 권장 사항을 제공합니다.
 
 또한 **Watchdog**&#x200B;은 충돌을 통해 플레이어를 복구하는 솔루션입니다. 애플리케이션은 자신을 감시 서비스에 등록한 다음, 주기적으로 해당 서비스가 살아 있는 서비스에 메시지를 보내야 합니다. 감시장치 서비스가 지정된 시간 내에 Keep-Alive 메시지를 수신하지 못하는 경우, 서비스는 정리 복구를 위해 디바이스를 재부팅하거나(충분한 권한이 있는 경우) 응용 프로그램을 다시 시작하려고 시도합니다.
 
-## Android Player {#installing-android-player} 설치
+## Android Player 설치 {#installing-android-player}
 
 AEM Screens용 Android Player를 구현하려면 AEM Screens용 Android Player를 설치하십시오.
 
 [**AEM 6.5 Player 다운로드**](https://download.macromedia.com/screens/) 페이지를 방문하십시오.
 
-### AEM Screens 6.5.5 서비스 팩의 환경 설정 {#fp-environment-setup}
+### AEM Screens 6.5.5 서비스 팩용 환경 설정 {#fp-environment-setup}
 
 >[!NOTE]
 >AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Android 플레이어에 대한 환경을 설정해야 합니다.
@@ -73,7 +73,7 @@ Ad-Hoc 메서드를 사용하면 최신 Android 플레이어(*.exe*)를 설치�
 
 Android의 아키텍처로 인해 장치를 재부팅하려면 애플리케이션에 시스템 권한이 있어야 합니다. 이렇게 하려면 제조업체의 서명 키를 사용하여 apk에 서명해야 합니다. 그렇지 않으면 감시가 플레이어 애플리케이션을 다시 시작하고 장치를 재부팅하지 않습니다.
 
-### 제조업체 키 {#signage-of-android-apks-using-manufacturer-keys}를 사용하는 Android 패키지의 서명
+### 제조업체 키를 사용한 Android 앱의 서명 {#signage-of-android-apks-using-manufacturer-keys}
 
 *PowerManager* 또는 *HDMIControlServices*&#x200B;와 같은 Android의 일부 권한이 있는 API에 액세스하려면 제조업체의 키를 사용하여 Android api에 서명해야 합니다.
 
@@ -94,7 +94,7 @@ Android의 아키텍처로 인해 장치를 재부팅하려면 애플리케이�
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalshed.apk
 1. adb 설치를 사용하여 ***aemscreensalested.apk***&#x200B;을 장치에 설치합니다
 
-## Android Watchdog 서비스 이해 {#android-watchdog-services}
+## Android Watchdog Services 이해 {#android-watchdog-services}
 
 Android 간 감시 서비스는 *AlarmManager*&#x200B;를 사용하여 cordova 플러그인으로 구현됩니다.
 
@@ -112,7 +112,7 @@ Android 간 감시 서비스는 *AlarmManager*&#x200B;를 사용하여 cordova �
 
 **3. 응용 프로그램 충돌** 충돌이 발생하면 AlarmManager에 등록된 Reboot에 대한 pendingIntent가 더 이상 재설정되지 않으므로 Cordova 플러그인의 초기화 시 사용 가능한 권한에 따라 앱의 다시 부팅 또는 다시 시작을 실행합니다.
 
-## Android 플레이어의 벌크 프로비저닝 {#bulk-provision-android-player}
+## Android Player 벌크 프로비저닝 {#bulk-provision-android-player}
 
 Android 플레이어를 일괄적으로 롤아웃할 때, Admin UI에서 수동으로 입력하지 않고 AEM 인스턴스를 가리키도록 플레이어를 프로비저닝하고 다른 속성을 구성해야 합니다.
 
