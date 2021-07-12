@@ -1,8 +1,8 @@
 ---
 title: 경험 조각 사용
 seo-title: 경험 조각 사용
-description: 'AEM Screens에서 경험 구성요소 사용에 대해 알려면 이 페이지를 따르십시오. '
-seo-description: 'AEM Screens에서 경험 구성요소 사용에 대해 알려면 이 페이지를 따르십시오. '
+description: AEM Screens에서 경험 구성요소 사용에 대해 알려면 이 페이지를 따르십시오.
+seo-description: AEM Screens에서 경험 구성요소 사용에 대해 알려면 이 페이지를 따르십시오.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: 스크린 작성, 경험 조각
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 12%
 
 ---
-
 
 # 경험 조각 사용 {#using-experience-fragments}
 
@@ -96,7 +96,7 @@ ht-degree: 12%
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   참고:더 쉬운 옵션을 선택하려면 필드 오른쪽의 확인 표시를 클릭하여 선택 대화 상자를 엽니다.
+   참고: 더 쉬운 옵션을 선택하려면 필드 오른쪽의 확인 표시를 클릭하여 선택 대화 상자를 엽니다.
 
 1. **경험 조각의 Live Copy 생성**
 
@@ -107,11 +107,11 @@ ht-degree: 12%
 
    c. **Live Copy 만들기** 마법사에서 **ScreensFragment**&#x200B;을 선택하고 **다음**&#x200B;을 클릭합니다.
 
-   d.**제목** 및 **이름**&#x200B;을 **화면**&#x200B;으로 입력합니다.
+   d. **제목** 및 **이름**&#x200B;을 **화면**&#x200B;으로 입력합니다.
 
-   e.**만들기**&#x200B;를 클릭하여 Live Copy를 만듭니다.
+   e. **만들기**&#x200B;를 클릭하여 Live Copy를 만듭니다.
 
-   f.**완료**&#x200B;를 클릭하여 **ScreensFragment** 페이지로 돌아갑니다.
+   f. **완료**&#x200B;를 클릭하여 **ScreensFragment** 페이지로 돌아갑니다.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -139,19 +139,19 @@ ht-degree: 12%
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e.**경험 조각** 구성 요소를 선택하고 맨 위의 왼쪽(공구모양) 아이콘을 선택하여 **경험 조각** 대화 상자를 엽니다.
+   e. **경험 조각** 구성 요소를 선택하고 맨 위의 왼쪽(공구모양) 아이콘을 선택하여 **경험 조각** 대화 상자를 엽니다.
 
-   f.**경로**&#x200B;의 *단계 3*&#x200B;에서 만든 조각의 **Screens** 라이브 카피를 선택합니다.
+   f. **경로**&#x200B;의 *단계 3*&#x200B;에서 만든 조각의 **Screens** 라이브 카피를 선택합니다.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f.**경험 조각**&#x200B;의 *3단계*&#x200B;에서 만든 조각의 **Screens** 라이브 카피를 선택합니다.
+   f. **경험 조각**&#x200B;의 *3단계*&#x200B;에서 만든 조각의 **Screens** 라이브 카피를 선택합니다.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h.**기간**&#x200B;에 밀리초 값을 입력합니다.
+   h. **기간**&#x200B;에 밀리초 값을 입력합니다.
 
-   나.**경험 조각** 대화 상자에서 **오프라인 구성**&#x200B;을 선택하여 클라이언트측 라이브러리와 정적 파일을 정의합니다.
+   나. **경험 조각** 대화 상자에서 **오프라인 구성**&#x200B;을 선택하여 클라이언트측 라이브러리와 정적 파일을 정의합니다.
 
    >[!NOTE]
    >
@@ -159,9 +159,9 @@ ht-degree: 12%
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j.확인 표시를 클릭하여 프로세스를 완료합니다.
+   j. 확인 표시를 클릭하여 프로세스를 완료합니다.
 
-### 결과 {#validating-the-result} 확인
+### 결과 유효성 검사 {#validating-the-result}
 
 이전 단계가 완료되면 다음 방법으로 **ChannelOne**&#x200B;에서 경험 조각의 유효성을 확인할 수 있습니다.
 
@@ -171,7 +171,7 @@ ht-degree: 12%
 아래 그림과 같이 채널의 **사이트** 페이지(경험 조각의 Live Copy)에서 컨텐츠를 볼 수 있습니다.\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## {#propagating-changes-from-the-master-page} 페이지에 변경 사항을 전파합니다.
+## 페이지에 변경 사항 전파 {#propagating-changes-from-the-master-page}
 
 ***Live*** Copy는 롤아웃 구성에 정의된 대로 동기화 작업에 의해 유지 관리되는 소스의 사본을 나타냅니다.
 
@@ -179,7 +179,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->Live Copy에 대한 자세한 내용은 컨텐츠 재사용 을 참조하십시오.다중 사이트 관리자 및 Live Copy.
+>Live Copy에 대한 자세한 내용은 컨텐츠 재사용 을 참조하십시오. 다중 사이트 관리자 및 Live Copy.
 
 아래 절차에 따라 마스터 채널의 변경 내용을 대상 채널에 전파합니다.
 
@@ -219,4 +219,3 @@ ht-degree: 12%
 
 다음 이미지는 **TestChannel**&#x200B;의 변경 사항을 보여줍니다.\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
