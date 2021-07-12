@@ -11,21 +11,21 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Screens 관리, Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 
 ---
 
-
 # Windows 10 Player 구현 {#implementing-windows-player}
 
 이 섹션에서는 AEM Screens Windows 10 Player 구성에 대해 설명합니다. 구성 파일 및 사용 가능한 옵션에 대한 정보와 개발 및 테스트에 사용할 설정에 대한 권장 사항을 제공합니다.
 
-## Windows Player {#installing-windows-player} 설치
+## Windows Player 설치 {#installing-windows-player}
 
 AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player를 설치하십시오.
 
@@ -34,7 +34,7 @@ AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player�
 >[!NOTE]
 >Windows Player에 창 모드가 없습니다. 항상 전체 화면 모드입니다.
 
-### AEM Screens 6.5.5 서비스 팩의 환경 설정 {#fp-environment-setup}
+### AEM Screens 6.5.5 서비스 팩용 환경 설정 {#fp-environment-setup}
 
 >[!NOTE]
 >AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows Player용 환경을 설정해야 합니다.
@@ -80,7 +80,7 @@ Windows Player에서 이름을 구성하려면 아래 단계를 따르십시오.
 1. `system.cpl` 입력
 1. 컴퓨터 이름 탭을 사용하여 컴퓨터의 호스트 이름을 설정합니다
 
-## Windows Installer {#changing-default-options}에서 기본 옵션 변경
+## Windows Installer의 기본 옵션 변경 {#changing-default-options}
 
 Windows Installer의 기본 옵션을 변경하는 방법과 사용 가능한 사용자 지정 목록을 변경하려면 이 섹션을 따르십시오.
 
@@ -103,7 +103,7 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
-## Windows Player {#bulk-registration} 벌크 등록
+## Windows Player 벌크 등록 {#bulk-registration}
 
 Windows 플레이어를 구현하는 경우 모든 단일 플레이어를 수동으로 구성할 필요가 없습니다. 대신, 구성 JSON 파일이 테스트되고 배포가 준비되면 업데이트할 수 있습니다.
 
@@ -128,7 +128,7 @@ Windows 플레이어를 구현하는 경우 모든 단일 플레이어를 수동
 | enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 완전히 구성 및 프로덕션에서 를 설정한 후에는 을 false 로 설정하는 것이 좋습니다. |
 | enableActivityUI | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시하도록 활성화합니다. 문제 해결을 활성화하고 완전히 구성하고 프로덕션에서 비활성화합니다. |
 
-#### 정책 JSON 파일 {#example-policy-json-file} 예
+#### 예제 정책 JSON 파일 {#example-policy-json-file}
 
 ```
 {
@@ -141,7 +141,7 @@ Windows 플레이어를 구현하는 경우 모든 단일 플레이어를 수동
 }
 ```
 
-## 키오스크 모드 {#enabling-kiosk-mode} 활성화
+## 키오스크 모드 활성화 {#enabling-kiosk-mode}
 
 Windows 플레이어를 배포할 때는 다른 응용 프로그램이나 작업 표시줄이 Windows 바탕 화면에 나타나지 않도록 키오스크 모드를 활성화해야 합니다.
 
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
