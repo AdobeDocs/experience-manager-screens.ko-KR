@@ -4,15 +4,15 @@ seo-title: 명령 동기화 사용
 description: 명령 동기화를 사용하는 방법에 대해 알아보려면 이 페이지를 따르십시오.
 seo-description: 명령 동기화를 사용하는 방법에 대해 알아보려면 이 페이지를 따르십시오.
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
-
 
 # 명령 동기화 {#command-sync}
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >동기화된 재생의 경우, 모든 하드웨어 장치에 동일한 하드웨어 사양이 있고, 바람직하게는 동일한 운영 체제가 있어야 합니다. 다른 하드웨어와 운영 체제 간의 동기화는 권장되지 않습니다.
 
-### 프로젝트 {#setting-up} 설정
+### 프로젝트 설정 {#setting-up}
 
 명령 동기화 기능을 사용하기 전에 프로젝트에 대해 설정된 컨텐츠 및 프로젝트가 있는지 확인하십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 2%
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### 마스터 {#setting-up-master} 설정
+### 마스터 설정 {#setting-up-master}
 
 1. **CommandSyncDemo** —> **위치** —> **로비** —> **LobbyDisplay**&#x200B;에서 디스플레이 대시보드로 이동하여 작업 표시줄에서 **대시보드**를 클릭합니다.
 아래 그림과 같이 **DEVICES** 패널에 두 개의 장치(chrome 및 windows 플레이어)가 표시됩니다.
@@ -108,7 +108,7 @@ ht-degree: 2%
 >
 >여러 장치를 마스터로 설정할 수 있습니다.
 
-### 기본 {#sync-up-master}과 동기화 중
+### 기본과 동기화 {#sync-up-master}
 
 1. Chrome 장치를 마스터로 설정한 후에는 다른 장치(이 경우 Windows 플레이어)를 동기화하여 마스터와 동기화할 수 있습니다.
 **장치** 패널에서 다른 장치(이 경우 Windows 플레이어)를 선택하고 아래 그림과 같이 **마스터 장치에 동기화**&#x200B;를 클릭합니다.
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### 기본 {#desync-up-master}과 동기화 취소
+### 기본과 동기화 취소 {#desync-up-master}
 
 장치나 장치를 마스터에 동기화한 후에는 해당 장치에서 할당을 동기화 해제할 수 있습니다.
 
