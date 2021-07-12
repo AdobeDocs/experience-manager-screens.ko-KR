@@ -1,8 +1,8 @@
 ---
 title: AEM Screens과 Adobe Analytics 구성
 seo-title: AEM Screens과 Adobe Analytics 구성
-description: 'Offline Adobe Analytics을 사용하여 사용자 지정 이벤트 시퀀싱 및 전송에 대한 자세한 내용은 이 섹션을 참조하십시오 '
-seo-description: 'Offline Adobe Analytics을 사용하여 사용자 지정 이벤트 시퀀싱 및 전송에 대한 자세한 내용은 이 섹션을 참조하십시오 '
+description: Offline Adobe Analytics을 사용하여 사용자 지정 이벤트 시퀀싱 및 전송에 대한 자세한 내용은 이 섹션을 참조하십시오
+seo-description: Offline Adobe Analytics을 사용하여 사용자 지정 이벤트 시퀀싱 및 전송에 대한 자세한 내용은 이 섹션을 참조하십시오
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: 화면 관리
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 10%
 
 ---
-
 
 # AEM Screens과 Adobe Analytics 구성 {#configuring-adobe-analytics-with-aem-screens}
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 오프라인 Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}을 사용하여 사용자 지정 이벤트 보내기
+## Offline Adobe Analytics을 사용하여 사용자 지정 이벤트 보내기 {#sending-custom-events-using-offline-adobe-analytics}
 
 다음 표에는 이벤트에 대한 표준 데이터 모델이 요약되어 있습니다. Adobe Analytics에 전송된 모든 필드가 나열됩니다.
 
@@ -331,4 +331,3 @@ ht-degree: 10%
   </tr>
  </tbody>
 </table>
-
