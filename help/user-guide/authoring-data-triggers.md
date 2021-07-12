@@ -3,17 +3,17 @@ title: 데이터 트리거를 사용하여 작성
 seo-title: 데이터 트리거를 사용하여 작성
 description: 데이터 트리거를 사용하여 작성하는 방법을 배우려면 이 페이지를 따르십시오.
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 4%
 
 ---
 
-
-# 데이터 트리거로 작성 {#authoring-with-data-triggers}
+# 데이터 트리거를 사용하여 작성 {#authoring-with-data-triggers}
 
 이 섹션에서는 채널에서 타깃팅을 활성화하는 방법을 소개합니다.
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 1. 드롭다운 메뉴에서 **Brand** 및 **Activity**&#x200B;를 선택하고 **타깃팅 시작**&#x200B;을 클릭합니다.
 
-### 추가 정보:사용 사례 예 {#learn-more-example-use-cases}
+### 추가 정보: 사용 사례 예 {#learn-more-example-use-cases}
 
 AEM Screens 프로젝트용으로 ContextHub를 구성한 후에는 다른 사용 사례 를 따라 데이터가 트리거된 자산이 다양한 산업에서 어떻게 중요한 역할을 수행하는지 이해할 수 있습니다.
 
