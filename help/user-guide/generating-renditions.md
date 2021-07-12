@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 66%
 
 ---
-
 
 # 비디오 표현물 {#video-renditions}
 
@@ -48,7 +48,7 @@ Full HD 표현물을 자동으로 생성하려면 아래 절차를 따르십시�
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. **프로세스** 탭을 선택하여 프로세스 인수를 편집합니다. **인수**&#x200B;에 있는 목록에 대한 전체 HD 프로필을 다음과 같이 입력합니다.***,profile:fullhd-bp,profile:fullhd-hp*** 및 **확인**&#x200B;을 클릭합니다.
+1. **프로세스** 탭을 선택하여 프로세스 인수를 편집합니다. **인수**&#x200B;에 있는 목록에 대한 전체 HD 프로필을 다음과 같이 입력합니다. ***,profile:fullhd-bp,profile:fullhd-hp*** 및 **확인**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -93,4 +93,3 @@ Full HD 표현물을 수동으로 생성하려면 아래 절차를 따르십시�
 1. **표현물** 사이드 레일을 여십시오. 그러면 새 Full HD 표현물을 확인할 수 있습니다.
 
    ![step8_-_open_therenditionsiderail](assets/step8_-_open_therenditionssiderail.png)
-
