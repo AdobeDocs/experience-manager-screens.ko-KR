@@ -4,17 +4,17 @@ seo-title: Security 검사 목록
 description: 이 페이지에서는 질문 및 고려 사항 검사 목록과 함께 주요 보안 영역에 대해 설명합니다.
 seo-description: 이 페이지에서는 Security 검사 목록에 대해 설명합니다
 feature: 화면 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 1%
 
 ---
 
-
-# AEM Screens 보안 검사 목록 {#security-checklist}
+# AEM Screens Security 검사 목록  {#security-checklist}
 
 AEM Screens Security 검사 목록 페이지에서는 질문 및 고려 사항 체크리스트가 포함된 주요 보안 영역에 대해 설명합니다.
 
