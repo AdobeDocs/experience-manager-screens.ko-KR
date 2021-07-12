@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 43%
 
 ---
-
 
 # 포함된 시퀀스 {#embedded-sequences}
 
@@ -111,4 +111,3 @@ ht-degree: 43%
 1. 시퀀스에 포함된 채널에 대한 **시퀀스** 탭에서 **기간(ms)**&#x200B;을 선택합니다.
 
 ![최신](assets/latest.gif)
-
