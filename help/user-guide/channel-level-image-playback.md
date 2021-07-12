@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 7%
 
 ---
-
 
 # 채널 수준 벌크 이미지 재생 기간 {#channel-level-bulk-image-playback-duration}
 
@@ -37,11 +37,11 @@ ht-degree: 7%
 
 1. **PlaybackChannel**&#x200B;에 컨텐츠를 추가합니다.
 
-## 채널 수준 이미지 재생 시간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
+## 채널 레벨 이미지 재생 기간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
 
 아래 섹션에서는 AEM Screens 채널에서 컨텐츠의 재생 기간을 편집하는 방법을 설명합니다.
 
-### 채널 {#updating-the-playback-duration-for-images-in-a-channel}에서 이미지에 대한 재생 기간 업데이트
+### 채널에서 이미지의 재생 기간 업데이트 {#updating-the-playback-duration-for-images-in-a-channel}
 
 채널 수준 이미지 재생 시간 지정을 업데이트하는 방법을 배우려면 아래 단계를 따르십시오.
 
@@ -77,4 +77,3 @@ ht-degree: 7%
 채널 재생 지속 시간을 업데이트하면(이 예에서는 세 개의 이미지 모두) 이제 이미지가 8초(기본값)가 아닌 3초 동안 재생됩니다.
 
 ![channel_preview](assets/channel_preview.gif)
-
