@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: 화면 관리
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
 
 ---
-
 
 # AEM Screens과 Adobe Analytics 통합 {#adobe-analytics-integration-with-aem-screens}
 
@@ -73,7 +73,7 @@ OSGi 콘솔에서 Adobe Analytics 설정을 구성할 수 있습니다.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Screens Analytics:사용 흐름 {#screens-analytics-enablement-flow}
+## Screens Analytics: 사용 흐름 {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
@@ -132,4 +132,3 @@ Analytics 이벤트는 indexedDB에 오프라인으로 저장되고 나중에 �
 >[!NOTE]
 >
 >***Sequencing*** 및 ***Standard Data Model for Events***&#x200B;에 대한 자세한 내용은 **[Adobe Analytics for AEM Screens 구성](configuring-adobe-analytics-aem-screens.md)**&#x200B;을 참조하십시오.
-
