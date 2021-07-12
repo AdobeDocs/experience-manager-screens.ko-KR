@@ -3,21 +3,21 @@ title: 플레이어 자동 등록
 seo-title: 플레이어 자동 등록
 description: AMS/On-Prem Screens를 사용하는 플레이어의 자동 등록에 대해 알려면 이 페이지를 따르십시오.
 feature: 스크린, 플레이어 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
-
-# 플레이어 {#auto-registration} 자동 등록
+# 플레이어 자동 등록 {#auto-registration}
 
 수동으로 수천 명의 플레이어를 등록하는 것은 매우 번거로울 수 있고 시간과 비용을 추가할 수 있습니다. 이 프로세스를 단순화하기 위해 벌크 등록 기능을 사용하면 구성 파일 또는 MDM(Mobile Device Management) 솔루션을 통해 플레이어로 프로비저닝할 수 있는 AEM의 사전 공유 키를 지정할 수 있습니다.
 
-## 플레이어 {#bulk-registering-implementation} 의 자동 등록 구현
+## 플레이어의 자동 등록 구현 {#bulk-registering-implementation}
 
 플레이어의 자동 등록을 구현하려면 아래 절차를 따르십시오.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    ![이미지](/help/user-guide/assets/auto-registration/auto-register2.png)
 
-## 보안 우수 사례 {#security-best-practices}
+## 보안 모범 사례 {#security-best-practices}
 
 보안에 대한 몇 가지 우수 사례를 고려하려면 아래 섹션을 따르십시오.
 
