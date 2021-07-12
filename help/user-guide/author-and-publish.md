@@ -4,15 +4,15 @@ seo-title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 작성 된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시를 구성하는 방법을 알려면 이 페이지를 따르십시오.
 seo-description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 작성 된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시를 구성하는 방법을 알려면 이 페이지를 따르십시오.
 feature: 화면 관리
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 4%
 
 ---
-
 
 # AEM Screens에서 작성자 및 게시 구성 {#configuring-author-and-publish-in-aem-screens}
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 * **작성자 및 게시 인스턴스 구성**
 * **게시 토폴로지 설정**
-* **게시 관리:작성자에서 장치에 게시로 콘텐츠 업데이트 제공**
+* **게시 관리: 작성자에서 장치에 게시로 콘텐츠 업데이트 제공**
 
 ## 전제 조건 {#prerequisites}
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 * 게시 1(pub1) —> localhost:4503
 * 게시 2(pub2) —> localhost:4504
 
-## 작성자 {#setting-replication-agents}에 복제 에이전트 설정
+## 작성자에 대한 복제 에이전트 설정 {#setting-replication-agents}
 
 복제 에이전트를 만들려면 표준 복제 에이전트를 만드는 방법을 배워야 합니다.
 
@@ -62,7 +62,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 1. **화면 복제 에이전트**
 1. **역복제 에이전트**
 
-### 1단계:기본 복제 에이전트 만들기 {#step-creating-a-default-replication-agent}
+### 1단계: 기본 복제 에이전트 만들기 {#step-creating-a-default-replication-agent}
 
 기본 복제 에이전트를 생성하려면 아래 절차를 따르십시오.
 
@@ -103,7 +103,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
    >기존 기본 복제 에이전트를 복사하고 이름을 바꿀 수도 있습니다.
 
 
-#### 표준 복제 에이전트 만들기 {#creating-standard-replication-agents}
+#### 표준 복제 에이전트 만들기  {#creating-standard-replication-agents}
 
 1. pub1에 대한 표준 복제 에이전트를 만듭니다(기본 에이전트는 이미 구성해야 함)(예: *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. pub2용 표준 복제 에이전트를 만듭니다. pub1용 rep 에이전트를 복사하고 전송 구성에서 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다. (예: *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -120,7 +120,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 
 ## 게시 토폴로지 설정 {#setting-up-publish-topology}
 
-### 1단계:Apache Sling Oak 기반 검색 구성 {#step-configure-apache-sling-oak-based-discovery}
+### 1단계: Apache Sling Oak 기반 검색 구성 {#step-configure-apache-sling-oak-based-discovery}
 
 토폴로지의 모든 게시 인스턴스에 대해 Apache Sling Oak-Based Discovery 를 설정합니다.
 
@@ -128,19 +128,19 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 
 1. 다음으로 이동 `https://<host>:<port>/system/console/configMgr`
 1. **Apache Sling Oak-Based Discovery Service** 구성을 선택합니다.
-1. 토폴로지 커넥터 URL 업데이트:다음과 같은 모든 게시 인스턴스의 URL을 추가합니다.
+1. 토폴로지 커넥터 URL 업데이트: 다음과 같은 모든 게시 인스턴스의 URL을 추가합니다.
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. **토폴로지 커넥터 화이트리스트 목록**:게시 인스턴스를 포함하는 IP 또는 서브넷에 조정
+1. **토폴로지 커넥터 화이트리스트 목록**: 게시 인스턴스를 포함하는 IP 또는 서브넷에 조정
 1. **로컬 루프 자동 중지** 활성화
 
 각 게시 인스턴스에 대해 구성이 동일해야 하며 자동 정지 로컬 루프는 무한 루프를 방지합니다.
 
-#### 2단계:게시 토폴로지 확인 {#step-verify-publish-topology}
+#### 2단계: 게시 토폴로지 확인 {#step-verify-publish-topology}
 
 모든 게시 인스턴스의 경우 `https://:/system/console/topology`으로 이동합니다. 토폴로지에 표시되는 각 게시 인스턴스가 **나가는 토폴로지 커넥터** 아래에 표시됩니다.
 
-#### 3단계:ActiveMQ Artem 클러스터 {#step-setup-activemq-artemis-cluster} 설정
+#### 3단계: ActiveMQ Artem 클러스터 설정 {#step-setup-activemq-artemis-cluster}
 
 이 단계에서는 ActiveMQ Artem 클러스터에 대해 암호화된 암호를 만들 수 있습니다.
 토폴로지에 있는 모든 게시 인스턴스의 클러스터 사용자 및 암호는 동일해야 합니다. ActiveMQ Artem 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 Crypto Support를 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ용 OSGi 구성에서 암호화된 암호가 사용됩니다.
@@ -159,7 +159,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 >암호는 중괄호로 시작하고 끝나야 합니다. 예:
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
-#### 4단계:ActiveMQ Artem 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
+#### 4단계: ActiveMQ Artem 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 
 각 게시 인스턴스에서 다음을 수행합니다.
 
@@ -167,10 +167,10 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 1. **Apache ActiveMQ Artems JMS Provider** 구성 선택
 1. 다음을 업데이트합니다.
 
-   * ***클러스터 암호***:각 인스턴스별 이전 단계에서 암호화된 값 사용
+   * ***클러스터 암호***: 각 인스턴스별 이전 단계에서 암호화된 값 사용
    * ***항목***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
-#### ActiveMQ Artem 클러스터 {#verify-activemq-artemis-cluster} 확인
+#### ActiveMQ Artem 클러스터 확인 {#verify-activemq-artemis-cluster}
 
 각 게시 인스턴스에서 아래 절차를 따르십시오.
 
@@ -179,8 +179,8 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 1. 테스트 메시지 보내기(브로커 정보 아래의 화면 상단)
 1. 필드에 다음 변경 사항을 입력합니다.
 
-   1. **대상**:/com.adobe.cq.screens/devTestTopic
-   1. **텍스트**:Hello World
+   1. **대상**: /com.adobe.cq.screens/devTestTopic
+   1. **텍스트**: Hello World
    1. 각 인스턴스의 error.log를 보고 메시지가 클러스터 간에 전송되고 수신되었는지 확인합니다
 
 >[!NOTE]
@@ -211,7 +211,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 >
 >이 예제를 시작하려면 프로젝트에 위치, 표시 및 채널을 만든 후 새 AEM Screens 프로젝트를 만듭니다. 채널에 컨텐츠를 추가하고 채널을 디스플레이에 지정합니다.
 
-#### 1단계:AEM Screens 플레이어 시작(장치) {#step-starting-an-aem-screens-player-device}
+#### 1단계: AEM Screens 플레이어 시작(장치) {#step-starting-an-aem-screens-player-device}
 
 1. 별도의 브라우저 창을 실행합니다.
 1. *웹 브라우저*, 즉`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`를 사용하여 Screens 플레이어로 이동하거나 AEM Screens 앱을 시작합니다. 장치를 열면 장치의 상태가 등록되지 않음으로 표시됩니다.
@@ -220,7 +220,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 >
 >다운로드한 AEM Screens 앱 또는 웹 브라우저를 사용하여 AEM Screens 플레이어를 열 수 있습니다.
 
-#### 2단계:작성자 {#step-registering-a-device-on-author}에 장치 등록
+#### 2단계: 작성자에 장치 등록 {#step-registering-a-device-on-author}
 
 1. `https://localhost:4502/screens.html/content/screens/we-retail` 로 이동하거나 프로젝트를 선택하고 장치 > 장치 관리자로 이동합니다.
 1. **장치 등록**&#x200B;을 선택합니다.
@@ -229,7 +229,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 1. 등록 코드를 확인하고 **유효성 검사**&#x200B;를 클릭합니다.
 1. 장치의 제목을 입력하고 **등록**&#x200B;을 클릭합니다.
 
-#### 3단계:표시할 장치 지정 {#step-assigning-the-device-to-display}
+#### 3단계: 표시할 장치 할당 {#step-assigning-the-device-to-display}
 
 1. 이전 단계의 대화 상자에서 **디스플레이 지정**&#x200B;을 클릭합니다.
 1. **위치** 폴더에서 채널의 표시 경로를 선택합니다.
@@ -238,7 +238,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 
 플레이어를 확인하면 채널에 추가한 컨텐츠가 표시됩니다.
 
-#### 4단계:장치 구성을 게시 인스턴스 {#step-publishing-device-configuration-to-publish-instances}에 게시
+#### 4단계: 게시 인스턴스에 장치 구성 게시 {#step-publishing-device-configuration-to-publish-instances}
 
 **장치 확인**
 
@@ -246,7 +246,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 
 장치 사용자를 복제하려면 아래 절차를 따르십시오.
 
-1. 사용자 관리 페이지로 이동합니다(예:`https://localhost:4502/useradmin`
+1. 사용자 관리 페이지로 이동합니다(예: `https://localhost:4502/useradmin`
 1. **screens-devices-master** 그룹을 검색합니다.
 1. 그룹을 마우스 오른쪽 단추로 클릭하고 **활성화**&#x200B;를 클릭합니다.
 
@@ -268,7 +268,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### 확인 목록 게시 중 {#publishing-check-list}
+### 확인 목록 게시 {#publishing-check-list}
 
 다음은 게시 확인 목록을 요약한 것입니다.
 
@@ -290,7 +290,7 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 1. 다른 게시 인스턴스를 사용하여 이 단계를 반복합니다
 
 
-#### 5단계:관리 패널에서 인스턴스를 게시할 장치 지정 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### 5단계: 관리 패널에서 인스턴스를 게시할 장치 가리키기 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Screens 플레이어에서 관리자 UI를 보고, 왼쪽 위 모서리를 길게 눌러 Admin 메뉴, 터치 지원 AEM Screens 플레이어에서 또는 마우스를 사용합니다.
 1. 사이드 패널에서 **구성** 옵션을 클릭합니다.
@@ -307,5 +307,3 @@ AEM Screens 플레이어에서 변경 사항을 확인합니다.
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 **게시 관리** 기능을 사용하면 작성자에서 장치에 게시할 때까지 컨텐츠 업데이트를 제공할 수 있습니다. 전체 AEM Screens 프로젝트 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대해서만 컨텐츠를 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](on-demand-content.md)를 참조하십시오.
-
-
