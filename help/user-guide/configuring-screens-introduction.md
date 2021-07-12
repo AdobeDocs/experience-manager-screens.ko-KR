@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
 
 ---
-
 
 # AEM Screens 구성 및 배포 {#configuring-and-deploying-aem-screens}
 
@@ -102,7 +102,7 @@ Health Check 프레임워크를 사용하면 AEM Screens 프로젝트를 실행�
 
 1. **저장**&#x200B;을 클릭하여 *http* 서비스를 사용하도록 설정합니다.
 
-#### AEM Screens에 대한 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
+#### AEM Screens용 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
 
 AEM Screens에는 터치 UI가 필요하며 Adobe Experience Manager(AEM)의 클래식 UI에서는 작동하지 않습니다.
 
@@ -152,11 +152,3 @@ AEM Screens 프로젝트에 대한 Dispatcher를 구성하는 방법에 대해 �
 >[!NOTE]
 >**추천:**
 >프로덕션 사용 시 AEM Screens 서버에 HTTPS를 사용하는 것이 좋습니다.
-
-
-
-
-
-
-
-
