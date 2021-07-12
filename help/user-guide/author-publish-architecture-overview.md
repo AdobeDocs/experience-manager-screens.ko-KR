@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: 화면 관리
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 4%
 
 ---
-
 
 # 작성자 및 게시 아키텍처 개요 {#author-and-publish-architectural-overview}
 
@@ -50,7 +50,7 @@ AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다.
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## 아키텍처 설계 {#architectural-design}
+## 건축설계 {#architectural-design}
 
 다음과 같은 5가지 아키텍처 구성 요소가 있어 이 솔루션을 용이하게 합니다.
 
@@ -61,7 +61,7 @@ AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다.
 * ****** 장치 정보 업데이트와 명령을 동기화하기 위한 게시 인스턴스 간 메시지
 * ****** 특정 REST API를 통해 장치 정보를 얻기 위해 게시 인스턴스 작성자가 폴링함
 
-### 컨텐츠 및 구성 복제(전달) {#replication-forward-of-content-and-configurations}
+### 컨텐츠 및 구성 복제(전달)  {#replication-forward-of-content-and-configurations}
 
 표준 복제 에이전트는 스크린 채널 컨텐츠, 위치 구성 및 장치 구성을 복제하는 데 사용됩니다. 이를 통해 작성자는 채널 업데이트를 게시하기 전에 채널의 컨텐츠를 업데이트하고 선택적으로 일부 유형의 승인 워크플로우를 진행할 수 있습니다. 게시 팜의 각 게시 인스턴스에 대해 복제 에이전트를 만들어야 합니다.
 
@@ -73,19 +73,19 @@ AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다.
 >
 >게시 팜의 각 게시 인스턴스에 대해 복제 에이전트를 만들어야 합니다.
 
-### 스크린 복제 에이전트 및 명령 {#screens-replication-agents-and-commands}
+### 화면 복제 에이전트 및 명령  {#screens-replication-agents-and-commands}
 
 작성자 인스턴스에서 AEM Screens 장치로 명령을 전송하기 위해 사용자 지정 스크린 관련 복제 에이전트가 작성됩니다. AEM 게시 인스턴스는 이러한 명령을 장치에 전달하는 매개체 역할을 합니다.
 
 이렇게 하면 작성자가 장치 업데이트를 보내고 작성 환경에서 스크린샷과 같은 장치를 계속 관리할 수 있습니다. AEM Screens 복제 에이전트에는 표준 복제 에이전트와 같은 사용자 지정 전송 구성이 있습니다.
 
-### 게시 인스턴스 간 메시징 {#messaging-between-publish-instances}
+### 게시 인스턴스 간 메시징  {#messaging-between-publish-instances}
 
 대부분의 경우 명령은 한 번만 장치로 전송되어야 합니다. 그러나 로드 밸런싱된 게시 아키텍처에서는 장치가 연결되어 있는 게시 인스턴스를 알 수 없습니다.
 
 따라서 작성자 인스턴스는 모든 게시 인스턴스에 메시지를 전송합니다. 그러나 단 하나의 메시지만 장치에 전달되어야 합니다. 올바른 메시징을 보장하려면 게시 인스턴스 간에 일부 통신이 수행되어야 합니다. 이 작업은 *Apache ActiveMQ Artemis*&#x200B;를 사용하여 수행됩니다. 각 게시 인스턴스는 Oak 기반 Sling 검색 서비스를 사용하여 느슨하게 연결된 토폴로지에 배치되고 ActiveMQ가 구성되어 각 게시 인스턴스가 통신하고 단일 메시지 큐를 만들 수 있습니다. 스크린 장치는 로드 밸런서를 통해 게시 팜을 폴링하고 큐 맨 위에서 명령을 선택합니다.
 
-### 역방향 복제 {#reverse-replication}
+### 역복제 {#reverse-replication}
 
 대부분의 경우 명령 다음에 스크린 장치에서 일부 유형의 응답이 작성자 인스턴스로 전달될 것으로 예상됩니다. 이 AEM ***역방향 복제***&#x200B;를 사용하려면
 
@@ -94,7 +94,7 @@ AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다.
 * 이 컨텍스트의 역방향 복제는 장치가 제공하는 이진 데이터(예: 로그 파일 및 스크린샷)에만 사용됩니다. 바이너리가 아닌 데이터가 폴링으로 검색됩니다.
 * AEM 작성자 인스턴스에서 폴링된 역복제 는 응답을 검색하고 작성자 인스턴스에 저장합니다.
 
-### 게시 인스턴스 폴링 {#polling-of-publish-instances}
+### 게시 인스턴스 폴링  {#polling-of-publish-instances}
 
 작성자 인스턴스는 하트비트를 얻고 연결된 장치의 상태를 알 수 있도록 장치를 폴링할 수 있어야 합니다.
 
