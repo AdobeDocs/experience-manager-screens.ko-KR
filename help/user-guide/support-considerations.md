@@ -1,6 +1,6 @@
 ---
-title: '"5부:지원 고려 사항"'
-seo-title: '"5부:지원 고려 사항"'
+title: '"5부: 지원 고려 사항"'
+seo-title: '"5부: 지원 고려 사항"'
 description: 이 자습서에 따라 하드웨어, 소프트웨어 및 연결 문제를 해결하는 방법을 알아보십시오. 현장 지원을 위한 비용 견적 및 프레임워크를 살펴보십시오. 또한 SLA 매개변수, 운영 예산 및 NOC 핸드오프를 관리하는 방법을 알아봅니다.
 seo-description: 이 자습서에 따라 하드웨어, 소프트웨어 및 연결 문제를 해결하는 방법을 알아보십시오. 현장 지원을 위한 비용 견적 및 프레임워크를 살펴보십시오. 또한 SLA 매개변수, 운영 예산 및 NOC 핸드오프를 관리하는 방법을 알아봅니다.
 uuid: da2f82e2-81e7-490e-9123-6479f05918a4
@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: 개요
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
-
-# 5부:지원 고려 사항 {#part-support-considerations}
+# 5부: 지원 고려 사항 {#part-support-considerations}
 
 이 페이지에서는 팀 구성원이 하드웨어, 소프트웨어 및 연결 문제를 해결하는 방법을 배울 수 있도록 설계된 5파트로 구성된 시리즈의 최종 부분을 소개합니다. 이 단계에서는 현장 지원을 위한 비용 견적 및 프레임워크를 살펴봅니다. 또한 SLA 매개 변수, 운영 예산 및 NOC 핸드오프를 관리하는 방법도 설명합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 네트워크 전반에서 문제를 다시 중재하는 가장 좋은 방법 확인
 * AEM 구현자와 AV 통합자 간의 연계 및 2일 지원 계획 수립
 
-## 2일 지원 {#summary-of-key-considerations-involved-in-day-support}에 포함된 주요 고려 사항 요약
+## 2일 지원과 관련된 주요 고려 사항 요약 {#summary-of-key-considerations-involved-in-day-support}
 
 다음은 2일 지원에 대한 몇 가지 주요 고려 사항입니다.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * 일부 화면 제조업체는 미디어 플레이어와는 무관하게 화면을 모니터링하는 기능을 제공하는 반면, 다른 스크린 제조업체에서는 외부 장치가 필요합니다.
 * AV 통합업체는 다양한 기술을 활용하므로 최종 클라이언트의 요구 사항을 가장 효과적으로 처리할 수 있는 유연성이 유지됩니다.
 
-## 5부:지원 고려 사항에 대한 비디오 자습서 {#part-video-tutorial-on-support-considerations}
+## 5부: 지원 고려 사항에 대한 비디오 자습서 {#part-video-tutorial-on-support-considerations}
 
 다음 5파트로 구성된 시리즈 자습서에 따라 맞춤을 보장하고 구현에서 운영 지원으로 원활하게 전환하는 것이 좋습니다. 또한 AEM 구현자가 2일 지원 계획의 일부로 정의된 적절한 지원 스크립트를 보장하기 위해 AV 통합자 와 협력하는 방법도 설명합니다.
 
@@ -72,4 +72,3 @@ ht-degree: 0%
 ## 결론 {#conclusion}
 
 이 5가지 부분 시리즈는 프로젝트의 성공을 보장하기 위해 중요한 주요 고려 사항에 중점을 둡니다. 구현 세부 사항은 AEM Screens 사용 안내서의 다른 섹션을 참조하십시오.
-
