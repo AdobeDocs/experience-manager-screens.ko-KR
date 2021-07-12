@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: 화면 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 1%
 
 ---
 
-
-# Chrome OS Player 구현 {#implementing-chrome-os-player}
+# Chrome OS Player 구현  {#implementing-chrome-os-player}
 
 이 섹션에서는 Chrome 관리 콘솔을 사용하여 Chrome OS Player를 구현하는 방법에 대해 설명합니다.
 
-## Chrome 관리 콘솔 사용 {#using-chrome-management-console}
+## Chrome Management Console 사용 {#using-chrome-management-console}
 
 아래 절차에 따라 chrome 관리 콘솔을 설정합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 >Chrome OS 장치의 배포 및 관리에 Chrome 관리 콘솔과 같은 장치 관리 솔루션이 권장됩니다. 이 문서에서는 Chrome 관리 콘솔에 대한 구현을 제공하며 유사한 기능을 제공한다고 주장하는 다른 공급업체가 있습니다. 장치 관리 소프트웨어 공급업체에 문의하십시오.
 
-## Chrome OS 플레이어의 이름 지정 {#name-chrome}
+## Chrome OS Player 이름 지정 {#name-chrome}
 
 Chrome 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 Chrome 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
 
@@ -57,7 +57,7 @@ Chrome 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 �
    >[!NOTE]
    >Chrome 플레이어는 엔터프라이즈 등록에 등록되어야 하며 Chrome 플레이어는 Chrome Management Console을 통해 배포되어야 합니다. 그렇지 않으면 자산 ID가 공백으로 반환됩니다(예: 확장으로 chrome). 장치 이름은 등록 시에만 기록됩니다. 향후 변경 사항은 Adobe Experience Manager (AEM)에서 선택하지 않습니다.
 
-### 키오스크 모드 {#enabling-kiosk-mode} 활성화
+### 키오스크 모드 활성화 {#enabling-kiosk-mode}
 
 아래 절차에 따라 키오스크 모드를 활성화합니다.
 
@@ -80,7 +80,7 @@ Chrome 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 �
 
    네트워크에 따라 변경 사항을 적용하려면 몇 분 정도 걸릴 수 있습니다. 재부팅하는 것이 좋습니다.
 
-#### 원격 장치 상태 확인 중 {#checking-remote-device-status}
+#### 원격 장치 상태 확인 {#checking-remote-device-status}
 
 1. Chrome 개발자 콘솔에 로그인합니다.
 1. **장치 관리** > **Chrome 장치**&#x200B;로 이동하여 제어할 장치를 선택합니다.
