@@ -1,6 +1,6 @@
 ---
-title: '"2부:프로젝트 범위 지정 시 고려 사항"'
-seo-title: '"2부:프로젝트 범위 지정 시 고려 사항"'
+title: '"2부: 프로젝트 범위 지정 시 고려 사항"'
+seo-title: '"2부: 프로젝트 범위 지정 시 고려 사항"'
 description: 컨텐츠 전략, I/O 레이어, 자산 유형, 대상 세그멘테이션, 시간대, 비즈니스 작업 요구 사항 및 사이트 준비 고려 사항에 대해 알려면 이 자습서를 따르십시오.
 seo-description: 컨텐츠 전략, I/O 레이어, 자산 유형, 대상 세그멘테이션, 시간대, 비즈니스 작업 요구 사항 및 사이트 준비 고려 사항에 대해 알려면 이 자습서를 따르십시오.
 uuid: 96359202-8f55-4330-97c5-fc8f8c916a8d
@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: 개요
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 1%
 
 ---
 
-
-# 2부:프로젝트 범위 {#part-considerations-as-projects-are-scoped} 시 고려 사항
+# 2부: 프로젝트 범위 지정 시 고려 사항 {#part-considerations-as-projects-are-scoped}
 
 이 페이지에서는 팀 구성원이 성공적인 AEM Screens 배포를 개발하기 위한 사전 판매 측면을 더 잘 이해할 수 있도록 설계된 5파트로 구성된 시리즈의 2부를 소개합니다.
 
@@ -42,11 +42,11 @@ ht-degree: 1%
 >
 >소프트웨어, 하드웨어 및 연결 리소스를 활용하여 의도한 가치를 성공적으로 제공하는 방법을 고려하는 컨텐츠 전략을 정의하는 것이 중요합니다.
 
-## 디지털 서명 {#summary-of-project-considerations-in-a-digital-signage}의 프로젝트 고려 사항 요약
+## 디지털 사이니지의 프로젝트 고려 사항 요약  {#summary-of-project-considerations-in-a-digital-signage}
 
 컨텐츠 전략을 개발할 때 I/O 레이어, 자산 유형, 대상 세그멘테이션 및 일별 일정 요구 사항을 포함하여 몇 가지 고려 사항이 있습니다.
 
-### 입출력 레이어 {#i-o-layers}
+### I/O 레이어 {#i-o-layers}
 
 I/O는 대상 근접성 센싱을 기반으로 컨텐츠를 조건부 재생합니다. 예를 들어 센서가 근접성을 감지하면 컨텐츠 재생이 &#39;인사이트&#39; 또는 수동 컨텐츠에서 &#39;참여&#39; 또는 대화형 재생으로 변경될 수 있습니다. 이 기능은 인구 통계에 따라 컨텐츠를 제공하는 것이 필요한 응용 프로그램에서 특히 유용합니다.
 
@@ -63,11 +63,11 @@ I/O는 대상 근접성 센싱을 기반으로 컨텐츠를 조건부 재생합�
 * 다중 화면 비디오 벽이 필요합니까? 필요한 경우 구성은 무엇입니까?
 * 컨텐츠가 운영 또는 광고 수익에 연결되어 있어 다운타임을 방지하기 위한 페일오버 전략이 필요합니까?
 
-### 대상 세그먼테이션, 일 부분 {#audience-segmentation-day-parts}
+### 대상 세분화, 시간대 {#audience-segmentation-day-parts}
 
 일별 전략 목록을 통해 최종 클라이언트는 컨텐츠와 타겟 메시지를 적절한 시간에 적절한 대상에 세그먼트화할 수 있습니다. 이는 많은 컨텐츠 기여자가 전체 재생 목록을 구성하는 광고 또는 소매 네트워크에 특히 유용합니다.
 
-### 비즈니스 작업 요구 사항 {#business-operations-requirements}
+### 비즈니스 운영 요구 사항 {#business-operations-requirements}
 
 비즈니스 활동은 컨텐츠 전략 대화에서 정의하는 것도 중요합니다. 최종 클라이언트의 지원 요구 사항을 공식화하면 구축 후 기대치를 관리하는 데 도움이 되므로 지원 노력을 적절하게 측정할 수 있습니다.
 
@@ -79,7 +79,7 @@ I/O는 대상 근접성 센싱을 기반으로 컨텐츠를 조건부 재생합�
 
 Pre-Sales 프로세스의 마지막 단계는 Site Readiness 를 결정하는 것입니다. 사이트, 프로젝트 및 진행 세부 사항을 캡처하는 사이트 설문 조사를 통해 이를 용이하게 할 수 있습니다. 사이트 준비 기능은 기본적으로 설치 전 위치의 현재 상태를 캡처하여 고객이 엔지니어가 도착하기 전에 준비할 항목이나 해결 계획을 세울 필요가 있는 항목들을 불러옵니다. 일반적으로 여기에는 전력, 데이터, 가구 제거 및 먼지 제거와 같은 항목이 포함됩니다.
 
-## 2부:프로젝트 범위 지정 시 고려 사항에 대한 비디오 자습서 {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## 2부: 프로젝트 범위 지정 시 고려 사항에 대한 비디오 자습서 {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 컨텐츠 전략, I/O 레이어, 자산 유형, 대상 세그멘테이션, 일별 부품, 비즈니스 작업 요구 사항 및 사이트 준비 고려 사항에 대해 알려면 아래 자습서를 따르십시오.
 
