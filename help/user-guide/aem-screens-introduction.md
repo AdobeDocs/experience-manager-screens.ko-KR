@@ -3,15 +3,15 @@ title: AEM Screens 소개
 seo-title: AEM Screens 소개
 description: '"AEM Screens - 포괄적인 디지털 마케팅 플랫폼과 함께 다양한 유형의 화면을 포함하는 다이내믹하고 인터랙티브한 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션입니다."'
 feature: 개요, 디지털 서명
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 9%
 
 ---
-
 
 # AEM Screens 소개{#what-is-aem-screens}
 
@@ -35,7 +35,7 @@ AEM Screens과 연결된 주요 용어를 이해하려면 [용어집](screens-gl
 
 ![chlimage_1-29](assets/chlimage_1-29.png)
 
-### 5분 {#create-a-digital-signage-experience-in-minutes} 후에 디지털 서명 경험을 만듭니다.
+### 5분 내에 디지털 서명 경험 만들기 {#create-a-digital-signage-experience-in-minutes}
 
 데모 Screens 프로젝트를 만들고 Screens 플레이어에서 콘텐츠를 게시하려면 [AEM Screens에 대한 시작](kickstart-for-aem-screens.md)을 참조하십시오.
 
