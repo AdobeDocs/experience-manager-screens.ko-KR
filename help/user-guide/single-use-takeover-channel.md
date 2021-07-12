@@ -5,15 +5,15 @@ description: 단일 사용 TakeOver 채널을 만드는 데 이 사용 사례를
 seo-description: 단일 사용 TakeOver 채널을 만드는 데 이 사용 사례를 따르십시오.
 contentOwner: jsyal
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 2%
 
 ---
-
 
 # 단일 사용 TakeOver 채널 {#single-use-takeover-channel}
 
@@ -34,11 +34,11 @@ ht-degree: 2%
 * **[예약 생성 및 관리](managing-schedules.md)**
 * **[장치 등록](device-registration.md)**
 
-### 주 배우 {#primary-actors}
+### 기본 배우 {#primary-actors}
 
 컨텐츠 작성자
 
-## 프로젝트 {#setting-up-the-project} 설정
+## 프로젝트 설정 {#setting-up-the-project}
 
 프로젝트를 설정하려면 아래 절차를 따르십시오.
 
@@ -89,14 +89,14 @@ ht-degree: 2%
 
 1. **TakeOver** 채널을 예약된 시간에 디스플레이에 지정하고 **채널 지정** 대화 상자에서 다음 필드를 채우고 **저장**&#x200B;을 클릭합니다.
 
-   * **채널 경로**:TakeOver 채널의 경로를 선택합니다
-   * **우선 순위**:이 채널의 우선순위를 MainAdChannel보다  **크게 설정합니다**. 예를 들어 이 예에서 설정된 우선 순위는 8입니다.
+   * **채널 경로**: TakeOver 채널의 경로를 선택합니다
+   * **우선 순위**: 이 채널의 우선순위를 MainAdChannel보다  **크게 설정합니다**. 예를 들어 이 예에서 설정된 우선 순위는 8입니다.
 
       >[!NOTE]
       >우선 순위는 일반적으로 재생되는 채널의 우선 순위 값보다 높은 값일 수 있습니다.
-   * **지원되는 이벤트**:유휴  **화면** 및 타이머 **를 선택합니다**.
-   * **예약**:이 채널이 디스플레이를 실행할 예약의 텍스트를 입력합니다. 예를 들어, 여기 텍스트를 사용하면 컨텐츠를 12월 31일 오전 12시 ~ 오전 12시 1분까지 재생할 수 있습니다.
-이 예제에 언급된 **예약**&#x200B;의 텍스트는 23:58년 12월 31일에 *이고, 00.01*&#x200B;년 1월 1일에 있습니다.
+   * **지원되는 이벤트**: 유휴  **화면** 및 타이머 **를 선택합니다**.
+   * **예약**: 이 채널이 디스플레이를 실행할 예약의 텍스트를 입력합니다. 예를 들어, 여기 텍스트를 사용하면 컨텐츠를 12월 31일 오전 12시 ~ 오전 12시 1분까지 재생할 수 있습니다.
+이 예제에 언급된 **예약**&#x200B;의 텍스트는 23:58년 12월 31일에 *이고, 00.01*&#x200B;에 1월 1일에 있습니다.
 
       ![자산](assets/single-takeover8.png)
 
