@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: 화면 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
 
 ---
-
 
 # ACL 설정 {#setting-up-acls}
 
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해하지 않고 각 사용자에게 프로젝트 요구 사항에 따라 특정 역할이 할당되도록 해야 합니다.
 
-## 권한 {#setting-up-permissions} 설정
+## 권한 설정 {#setting-up-permissions}
 
 다음 단계는 프로젝트에 대한 ACL 설정 절차를 요약합니다.
 
@@ -142,4 +142,3 @@ AEM 관리자는 프로젝트의 팀 구성원이 다른 프로젝트를 방해�
   </tr>
  </tbody>
 </table>
-
