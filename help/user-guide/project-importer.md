@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: 화면 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 3%
 
 ---
 
-
-# 파일 {#new-project-importer-from-file}에서 새 프로젝트 가져오기
+# 파일에서 새 프로젝트 가져오기 {#new-project-importer-from-file}
 
 이 섹션에서는 위치 세트를 CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 일괄적으로 가져오는 기능에 대해 설명합니다.
 
@@ -70,7 +70,7 @@ AEM Screens 프로젝트를 설정할 때 조직에서 처음으로 모든 위�
 >
 >위의 조건과 일치하지 않는 열은 무시됩니다. 예를 들어, 시트(CSV/XLS) 파일에 **경로**,**템플릿**,**제목** 및 **description** 이외의 다른 열이 정의되어 있는 경우 해당 필드는 무시되고 **프로젝트 가져오기 프로그램**&#x200B;은 프로젝트를 AEM Screens 프로젝트로 가져올 수 있는 추가 필드의 유효성을 검사하지 않습니다.
 
-## 프로젝트 가져오기 도구 사용 {#using-project-importer}
+## Project Importer 사용 {#using-project-importer}
 
 다음 섹션에서는 AEM Screens 프로젝트에서 Project Importer를 사용하는 방법을 설명합니다.
 
@@ -95,7 +95,7 @@ AEM Screens 프로젝트를 설정할 때 조직에서 처음으로 모든 위�
 
 [파일 가져오기](assets/minimal-file.xls)
 
-### 최소 필수 필드 {#importing-the-file-with-minimum-required-fields} 가 있는 파일 가져오기
+### 최소 필수 필드가 있는 파일 가져오기 {#importing-the-file-with-minimum-required-fields}
 
 최소 필수 필드가 있는 위치 폴더로 파일을 가져오려면 아래 단계를 따르십시오.
 
@@ -126,4 +126,3 @@ AEM Screens 프로젝트를 설정할 때 조직에서 처음으로 모든 위�
 1. 따라서 이제 프로젝트에 가져온 모든 위치를 볼 수 있습니다.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
