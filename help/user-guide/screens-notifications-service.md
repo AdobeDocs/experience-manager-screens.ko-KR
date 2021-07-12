@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 6%
 
 ---
-
 
 # AEM Screens 알림 서비스{#aem-screens-notifications-service}
 
@@ -88,7 +88,7 @@ ht-degree: 6%
 
 1. **저장** 을 클릭하여 AEM Screens 장치의 이메일을 통해 모니터 활동을 구성합니다.
 
-## 전자 메일 알림 {#email-notification}
+## 이메일 알림 {#email-notification}
 
 이메일 알림에 대한 구성을 설정하면 비활성 상태로 보고되는 실제 장치에 대한 링크가 포함된 이메일 알림을 받게 됩니다.
 
