@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 8%
 
 ---
-
 
 # 다중 영역 레이아웃 {#multi-zone-layout}
 
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 **채널 생성**
 
-1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. 또는 다음 위치로 바로 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`
+1. Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음 **스크린**&#x200B;을 선택합니다. 또는 다음 위치로 바로 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`
 1. **채널** 폴더로 이동하고 작업 표시줄에서 **만들기**&#x200B;를 클릭합니다.
 
 1. **만들기** 마법사에서 **1x2 분할 화면 채널**&#x200B;을 선택합니다.
@@ -121,7 +121,7 @@ ht-degree: 8%
 
       ![이미지](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### 위치 및 표시 {#creating-location} 만들기
+### 위치 및 디스플레이 생성 {#creating-location}
 
 Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 만들어야 합니다. 위치 및 디스플레이를 생성하려면 아래 절차를 따르십시오.
 
@@ -162,7 +162,7 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
       >
       > 주 채널을 디스플레이에 할당하면(이 경우, **MultiZone**), 포함된 다른 두 채널 **Zone1** 및 **Zone2**&#x200B;도 동일한 디스플레이에 할당해야 합니다.
 
-### 장치 {#registering-device} 등록
+### 장치 등록 {#registering-device}
 
 위치 및 디스플레이를 설정하고 나면 아래 단계에 따라 장치를 등록하고 디스플레이를 장치에 할당합니다.
 
@@ -192,5 +192,3 @@ Screens 플레이어에서 컨텐츠를 보려면 위치 및 디스플레이를 
 왼쪽 영역은 시퀀스 채널이고 오른쪽 영역은 비디오를 포함합니다.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
