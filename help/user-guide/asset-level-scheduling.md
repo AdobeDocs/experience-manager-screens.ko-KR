@@ -4,15 +4,15 @@ seo-title: 자산 수준 활성화
 description: 플레이어의 로컬 시간대에서 예약된 기간에 대해 채널에서 특정 자산을 활성화하는 방법을 알려면 이 페이지를 따르십시오.
 seo-description: 플레이어의 로컬 시간대에서 예약된 기간에 대해 채널에서 특정 자산을 활성화하는 방법을 알려면 이 페이지를 따르십시오.
 feature: 작성 화면, 자산 수준 활성화
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 3%
 
 ---
-
 
 # 자산 수준 활성화 {#asset-level-scheduling}
 
@@ -78,13 +78,13 @@ ht-degree: 3%
 
    ![이미지](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## 자산 {#handling-recurrence-in-assets}의 되풀이 처리
+## 자산의 되풀이 처리 {#handling-recurrence-in-assets}
 
 요구 사항에 따라 자산을 일별, 주별 또는 월별 기준으로 특정 간격으로 반복하도록 예약할 수 있습니다.
 
 금요일 오후 1시부터 오후 10시까지 이미지만 표시한다고 가정합니다. **활성화** 탭을 사용하여 자산에 대해 원하는 반복 간격을 설정할 수 있습니다.
 
-### 시간대 {#day-parting}
+### 시간대 지정 {#day-parting}
 
 1. 자산을 선택하고 **구성**(공구아이콘)을 클릭하여 속성 대화 상자를 엽니다.
 
@@ -95,7 +95,7 @@ ht-degree: 3%
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### 일 분할 {#example-one} 표현식 예
+#### 일 분할 표현식 예 {#example-one}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -122,7 +122,7 @@ ht-degree: 3%
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### WeekParting {#example-two}에 대한 표현식 예
+#### WeekParting에 대한 표현식 예 {#example-two}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### MonthParting {#example-three}에 대한 표현식 예
+#### MonthParting에 대한 표현식 예 {#example-three}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -170,7 +170,7 @@ ht-degree: 3%
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### 부분 조합 표현식 {#example-four} 예
+#### 부분 조합 표현식 예 {#example-four}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -222,4 +222,3 @@ ht-degree: 3%
    >다중 자산 활성화를 사용하는 자산의 오른쪽 상단 모서리에 예약 아이콘이 표시됩니다.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
