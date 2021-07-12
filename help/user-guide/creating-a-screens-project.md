@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 38%
 
 ---
 
-
-# 프로젝트 만들기 및 관리 {#creating-and-managing-projects}
+# 프로젝트 생성 및 관리 {#creating-and-managing-projects}
 
 Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음, [스크린]을 선택하여 AEM Screens를 사용할 수 있습니다.
 
-또는 다음 위치로 직접 이동할 수 있습니다.`http://localhost:4502/screens.html/content/screens`
+또는 다음 위치로 직접 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`
 
 
 >[!NOTE]
@@ -85,4 +85,3 @@ Adobe Experience Manager 링크(왼쪽 위)를 선택한 다음, [스크린]을 
 ### 다음 단계 {#the-next-steps}
 
 고유한 프로젝트를 만들었으면 [채널 관리](managing-channels.md)를 참조하여 채널에서 컨텐츠를 만들고 관리하십시오.
-
