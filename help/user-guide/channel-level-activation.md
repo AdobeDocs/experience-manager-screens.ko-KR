@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: 제작 화면, 채널 수준 활성화
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 1%
 
 ---
-
 
 # 채널 수준 활성화 {#channel-level-activation-single-event-playback}
 
@@ -156,13 +156,13 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 [AEM Screens Player 작업](working-with-screens-player.md)
 
 
-## 채널 {#handling-recurrence-in-assets}의 자산에 대한 되풀이 처리
+## 채널에서 자산에 대한 되풀이 처리 {#handling-recurrence-in-assets}
 
 요구 사항에 따라 일별, 주별 또는 월별 특정 간격으로 반복되도록 채널의 자산을 예약할 수 있습니다.
 
 금요일 오후 1시부터 오후 10시까지만 채널의 컨텐츠를 표시한다고 가정합니다. **활성화** 탭을 사용하여 자산에 대해 원하는 반복 간격을 설정할 수 있습니다.
 
-### 시간대 {#day-parting}
+### 시간대 지정 {#day-parting}
 
 1. 채널을 선택하고 작업 표시줄에서 **대시보드**&#x200B;를 클릭하여 채널 대시보드를 엽니다.
 
@@ -173,7 +173,7 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### 일 분할 {#example-one} 표현식 예
+#### 일 분할 표현식 예 {#example-one}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -201,7 +201,7 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### WeekParting {#example-two}에 대한 표현식 예
+#### WeekParting에 대한 표현식 예 {#example-two}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -228,7 +228,7 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### MonthParting {#example-three}에 대한 표현식 예
+#### MonthParting에 대한 표현식 예 {#example-three}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -253,7 +253,7 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 
 1. **예약**&#x200B;에 표현식을 입력하면 특정 시간 간격에 대한 자산이 표시됩니다.
 
-#### 부분 조합 표현식 {#example-four} 예
+#### 부분 조합 표현식 예 {#example-four}
 
 다음 표에는 디스플레이에 채널을 지정하는 동안 예약에 추가할 수 있는 몇 가지 표현식 예가 요약되어 있습니다.
 
@@ -265,4 +265,3 @@ AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시�
 
 >[!NOTE]
 요일 및 월을 정의할 때 월/월요일 및 1월/1월과 같은 약식 및 전체 이름 표기법을 사용할 수 있습니다.  또한 *am/pm* 표기법(즉, 오후 2:00) 대신 _군대 시간_ 표기법(즉, 14:00)을 사용할 수도 있습니다.
-
