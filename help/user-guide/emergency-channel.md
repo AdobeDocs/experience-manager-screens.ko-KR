@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: 스크린 작성
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 16%
 
 ---
-
 
 # 응급 채널 {#emergency-channel}
 
@@ -35,11 +35,11 @@ ht-degree: 16%
 * **[예약 생성 및 관리](managing-schedules.md)**
 * **[장치 등록](device-registration.md)**
 
-### 주 배우 {#primary-actors}
+### 기본 배우 {#primary-actors}
 
 컨텐츠 작성자
 
-## 기본 흐름:프로젝트 {#basic-flow-setting-up-the-project} 설정
+## 기본 흐름: 프로젝트 설정 {#basic-flow-setting-up-the-project}
 
 응급 채널을 설정하려면 아래 절차를 따르십시오.
 
@@ -161,7 +161,7 @@ ht-degree: 16%
 
    ![new30](assets/new30.gif)
 
-## 응급 채널 {#switching-to-emergency-channel}으로 전환
+## 응급 채널로 전환 {#switching-to-emergency-channel}
 
 비상 시 다음 단계를 수행합니다.
 
