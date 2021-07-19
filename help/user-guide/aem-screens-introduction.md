@@ -6,10 +6,10 @@ feature: 개요, 디지털 서명
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 9%
+source-wordcount: '584'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 9%
 **AEM(Adobe Experience Manager) Screens**  - 포괄적인 디지털 마케팅 플랫폼과 함께 다양한 유형의 화면을 포함하는 다이내믹하고 인터랙티브한 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션입니다.
 
 [AEM Screens에 대한 Kickstart](kickstart-for-aem-screens.md)를 사용하여 간단한 디지털 간판 경험을 사용하여 시작하고 실행할 수 있습니다.
+
+AEM as a Cloud Service에서 AEM Screens 프로젝트를 구성하고 만드는 방법에 대해 알아보려면 [여기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en)를 참조하십시오.
 
 ## 개요 {#overview}
 
