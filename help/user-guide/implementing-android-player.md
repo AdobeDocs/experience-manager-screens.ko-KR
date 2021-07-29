@@ -14,9 +14,9 @@ feature: Screens 관리, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,9 @@ Android 플레이어를 일괄적으로 배포할 때 모든 단일 플레이어
 ## Android 플레이어 이름 지정 {#name-android}
 
 Android 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 Android 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+
+>[!NOTE]
+>등록 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 플레이어 이름을 더 이상 변경할 수 없습니다.
 
 아래 절차에 따라 Android 플레이어에서 이름을 구성하십시오.
 
