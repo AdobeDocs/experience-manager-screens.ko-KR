@@ -5,9 +5,9 @@ feature: 스크린, 플레이어 관리
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,9 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 ### 이름 지정 타이젠 플레이어 {#name-tizen}
 
 Tizen 플레이어에 사용자에게 친숙한 장치 이름을 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)에 전송할 수 있습니다. 이 기능을 사용하면 타이젠 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+
+>[!NOTE]
+>등록 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 플레이어 이름을 더 이상 변경할 수 없습니다.
 
 타이젠 플레이어에서 이름을 구성하려면 아래 단계를 따르십시오.
 
