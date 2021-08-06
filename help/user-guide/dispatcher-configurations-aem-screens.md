@@ -7,9 +7,9 @@ feature: 화면 관리
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
+source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
 자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
 
-## Dispatcher 구성 {#configuring-dispatcher}
+## 매니페스트 버전 v2에 대한 Dispatcher 구성 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >다음 Dispatcher 구성은 Manifest 버전 v2에만 적용됩니다. 매니페스트 버전 v3에 대해서는 [매니페스트 버전에 대한 Dispatcher 구성 v3](#configuring-dispatcherv3)을 참조하십시오.
