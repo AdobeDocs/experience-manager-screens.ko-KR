@@ -7,10 +7,10 @@ feature: 화면 관리
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
+source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '579'
+ht-degree: 2%
 
 ---
 
@@ -32,15 +32,10 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 >AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
 >자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
 
-AEM Screens에 대한 Dispatcher를 구성하기 전에 다음 두 전제 조건을 따르시기 바랍니다.
-
-* `v3 manifests`을 사용하고 있는지 확인하십시오. `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 로 이동하여 `Enable ContentSync Cache` 이 선택 취소되어 있는지 확인합니다.
-
-* 디스패처 초기화 에이전트가 게시 인스턴스의 `/etc/replication/agents.publish/dispatcher1useast1Agent`에 구성되어 있는지 확인합니다.
-
-   ![이미지](/help/user-guide/assets/dispatcher/dispatcher-1.png)
-
 ## Dispatcher 구성 {#configuring-dispatcher}
+
+>[!IMPORTANT]
+>다음 Dispatcher 구성은 Manifest 버전 v2에만 적용됩니다. 매니페스트 버전 V3에 대해서는 [매니페스트 버전에 대한 Dispatcher 구성 v3]{#configuring-dispatcherv3}을 참조하십시오.
 
 AEM Screens 플레이어/장치는 인증된 세션을 사용하여 게시 인스턴스에서도 리소스에 액세스합니다. 따라서 여러 개의 게시 인스턴스가 있는 경우 AEM Screens 플레이어/장치에서 발생하는 모든 요청에 대해 인증된 세션이 유효하도록 요청이 항상 동일한 게시 인스턴스로 이동해야 합니다.
 
@@ -133,6 +128,106 @@ Screens 플레이어는 인증된 세션을 사용하므로 Dispatcher가 `chann
 /0003
     { # Disable Dispatcher Cache for Screens devices json 
     /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+```
+
+## 매니페스트 버전 v3에 대한 Dispatcher 구성{#configuring-dispatcherv3}
+
+Screens의 기능을 위해 게시 인스턴스 앞에 있는 디스패처에서 이러한 필터 및 캐시 규칙을 허용하는지 확인하십시오.
+
+## 매니페스트 버전 v3의 사전 요구 사항{#prerequisites3}
+
+AEM Screens에 대한 Dispatcher를 구성하기 전에 다음 두 전제 조건을 따르시기 바랍니다.
+
+* `v3 manifests`을 사용하고 있는지 확인하십시오. `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 로 이동하여 `Enable ContentSync Cache` 이 선택 취소되어 있는지 확인합니다.
+
+* 디스패처 초기화 에이전트가 게시 인스턴스의 `/etc/replication/agents.publish/dispatcher1useast1Agent`에 구성되어 있는지 확인합니다.
+
+   ![이미지](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+### 필터  {#filter-v3}
+
+```
+## AEM Screens Filters
+## # Login, Ping and Device Configurations
+/0200 { /type "allow" /method "POST" /url "/libs/granite/core/content/login.validate/j_security_check" }
+/0201 { /type "allow" /method "GET" /url "/libs/granite/csrf/token.json" }
+/0202 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
+/0203 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
+/0204 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
+ 
+## # Device Dashboard Configurations
+/0210 { /type "allow" /method '(GET|POST)' /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
+/0211 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
+/0212 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
+/0213 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
+ 
+## # Content Configurations
+/0220 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
+#/0221 { /type "allow" /method '(GET|HEAD)' /url "/content/experience-fragments/*" } ## uncomment this, if you're using experience-fragments
+/0222 { /type "allow" /extension '(css|eot|gif|ico|jpeg|jpg|js|gif|pdf|png|svg|swf|ttf|woff|woff2|html|mp4|mov|m4v)' /path "/content/dam/*" } ## add any other formats required for your project here
+ 
+## # Enable clientlibs proxy servlet
+/0230 { /type "allow" /method "GET" /url "/etc.clientlibs/*" }
+```
+
+### 캐시 규칙 {#cache-rules-v3}
+
+* `publish_farm.any`의 `/cache` 섹션에 `/allowAuthorized "1"`을 추가합니다.
+
+* 모든 Screens 플레이어는 인증된 세션을 사용하여 AEM(작성자/게시)에 연결합니다. 기본 Dispatcher는 이러한 URL을 캐시하지 않으므로 이러한 URL을 활성화해야 합니다.
+
+* `publish_farm.any`의 `/cache` 섹션에 `statfileslevel "10"` 추가
+이렇게 하면 캐시 docroot에서 최대 10개 수준의 캐싱을 지원하고 컨텐츠가 게시될 때 모든 것을 무효화하지 않고, 그에 따라 무효화됩니다. 컨텐츠 구조의 깊이에 따라 언제든지 이 수준을 변경할 수 있습니다
+
+* `/invalidate section in publish_farm.any`에 다음 내용을 추가하십시오.
+
+```
+/0003 {
+    /glob "*.json"
+    /type "allow"
+}
+```
+
+`publish_farm.any`의 `/cache`에 있는 `/rules` 섹션이나 `publish_farm.any`에 포함된 파일에 다음 규칙을 추가합니다.
+
+```
+## Don't cache CSRF login tokens
+/0001
+    {
+    /glob "/libs/granite/csrf/token.json"
+    /type "deny"
+    }
+## Allow Dispatcher Cache for Screens channels
+/0002
+    {
+        /glob "/content/screens/*.html"
+        /type "allow"
+    }
+## Allow Dispatcher Cache for Screens offline manifests
+/0003
+    {
+    /glob "/content/screens/*.manifest.json"
+    /type "allow"
+    }
+## Allow Dispatcher Cache for Assets
+/0004
+    {
+  
+    /glob "/content/dam/*"
+    /type "allow"
+    }
+## Disable Dispatcher Cache for Screens devices json
+/0005
+    {
+    /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+## Disable Dispatcher Cache for Screens svc json
+/0006
+    {
+    /glob "/content/screens/svc.json"
     /type "deny"
     }
 ```
