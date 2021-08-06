@@ -7,9 +7,9 @@ feature: 화면 관리
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '432'
 ht-degree: 3%
 
 ---
@@ -26,11 +26,19 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 >
 >디스패처가 없는 경우 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
 
-## 전제 조건 {#pre-requisites}
+## 전제 조건 {#prerequisites}
 
-AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
+>[!IMPORTANT]
+>AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
+>자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
 
-자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
+AEM Screens에 대한 Dispatcher를 구성하기 전에 다음 두 전제 조건을 따르시기 바랍니다.
+
+* `v3 manifests`을 사용하고 있는지 확인하십시오. `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 로 이동하여 `Enable ContentSync Cache` 이 선택 취소되어 있는지 확인합니다.
+
+* 디스패처 초기화 에이전트가 게시 인스턴스의 `/etc/replication/agents.publish/dispatcher1useast1Agent`에 구성되어 있는지 확인합니다.
+
+   ![이미지](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## Dispatcher 구성 {#configuring-dispatcher}
 
