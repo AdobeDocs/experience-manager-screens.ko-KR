@@ -7,9 +7,9 @@ feature: 화면 관리
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -28,16 +28,15 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 
 ## 전제 조건 {#prerequisites}
 
->[!IMPORTANT]
->AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
->자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
+AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
+자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
 
 ## Dispatcher 구성 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->다음 Dispatcher 구성은 Manifest 버전 v2에만 적용됩니다. 매니페스트 버전 V3에 대해서는 [매니페스트 버전에 대한 Dispatcher 구성 v3]{#configuring-dispatcherv3}을 참조하십시오.
+>다음 Dispatcher 구성은 Manifest 버전 v2에만 적용됩니다. 매니페스트 버전 v3에 대해서는 [매니페스트 버전에 대한 Dispatcher 구성 v3](#configuring-dispatcherv3)을 참조하십시오.
 
-AEM Screens 플레이어/장치는 인증된 세션을 사용하여 게시 인스턴스에서도 리소스에 액세스합니다. 따라서 여러 개의 게시 인스턴스가 있는 경우 AEM Screens 플레이어/장치에서 발생하는 모든 요청에 대해 인증된 세션이 유효하도록 요청이 항상 동일한 게시 인스턴스로 이동해야 합니다.
+AEM Screens 플레이어 또는 장치는 인증된 세션을 사용하여 게시 인스턴스에서도 리소스에 액세스합니다. 따라서 여러 개의 게시 인스턴스가 있는 경우 AEM Screens 플레이어/장치에서 발생하는 모든 요청에 대해 인증된 세션이 유효하도록 요청이 항상 동일한 게시 인스턴스로 이동해야 합니다.
 
 아래 절차에 따라 AEM Screens 프로젝트에 대한 디스패처를 구성하십시오.
 
@@ -138,7 +137,7 @@ Screens의 기능을 위해 게시 인스턴스 앞에 있는 디스패처에서
 
 ## 매니페스트 버전 v3의 사전 요구 사항{#prerequisites3}
 
-AEM Screens에 대한 Dispatcher를 구성하기 전에 다음 두 전제 조건을 따르시기 바랍니다.
+AEM Screens에 대한 Dispatcher(매니페스트 버전 v3)를 구성하기 전에 다음 두 가지 전제 조건을 따라야 합니다.
 
 * `v3 manifests`을 사용하고 있는지 확인하십시오. `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 로 이동하여 `Enable ContentSync Cache` 이 선택 취소되어 있는지 확인합니다.
 
