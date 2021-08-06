@@ -7,9 +7,9 @@ feature: 화면 관리
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 449f59f25f1164f1e638921192c538ac46d781d3
+source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -142,6 +142,8 @@ AEM Screens에 대한 Dispatcher(매니페스트 버전 v3)를 구성하기 전�
 * 디스패처 초기화 에이전트가 게시 인스턴스의 `/etc/replication/agents.publish/dispatcher1useast1Agent`에 구성되어 있는지 확인합니다.
 
    ![이미지](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+   ![이미지](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### 필터  {#filter-v3}
 
