@@ -7,9 +7,9 @@ feature: 화면 관리
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
+source-git-commit: 0d341b5d370654e9b1f56ca3afbc2a075cc85188
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
@@ -25,8 +25,6 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 >Dispatcher를 사용할 수 있는 경우 Dispatcher 규칙에서 필터링하여 등록 서블릿에 대한 연결을 방지할 수 있습니다.
 >
 >디스패처가 없는 경우 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
-
-## 전제 조건 {#prerequisites}
 
 AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 먼저 Dispatcher에 대해 알고 있어야 합니다.
 자세한 내용은 [Dispatcher 구성](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)을 참조하십시오.
