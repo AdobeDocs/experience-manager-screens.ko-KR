@@ -3,13 +3,13 @@ title: 채널 수준 활성화 - 단일 이벤트 재생
 seo-title: 채널 수준 활성화 - 단일 이벤트 재생
 description: 단일 이벤트 재생을 사용하는 채널 수준 활성화를 이해하려면 이 안내서를 따르십시오.
 topic-tags: authoring
-feature: 제작 화면, 채널 수준 활성화
+feature: 스크린, 채널 작성
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 72352b9ece8fde2d02b9fa0ccd25c6dfd7d602fd
+source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1793'
 ht-degree: 1%
 
 ---
