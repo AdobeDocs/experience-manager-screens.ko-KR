@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -90,13 +90,12 @@ REACT 앱에서 컨텐츠를 편집하려면:
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. 디스플레이에 채널 할당
+1. 디스플레이에 채널을 지정합니다.
 
    >[!NOTE]
    >채널을 디스플레이에 할당할 때 사용자 상호 작용 이벤트를 추가해야 합니다.
 
-1. 
-   1. 이 프로젝트에 대해 플레이어를 등록하고 디스플레이에 할당합니다. 이제 AEM Screens에서 실행 중인 대화형 애플리케이션을 볼 수 있습니다.
+1. 이 프로젝트에 대해 플레이어를 등록하고 디스플레이에 할당합니다. 이제 AEM Screens에서 실행 중인 대화형 애플리케이션을 볼 수 있습니다.
 
    장치 등록에 대한 자세한 내용은 [장치 등록](device-registration.md) 을 참조하십시오.
 
