@@ -1,20 +1,18 @@
 ---
 title: AEM Screens FAQ
-seo-title: AEM Screens FAQ
+seo-title: AEM Screens FAQs
 description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 보려면 이 페이지를 따르십시오.
-seo-description: AEM Screens 프로젝트와 관련된 FAQ에 대한 답변을 보려면 이 페이지를 따르십시오.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: 디지털 서명, 컨텐츠
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1872'
 ht-degree: 1%
 
 ---
-
 
 # AEM Screens FAQ {#aem-screens-faqs}
 
@@ -25,7 +23,7 @@ ht-degree: 1%
 >[!NOTE]
 >문제가 발생하기 전에 기본 지원 또는 고객 측 지원에 의해 시도해야 하는 나열된 필수 확인입니다.
 
-### 1. 검정색 화면 또는 재생되지 않는 컨텐츠에 직면하는 고객을 위한 AID 문제 해결 단계는 무엇입니까?{#troubleshooting-blank-screen}
+### 1. 검정색 화면 또는 재생되지 않는 컨텐츠에 직면하는 고객을 위한 AID 문제 해결 단계는 무엇입니까? {#troubleshooting-blank-screen}
 
 * 채널 미리 보기가 작동하는지 확인합니다.
 * 디스플레이 미리 보기가 작동하는지 확인
@@ -43,19 +41,19 @@ ht-degree: 1%
 
 ## 채널 관리 {#channel-management}
 
-### 1. 온라인 채널과 오프라인 채널의 차이점은 무엇입니까?{#what-is-the-difference-between-an-online-and-an-offline-channel}
+### 1. 온라인 채널과 오프라인 채널의 차이점은 무엇입니까? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
 ***온라인 채널***&#x200B;은 실시간 환경에서 업데이트된 컨텐츠를 표시하는 반면, ***오프라인 채널***&#x200B;은 캐시된 컨텐츠를 보여줍니다.
 
-### 2. 온라인으로 채널을 만들려면 어떻게 해야 합니까?{#how-do-i-make-a-channel-online}
+### 2. 온라인으로 채널을 만들려면 어떻게 해야 합니까? {#how-do-i-make-a-channel-online}
 
 채널을 선택하고 작업 표시줄에서 채널 속성으로 이동합니다. **채널** 탭 아래에 있는 **개발자 모드(채널을 온라인 상태로 만들기 강제)**&#x200B;를 확인하여 채널을 온라인 상태로 만듭니다.
 
-### 3. 채널 역할 필드의 사용 방법{#what-is-the-use-of-the-channel-role-field}
+### 3. 채널 역할 필드의 사용 방법 {#what-is-the-use-of-the-channel-role-field}
 
 채널 역할 은 작성자가 일반 경험에 직접 집중할 수 있도록 실행되는 실제 채널을 추상화하는 것입니다. 이를 컨텍스트(표시 또는 예약)에서 채널을 고유하게 식별하는 태그의 종류로 생각할 수 있습니다.
 
-### 4. 실제 채널 해상도는 어떻게 발생합니까?{#how-does-actual-channel-resolution-happen}
+### 4. 실제 채널 해상도는 어떻게 발생합니까? {#how-does-actual-channel-resolution-happen}
 
 *정적 참조*&#x200B;의 경우 해상도는 지정된 경로를 따릅니다.
 
@@ -70,25 +68,25 @@ ht-degree: 1%
 
 ## 장치 등록 {#device-registration}
 
-### 1. 장치 온보딩 및 등록 요청과 같은 끝점을 발견하면 많은 장치를 스크립팅하여 이러한 장치를 등록할 수 있습니다. 이를 분기 Wi-Fi에 잠그는 것 외에도 이러한 요청을 보호할 수 있습니까?{#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. 장치 온보딩 및 등록 요청과 같은 끝점을 발견하면 많은 장치를 스크립팅하여 이러한 장치를 등록할 수 있습니다. 이를 분기 Wi-Fi에 잠그는 것 외에도 이러한 요청을 보호할 수 있습니까? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 현재 등록은 작성자 인스턴스에서만 사용할 수 있습니다. 등록 서비스가 인증되지 않았지만 AEM에 보류 중인 장치만 만들고 실제로 장치를 등록하거나 디스플레이를 할당하지 않습니다.
 
 장치를 등록하려면(AEM에서 장치에 대한 사용자를 만드는 것을 의미) AEM에 인증해야 하며 현재 등록 마법사를 수동으로 수행하여 등록을 완료해야 합니다. 이론적으로는 악성 사용자가 몇 개의 보류 중인 장치를 만들 수 있지만 AEM 로그인 없이 등록할 수 없습니다.
 
-### 2. HTTP GET 요청을 인증 형태를 사용하여 HTTP POST으로 변환하는 방법이 있습니까?{#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. HTTP GET 요청을 인증 형태를 사용하여 HTTP POST으로 변환하는 방법이 있습니까? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 등록 요청은 POST 요청입니다.
 
 매개 변수로 전달되지 않고 세션에서 장치 ID를 가져오는 것이 좋습니다. 이렇게 하면 서버 로그, 브라우저 캐시 등이 정리됩니다. 현재 보안 문제가 아닙니다. 서버에서 상태 변경이 없는 경우 의미상 GET이 사용되고 상태가 변경될 때 POST이 사용됩니다.
 
-### 3. 장치 등록 요청을 거절할 방법이 있습니까?{#is-there-a-way-to-decline-a-device-registration-request}
+### 3. 장치 등록 요청을 거절할 방법이 있습니까? {#is-there-a-way-to-decline-a-device-registration-request}
 
-등록 요청은 거절할 수 없습니다. 대신 등록 요청은 [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl)에 구성된 시간 제한 후에 만료됩니다. 기본적으로 이 값은 하루로 설정되고 메모리 캐시에 저장됩니다.
+등록 요청은 거절할 수 없습니다. 대신 등록 요청은 `Adobe Experience Manager Web Console`에 구성된 시간 제한 후에 만료됩니다. 기본적으로 이 값은 하루로 설정되고 메모리 캐시에 저장됩니다.
 
 ## 장치 모니터링 및 상태 보고서 {#device-monitoring-and-health-reports}
 
-### 1. AEM Screens 플레이어에 빈 화면이 표시되는 경우 문제를 어떻게 해결합니까?{#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. AEM Screens 플레이어에 빈 화면이 표시되는 경우 문제를 어떻게 해결합니까? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
 빈 화면 문제를 해결하려면 다음 가능성을 확인하십시오.
 
@@ -96,7 +94,7 @@ ht-degree: 1%
 * 채널에 컨텐츠가 없습니다
 * 현재 시간에 표시하도록 예약된 자산이 없습니다
 
-### 2. AEM Screens 플레이어를 등록할 수 없고 해당 상태가 실패로 표시되면 어떻게 해야 합니까?{#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. AEM Screens 플레이어를 등록할 수 없고 해당 상태가 실패로 표시되면 어떻게 해야 합니까? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
 Apache Sling 레퍼러 필터 Allow Empty 를 활성화해야 합니다. 이 단계는 AEM Screens Player와 AEM Screens 서버 간의 제어 프로토콜을 최적의 상태로 운영하기 위해 필요합니다.
 
@@ -104,17 +102,17 @@ Apache Sling 레퍼러 필터 Allow Empty 를 활성화해야 합니다. 이 단
 1. **allow.empty** 옵션을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-### 3. AEM Screens 플레이어를 등록하는 동안 장치에 FAILURE가 표시되고 콘솔 로그에 ENAME_NOT_FOUND 오류가 표시되는 경우 문제를 해결하는 방법{#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. AEM Screens 플레이어를 등록하는 동안 장치에 FAILURE가 표시되고 콘솔 로그에 ENAME_NOT_FOUND 오류가 표시되는 경우 문제를 해결하는 방법 {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-이 문제는 플레이어가 AEM Screens 서버 DNS를 찾을 수 없는 경우 발생할 수 있습니다. IP 주소를 사용하여 연결할 수 있습니다. 서버의 IP를 얻으려면 다음을 사용하십시오.*arp &lt;server_dns_name>*
+이 문제는 플레이어가 AEM Screens 서버 DNS를 찾을 수 없는 경우 발생할 수 있습니다. IP 주소를 사용하여 연결할 수 있습니다. 서버의 IP를 얻으려면 다음을 사용하십시오. *arp &lt;server_dns_name>*
 
-### 4. AMS는 모든 장치에서 Android Watchdog를 구현하는 것을 권장합니까? Cordova(Watchdova) 플러그인이 APK의 일부로 포함됩니까?{#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS는 모든 장치에서 Android Watchdog를 구현하는 것을 권장합니까? Cordova(Watchdova) 플러그인이 APK의 일부로 포함됩니까? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 순수 Android API를 사용하는 교차 플랫폼 Android 감시는 이미 앱의 일부입니다. 추가 소프트웨어는 필요하지 않지만 사용 중인 장치에 따라 전체 전원 주기(Powermanager api)에 대한 시스템 권한을 얻기 위해 앱을 사임해야 할 수도 있습니다. 제조업체 키를 사용하여 포기하지 않으면 애플리케이션을 종료하고 다시 시작하지만 전원 사이클은 아닙니다.
 
 Android Player 구현 방법에 대한 자세한 내용은 [**Android Player 구현**](implementing-android-player.md) 을 참조하십시오.
 
-### 5. Adobe/AMS가 각 장치를 모니터링하기 위해 권장하는 타사 원격 모니터링 및 경고 도구(소프트웨어)는 무엇입니까? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Adobe/AMS가 각 장치를 모니터링하기 위해 권장하는 타사 원격 모니터링 및 경고 도구(소프트웨어)는 무엇입니까?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 모니터링 및 경고에서 원하는 내용에 따라 새 기능 AEM Screens 알림 서비스가 잠시 후 장치가 ping되지 않았는지 알려줍니다. 타사 도구는 운영 체제(OS), 기능 및 고객의 특정 요구 사항에 따라 다릅니다.
 
@@ -122,7 +120,7 @@ Android Player 구현 방법에 대한 자세한 내용은 [**Android Player 구
 
 ## AEM 스크린 플레이어 {#aem-screens-player}
 
-### 1. Chrome 브라우저 플러그인으로 ChromeOS 플레이어를 설치하는 방법{#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Chrome 브라우저 플러그인으로 ChromeOS 플레이어를 설치하는 방법 {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 ChromeOS 플레이어는 실제 chrome 플레이어 장치가 필요 없는 개발자 모드에서 Chrome Browser 플러그인으로 설치할 수 있습니다. 설치하려면 아래 단계를 수행하십시오.
 
@@ -135,11 +133,11 @@ ChromeOS 플레이어는 실제 chrome 플레이어 장치가 필요 없는 개�
 1. 새 탭을 열고 왼쪽 상단 모서리에서 **Apps** 아이콘을 클릭하거나 ***chrome://apps***&#x200B;로 직접 이동합니다.
 1. **AEM Screens** 플러그인을 클릭하여 Chrome Player를 시작합니다. 기본적으로 플레이어가 전체 화면 모드로 실행됩니다. 전체 화면 모드를 종료하려면 **esc** 키를 누릅니다.
 
-### 2. Screens 플레이어가 사용자 지정 오류 핸들러를 사용하여 게시 인스턴스를 통해 인증할 수 없는 경우 문제를 해결하는 방법{#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
+### 2. Screens 플레이어가 사용자 지정 오류 핸들러를 사용하여 게시 인스턴스를 통해 인증할 수 없는 경우 문제를 해결하는 방법 {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
 AEM Screens 플레이어가 시작되면 플레이어에 404 오류가 발생하면 ***/content/screens/svc.ping.json***&#x200B;에 요청을 합니다. 플레이어가 게시 인스턴스에 대해 인증하기 위한 인증 요청을 시작합니다. 게시 인스턴스에 사용자 지정 오류 처리기가 있는 경우 ***/content/screens/svc.ping.json***&#x200B;에서 익명 사용자에 대한 404 상태 코드를 반환해야 합니다.
 
-### 3. Android Player에서 장치 화면을 켜는 방법{#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3. Android Player에서 장치 화면을 켜는 방법 {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 아래 절차에 따라 모든 Android 플레이어에서 대기 중 을 켜십시오.
 
@@ -148,11 +146,11 @@ AEM Screens 플레이어가 시작되면 플레이어에 404 오류가 발생하
 1. **개발자 옵션**&#x200B;으로 이동합니다.
 1. **계속 깨어있음** 사용
 
-### 4. Windows 플레이어에 대해 창 모드를 활성화하는 방법?{#enable-player}
+### 4. Windows 플레이어에 대해 창 모드를 활성화하는 방법{#enable-player}
 
 Windows Player에 창 모드가 없습니다. 항상 전체 화면 모드입니다.
 
-### 5. AEM Screens 플레이어가 로그인 요청을 계속 보내는 경우 문제를 해결하는 방법{#requests-login}
+### 5. AEM Screens 플레이어가 계속해서 로그인 요청을 보내는 경우 문제를 해결하는 방법{#requests-login}
 
 아래 절차에 따라 `/content/screens/svc.json` 및 `/libs/granite/core/content/login.validate/j_security_check`에 요청을 계속 보내는 AEM Screens 플레이어의 문제를 해결하십시오.
 
@@ -173,7 +171,7 @@ Windows Player에 창 모드가 없습니다. 항상 전체 화면 모드입니�
 다음을 통해 디스플레이 및 장치의 세부 사항을 가져올 수 있습니다.
 
 * **내부 JS API**
-* **ContextHub 저장소**:채널, 장치 및 디스플레이 정보 `/libs/screens/clientlibs/contexthub` 를 노출하기 위해에 세 개의 ContextHub 저장소가 정의됩니다.
+* **ContextHub 저장소**: 채널, 장치 및 디스플레이 정보 `/libs/screens/clientlibs/contexthub` 를 노출하기 위해에 세 개의 ContextHub 저장소가 정의됩니다.
 
    이러한 ContentHub 저장소 값을 사용하려면 아래 절차를 따르십시오.
 
@@ -188,14 +186,14 @@ Windows Player에 창 모드가 없습니다. 항상 전체 화면 모드입니�
 
 ## 일반 문제 해결 팁 {#general-troubleshooting-tips}
 
-### 1. A/P 스크린 오류를 방지하기 위해 Livefyre를 비활성화하는 방법{#how-to-disable-livefyre-to-avoid-a-p-screens-error}
+### 1. A/P 스크린 오류를 방지하기 위해 Livefyre를 비활성화하는 방법 {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
 로그 오류를 방지하기 위해 Livefyre를 비활성화하려면
 
 1. ***Livefyre 번들 비활성화:***
 
    * 다음으로 이동 `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
-   * AEM Livefyre 번들을 검색합니다.`com.adobe.cq.social.cq-social-livefyre`
+   * AEM Livefyre 번들을 검색합니다. `com.adobe.cq.social.cq-social-livefyre`
    * **Stop** 클릭
 
 1. ***Livefyre 폴러를 비활성화합니다.***
@@ -204,11 +202,9 @@ Windows Player에 창 모드가 없습니다. 항상 전체 화면 모드입니�
    * 새 속성 *enabled* type *Boolean*&#x200B;을 추가합니다.
    * **enabled 속성**&#x200B;을 **false**&#x200B;로 설정합니다.
 
-### 2. Oak 색인 정보를 추가하는 방법{#add-oak-index-info}
+### 2. Oak 색인 정보를 추가하는 방법 {#add-oak-index-info}
 
 AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만듭니다.
 `error.log`에 *쿼리 순회 경고*&#x200B;가 있는 경우 쿼리에 대한 사용자 지정 인덱스를 만듭니다. 자세한 내용은 [인덱스 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes)을 참조하십시오.
 
 [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html)에서 추가 리소스를 참조할 수도 있습니다.
-
-
