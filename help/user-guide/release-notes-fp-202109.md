@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 12%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
@@ -29,30 +29,23 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 9일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
-* **AEM Screens 채널에서 페이지 잠금**
+* **비디오에 대한 축소판 지원**
 
-   AEM Screens은 이제 AEM Sites에 이미 구현된 대로 *페이지 잠금*&#x200B;을 지원합니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
+   의 비디오에 대한 축소판 지원은 이제 AEM Screens에서 지원됩니다. 컨텐츠 작성자는 해당 팀이 실제 비디오를 마무리하는 동안 이미지를 자리 표시자로 사용하고 컨텐츠 재생 및 타깃팅을 적절히 테스트할 수 있도록 비디오의 축소판을 정의할 수 있습니다. 비디오를 재생하지 못할 경우에 이미지를 사용할 수도 있습니다.
+자세한 내용은 비디오에 대한 축소판 지원 을 참조하십시오.
 
-* **AEM Screens 플레이어 장치 이름 지정**
+* **기본 재생 모니터링**
 
-   이제 AEM Screens 플레이어에 장치 이름을 Adobe Experience Manager(AEM)에 전송하는 기능이 포함됩니다.
-기본적으로 대량 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 다른 방법으로는, 고객이 자산 태그 또는 기타 친숙한 이름을 사용할 수 있으므로 AEM에서 볼 수 있고 적절한 컨텐츠를 보다 쉽게 할당할 수 있습니다.
+   이제 AEM Screens에서 기본 재생 모니터링을 지원합니다. 이제 플레이어는 각 ping을 사용하여 다양한 재생 지표를 보고합니다(기본값 30초). 지표를 기반으로 다양한 에지 사례(멈춤 경험, 빈 화면, 예약 문제 등)를 탐지하는 기능을 제공합니다. 이 기능을 사용하면 팀이 플레이어가 제대로 컨텐츠를 재생하는지 원격으로 모니터링할 수 있고, 필드의 빈 화면이나 손상된 경험에 대한 반응성을 개선하며, 최종 사용자에게 손상된 경험을 표시할 위험을 줄일 수 있습니다.
+자세한 내용은 기본 재생 모니터링 을 참조하십시오.
 
-   지원되는 각 운영 체제에서 이름을 구성하는 방법에 대해 알아보려면 다음 설명서를 참조하십시오.
+* **컨텐츠 지정 보고서 업데이트**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [타이젠](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **매니페스트 생성**
-
-   서버의 리소스를 적게 할당하는 등 성능이 향상된 채널 매니페스트 생성 속도가 빨라집니다.
 
 ### 버그 수정 {#bug-fixes}
 
-* 플레이어가 동적 포함된 시퀀스가 포함된 채널로 전환할 때 블랙 화면이 표시됩니다.
-* 이제 스크린 플레이어에서 404 오류나 오류 메시지가 있는 페이지가 추가로 발생하지 않는 끊어진 채널로의 전환을 차단합니다.
+
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
 
