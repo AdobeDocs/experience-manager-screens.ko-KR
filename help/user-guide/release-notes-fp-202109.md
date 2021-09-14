@@ -1,0 +1,69 @@
+---
+title: 기능 팩 202109 릴리스 노트
+description: '"2021년 9월 22일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오."'
+feature: Feature Pack
+role: Developer
+level: Intermediate
+index: false
+source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 12%
+
+---
+
+# 기능 팩 202109 릴리스 노트 {#release-notes-for-feature-pack}
+
+>[!CAUTION]
+>최신 버전의 Adobe Experience Manager(AEM)으로 업그레이드하는 것이 좋습니다. Screens에서는 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+
+## 사용 가능 {#availability}
+
+AEM Screens은 AEM 6.5 기능 팩 9를 출시했습니다.
+
+AEM Screens 6.5.9 릴리스의 최신 기능 팩은 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 Adobe ID을 사용하여 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하여 **Screens**&#x200B;에서 **AEM 6.5 Screens FP9**&#x200B;라는 최신 기능 팩을 가져옵니다.
+
+## 릴리스 날짜 {#release-date}
+
+AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 9일입니다.
+
+### 새로운 기능 {#what-is-new}
+
+* **AEM Screens 채널에서 페이지 잠금**
+
+   AEM Screens은 이제 AEM Sites에 이미 구현된 대로 *페이지 잠금*&#x200B;을 지원합니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
+
+* **AEM Screens 플레이어 장치 이름 지정**
+
+   이제 AEM Screens 플레이어에 장치 이름을 Adobe Experience Manager(AEM)에 전송하는 기능이 포함됩니다.
+기본적으로 대량 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 다른 방법으로는, 고객이 자산 태그 또는 기타 친숙한 이름을 사용할 수 있으므로 AEM에서 볼 수 있고 적절한 컨텐츠를 보다 쉽게 할당할 수 있습니다.
+
+   지원되는 각 운영 체제에서 이름을 구성하는 방법에 대해 알아보려면 다음 설명서를 참조하십시오.
+
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [타이젠](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
+* **매니페스트 생성**
+
+   서버의 리소스를 적게 할당하는 등 성능이 향상된 채널 매니페스트 생성 속도가 빨라집니다.
+
+### 버그 수정 {#bug-fixes}
+
+* 플레이어가 동적 포함된 시퀀스가 포함된 채널로 전환할 때 블랙 화면이 표시됩니다.
+* 이제 스크린 플레이어에서 404 오류나 오류 메시지가 있는 페이지가 추가로 발생하지 않는 끊어진 채널로의 전환을 차단합니다.
+
+### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
+
+다음 AEM Screens Players가 AEM 6.5 기능 팩 8용으로 출시되었습니다.
+
+* ChromeOS
+* Windows
+* 타이젠
+* Android
+* Linux
+
+#### AEM Screens Player 다운로드  {#aem-screens-player-downloads}
+
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 **[AEM Screens Player 다운로드](https://download.macromedia.com/screens/index.html)**&#x200B;를 참조하십시오.
