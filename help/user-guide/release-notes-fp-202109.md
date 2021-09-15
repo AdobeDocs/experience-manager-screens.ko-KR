@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '397'
+ht-degree: 4%
 
 ---
 
@@ -41,6 +41,10 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 9일입니다.
 
 * **컨텐츠 지정 보고서 업데이트**
 
+* **V3 매니페스트 지원**
+
+   이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. 자세한 내용은 [매니페스트 버전에 대한 Dispatcher 구성 v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3)을 참조하십시오.
+또한 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 핸들러용 템플릿](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers)을 참조하십시오.
 
 
 ### 버그 수정 {#bug-fixes}
