@@ -2,7 +2,7 @@
 title: AEM Screens의 비디오에 대한 축소판 지원
 description: 이 페이지에서는 Screens에서 비디오에 대한 축소판 지원을 추가하는 방법을 설명합니다.
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -31,7 +31,6 @@ ht-degree: 0%
 비디오에서 축소판을 사용하려면 아래 절차를 따르십시오.
 
 1. 기존 스크린 채널로 이동하거나 새 채널을 만듭니다.
-
 
 1. 채널을 선택하고 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
 
