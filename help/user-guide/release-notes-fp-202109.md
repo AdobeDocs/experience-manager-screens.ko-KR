@@ -1,11 +1,11 @@
 ---
 title: 기능 팩 202109 릴리스 노트
-description: '"2021년 9월 22일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오."'
+description: 2021년 9월 23일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 4%
@@ -25,7 +25,7 @@ AEM Screens 6.5.9 릴리스의 최신 기능 팩은 [소프트웨어 배포 포�
 
 ## 릴리스 날짜 {#release-date}
 
-AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 9일입니다.
+AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
