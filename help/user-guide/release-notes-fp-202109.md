@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,8 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 자세한 내용은 기본 재생 모니터링 을 참조하십시오.
 
 * **컨텐츠 지정 보고서 업데이트**
+
+   이제 컨텐츠 지정 보고서가 최적화되었으며 사용자 경험이 향상되어 개선되었습니다. 다운로드 가능한 보고서에는 한 스프레드시트 탭과 다른 탭의 채널 및 자산과 같은 컨텐츠 공급자 정보에 위치, 표시 및 장치와 같은 향상된 플레이어 관련 엔티티가 표시됩니다.
 
 * **V3 매니페스트 지원**
 
