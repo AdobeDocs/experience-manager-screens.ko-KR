@@ -1,15 +1,16 @@
 ---
 title: AEM Screens의 응용 표현물
-description: 이 페이지에서는 AEM Screens에서 응용 표현물을 사용하는 방법을 설명합니다.
+description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# 응용 표현물 {#adaptive-renditions}
+
+# 응용 표현물: 아키텍처 개요 및 구성 {#adaptive-renditions}
 
 ## 소개 {#introduction}
 
@@ -59,12 +60,11 @@ ht-degree: 0%
 
 ## 작성자 및 게시 설정 {#setup-author-publish}
 
-아래 절차에 따라 작성자 및 게시를 설정하십시오.
+응용 표현물을 사용하기 전에 작성자 및 게시에서 다음 권장 사항을 고려하십시오.
 
 * 변환 매핑은 수동으로 복제해야 합니다.
 
 * 자산 표현물은 기본적으로 복제되지 않습니다. 모든 관련 자산은 수동으로 복제해야 합니다.
-
 
 ## 변환 매핑 규칙 추가 {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 
 ## 다음 단계 {#next-steps}
 
-이제 표현물을 업로드했으면 AEM Screens 채널에서 응용 표현물을 사용할 수 있습니다.
+이제 표현물을 업로드했으면 AEM Screens 채널에서 응용 표현물을 사용할 수 있습니다. 자세한 내용은 적응형 표현물 사용 을 참조하십시오.
