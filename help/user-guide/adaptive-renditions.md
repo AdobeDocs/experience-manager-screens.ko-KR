@@ -2,10 +2,10 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 0%
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 0%
 
 응용 표현물은 특정 이름 지정 규칙에 따라 이름이 지정된 여러 자산 표현물을 갖는 아이디어를 기반으로 합니다. 특정 변환을 재생하는 결정은 예상 기능이 있는 장치에서만 확인할 수 있는 미디어 쿼리 표현식을 평가하여 수행됩니다. 연관된 표현물 이름 지정 패턴을 갖는 기능은 표현물 매핑 규칙을 정의합니다. 사용 가능한 모든 표현식을 계산하면 Screens 플레이어에서 일치하는 규칙에 해당하는 이름 지정 패턴을 수집합니다. 패턴은 변환 이름에서 패턴을 찾아 시퀀스 재생 중에 올바른 변환을 찾는 데 사용됩니다.
 
+![이미지](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## 응용 표현물 사용을 위한 설정 구성 {#setup-adaptive-renditions}
 
@@ -36,27 +37,36 @@ ht-degree: 0%
    >[!NOTE]
    >모든 최신 기능 팩에는 이 노드 구조가 미리 채워져 있습니다.
 
+   ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
 1. 스크린 프로젝트에 렌디션 매핑 구성이 연결되어 있는지 확인합니다.
 
    * 스크린 프로젝트 마법사를 사용하여 만든 모든 새로운 프로젝트에는 변환 매핑 구성을 가리키는 참조가 포함됩니다.
 
+      ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+
    * 이전 버전의 Screens 프로젝트에서 프로젝트 컨텐츠 노드에 `/conf/screens` 속성을 추가하여 연결을 명시적으로 정의해야 합니다.`sling:configRef`
+
+      ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## 마이그레이션 전략 {#migration-strategy}
 
 >[!IMPORTANT]
 >대규모 네트워크의 경우, 이 기능이 매니페스트 및 파일 저장소 형식에 변경 사항을 도입하므로 위험을 완화하도록 마이그레이션을 단계적으로 수행하는 것이 좋습니다.
 
-이 기능을 활성화하려면 적어도 한 개의 매핑 규칙을 추가하고 디스플레이 및 채널 컨텍스트에서 변환 매핑 구성을 확인할 수 있는지 확인하십시오.
+다음 다이어그램은 큰 네트워크에 대한 마이그레이션 전략을 보여 줍니다.
 
-1. 변환 매핑 규칙을 추가합니다.
+![이미지](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+이 기능을 활성화하려면 적어도 한 개의 매핑 규칙을 추가하고 디스플레이 및 채널 컨텍스트에서 표현물 매핑 구성을 확인할 수 있는지 확인하십시오. 아래 절차에 따라 마이그레이션하십시오.
+
+1. [변환 매핑 규칙](#adding-rendition-mapping-rules)을 추가합니다.
 1. 새 채널용 폴더를 만들고 변환 매핑 구성을 가리키는 참조를 추가합니다.
 1. 이전 채널을 대체하는 새 채널을 만들고 렌디션을 업로드합니다.
 1. 디스플레이를 새 채널에 재할당합니다.
-1. 표현물 매핑 구성을 가리키는 마이그레이션된 디스플레이/위치에 대한 참조를 추가합니다.
+1. 마이그레이션된 디스플레이 또는 위치에 대한 참조를 추가하여 표현물 매핑 구성을 가리킵니다.
 1. 나머지 모든 채널 및 디스플레이에 대해 3, 4 및 5단계를 반복합니다.
-1. 마이그레이션을 완료한 후 채널/디스플레이/위치에서 모든 구성 참조를 제거하고 프로젝트 콘텐츠 노드에 단일 구성 참조를 추가하십시오.
+1. 마이그레이션을 완료한 후 채널, 표시 및 위치에서 모든 구성 참조를 제거하고 프로젝트 컨텐츠 노드에 단일 구성 참조를 추가합니다.
 
 ## 작성자 및 게시 설정 {#setup-author-publish}
 
@@ -66,7 +76,7 @@ ht-degree: 0%
 
 * 자산 표현물은 기본적으로 복제되지 않습니다. 모든 관련 자산은 수동으로 복제해야 합니다.
 
-## 변환 매핑 규칙 추가 {#adding-rendition-mapping-rules}
+## 변환 매핑 규칙 추가 {#add-rendition-mapping-rules}
 
 1. 매핑 규칙을 추가하려면 변환 매핑 노드 아래에 `nt:unstructured` 유형의 노드를 만들어야 합니다.
 
@@ -77,6 +87,9 @@ ht-degree: 0%
 
 1. 표현식이 true로 평가되는 경우 선택할 표현물 이름 지정 패턴을 포함하는 값과 함께 패턴 속성을 추가합니다.
 
+   ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+
+
 ## 표현물 업로드 {#upload-renditions}
 
 1. 간판 디스플레이에 더 적합한 자산 버전(예: `portrait orientation`)을 만드십시오.
@@ -85,8 +98,9 @@ ht-degree: 0%
 
 1. 패턴을 포함하도록 자산 파일 이름을 변경합니다(예: `my_asset_portrait.png`).
 
-1. 도구 모음에서 표현물 추가 단추를 클릭하여 표현물을 업로드합니다.
+1. 아래 그림과 같이 **변환 추가**&#x200B;를 클릭하여 표현물을 업로드합니다.
 
+   ![이미지](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 다음 단계 {#next-steps}
 
