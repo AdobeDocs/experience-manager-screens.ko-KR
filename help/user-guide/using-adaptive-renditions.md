@@ -2,14 +2,14 @@
 title: AEM Screens에서 응용 표현물 사용
 description: 이 페이지에서는 AEM Screens에서 응용 표현물을 사용하는 방법을 설명합니다.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
-# 응용 표현물 사용 {#adaptive-renditions}
+# AEM Screens에서 응용 표현물 사용 {#adaptive-renditions}
 
 ## 소개 {#introduction}
 

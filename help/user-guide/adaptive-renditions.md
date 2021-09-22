@@ -2,7 +2,7 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 응용 표현물 사용을 위한 설정 구성 {#setup-adaptive-renditions}
 
-응용 표현물 기능을 활성화하려면 매핑 규칙이 있고 채널 및 디스플레이에 대해 CA 구성이 확인될 수 있어야 합니다.
+응용 표현물 기능을 활성화하려면 매핑 규칙이 있어야 하며, 채널 및 디스플레이에 대해 컨텍스트 인식 구성이 확인되어야 합니다.
 
 1. 변환 매핑 구성이 `JCR`에 있는지 확인합니다. 모든 최신 기능 팩에는 이 노드 구조가 미리 채워져 있습니다.
 
