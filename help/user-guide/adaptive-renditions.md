@@ -2,10 +2,10 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 ## 다음 단계 {#next-steps}
 
-이제 표현물을 구성하고 업로드했으면 AEM Screens 채널에서 응용 표현물을 사용할 수 있습니다. 자세한 내용은 적응형 표현물 사용 을 참조하십시오.
+이제 컨텐츠 작성자로서 표현물을 구성하고 업로드했으면 적응형 표현물을 사용하고 장치를 마이그레이션하여 AEM Screens 채널에서 이 기능을 적용할 수도 있습니다. 자세한 내용은 [응용 표현물 사용](/help/user-guide/using-adaptive-renditions.md)을 참조하십시오.
