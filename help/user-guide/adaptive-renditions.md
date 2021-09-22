@@ -2,10 +2,10 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ![이미지](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## 응용 표현물 사용을 위한 설정 구성 {#setup-adaptive-renditions}
+## 스크린 프로젝트에 변환 매핑 속성 추가 {#rendition-mapping-new}
 
 응용 표현물 기능을 활성화하려면 다음 매핑 규칙이 있어야 하며, 채널 및 디스플레이에 대해 컨텍스트 인식(CA) 구성을 확인할 수 있어야 합니다.
 
@@ -37,22 +37,22 @@ ht-degree: 3%
 
 아래 절차에 따라 설정을 구성하십시오.
 
-1. **CRXDE Lite**&#x200B;로 이동합니다. 아래 그림과 같이 **rendition-mapping** 구성이 `JCR`에 있는지 확인합니다.
+1. **CRXDE Lite**&#x200B;로 이동합니다. 아래 그림과 같이 **rendition-mapping** 구성이 `/conf/screens/sling:configs/rendition-mapping`에 있는지 확인합니다.
 
-   >[!NOTE]
-   >모든 최신 기능 팩에는 이 노드 구조가 미리 채워져 있습니다.
+   >![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite에 **렌디션-매핑** 노드 구조가 미리 채워진 상태로 표시됩니다. `/conf/screens/sling:configs/rendition-mapping` 최신 기능 팩에 대한 자세한 내용은 [기능 팩 202109](/help/user-guide/release-notes-fp-202109.md)에 대한 릴리스 노트 를 참조하십시오.
+   >기존 프로젝트의 경우 Screens 프로젝트에 **rendition-mapping** 구성이 연결되어 있는지 확인합니다. 자세한 내용은 [기존 프로젝트에 변환 매핑 추가](#rendition-mapping-existing) 섹션을 참조하십시오.
 
-1. 스크린 프로젝트에 렌디션 매핑 구성이 연결되어 있는지 확인합니다.
+### 기존 프로젝트에 변환 매핑 속성 추가 {#rendition-mapping-existing}
 
-   * 스크린 프로젝트 마법사로 만든 모든 새 프로젝트에는 **렌디션-매핑** 구성을 가리키는 참조가 포함됩니다.
+1. **CRXDE Lite**&#x200B;로 이동합니다.
 
-      ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. 아래 그림과 같이 `/conf/screens`을 가리키는 `sling:configRef` 속성을 프로젝트 컨텐츠 노드에 추가하여 변환 매핑 연결을 명시적으로 정의합니다.
 
-   * 이전 버전의 Screens 프로젝트에서 `/conf/screens` 속성을 프로젝트 콘텐츠 노드에 추가하여 연결을 명시적으로 정의해야 합니다.`sling:configRef`
+   ![이미지](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## 작성자 및 게시 설정 {#setup-author-publish}
 
