@@ -2,7 +2,7 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ ht-degree: 1%
    * 이전 버전의 Screens 프로젝트에서 프로젝트 컨텐츠 노드에 `/conf/screens` 속성을 추가하여 연결을 명시적으로 정의해야 합니다.`sling:configRef`
 
       ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## 작성자 및 게시 설정 {#setup-author-publish}
 
