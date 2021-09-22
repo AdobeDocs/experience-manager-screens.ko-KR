@@ -2,9 +2,9 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -49,24 +49,7 @@ ht-degree: 1%
 
       ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## 마이그레이션 전략 {#migration-strategy}
 
->[!IMPORTANT]
->대규모 네트워크의 경우, 이 기능이 매니페스트 및 파일 저장소 형식에 변경 사항을 도입하므로 위험을 완화하도록 마이그레이션을 단계적으로 수행하는 것이 좋습니다.
-
-다음 다이어그램은 큰 네트워크에 대한 마이그레이션 전략을 보여 줍니다.
-
-![이미지](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-이 기능을 활성화하려면 적어도 한 개의 매핑 규칙을 추가하고 디스플레이 및 채널 컨텍스트에서 표현물 매핑 구성을 확인할 수 있는지 확인하십시오. 아래 절차에 따라 마이그레이션하십시오.
-
-1. [변환 매핑 규칙](#adding-rendition-mapping-rules)을 추가합니다.
-1. 새 채널용 폴더를 만들고 변환 매핑 구성을 가리키는 참조를 추가합니다.
-1. 이전 채널을 대체하는 새 채널을 만들고 렌디션을 업로드합니다.
-1. 디스플레이를 새 채널에 재할당합니다.
-1. 마이그레이션된 디스플레이 또는 위치에 대한 참조를 추가하여 표현물 매핑 구성을 가리킵니다.
-1. 나머지 모든 채널 및 디스플레이에 대해 3, 4 및 5단계를 반복합니다.
-1. 마이그레이션을 완료한 후 채널, 표시 및 위치에서 모든 구성 참조를 제거하고 프로젝트 컨텐츠 노드에 단일 구성 참조를 추가합니다.
 
 ## 작성자 및 게시 설정 {#setup-author-publish}
 
@@ -90,17 +73,6 @@ ht-degree: 1%
    ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## 표현물 업로드 {#upload-renditions}
-
-1. 간판 디스플레이에 더 적합한 자산 버전(예: `portrait orientation`)을 만드십시오.
-
-1. 변환 이름 지정 패턴(예:`portrait`)을 선택합니다.
-
-1. 패턴을 포함하도록 자산 파일 이름을 변경합니다(예: `my_asset_portrait.png`).
-
-1. 아래 그림과 같이 **변환 추가**&#x200B;를 클릭하여 표현물을 업로드합니다.
-
-   ![이미지](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 다음 단계 {#next-steps}
 
