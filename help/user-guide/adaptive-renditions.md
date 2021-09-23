@@ -2,9 +2,9 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -64,16 +64,39 @@ ht-degree: 2%
 
 ## 변환 매핑 규칙 추가 {#add-rendition-mapping-rules}
 
-1. 매핑 규칙을 추가하려면 **렌디션-매핑** 노드 아래에 `nt:unstructured` 유형의 노드를 만들어야 합니다.
+변환 매핑 아래에 노드를 추가하려면 아래 단계를 따르십시오.
 
-1. 쿼리 식을 포함하는 값으로 표현식 속성을 추가합니다.
+1. **CRXDE Lite**&#x200B;에서 이 경로 `/conf/screens/sling:configs/rendition-mapping`로 이동합니다.
+
+1. **rendition-mapping** 아래에 노드를 만듭니다. **렌디션-매핑**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **만들기** —> **노드 만들기**&#x200B;를 클릭하십시오.
+
+   ![이미지](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. **노드 만들기** 대화 상자에서 **규칙1** 및 **노드**&#x200B;비구조화&#x200B;**와 같은 매핑 규칙에 대한**&#x200B;이름&#x200B;**을 입력합니다.** **확인**&#x200B;을 클릭합니다.
+
+   ![이미지](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. 쿼리 식이 포함된 값과 함께 표현식 속성을 추가해야 합니다.
 
    >[!NOTE]
    >자세한 내용은 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)을 참조하십시오.
 
+   만든 **규칙1**&#x200B;을 클릭하고, 아래와 같이 **이름**&#x200B;에 **표현식**&#x200B;을 입력하고 **값**&#x200B;에 **(orientation:landscape)**&#x200B;을 입력합니다. **추가**&#x200B;를 클릭합니다.
+
+   ![이미지](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. 표현식이 true로 평가되는 경우 선택할 표현물 이름 지정 패턴을 포함하는 값과 함께 패턴 속성을 추가합니다.
 
-   ![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   패턴 속성을 추가하려면 만든 **규칙1**&#x200B;을 클릭하고, 아래와 같이 **이름**&#x200B;에 **pattern**&#x200B;을 입력하고 **값**&#x200B;에 **가로**&#x200B;를 입력합니다. **추가**&#x200B;를 클릭합니다.
+
+   ![이미지](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. **모두 저장**&#x200B;을 클릭하면 **rendition-mapping**&#x200B;에서 생성한 노드 아래에 속성이 표시됩니다.
+
+   ![이미지](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## 다음 단계 {#next-steps}

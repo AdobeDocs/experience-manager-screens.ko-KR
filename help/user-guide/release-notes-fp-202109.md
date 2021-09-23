@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,6 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 * 자산을 변환으로 대체하여 파일 캐싱 오류가 해결되었습니다.
 
 * 이제 플레이어에는 표현물 매핑이 있는 경우에만 자산 표현물이 표시됩니다.
-
-* 이제 splunk 로그를 기준으로 slack 경고를 설정할 수 있습니다.
 
 * 응답이 잘못된 JSON인 경우 다시 인증하도록 Ping이 개선되었습니다.
 
