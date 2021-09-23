@@ -1,10 +1,9 @@
 ---
-title: AEM Screens의 응용 표현물
-description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: 응용 표현물 아키텍처 개요 및 구성
+description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 CRXDE Lite의 아키텍처 개요 및 구성에 대해 설명합니다.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -54,14 +53,6 @@ ht-degree: 2%
    ![이미지](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## 작성자 및 게시 설정 {#setup-author-publish}
-
-응용 표현물을 사용하기 전에 작성자 및 게시에서 다음 권장 사항을 고려하십시오.
-
-* 변환 매핑은 수동으로 복제해야 합니다.
-
-* 자산 표현물은 기본적으로 복제되지 않습니다. 모든 관련 자산은 수동으로 복제해야 합니다.
-
 ## 변환 매핑 규칙 추가 {#add-rendition-mapping-rules}
 
 변환 매핑 아래에 노드를 추가하려면 아래 단계를 따르십시오.
@@ -102,4 +93,4 @@ ht-degree: 2%
 
 ## 다음 단계 {#next-steps}
 
-이제 컨텐츠 작성자로서 표현물 매핑 속성 및 규칙을 추가한 후에는 AEM Screens 채널에서 이 기능을 사용하도록 자산을 구성하고 대형 네트워크에 대해 장치를 마이그레이션하도록 할 수 있습니다. 자세한 내용은 [응용 표현물 사용](/help/user-guide/using-adaptive-renditions.md)을 참조하십시오.
+이제 컨텐츠 작성자로서 표현물 매핑 속성 및 규칙을 추가한 후에는 AEM Screens 채널에서 이 기능을 사용하도록 자산을 구성하고 대형 네트워크에 대해 장치를 마이그레이션하도록 할 수 있습니다.

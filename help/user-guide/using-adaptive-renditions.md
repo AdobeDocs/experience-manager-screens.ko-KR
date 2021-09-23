@@ -2,7 +2,7 @@
 title: AEM Screens에서 응용 표현물 사용
 description: 이 페이지에서는 AEM Screens에서 응용 표현물을 사용하는 방법을 설명합니다.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ ht-degree: 1%
 
    >[!NOTE]
    >마이그레이션을 완료한 후 채널, 표시 및 위치에서 모든 구성 참조를 제거하고 프로젝트 컨텐츠 노드에 단일 구성 참조를 추가해야 합니다.
-
 
 ## AEM Screens 채널에서 표현물 업로드 및 적응형 표현물 사용 {#upload-renditions}
 

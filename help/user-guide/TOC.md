@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '460'
 ht-degree: 19%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 19%
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일에서 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
-   + [비디오에 대한 축소판 지원](thumbnail-support.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위해 Chrome Player를 확장으로 사용](using-chrome-player-as-an-extension.md)
@@ -82,6 +81,7 @@ ht-degree: 19%
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
       + [음성 인식](voice-recognition.md)
       + [컨텐츠 할당 보고서](content-assignment-report.md)
+      + [비디오에 대한 축소판 지원](thumbnail-support.md)
    + 콘텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 콘텐츠 업데이트](on-demand-content.md)
       + [컨텐츠 as-a-service 업데이트](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 19%
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃용 사용자 정의 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 지정 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
+   + [응용 표현물: 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md)
 + 문제 해결 및 FAQ {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [Device Control Center 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 노트 {#release-notes}
+   + [기능 팩 202109 릴리스 노트](release-notes-fp-202109.md)
    + [기능 팩 202105 릴리스 노트](release-notes-fp-202105.md)
    + [기능 팩 202103 릴리스 노트](release-notes-fp-202103.md)
    + [기능 팩 202011 릴리스 노트](release-notes-fp-202011.md)

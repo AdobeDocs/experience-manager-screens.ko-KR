@@ -1,13 +1,13 @@
 ---
 title: 타이젠 플레이어
 description: 이 페이지에서는 타이젠 플레이어의 설치 및 작업에 대해 설명합니다.
-feature: 스크린, 플레이어 관리
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 절차를 따르십시오.
 
 1. 로컬 컴퓨터에서 타이젠 플레이어 *(.zip)* 파일을 설치합니다.
 
-## 로컬 서버 설정 및 Zip 파일 추출 {#setting-local-server}
+## http 서버 설정 {#setting-local-server}
 
 >[!NOTE]
 > zip 파일을 추출하고 `http server`을 통해 타이젠 플레이어를 사용할 수 있도록 합니다. (`http server`은(는) 로컬 또는 Apache 서버가 아니어도 됩니다.)

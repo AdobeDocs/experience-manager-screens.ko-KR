@@ -1,11 +1,11 @@
 ---
 title: AEM Screens의 비디오에 대한 축소판 지원
 description: 이 페이지에서는 Screens에서 비디오에 대한 축소판 지원을 추가하는 방법을 설명합니다.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ ht-degree: 0%
 
 1. 채널을 선택하고 작업 표시줄에서 **편집**&#x200B;을 클릭하여 편집기를 엽니다.
 
+   ![이미지](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. 아래 그림과 같이 기존 비디오 구성 요소를 추가하거나 편집합니다.
+
+   ![이미지](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. 비디오를 선택하고 *렌치* 아이콘을 클릭하여 비디오 속성을 엽니다.
 
+   ![이미지](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. **비디오** 대화 상자가 열리면 **축소판** 드롭 영역을 볼 수 있습니다.
 
+   ![이미지](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. 자산 선택기에서 이미지를 **축소판 그림** 드롭 영역으로 끌어다 놓고 **완료**&#x200B;를 클릭합니다.
+
+   ![이미지](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. **미리 보기**&#x200B;를 클릭합니다.
 
