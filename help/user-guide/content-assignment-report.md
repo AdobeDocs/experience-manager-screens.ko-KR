@@ -1,22 +1,22 @@
 ---
 title: 컨텐츠 할당 보고서
 description: 이 페이지에서는 컨텐츠 지정 보고서 다운로드 및 사용에 대해 설명합니다.
-feature: 스크린 작성
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
-
 
 # 컨텐츠 할당 보고서 {#content-assignment-report}
 
 컨텐츠 지정 보고서 기능을 사용하면 AEM Screens 관리자나 작성자가 스프레드시트 형식으로 *컨텐츠 지정 보고서*&#x200B;를 내보낼 수 있습니다.
 
-## 컨텐츠 할당 보고서 사용 {#using-content-assignment-report}
+## 컨텐츠 지정 보고서 사용 {#using-content-assignment-report}
 
 AEM Screens 작성자 또는 관리자는 컨텐츠 지정 보고서를 사용하여 AEM Screens 프로젝트에서 만든 모든 채널의 이미지, 비디오와 같은 모든 자산이 포함된 보고서를 다운로드할 수 있습니다. 또한, 지정된 모든 디스플레이에 지정된 전체 채널에 대한 정보와 지정된 디스플레이에 지정된 모든 장치에 대한 정보가 포함됩니다.
 
@@ -36,7 +36,7 @@ AEM Screens 작성자 또는 관리자는 컨텐츠 지정 보고서를 사용�
 1. [채널 지정](/help/user-guide/channel-assignment-latest-fp.md)
 
 
-## 컨텐츠 할당 보고서 다운로드 {#downloading-content-assignment-report-fp}
+## 컨텐츠 지정 보고서 다운로드 {#downloading-content-assignment-report-fp}
 
 AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 위치에 표시를 지정했으면 컨텐츠 지정 보고서를 다운로드할 준비가 된 것입니다.
 
@@ -51,10 +51,13 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 �
 
    ![이미지](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. 다운로드한 스프레드시트는 **위치** 및 **컨텐츠**&#x200B;와 같은 두 개의 탭으로 구성됩니다. 위치 탭에는 AEM Screens 프로젝트와 관련하여 이러한 4개의 엔티티를 추가로 조사하는 데 사용할 수 있는 **위치**, **디스플레이**, **채널** 및 **장치**&#x200B;와 같은 4개의 열이 표시됩니다.
+
+   ![이미지](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >다운로드한 스프레드시트는 **채널**, **자산**, **디스플레이** 및 **장치**&#x200B;와 같은 네 개의 열로 구성되어 있으며, 이러한 네 개의 엔티티는 AEM Screens 프로젝트와 관련이 있습니다.
+   >스프레드시트에 표시된 데이터는 읽기 쉬운 형식으로 알파벳순으로 정렬됩니다.
 
-1. Excel 시트가 AEM Screens 프로젝트 이름과 미리 동일한 이름으로 로컬 시스템에 다운로드됩니다. 예를 들어 프로젝트 이름이 **DemoScreens**&#x200B;이면 다운로드한 파일 이름은 **demoscreens-content-assignment-report.xlxs**&#x200B;입니다.
+1. **채널** 열에서 채널을 클릭하여 해당 채널로 바로 이동하고 아래 그림과 같이 해당 특정 채널과 연결된 자산(이미지 및 비디오)에 대한 정보를 제공하는 **컨텐츠** 탭을 열 수 있습니다.
 
-   ![이미지](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![이미지](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
