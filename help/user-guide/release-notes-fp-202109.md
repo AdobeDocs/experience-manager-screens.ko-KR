@@ -1,10 +1,10 @@
 ---
 title: 기능 팩 202109 릴리스 노트
-description: 2021년 9월 23일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오.
+description: 2021년 9월 23일에 릴리스된 AEM Screens 기능 팩 202109에 대한 정보를 보려면 이 페이지를 따르십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
+source-git-commit: 238d53377acdad857d722c2c53f74f3a29868b57
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
