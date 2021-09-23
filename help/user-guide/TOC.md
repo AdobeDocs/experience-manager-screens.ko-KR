@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 19%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 19%
    + [스크린 우수 사례 안내서](https://docs.adobe.com/content/help/ko-KR/experience-manager-screens/using/about-guide.html)
    + [주요 용어](screens-glossary.md)
 + 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
-   + [1부:프로젝트 역할 및 책임](project-roles-responsibilities.md)
-   + [2부:프로젝트 범위 지정 시 고려 사항](project-considerations.md)
-   + [3부:테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
-   + [4부:프로젝트 관리 및 배포](project-management-and-deployment.md)
-   + [5부:지원 고려 사항](support-considerations.md)
+   + [1부: 프로젝트 역할 및 책임](project-roles-responsibilities.md)
+   + [2부: 프로젝트 범위 지정 시 고려 사항](project-considerations.md)
+   + [3부: 테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
+   + [4부: 프로젝트 관리 및 배포](project-management-and-deployment.md)
+   + [5부: 지원 고려 사항](support-considerations.md)
 + 구성 및 관리 {#administering}
    + [Screens 서버 구성](configuring-screens-introduction.md)
    + [Dispatcher 구성 설정](dispatcher-configurations-aem-screens.md)
@@ -38,6 +38,7 @@ ht-degree: 19%
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일에서 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
+   + [비디오에 대한 축소판 지원](thumbnail-support.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위해 Chrome Player를 확장으로 사용](using-chrome-player-as-an-extension.md)
@@ -61,7 +62,7 @@ ht-degree: 19%
       + [장치 관리](managing-devices.md)
       + 채널 지정 {#assigning-channels}
          + [채널 지정](channel-assignment-latest-fp.md)
-         + [채널 지정:이전 AEM Screens 기능 팩](channel-assignment.md)
+         + [채널 지정: 이전 AEM Screens 기능 팩](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}
       + [텍스트 오버레이](text-overlay.md)
       + [대량 오프라인 업데이트](bulk-offline-update.md)
