@@ -2,9 +2,9 @@
 title: AEM Screens의 응용 표현물
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 아키텍처 개요 및 구성에 대해 설명합니다.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---
@@ -86,9 +86,10 @@ ht-degree: 2%
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. 변환 이름 지정 패턴을 포함하는 값으로 패턴 속성을 추가합니다.
 
-
-1. 표현식이 true로 평가되는 경우 선택할 표현물 이름 지정 패턴을 포함하는 값과 함께 패턴 속성을 추가합니다.
+   >[!NOTE]
+   >패턴 속성에 정의된 값은 새 자산 표현물과 일치하며 표현식이 true로 평가되는 경우 선택됩니다.
 
    패턴 속성을 추가하려면 만든 **규칙1**&#x200B;을 클릭하고, 아래와 같이 **이름**&#x200B;에 **pattern**&#x200B;을 입력하고 **값**&#x200B;에 **가로**&#x200B;를 입력합니다. **추가**&#x200B;를 클릭합니다.
 
