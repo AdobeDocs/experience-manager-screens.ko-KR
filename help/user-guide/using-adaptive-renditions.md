@@ -1,9 +1,9 @@
 ---
 title: AEM Screens에서 응용 표현물 사용
 description: 이 페이지에서는 AEM Screens에서 응용 표현물을 사용하는 방법을 설명합니다.
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ Tour Screens 채널에서 사용할 자산에 변환을 적용하려면 아래 �
 
 1. **CRXDE Lite**&#x200B;에서 **pattern** 속성에 정의된 것과 유사한 표현물 이름 지정 패턴(예:`landscape`)을 선택합니다. 자세한 내용은 [변환 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)를 참조하십시오.
 
-1. 패턴(3단계에서 정의됨)이 포함되도록 자산 파일의 이름을 변경합니다(예: `seahorse_landscape.png`).
+1. 패턴(3단계에서 정의됨)이 포함되도록 자산 파일의 이름을 변경합니다(예: `seahorse-landscape.png`).
 
 1. 아래 그림과 같이 **변환 추가**&#x200B;를 클릭하여 표현물을 업로드합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. 자산을 추가한 후 자산을 선택하고 작업 표시줄에서 **게시 관리**&#x200B;를 클릭하여 자산을 게시합니다.
+
+   ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >게시 관리 및 컨텐츠 업데이트 전달에 대한 자세한 내용은 [온디맨드 콘텐츠 업데이트](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en)를 참조하십시오.
 
 
 ## 마이그레이션 전략 {#migration-strategy}
