@@ -1,13 +1,13 @@
 ---
 title: AEM Screens에서 응용 표현물 사용
 description: 이 페이지에서는 AEM Screens에서 응용 표현물을 사용하는 방법을 설명합니다.
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
+
 
 # AEM Screens에서 응용 표현물 사용 {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ Tour Screens 채널에서 사용할 자산에 변환을 적용하려면 아래 �
 
 1. 간판 디스플레이에 더 적합한 자산 버전(예: `seahorse.jpg`)을 만드십시오.
 
-1. CRXDE Lite의 패턴 속성에 정의된 것과 유사한 표현물 이름 지정 패턴(예:`landscape`)을 선택합니다. 자세한 내용은 [변환 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)를 참조하십시오.
+1. **CRXDE Lite**&#x200B;에서 **pattern** 속성에 정의된 것과 유사한 표현물 이름 지정 패턴(예:`landscape`)을 선택합니다. 자세한 내용은 [변환 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)를 참조하십시오.
 
-1. 패턴을 포함하도록 자산 파일 이름을 변경합니다(예: `seahorse_landscape.png`).
+1. 패턴(3단계에서 정의됨)이 포함되도록 자산 파일의 이름을 변경합니다(예: `seahorse_landscape.png`).
 
 1. 아래 그림과 같이 **변환 추가**&#x200B;를 클릭하여 표현물을 업로드합니다.
 
