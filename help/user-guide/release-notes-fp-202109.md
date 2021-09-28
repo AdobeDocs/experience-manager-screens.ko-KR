@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 2%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
    이제 AEM Screens 개발자로서, 모든 컨텐츠 변형을 수동으로 만들지 않고도 자동으로 다운로드 및 재생되도록 장치별 자산 변환을 구성할 수 있습니다. [응용 표현물 을 참조하십시오. 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md) 을 참조하십시오.
 
-   또한 AEM Screens 컨텐츠 작성자는 이제 AEM Screens 프로젝트에서 적응형 표현물을 사용하고 대규모 네트워크에 대한 마이그레이션 전략을 적용할 수 있습니다.
+   또한 AEM Screens 컨텐츠 작성자는 AEM Screens 채널에서 응용 표현물을 사용하도록 자산을 구성하고 또한 이 기능을 사용하기 위해 대형 네트워크에 대해 장치를 마이그레이션할 수 있습니다. 자세한 내용은 [AEM Screens에서 응용 표현물 사용](/help/user-guide/using-adaptive-renditions.md)을 참조하십시오.
 
 * **V3 매니페스트 지원**
 
