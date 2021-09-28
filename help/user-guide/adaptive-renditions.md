@@ -1,13 +1,13 @@
 ---
 title: 응용 표현물 아키텍처 개요 및 구성
 description: 이 페이지에서는 AEM Screens의 응용 표현물에 대한 CRXDE Lite의 아키텍처 개요 및 구성에 대해 설명합니다.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 2%
 
 ---
-
 
 # 응용 표현물: 아키텍처 개요 및 구성 {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ ht-degree: 2%
 
 ## 다음 단계 {#next-steps}
 
-이제 컨텐츠 작성자로서 표현물 매핑 속성 및 규칙을 추가한 후에는 AEM Screens 채널에서 이 기능을 사용하도록 자산을 구성하고 대형 네트워크에 대해 장치를 마이그레이션하도록 할 수 있습니다.
+이제 컨텐츠 작성자로서 표현물 매핑 속성 및 규칙을 추가한 후에는 AEM Screens 채널에서 이 기능을 사용하도록 자산을 구성하고 대형 네트워크에 대해 장치를 마이그레이션하도록 할 수 있습니다. 자세한 내용은 [AEM Screens에서 응용 표현물 사용](/help/user-guide/using-adaptive-renditions.md)을 참조하십시오.
