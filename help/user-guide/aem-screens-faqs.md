@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,17 @@ ht-degree: 1%
 1. 디스플레이의 그랜드 상위 위치에는 참조된 채널 이름과 일치하는 하위 노드가 있습니다
 
 따라서 위치 폴더에 도달하여 그 시점에서 중지될 때까지(따라서 위치 하위 트리의 채널만, 예를 들어 채널 폴더에 있는 채널을 참조할 수 없습니다).
+
+### 5. AEM Screens 채널에서 Custom clientlib 오프라인 구성을 설정하는 방법
+
+AEM Screens 채널에서 빌드된 사용자 지정 클라이언트측 코드 `clientlib`을(를) 사용하는 경우, `clientlib` 파일이 채널(`manifest.json`)에 성공적으로 로드되고 `clientlib`의 경로가 포함되도록 하려면 다음 단계가 필요합니다.
+
+채널 편집기에서 아래 절차를 따르십시오.
+
+1. 채널을 선택하고 작업 표시줄에서 **편집**&#x200B;을 클릭하여 채널 편집기를 엽니다.
+1. 사용자 지정 `clientlib`을 추가할 구성 요소를 선택합니다.
+1. 구성 단추(공구모양 아이콘)를 클릭합니다.
+1. **오프라인 구성** 탭으로 이동하여 **클라이언트 측 라이브러리**&#x200B;에서 사용자 지정 clientlib에 대한 경로를 추가합니다.
 
 ## 장치 등록 {#device-registration}
 
