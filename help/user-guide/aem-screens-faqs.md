@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 1%
@@ -221,7 +221,7 @@ AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만�
 또한 [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. v3 매니페스트를 구성하는 데 필요한 사항 {#configure-v3}
+### 3. v3 매니페스트를 구성하는 데 필요한 사항은 무엇입니까? {#configure-v3}
 
 v3 매니페스트를 활성화하려면 다음을 수행해야 합니다.
 
