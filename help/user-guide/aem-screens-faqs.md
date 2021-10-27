@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
+source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2061'
 ht-degree: 1%
 
 ---
@@ -234,3 +234,9 @@ v3 매니페스트를 활성화하려면 다음을 수행해야 합니다.
 * ContentSync 사용 안 함 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * SmartSync 사용 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* 편집 `channel/experience fragment/page components`.
+
+* 로 이동합니다 **오프라인 구성** 탭.
+
+* Enter 키 `clientlibs `매니페스트에 추가해야 하는 정적 파일에 대한 폴더입니다.
