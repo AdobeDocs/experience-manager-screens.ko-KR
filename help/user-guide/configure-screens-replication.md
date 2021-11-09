@@ -3,9 +3,9 @@ title: 스크린 복제 에이전트 구성
 description: 스크린 복제 에이전트를 구성하는 방법에 대한 정보를 보려면 이 페이지를 따르십시오.
 role: Developer
 level: Intermediate
-source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 목표 {#objective}
 
-Screens 복제 에이전트는 게시에서 작성자로 ping 데이터를 가져와야 합니다. 작성자가 장치 ping을 표시할 수 있도록 구성해야 합니다.
+Screens 복제 에이전트는 다음과 같은 ping 데이터를 가져올 책임이 있습니다. *사용자*, *암호*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, 및에 이러한 여러 값을 게시 - 작성자에 추가합니다. 작성자가 장치 ping을 표시할 수 있도록 구성해야 합니다.
 
 >[!NOTE]
 >스크린 복제 에이전트에 대한 자세한 내용은 [화면 복제 에이전트 및 명령](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
