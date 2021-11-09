@@ -3,10 +3,10 @@ title: 스크린 복제 에이전트 구성
 description: 스크린 복제 에이전트를 구성하는 방법에 대한 정보를 보려면 이 페이지를 따르십시오.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ Screens 복제 에이전트의 구성을 완료하려면 두 섹션을 모두 �
 
 ## 사용자 활성화 및 암호 업데이트 {#enable-users}
 
-아래 단계를 따르십시오.
+사용자를 활성화하고 screens-receiver-user의 암호를 업데이트하려면 아래 단계를 따르십시오.
+
+>[!NOTE]
+>보안상의 이유로 screens-receiver-user에 관리자 암호를 사용하지 않는 것이 좋습니다.
 
 1. AEM 인스턴스로 이동합니다.
 
