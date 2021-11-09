@@ -3,9 +3,9 @@ title: 스크린 복제 에이전트 구성
 description: 스크린 복제 에이전트를 구성하는 방법에 대한 정보를 보려면 이 페이지를 따르십시오.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Screens 복제 에이전트의 설정을 업데이트하려면 아래 섹션을 
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 작성자에서 Screens 복제 에이전트를 검색하고 아래 그림과 같이 링크를 클릭합니다.
+1. 작성자에서 모든 Screens 복제 에이전트를 검색하고 아래 그림과 같이 링크를 클릭합니다.
 
    >[!NOTE]
-   >문자로 Screens 복제 에이전트를 검색합니다. **S** 작성자 이름에 포함됩니다.
+   >모든 Screens 복제 에이전트를 검색합니다. 스크린 복제 에이전트 이름에 문자가 포함됩니다 **S** 제목 아래에 표시합니다.
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
