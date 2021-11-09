@@ -3,17 +3,25 @@ title: 스크린 복제 에이전트 구성
 description: 스크린 복제 에이전트를 구성하는 방법에 대한 정보를 보려면 이 페이지를 따르십시오.
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 6%
+source-wordcount: '396'
+ht-degree: 5%
 
 ---
 
 
 # 스크린 복제 에이전트 구성 {#configuring-screens-replication-agent}
 
-이 섹션에서는 스크린 복제 에이전트를 구성하는 방법에 대해 설명합니다.
+다음 페이지에서는 스크린 복제 에이전트를 구성하는 방법에 대해 설명합니다.
+
+>[!NOTE]
+>스크린 복제 에이전트에 대한 자세한 내용은 [화면 복제 에이전트 및 명령](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+Screens 복제 에이전트의 구성을 완료하려면 두 섹션을 모두 완료해야 합니다.
+
+1. [사용자 활성화 및 암호 업데이트](#enable-users)
+1. [화면 복제 에이전트 업데이트](#replicate-agent)
 
 ## 사용자 활성화 및 암호 업데이트 {#enable-users}
 
@@ -87,7 +95,7 @@ Screens 복제 에이전트의 설정을 업데이트하려면 아래 섹션을 
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 아래 그림과 같이 링크를 클릭합니다.
+1. 문자가 있는 링크를 검색합니다. **S** 아래 그림과 같이 클릭합니다.
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
