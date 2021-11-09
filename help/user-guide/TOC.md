@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 feature-set: Experience Manager Screens
-source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 18%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 18%
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일에서 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
+   + [스크린 복제 에이전트 구성](configure-screens-replication.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [문제 해결을 위해 Chrome Player를 확장으로 사용](using-chrome-player-as-an-extension.md)

@@ -3,9 +3,9 @@ title: 스크린 복제 에이전트 구성
 description: 스크린 복제 에이전트를 구성하는 방법에 대한 정보를 보려면 이 페이지를 따르십시오.
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 6%
 
 ---
@@ -82,3 +82,29 @@ Screens 복제 에이전트의 설정을 업데이트하려면 아래 섹션을 
 1. 도구 —> 를 클릭합니다. **배포** —> **복제**.
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. 클릭 **작성자의 에이전트**.
+
+   ![이미지](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. 아래 그림과 같이 링크를 클릭합니다.
+
+   ![이미지](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. 클릭 **편집**.
+
+   ![이미지](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. 확인 **활성화됨** 에서 **설정** 탭.
+
+   ![이미지](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. 다음으로 이동 **전송** 탭에서 **에이전트 설정** 대화 상자를 열고, [사용자 활성화 및 암호 업데이트](#enable-users). 클릭 **확인**.
+
+   ![이미지](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. 이전 단계를 완료하면 을(를) 클릭합니다 **연결 테스트** 연결을 확인합니다.
+
+   ![이미지](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   연결 확인이 성공하면 Screens 복제 에이전트 구성을 완료했습니다.
