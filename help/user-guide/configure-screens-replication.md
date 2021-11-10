@@ -3,7 +3,7 @@ title: 스크린 복제 에이전트 구성
 description: 스크린 복제 에이전트를 구성하는 방법에 대한 정보를 보려면 이 페이지를 따르십시오.
 role: Developer
 level: Intermediate
-source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
+source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 목표 {#objective}
 
-Screens 복제 에이전트는 다음과 같은 ping 데이터를 가져올 책임이 있습니다. *사용자*, *암호*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, 및에 이러한 여러 값을 게시 - 작성자에 추가합니다. 작성자가 장치 ping을 표시할 수 있도록 구성해야 합니다.
+Screens 복제 에이전트는 다음과 같은 명령 데이터를 가져올 책임이 있습니다. *사용자*, *암호*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, 및에 이러한 여러 값을 게시 - 작성자에 추가합니다. 작성자가 장치 ping을 표시할 수 있도록 구성해야 합니다.
 
 >[!NOTE]
 >스크린 복제 에이전트에 대한 자세한 내용은 [화면 복제 에이전트 및 명령](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
