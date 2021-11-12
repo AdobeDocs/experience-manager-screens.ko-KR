@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
+source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -54,11 +54,18 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **V3 매니페스트 지원**
 
-   이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 매니페스트를 활성화하려면 다음을 구성해야 합니다. * 디스패처 업데이트 * 사용자 지정 구성 요소 업데이트 * ContentSync 비활성화 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-* SmartSync 활성화 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 매니페스트를 활성화하려면 다음을 구성해야 합니다.
 
-   을(를) 참조하십시오. [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 자세한 내용
-또한 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 핸들러용 템플릿](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * 디스패처 업데이트
+
+   * 사용자 지정 구성 요소 업데이트
+
+   * ContentSync 사용 안 함 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * SmartSync 사용 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   * 자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 자세한 내용
+   * 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 핸들러용 템플릿](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### 버그 수정 {#bug-fixes}
