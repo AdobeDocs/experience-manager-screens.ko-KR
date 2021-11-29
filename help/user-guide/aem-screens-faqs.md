@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
+source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2185'
 ht-degree: 1%
 
 ---
@@ -244,3 +244,13 @@ v3 매니페스트를 활성화하려면 다음을 수행해야 합니다.
 ### 4. screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 및 screens 코어 번들이 설치되었지만 활성화되지 않은 경우 어떻게 해야 합니까?
 
 AMS 커넥터가 작동하려면 최소 버전의 AEM 6.5 기능 팩 8을 설치해야 합니다. 자세한 내용은 [사용 가능](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 최소 버전의 스크린 기능 팩을 가져오려면 다음을 수행하십시오.
+
+### 5. Screens에서 CQ Link Externalizer 서비스를 구성하는 방법
+
+이 서비스는 작성자 및 게시 인스턴스에 대한 공개 호스트 이름을 정의하는 데 사용되며 이 값은 장치 서버 URL을 업데이트하는 데도 사용되고 ContextHub 타깃팅에도 사용됩니다.
+
+Screens의 CQ Link Externalizer 서비스는 다음을 통해 구성할 수 있습니다.
+
+1. 다음으로 이동 `http://localhost:4502/system/console/configMgr`
+1. Day CQ Link Externalizer
+1. 의 호스트 이름 변경 `author/publish` 필요에 따라 항목 등록
