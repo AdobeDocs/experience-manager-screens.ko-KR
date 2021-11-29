@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+source-git-commit: a3bed3baf7e825299a82ccf624c3cdf876830cd0
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2119'
 ht-degree: 1%
 
 ---
@@ -243,4 +243,4 @@ v3 매니페스트를 활성화하려면 다음을 수행해야 합니다.
 
 ### 4. screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 및 screens 코어 번들이 설치되었지만 활성화되지 않은 경우 어떻게 해야 합니까?
 
-AMS 커넥터가 작동하려면 최소 버전의 AEM 6.5 기능 팩 8 AMS를 설치해야 합니다. 자세한 내용은 [사용 가능](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 최소 버전의 기능 팩을 가져오려면 다음을 수행하십시오.
+AMS 커넥터가 작동하려면 최소 버전의 AEM 6.5 기능 팩 8을 설치해야 합니다. 자세한 내용은 [사용 가능](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 최소 버전의 기능 팩을 가져오려면 다음을 수행하십시오.
