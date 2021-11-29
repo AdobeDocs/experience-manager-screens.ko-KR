@@ -1,13 +1,14 @@
 ---
 title: 기능 팩 202105 릴리스 노트
 description: '"2021년 6월 4일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오."'
-feature: 기능 팩
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
+exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 12%
+source-wordcount: '399'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,10 @@ ht-degree: 12%
 
 AEM Screens은 AEM 6.5 기능 팩 8을 출시했습니다.
 
-AEM Screens 6.5.8 릴리스의 최신 기능 팩은 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 Adobe ID을 사용하여 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하여 **Screens**&#x200B;를 검색하여 **AEM 6.5 Screens FP8**&#x200B;라는 최신 기능 팩을 가져옵니다.
+AEM Screens 6.5.8 릴리스의 최신 기능 팩은 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **Screens** 최신 기능 팩을 가져오려면 다음을 수행하십시오. **AEM 6.5 Screens FP8**.
+
+>[!IMPORTANT]
+>패키지를 설치한 후 작동하려면 AMS 커넥터용 최소 버전의 AEM 6.5 기능 팩 8 을 설치해야 합니다 `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` 그리고 `screens core bundles`.
 
 ## 릴리스 날짜 {#release-date}
 
@@ -30,7 +34,7 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 4일입니다.
 
 * **AEM Screens 채널에서 페이지 잠금**
 
-   AEM Screens은 이제 AEM Sites에 이미 구현된 대로 *페이지 잠금*&#x200B;을 지원합니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
+   AEM Screens에서 현재 지원 *페이지 잠금*: AEM Sites에 이미 구현되어 있습니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
 
 * **AEM Screens 플레이어 장치 이름 지정**
 
@@ -63,6 +67,6 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 4일입니다.
 * Android
 * Linux
 
-#### AEM Screens 플레이어 다운로드 {#aem-screens-player-downloads}
+#### AEM Screens Player 다운로드  {#aem-screens-player-downloads}
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 **[AEM Screens Player 다운로드](https://download.macromedia.com/screens/index.html)**&#x200B;를 참조하십시오.
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 다음을 참조하십시오. **[AEM Screens Player 다운로드](https://download.macromedia.com/screens/index.html)**.
