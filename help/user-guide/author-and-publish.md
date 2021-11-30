@@ -1,18 +1,14 @@
 ---
 title: AEM Screens에서 작성자 및 게시 구성
-seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 작성 된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시를 구성하는 방법을 알려면 이 페이지를 따르십시오.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '2006'
 ht-degree: 4%
 
 ---
+
 
 # AEM Screens에서 작성자 및 게시 구성 {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ AEM Screens 플레이어에서 변경 사항을 확인합니다.
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 다음 **게시 관리** 기능을 사용하면 작성자에서 장치에 게시하기 위한 컨텐츠 업데이트를 제공할 수 있습니다. 전체 AEM Screens 프로젝트 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대해서만 컨텐츠를 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [온디맨드 콘텐츠 업데이트](on-demand-content.md).
+
+## 문제 해결 팁 {#troubleshoot-tips}
+
+작성자/게시 설정과 관련된 FAQ에 대한 답변을 보려면 아래 섹션을 따르십시오.
+
+### 초기 등록 및 할당 후 https에서 http로 리디렉션을 추가하는 방법 {#add-redirect}
+
+**솔루션**
+활성화 설정 `Proxy/Load Balancer Connection in the Jetty configuration` to `true`.
+
+### 외부 자산의 오프라인 콘텐츠 및 플레이어 다운로드 문제를 업데이트하는 방법 `/content/dam/projects/<project>`? {#update-offline-content}
+
+**솔루션**
+일괄 오프라인 업데이트-스크린 서비스 사용자 및 screens-devices-master 그룹에 대한 읽기 권한을 모든 항목에 대해 제공합니다. `/content/dam` 또는 사용하려는 특정 자산을 더 제한하려는 경우 사용할 수도 있습니다.
+
+### Screens 복제 에이전트 오류를 해결하는 방법 {#replication-agent}
+
+**솔루션**
+에이전트 구성에서 역방향 복제에 사용 옵션을 선택하지 않았는지 확인합니다. Screens 복제 에이전트를 역방향 복제 에이전트로 사용할 수 없으며 이 기능의 범위는 장치 명령을 작성자에서 게시로 전달하는 것입니다.
