@@ -4,10 +4,10 @@ description: 2021년 12월 3일에 릴리스된 AEM Screens 기능 팩 202112에
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 9%
+source-wordcount: '269'
+ht-degree: 6%
 
 ---
 
@@ -29,15 +29,26 @@ AEM Screens 기능 팩 202112의 릴리스 날짜는 2021년 12월 3일입니다
 
 ### 새로운 기능 {#what-is-new}
 
-* Android 앱 업데이트는 Android 11(API 수준 30)을 대상으로 해야 합니다.
+* 이제 Android 애플리케이션 업데이트가 target Android 11(API 수준 30)에 제공됩니다. 현재 Android 플레이어가 target API 수준 29에 있습니다.
+
+* 이제 개발자로서, 매니페스트 핸들링의 확장성, 명확성 및 편의성을 보장하기 위해 매니페스트의 해당 자산 아래에 표현물 항목으로만 나열되는 자산 표현물을 보게 됩니다.
 
 ### 버그 수정 {#bug-fixes}
 
+* 이제 이벤트 유형을 기반으로 분석 이벤트를 필터링할 수 있습니다.
+
+* 온-프레미스 플레이어 로그를 수집하고 블랙 화면에 대해 분석합니다.
+
+* 분할 화면 채널이 있는 빈 화면을 표시하는 플레이어가 이제 수정되었습니다
+
+* 공개 maven에 코어 번들을 추가하여 사용자 지정 핸들러 문서를 수정했습니다.
+
+* 업그레이드 후 플레이어에서 펌웨어 버전을 업데이트하지 않았습니다. 이제 수정되었습니다.
 
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
 
-다음 AEM Screens Players가 AEM 6.5 기능 팩 9용으로 출시되었습니다.
+다음 AEM Screens Players가 AEM 6.5 기능 팩 10용으로 출시되었습니다.
 
 * ChromeOS
 * Windows
