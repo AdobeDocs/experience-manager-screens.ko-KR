@@ -4,7 +4,7 @@ description: 2021년 12월 06일에 릴리스된 AEM Screens 기능 팩 202112�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
+source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
@@ -25,7 +25,7 @@ AEM Screens 6.5.10 릴리스의 최신 기능 팩은 [소프트웨어 배포 포
 
 ## 릴리스 날짜 {#release-date}
 
-AEM Screens 기능 팩 202112의 릴리스 날짜는 2021년 12월 6일입니다.
+AEM Screens 기능 팩 202112의 릴리스 날짜는 2021년 12월 17일입니다.
 
 ### 새로운 기능 {#what-is-new}
 
