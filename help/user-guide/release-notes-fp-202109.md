@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '931'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 ### 새로운 기능 {#what-is-new}
 
-* **비디오에 대한 축소판 지원**
+* **비디오에 대한 썸네일 지원**
 
    의 비디오에 대한 축소판 지원은 이제 AEM Screens에서 지원됩니다. 컨텐츠 작성자는 해당 팀이 실제 비디오를 마무리하는 동안 이미지를 자리 표시자로 사용하고 컨텐츠 재생 및 타깃팅을 적절히 테스트할 수 있도록 비디오의 축소판을 정의할 수 있습니다. 비디오를 재생하지 못할 경우에 이미지를 사용할 수도 있습니다.
 자세한 내용은 [비디오에 대한 축소판 지원](/help/user-guide/thumbnail-support.md) 자세한 내용
@@ -54,18 +54,31 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **V3 매니페스트 지원**
 
-   이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 매니페스트를 활성화하려면 다음을 구성해야 합니다.
+   이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 Manifest를 활성화하려면 다음을 수행해야 합니다.
+
+   * 작성자와 게시된 모두에서 보류 중인 오프라인 콘텐츠 작업 지우기
+
+      * 작성자 및 게시에서 crx/de로 이동합니다.
+
+      * 도구 —> 쿼리를 클릭합니다.
+
+      * 쿼리 사용 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * 현재 실행 중이거나 큐에서 보류 중인 오프라인 콘텐츠 작업이 표시됩니다
+
+      * 쿼리에서 반환된 오프라인 콘텐츠 작업이 더 이상 없을 때까지 기다립니다.
+   * ContentSync 사용 안 함 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * SmartSync 사용 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * 디스패처 업데이트
 
    * 사용자 지정 구성 요소 업데이트
 
-   * ContentSync 사용 안 함 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * SmartSync 사용 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * 자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 자세한 내용
    * 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 핸들러용 템플릿](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+
 
 
 ### 버그 수정 {#bug-fixes}
