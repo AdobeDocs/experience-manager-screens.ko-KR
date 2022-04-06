@@ -1,15 +1,15 @@
 ---
 title: 이 안내서 정보
-seo-title: 안내서에 대한 설명
-description: 이 페이지에서는 모범 사례 안내서의 의도를 설명합니다.
-seo-description: 이 페이지에서는 모범 사례 안내서의 의도를 설명합니다.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-title: Description on the Guide
+description: AEM Screens 프로젝트에 대한 이 모범 사례 AEM 6.5 가이드를 따라 전략 및 디자인 브리핑, 배포 및 지원 후에 프로젝트를 계획 및 실행합니다.
+seo-description: This page describes the intent of the Best Practices Guide
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 98%
+source-wordcount: '260'
+ht-degree: 88%
 
 ---
-
 
 # 이 안내서 정보 {#about-guide}
 
