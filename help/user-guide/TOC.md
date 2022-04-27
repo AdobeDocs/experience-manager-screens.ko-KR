@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 도움말
 breadcrumb-title: AEM Screens 안내서
 user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용을 게시할 수 있는 디지털 서명 솔루션을 사용하는 방법을 알아봅니다.
 feature-set: Experience Manager Screens
-source-git-commit: 3602eda37d662017ec5a1d31735e42b6b6f0f89d
+source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 18%
+source-wordcount: '480'
+ht-degree: 20%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 18%
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
       + [음성 인식](voice-recognition.md)
       + [컨텐츠 할당 보고서](content-assignment-report.md)
-      + [비디오에 대한 축소판 지원](thumbnail-support.md)
+      + [비디오에 대한 썸네일 지원](thumbnail-support.md)
       + [AEM Screens에서 응용 표현물 사용](using-adaptive-renditions.md)
    + 콘텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 콘텐츠 업데이트](on-demand-content.md)
@@ -112,7 +112,8 @@ ht-degree: 18%
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [Device Control Center 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
-+ 릴리스 노트 {#release-notes}
++ 릴리스 정보 {#release-notes}
+   + [기능 팩 202204 릴리스 노트](release-notes-fp-202204.md)
    + [기능 팩 202112 릴리스 노트](release-notes-fp-202112.md)
    + [기능 팩 202109 릴리스 노트](release-notes-fp-202109.md)
    + [기능 팩 202105 릴리스 노트](release-notes-fp-202105.md)
