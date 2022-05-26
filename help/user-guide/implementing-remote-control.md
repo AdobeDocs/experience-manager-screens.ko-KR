@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ ht-degree: 0%
 >[!NOTE]
 >enableAdminUI의 장치 구성 값을 false로 설정하거나 enableOSD를 false로 설정하면 원격에서 관리자 UI 및 채널 전환기를 전환하지 않습니다. 또한 화살표 키를 사용하여 관리 UI 또는 채널을 탐색할 수도 없습니다. 그러나 여전히 캐시를 지우고 플레이어를 다시 로드할 수 있습니다. 다음 코드를 사용하여 키보드 조합이 대화형 콘텐츠와 충돌하는 경우 원격 제어 기능을 비활성화할 수 있습니다.
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
