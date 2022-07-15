@@ -2,15 +2,15 @@
 user-guide-title: AEM Screens 프로젝트에 대한 모범 사례 안내서
 breadcrumb-title: AEM Screens 모범 사례 안내서
 solution-title: AEM Screens
-getting-started-title: AEM Screens 모범 사례 안내서
+getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 78%
+source-wordcount: '131'
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 78%
 + 개요 {#overview}
    + [AEM Screens 소개](introduction.md)
    + [프로젝트 역할 및 책임](roles-responsibilities.md)
-   + [전제 조건](pre-requisites.md)
+   + [사전 요구 사항](pre-requisites.md)
    + [디지털 서명 프로젝트의 주요 요소](getting-started-digital-signage.md)
    + [권장 방법](recommended-approach.md)
 + 전략 보고 {#strategic-brief}
