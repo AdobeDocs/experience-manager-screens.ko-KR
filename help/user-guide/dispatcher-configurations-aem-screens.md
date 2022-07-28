@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -233,9 +233,7 @@ AEM Screens에 대한 Dispatcher(매니페스트 버전 v3)를 구성하기 전�
 
 ### segments.js에 대한 무효화 규칙 추가 {#invalidsegmentjs}
 
-새 세그먼트를 추가하고 게시하는 경우, `segments.js` dispatcher에서 제공하는 파일에는 화면 장치에서 타깃팅 흐름을 깨는 새 항목이 없습니다. segments.js 파일이 Dispatcher 수준에서 캐시되지만 동일한 항목에 대한 무효화 규칙이 없습니다. 따라서 무효화 규칙을 추가해야 합니다.
-
-* 새 세그먼트를 `/conf/<project-name>/settings/wcm/segments.seg.js` 파일.
+AEM Screens에서 타깃팅된 캠페인을 사용하는 경우 `segments.js file` AEM에서 새 세그먼트를 추가하고 게시할 때 dispatcher에서 제공하는 는 무효화해야 합니다. 이 무효화 규칙이 없으면 타깃팅된 새 캠페인이 Screens 플레이어에서 작동하지 않습니다(대신 기본 콘텐츠가 표시됨).
 
 * 에 무효화 규칙 추가 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 추가할 규칙은 다음과 같습니다.
 
@@ -244,7 +242,7 @@ AEM Screens에 대한 Dispatcher(매니페스트 버전 v3)를 구성하기 전�
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
