@@ -1,15 +1,15 @@
 ---
 title: 프로젝트 분류
-seo-title: '프로젝트 분류 '
+seo-title: Project Taxonomy
 description: 이 페이지에서는 프로젝트 분류법에 대해 설명합니다
-seo-description: 이 페이지에서는 프로젝트 분류법에 대해 설명합니다
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Project Taxonomy
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 12%
+source-wordcount: '361'
+ht-degree: 11%
 
 ---
-
 
 # 프로젝트 분류 {#project-taxonomy}
 
@@ -27,7 +27,7 @@ AEM Screens 디지털 서명 솔루션을 구현하기 전에 다음 요소를 �
 * **예약**
 * **컨텐츠 미리 보기**
 
-이러한 용어에 대해 알아보려면 [용어집](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html)을 참조하십시오.
+이러한 용어에 대해 알아보려면 [용어 설명](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -47,14 +47,15 @@ AEM Screens 작성자는 AEM Screens에서 사용 가능한 구성 요소를 사
 
 작성자는 일반적으로 다음 방법으로 AEM Screens 프로젝트를 시작합니다.
 
-* [AEM Screens 프로젝트 만들기](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [채널 만들기](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [채널에 구성 요소 및 자산 추가](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [예약 생성](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [위치 만들기](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [디스플레이 생성](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [디스플레이에 채널 지정](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [AEM Screens 플레이어에서 컨텐츠 보기](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [채널 만들기](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [채널에 구성 요소 및 자산 추가](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [예약 생성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [위치 만들기](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [디스플레이 생성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [디스플레이에 채널 지정](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [AEM Screens 플레이어에서 컨텐츠 보기](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->또한 위치 세트를 CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 일괄적으로 가져올 수도 있습니다. 자세한 내용은 파일](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html)에서 [새 프로젝트 가져오기 를 참조하십시오.
+>위치 세트를 CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 일괄적으로 가져올 수도 있습니다. 팔로우 [파일에서 새 프로젝트 가져오기](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) 자세한 내용
