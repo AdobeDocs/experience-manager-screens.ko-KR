@@ -1,15 +1,15 @@
 ---
 title: 명령 동기화 사용
-seo-title: 명령 동기화 사용
+seo-title: Using Command Sync
 description: 명령 동기화를 사용하는 방법에 대해 알아보려면 이 페이지를 따르십시오.
-seo-description: 명령 동기화를 사용하는 방법에 대해 알아보려면 이 페이지를 따르십시오.
-feature: 스크린 작성
+seo-description: Follow this page to learn about how to use Command Sync.
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 2%
 
 디지털 사이니지 솔루션은 신년 카운트다운이나 여러 화면에서 재생되도록 분할된 대형 비디오와 같은 시나리오를 지원하기 위해 비디오 벽과 동기화된 재생을 지원해야 하며, 이때 Command Sync가 실행됩니다.
 
-명령 동기화를 사용하기 위해 한 플레이어가 *master* 역할을 하고 명령을 전송하며 다른 모든 플레이어가 *clients* 역할을 수행하고 명령을 받을 때 재생합니다.
+명령 동기화를 사용하려면 한 플레이어가 *기본* 그리고 명령을 보내고 다른 모든 플레이어는 *클라이언트* 명령을 받으면 재생합니다.
 
-*master*&#x200B;는 항목의 재생을 시작하려고 할 때 등록된 모든 클라이언트에 명령을 보냅니다. 이 페이로드의 페이로드는 재생할 항목의 색인 및/또는 재생할 요소의 외부 html일 수 있습니다.
+다음 *기본* 항목의 재생을 시작하려고 할 때 등록된 모든 클라이언트에 명령을 보냅니다. 이 페이로드의 페이로드는 재생할 항목의 색인 및/또는 재생할 요소의 외부 html일 수 있습니다.
 
 ## 명령 동기화 구현 {#using-command-sync}
 
@@ -42,105 +42,105 @@ ht-degree: 2%
 
 명령 동기화 기능을 사용하기 전에 프로젝트에 대해 설정된 컨텐츠 및 프로젝트가 있는지 확인하십시오.
 
-1. 다음 예에서는 **CommandSyncDemo** 및 시퀀스 채널 **ChannelLobby**&#x200B;을 보여주는 데모 프로젝트를 소개합니다.
+1. 다음 예에서는 라는 데모 프로젝트를 보여줍니다. **CommandSyncDemo** 시퀀스 채널 **ChannelLobby**.
 
    ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >채널을 만들거나 채널에 컨텐츠를 추가하는 방법에 대해 알려면 [채널 만들기 및 관리](/help/user-guide/managing-channels.md) 를 참조하십시오
+   >채널을 만들거나 채널에 컨텐츠를 추가하는 방법에 대해 알아보려면 다음을 참조하십시오. [채널 만들기 및 관리](/help/user-guide/managing-channels.md)
 
    채널에는 아래 그림과 같이 다음 컨텐츠가 포함되어 있습니다.
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. **Lobby** 위치를 만들고 **Locations** 폴더에서 **LobbyDisplay**라는 표시도 아래 그림과 같이 작성하십시오.
+1. 위치 만들기 **로비** 및 라는 이름의 디스플레이가 **LobbyDisplay** 에서 **위치** 폴더(아래 그림과 같이).
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. **ChannelLobby** 채널을 **LobbyDisplay**에 할당합니다. 이제 디스플레이 대시보드에서 디스플레이에 지정된 채널을 볼 수 있습니다.
+1. 채널을 지정하고 **ChannelLobby** 아래와 같이 **LobbyDisplay**. 이제 디스플레이 대시보드에서 디스플레이에 지정된 채널을 볼 수 있습니다.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >디스플레이에 채널을 지정하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md)를 참조하십시오.
+   >디스플레이에 채널을 지정하는 방법에 대해 알아보려면 [디스플레이 생성 및 관리](/help/user-guide/managing-displays.md).
 
-1. **장치** 폴더로 이동하고 작업 표시줄에서 **장치 관리자**&#x200B;를 클릭하여 장치를 등록합니다.
+1. 다음으로 이동 **장치** 폴더를 클릭한 다음 **장치 관리자** 작업 표시줄에서 장치를 등록합니다.
 
    ![image1](assets/command-sync5.png)
 
    >[!NOTE]
    >
-   >장치를 등록하는 방법에 대한 자세한 내용은 [장치 등록](/help/user-guide/device-registration.md) 을 참조하십시오
+   >장치를 등록하는 방법에 대해 알아보려면 [장치 등록](/help/user-guide/device-registration.md)
 
 1. 데모 목적으로 이 예에서는 chrome 장치와 windows 플레이어를 두 개의 개별 장치로 보여줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
    ![image1](assets/command-sync6.png)
 
 ### 채널 설정 업데이트
 
-1. **ChannelLobby**&#x200B;로 이동하고 작업 표시줄에서 **편집**&#x200B;을 클릭하여 채널 설정을 업데이트합니다.
+1. 다음으로 이동 **ChannelLobby** 을(를) 클릭합니다. **편집** 작업 표시줄에서 채널 설정을 업데이트합니다.
 
 1. 아래 그림과 같이 전체 채널을 선택합니다.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. 공구아이콘을 클릭하여 **페이지** 대화 상자를 엽니다.
+1. 공구아이콘을 클릭하여 **페이지** 대화 상자
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. **전략** 필드에 *동기화된* 키워드를 입력합니다.
+1. 을(를) 입력합니다. *동기화됨* 의 키워드 **전략** 필드.
 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### 마스터 설정 {#setting-up-master}
+### 기본 설정 {#setting-up-primary}
 
-1. **CommandSyncDemo** —> **위치** —> **로비** —> **LobbyDisplay**&#x200B;에서 디스플레이 대시보드로 이동하여 작업 표시줄에서 **대시보드**를 클릭합니다.
-아래 그림과 같이 **DEVICES** 패널에 두 개의 장치(chrome 및 windows 플레이어)가 표시됩니다.
+1. 다음 위치에서 디스플레이 대시보드로 이동합니다 **CommandSyncDemo** —> **위치**  —> **로비** —> **LobbyDisplay** 을(를) 클릭합니다. **대시보드** 작업 표시줄.
+에 두 개의 장치(chrome 및 windows 플레이어)가 표시됩니다 **장치** 패널 을 참조하십시오.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. **장치** 패널에서 마스터로 설정할 장치를 선택합니다. 다음 예에서는 Chrome 장치를 마스터로 설정하는 방법을 보여줍니다. **마스터 장치로 설정**&#x200B;을 클릭합니다.
+1. 에서 **장치** 패널에서 기본으로 설정할 장치를 선택합니다. 다음 예에서는 Chrome 장치를 기본 장치로 설정하는 방법을 보여줍니다. 클릭 **기본 장치로 설정**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. **마스터 장치로 설정**&#x200B;에 IP 주소를 입력하고 **저장**&#x200B;을 클릭합니다.
+1. 에 IP 주소를 입력합니다. **기본 장치로 설정** 을(를) 클릭합니다. **저장**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->여러 장치를 마스터로 설정할 수 있습니다.
+>여러 장치를 기본 장치로 설정할 수 있습니다.
 
-### 기본과 동기화 {#sync-up-master}
+### 기본 동기화 {#sync-up-primary}
 
-1. Chrome 장치를 마스터로 설정한 후에는 다른 장치(이 경우 Windows 플레이어)를 동기화하여 마스터와 동기화할 수 있습니다.
-**장치** 패널에서 다른 장치(이 경우 Windows 플레이어)를 선택하고 아래 그림과 같이 **마스터 장치에 동기화**&#x200B;를 클릭합니다.
+1. Chrome 장치를 기본 장치로 설정한 후에는 다른 장치(이 경우 windows 플레이어)를 동기화하여 기본 장치와 동기화할 수 있습니다.
+에서 다른 장치(이 경우 Windows 플레이어)를 선택합니다 **장치** 패널을 클릭하고 **기본 장치에 동기화**&#x200B;아래 그림과 같이,
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. 목록에서 장치를 선택하고 **저장**&#x200B;을 클릭합니다.
+1. 목록에서 장치를 선택하고 를 클릭합니다 **저장**.
 
    >[메모:]
-   > **마스터 장치에 동기화** 대화 상자에 마스터 장치 목록이 표시됩니다. 원하는 환경 설정 중 하나를 선택할 수 있습니다.
+   > 다음 **기본 장치에 동기화** 대화 상자에 기본 장치 목록이 표시됩니다. 원하는 환경 설정 중 하나를 선택할 수 있습니다.
 
-1. 장치(Windows 플레이어)가 마스터(Chrome 플레이어)에 동기화되면 **장치** 패널에 동기화된 장치가 표시됩니다.
+1. 장치(Windows 플레이어)가 기본(Chrome 플레이어)에 동기화되면 **장치** 패널.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### 기본과 동기화 취소 {#desync-up-master}
+### 기본 동기화 해제 {#desync-up-primary}
 
-장치나 장치를 마스터에 동기화한 후에는 해당 장치에서 할당을 동기화 해제할 수 있습니다.
+장치나 장치를 기본 장치에 동기화한 후에는 해당 장치에서 할당을 동기화 해제할 수 있습니다.
 
 >[!NOTE]
 >
->마스터 장치를 동기화를 해제하면 해당 마스터 장치와 연결된 모든 클라이언트 장치의 연결이 해제됩니다.
+>기본 장치를 동기화를 해제하면 해당 기본 장치와 연결된 모든 클라이언트 장치의 연결이 해제됩니다.
 
-마스터 장치에서 동기화를 제거하려면 아래 단계를 수행하십시오.
+기본 장치에서 동기화를 제거하려면 아래 단계를 수행하십시오.
 
-1. **장치** 패널로 이동하여 장치를 선택합니다.
+1. 로 이동합니다 **장치** 패널을 열고 장치를 선택합니다.
 
-1. **Desync 장치**&#x200B;를 클릭하여 마스터 장치에서 클라이언트를 다시 동기화합니다.
+1. 클릭 **장치 제거** 기본 장치에서 클라이언트 동기화를 해제하려면 다음을 수행하십시오.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. **Confirm**&#x200B;을 클릭하여 마스터에서 선택한 장치를 역동기화합니다.
+1. 클릭 **확인** 선택한 장치를 기본 장치에서 동기화 해제하려면 다음을 수행하십시오.
 
    >[메모:]
-   > 마스터 장치를 선택하고 동기화 해제 옵션을 사용하면 마스터에 연결된 모든 장치가 한 단계에서 동기화되지 않습니다.
+   > 기본 장치를 선택하고 동기화 해제 옵션을 사용하는 경우 기본 장치에 연결된 모든 장치가 한 단계에서 동기화되지 않습니다.
