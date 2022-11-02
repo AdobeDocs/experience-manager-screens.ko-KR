@@ -2,9 +2,9 @@
 title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 작성 된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시를 구성하는 방법을 알려면 이 페이지를 따르십시오.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '1974'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 * **게시 토폴로지 설정**
 * **게시 관리: 작성자에서 장치에 게시로 콘텐츠 업데이트 제공**
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 작성자 및 게시 서버를 시작하기 전에 다음 사항에 대한 사전 지식이 있어야 합니다.
 
@@ -240,8 +240,6 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 #### 4단계: 게시 인스턴스에 장치 구성 게시 {#step-publishing-device-configuration-to-publish-instances}
 
 **장치 확인**
-
-먼저 아래 단계를 수행하여 장치 ID를 확인합니다. 확인하려면 경로를 로 사용하여 CRXDE Lite에서 장치 ID를 검색합니다 */home/users/screens/we-retail/devices*.
 
 장치 사용자를 복제하려면 아래 절차를 따르십시오.
 
