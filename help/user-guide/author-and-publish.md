@@ -2,7 +2,7 @@
 title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 작성 된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시를 구성하는 방법을 알려면 이 페이지를 따르십시오.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 4%
@@ -102,20 +102,20 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 #### 표준 복제 에이전트 만들기  {#creating-standard-replication-agents}
 
 1. pub1에 표준 복제 에이전트를 만듭니다(기본 에이전트를 이미 구성해야 함)(예: *https://&lt;hostname>: 4503/bin/receive?sling:authRequestLogin=1*)
-1. pub2용 표준 복제 에이전트를 만듭니다. pub1용 rep 에이전트를 복사하고 전송 구성에서 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다. (예: *https://&lt;hostname>: 4504/bin/receive?sling:authRequestLogin=1*)
+1. pub2용 표준 복제 에이전트를 만듭니다. pub1용 s 복제 에이전트를 복사하고 전송 구성에서 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다. (예: *https://&lt;hostname>: 4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 스크린 복제 에이전트 만들기 {#creating-screens-replication-agents}
 
-1. pub1용 AEM Screens 복제 에이전트를 만듭니다. 기본적으로 포트 4503을 가리키는 Screens 복제 에이전트 가 있습니다. 이 기능을 활성화해야 합니다.
-1. pub2용 AEM Screens 복제 에이전트를 만듭니다. pub1용 Screens 복제 에이전트를 복사하고 pub2의 4504를 가리키도록 포트를 변경합니다.
+1. pub1용 screens 복제 에이전트를 만듭니다. 기본적으로 포트 4503을 가리키는 Screens 복제 에이전트 가 있습니다. 이 기능을 활성화해야 합니다.
+1. pub2용 screens 복제 에이전트를 만듭니다. pub1용 Screens 복제 에이전트를 복사하고 pub2의 4504를 가리키도록 포트를 변경합니다.
 
    >[!NOTE]
    >스크린 복제 에이전트를 구성하는 방법에 대해 알아보려면 [스크린 복제 에이전트 구성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### 스크린 역방향 복제 에이전트 만들기 {#creating-screens-reverse-replication-agents}
 
-1. pub1용 표준 역방향 복제 에이전트를 만듭니다.
-1. pub2용 표준 역방향 복제 에이전트를 만듭니다. pub1용 reverse rep 에이전트를 복사하고 전송 구성에서 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다.
+1. pub1용 역방향 복제 에이전트를 만듭니다.
+1. pub2용 역방향 복제 에이전트를 만듭니다. pub1용 역방향 복제 에이전트를 복사하고 전송 구성에서 포트를 변경하여 pub2에 사용할 전송을 업데이트할 수 있습니다.
 
 ## 게시 토폴로지 설정 {#setting-up-publish-topology}
 
