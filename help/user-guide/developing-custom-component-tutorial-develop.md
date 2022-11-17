@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 2%
 
 ---
@@ -379,7 +379,7 @@ AEM Screens 구성 요소가 편집 모드와 미리 보기/프로덕션 모드�
 
 세 번째 clientlibrary 카테고리: `cq.screens.components.edit` 편집 전용 스타일을 구성 요소에 추가하는 데 사용할 수 있습니다.
 
-| Clientlib 카테고리 | 사용량 |
+| Clientlib 카테고리 | 사용 |
 |---|---|
 | `cq.screens.components` | 편집 모드와 프로덕션 모드 간에 공유되는 스타일 및 스크립트 |
 | `cq.screens.components.edit` | 편집 모드에서만 사용되는 스타일 및 스크립트 |
@@ -553,6 +553,15 @@ public class MyCustomHandler extends AbstractResourceHandler {
 아래 비디오에서는 완료된 구성 요소와 시퀀스 채널에 추가하는 방법을 보여줍니다. 그런 다음 채널이 위치 표시에 추가되고 궁극적으로 스크린 플레이어에 할당됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## 다른 페이지 또는 조각을 포함하는 사용자 지정 구성 요소에 대한 추가 고려 사항 {#additional-considerations}
+
+개발 중인 사용자 지정 구성 요소가 다른 페이지 또는 경험 조각을 포함하기 위한 것이고, 채널을 다시 게시하지 않고 포함된 컨텐츠의 변경 사항을 플레이어가 자동으로 선택하도록 하려면 다음 2가지 제한을 고려해야 합니다.
+
+1. 확장을 바로 확장하는 대신 `foundation/components/parbase`다음 중 하나를 수행해야 합니다. `screens/core/components/content/page` 또는 `screens/core/components/content/experiencefragment`
+2. 포함된 컨텐츠를 참조하는 데 사용하는 속성의 이름은 다음과 같아야 합니다 `pagePath`
+
+이러한 2Screens 코어 구성 요소를 활용하면 필요한 일부 종속성(클라이언트 측 라이브러리, 글꼴 등)을 번들로 처리할 수 있는 추가 이점이 있습니다. 구성 요소 대화 상자의 오프라인 구성 옵션을 통해 이 작업에 사용해야 하는 사용자 지정 오프라인 처리기의 책임을 줄이고, 때로는 처음부터 이를 사용할 필요성을 완전히 제거하기도 합니다.
 
 ## 완료된 코드 {#finished-code}
 
