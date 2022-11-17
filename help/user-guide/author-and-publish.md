@@ -2,9 +2,9 @@
 title: AEM Screens에서 작성자 및 게시 구성
 description: AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 컨텐츠는 AEM 작성자 인스턴스에서 작성 된 다음 여러 게시 인스턴스에 포워드됩니다. AEM Screens에 대한 작성자 및 게시를 구성하는 방법을 알려면 이 페이지를 따르십시오.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 4%
 
 ---
@@ -128,9 +128,10 @@ Screens에 필요한 3개의 복제 에이전트가 있습니다.
 1. 다음으로 이동 `https://<host>:<port>/system/console/configMgr`
 1. 선택 **Apache Sling Oak 기반 검색 서비스** 구성.
 1. 토폴로지 커넥터 URL 업데이트: 다음과 같은 모든 게시 인스턴스의 URL을 추가합니다.
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **토폴로지 커넥터 화이트리스트 목록**: 게시 인스턴스를 포함하는 IP 또는 서브넷에 조정
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **토폴로지 커넥터 화이트리스트 목록**: 모든 게시 인스턴스를 덮는 IP 또는 서브넷에 맞게 조정 포트 번호 없이 모든 게시 인스턴스의 IP/호스트 이름을 화이트리스트에 추가해야 합니다.
+
 1. 활성화 **로컬 루프 자동 중지**
 
 각 게시 인스턴스에 대해 구성이 동일해야 하며 자동 정지 로컬 루프는 무한 루프를 방지합니다.
