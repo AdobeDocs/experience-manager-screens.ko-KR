@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1771'
 ht-degree: 2%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 2%
 
 이 자습서를 완료하려면 다음이 필요합니다.
 
-1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=ko-KR) 또는 [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) + 최신 스크린 기능 팩
+1. AEM 6.5 + 최신 Screens 기능 팩
 1. [AEM 스크린 플레이어](/help/user-guide/aem-screens-introduction.md)
 1. 로컬 개발 환경
 
-자습서 단계 및 스크린샷은 CRXDE-Lite를 사용하여 수행됩니다. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) 또는 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 다음을 수행하는 방법에 대한 자세한 정보 [AEM으로 개발](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+자습서 단계 및 스크린샷은 CRXDE-Lite를 사용하여 수행됩니다. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) 또는 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 다음을 수행하는 방법에 대한 자세한 정보 [AEM으로 개발](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## 프로젝트 설정 {#project-setup}
 
@@ -487,7 +487,7 @@ AEM Screens 구성 요소가 편집 모드와 미리 보기/프로덕션 모드�
 
 세 번째 clientlibrary 카테고리: `cq.screens.components.edit` 를 사용하여 특정 스타일만 구성 요소에 추가할 수 있습니다.
 
-| Clientlib 카테고리 | 사용량 |
+| Clientlib 카테고리 | 사용 |
 |---|---|
 | `cq.screens.components` | 편집 모드와 프로덕션 모드 간에 공유되는 스타일 및 스크립트 |
 | `cq.screens.components.edit` | 편집 모드에서만 사용되는 스타일 및 스크립트 |
