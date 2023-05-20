@@ -1,95 +1,95 @@
 ---
 title: 비디오 표현물
-seo-title: 비디오 표현물
-description: 스크린 프로젝트에 대한 Full HD 표현물 생성에 대해 알려면 이 페이지를 따르십시오.
-seo-description: 스크린 프로젝트에 대한 Full HD 표현물 생성에 대해 알려면 이 페이지를 따르십시오.
+seo-title: Video Renditions
+description: 이 페이지를 따라 Screens 프로젝트용 풀 HD 표현물을 생성하는 방법에 대해 알아보십시오.
+seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
 uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: 스크린 작성
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 66%
+source-wordcount: '409'
+ht-degree: 1%
 
 ---
 
 # 비디오 표현물 {#video-renditions}
 
-수동 및 자동 Full HD 표현물을 생성할 수 있습니다. 다음 섹션에서는 자산에 표현물을 추가하는 워크플로우에 대해 설명합니다.
+수동 및 자동 Full HD 표현물을 생성할 수 있습니다. 다음 섹션에서는 자산에 렌디션을 추가하는 워크플로에 대해 설명합니다.
 
-## Full HD 표현물 자동 생성  {#automatically-generating-full-hd-renditions}
+## Full HD 렌디션 자동 생성  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->AEM Screens 비디오 표현물이 장치에서 최적으로 재생되지 않는 경우 하드웨어 공급업체에 비디오 사양에 대해 문의하십시오. 이는 장치에서 최상의 성능을 얻는 데 도움이 되며, 따라서 표현물을 생성하기 위한 FFMPEG에 적합한 매개 변수를 제공하는 고유의 사용자 지정 비디오 프로필을 만드는 데에도 도움이 됩니다. 그런 다음에는 아래 절차를 사용하여 프로필 목록에 사용자 지정 비디오 프로필을 추가하십시오.
+>AEM Screens 비디오 렌디션이 장치에서 최적으로 재생되지 않는 경우 하드웨어 공급업체에 문의하여 비디오 사양을 확인하십시오. 이렇게 하면 장치에서 최상의 성능을 얻고 FFMPEG에 대한 적절한 매개 변수를 제공하여 렌디션을 생성하는 사용자 정의 비디오 프로필을 만드는 데 도움이 됩니다. 그런 다음 아래 단계를 사용하여 사용자 지정 비디오 프로필을 프로필 목록에 추가합니다.
 >
->추가로, 채널에서 비디오를 재생할 때 발생하는 버그와 문제를 해결하려면 [문제 해결 비디오](troubleshoot-videos.md)를 참조하십시오.
+>또한 다음을 참조하십시오. [비디오 문제 해결](troubleshoot-videos.md) 을 클릭하여 채널에서 비디오가 재생되는 문제를 해결하고 디버깅하십시오.
 
-Full HD 표현물을 자동으로 생성하려면 아래 절차를 따르십시오.
+전체 HD 렌디션을 자동으로 생성하려면 아래 절차를 따르십시오.
 
-1. Adobe Experience Manager 링크(맨위 왼쪽)를 선택하고 망치 아이콘을 클릭하여 **워크플로우**&#x200B;를 선택합니다.
+1. Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 클릭하여 선택할 도구를 선택합니다 **워크플로**.
 
-   **모델**&#x200B;을 클릭하여 워크플로우 모델 관리를 입력합니다.
+   클릭 **모델** 워크플로 모델 관리를 입력합니다.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. **DAM 자산 업데이트** 모델을 선택하고 작업 표시줄에서 편집 을 클릭하여 **DAM 자산 업데이트** 창을 엽니다.
+1. 다음 항목 선택 **DAM 자산 업데이트** 모델을 만들고 작업 표시줄에서 편집 을 클릭하여 **DAM 자산 업데이트** 창.
 
-   ![step5_-_edit_damupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
+   ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. **FFmpeg 코드 변환** 단계를 두 번 클릭합니다.
+1. 를 두 번 클릭합니다. **FFmpeg 코드 변환** 단계.
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. **프로세스** 탭을 선택하여 프로세스 인수를 편집합니다. **인수**&#x200B;에 있는 목록에 대한 전체 HD 프로필을 다음과 같이 입력합니다. ***,profile:fullhd-bp,profile:fullhd-hp*** 및 **확인**&#x200B;을 클릭합니다.
+1. 다음 항목 선택 **프로세스** 탭 - 프로세스 인수를 편집합니다. 다음 목록에 전체 HD 프로필 입력: **인수** 다음으로: ***,profile:fullhd-bp,profile:fullhd-hp*** 및 클릭 **확인**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. **DAM 자산 업데이트** 화면의 맨위 왼쪽에 있는 **저장**&#x200B;을 클릭합니다.
+1. 클릭 **저장** 의 왼쪽 위에서 **DAM 자산 업데이트** 화면.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. **자산**&#x200B;으로 이동하여 새 비디오를 업로드합니다. 비디오를 클릭하고 표현물 사이드 레일을 여십시오. 그러면 두 개의 Full HD 비디오가 표시됩니다.
+1. 다음으로 이동 **에셋** 새 비디오를 업로드하십시오. 비디오를 클릭하고 렌디션 측면 레일을 열면 두 개의 풀 HD 비디오가 표시됩니다.
 
-   ![step10_-_open_videoasset](assets/step10_-_open_thevideoasset.png)
+   ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. 사이드 레일에서 **표현물**&#x200B;을 엽니다.
+1. 열기 **표현물** 사이드 레일에서.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. 새로운 Full HD 표현물 두 개를 발견할 수 있습니다.
+1. 2개의 새로운 풀 HD 표현물이 보입니다.
 
-   ![step12_-_2_new_renditionsAreaddedtothe video](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-## Full HD 표현물 수동 생성 {#manually-generating-full-hd-renditions}
+## Full HD 렌디션 수동 생성 {#manually-generating-full-hd-renditions}
 
-Full HD 표현물을 수동으로 생성하려면 아래 절차를 따르십시오.
+아래 단계에 따라 전체 HD 표현물을 수동으로 생성합니다.
 
-1. Adobe Experience Manager 링크(맨위 왼쪽)를 선택하고 망치 아이콘을 클릭하여 **워크플로우**&#x200B;를 선택합니다.
+1. Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 클릭하여 선택할 도구를 선택합니다 **워크플로**.
 
-   **모델**&#x200B;을 클릭하여 워크플로우 모델 관리를 입력합니다.
+   클릭 **모델** 워크플로 모델 관리를 입력합니다.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. **스크린 자산 업데이트** 모델을 선택하고 **워크플로우 시작**&#x200B;을 클릭하여 **워크플로우 실행** 대화 상자를 엽니다.
+1. 다음 항목 선택 **화면 업데이트 자산** 모델을 만든 다음 **워크플로우 시작** 을(를) 열려면 **워크플로우 실행** 대화 상자.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. **페이로드**&#x200B;에서 원하는 비디오를 선택하고 **실행**&#x200B;을 클릭합니다.
+1. 에서 원하는 비디오를 선택합니다. **페이로드** 및 클릭 **실행**.
 
-   ![step6_-_select_thedesiedvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![단계6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. **자산**&#x200B;으로 이동하여 자산으로 드릴다운하고 해당 자산을 클릭합니다.
+1. 다음으로 이동 **에셋**&#x200B;를 클릭하고 에셋으로 드릴다운한 다음 클릭합니다.
 
-   ![step7_-_open_videoasset](assets/step7_-_open_thevideoasset.png)
+   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. **표현물** 사이드 레일을 여십시오. 그러면 새 Full HD 표현물을 확인할 수 있습니다.
+1. 를 엽니다. **표현물** 측면 레일을 클릭하면 새로운 풀 HD 표현물이 표시됩니다.
 
-   ![step8_-_open_therenditionsiderail](assets/step8_-_open_therenditionssiderail.png)
+   ![step8_-_open_therenditionseiderail](assets/step8_-_open_therenditionssiderail.png)

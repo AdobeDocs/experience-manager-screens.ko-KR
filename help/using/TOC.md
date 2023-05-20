@@ -10,7 +10,7 @@ audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 + [이 안내서 정보](about-guide.md)
 + 개요 {#overview}
-   + [AEM Screens 소개](introduction.md)
+   + [소개 AEM Screens으로](introduction.md)
    + [프로젝트 역할 및 책임](roles-responsibilities.md)
    + [사전 요구 사항](pre-requisites.md)
    + [디지털 서명 프로젝트의 주요 요소](getting-started-digital-signage.md)
@@ -41,9 +41,9 @@ ht-degree: 77%
    + 네트워크 트래픽 관리 {#manage-network-traffic}
       + [네트워크 트래픽 관리](/help/using/managing-network-traffic.md)
       + [직접 인터넷 네트워크(유선/무선)](/help/using/direct-internet-network.md)
-      + [직접 모바일 네트워크](/help/using/mobile-network.md)
-      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소를 사용하는 모바일 네트워크](/help/using/mobile-network-router.md)
-      + [동봉된 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
+      + [다이렉트 모바일 네트워크](/help/using/mobile-network.md)
+      + [모바일 데이터 라우터 및 활성 네트워크 구성 요소가 있는 모바일 네트워크](/help/using/mobile-network-router.md)
+      + [폐쇄형 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
    + [장치 구성](device-configurations.md)
    + [테스트 및 품질 보증](testing-quality-assurance.md)
    + [공급업체 참여 전략](vendor-engagement.md)

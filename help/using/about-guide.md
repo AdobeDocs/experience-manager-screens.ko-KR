@@ -1,7 +1,7 @@
 ---
 title: 이 안내서 정보
 seo-title: Description on the Guide
-description: AEM Screens 프로젝트에 대한 이 모범 사례 AEM 6.5 가이드를 따라 전략 및 디자인 브리핑, 배포 및 지원 후에 프로젝트를 계획 및 실행합니다.
+description: 전략 및 설계 브리핑, 배포, 지원 이후 프로젝트를 계획 및 실행하려면 AEM Screens 프로젝트에 대한 이 모범 사례 AEM 6.5 안내서를 따르십시오.
 seo-description: This page describes the intent of the Best Practices Guide
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef

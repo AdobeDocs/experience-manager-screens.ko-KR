@@ -1,6 +1,6 @@
 ---
-title: 기능 팩 202105 릴리스 노트
-description: '"2021년 6월 4일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 보려면 이 페이지를 따르십시오."'
+title: 기능 팩 202105 릴리스 정보
+description: "이 페이지를 따라 2021년 6월 4일에 릴리스된 AEM Screens 기능 팩 202105에 대한 정보를 얻으십시오."
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,21 +12,21 @@ ht-degree: 11%
 
 ---
 
-# 기능 팩 202105 릴리스 노트 {#release-notes-for-feature-pack}
+# 기능 팩 202105 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->최신 버전의 Adobe Experience Manager(AEM)으로 업그레이드하는 것이 좋습니다. Screens에서는 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. Screens는 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 ## 사용 가능 {#availability}
 
 AEM Screens은 AEM 6.5 기능 팩 8을 출시했습니다.
 
-AEM Screens 6.5.8 릴리스의 최신 기능 팩은 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **Screens** 최신 기능 팩을 가져오려면 다음을 수행하십시오. **AEM 6.5 Screens FP8**.
+AEM Screens 6.5.8 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->패키지를 설치한 후 작동하려면 AMS 커넥터용 최소 버전의 AEM 6.5 기능 팩 8 을 설치해야 합니다 `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` 그리고 `screens core bundles`.
+>패키지를 설치한 후에 AMS 커넥터가 작동하려면 AEM 6.5 기능 팩 8 이상 버전을 설치해야 합니다 `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` 및 `screens core bundles`.
 
-## 릴리스 날짜 {#release-date}
+## 릴리스 일자 {#release-date}
 
 AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 4일입니다.
 
@@ -34,39 +34,39 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 4일입니다.
 
 * **AEM Screens 채널에서 페이지 잠금**
 
-   AEM Screens에서 현재 지원 *페이지 잠금*: AEM Sites에 이미 구현되어 있습니다. Adobe Experience Manager(AEM)에서는 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
+   AEM Screens 지원 *페이지 잠금*: AEM Sites에서 이미 구현되었습니다. Adobe Experience Manager(AEM)를 사용하면 다른 사람이 컨텐츠를 수정할 수 없도록 페이지를 잠글 수 있습니다. 이 기능은 하나의 특정 페이지에 여러 편집 작업을 수행하거나 잠시 동안 페이지를 동결해야 할 때 유용합니다.
 
 * **AEM Screens 플레이어 장치 이름 지정**
 
-   이제 AEM Screens 플레이어에 장치 이름을 Adobe Experience Manager(AEM)에 전송하는 기능이 포함됩니다.
-기본적으로 대량 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 다른 방법으로는, 고객이 자산 태그 또는 기타 친숙한 이름을 사용할 수 있으므로 AEM에서 볼 수 있고 적절한 컨텐츠를 보다 쉽게 할당할 수 있습니다.
+   이제 AEM Screens 플레이어에 장치 이름을 Adobe Experience Manager(AEM)로 전송하는 기능이 포함됩니다.
+기본적으로 일괄 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 또한 고객은 에셋 태그 또는 기타 친숙한 이름을 사용하여 AEM에서 볼 수 있고 적절한 콘텐츠를 보다 쉽게 할당할 수 있습니다.
 
-   지원되는 각 운영 체제에서 이름을 구성하는 방법에 대해 알아보려면 다음 설명서를 참조하십시오.
+   지원되는 각 운영 체제에서 이름을 구성하는 방법을 알아보려면 다음 설명서를 참조하십시오.
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [타이젠](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [티젠](/help/user-guide/tizen-player.md#name-tizen)
+   * [크롬 OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **매니페스트 생성**
 
-   서버의 리소스를 적게 할당하는 등 성능이 향상된 채널 매니페스트 생성 속도가 빨라집니다.
+   서버에서 더 적은 리소스를 할당하는 등 성능이 향상되어 채널 매니페스트 생성 속도가 빨라집니다.
 
 ### 버그 수정 {#bug-fixes}
 
-* 플레이어가 동적 포함된 시퀀스가 포함된 채널로 전환할 때 블랙 화면이 표시됩니다.
-* 이제 스크린 플레이어에서 404 오류나 오류 메시지가 있는 페이지가 추가로 발생하지 않는 끊어진 채널로의 전환을 차단합니다.
+* Player는 동적 포함 시퀀스가 포함된 채널로 전환할 때 검정색 화면을 표시했습니다.
+* 이제 Screens 플레이어는 404 오류를 방지하는 끊어진 채널 또는 오류 메시지가 있는 페이지로의 전환을 차단합니다.
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
 
-다음 AEM Screens Players가 AEM 6.5 기능 팩 8용으로 출시되었습니다.
+AEM 6.5 기능 팩 8용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
-* ChromeOS
+* 크롬OS
 * Windows
-* 타이젠
+* 티젠
 * Android
 * Linux
 
-#### AEM Screens Player 다운로드  {#aem-screens-player-downloads}
+#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 다음을 참조하십시오. **[AEM Screens Player 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
