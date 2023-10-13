@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 14%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 14%
       + [Android 플레이어](implementing-android-player.md)
       + [Windows 플레이어](implementing-windows-player.md)
       + [플레이어 티즌](tizen-player.md)
+      + [Cloud Player](implementing-cloud-player.md)
       + [플레이어 자동 등록](auto-registration-players.md)
       + [원격 제어 사용](implementing-remote-control.md)
    + Author 게시 {#author-publish}
