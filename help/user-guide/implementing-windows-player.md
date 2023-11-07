@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -120,14 +120,18 @@ Windows 플레이어를 구현할 때 모든 개별 플레이어를 수동으로
 
 다음 표에는 정책 속성이 참조용으로 JSON 예와 함께 요약되어 있습니다.
 
+
 | **정책 이름** | **용도** |
 |---|---|
-| 서버 | Adobe Experience Manager(AEM) 서버의 URL입니다. |
+| server | Adobe Experience Manager(AEM) 서버의 URL입니다. |
+| registrationKey | 미리 공유한 키를 사용하여 장치를 대량으로 등록하는 데 사용됩니다. |
 | 해상도 | 장치의 해상도입니다. |
 | rebootScheduling | 플레이어를 재부팅하는 일정입니다. |
 | enableAdminUI | 관리자 UI를 활성화하여 사이트에서 장치를 구성합니다. 완전히 구성되고 프로덕션에 있는 경우 false 로 설정합니다. |
-| enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 프로덕션에 완전히 구성된 경우 false 로 설정하는 것이 좋습니다. |
+| enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 완전히 구성되고 프로덕션에 있는 경우 false 로 설정하는 것이 좋습니다. |
 | enableActivityUI | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시할 수 있습니다. 문제 해결을 위해 활성화하고, 완전히 구성되어 프로덕션에 있는 경우 비활성화합니다. |
+| cloudMode | Tizen 플레이어가 Screens에 as a Cloud Service으로 연결되도록 하려면 true로 설정합니다. AMS 또는 온프레미스 AEM에 연결하려면 false로 설정합니다. |
+| cloudToken | Screens에 대해 as a Cloud Service으로 등록할 등록 토큰입니다. |
 
 #### 예제 정책 JSON 파일 {#example-policy-json-file}
 
