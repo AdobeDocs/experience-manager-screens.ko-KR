@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 선택하여 CO
 * [AEM 온-프레미스/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## 외부 콘텐츠 검색에 대한 오프라인 지원 {#offline-support}
+
+다양한 사용 시나리오에서 채널은 기본적으로 오프라인 지원을 제공할 수 없는 외부 소스(예: 날씨 위젯 또는 상거래 통합 단일 페이지 애플리케이션)에서 콘텐츠를 검색해야 할 수 있습니다. 이러한 특정 사용 사례에 대해 오프라인 기능을 활성화하기 위해 Cloud Player에서는 사용자 지정 헤더에 대한 지원을 제공합니다.
+Cloud Player는 네트워크 우선 캐시 전략을 사용합니다. 즉, 네트워크에서 콘텐츠를 가져온 다음(그런 다음 캐시를 최신 버전으로 업데이트) 사용 가능한 경우 캐시된 콘텐츠로 다시 폴백합니다. 이러한 컨텐츠 검색에 대한 오프라인 지원을 구현하려면 사용자 지정 헤더를 요청에 포함해야 합니다. 그런 다음 사용자 지정 헤더가 있는 요청이 플레이어에 캐시되어 네트워크 우선 캐시 전략을 유지하면서 콘텐츠에 대한 오프라인 액세스를 용이하게 합니다.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
