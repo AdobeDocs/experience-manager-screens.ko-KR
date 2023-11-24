@@ -14,9 +14,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '690'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다.
+>이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens 클라우드 서비스 고객의 경우 Screens Cloud에서 Adobe Analytics을 활성화하려면 Adobe 관계 관리자에게 문의하십시오.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Adobe Analytics 설정은 OSGi 콘솔에서 구성할 수 있습니다.
   <tr>
    <td><strong>Analytics URL</strong></td>
    <td>플레이어에서 분석 데이터를 게시할 URL입니다. <br>
-   개발/무대용</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>프로덕션용</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   개발/무대용</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>프로덕션용</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API 키</strong></td>
