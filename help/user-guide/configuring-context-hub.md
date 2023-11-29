@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,6 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
       >1. 삭제 `cloudsettings` 저장하십시오.
       >1. 이름 바꾸기 `cloudsettings1` 끝 `cloudsettings` 저장하십시오.
       >1. 이제 /conf/screens/settings/cloudsettings에 `jcr:primaryType` 다음으로: `sling:Folder`.
-
       >
       >업그레이드 전 또는 후에 작성자 및 게시에서 다음 단계를 따라야 합니다.
 
@@ -144,10 +143,13 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
       ```
 
       >[!NOTE]
+      >
       위의 샘플 코드에서, **pollInterval** 값이 새로 고쳐지는 빈도(밀리초)를 정의합니다.
+      >
       코드를 다음으로 바꾸기 *&lt;sheet id=&quot;&quot;>* 및 *&lt;api key=&quot;&quot;>*: Google Sheets를 설정하는 동안 가져온 것입니다.
 
       >[!CAUTION]
+      >
       전역 폴더 외부(예: 자체 프로젝트 폴더 내)에서 Google Sheets 저장소 구성을 만드는 경우 타깃팅이 즉시 작동하지 않습니다.
 
 1. **스토어 세분화 설정**
@@ -201,8 +203,9 @@ json을 정의하는 프로세스를 건너뛰고 비워 두어야 합니다.
 
 
       >[!CAUTION]
+      >
       알려진 문제: 영역을 추가하려면 URL에서 마스터와
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **브랜드에서 영역 만들기**
 
@@ -267,9 +270,11 @@ json을 정의하는 프로세스를 건너뛰고 비워 두어야 합니다.
    1. 다음을 입력합니다. **값** 다음으로: **70**.
 
       >[!NOTE]
+      >
       AEM은 세그먼트를 녹색으로 표시하여 Google Sheet의 데이터를 확인합니다.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub18.png)
+
    마찬가지로 속성 값을 다음으로 편집합니다. **Lowerthan50**.
 
    1. 을(를) 끌어다 놓습니다. **비교: 속성 - 값** 구성 요소를 편집기에 추가합니다.
@@ -281,7 +286,6 @@ json을 정의하는 프로세스를 건너뛰고 비워 두어야 합니다.
    1. 다음 항목 선택 **연산자** 다음으로: **보다 작음** 드롭다운 메뉴에서 을(를) 선택합니다.
 
    1. 다음을 입력합니다. **값** 다음으로: **50**.
-
 
 
 ## 채널에서 타깃팅 활성화 {#step-enabling-targeting-in-channels}
@@ -296,18 +300,21 @@ json을 정의하는 프로세스를 건너뛰고 비워 두어야 합니다.
 
 1. 다음 항목 선택 **개인화** ContextHub 구성을 설정하는 탭입니다.
 
-   1. 설정 **ContextHub 경로** 끝 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 및 **세그먼트 경로** 끝 `/conf/screens/settings/wcm/segments` 및 클릭 **저장**.
+   1. 설정 **ContextHub 경로** 끝 `/conf/screens/settings/wcm/segments` 및 **세그먼트 경로** 끝 `/conf/screens/settings/wcm/segments`.
+   1. 브랜드를 다음으로 설정 **ScreensBrand** 드롭다운에서 **영역 참조 설정** 끝 **화면 값**.
 
    1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
       >[!NOTE]
+      >
       처음에 ContextHub 구성 및 세그먼트를 저장한 ContextHub 및 세그먼트 경로를 사용합니다.
 
-      ![이미지](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![이미지](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. 다음 위치로 이동하여 선택합니다. **TargetChannel** 채널 및 클릭 **편집** 작업 표시줄에서
 
       >[!NOTE]
+      >
       모든 것을 올바르게 설정하면 **타겟팅** 아래 그림과 같이 편집기에서 드롭다운에 있는 옵션입니다.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub21.png)
