@@ -4,9 +4,9 @@ description: 2024년 1월 2일에 릴리스된 AEM Screens 기능 팩 202401에 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,3 @@ AEM Screens 기능 팩 202204의 릴리스 날짜는 2024년 1월 2일입니다.
 * 의 XSS 문제 `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * 반복 일정 및 일정 추가 단추가 표시되지 않는 문제를 해결했습니다. 채널 예약에서 문제가 발견되었습니다. (SCRNS-2739)
-
-#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
-
-최신 AEM Screens 플레이어를 다운로드하려면 다음을 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
