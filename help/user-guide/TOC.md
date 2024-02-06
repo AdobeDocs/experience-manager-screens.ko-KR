@@ -8,10 +8,10 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
+source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 14%
+source-wordcount: '510'
+ht-degree: 11%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 14%
       + [포함된 시퀀스](embedded-sequences.md)
       + [다중 영역 레이아웃](multi-zone-layout-aem-screens.md)
       + [비디오 표현물](generating-renditions.md)
-      + [포함된 동적 시퀀스](dynamic-embedded-sequences.md)
+      + [동적 포함된 시퀀스](dynamic-embedded-sequences.md)
       + [채널 레벨 벌크 이미지 재생 기간](channel-level-image-playback.md)
       + [명령 동기화](using-command-sync.md)
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
@@ -117,6 +117,7 @@ ht-degree: 14%
    + [장치 제어 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 정보 {#release-notes}
+   + [기능 팩 20240166 릴리스 정보](release-notes-fp-20240116.md)
    + [기능 팩 202204 릴리스 정보](release-notes-fp-202204.md)
    + [기능 팩 202203 릴리스 정보](release-notes-fp-202203.md)
    + [기능 팩 202112 릴리스 정보](release-notes-fp-202112.md)
