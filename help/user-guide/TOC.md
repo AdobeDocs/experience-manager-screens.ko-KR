@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
+source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '522'
 ht-degree: 11%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 11%
 + 릴리스 정보 {#release-notes}
    + [기능 팩 202401 릴리스 정보](release-notes-fp-202401.md)
    + [기능 팩 20240116 릴리스 정보](release-notes-fp-20240116.md)
+   + [기능 팩 20240215 릴리스 정보](release-notes-fp-20240215.md)
    + [기능 팩 202204 릴리스 정보](release-notes-fp-202204.md)
    + [기능 팩 202203 릴리스 정보](release-notes-fp-202203.md)
    + [기능 팩 202112 릴리스 정보](release-notes-fp-202112.md)
