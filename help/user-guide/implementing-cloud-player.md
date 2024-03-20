@@ -76,9 +76,11 @@ AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 선택하여 CO
 
 >[!NOTE]
 >
-## Google의 Chrome 앱 사용 중단
-1. Chrome OS 하드웨어의 Chrome 앱: Google은 2025년 1월까지 마이그레이션을 계획하고 있으며 PWA 앱을 위해 Chrome 앱을 적극적으로 사용하지 않고 있습니다. 따라서 Chrome OS의 AEM Screens 플레이어 앱은 공유 타임라인을 기반으로 작동을 중지합니다.현재 프로덕션에서 Chrome 플레이어를 사용하는 고객이 Screens Cloud Player로의 전환을 계획하도록 촉구합니다.
-2. Mac, Windows 및 Linux의 Chrome 확장 프로그램 플레이어: Google Chrome 버전 114부터 시작되는 Google의 사용 중단 프로세스로 인해 Screens Chrome 확장 프로그램 플레이어가 더 이상 지원되지 않습니다. 모든 개발 및 테스트 요구 사항에 대해 Screens Cloud Player로 전환하는 것이 좋습니다.
+>## Google의 Chrome 앱 사용 중단
+>1. Chrome OS 하드웨어의 Chrome 앱: 
+>Google은 2025년 1월까지 마이그레이션을 계획하고 있으며 PWA 앱을 위해 Chrome 앱을 적극적으로 사용하지 않고 있습니다. 따라서 Chrome OS의 AEM Screens 플레이어 앱은 공유 타임라인을 기반으로 작동을 중지합니다.현재 프로덕션에서 Chrome 플레이어를 사용하는 고객이 Screens Cloud Player로의 전환을 계획하도록 촉구합니다.
+>2. Mac, Windows 및 Linux의 Chrome 확장 프로그램 플레이어: 
+>Google Chrome 버전 114부터 시작되는 Google의 사용 중단 프로세스로 인해 Screens Chrome 확장 프로그램 플레이어가 더 이상 지원되지 않습니다. 모든 개발 및 테스트 요구 사항에 대해 Screens Cloud Player로 전환하는 것이 좋습니다.
 
 ## 외부 콘텐츠 검색에 대한 오프라인 지원 {#offline-support}
 
