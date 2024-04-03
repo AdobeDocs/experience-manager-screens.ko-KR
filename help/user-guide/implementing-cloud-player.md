@@ -12,7 +12,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: ea1c90cf915e83709131ed4b877788ed3ffea59e
+source-git-commit: 5b64ab8eea274aa85c61311d34b1ce065a5ba601
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -44,15 +44,17 @@ Cloud Player 설치는 플랫폼에 따라 다를 수 있습니다. 일반적으
 
 1. 확인 대화 상자에서 설치 아이콘 및 설치 버튼을 클릭합니다. Cloud Player는 디바이스에 독립 실행형 애플리케이션으로 설치되며, 아이콘을 사용하여 시작할 수 있습니다.
 
-### Cloud Player 설치 옵션 {#cloud-player-install-option}
-
+>[!NOTE]
+>
+>### Cloud Player 설치 옵션 {#cloud-player-install-option}
+>
 1. PWA에 대한 설치 옵션을 &quot;홈 화면에 추가&quot; 또는 A2HS 기능이라고도 합니다.  웹에서 PWA 설치에 대한 지원은 브라우저와 플랫폼마다 다릅니다.
 1. 모든 브라우저에는 PWA 앱 설치 가능 여부를 확인하는 기준이 다릅니다. 일반적으로 브라우저는 다음을 확인합니다(자세한 내용은 여기 참조).
-
-   * 애플리케이션에 플랫폼에 앱을 설치하기 위한 최소한의 필수 키(예: name, icons, start_url, display)가 있는 매니페스트 json 파일이 있는 경우
-   * 응용 프로그램에 가져오기 이벤트 리스너가 있는 서비스 작업자 파일이 있는 경우
-   * 앱은 https를 통해 제공되어야 합니다.
-
+>
+* 애플리케이션에 플랫폼에 앱을 설치하기 위한 최소한의 필수 키(예: name, icons, start_url, display)가 있는 매니페스트 json 파일이 있는 경우
+* 응용 프로그램에 가져오기 이벤트 리스너가 있는 서비스 작업자 파일이 있는 경우
+* 앱은 https를 통해 제공되어야 합니다.
+>
 1. 설치 옵션은 브라우저와 장치 유형이 다른 위치에 표시될 수 있습니다. 일부 브라우저는 옵션 메뉴 표시줄에 설치 아이콘을 숨길 수 있습니다.
 
 ## Cloud Player 벌크 프로비저닝 {#bulk-provisioning}
@@ -77,15 +79,17 @@ AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 선택하여 CO
 * [AEM 온-프레미스/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+>[!NOTE]
+>
 ## Google의 Chrome 앱 사용 중단
-
+>
 1. Chrome OS 하드웨어의 Chrome 앱:
-
-   Google은 2025년 1월까지 마이그레이션을 계획하고 있으며 PWA 앱을 위해 Chrome 앱을 적극적으로 사용하지 않고 있습니다. 따라서 Chrome OS의 AEM Screens 플레이어 앱은 공유 타임라인을 기반으로 작동을 중지합니다.현재 프로덕션에서 Chrome 플레이어를 사용하는 고객이 Screens Cloud Player로의 전환을 계획하도록 촉구합니다.
-
+>
+Google은 2025년 1월까지 마이그레이션을 계획하고 있으며 PWA 앱을 위해 Chrome 앱을 적극적으로 사용하지 않고 있습니다. 따라서 Chrome OS의 AEM Screens 플레이어 앱은 공유 타임라인을 기반으로 작동을 중지합니다.현재 프로덕션에서 Chrome 플레이어를 사용하는 고객이 Screens Cloud Player로의 전환을 계획하도록 촉구합니다.
+>
 1. Mac, Windows 및 Linux의 Chrome 확장 프로그램:
-
-   Google의 사용 중단 프로세스로 인해 Google Chrome 버전 114부터 Screens Chrome 확장 프로그램 플레이어가 더 이상 지원되지 않습니다. 모든 개발 및 테스트 요구 사항에 대해 Screens Cloud Player로 전환하는 것이 좋습니다.
+>
+Google의 사용 중단 프로세스로 인해 Google Chrome 버전 114부터 Screens Chrome 확장 프로그램 플레이어가 더 이상 지원되지 않습니다. 모든 개발 및 테스트 요구 사항에 대해 Screens Cloud Player로 전환하는 것이 좋습니다.
 
 ## 외부 콘텐츠 검색에 대한 오프라인 지원 {#offline-support}
 
