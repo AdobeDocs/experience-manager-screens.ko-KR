@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 2%
+source-wordcount: '908'
+ht-degree: 1%
 
 ---
 
@@ -31,42 +31,43 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **비디오에 대한 썸네일 지원**
 
-   이제 AEM Screens에서 비디오에 대한 썸네일 지원이 제공됩니다. 콘텐츠 작성자는 이미지를 자리 표시자로 사용하고 적절한 팀에서 실제 비디오를 마무리하는 동안 콘텐츠 재생 및 타깃팅을 적절하게 테스트할 수 있도록 비디오의 썸네일을 정의할 수 있습니다. 비디오 재생이 실패할 경우 이미지를 사용할 수도 있습니다.
+  이제 AEM Screens에서 비디오에 대한 썸네일 지원이 제공됩니다. 콘텐츠 작성자는 이미지를 자리 표시자로 사용하고 적절한 팀에서 실제 비디오를 마무리하는 동안 콘텐츠 재생 및 타깃팅을 적절하게 테스트할 수 있도록 비디오의 썸네일을 정의할 수 있습니다. 비디오 재생이 실패할 경우 이미지를 사용할 수도 있습니다.
 다음을 참조하십시오 [비디오에 대한 썸네일 지원](/help/user-guide/thumbnail-support.md) 을 참조하십시오.
 
 * **기본 재생 모니터링**
 
-   이제 AEM Screens에서 기본 재생 모니터링을 지원합니다. 이제 플레이어는 각 ping으로 다양한 재생 지표를 보고합니다(기본값은 30초). 지표를 기반으로 다양한 극단적 사례(중단 경험, 빈 화면, 일정 문제 등)를 탐지할 수 있는 기능을 제공합니다. 이 기능을 통해 팀은 플레이어가 콘텐츠를 제대로 재생하는지 원격으로 모니터링할 수 있고 필드의 빈 화면이나 깨진 경험에 대한 반응성을 높이고 최종 사용자에게 손상된 경험이 표시될 위험을 줄일 수 있습니다.
+  이제 AEM Screens에서 기본 재생 모니터링을 지원합니다. 이제 플레이어는 각 ping으로 다양한 재생 지표를 보고합니다(기본값은 30초). 지표를 기반으로 다양한 극단적 사례(중단 경험, 빈 화면, 일정 문제 등)를 탐지할 수 있는 기능을 제공합니다. 이 기능을 통해 팀은 플레이어가 콘텐츠를 제대로 재생하는지 원격으로 모니터링할 수 있고 필드의 빈 화면이나 깨진 경험에 대한 반응성을 높이고 최종 사용자에게 손상된 경험이 표시될 위험을 줄일 수 있습니다.
 다음을 참조하십시오 [기본 재생 모니터링](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 을 참조하십시오.
 
 * **콘텐츠 할당 보고서 업데이트**
 
-   이제 콘텐츠 할당 보고서가 최적화되고 사용자 경험이 개선되었습니다. 다운로드 가능한 보고서는 한 스프레드시트 탭에 위치, 디스플레이 및 장치와 같은 향상된 플레이어 관련 엔티티와 다른 탭에 채널 및 에셋과 같은 콘텐츠 공급자 정보를 표시합니다.
+  이제 콘텐츠 할당 보고서가 최적화되고 사용자 경험이 개선되었습니다. 다운로드 가능한 보고서는 한 스프레드시트 탭에 위치, 디스플레이 및 장치와 같은 향상된 플레이어 관련 엔티티와 다른 탭에 채널 및 에셋과 같은 콘텐츠 공급자 정보를 표시합니다.
 다음을 참조하십시오 [컨텐츠 할당 보고서](/help/user-guide/content-assignment-report.md) 을 참조하십시오.
 
 * **적응형 표현물**
 
-   적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 선택할 수 있습니다.
+  적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 선택할 수 있습니다.
 
-   이제 AEM Screens 개발자로서 모든 콘텐츠 변형을 수동으로 만들지 않고도 장치별 에셋 렌디션을 자동으로 다운로드하고 재생하도록 구성할 수 있습니다. 다음을 참조하십시오 [적응형 표현물: 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md) 을 참조하십시오.
+  이제 AEM Screens 개발자로서 모든 콘텐츠 변형을 수동으로 만들지 않고도 장치별 에셋 렌디션을 자동으로 다운로드하고 재생하도록 구성할 수 있습니다. 다음을 참조하십시오 [적응형 표현물: 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md) 을 참조하십시오.
 
-   또한 AEM Screens 컨텐츠 작성자는 적응형 렌디션을 사용하도록 자산을 구성하고 대형 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수 있습니다. 다음을 참조하십시오 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md) 을 참조하십시오.
+  또한 AEM Screens 컨텐츠 작성자는 적응형 렌디션을 사용하도록 자산을 구성하고 대형 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수 있습니다. 다음을 참조하십시오 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md) 을 참조하십시오.
 
 * **V3 매니페스트 지원**
 
-   이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 Manifest를 활성화하려면 다음을 수행해야 합니다.
+  이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 Manifest를 활성화하려면 다음을 수행해야 합니다.
 
    * 작성자와 게시자 모두에서 보류 중인 오프라인 콘텐츠 작업 지우기
 
       * 작성자 및 게시의 crx/de 로 이동합니다.
 
-      * 도구 —> 쿼리 를 클릭합니다.
+      * 도구 > 쿼리 를 클릭합니다.
 
       * 쿼리 사용 시 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * 현재 실행 중이거나 큐에서 보류 중인 오프라인 콘텐츠 작업이 모두 나열됩니다.
 
       * 쿼리에서 오프라인 콘텐츠 작업이 더 이상 반환되지 않을 때까지 기다립니다.
+
    * 에서 ContentSync 비활성화 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * 에서 SmartSync 활성화 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
@@ -78,7 +79,6 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
    * 다음을 참조하십시오 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 을 참조하십시오.
    * 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
-
 
 
 ### 버그 수정 {#bug-fixes}
@@ -117,7 +117,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 **서버측**
 
-* Target 비디오가 표시되지 않음
+* 대상 비디오가 표시되지 않음
 * 브로드캐스팅의 경합 조건은 데이터를 하위 시퀀스로 표시합니다.
 
 * 비디오가 포함된 채널에 대해서는 채널 미리 보기가 작동하지 않습니다.
@@ -154,9 +154,9 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 AEM 6.5 기능 팩 9용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
-* 크롬OS
+* ChromeOS
 * Windows
-* 티젠
+* Tizen
 * Android
 * Linux
 

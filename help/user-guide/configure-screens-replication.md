@@ -4,9 +4,9 @@ description: Screens 복제 에이전트를 구성하는 방법에 대한 정보
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Screens 복제 에이전트에 대한 구성을 완료하려면 두 섹션을 �
 
 1. AEM 작성자 인스턴스로 이동합니다.
 
-1. 도구 —> 를 클릭합니다. **보안** —> **사용자**.
+1. 도구 > 를 클릭합니다. **보안** > **사용자**.
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Screens 복제 에이전트에 대한 구성을 완료하려면 두 섹션을 �
 
 1. AEM 인스턴스로 이동합니다.
 
-1. 도구 —> 를 클릭합니다. **배포** —> **복제**.
+1. 도구 > 를 클릭합니다. **배포** > **복제**.
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

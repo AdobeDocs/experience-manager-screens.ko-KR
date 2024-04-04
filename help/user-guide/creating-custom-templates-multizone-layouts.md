@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '927'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ AEM Screens 프로젝트에 대한 Left20-LandscapeHD3Zone 레이아웃을 만�
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. 다음으로 이동 **CRXDE Lite** AEM 인스턴스에서 —> 도구 —> **CRXDE Lite**.
+1. 다음으로 이동 **CRXDE Lite** AEM 인스턴스 > 도구 > **CRXDE Lite**.
 
 1. 아래에 폴더 만들기 **앱** 제목이 다음으로 지정됨 **사용자 지정 템플릿**. 마찬가지로 이라는 다른 폴더를 만듭니다. **템플릿** 아래에 **사용자 지정 템플릿**&#x200B;을 참조하십시오.
 

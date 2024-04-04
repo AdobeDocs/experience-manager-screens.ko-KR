@@ -14,9 +14,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,7 @@ ht-degree: 1%
 >1. 왼쪽 상단 모서리에서 길게 눌러 관리 패널을 엽니다.
 >1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
 >1. 을(를) 클릭합니다 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
-
 >
-
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
@@ -126,7 +124,7 @@ ht-degree: 1%
 
 플레이어에 장치를 등록하면 장치 관리자 UI에서 모든 장치를 볼 수 있습니다.
 
-1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: ). **데모 화면** —> **장치**.
+1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: ). **데모 화면** > **장치**.
 
 1. 다음 항목 선택 **장치** 폴더 및 클릭 **장치 관리자** 작업 표시줄에서
 
@@ -149,8 +147,8 @@ ht-degree: 1%
 
 * 사용자는 *장치 ID* 또는 *장치 이름*.
 
-   >[!NOTE]
-   >다음과 같이 여러 단어로 장치 이름을 만드는 것이 좋습니다. *보스턴 스토어 로비* 단일 항목 대신 *보스톤스토어로비*.
+  >[!NOTE]
+  >다음과 같이 여러 단어로 장치 이름을 만드는 것이 좋습니다. *보스턴 스토어 로비* 단일 항목 대신 *보스톤스토어로비*.
 
 * 다음과 같은 장치 이름을 만드는 경우 *보스턴 스토어 로비*, 모든 단어를 검색할 수 있습니다 *보스턴*, *스토어* 또는 *로비* 장치 이름이 인 경우 *보스톤스토어로비* 검색 중 *보스턴* 이(가) 결과를 표시하지 않습니다.
 

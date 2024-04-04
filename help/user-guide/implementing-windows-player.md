@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Ad-Hoc 메서드를 사용하면 최신 Windows Player(*.exe*). 방문 [**AEM 6.
 
 Windows 플레이어에서 이름을 구성하려면 아래 단계를 따르십시오.
 
-1. 클릭 **시작** —> **실행**
+1. 클릭 **시작** > **실행**
 1. 입력 `system.cpl`
 1. 컴퓨터 이름 탭을 사용하여 컴퓨터의 호스트 이름을 설정합니다
 
@@ -121,9 +121,9 @@ Windows 플레이어를 구현할 때 모든 개별 플레이어를 수동으로
 다음 표에는 정책 속성이 참조용으로 JSON 예와 함께 요약되어 있습니다.
 
 
-| **정책 이름** | **용도** |
+| **정책 이름** | **목적** |
 |---|---|
-| server | Adobe Experience Manager(AEM) 서버의 URL입니다. |
+| 서버 | Adobe Experience Manager(AEM) 서버의 URL입니다. |
 | registrationKey | 미리 공유한 키를 사용하여 장치를 대량으로 등록하는 데 사용됩니다. |
 | 해상도 | 장치의 해상도입니다. |
 | rebootScheduling | 플레이어를 재부팅하는 일정입니다. |

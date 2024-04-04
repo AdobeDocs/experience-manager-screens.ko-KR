@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 ### 기본 설정 {#setting-up-primary}
 
-1. 에서 디스플레이 대시보드로 이동합니다. **명령 동기화 데모** —> **위치**  —> **로비** —> **로비 디스플레이** 및 클릭 **대시보드** 작업 표시줄에서
+1. 에서 디스플레이 대시보드로 이동합니다. **명령 동기화 데모** > **위치**  > **로비** > **로비 디스플레이** 및 클릭 **대시보드** 작업 표시줄에서
 에 두 개의 장치(chrome 및 windows player)가 표시됩니다. **장치** 패널, 아래 그림과 같이
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 1. 목록에서 장치를 선택하고 **저장**.
 
-   >[메모:]
+   >[참고:]
    > 다음 **기본 장치와 동기화** 대화 상자에 기본 디바이스 목록이 표시됩니다. 원하는 환경 설정 중 하나를 선택할 수 있습니다.
 
 1. 장치(Windows 플레이어)가 기본 장치(Chrome 플레이어)에 동기화되면 장치에서 **장치** 패널.
@@ -142,5 +142,5 @@ ht-degree: 2%
 
 1. 클릭 **확인** 기본 장치에서 선택한 장치의 동기화를 해제합니다.
 
-   >[메모:]
+   >[참고:]
    > 기본 장치를 선택하고 동기화 해제 옵션을 사용하면 기본 장치에 연결된 모든 장치가 한 단계에서 동기화되지 않습니다.

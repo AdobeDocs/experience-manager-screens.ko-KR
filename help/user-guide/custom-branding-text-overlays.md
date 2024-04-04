@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
    >[!NOTE]
    >채널 편집기에서 에셋에 텍스트 오버레이를 추가하는 방법에 대해 알아보려면 를 참조하십시오. [텍스트 오버레이](/help/user-guide/text-overlay.md).
 
-1. AEM 인스턴스 —> 도구 —>에서 CRXDE Lite으로 이동합니다. **CRXDE Lite**.
+1. AEM 인스턴스에서 CRXDE Lite > 도구 > 로 이동합니다. **CRXDE Lite**.
 
 1. 에서 사용자 정의 디자인을 만들어야 합니다. `/apps/settings/wcm/designs/<your-project>/`예를 들어 이 경우 다음으로 이동합니다. `/apps/settings/wcm/designs/customstyle/`
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 텍스트 오버레이에 업데이트된 디자인을 보려면 아래 단계를 따르십시오.
 
-1. 이라는 AEM Screens 프로젝트로 이동합니다. **사용자 정의 스타일** —> **채널** —> **DemoBrand**. 채널을 선택하고 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
+1. 이라는 AEM Screens 프로젝트로 이동합니다. **사용자 정의 스타일** > **채널** > **DemoBrand**. 채널을 선택하고 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
 
 1. 이제 디자인에 디자인을 추가했습니다. **디자인** 위에서 언급했듯이 **미리 보기** 를 클릭하여 텍스트 오버레이로 이미지의 현재 스타일을 봅니다.
 

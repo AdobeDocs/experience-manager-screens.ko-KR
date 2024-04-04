@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 3%
+source-wordcount: '1119'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
    ![이미지](assets/voice-recognition/vr-emb-1.png)
 
-1. 각 채널로 이동하고 콘텐츠를 추가합니다. 예를 들어 다음 위치로 이동합니다. **VoiceDemo** —> **채널** —> **기본** 채널을 선택합니다. 클릭 **편집** 작업 표시줄에서 편집기를 열고 요구 사항에 따라 콘텐츠(이미지/비디오)를 추가합니다. 마찬가지로 두 페이지에 컨텐츠 추가 **콜드드드링크** 및 **HotDrinks** 채널.
+1. 각 채널로 이동하고 콘텐츠를 추가합니다. 예를 들어 다음 위치로 이동합니다. **VoiceDemo** > **채널** > **기본** 채널을 선택합니다. 클릭 **편집** 작업 표시줄에서 편집기를 열고 요구 사항에 따라 콘텐츠(이미지/비디오)를 추가합니다. 마찬가지로 두 페이지에 컨텐츠 추가 **콜드드드링크** 및 **HotDrinks** 채널.
 
    이제 아래 그림과 같이 채널에는 에셋(이미지)이 포함됩니다.
 
@@ -83,7 +83,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
 채널에 태그를 추가하려면 아래 단계를 따르십시오.
 
-1. 각 채널로 이동하고 콘텐츠를 추가합니다. 예를 들어 다음 위치로 이동합니다. **VoiceDemo** —> **채널** —> **기본** 채널을 선택합니다.
+1. 각 채널로 이동하고 콘텐츠를 추가합니다. 예를 들어 다음 위치로 이동합니다. **VoiceDemo** > **채널** > **기본** 채널을 선택합니다.
 
 1. 클릭 **속성** 작업 표시줄에서
 
@@ -116,10 +116,10 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
 1. AEM 인스턴스로 이동합니다.
 
-1. 도구 아이콘 —> 을 클릭합니다. **태깅**.
+1. 도구 아이콘 > 을 클릭합니다. **태깅**.
    ![이미지](assets/voice-recognition/vr-7.png)
 
-1. 클릭 **만들기** —> **네임스페이스 만들기**.
+1. 클릭 **만들기** > **네임스페이스 만들기**.
    ![이미지](assets/voice-recognition/vr-tag3.png)
 
 1. 프로젝트 이름 입력(예: ) **VoiceDemo** 및 클릭 **만들기**.

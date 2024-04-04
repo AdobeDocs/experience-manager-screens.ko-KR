@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 단계를 따르십시오.
 아래 단계에 따라 Tizen 플레이어에서 이름을 구성하십시오.
 
 1. 리모컨에서 메뉴 단추를 클릭합니다.
-1. 다음으로 이동 **네트워크** —> **장치 이름** 를 클릭하여 플레이어에 이름을 지정합니다.
+1. 다음으로 이동 **네트워크** > **장치 이름** 를 클릭하여 플레이어에 이름을 지정합니다.
 
 ### Samsung 장치에서 업데이트 구성 {#config-updates}
 
@@ -97,8 +97,8 @@ Samsung 장치에서 아래 단계에 따라 장치에 AEM Screens 플레이어 
 
 이 기능을 사용하면 Tizen 플레이어를 원격으로 구성하고 필요한 경우 중앙에서 해당 구성을 업데이트할 수 있습니다. 필요한 것은 `HTTP` Tizen 응용 프로그램을 호스팅하는 데 사용되는 서버 `(wgt and xml file)` 및 텍스트 편집기를 사용하여 `config.json` 적절한 매개 변수와 함께
 
-Tizen 장치에서 URL 런처 주소(홈 단추 —> URL 런처 설정)를 구성했는지 확인합니다.
-다음에서 `HTTP` Tizen 응용 프로그램을 호스팅하는 서버입니다. 파일을 `config.json` 와 동일한 위치에서 `wgt` 파일. 파일 이름은 `config.json`여야 합니다.
+Tizen 장치에서 URL 런처 주소를 구성했는지 확인합니다(즉, 홈 버튼 > URL 런처 설정).
+다음에서 `HTTP` Tizen 응용 프로그램을 호스팅하는 서버입니다. 파일을 `config.json` 와 동일한 위치에서 `wgt` 파일. 파일 이름은 다음과 같아야 합니다. `config.json`.
 Tizen 플레이어가 설치되고 시작 시(및 재부팅 때마다) `config.json` 파일.
 
 ### JSON 정책 예 {#example-json}
@@ -120,7 +120,7 @@ Tizen 플레이어가 설치되고 시작 시(및 재부팅 때마다) `config.j
 >[!NOTE]
 >정책 구성은 엄격하게 적용되며 플레이어의 관리 UI에서 수동으로 재정의되지 않습니다. 특정 정책에 대해 수동 플레이어 구성을 허용하려면 정책 구성에 정책을 지정하지 마십시오. 예를 들어 재부팅 일정에 대해 수동 구성을 허용하려면 키를 지정하지 마십시오 `rebootSchedule` 정책 구성에서 사용할 수 있습니다. 플레이어를 다시 로드할 때마다 정책 구성을 읽습니다.
 
-| **정책 이름** | **용도** |
+| **정책 이름** | **목적** |
 |---|---|
 | 서버 | Adobe Experience Manager(AEM) 서버의 URL입니다. |
 | registrationKey | 미리 공유한 키를 사용하여 장치를 대량으로 등록하는 데 사용됩니다. |

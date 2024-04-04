@@ -3,10 +3,10 @@ title: 직접 배치 워크플로 구성
 seo-title: Direct Placement Workflow Configuration
 description: 이 페이지에서는 직접 배치 워크플로우 구성을 중점적으로 다룹니다.
 seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->구성을 시작하기 전에 다음을 설치해야 합니다 [데모 패키지](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). 패키지를 설치한 후에는 AEM 인스턴스 —> 도구(아이콘) —>에서 보고 액세스할 수 있습니다 **워크플로** —> **워크플로 모델**.
+>구성을 시작하기 전에 다음을 설치해야 합니다 [데모 패키지](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). 패키지를 설치한 후에는 AEM 인스턴스 > 도구(아이콘) >에서 해당 패키지를 보고 액세스할 수 있습니다 **워크플로** > **워크플로 모델**.
 
 직접 배치 워크플로우를 구성하려면 아래 단계를 수행합니다.
 

@@ -2,10 +2,10 @@
 title: 적응형 렌디션 아키텍처 개요 및 구성
 description: 이 페이지에서는 AEM Screens의 적응형 표현물에 대한 CRXDE Lite의 아키텍처 개요 및 구성에 대해 설명합니다.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 3%
+source-wordcount: '645'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 3%
 
 1. 이 경로로 이동 `/conf/screens/sling:configs/rendition-mapping` 출처: **CRXDE Lite**.
 
-1. 아래에 노드 만들기 **렌디션 매핑**. 마우스 오른쪽 단추 클릭 **렌디션 매핑** 및 클릭 **만들기** —> **노드 만들기**&#x200B;을 참조하십시오.
+1. 아래에 노드 만들기 **렌디션 매핑**. 마우스 오른쪽 단추 클릭 **렌디션 매핑** 및 클릭 **만들기** > **노드 만들기**&#x200B;을 참조하십시오.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
