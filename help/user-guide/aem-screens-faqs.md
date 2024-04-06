@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ AEM Screens 플레이어가 시작되면 (으)로 요청을 수행합니다. ***
 
 Android 플레이어에서 Stay Awake를 켜려면 아래 단계를 따르십시오.
 
-1. Android 플레이어 설정으로 이동 —> **정보**
+1. Android 플레이어 설정 > **정보**
 1. 활성화하려면 빌드 번호를 7번 탭하세요. **개발자 옵션** 위치: **설정**
 1. 다음으로 이동 **개발자 옵션**
 1. 사용 **깨어 있어라**
@@ -184,16 +184,16 @@ Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모�
 * **내부 JS API**
 * **ContextHub 저장소**: 세 개의 ContextHub 저장소가 `/libs/screens/clientlibs/contexthub` 채널, 장치 및 정보를 표시합니다.
 
-   다음 ContentHub 저장소 값을 사용하려면 아래 단계를 따르십시오.
+  다음 ContentHub 저장소 값을 사용하려면 아래 단계를 따르십시오.
 
    * 채널 속성을 편집하고 개인화 탭의 ContextHub 경로를 값으로 설정합니다(위에 언급).
    * 채널 JS에서 다음을 사용할 수 있습니다.
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## 일반 문제 해결 팁 {#general-troubleshooting-tips}
 
@@ -203,7 +203,7 @@ Livefyre를 비활성화하여 로그 오류를 방지하려면 :
 
 1. ***Livefyre 번들 비활성화:***
 
-   * 다음으로 이동 `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+   * 다음으로 이동 `https://<host>:<port>/system/console/bundles`
    * AEM Livefyre 번들 검색: `com.adobe.cq.social.cq-social-livefyre`
    * 클릭 **중지**
 

@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 2%
+source-wordcount: '2207'
+ht-degree: 1%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 2%
 
 이 자습서를 완료하려면 다음 항목이 필요합니다.
 
-1. [AEM 6.5](https://helpx.adobe.com/kr/experience-manager/6-4/release-notes.html) 또는 [AEM 6.3](https://helpx.adobe.com/kr/experience-manager/6-3/release-notes.html) + 최신 Screens 기능 팩
+1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) 또는 [AEM 6.3](https://helpx.adobe.com/kr/experience-manager/6-3/release-notes.html) + 최신 Screens 기능 팩
 
-1. [AEM 스크린 플레이어](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [AEM Screens 플레이어](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. 로컬 개발 환경
 
 튜토리얼 단계 및 스크린샷은 다음을 사용하여 수행됩니다. **CRXDE-Lite**. IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 개발하는 방법에 대한 자세한 정보 [AEM과 함께 여기에서 찾을 수 있습니다.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
@@ -348,7 +348,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    이렇게 하면 미리 보기/프로덕션 모드일 때만 스타일이 로드됩니다.
 
-   ![/apps/weretail-run/components/content/helloworld/clientlibs/production에 대한 속성](assets/2018-04-30_at_5_04pm.png)
+   ![/apps/weretail-run/components/content/helloworld/clientlibs/production용 속성](assets/2018-04-30_at_5_04pm.png)
 
    /apps/weretail-run/components/content/helloworld/clientlibs/production용 속성
 
@@ -387,7 +387,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
 ## 디자인 페이지 만들기 {#design-page}
 
-AEM Screens 사용 [정적 페이지 템플릿](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/page-templates-static.html) 및 [디자인 구성](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) 글로벌 변경 사항. 디자인 구성은 채널에서 Parsys에 대해 허용되는 구성 요소를 구성하는 데 자주 사용됩니다. 가장 좋은 방법은 이러한 구성을 앱별 방법으로 저장하는 것입니다.
+AEM Screens 사용 [정적 페이지 템플릿](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) 및 [디자인 구성](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) 글로벌 변경 사항. 디자인 구성은 채널에서 Parsys에 대해 허용되는 구성 요소를 구성하는 데 자주 사용됩니다. 가장 좋은 방법은 이러한 구성을 앱별 방법으로 저장하는 것입니다.
 
 We.Retail 실행 프로젝트에 관련된 모든 구성을 저장하는 We.Retail 실행 디자인 페이지 아래에 만들어집니다.
 
@@ -422,6 +422,7 @@ Hello World 구성 요소는 시퀀스 채널에서 사용하기 위한 것입�
 1. 템플릿 단계 - 선택 **시퀀스 채널**
 
    1. 속성 단계
+
    * 기본 탭 > 제목 = **유휴 채널**
    * 채널 탭 > 확인 **온라인으로 채널 만들기**
 

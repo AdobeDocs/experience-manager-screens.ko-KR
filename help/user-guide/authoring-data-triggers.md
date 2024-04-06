@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 4%
    1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **We.Retail** > **설정** > **wcm** > **세그먼트** 및 클릭 **선택**.
 
    1. **저장 및 닫기**&#x200B;를 클릭합니다.
+
    >[!NOTE]
    >
    >처음에 ContextHub 구성 및 세그먼트를 저장한 ContextHub 및 세그먼트 경로를 사용합니다.

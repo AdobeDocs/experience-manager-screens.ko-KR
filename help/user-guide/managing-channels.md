@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 5%
+source-wordcount: '1305'
+ht-degree: 2%
 
 ---
 
@@ -139,7 +139,7 @@ AEM Screens에 대한 프로젝트를 만든 후 아래 단계에 따라 프로�
 1. **채널을 오프라인으로 설정**
    1. 채널을 선택하고 **속성** 작업 표시줄에서
    1. 다음으로 이동 **채널** tab을 누르고 선택 취소했는지 확인 **개발자 모드(온라인 채널 강제 설정)** 옵션
-   1. **저장 및 닫기**&#x200B;를 클릭합니다
+   1. 클릭 **저장 및 닫기**
 1. **오프라인 컨텐츠 업데이트**
    1. 채널을 선택하고 **대시보드** 작업 표시줄에서
    1. 다음으로 이동 **채널 정보** 패널 및 클릭 *...*
@@ -161,7 +161,7 @@ An ***온라인 채널***&#x200B;은(는) 업데이트된 콘텐츠를 실시간
 
 아래 단계에 따라 온라인으로 채널을 만듭니다.
 
-1. 다음으로 채널 탐색 **테스트 프로젝트** —> **채널** —> **테스트 채널**.
+1. 다음으로 채널 탐색 **테스트 프로젝트** > **채널** > **테스트 채널**.
 
    채널을 선택합니다.
 
@@ -197,7 +197,7 @@ An ***온라인 채널***&#x200B;은(는) 업데이트된 콘텐츠를 실시간
 <table>
  <tbody>
   <tr>
-   <td><strong>Event</strong></td>
+   <td><strong>이벤트</strong></td>
    <td><strong>장치 자동 업데이트</strong></td>
    <td><strong>장치 수동 업데이트</strong></td>
   </tr>
@@ -244,7 +244,6 @@ An ***온라인 채널***&#x200B;은(는) 업데이트된 콘텐츠를 실시간
 >* [위치 생성 및 관리](managing-locations.md)
 >* [디스플레이 만들기 및 관리](managing-displays.md)
 >
-
 
 또한 **할당된 디스플레이** 패널 - 아래와 같이 표시 정보를 볼 수 있습니다.
 

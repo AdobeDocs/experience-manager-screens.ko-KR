@@ -1,7 +1,7 @@
 ---
 title: Screens Launch를 사용한 콘텐츠 업데이트
 seo-title: Content Update using Screens Launch
-description: 콘텐츠 작성자는 Launch라고 하는 채널의 향후 버전을 만들 수 있으며 이 시작에 대한 라이브 날짜를 추가로 설정하면 콘텐츠를 장치 또는 플레이어에서 라이브로 사용할 수 있습니다.
+description: 콘텐츠 작성자는 Launch라고 하는 향후 채널 버전을 만들 수 있으며 이 시작에 대한 라이브 날짜를 추가로 설정하면 콘텐츠를 장치 또는 플레이어에서 라이브로 사용할 수 있습니다.
 seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
@@ -14,10 +14,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 1%
+source-wordcount: '1593'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +90,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 아래 단계에 따라 AEM Screens 프로젝트에 Screens Launch 기능을 구현하십시오.
 
-1. AEM Screens 프로젝트에서 시퀀스 채널 만들기 (예: ) **LaunchesDemo** —> **채널** —> **퓨처런치**&#x200B;아래에 표시된 대로 를 클릭합니다.
+1. AEM Screens 프로젝트에서 시퀀스 채널 만들기 (예: ) **LaunchesDemo** > **채널** > **퓨처런치**&#x200B;아래에 표시된 대로 를 클릭합니다.
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    * **수정된 페이지 홍보**: 수정된 론치 리소스만 승격됩니다. 론치 검토가 필요하지 않은 경우 이 옵션을 사용하는 것이 좋습니다.
    * **승인된 페이지 홍보**: 이 옵션을 사용하려면 론치 승인 워크플로우를 론치 채널에서 실행해야 합니다. 승인된 페이지만 설정된 라이브 날짜에 홍보됩니다.
 
-      >[!CAUTION]
-      >
-      >시작 라이브 날짜는 서버가 아닌 플레이어/장치의 시간대를 따릅니다.
+     >[!CAUTION]
+     >
+     >시작 라이브 날짜는 서버가 아닌 플레이어/장치의 시간대를 따릅니다.
 
 1. 론치가 생성되었음을 알 수 있습니다. 다음을 클릭 할 수 있습니다. **열기** 를 클릭하여 편집기에서 페이지를 보거나 **완료** 을 클릭하여 프로젝트로 다시 이동합니다.
 

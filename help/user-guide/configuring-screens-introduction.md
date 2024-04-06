@@ -1,21 +1,17 @@
 ---
 title: AEM Screens 구성 및 배포
-seo-title: Configuring and Deploying Screens
-description: AEM Screens 플레이어는 Android, Chrome OS, iOS 및 Windows에서 사용할 수 있습니다. 이 페이지에서는 AEM Screens의 구성 및 배포에 대해 설명하고 플레이어 장치에 대한 h/w 선택 지침을 요약합니다.
-seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
+description: AEM Screens 플레이어는 Android&trade;, Chrome OS, iOS 및 Windows에서 사용할 수 있습니다. AEM Screens 구성 및 배포에 대해 알아봅니다.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -26,11 +22,9 @@ ht-degree: 1%
 
 ## 서버 구성 {#server-configuration}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->**중요**:
->
->AEM Screens 플레이어는 CSRF(크로스 사이트 요청 위조) 토큰을 사용하지 않습니다. 따라서 AEM Screens에 사용할 수 있도록 및 AEM 서버를 구성하려면 빈 레퍼러를 허용하여 레퍼러 필터를 건너뜁니다.
+>AEM Screens 플레이어는 CSRF(크로스 사이트 요청 위조) 토큰을 사용하지 않습니다. 따라서 AEM Screens에 사용할 준비가 되도록 AEM 서버를 구성하려면 빈 레퍼러를 허용하여 레퍼러 필터를 건너뜁니다.
 
 ## 상태 확인 프레임워크 {#health-check-framework}
 
@@ -48,7 +42,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
    ![assets](assets/health-check1.png)
 
 
-2. 클릭 **선택한 상태 검사 실행** 위에 나열된 두 속성에 대한 유효성 검사를 실행합니다.
+2. 선택 **선택한 상태 검사 실행** 위에 나열된 두 속성에 대해 유효성 검사를 실행할 수 있습니다.
 
    두 필터가 모두 활성화된 경우 **화면 구성 상태 서비스** 다음을 표시합니다. **결과** 다음으로: **확인** 두 구성이 모두 활성화되었습니다.
 
@@ -64,14 +58,13 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 >* 활성화하려면 **Apache Sling Referrer 필터**, 참조 [빈 레퍼러 요청 허용](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
 >* 활성화하려면 **HTTP** 서비스, 참조 [Apache Felix Jetty 기반 HTTP 서비스](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
-
 ### 사전 요구 사항 {#prerequisites}
 
 아래의 주요 사항은 AEM Screens에 사용할 수 있도록 및 AEM 서버를 구성하는 데 도움이 됩니다.
 
 #### 빈 레퍼러 요청 허용 {#allow-empty-referrer-requests}
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 —> hammer 아이콘 —> 을 통해 **작업** —> **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
 
    ![이미지](assets/config/empty-ref1.png)
 
@@ -88,7 +81,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
 #### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 —> hammer 아이콘 —> 을 통해 **작업** —> **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
 
    ![이미지](assets/config/empty-ref1.png)
 
@@ -104,12 +97,12 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
 #### AEM Screens용 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
 
-AEM Screens에는 TOUCH UI가 필요하며 Adobe Experience Manager(AEM)의 클래식 UI에서는 작동하지 않습니다.
+AEM Screens은 TOUCH UI가 필요하며 Adobe Experience Manager(AEM)의 클래식 UI에서 작동하지 않습니다.
 
-1. 다음으로 이동 *&lt;yourauthorinstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. 다음으로 이동 `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. 다음을 확인합니다. **기본 작성 UI 모드** 이(가) (으)로 설정됨 **터치**&#x200B;아래 그림과 같이
 
-또는 authorInstance를 사용하여 동일한 설정을 수행할 수도 있습니다 *->* 도구(망치 아이콘) -> **작업** -> **웹 콘솔** 및 검색 **WCM 작성 UI 모드 서비스**.
+또는 authorInstance를 사용하여 동일한 설정을 수행할 수도 있습니다 *>* 도구(망치 아이콘) > **작업** > **웹 콘솔** 및 검색 **WCM 작성 UI 모드 서비스**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -121,7 +114,7 @@ AEM Screens에는 TOUCH UI가 필요하며 Adobe Experience Manager(AEM)의 클�
 
 프로덕션에서 AEM을 실행하면 **NOSAMPLECONTENT** 실행 모드. 제거 *X-Frame-Options=SAMEORIGIN* 의 헤더(추가 응답 헤더 섹션)
 
-`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
+`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
 
 AEM Screens Player가 온라인 채널을 재생하는 데 필요합니다.
 
@@ -129,15 +122,15 @@ AEM Screens Player가 온라인 채널을 재생하는 데 필요합니다.
 
 에 대한 최신 변경 사항 포함 ***DeviceServiceImpl***, 암호 제한 사항을 제거할 필요가 없습니다.
 
-다음을 구성할 수 있습니다. ***DeviceServiceImpl*** screens 장치 사용자의 암호를 만드는 동안 암호 제한을 활성화하려면 아래 링크를 클릭하십시오.
+다음을 구성할 수 있습니다. ***DeviceServiceImpl*** 화면 장치 사용자의 암호를 만드는 동안 암호 제한을 활성화하려면 아래 링크를 클릭하십시오.
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 아래 단계에 따라 구성하십시오. ***DeviceServiceImpl***:
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 —> hammer 아이콘 —> 을 통해 **작업** —> **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
 
-1. **Adobe Experience Manager 웹 콘솔 구성** 열림. 검색 대상 *deviceservice*. 속성을 검색하려면 **Command+F** macOS 및 **Ctrl+F** Microsoft Windows용
+1. **Adobe Experience Manager 웹 콘솔 구성** 열림. `*deviceservice*`을 검색합니다. 속성을 검색하려면 **Command+F** macOS 및 **Ctrl+F** Microsoft® Windows용
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -145,10 +138,10 @@ AEM Screens Player가 온라인 채널을 재생하는 데 필요합니다.
 
 AEM Screens 프로젝트에 대한 Dispatcher를 구성하는 방법에 대해 알아보려면 를 참조하십시오. [AEM Screens 프로젝트에 대한 Dispatcher 구성](dispatcher-configurations-aem-screens.md).
 
-#### Java 인코딩 {#java-encoding}
+#### Java™ 인코딩 {#java-encoding}
 
-설정 ***Java 인코딩*** 유니코드로 이동합니다. 예를 들어, *Dfile.encoding=Cp1252* 작동하지 않습니다.
+설정 ***Java™ 인코딩*** 유니코드로 이동합니다. 예를 들어, `*Dfile.encoding=Cp1252*` 작동하지 않습니다.
 
 >[!NOTE]
->**권장 사항:**
->프로덕션 환경에서 AEM Screens Server에 HTTPS를 사용하는 것이 좋습니다.
+>
+>프로덕션에서 AEM Screens 서버에 HTTPS를 사용합니다.

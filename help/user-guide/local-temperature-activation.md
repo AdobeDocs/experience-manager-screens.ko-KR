@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** —> **개인화** 탭.
+   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 탭.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -90,4 +90,5 @@ ht-degree: 0%
 
    1. 클릭 **미리 보기.** 또한 Google 시트를 열고 값을 업데이트합니다.
    1. 50 미만으로 값을 변경하면 여름 음료의 이미지를 볼 수 있습니다. Google 시트의 값이 50 이상인 경우 뜨거운 음료의 이미지를 볼 수 있어야 합니다.
+
    ![result3](assets/result3.gif)

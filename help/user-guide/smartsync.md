@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 3%
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +61,7 @@ SmartSync 기능은 AEM Screens 프로젝트에 많은 이점을 제공합니다
 >
 >다음을 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/) 최신 플레이어를 다운로드하십시오. 다음 표에서는 각 플랫폼에 필요한 최소 플레이어 버전에 대해 설명합니다.
 
-| **Platform** | **지원되는 최소 플레이어 버전** |
+| **플랫폼** | **지원되는 최소 플레이어 버전** |
 |---|---|
 | Android | 3.3.72 |
 | 크롬 OS | 1.0.136 |
@@ -79,7 +79,7 @@ ContentSync에서 SmartSync로 전환하려면 아래 단계를 따르십시오.
    >
    >SmartSync를 처음 사용하기 전에 모든 컨텐츠 캐시를 지워야 합니다.
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 —> hammer 아이콘 —> 을 통해 **작업** —> **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

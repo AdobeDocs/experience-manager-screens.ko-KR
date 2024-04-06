@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 4%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 **전제 조건**
 
-이 기능의 구현을 시작하기 전에 텍스트 오버레이 구현을 시작하기 위한 필수 조건으로 프로젝트를 설정했는지 확인하십시오. 예를 들어
+이 기능의 구현을 시작하기 전에 텍스트 오버레이 구현을 시작하기 위한 필수 조건으로 프로젝트를 설정했는지 확인하십시오. 예:
 
 * AEM Screens 프로젝트 만들기(이 예에서는 **TextOverlayDemo**)
 
@@ -62,7 +62,7 @@ ht-degree: 4%
 
 AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** —> **채널** —> **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
 프로젝트에 필요한 구성을 설정했으면 아래 단계에 따라 Google Sheets의 값을 사용하십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** —> **채널** —> **텍스트 샘플** 및 클릭 **속성** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **속성** 작업 표시줄에서
 
 1. 다음 항목 선택 **개인화** 탭을 사용하여 ContextHub 구성을 설정할 수 있습니다.
 
@@ -118,7 +118,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 다음으로 이동 **TextOverlayDemo** —> **채널** —> **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 

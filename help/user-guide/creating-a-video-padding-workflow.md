@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 7%
+source-wordcount: '579'
+ht-degree: 0%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 7%
 
 비디오에 대한 워크플로우를 만들려면 아래 단계를 따르십시오.
 
-1. AEM 인스턴스로 이동하고 사이드 레일에서 도구 를 클릭합니다. 선택 **워크플로** —> **모델** 를 클릭하여 새 모델을 만듭니다.
+1. AEM 인스턴스로 이동하고 사이드 레일에서 도구 를 클릭합니다. 선택 **워크플로** > **모델** 를 클릭하여 새 모델을 만듭니다.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 클릭 **모델** —> **만들기** —> **모델 만들기**. 다음을 입력합니다. **제목** (as) **비디오 렌디션**) 및 **이름** 다음에서 **워크플로우 모델 추가**. 클릭 **완료** 워크플로 모델을 추가합니다.
+1. 클릭 **모델** > **만들기** > **모델 만들기**. 다음을 입력합니다. **제목** (as) **비디오 렌디션**) 및 **이름** 다음에서 **워크플로우 모델 추가**. 클릭 **완료** 워크플로 모델을 추가합니다.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -83,7 +83,7 @@ ht-degree: 7%
 
 1. 다음 항목 선택 **인수** 탭에서 필드 입력 **명령줄 - 단계 속성** 대화 상자.
 
-   다음 위치에 형식을 입력합니다. **Mime 유형** (as) ***video/mp4***) 및 (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***)와 같은 명령을 사용하여 **명령** 필드.
+   다음 위치에 형식을 입력합니다. **Mime 유형** (as) ***video/mp4***) 및 (***/usr/local/Cellar/ffmpeg -i $(으)로 명령{filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) (으)로 이동하여 **명령** 필드.
 
    다음에 대한 세부 사항을 참조하십시오. **Mime 유형** 및 **명령** 아래 참고 사항에서.
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 
 AEM Screens 프로젝트에서 워크플로우를 사용하려면 아래 단계를 따르십시오.
 
-1. AEM Screens 프로젝트(**TestVideoRendition** —> **채널** —>**비디오 렌디션**).
+1. AEM Screens 프로젝트(**TestVideoRendition** > **채널** >**비디오 렌디션**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

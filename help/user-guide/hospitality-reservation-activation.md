@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '463'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** —> **개인화** 탭.
+   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 탭.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ ht-degree: 1%
 
    1. 클릭 **미리 보기.** 또한 Google Sheets 를 열고 값을 업데이트합니다.
    1. 에서 값 업데이트 **Restaurant1** 및 **Restaurant2** 열. If **Restaurant1** > **Restaurant2,** 의 이미지를 볼 수 있어야 합니다. *스테이크* 그렇지 않으면, *태국인* 화면에 음식 이미지가 표시됩니다.
-   ![result5](assets/result5.gif)
+
+   ![결과5](assets/result5.gif)

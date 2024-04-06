@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 프로젝트 설정이 완료되면 콘텐츠를 보려면 채널을 디스플레이에 할당해야 합니다.
 
-1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** —> **위치** —> **산호세** —> **로비**.
+1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** > **위치** > **산호세** > **로비**.
 
 1. 탭/클릭 **채널 할당** 작업 표시줄에서
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 아래 단계에 따라 타임라인 보기로 이동합니다.
 
-1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** —> **위치** —> **산호세** —> **로비**.
+1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** > **위치** > **산호세** > **로비**.
 
 1. 탭/클릭 **채널 할당** 작업 표시줄에서
 

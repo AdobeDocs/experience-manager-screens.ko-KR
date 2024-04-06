@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '632'
+ht-degree: 0%
 
 ---
 
@@ -94,12 +94,13 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** —> **개인화** 탭.
+   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 탭.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   다음 두 가지를 모두 선택해야 합니다. **브랜드** 및 **영역** 타겟팅 프로세스를 시작할 때 활동을 올바르게 나열할 수 있습니다.
+   >
+   >다음 두 가지를 모두 선택해야 합니다. **브랜드** 및 **영역** 타겟팅 프로세스를 시작할 때 활동을 올바르게 나열할 수 있습니다.
 
 1. **기본 이미지 추가**
 
@@ -111,7 +112,8 @@ ht-degree: 1%
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   타겟팅을 시작하기 전에 세그먼트를 추가해야 합니다(**For_Green**, **For_Red**, 및 **For_Blue**)을 클릭하여 **+ 경험 타깃팅 추가** 아래 그림과 같이 측면 레일에서
+   >
+   >타겟팅을 시작하기 전에 세그먼트를 추가해야 합니다(**For_Green**, **For_Red**, 및 **For_Blue**)을 클릭하여 **+ 경험 타깃팅 추가** 아래 그림과 같이 측면 레일에서
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -123,4 +125,5 @@ ht-degree: 1%
 
    1. 클릭 **미리 보기.** 또한 Google 시트를 열고 값을 업데이트합니다.
    1. 세 개의 다른 열에 대한 값을 모두 변경하면 인벤토리에서 가장 높은 값에 따라 디스플레이 이미지가 업데이트됩니다.
+
    ![retail_result](assets/retail_result.gif)

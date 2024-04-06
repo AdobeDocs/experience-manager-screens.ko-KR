@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ Windows 플레이어를 배포하는 경우 다른 응용 프로그램이나 작
 
 Windows 플레이어의 기본 설치 경로는 다음과 같습니다.
 
-***C:\Users\&amp;lt;사용자>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 링크의 샘플 스크립트는 사용자 지정 셸을 활성화 및 비활성화합니다. 따라서 스크립트를 두 개로 분할하고 아래의 해당 줄을 활성화/비활성화해야 할 수 있습니다.
 

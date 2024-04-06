@@ -14,10 +14,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 8%
+source-wordcount: '775'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 장치 대시보드로 이동하려면 아래 단계를 따르십시오.
 
-1. 프로젝트에서 디바이스 대시보드로 이동합니다(예: ). ***테스트 프로젝트*** —> ***장치***.
+1. 프로젝트에서 디바이스 대시보드로 이동합니다(예: ). ***테스트 프로젝트*** > ***장치***.
 
    선택 **장치** 및 **장치 관리자** 작업 표시줄에서
 
@@ -110,7 +110,7 @@ ht-degree: 8%
 
 * **서버 URL**
 * **해결**
-* **재부팅 예약**
+* **재부팅 일정**
 * **최대 수 보관할 로그 파일의 수**
 * **로그 수준**
 
@@ -118,12 +118,11 @@ ht-degree: 8%
 
 >[!NOTE]
 >다음 로그 수준 중 하나를 선택할 수 있습니다.
->* **사용 안함**
+>* **사용 안 함**
 >* **디버그**
 >* **정보**
 >* **경고**
 >* **오류**
-
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 

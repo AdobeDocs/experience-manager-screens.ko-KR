@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 채널을 디스플레이에 할당하려면 아래 단계를 따르십시오.
 
-1. 필요한 디스플레이로 이동합니다(예: ). **DemoProject** —> **위치** —> **산호세** —> **StoreDisplay**.
+1. 필요한 디스플레이로 이동합니다(예: ). **DemoProject** > **위치** > **산호세** > **StoreDisplay**.
 
    ![이미지](assets/screen_shot_2018-08-23at25359pm.png)
 
