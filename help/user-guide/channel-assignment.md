@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 
    ![이미지](/help/user-guide/assets/channel-assign1.png)
 
-   다음에서 속성을 구성할 수 있습니다. **채널 할당** 아래 섹션에 있는 대화 상자입니다. 다음을 참조하십시오 [채널 속성](#channel-properties) 채널 속성에 대해 자세히 알아보려면 섹션 을 참조하십시오.
+   다음에서 속성을 구성할 수 있습니다. **채널 할당** 아래 섹션에 있는 대화 상자입니다. 다음을 참조하십시오 [채널 속성](#channel-properties) 채널 속성에 대한 자세한 내용을 보려면 섹션 을 참조하십시오.
 
 ## 채널 지정의 채널 속성 이해 {#channel-properties}
 

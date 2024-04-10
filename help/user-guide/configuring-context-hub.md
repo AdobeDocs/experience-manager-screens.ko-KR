@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
    >
    >1. CRXDE Lite으로 이동한 다음 다음으로 이동 `/conf/screens/settings/cloudsettings`.
    >1. 다음을 확인: `cloudsettings jcr:primaryType` 다음에 있음 `sling:Folder`. 다음과 같은 경우 `jcr:primaryType` 이(가)에 없음 `sling:folder`를 클릭하고 다음 단계를 진행합니다.
-   >1. 마우스 오른쪽 버튼 클릭 `/conf/screens/settings` 을 사용하여 노드를 만듭니다. *이름* 다음으로: **cloudsettings1** 및 *유형* 다음으로: **sling:Folder** 변경 내용을 저장합니다.
+   >1. 마우스 오른쪽 버튼 클릭 `/conf/screens/settings` 을 사용하여 노드를 만듭니다. *이름* 다음으로: **`cloudsettings1`** 및 *유형* 다음으로: **`sling:Folder`** 변경 내용을 저장합니다.
    >1. 아래의 모든 노드 이동 `/conf/screens/settings/cloudsettings` 끝 `cloudsettings1`.
    >1. 삭제 `cloudsettings` 저장하십시오.
    >1. 이름 바꾸기 `cloudsettings1` 끝 `cloudsettings` 저장하십시오.
@@ -110,10 +110,10 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
    >
    >업그레이드 전 또는 후에 작성자 및 게시에서 다음 단계를 수행합니다.
 
-   1. 다음을 입력합니다. **제목** 다음으로: **Google Sheets**, **저장소 이름** 다음으로: **게시물 시트**, 및 **저장소 유형** 다음으로: **contexthub.generic-jsonp** 및 클릭 **다음**.
+   1. 다음을 입력합니다. **제목** 다음으로: **Google Sheets**, **저장소 이름** 다음으로: **`googlesheets`**, 및 **저장소 유형** 다음으로: **c`ontexthub.generic-jsonp`** 및 클릭 **다음**.
 
       >[!CAUTION]
-      >Adobe Experience Manager(AEM) 6.4를 사용하는 경우 **구성 제목** 다음으로: **게시물 시트** 및 **저장소 유형** 다음으로: **contexthub.generic-jsonp**.
+      >Adobe Experience Manager(AEM) 6.4를 사용하는 경우 **구성 제목** 다음으로: **`googlesheets`** 및 **저장소 유형** 다음으로: **c`ontexthub.generic-jsonp`**.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub6.png)
 

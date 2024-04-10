@@ -1,22 +1,18 @@
 ---
 title: "4부: 프로젝트 관리 및 배포"
-seo-title: "Part 4: Project Management and Deployment"
-description: 이 튜토리얼을 따라 프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알아보십시오. 또한 공급업체, 내부 노무 및 컷시트에 대한 정보 수집과 함께 프로젝트 범위 및 일정이 정의되는 방식을 파악합니다.
-seo-description: Follow this tutorial to learn about project management and deployment preparation (project pre-production, project initiation, project progression). Additionally, get to know how the project scope and schedule is defined along with gathering information on vendor, internal labor, and cut-sheets.
-uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
+description: AEM Screens의 프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알아봅니다.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -33,13 +29,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대규모 디지털 서명 배포의 프로젝트 관리에 대한 전문 지식을 갖춘 AV 통합자를 식별하는 것은 장기적인 성공에 매우 중요하며, 계획을 개발하고 확정할 때 AV 통합자와 AEM 구현자 간의 프로젝트 계획을 비교하여 정렬을 보장하는 것이 좋습니다.
+>대규모 디지털 서명 배포의 프로젝트 관리에 대한 전문 지식을 갖춘 AV 통합자를 파악하는 것은 장기적인 성공에 중요합니다. AV 통합사업자와 AEM 구현사업자 간의 프로젝트 계획을 비교하는 것이 좋습니다. 이렇게 하면 플랜이 개발되고 마무리될 때 맞춤화가 보장됩니다.
 >
->프로젝트 &quot;사전 프로덕션&quot;, 시작 및 진행 단계를 총괄적으로 관리하는 파트너는 최종 고객이 투자를 최대한 활용할 수 있도록 포지셔닝하는 데 도움이 됩니다
+>프로젝트 &quot;사전 프로덕션&quot;, 시작 및 진행 단계를 총괄적으로 관리하는 파트너는 최종 고객이 투자를 최대한 활용할 수 있도록 지원합니다.
 
 ## 프로젝트 관리의 세 단계 모두에 대한 요약 {#summary-of-all-three-phases-in-project-management}
 
-성공적인 디지털 사이니지 배포를 지원하기 위해 일반적으로 프로젝트를 3단계로 세그먼트화합니다. 이러한 단계를 일반적으로 다음과 같이 합니다. ***일***.
+성공적인 디지털 사이니지 배포를 지원하기 위해 일반적으로 프로젝트를 세 단계로 세그먼트화합니다. 이러한 단계를 일반적으로 다음과 같이 합니다. ***일***.
 
 ### 0일 활동 {#day-zero-activities}
 
@@ -47,7 +43,7 @@ ht-degree: 0%
 
 Day Zero 활동에는 Pre-Sales, 클라이언트 검색, 애플리케이션 요구 분석 및 프로젝트 범위 정의가 필요합니다. 이 단계에는 배포를 준비하기 위해 프로젝트 관리를 위한 프로젝트 요구 사항의 초기 참여 및 정의도 포함될 수 있습니다.
 
-Day Zero는 프로젝트 관리의 모든 측면을 다루는 8개의 주요 단계로 구성됩니다.
+Day Zero는 프로젝트 관리의 모든 측면을 다루는 8가지 주요 단계로 구성됩니다.
 
 * 작업 범위 정의
 * 프로젝트 일정 정의
@@ -74,13 +70,13 @@ Sales Opportunity 가 프로젝트로 전환되면 Kick Off Meeting 이 예정�
 
 ### 2일차 활동 {#day-two-activities}
 
-1일 이니셔티브의 마지막 단계는 NOC 핸드오프를 완료하는 것입니다. 완료된 프로젝트에 Day 2 서비스 및 지원이 포함된 경우 프로젝트 관리자는 해당 팀의 감독자와 NOC Handoff Meeting을 주선합니다.
+1일 이니셔티브의 마지막 단계는 NOC 핸드오프를 완료하는 것입니다. 완료된 프로젝트에 이틀간의 서비스 및 지원이 포함된 경우 프로젝트 관리자는 해당 팀의 감독자와 NOC Handoff Meeting을 주선합니다.
 
-이 회의는 주로 고객 관리, 네트워크 운영, 현장 물류, 컨텐츠 서비스 및 회계의 AV 통합업체 담당자로 구성됩니다. 일반적으로 Adobe, AEM 구현자 및 최종 고객의 프로젝트 관리 담당자가 함께 참여하며, AV 통합자는 일정, 케이던스 및 톨게이트를 정의합니다. 프로젝트 관리자는 일반적으로 적합한 당사자를 정렬하고 NOC 전달 회의에 필요한 설명서를 개발하기 위해 논의를 조정하는 데 가장 적합합니다. 중요한 지원 설명서는 관련된 모든 당사자의 영업 및 계정 관리 리소스 외에도 IT 및/또는 AV 엔지니어링에서 제공될 수 있습니다. NOC의 헬프 데스크 지원이 필요한 클라이언트의 경우 기술 자료 플랫폼으로 업로드하려면 NOC 감독자에게 설명서를 제공해야 합니다.
+이 회의는 주로 고객 관리, 네트워크 운영, 현장 물류, 컨텐츠 서비스 및 회계의 AV 통합업체 담당자로 구성됩니다. Adobe, AEM 구현자 및 최종 고객의 프로젝트 관리 담당자가 함께 참여하며, AV 통합자는 일정, 케이던스 및 톨게이트를 정의합니다. 프로젝트 관리자는 일반적으로 적합한 당사자를 정렬하고 NOC 전달 회의에 필요한 설명서를 개발하기 위해 논의를 조정하는 데 가장 적합합니다. 중요한 지원 설명서는 관련된 모든 당사자의 영업 및 계정 관리 리소스 외에도 IT 및/또는 AV 엔지니어링에서 제공될 수 있습니다. NOC의 헬프 데스크 지원이 필요한 클라이언트의 경우 기술 자료 플랫폼으로 업로드하려면 NOC 감독자에게 설명서를 제공해야 합니다.
 
 ## 4부: 프로젝트 관리 및 배포에 대한 비디오 튜토리얼 {#part-video-tutorial-on-project-management-and-deployment}
 
-이 튜토리얼을 따라 프로젝트 관리 및 배포 준비에 대해 알아보고 프로젝트 관리 및 배포 준비와 관련하여 AV 통합자가 책임져야 하는 주요 요소를 정의합니다.
+프로젝트 관리 및 배포 준비에 대해 알아보고 프로젝트 관리 및 배포 준비와 관련하여 AV 통합자가 책임져야 하는 주요 요소를 정의합니다.
 
 ### 프로젝트 관리 및 배포
 
