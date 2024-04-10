@@ -2,9 +2,9 @@
 title: 네트워크 트래픽 관리
 description: 이 페이지에서는 표준 네트워크 설정 및 네트워크 트래픽 관리 방법에 대해 설명합니다.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 표준 네트워크 설정 이해 {#network-setups}
 
-네트워크 설정을 구현하려면 강점과 배포 세부 사항을 포함한 다음 시나리오를 참조해야 합니다.
+네트워크 설정을 구현하려면 강점과 배포 세부 사항을 포함한 다음 시나리오를 참조하십시오.
 
 이 안내서에서는 조직 내에서 네 가지 서로 다른 종류의 네트워크 설정을 소개합니다.
 

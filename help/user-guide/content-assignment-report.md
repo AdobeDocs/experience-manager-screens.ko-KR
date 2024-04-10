@@ -5,16 +5,16 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 2%
 
 ---
 
 # 컨텐츠 할당 보고서 {#content-assignment-report}
 
-AEM Screens 관리자 또는 작성자는 콘텐츠 할당 보고서 기능을 통해 *컨텐츠 할당 보고서* 스프레드시트 형식으로 변환해야 합니다.
+AEM Screens 관리자 또는 작성자는 콘텐츠 할당 보고서 기능을 사용하여 *컨텐츠 할당 보고서* 스프레드시트 형식으로 변환해야 합니다.
 
 ## 컨텐츠 할당 보고서 사용 {#using-content-assignment-report}
 

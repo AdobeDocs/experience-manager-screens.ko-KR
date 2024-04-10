@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >음성 인식 기능을 사용하는 경우 해당 지역에 적용되는 모든 법적 및 윤리적 지침을 따르십시오(플레이어가 음성 인식을 사용하고 있음을 최종 사용자에게 알리는 것을 포함하지만 이에 국한되지 않음). Adobe Inc.. 음성 관련 정보를 수신, 저장 또는 처리하지 않습니다. AEM Screens 플레이어는 검색 엔진에 내장된 표준 웹 음성 API를 사용합니다. 백그라운드에서 이 API는 음성 형식을 텍스트에서 음성 형식으로 변환하기 위해 Google 서버로 음성 형식을 전송하며 이 텍스트는 플레이어가 구성된 키워드에 대해 일치합니다.
 >
->을(를) 참조하십시오 [웹 스피치 API에 대한 Google 개인정보 보호 백서](https://www.google.com/chrome/privacy/whitepaper.html#speech) 을 참조하십시오.
+>다음을 참조하십시오 [웹 스피치 API에 대한 Google 개인정보 보호 백서](https://www.google.com/chrome/privacy/whitepaper.html#speech) 을 참조하십시오.
 
 
 음성 인식 기능을 사용하면 음성 상호 작용에 의해 AEM Screens 채널에서 콘텐츠를 변경할 수 있습니다.
@@ -139,7 +139,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
    ![이미지](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >디스플레이에 채널을 할당하는 방법에 대해 알아보려면 를 참조하십시오. [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md).
+   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md).
 
 1. 채널 할당 **기본**, **콜드드드링크**, 및 **HotDrinks** (으)로 **로비 디스플레이**. 또한 을 사용하는 경우 **SplitScreen** 채널을 프로젝트에 할당하십시오. 디스플레이에 할당하십시오.
 
@@ -157,7 +157,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
    >[!NOTE]
    >
-   >디스플레이에 채널을 할당하는 방법에 대해 알아보려면 를 참조하십시오. [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md).
+   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md).
 
 1. 디스플레이에 채널을 할당했으면 다음으로 이동합니다. **로비 디스플레이** 디스플레이를 선택합니다. 선택 **속성** 작업 표시줄에서
 
@@ -173,7 +173,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 위의 단계가 완료되면 chrome 장치를 등록하여 출력을 볼 수 있습니다.
 
 >[!NOTE]
->을(를) 참조하십시오 [장치 등록](device-registration.md) AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아봅니다.
+>다음을 참조하십시오 [장치 등록](device-registration.md) AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아봅니다.
 
 **시퀀스 채널에 대해 원하는 출력**
 

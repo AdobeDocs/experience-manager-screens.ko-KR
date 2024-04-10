@@ -13,9 +13,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -34,14 +34,14 @@ AEM Screens 기능 팩 201809의 릴리스 날짜는 2018년 10월 1일입니다
 
 ### 새로운 기능 {#what-s-new}
 
-* **Adobe Analytics 재생 증명 보고**: 다음을 참조하십시오. [AEM Screens과 Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md) 자세히 알아보십시오.
+* **Adobe Analytics 재생 증명 보고**: 를 참조하십시오 [AEM Screens과 Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md) 자세히 알아보십시오.
 
-* **Adobe Analytics 플레이어에서 재생 이벤트를 캐시하고 Adobe Analytics에 보낼 수 있습니다.**: 다음을 참조하십시오. [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) 자세히 알아보십시오.
+* **Adobe Analytics 플레이어에서 재생 이벤트를 캐시하고 Adobe Analytics에 보낼 수 있습니다.**: 를 참조하십시오 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) 자세히 알아보십시오.
 
-* **오프라인 컨텐츠 벌크 업데이트**: 모든 채널을 일괄적으로 업데이트할 수 있으며 특정 채널로 이동하여 콘텐츠를 업데이트하는 번거로움을 피할 수 있습니다. 다음을 참조하십시오. [벌크 오프라인 업데이트](bulk-offline-update.md) 자세히 알아보십시오.
+* **오프라인 컨텐츠 벌크 업데이트**: 모든 채널을 일괄적으로 업데이트할 수 있으며 특정 채널로 이동하여 콘텐츠를 업데이트하는 번거로움을 피할 수 있습니다. 다음을 참조하십시오 [벌크 오프라인 업데이트](bulk-offline-update.md) 자세히 알아보십시오.
 
 * **채널을 벌크 게시하여 인스턴스 게시**
-* **향상된 플레이어 로깅 메커니즘**: AEM Screens 플레이어에 대한 최대 로그 파일 수를 지정할 수 있습니다. 다음을 참조하십시오. [AEM Screens 플레이어 작업](working-with-screens-player.md) 을 참조하십시오.
+* **향상된 플레이어 로깅 메커니즘**: AEM Screens 플레이어에 대한 최대 로그 파일 수를 지정할 수 있습니다. 다음을 참조하십시오 [AEM Screens 플레이어 작업](working-with-screens-player.md) 을 참조하십시오.
 
 * **작성자/게시 배포(강화)**
 

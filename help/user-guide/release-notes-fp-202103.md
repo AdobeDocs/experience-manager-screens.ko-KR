@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 2%
 
 ---
@@ -33,14 +33,14 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 5일입니다.
 
   수천 명의 플레이어를 수동으로 일괄 등록하는 것은 번거롭고 시간과 비용을 추가한다. 이 프로세스를 단순화하기 위해 플레이어 자동 등록 기능을 사용하여 AEM에 미리 공유한 키를 지정할 수 있습니다. 이 키는 구성 파일 또는 MDM(모바일 장치 관리) 솔루션을 통해 플레이어에 제공할 수 있습니다.
 
-  을(를) 참조하십시오 [플레이어 자동 등록](/help/user-guide/auto-registration-players.md) 을 참조하십시오.
+  다음을 참조하십시오 [플레이어 자동 등록](/help/user-guide/auto-registration-players.md) 을 참조하십시오.
 
 
 * **Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝**
 
   Android™ 플레이어를 대량으로 배포할 때 모든 플레이어를 AEM에 수동으로 등록하는 것은 지루해집니다. 다음과 같은 EMM(엔터프라이즈 모빌리티 관리) 솔루션을 사용하는 것이 좋습니다. `VMWare Airwatch`, `MobileIron`, 또는 `Samsung Knox` 배포를 원격으로 프로비저닝하고 관리합니다. AEM Screens Android™ 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig를 지원합니다.
 
-  을(를) 참조하십시오 [Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝](/help/user-guide/implementing-android-player.md#implementation) 을 참조하십시오.
+  다음을 참조하십시오 [Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝](/help/user-guide/implementing-android-player.md#implementation) 을 참조하십시오.
 
 
 ### 버그 수정 {#bug-fixes}

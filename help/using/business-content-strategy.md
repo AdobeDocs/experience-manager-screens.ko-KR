@@ -4,9 +4,9 @@ seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: 이 안내서에서는 비즈니스 콘텐츠 전략에 대해 설명합니다
 seo-description: The guide describes Business Content Strategy
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ AEM Screens 프로젝트에 대한 콘텐츠 전략을 작성할 때 다음과 �
 * 업데이트 및 업그레이드 전략은 무엇입니까?
 * 새 콘텐츠가 얼마나 자주 필요합니까?
 
-   >[!NOTE]
-   >
-   >어떤 콘텐츠가 공유될 것인지는 물론, 콘텐츠 데이터가 현재 어디에 있으며 어떻게 Screens 프로젝트에 활용될 것인지에 대한 질문을 시작하는 것이 Pre-sales 단계 중 중요합니다. 구현 중에 콘텐츠를 자세히 살펴보되, 사용 가능한 데이터와 형식을 미리 설정해야 합니다.
+  >[!NOTE]
+  >
+  >어떤 콘텐츠가 공유될 것인지는 물론, 콘텐츠 데이터가 현재 어디에 있으며 어떻게 Screens 프로젝트에 활용될 것인지에 대한 질문을 시작하는 것이 Pre-sales 단계 중 중요합니다. 구현 중에 콘텐츠를 자세히 살펴보되, 사용 가능한 데이터와 형식을 미리 설정해야 합니다.
 
 ## 중요 고려 사항 {#important-considerations}
 

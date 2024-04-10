@@ -4,10 +4,10 @@ seo-title: AEM Screens Project Roles  and Responsibilities
 description: 이 페이지에서는 AEM Screens 프로젝트 역할 및 권한에 대해 설명합니다
 seo-description: The page describes AEM Screens Project Roles  and Responsibilities
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 6%
+source-wordcount: '1242'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 일반적인 AEM Screens 프로젝트에서는 역할 각각이 프로젝트에서 중요한 목적을 수행하므로 역할이 더욱 세분화됩니다.
 
-아래 다이어그램은 안내서 전체에서 참조할 역할을 보여 줍니다.
+아래 다이어그램은 안내서 전체에서 볼 수 있는 역할을 보여 줍니다.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -158,7 +158,7 @@ AV 통합자는 디지털 간판 하드웨어 관련 배포를 설계, 구축 �
 |---|---|---|---|---|
 | 하드웨어 주문 및 스토리지 | RA | I | I | I |
 | 소매 온보딩 일정 | I | I | C | RA |
-| 스테이징 사용자 승인 테스트 | I | C | RA |  |
+| 스테이징 사용자 승인 테스트 | I | C | RA |   |
 | 하드웨어 대량 구성 | RA | I | C | I |
 | 출시 후 지원에 대한 계약 | RA | C | RA | C |
 

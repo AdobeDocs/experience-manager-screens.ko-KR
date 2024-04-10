@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 1. 디스플레이 선택 **메인 로비 디스플레이** 다음에서 **위치** 폴더를 삭제합니다. 클릭 **채널 할당** 을(를) 클릭하여 열 수 있습니다. **채널 할당** 대화 상자.
 
    >[!NOTE]
-   >디스플레이에 채널을 할당하는 방법에 대해 알아보려면 를 참조하십시오. **[채널 할당](channel-assignment.md)**.
+   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 **[채널 할당](channel-assignment.md)**.
 
 1. 필드 채우기(**채널 경로**, **우선 순위**, 및 **지원되는 이벤트**&#x200B;의 ) **채널 할당** 대화 상자 및 클릭 **저장** 을(를) 할당하려면 **주 광고 채널** 화면에 표시합니다.
 
@@ -92,7 +92,7 @@ ht-degree: 1%
    * **예약**: 이 채널에서 표시를 실행할 예약에 대한 텍스트를 입력합니다. 의 텍스트 **예약** 이 예제에서 언급된 것은 *14:00 이후 및 16:00 이전에*.
 
      >[!NOTE]
-     >에 추가할 수 있는 표현식에 대해 자세히 알아보려면 **예약**&#x200B;을(를) 참조하십시오. [표현식 예](#example-expressions) 아래 섹션.
+     >에 추가할 수 있는 표현식에 대해 자세히 알아보려면 **예약**, 다음을 참조하십시오. [표현식 예](#example-expressions) 아래 섹션.
    * **활성 시작일**: 시작일 및 시간.
    * **활성 종료일**: 종료 날짜 및 시간.
 

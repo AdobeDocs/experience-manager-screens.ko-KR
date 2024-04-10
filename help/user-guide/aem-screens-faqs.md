@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -214,9 +214,9 @@ Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모�
 ### 2. Oak 색인 정보를 추가하는 방법 {#add-oak-index-info}
 
 AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만듭니다.
-있는 경우 *쿼리 순회 WARN* 다음에서 `error.log`를 클릭하여 쿼리에 대한 사용자 지정 색인을 만듭니다. 을(를) 참조하십시오 [인덱스 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) 을 참조하십시오.
+있는 경우 *쿼리 순회 WARN* 다음에서 `error.log`를 클릭하여 쿼리에 대한 사용자 지정 색인을 만듭니다. 다음을 참조하십시오 [인덱스 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) 을 참조하십시오.
 
-에서 추가 리소스를 참조할 수도 있습니다. [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+에서 추가 리소스를 볼 수도 있습니다. [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. v3 매니페스트를 구성하는 데 필요한 사항 {#configure-v3}

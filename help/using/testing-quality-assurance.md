@@ -2,9 +2,9 @@
 title: 테스트 및 품질 보증
 description: 모범 사례 안내서에서 AEM Screens에 대한 테스트 및 품질 보증에 대해 알아봅니다.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

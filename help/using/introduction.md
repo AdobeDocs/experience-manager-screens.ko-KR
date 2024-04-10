@@ -2,9 +2,9 @@
 title: '[!UICONTROL AEM Screens] 소개'
 description: 이 페이지는 AEM Screens 소개 섹션입니다.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '661'
 ht-degree: 58%
 
 ---

@@ -2,9 +2,9 @@
 title: 적응형 렌디션 아키텍처 개요 및 구성
 description: 이 페이지에서는 AEM Screens의 적응형 표현물에 대한 CRXDE Lite의 아키텍처 개요 및 구성에 대해 설명합니다.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 2%
 1. 쿼리 식을 포함하는 값으로 식 속성을 추가해야 합니다.
 
    >[!NOTE]
-   >을(를) 참조하십시오 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) 자세히 알아보십시오.
+   >다음을 참조하십시오 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) 자세히 알아보십시오.
 
    클릭 **rule1** 만든 후 입력한 값 **표현식** 위치: **이름** 및 **(orientation:landscape)** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
 

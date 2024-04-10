@@ -8,9 +8,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,6 @@ AEM Screens 플레이어는 Android, Chrome OS 및 Windows에서 사용할 수 �
 >1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
 >1. 을(를) 클릭합니다 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
 
-
 ## 기본 재생 모니터링 {#playback-monitoring}
 
 플레이어는 각 재생 지표에서 다양한 재생 지표를 보고합니다 `ping` 기본값은 30초입니다. 이러한 지표를 기반으로 중단 경험, 빈 화면 및 예약 문제와 같은 다양한 에지 사례를 감지할 수 있습니다. 이를 통해 디바이스의 문제를 파악하고 해결할 수 있으므로 귀하와 함께 조사 및 시정 조치를 신속하게 취할 수 있습니다.
@@ -54,7 +53,7 @@ AEM Screens 플레이어에서 기본 재생 모니터링을 사용하면 다음
 |---|---|
 | id {string} | 플레이어 식별자 |
 | activeChannel {string} | 현재 재생 중인 채널 경로 또는 일정이 없는 경우 null |
-| activeElements {string} | 재생 중인 모든 시퀀스 채널에 현재 표시되는 쉼표로 구분된 문자열(다중 영역 레이아웃의 경우 다중) |
+| 활성 요소 {string} | 재생 중인 모든 시퀀스 채널에 현재 표시되는 쉼표로 구분된 문자열(다중 영역 레이아웃의 경우 다중) |
 | isDefaultContent {boolean} | 재생 채널이 기본 또는 대체 채널로 간주되는 경우(즉, 우선 순위 1이 있고 일정이 없는 경우) true |
 | hasContentChanged {boolean} | 지난 5분 동안 콘텐츠가 변경되면 true이고, 그렇지 않으면 false입니다. |
 | lastContentChange {string} | 마지막 콘텐츠 변경 타임스탬프 |
@@ -63,7 +62,7 @@ AEM Screens 플레이어에서 기본 재생 모니터링을 사용하면 다음
 >선택적으로, 플레이어 환경 설정(재생 모니터링 활성화)에서 보다 고급 속성을 활성화할 수 있습니다.
 >|속성|설명|
 >|—|—|
->|isContentRendering {boolean}|true - GPU에서 실제 콘텐츠 재생(픽셀 분석 기반)을 확인할 수 있는 경우|
+>|isContentRendering {boolean}|true - GPU가 실제 콘텐츠를 재생하고 있는지 확인할 수 있는 경우(픽셀 분석 기반)|
 
 ### 제한 사항 {#limitations}
 
@@ -81,7 +80,7 @@ AEM Screens 플레이어에서 기본 재생 모니터링을 사용하면 다음
 
 자세한 내용은 다음 항목을 참조하십시오.
 
-* Android 플레이어를 다운로드하려면 다음을 방문하십시오. **Google Play**. Android Watchdog 구현에 대한 자세한 내용은 을 참조하십시오. [Android 플레이어 구현](implementing-android-player.md).
+* Android 플레이어를 다운로드하려면 다음을 방문하십시오. **Google Play**. Android Watchdog 구현에 대한 자세한 내용은 [Android 플레이어 구현](implementing-android-player.md).
 
 * Chrome OS 플레이어를 구현하려면 다음을 참조하십시오. [Chrome 관리 콘솔](implementing-chrome-os-player.md) 추가 정보.
 

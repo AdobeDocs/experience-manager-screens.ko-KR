@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 2db3ebae489bc0fcc435e21e45e41c995d3a617e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 4%
 
 ---
 
@@ -51,9 +51,9 @@ AEM Screens 기능 팩 202204의 릴리스 날짜는 2022년 4월 26일입니다
 
 AEM 6.5 기능 팩 11용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
-* 크롬OS
+* ChromeOS
 * Windows
-* 티젠
+* Tizen
 * Android
 * Linux
 

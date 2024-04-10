@@ -2,9 +2,9 @@
 title: AEM Screens에서 작성자 및 게시 인스턴스 구성
 description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->작성자 및 게시 아키텍처 개요 및 컨텐츠가 AEM 작성자 인스턴스에서 작성된 다음 여러 게시 인스턴스로 앞으로 복제되는 방법에 대한 자세한 내용은 을 참조하십시오. [아키텍처 개요 작성 및 게시](author-publish-architecture-overview.md).
+>작성자 및 게시 아키텍처 개요와 컨텐츠가 AEM 작성자 인스턴스에서 작성된 다음 여러 게시 인스턴스로 앞으로 복제되는 방법에 대해 자세히 알려면 을 참조하십시오. [아키텍처 개요 작성 및 게시](author-publish-architecture-overview.md).
 
 다음 섹션에서는 작성자 및 게시 토폴로지에서 복제 에이전트를 설정하는 방법에 대해 설명합니다.
 

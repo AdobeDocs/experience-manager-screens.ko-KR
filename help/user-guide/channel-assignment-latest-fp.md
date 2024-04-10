@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 2%
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >을(를) 참조하십시오 [프로젝트 생성 및 관리](creating-a-screens-project.md) AEM Screens 프로젝트를 만드는 방법을 알아봅니다.
+   >다음을 참조하십시오 [프로젝트 생성 및 관리](creating-a-screens-project.md) AEM Screens 프로젝트를 만드는 방법을 알아봅니다.
 
 1. 이라는 이름의 시퀀스 채널 만들기 **카페테리아** 다음에서 **채널** 폴더를 삭제합니다.
 
@@ -82,14 +82,14 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >을(를) 참조하십시오 [채널 속성](#channel-properties) 채널 할당 속성에 대해 자세히 알아보려면 섹션 을 참조하십시오.
+   >다음을 참조하십시오 [채널 속성](#channel-properties) 채널 할당 속성에 대해 자세히 알아보려면 섹션 을 참조하십시오.
 
 1. 다음에서 **예약** 옵션을 선택하고 **활성화 창** 및 **자동연장 일정**.
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >을(를) 참조하십시오 [채널 속성](#channel-properties) 채널 할당 속성에 대해 자세히 알아보려면 섹션 을 참조하십시오.
+   >다음을 참조하십시오 [채널 속성](#channel-properties) 채널 할당 속성에 대해 자세히 알아보려면 섹션 을 참조하십시오.
 
 1. 클릭 **저장** 기본 설정을 구성했으면 다음과 같이 하십시오.
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 이 예에서는 Chrome 플레이어의 출력을 보여 줍니다. 채널을 디스플레이에 할당했으면 플레이어에 장치를 등록해야 합니다.
 
-을(를) 참조하십시오 [장치 등록](device-registration.md) AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아봅니다.
+다음을 참조하십시오 [장치 등록](device-registration.md) AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아봅니다.
 
 플레이어를 선택하면 다음 출력을 볼 수 있습니다.
 

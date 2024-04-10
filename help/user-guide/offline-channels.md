@@ -14,10 +14,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '448'
+ht-degree: 2%
 
 ---
 
@@ -120,4 +120,4 @@ ContentSync 구성을 테스트하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >
->사용자 지정 오프라인 리소스 핸들러의 템플릿 및 의 최소 요구 사항에 대해 자세히 알아보려면 `pom.xml` 특정 프로젝트에 대한 자세한 내용은 [사용자 지정 처리기용 템플릿](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 위치: **AEM Screens용 맞춤형 구성 요소 개발**.
+>사용자 지정 오프라인 리소스 핸들러의 템플릿 및 의 최소 요구 사항에 대해 자세히 알아보려면 `pom.xml` 특정 프로젝트에 대해서는 [사용자 지정 처리기용 템플릿](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 위치: **AEM Screens용 맞춤형 구성 요소 개발**.

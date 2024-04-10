@@ -1,6 +1,5 @@
 ---
 title: AEM Screens 개요 비디오
-seo-title: AEM Screens Overview Video
 description: AEM Screens은 마케터가 다이내믹하고 인터랙티브한 디지털 경험을 다양한 유형의 화면에 게시할 수 있도록 하는 디지털 서명 솔루션입니다.
 contentOwner: dgordon
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -8,7 +7,7 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%

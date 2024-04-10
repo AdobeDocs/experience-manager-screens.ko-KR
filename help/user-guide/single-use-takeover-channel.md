@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
    ![자산](assets/single-takeover6.png)
 
    >[!NOTE]
-   >디스플레이에 채널을 할당하는 방법에 대해 알아보려면 를 참조하십시오. **[채널 할당](channel-assignment.md)**.
+   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 **[채널 할당](channel-assignment.md)**.
 
 1. 필드 채우기(**채널 경로**, **우선 순위**, 및 **지원되는 이벤트**&#x200B;의 ) **채널 할당** 대화 상자 및 클릭 **저장**. 이제 을(를) 할당했습니다. **주 광고 채널** 화면에 표시합니다.
 

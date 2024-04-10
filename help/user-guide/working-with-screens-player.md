@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1057'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니�
    <td><p>8GB 메모리</p> <p>4MB 캐시</p> </td>
    <td>128GB</td>
    <td>온보드</td>
-   <td>3840x2160(4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> USB 2개</td>
    <td>
     <ul>
@@ -202,7 +202,7 @@ AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니�
    <td><p>16GB 메모리</p> <p>8MB 캐시</p> </td>
    <td>256GB</td>
    <td>전용 그래픽 GPU</td>
-   <td>3840x2160(4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> 4xUSB</td>
    <td>
     <ul>

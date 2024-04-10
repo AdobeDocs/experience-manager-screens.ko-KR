@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 ```
 
 >[!NOTE]
->모든 Android™ 장치에는 `*sdcard*` 실제 여부를 나타내는 폴더 `*sdcard*` 가 삽입되거나 삽입되지 않습니다. 이 파일은 배포 시 다운로드 폴더와 동일한 수준에 있습니다. Samsung Knox와 같은 일부 MDM은 이를 참조할 수 있습니다 *sdcard* 폴더 위치 *내부 스토리지*.
+>모든 Android™ 장치에는 `*sdcard*` 실제 여부를 나타내는 폴더 `*sdcard*` 가 삽입되거나 삽입되지 않습니다. 이 파일은 배포 시 다운로드 폴더와 동일한 수준에 있습니다. Samsung Knox와 같은 일부 MDM에서 이 메시지가 표시될 수 있습니다 *sdcard* 폴더 위치 *내부 스토리지*.
 
 ## Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝 {#bulk-provisioning}
 

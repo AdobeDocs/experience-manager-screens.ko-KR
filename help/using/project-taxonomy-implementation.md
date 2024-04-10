@@ -4,9 +4,9 @@ seo-title: Project Taxonomy
 description: 이 페이지에서는 프로젝트 분류법에 대해 설명합니다.
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ AEM Screens 디지털 사이니지 솔루션을 구현하기 전에 다음 요�
 
 * **위치**
 * **MediaZone**
-* **디스플레이**
+* **표시**
 * **예약**
 * **콘텐츠 미리보기**
 
@@ -35,7 +35,6 @@ AEM Screens 디지털 사이니지 솔루션을 구현하기 전에 다음 요�
 >
 >* Screens 프로젝트를 자동으로 채우는 하드웨어 자산 데이터베이스
 >* 모든 플레이어를 AEM의 특정 인스턴스로 자동으로 지정하는 텍스트 구성 파일
-
 
 ## AEM Screens 프로젝트 구현 {#creating-a-project}
 

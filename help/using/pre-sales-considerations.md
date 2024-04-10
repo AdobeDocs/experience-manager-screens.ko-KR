@@ -4,10 +4,10 @@ seo-title: Considerations as Projects are Scoped
 description: 이 페이지에서는 프로젝트 범위가 지정될 때의 고려 사항에 대해 설명합니다
 seo-description: The page describes Considerations as Projects are Scoped
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 3%
 >
 >응용 프로그램에 필요한 데이터 및 출처를 최대한 빨리 파악합니다. 구현 중에 더 자세한 탐색이 수행되지만 다음 시간 동안 시간을 투자하십시오. *0일* 클라이언트에서 사용하려는 데이터, 해당 데이터가 현재 저장된 위치 및 빌드 중인 애플리케이션에서 액세스할 수 있는 방법을 알아봅니다. 앞으로 발생할 수 있는 과제를 미리 개발팀에 알리는 것이 보다 원활하게 이행하는 데 도움이 될 것이다.
 
-다음에서 비디오 튜토리얼 을 참조하십시오. [프로젝트 범위 지정 시 고려 사항](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) 추가 정보.
+에서 비디오 튜토리얼 보기 [프로젝트 범위 지정 시 고려 사항](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) 추가 정보.

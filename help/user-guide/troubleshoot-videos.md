@@ -1,28 +1,24 @@
 ---
 title: 비디오 재생 구성 및 문제 해결
-seo-title: Troubleshooting Videos
-description: 이 페이지를 따라 채널에서 비디오 재생을 디버깅하고 문제를 해결하는 방법에 대해 알아보십시오.
-seo-description: Follow this page to learn how to troubleshoot videos. When you upload a video to the DAM and add it your channel, you might encounter issues that video might not play in Screens player and this section describes how to debug and troubleshoot video playing in your channel.
-uuid: 825b2440-5626-40d5-8c93-7689c24474d4
+description: AEM Screens용 채널에서 비디오 재생을 디버깅하고 문제를 해결하는 방법에 대해 알아봅니다.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
-discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '798'
+ht-degree: 1%
 
 ---
 
 # 비디오 재생 구성 및 문제 해결 {#video-playback-configuration-and-troubleshooting}
 
-DAM에 비디오를 업로드하고 채널에 추가하면 Screens 플레이어에서 비디오가 재생되지 않을 수 있는 문제가 발생할 수 있습니다.
+DAM에 비디오를 업로드하여 채널에 추가하면 AEM Screens 플레이어에서 비디오가 재생되지 않는 문제가 발생할 수 있습니다.
 
 다음 섹션에서는 채널에서 비디오가 재생되는 문제를 해결하고 디버그하는 방법에 대해 설명합니다.
 
@@ -47,7 +43,7 @@ DAM에 비디오를 업로드하고 채널에 추가하면 Screens 플레이어�
 
 ## 비디오 자산 {#video-assets}
 
-비디오에 소스 속성이 표시되지 않으면 비디오가 트랜스 코딩되지 않았을 수 있습니다. 비디오가 제대로 코드 변환되면 아래 그림과 같이 대시보드에 표시됩니다.
+비디오에 소스 속성이 표시되지 않으면 비디오가 트랜스 코딩되지 않았을 수 있습니다. 비디오가 제대로 코드 변환되면 다음과 같이 대시보드에 표시됩니다.
 
 ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
@@ -59,9 +55,9 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 테스트 비디오를 업로드하고 **확인** 코드 변환 시작
+1. 테스트 비디오를 업로드하고 **확인** 코드 변환 작업을 시작할 수 있습니다.
 
-   코드 변환이 실패할 경우 ffmpeg 출력을 확장하여 ffmpeg 콘솔 출력의 오류를 모두 이해합니다.
+   트랜스코딩된 비디오가 실패할 경우 ffmpeg 출력을 확장하여 ffmpeg의 콘솔 출력에 발생한 오류를 파악합니다.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -71,7 +67,7 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
    >[!NOTE]
    >
-   >모든 채널에 추가하기 전에 비디오가 코드 변환(처리 대신 새로운 태그가 표시되어야 함)할 충분한 시간을 주어야 합니다.
+   >채널에 추가하기 전에 비디오가 코드 변환(처리 대신 새 태그가 표시되어야 함)할 충분한 시간을 제공해야 합니다.
 
 ### 비디오 구성 요소로 프로필 확인 {#checking-profile-with-a-video-component}
 
@@ -88,18 +84,17 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 ### 웹 플레이어에서 비디오 확인 {#checking-the-video-in-the-web-player}
 
-사용 **웹 플레이어** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 를 사용하여 브라우저(Chrome 및 Safari)에서 재생의 유효성을 검사합니다. Safari가 OSX 및 iOS 브라우저인 동안 Chrome은 Android 디바이스에서 사용됩니다.
+사용 **웹 플레이어** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 를 사용하여 브라우저(Chrome 및 Safari)에서 재생의 유효성을 검사합니다. Safari가 OS X 및 iOS 브라우저인 동안 Chrome은 Android™ 디바이스에서 사용됩니다.
 
-비디오가 Safari에서 실행되지 않는 경우 OSX 및 iOS 플레이어에서 실행되지 않습니다. 이는 인코딩 문제일 수 있으며 비디오를 다시 인코딩해야 합니다.
+비디오가 Safari에서 실행되지 않는 경우 OS X 및 iOS 플레이어에서도 실행되지 않습니다. 이는 인코딩 문제일 수 있으며 비디오를 다시 인코딩해야 합니다.
 
-다음 단계에 따라 DAM 워크플로우를 사용하여 FullHD 표현물을 만듭니다.
+DAM 워크플로우를 사용하여 FullHD 렌디션을 만들려면 다음 작업을 수행하십시오.
 
-1. 다음 위치로 이동 *워크플로우 모델 관리자*, 즉 `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. 다음 위치로 이동 *워크플로우 모델 관리자* 이(가) `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. 다음 항목 선택 **화면 업데이트 자산** 모델.
-1. 클릭 **워크플로우 시작** 작업 표시줄에서 **워크플로우 실행** 대화 상자.
-
-1. 에서 비디오 에셋 선택 **페이로드**.
-1. 클릭 **실행**.
+1. 선택 **워크플로우 시작** 작업 표시줄에서
+1. 다음에서 **워크플로우 실행** 대화 상자에서 **페이로드**.
+1. 선택 **실행**.
 
 >[!NOTE]
 >
@@ -107,7 +102,7 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 #### 자동 재생 정책 플래그 문제 해결 {#troubleshooting-autoplay-policy-flag}
 
-AEM Screens 플레이어가 비디오를 선택하지만 표시되지 않는 경우 자동 재생 정책 플래그 문제를 해결해야 합니다.
+AEM Screens 플레이어가 비디오를 선택하지만 표시되지 않는 경우 자동 재생 정책 플래그 문제를 해결합니다.
 
 Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계를 따르십시오.
 
@@ -118,7 +113,7 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
 
 >[!NOTE]
 >
->Chrome의 새로운 자동 재생 정책을 통해 유용한 사용자 경험을 위한 모범 사례에 대한 자세한 내용은 다음 문서 를 참조하십시오. *자동 재생 정책 변경 사항*, 즉, `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Chrome의 새로운 자동 재생 정책을 통해 유용한 사용자 경험을 위한 모범 사례에 대한 자세한 내용은 다음 설명서를 참조하십시오. *자동 재생 정책 변경 사항* 위치: `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### 여러 플레이어에서 비디오 동기화 {#syncing-video-across-multiple-players}
 
@@ -134,9 +129,9 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
 
 절대 전략:
 
-* 앵커 시간 계산(현재 날짜의 자정)
-* 시퀀스의 기간(모든 항목의 기간 합계) 계산
-* 언제든지 sequence_remaining_time = (current_time - anchor_time) % sequence_duration 을 해결하여 현재 재생되어야 하는 항목과 다음 항목을 계산합니다.
+* 앵커 시간(현재 날짜의 자정)을 계산합니다.
+* 시퀀스의 기간(모든 항목의 기간 합계)을 계산합니다.
+* 언제든지 시퀀스 _remaining_time = (current_time - anchor_time) % sequence_duration 을 해결하여 현재 재생되어야 하는 항목과 다음 항목을 계산합니다.
 
 절대 전략을 설정하려면 아래 단계를 따르십시오.
 
@@ -149,9 +144,9 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
    >[!NOTE]
    >플레이어의 OS는 시계가 같아야 합니다.
 
-**OS X에서 시계 정렬** OSX에서 시계를 맞추려면 아래 단계를 따르십시오.
+**OS X에서 시계 정렬** OS X에서 시계를 맞추려면 아래 단계를 따르십시오.
 
-1. 열기 **날짜 및 시간** 각 OSX 상자의 환경 설정
+1. 열기 **날짜 및 시간** 각 OS X 상자의 환경 설정
 1. 확인 **날짜 및 시간을 자동으로 설정**
 1. 드롭다운에 값 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com 을 붙여넣거나 간단히 실행합니다. *sudo ntpdate -u -v 0.pool.ntp.org*
 1. 2명 이상의 플레이어 시작

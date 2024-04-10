@@ -7,9 +7,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >디스플레이에 채널을 할당하는 방법에 대해 알아보려면 를 참조하십시오. [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md).
+   >디스플레이에 채널을 할당하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](/help/user-guide/managing-displays.md).
 
 1. 다음으로 이동 **장치** 폴더 및 클릭 **장치 관리자** 을 클릭하여 장치를 등록합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >장치를 등록하는 방법에 대해 알아보려면 를 참조하십시오. [장치 등록](/help/user-guide/device-registration.md)
+   >장치를 등록하는 방법에 대해 알아보려면 다음을 참조하십시오. [장치 등록](/help/user-guide/device-registration.md)
 
 1. 이 예에서는 데모 목적으로 Chrome 장치와 Windows 플레이어를 두 개의 개별 장치로 보여 줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
    ![image1](assets/command-sync6.png)

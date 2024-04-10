@@ -2,9 +2,9 @@
 title: AEM Screens에서 적응형 표현물 사용
 description: 이 페이지에서는 AEM Screens에서 적응형 표현물을 사용하는 방법에 대해 설명합니다.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 간판 표시에 더 적합한 에셋 버전 만들기(예: ) `seahorse.jpg`.
 
-1. 렌디션 이름 지정 패턴(예: ) 선택`landscape`에서 정의된 것과 유사 **패턴** 의 속성 **CRXDE Lite**. 을(를) 참조하십시오 [렌디션 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 을 참조하십시오.
+1. 렌디션 이름 지정 패턴(예: ) 선택`landscape`에서 정의된 것과 유사 **패턴** 의 속성 **CRXDE Lite**. 다음을 참조하십시오 [렌디션 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 을 참조하십시오.
 
 1. 클릭 **렌디션 추가** 아래 그림과 같이 렌디션을 업로드합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
    ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >을(를) 참조하십시오 [온디맨드 콘텐츠 업데이트](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) 게시를 관리하고 작성자에서 게시로 콘텐츠 업데이트를 장치에 전달하는 방법에 대해 자세히 알아봅니다.
+   >다음을 참조하십시오 [온디맨드 콘텐츠 업데이트](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) 게시를 관리하고 작성자에서 게시로 콘텐츠 업데이트를 장치에 전달하는 방법에 대해 자세히 알아봅니다.
 
 
 ## 마이그레이션 전략 {#migration-strategy}

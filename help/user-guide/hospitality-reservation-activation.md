@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 예약 활성화 구현을 시작하기 전에 설정 방법을 알아두어야 합니다 ***데이터 저장소***, ***대상자 세분화*** 및 ***채널에 대한 타깃팅 활성화*** AEM Screens 프로젝트에서.
 
-을(를) 참조하십시오 [AEM Screens에서 ContextHub 구성](configuring-context-hub.md) 을 참조하십시오.
+다음을 참조하십시오 [AEM Screens에서 ContextHub 구성](configuring-context-hub.md) 을 참조하십시오.
 
 ## 기본 흐름 {#basic-flow}
 

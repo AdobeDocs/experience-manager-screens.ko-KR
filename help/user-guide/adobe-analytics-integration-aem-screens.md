@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens 클라우드 서비스 고객의 경우 Screens Cloud에서 Adobe Analytics을 활성화하려면 Adobe 관계 관리자에게 문의하십시오.
+>이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens 클라우드 서비스 고객의 경우 Adobe 관계 관리자에게 문의하여 Screens Cloud에서 Adobe Analytics을 활성화하십시오.
 
 >[!NOTE]
 >

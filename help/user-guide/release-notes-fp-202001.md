@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 4%
+source-wordcount: '307'
+ht-degree: 2%
 
 ---
 
@@ -34,25 +34,24 @@ AEM Screens 기능 팩 202001의 릴리스 날짜는 2020년 1월 31일입니다
 
 * **에셋 재생을 위한 명령 동기화**
 명령 동기화를 사용하면 여러 플레이어에서 동기화된 재생을 사용할 수 있습니다. 플레이어는 다른 콘텐츠를 재생할 수 있지만 각 에셋의 재생 시간은 동일해야 합니다.
-명령 동기화와 마스터 및 클라이언트 설정 방법에 대한 자세한 내용은 다음을 참조하십시오. [명령 동기화 사용](using-command-sync.md).
+명령 동기화와 마스터 및 클라이언트 설정 방법에 대한 자세한 내용은 [명령 동기화 사용](using-command-sync.md).
 
 * **https 상태를 표시하고 빈 레퍼러를 허용하는 상태 확인 프레임워크**
 상태 검사 프레임워크를 사용하면 AEM Screens 프로젝트를 실행하기 전에 필요한 두 가지 구성(빈 레퍼러 요청 및 Apache Felix Jetty 기반 HTTP 서비스 허용)이 설정되어 있는지 확인할 수 있습니다.
 
-   상태 확인 프레임워크에 대한 자세한 내용은 을 참조하십시오. [상태 확인 프레임워크](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+  상태 확인 프레임워크에 대한 자세한 내용은 [상태 확인 프레임워크](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **기본 전환 유형 업데이트**
-다음과 같은 전환 구성 요소의 속성 
-**유형** 이(가) (으)로 설정되어 있습니다. **페이드** 및 **기간** 다음으로: **1600밀리초**&#x200B;기본적으로 입니다.
+다음과 같은 전환 구성 요소의 속성 **유형** 이(가) (으)로 설정되어 있습니다. **페이드** 및 **기간** 다음으로: **1600밀리초**&#x200B;기본적으로 입니다.
 
-   을(를) 참조하십시오 [전환 적용](/help/user-guide/applying-transitions.md) 자세한 내용은 사용 사례 를 참조하십시오.
+  다음을 참조하십시오 [전환 적용](/help/user-guide/applying-transitions.md) 자세한 내용은 사용 사례 를 참조하십시오.
 
 
 ### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
 
 AEM 6.4 기능 팩 7 및 AEM 6.5 기능 팩 3용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
-* 크롬OS
+* ChromeOS
 * Windows
 * Android
 

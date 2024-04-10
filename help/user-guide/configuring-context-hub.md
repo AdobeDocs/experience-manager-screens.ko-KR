@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1452'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 >
 >Google Sheets는 다음 예에서 값을 가져오는 샘플 데이터베이스 시스템으로 사용되며 교육용으로만 사용됩니다. Adobe은 프로덕션 환경에 Google Sheets 사용을 보증하지 않습니다.
 >
->자세한 내용은 다음을 참조하십시오. [API 키 가져오기](https://developers.google.com/maps/documentation/javascript/get-api-key) Google 설명서에서 확인할 수 있습니다.
+>자세한 내용은 [API 키 가져오기](https://developers.google.com/maps/documentation/javascript/get-api-key) Google 설명서에서 확인할 수 있습니다.
 
 ## 1단계: 데이터 저장소 설정 {#step-setting-up-a-data-store}
 

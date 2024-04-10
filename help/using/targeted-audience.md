@@ -1,23 +1,23 @@
 ---
-title: Target 대상
+title: 타겟 대상
 seo-title: Target Audience for AEM Screens
 description: 이 페이지에서는 AEM Screens 모범 사례 안내서의 대상 사용자를 설명합니다
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 5%
+source-wordcount: '495'
+ht-degree: 4%
 
 ---
 
 
-# Target 대상 {#target-audience}
+# 타겟 대상 {#target-audience}
 
 숙련된 AEM 구현자는 *작성자*, *개발자* 및 *IT/기술자*&#x200B;라는 역할을 볼 수 있습니다.
 
 일반적인 AEM Screens 프로젝트에서는 역할 각각이 프로젝트에서 중요한 목적을 수행하므로 역할이 더욱 세분화됩니다.
 
-아래 다이어그램은 안내서 전체에서 참조할 역할을 보여 줍니다.
+아래 다이어그램은 안내서 전체에서 볼 수 있는 역할을 보여 줍니다.
 
 ![](/help/assets/roles-used.png)
 

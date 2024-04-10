@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -97,7 +97,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
    <td><strong>권한</strong></td>
   </tr>
   <tr>
-   <td>화면 관리자<br /> <em>screens-admin</em></td>
+   <td>화면 관리자<br /> <em><code>screens-admins</code></em></td>
    <td>AEM Screens 기능에 대한 관리자 수준 액세스</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
     </ul> </td>
   </tr>
   <tr>
-   <td>화면 사용자<br /> <em>screens-users</em></td>
+   <td>화면 사용자<br /> <em><code>screens-users</code></em></td>
    <td>AEM Screens에서 채널 및 일정을 만들고 업데이트하며 위치를 지정합니다.</td>
    <td>
     <ul>
      <li>기여자 구성원</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens 연산자<br /> <em>screens-operators</em></td>
+   <td>Screens 연산자<br /> <em><code>screens-operators</code></em></td>
    <td>AEM Screens에서 위치 구조 만들기 및 업데이트 및 플레이어 등록</td>
    <td>
     <ul>
      <li>기여자 구성원</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>스크린 플레이어<br /> <em>screens-&lt;project&gt;-디바이스</em></td>
+   <td>스크린 플레이어<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>모든 플레이어 및 모든 플레이어/장치를 그룹화하면 자동으로 기여자의 구성원이 됩니다.</td>
    <td><p> 기여자 구성원</p> </td>
   </tr>

@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    다음 위치에 형식을 입력합니다. **Mime 유형** (as) ***video/mp4***) 및 (***/usr/local/Cellar/ffmpeg -i $(으)로 명령{filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) (으)로 이동하여 **명령** 필드.
 
-   다음에 대한 세부 사항을 참조하십시오. **Mime 유형** 및 **명령** 아래 참고 사항에서.
+   다음에 대한 세부 사항 보기 **Mime 유형** 및 **명령** 아래 참고 사항에서.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 

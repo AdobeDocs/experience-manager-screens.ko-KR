@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 >Dispatcher가 없는 경우 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
 
 AEM Screens 프로젝트에 대해 Dispatcher를 구성하려면 먼저 Dispatcher에 대한 사전 지식이 있어야 합니다.
-을(를) 참조하십시오 [Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 을 참조하십시오.
+다음을 참조하십시오 [Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 을 참조하십시오.
 
 ## 매니페스트 버전 v2에 대한 Dispatcher 구성 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->다음 Dispatcher 구성은 매니페스트 버전 v2에만 적용됩니다. 을(를) 참조하십시오 [매니페스트 버전 v3에 대한 Dispatcher 구성](#configuring-dispatcherv3) 매니페스트 버전 v3용
+>다음 Dispatcher 구성은 매니페스트 버전 v2에만 적용됩니다. 다음을 참조하십시오 [매니페스트 버전 v3에 대한 Dispatcher 구성](#configuring-dispatcherv3) 매니페스트 버전 v3용
 
 AEM Screens 플레이어 또는 장치는 인증된 세션을 사용하여 게시 인스턴스의 리소스에도 액세스합니다. 따라서 게시 인스턴스가 여러 개 있는 경우 인증된 세션이 AEM Screens 플레이어/장치에서 발생하는 모든 요청에 대해 유효하도록 요청이 항상 동일한 게시 인스턴스로 이동해야 합니다.
 

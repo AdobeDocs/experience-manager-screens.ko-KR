@@ -1,9 +1,9 @@
 ---
 title: 직접 배치 워크플로 구성
 description: 이 페이지에서는 직접 배치 워크플로우 구성을 중점적으로 다룹니다.
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---

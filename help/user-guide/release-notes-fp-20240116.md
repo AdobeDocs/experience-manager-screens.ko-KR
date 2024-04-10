@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '154'
 ht-degree: 5%
 
 ---
@@ -39,4 +39,4 @@ AEM Screens 기능 팩 202204의 릴리스 날짜는 2024년 1월 16일입니다
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하려면 다음을 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens 플레이어를 다운로드하려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

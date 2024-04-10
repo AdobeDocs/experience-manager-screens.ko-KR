@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1258'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ AEM Screens에 대한 프로젝트를 만든 후 아래 단계에 따라 프로�
 1. 클릭 **편집** 채널 속성을 편집할 수 있도록 작업 표시줄의 왼쪽 상단 모서리에서 게시할 채널에 에셋/구성 요소를 추가할 수 있는 편집기가 열립니다.
 
 >[!NOTE]
->채널에 구성 요소를 추가할 수 있습니다. 을(를) 참조하십시오 **[채널에 구성 요소 추가](adding-components-to-a-channel.md)** 을 참조하십시오.
+>채널에 구성 요소를 추가할 수 있습니다. 다음을 참조하십시오 **[채널에 구성 요소 추가](adding-components-to-a-channel.md)** 을 참조하십시오.
 
 ![demochannel1](assets/demochannel1.gif)
 

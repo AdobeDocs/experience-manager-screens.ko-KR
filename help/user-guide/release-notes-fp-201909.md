@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -30,13 +30,13 @@ AEM Screens 기능 팩 201909의 릴리스 날짜는 2019년 10월 7일입니다
 
   이제 AEM Screens 프로젝트를 만들기 위한 업데이트된 사용자 인터페이스를 사용할 수 있습니다. 몇 번의 클릭만으로 Screens 프로젝트를 만들 수 있습니다. 또한 각 프로젝트의 속성 탭에 보다 직관적인 사용자 인터페이스가 제공됩니다.
 
-  을(를) 참조하십시오 [새 Screens 프로젝트 만들기](creating-a-screens-project.md) 을 참조하십시오.
+  다음을 참조하십시오 [새 Screens 프로젝트 만들기](creating-a-screens-project.md) 을 참조하십시오.
 
 * **향상된 장치 대시보드**
 
   장치 대시보드에는 장치 활동 및 기능을 모니터링할 수 있는 장치 정보, 상태, 스크린샷, 로그, 환경 설정 및 장치 세부 정보가 표시됩니다. 이제 패널이 업데이트됩니다.
 
-  을(를) 참조하십시오 [장치 제어 센터 문제 해결](monitoring-screens.md) 을 참조하십시오.
+  다음을 참조하십시오 [장치 제어 센터 문제 해결](monitoring-screens.md) 을 참조하십시오.
 
 * **키보드 상호 작용을 허용하는 시간 제한 활성화됨**
 
@@ -45,7 +45,7 @@ AEM Screens 기능 팩 201909의 릴리스 날짜는 2019년 10월 7일입니다
 * **경험 조각의 오프라인 구성**
 
   이제 Screens 경험 조각을 구성하는 동안 오프라인 구성(클라이언트측 라이브러리 및 정적 파일)을 추가할 수 있습니다.
-을(를) 참조하십시오 [경험 조각 사용](experience-fragments-in-screens.md) 을 참조하십시오.
+다음을 참조하십시오 [경험 조각 사용](experience-fragments-in-screens.md) 을 참조하십시오.
 
 ### 릴리스된 AEM Screens 플레이어
 
