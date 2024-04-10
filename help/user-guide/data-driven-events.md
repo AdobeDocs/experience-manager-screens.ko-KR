@@ -1,15 +1,12 @@
 ---
 title: 데이터 기반 이벤트
-seo-title: Data Driven Events
 description: null
-seo-description: null
 page-status-flag: never-activated
-uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 ## 데이터 기반 이벤트에 Context Hub 사용 {#using-context-hub-for-data-driven-events}
 
-AEM Screens은 Context Hub를 통해 데이터 기반 이벤트를 활성화합니다. Context Hub를 통해 실시간으로 사용할 수 있습니다.
+AEM Screens은 Context Hub를 통해 데이터 기반 이벤트를 활성화합니다. Context Hub를 사용하면 실시간으로 사용할 수 있습니다.
 
 ### 데이터 기반 이벤트 분류 {#categorizing-data-driven-events}
 

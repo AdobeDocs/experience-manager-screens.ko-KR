@@ -1,23 +1,19 @@
 ---
 title: 벌크 오프라인 업데이트
-seo-title: Bulk Offline Update
-description: 모든 채널을 일괄적으로 업데이트하는 방법을 알려면 이 페이지를 따르십시오.
-seo-description: Follow this page to learn how you can update all the channels in bulk.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: 모든 채널을 일괄적으로 업데이트하는 방법을 알아봅니다.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 3%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +24,12 @@ ht-degree: 3%
 * **개요**
 * **벌크 오프라인 업데이트 사용**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->이 AEM Screens 기능은 AEM 6.3 기능 팩 3 또는 AEM 6.4 Screens 기능 팩 1을 설치한 경우에만 사용할 수 있습니다.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->이 기능 팩에 액세스하려면 Adobe 지원에 문의하고 액세스를 요청해야 합니다. 권한이 있으면 패키지 공유에서 다운로드할 수 있습니다.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## 개요 {#overview}
 
@@ -53,7 +50,7 @@ UI(사용자 인터페이스)에서 수동으로 벌크 오프라인 업데이�
 AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하려면 아래 단계를 따르십시오.
 
 1. AEM Screens 프로젝트로 이동합니다.
-1. 프로젝트를 선택하고 **오프라인 컨텐츠 업데이트** 을 클릭하여 채널 콘텐츠를 수동으로 업데이트합니다.
+1. 프로젝트를 선택한 다음 을 선택합니다. **오프라인 컨텐츠 업데이트** 수동으로 채널 콘텐츠를 업데이트할 수 있도록 작업 표시줄에서 을 클릭합니다.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -78,4 +75,4 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
 
    **일정 빈도** 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5시 또는 17시)을 지정합니다.
 
-1. 클릭 **저장** 설정을 저장하면 콘텐츠가 지정된 시간에 업데이트됩니다.
+1. 선택 **저장** 설정을 저장합니다. 콘텐츠가 지정된 시간에 업데이트됩니다.

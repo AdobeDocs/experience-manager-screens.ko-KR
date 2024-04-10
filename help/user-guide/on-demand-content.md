@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 게시 관리: 작성자에서 게시로 콘텐츠 업데이트를 장치에 전달 {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니다. 게시 관리 기능을 사용하면 작성자에서 게시로 콘텐츠 업데이트를 장치에 전달할 수 있습니다. 전체 AEM Screens 프로젝트에 대한 콘텐츠 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대한 콘텐츠만 게시/게시 취소할 수 있습니다.
+AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니다. 게시 관리 기능을 사용하면 작성자에서 게시로 콘텐츠 업데이트를 장치에 제공할 수 있습니다. 전체 AEM Screens 프로젝트에 대한 콘텐츠 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대한 콘텐츠만 게시/게시 취소할 수 있습니다.
 
 ### AEM Screens 프로젝트에 대한 게시 관리 {#managing-publication-for-an-aem-screens-project}
 

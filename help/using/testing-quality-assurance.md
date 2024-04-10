@@ -1,13 +1,11 @@
 ---
 title: 테스트 및 품질 보증
-seo-title: Testing and Quality Assurance for AEM Screens
-description: 이 페이지에서는 AEM Screens 우수 사례 안내서의 테스트 및 품질 보증에 대해 설명합니다
-seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+description: 모범 사례 안내서에서 AEM Screens에 대한 테스트 및 품질 보증에 대해 알아봅니다.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +14,7 @@ ht-degree: 2%
 >[!NOTE]
 >이 활동의 일반적인 이해 당사자는 A/V 통합자입니다.
 
-디지털 간판 네트워크의 실제 배포에 가까워지면 모든 하드웨어 구성 요소, 모든 소프트웨어 구성 요소 및 모든 네트워킹 구성 요소를 포함한 네트워크의 모든 요소를 해결하는 테스트 및 QA 계획을 만들어야 합니다.
+디지털 사이니지 네트워크의 배포가 가까워지면 모든 하드웨어 구성 요소, 모든 소프트웨어 구성 요소, 모든 네트워킹 구성 요소를 포함한 네트워크의 모든 요소를 해결하는 테스트 및 QA 계획을 만듭니다.
 이 단계에서는 전체 테스트 시스템을 구축하고 완전히 테스트해야 합니다.
 
 이전에 정의한 모든 KPI를 식별하고 이에 대해 결과물을 측정하는 체크리스트를 작성해야 합니다.
@@ -60,28 +58,28 @@ AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 �
 1. 콘텐츠 다운로드 관리
 1. 응용 프로그램 다시 시작 문제 관리
 
-에 대해 자세히 알아보려면 ***장치 제어 센터***, 참조 [장치 제어 센터 문제 해결](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 위치: **AEM Screens 사용 안내서**.
+에 대해 자세히 알아보려면 ***장치 제어 센터***, 참조 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 위치: **AEM Screens 사용 안내서**.
 
 >[!CAUTION]
 >
-> Device Control Center 를 사용하여 다음을 수행할 수 없습니다.
-> 1. 플레이어 애플리케이션의 새 버전 설치
-> 1. 시스템 수준 리소스 모니터링
-> 1. 시스템 수준 오류 문제 해결
-> 1. 원격 데스크톱 작업 허용
-
+>Device Control Center 를 사용하여 다음을 수행하지 마십시오.
+>
+>* 플레이어 애플리케이션의 새 버전 설치
+>* 시스템 수준 리소스 모니터링
+>* 시스템 수준 오류 문제 해결
+>* 원격 데스크톱 작업 허용
 
 
 >[!NOTE]
 >
-> Adobe은 모든 배포에 전용 타사 장치 관리 플랫폼을 사용해야 합니다.
+> Adobe은 모든 배포에 전용 타사 장치 관리 플랫폼을 사용할 것을 권장합니다.
 
-선택한 특정 플랫폼은 다음을 포함한 여러 요인에 따라 다릅니다. ***대상 운영 체제***, ***프로젝트 요구 사항*** 및 ***끝점 수***.
+선택한 특정 플랫폼은 다음을 포함한 몇 가지 요인에 따라 다릅니다. ***대상 운영 체제***, ***프로젝트 요구 사항***, 및 ***끝점 수***.
 
 몇 가지 예는 다음과 같습니다.
 
 * Google Chrome 장치 관리
 * TeamViewer
 * 에어워치
-* 42Gears
+* `42Gears`
 * 독점 AV 통합업체 미들웨어

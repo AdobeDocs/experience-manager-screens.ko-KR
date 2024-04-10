@@ -1,18 +1,15 @@
 ---
 title: 서비스로서의 콘텐츠 업데이트
-seo-title: Content Update As a Service
-description: 이 페이지를 따라 Content Update As A Service에 대해 알아보십시오.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Content Update as a Service에 대해 알아봅니다.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 3%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +20,12 @@ ht-degree: 3%
 * **개요**
 * **벌크 오프라인 업데이트 사용**
 
+<!--
 >[!CAUTION]
 >
->이 AEM Screens 기능은 AEM 6.3 기능 팩 3 또는 AEM 6.4 Screens 기능 팩 1을 설치한 경우에만 사용할 수 있습니다.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->이 기능 팩에 액세스하려면 Adobe 지원에 문의하고 액세스를 요청해야 합니다. 권한이 있으면 패키지 공유에서 다운로드할 수 있습니다.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## 개요 {#overview}
 
@@ -73,4 +71,4 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
 
    **일정 빈도** 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5시 또는 17시)을 지정합니다.
 
-1. 클릭 **저장** 설정을 저장하면 콘텐츠가 지정된 시간에 업데이트됩니다.
+1. 선택 **저장** 설정을 저장할 수 있습니다. 모든 콘텐츠는 지정된 시간에 업데이트됩니다.

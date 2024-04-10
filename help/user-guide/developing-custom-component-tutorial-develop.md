@@ -1,21 +1,17 @@
 ---
 title: AEM Screens용 맞춤형 구성 요소 개발
-seo-title: Developing a Custom Component for AEM Screens
-description: 다음 자습서에서는 AEM Screens에 대한 사용자 지정 구성 요소를 만드는 단계를 안내합니다. AEM Screens은 다른 AEM 제품의 많은 기존 디자인 패턴과 기술을 재사용합니다. 이 튜토리얼에서는 AEM Screens용 을 개발할 때 차이점과 특별한 고려 사항을 강조 표시합니다.
-seo-description: An introductory tutorial to build a simple "Hello World" component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The following tutorial intends to highlight the specific differences and considerations when developing for AEM Screens.
-uuid: 8ec8be5a-6348-48f2-9cb7-75b2bad555a6
+description: AEM Screens용 사용자 지정 구성 요소를 만드는 방법을 알아봅니다.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '2207'
+source-wordcount: '2135'
 ht-degree: 1%
 
 ---
@@ -34,17 +30,17 @@ ht-degree: 1%
 
 이 자습서를 완료하려면 다음 항목이 필요합니다.
 
-1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) 또는 [AEM 6.3](https://helpx.adobe.com/kr/experience-manager/6-3/release-notes.html) + 최신 Screens 기능 팩
+1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) 여기에 최신 Screens 기능 팩도 포함되어 있습니다.
 
-1. [AEM Screens 플레이어](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [AEM Screens 플레이어](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. 로컬 개발 환경
 
-튜토리얼 단계 및 스크린샷은 다음을 사용하여 수행됩니다. **CRXDE-Lite**. IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 개발하는 방법에 대한 자세한 정보 [AEM과 함께 여기에서 찾을 수 있습니다.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
+튜토리얼 단계 및 스크린샷은 다음을 사용하여 수행됩니다. **CRXDE-Lite**. IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 개발하는 방법에 대한 자세한 정보 [AEM과 함께 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
 
 
 ## 프로젝트 설정 {#project-setup}
 
-Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프로젝트로 관리됩니다. 튜토리얼을 신속하게 수행하기 위해 다음을 사용하여 프로젝트가 사전 생성되었습니다. [AEM Project Archetype 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). 에 대한 추가 세부 정보 [maven AEM Project Archetype으로 프로젝트를 만드는 방법은 여기에서 확인할 수 있습니다.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
+Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프로젝트로 관리됩니다. 튜토리얼을 신속하게 수행하기 위해 다음을 사용하여 프로젝트가 사전 생성되었습니다. [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). 에 대한 추가 세부 정보 [maven AEM Project Archetype으로 프로젝트를 만드는 방법은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. 다음을 사용하여 다음 패키지를 다운로드하여 설치합니다. [CRX 패키지 관리자](http://localhost:4502/crx/packmgr/index.jsp):
 
@@ -55,32 +51,32 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    **`mvn -PautoInstallPackage clean install`**
 
-   HelloWorld SRC Screens We.Retail 프로젝트 시작
+   HelloWorld SRC 화면 시작 `We.Retail` 프로젝트 실행.
 
 [파일 가져오기](assets/src-screens-weretail-run.zip)
 
-1. 위치 [CRX 패키지 관리자](http://localhost:4502/crx/packmgr/index.jsp) 다음 두 패키지가 설치되었는지 확인합니다.
+1. 위치 [CRX 패키지 관리자](http://localhost:4502/crx/packmgr/index.jsp), 다음 두 패키지가 설치되었는지 확인합니다.
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
    ![Screens We.Retail에서는 CRX 패키지 관리자를 통해 설치된 Ui.Apps 및 Ui.Content 패키지를 실행합니다.](assets/crx-packages.png)
 
-   Screens We.Retail에서는 CRX 패키지 관리자를 통해 설치된 Ui.Apps 및 Ui.Content 패키지를 실행합니다.
+   스크린 `We.Retail` 실행 `Ui.Apps` 및 `Ui.Content` crx 패키지 관리자를 통해 설치된 패키지.
 
 1. 다음 **screens-weretail-run.ui.apps** 패키지 설치 코드 `/apps/weretail-run`.
 
-   이 패키지에는 프로젝트에 대한 사용자 지정 구성 요소를 렌더링하는 코드를 포함합니다. 이 패키지에는 구성 요소 코드와 필요한 JavaScript 또는 CSS가 포함되어 있습니다. 이 패키지는 또한 임베드됩니다 **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** 프로젝트에 필요한 Java 코드가 들어 있습니다.
+   이 패키지에는 프로젝트에 대한 사용자 지정 구성 요소를 렌더링하는 코드를 포함합니다. 이 패키지에는 구성 요소 코드와 필요한 JavaScript 또는 CSS가 포함되어 있습니다. 이 패키지는 또한 임베드됩니다 **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** 프로젝트에 필요한 Java™ 코드가 포함되어 있습니다.
 
    >[!NOTE]
    >
-   >이 자습서에서는 Java 코드가 기록되지 않습니다. 보다 복잡한 비즈니스 논리가 필요한 경우 Core Java 번들을 사용하여 백엔드 Java를 만들고 배포할 수 있습니다.
+   >이 자습서에서는 Java™ 코드가 작성되지 않습니다. 보다 복잡한 비즈니스 논리가 필요한 경우 Core Java™ 번들을 사용하여 백엔드 Java™을 만들고 배포할 수 있습니다.
 
    ![CRXDE Lite의 ui.apps 코드 표현](assets/uipps-contents.png)
 
    CRXDE Lite의 ui.apps 코드 표현
 
-   다음 **태양계** 구성 요소는 현재 자리 표시자에 불과합니다. 자습서 과정 중에 작성자가 구성 요소에서 표시하는 메시지를 업데이트할 수 있는 기능이 추가됩니다.
+   다음 **헬로 월드** 구성 요소는 자리 표시자일 뿐입니다. 자습서 과정에서 작성자가 구성 요소에서 표시하는 메시지를 업데이트할 수 있는 기능이 추가되었습니다.
 
 1. 다음 **screens-weretail-run.ui.content** 패키지 설치 코드:
 
@@ -88,11 +84,11 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   이 패키지에는 프로젝트에 필요한 시작 콘텐츠 및 구성 구조가 포함되어 있습니다. **`/conf/we-retail-run`** We.Retail 실행 프로젝트에 대한 모든 구성을 포함합니다. **`/content/dam/we-retail-run`** 에는 프로젝트에 대한 디지털 에셋 시작이 포함됩니다. **`/content/screens/we-retail-run`** 에는 Screens 콘텐츠 구조가 포함되어 있습니다. 이러한 모든 경로 아래의 콘텐츠는 주로 AEM에서 업데이트됩니다. 환경(로컬, 개발, 스테이지, 프로덕션) 간의 일관성을 향상시키기 위해 기본 콘텐츠 구조가 소스 제어에 저장되는 경우가 많습니다.
+   이 패키지에는 프로젝트에 필요한 시작 콘텐츠 및 구성 구조가 포함되어 있습니다. **`/conf/we-retail-run`** 에 대한 모든 구성을 포함합니다. `We.Retail` 프로젝트를 실행합니다. **`/content/dam/we-retail-run`** 에는 프로젝트에 대한 디지털 에셋 시작이 포함됩니다. **`/content/screens/we-retail-run`** 에는 Screens 콘텐츠 구조가 포함되어 있습니다. 이러한 모든 경로 아래의 콘텐츠는 주로 AEM에서 업데이트됩니다. 환경(로컬, 개발, 스테이지, 프로덕션) 간의 일관성을 향상시키기 위해 기본 콘텐츠 구조가 소스 제어에 저장되는 경우가 많습니다.
 
-1. **AEM Screens > We.Retail 실행 프로젝트로 이동합니다.**
+1. **AEM Screens > 로 이동합니다. `We.Retail` 프로젝트 실행:**
 
-   AEM 시작 메뉴 > Screens 아이콘을 클릭합니다. We.Retail 실행 프로젝트가 표시되는지 확인합니다.
+   AEM 시작 메뉴에서 화면 아이콘을 선택합니다. 확인 `We.Retail` 프로젝트 실행이 표시됩니다.
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -103,7 +99,7 @@ Hello World 구성 요소는 사용자가 화면에 표시할 메시지를 입�
 AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아닌 몇 가지 흥미로운 제한 사항이 있습니다.
 
 * 대부분의 Screens 구성 요소는 대상 디지털 사이니지 장치에서 전체 화면으로 실행해야 합니다.
-* 슬라이드쇼를 생성하려면 대부분의 Screens 구성 요소를 시퀀스 채널에 임베드할 수 있어야 합니다
+* 슬라이드쇼를 생성하려면 대부분의 Screens 구성 요소를 시퀀스 채널에 포함할 수 있어야 합니다.
 * 작성을 사용하면 시퀀스 채널에서 개별 구성 요소를 편집할 수 있으므로 전체 화면으로 렌더링하는 것은 적절하지 않습니다
 
 1. 위치 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (또는 선택한 IDE) 다음 위치로 이동 `/apps/weretail-run/components/content/helloworld.`
@@ -120,7 +116,7 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
 
    /apps/weretail-run/components/content/helloworld에 대한 속성
 
-   다음 **태양계** 구성 요소가 **foundation/components/parbase** 구성 요소를 사용하여 시퀀스 채널 내에서 적절하게 사용할 수 있습니다.
+   다음 **헬로 월드** 구성 요소가 **foundation/components/parbase** 구성 요소를 사용하여 시퀀스 채널 내에서 적절하게 사용할 수 있습니다.
 
 1. 아래에 파일 만들기 `/apps/weretail-run/components/content/helloworld` 명명된 `helloworld.html.`
 
@@ -140,12 +136,12 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Screens 구성 요소에는 각 구성 요소에 따라 두 개의 서로 다른 렌더링 필요 [작성 모드](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) 사용 중:
+   Screens 구성 요소에는 각 구성 요소에 따라 두 개의 서로 다른 렌더링 필요 [작성 모드](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/authoring/author-environment-tools) 사용 중:
 
    1. **프로덕션**: 미리보기 또는 게시 모드(wcmmode=disabled)
    1. **편집**: 편집, 디자인, 스캐폴딩, 개발자 등 기타 모든 작성 모드에 사용됩니다.
 
-   `helloworld.html`스위치 역할을 하여 현재 활성화된 작성 모드를 확인하고 다른 HTL 스크립트로 리디렉션합니다. Screens 구성 요소에서 사용하는 일반적인 규칙은 `edit.html` 편집 모드 및 `production.html` 프로덕션 모드에 대한 스크립트입니다.
+   `helloworld.html`스위치 역할을 하여 활성화된 작성 모드를 확인하고 다른 HTL 스크립트로 리디렉션합니다. Screens 구성 요소에서 사용하는 일반적인 규칙은 `edit.html` 편집 모드 및 `production.html` 프로덕션 모드에 대한 스크립트입니다.
 
 1. 아래에 파일 만들기 `/apps/weretail-run/components/content/helloworld` 명명된 `production.html.`
 
@@ -162,11 +158,11 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    </div>
    ```
 
-   다음은 Hello World 구성 요소에 대한 프로덕션 마크업입니다. A `data-duration` 구성 요소가 시퀀스 채널에서 사용되므로 속성이 포함됩니다. 다음 `data-duration` 속성은 시퀀스 항목이 표시되는 기간을 알기 위해 시퀀스 채널에서 사용됩니다.
+   위의 내용은 Hello World 구성 요소에 대한 프로덕션 마크업입니다. A `data-duration` 구성 요소가 시퀀스 채널에서 사용되므로 속성이 포함됩니다. 다음 `data-duration` 속성은 시퀀스 항목이 표시되는 기간을 알기 위해 시퀀스 채널에서 사용됩니다.
 
-   구성 요소는 를 렌더링합니다. `div` 및 `h1` 텍스트가 있는 태그. `${properties.message}` 는 JCR 속성의 컨텐츠를 출력하는 HTL 스크립트의 일부입니다. `message`. 사용자가 다음에 대한 값을 입력할 수 있는 대화 상자가 만들어집니다. `message` 속성 텍스트입니다.
+   구성 요소는 를 렌더링합니다. `div` 및 `h1` 텍스트가 있는 태그. `${properties.message}` 는 이라는 JCR 속성의 컨텐츠를 출력하는 HTL 스크립트의 일부입니다 `message`. 사용자가 다음에 대한 값을 입력할 수 있는 대화 상자가 만들어집니다. `message` 속성 텍스트입니다.
 
-   또한 구성 요소에는 BEM(블록 요소 수정자) 표기법이 사용됩니다. BEM은 재사용 가능한 구성 요소를 쉽게 만들 수 있는 CSS 코딩 규칙입니다. BEM은 다음에 의해 사용되는 표기법입니다. [AEM 핵심 구성 요소](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   또한 구성 요소에는 BEM(블록 요소 수정자) 표기법이 사용됩니다. BEM은 재사용 가능한 구성 요소를 쉽게 만들 수 있는 CSS 코딩 규칙입니다. BEM은 다음에 의해 사용되는 표기법입니다. [AEM 핵심 구성 요소](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. 아래에 파일 만들기 `/apps/weretail-run/components/content/helloworld` 명명된 `edit.html.`
 
@@ -193,9 +189,9 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    </div>
    ```
 
-   위의 는 Hello World 구성 요소에 대한 편집 마크업입니다. 대화 상자 메시지가 채워진 경우 첫 번째 블록에는 구성 요소의 편집 버전이 표시됩니다.
+   이상은 Hello World 구성 요소에 대해 편집된 마크업입니다. 대화 상자 메시지가 채워진 경우 첫 번째 블록에는 구성 요소의 편집된 버전이 표시됩니다.
 
-   두 번째 블록은 대화 메시지를 입력하지 않은 경우 렌더링됩니다. 다음 `cq-placeholder` 및 `data-emptytext` 레이블 렌더링 ***헬로 월드*** 그 경우에 장소 보유자로서. 레이블의 문자열은 여러 로케일에서 작성을 지원하기 위해 i18n을 사용하여 국제화할 수 있습니다.
+   두 번째 블록은 대화 메시지를 입력하지 않은 경우 렌더링됩니다. 다음 `cq-placeholder` 및 `data-emptytext` 레이블 렌더링 ***헬로 월드*** 그 경우에 장소 보유자로서. 레이블의 문자열은 i18n을 사용하여 다국어로 구성하여 여러 로케일에서 작성할 수 있습니다.
 
 1. **Hello World 구성 요소에 사용할 Screens 이미지 대화 상자 복사**
 
@@ -253,7 +249,7 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
                                    jcr:primaryType="nt:unstructured"
                                    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                                    defaultValue=""
-                                   fieldDescription="Amount of time the image will be shown in the sequence, in milliseconds"
+                                   fieldDescription="Amount of time the image is shown in the sequence, in milliseconds"
                                    fieldLabel="Duration (ms)"
                                    min="0"
                                    name="./duration"/>
@@ -266,7 +262,7 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    </jcr:root>
    ```
 
-   메시지의 텍스트 필드가 다음 속성에 저장됩니다. `message` 기간 필드의 숫자 필드가 `duration`. 이 두 속성은에서 모두 참조됩니다 `/apps/weretail-run/components/content/helloworld/production.html` HTL별 `${properties.message}` 및 `${properties.duration}`.
+   메시지의 텍스트 필드는 이라는 속성에 저장됩니다. `message` 기간 숫자 필드가 다음 속성에 저장됨 `duration`. 이 두 속성은에서 모두 참조됩니다 `/apps/weretail-run/components/content/helloworld/production.html` HTL별 `${properties.message}` 및 `${properties.duration}`.
 
    ![Hello World - 완료된 대화 상자](assets/2018-04-29_at_5_21pm.png)
 
@@ -276,15 +272,15 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
 
 클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다.
 
-AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드에서 다르게 렌더링됩니다. 두 개의 클라이언트 라이브러리가 생성되며, 하나는 편집 모드용이고 다른 하나는 미리보기/프로덕션용입니다.
+AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드에서 다르게 렌더링됩니다. 두 개의 클라이언트 라이브러리가 만들어집니다(하나는 편집 모드용, 두 번째는 미리보기/프로덕션용).
 
 1. Hello World 구성 요소의 클라이언트측 라이브러리에 대한 폴더를 만듭니다.
 
-   아래에 `/apps/weretail-run/components/content/helloworld`(이)라는 이름의 새 폴더 만들기 `clientlibs`.
+   아래에 `/apps/weretail-run/components/content/helloworld`, 폴더 만들기 `clientlibs`.
 
    ![2018-04-30_at_1046am](assets/2018-04-30_at_1046am.png)
 
-1. 아래 `clientlibs` 폴더 (이)라는 이름의 새 노드 만들기 `shared` 유형 `cq:ClientLibraryFolder.`
+1. 아래 `clientlibs` 폴더, 다음 이름의 노드 만들기 `shared` 유형 `cq:ClientLibraryFolder`.
 
    ![2018-04-30_at_1115am](assets/2018-04-30_at_1115am.png)
 
@@ -338,19 +334,19 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
    }
    ```
 
-1. 복사 및 붙여넣기 `shared` 클라이언트 라이브러리 폴더를 사용하여 새 클라이언트 라이브러리를 만듭니다. `production`.
+1. 복사 및 붙여넣기 `shared` 클라이언트 라이브러리 폴더를 사용하여 이름이 인 클라이언트 라이브러리를 만듭니다. `production`.
 
    ![공유 클라이언트 라이브러리를 복사하여 새 프로덕션 클라이언트 라이브러리를 만듭니다.](assets/copy-clientlib.gif)
 
-   공유 클라이언트 라이브러리를 복사하여 새 프로덕션 클라이언트 라이브러리를 만듭니다.
+   공유 클라이언트 라이브러리를 복사하여 프로덕션 클라이언트 라이브러리를 만듭니다.
 
-1. 업데이트 `categories` 생성할 프로덕션 클라이언트 라이브러리의 속성입니다. `cq.screens.components.production.`
+1. 업데이트 `categories` 다음이 될 프로덕션 클라이언트 라이브러리의 속성 `cq.screens.components.production.`
 
    이렇게 하면 미리 보기/프로덕션 모드일 때만 스타일이 로드됩니다.
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/production용 속성](assets/2018-04-30_at_5_04pm.png)
 
-   /apps/weretail-run/components/content/helloworld/clientlibs/production용 속성
+   속성 `/apps/weretail-run/components/content/helloworld/clientlibs/production`.
 
 1. 채우기 `/apps/weretail-run/components/content/helloworld/clientlibs/production/css/styles.less` 다음을 사용하여:
 
@@ -375,9 +371,9 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
    }
    ```
 
-   위의 스타일은 메시지를 화면 중앙의 가운데에 표시하지만 프로덕션 모드에서만 표시합니다.
+   위의 스타일은 메시지를 화면 가운데에 표시하지만 프로덕션 모드에서만 표시합니다.
 
-세 번째 clientlibrary 범주: `cq.screens.components.edit` 편집 전용 스타일을 구성 요소에 추가하는 데 사용할 수 있습니다.
+세 번째 클라이언트 라이브러리 범주: `cq.screens.components.edit` 편집 전용 스타일을 구성 요소에 추가하는 데 사용할 수 있습니다.
 
 | Clientlib 범주 | 사용 |
 |---|---|
@@ -387,31 +383,31 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
 ## 디자인 페이지 만들기 {#design-page}
 
-AEM Screens 사용 [정적 페이지 템플릿](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) 및 [디자인 구성](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) 글로벌 변경 사항. 디자인 구성은 채널에서 Parsys에 대해 허용되는 구성 요소를 구성하는 데 자주 사용됩니다. 가장 좋은 방법은 이러한 구성을 앱별 방법으로 저장하는 것입니다.
+AEM Screens 사용 [정적 페이지 템플릿](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) 및 [디자인 구성](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) 글로벌 변경 사항. 디자인 구성은 채널에서 Parsys에 대해 허용되는 구성 요소를 구성하는 데 자주 사용됩니다. 가장 좋은 방법은 이러한 구성을 앱별 방법으로 저장하는 것입니다.
 
-We.Retail 실행 프로젝트에 관련된 모든 구성을 저장하는 We.Retail 실행 디자인 페이지 아래에 만들어집니다.
+아래 `We.Retail` 에 해당되는 모든 구성을 저장하는 디자인 실행 페이지가 만들어집니다. `We.Retail` 프로젝트를 실행합니다.
 
-1. 위치 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs` 다음으로 이동 `/apps/settings/wcm/designs`
-1. 디자인 폴더 아래에 (이)라는 이름의 새 노드 만들기 `we-retail-run` 다음 유형의 `cq:Page`.
+1. 위치 **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs`, 다음으로 이동 `/apps/settings/wcm/designs`.
+1. 디자인 폴더 아래에 다음 이름의 노드를 만듭니다. `we-retail-run` 다음 유형의 `cq:Page`.
 1. 아래 `we-retail-run` 페이지, 이름이 인 다른 노드 추가 `jcr:content` 유형 `nt:unstructured`. 에 다음 속성을 추가합니다 `jcr:content` 노드:
 
    | 이름 | 유형 | 값 |
    |---|---|---|
-   | jcr:title | 문자열 | We.Retail 실행 |
-   | sling:resourceType | 문자열 | wcm/core/components/designer |
-   | cq:doctype | 문자열 | html_5 |
+   | `jcr:title` | 문자열 | `We.Retail` 실행 |
+   | `sling:resourceType` | 문자열 | wcm/core/components/designer |
+   | `cq:doctype` | 문자열 | html_5 |
 
    ![/apps/settings/wcm/designs/we-retail-run의 디자인 페이지](assets/2018-05-07_at_1219pm.png)
 
-   /apps/settings/wcm/designs/we-retail-run의 디자인 페이지
+   다음 위치에 페이지 디자인: `/apps/settings/wcm/designs/we-retail-run`.
 
 ## 시퀀스 채널 만들기 {#create-sequence-channel}
 
-Hello World 구성 요소는 시퀀스 채널에서 사용하기 위한 것입니다. 구성 요소를 테스트하기 위해 새 시퀀스 채널이 만들어집니다.
+Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요소를 테스트하기 위해 새 시퀀스 채널이 만들어집니다.
 
-1. AEM 시작 메뉴에서 다음 위치로 이동합니다. **스크린** > **We.Retail Ru** n > 및 선택 **채널**.
+1. AEM 시작 메뉴에서 다음으로 이동합니다. **스크린** > **`We.Retail`실행** > 및 선택 **채널**.
 
-1. 다음을 클릭합니다. **만들기** 단추
+1. 다음 항목 선택 **만들기** 단추
 
    1. 선택 **엔티티 만들기**
 
@@ -428,19 +424,20 @@ Hello World 구성 요소는 시퀀스 채널에서 사용하기 위한 것입�
 
    ![유휴 채널](assets/idle-channel.gif)
 
-1. 유휴 채널에 대한 페이지 속성을 엽니다. 디자인 필드를 업데이트하여 가리키기 `/apps/settings/wcm/designs/we-retail-run,`이전 섹션에서 만든 디자인 페이지입니다.
+1. 유휴 채널에 대한 페이지 속성을 엽니다.
+1. 디자인 필드를 업데이트하여 다음을 가리킵니다. `/apps/settings/wcm/designs/we-retail-run`: 이전 섹션에서 만든 디자인 페이지입니다.
 
    ![디자인 구성 /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1240pm.png)
 
    /apps/settings/wcm/designs/we-retail-run을 가리키는 디자인 구성
 
-1. 새로 생성된 유휴 채널을 편집하여 엽니다.
+1. 새로 만든 유휴 채널을 편집하여 열 수 있습니다.
 
-1. 페이지 모드를 다음으로 전환 **디자인** 모드
+1. 페이지 모드를 다음으로 전환 **디자인** 모드.
 
-   1. 다음을 클릭합니다. **렌치** Parsys의 아이콘으로 허용된 구성 요소를 구성합니다.
+   1. 다음 항목 선택 **렌치** 허용된 구성 요소를 구성할 수 있도록 Parsys의 아이콘
 
-   1. 다음 항목 선택 **스크린** 그룹 및 **We.Retail 실행 - 콘텐츠** 그룹입니다.
+   1. 다음 항목 선택 **스크린** 그룹 및 **`We.Retail`실행 - 콘텐츠** 그룹입니다.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
@@ -448,7 +445,7 @@ Hello World 구성 요소는 시퀀스 채널에서 사용하기 위한 것입�
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
-1. 위치 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par` 다음으로 이동 `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`. 다음 사항에 주목합니다. `components` 이제 속성에 다음이 포함됩니다 `group:Screens`, `group:We.Retail Run - Content`.
+1. 위치 **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par`, 다음으로 이동 `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`. 다음 사항에 주목합니다. `components` 이제 속성에 다음이 포함됩니다 `group:Screens`, `group:We.Retail Run - Content`.
 
    ![/apps/settings/wcm/designs/we-retail-run에서 디자인 구성](assets/2018-05-07_at_1_14pm.png)
 
@@ -456,9 +453,9 @@ Hello World 구성 요소는 시퀀스 채널에서 사용하기 위한 것입�
 
 ## 사용자 지정 처리기용 템플릿 {#custom-handlers}
 
-사용자 지정 구성 요소가 에셋(이미지, 비디오, 글꼴, 아이콘 등), 특정 에셋 표현물 또는 클라이언트측 라이브러리(css, js 등)와 같은 외부 리소스를 사용하는 경우 기본적으로 HTML 마크업만 번들로 제공하므로 이러한 리소스는 오프라인 구성에 자동으로 추가되지 않습니다.
+사용자 지정 구성 요소가 에셋(이미지, 비디오, 글꼴 및 아이콘), 특정 에셋 표현물 또는 클라이언트측 라이브러리(css 및 js)와 같은 외부 리소스를 사용하는 경우 오프라인 구성에 자동으로 추가되지 않습니다. 그 이유는 기본적으로 HTML 마크업만 번들로 제공되기 때문입니다.
 
-플레이어에 다운로드되는 정확한 에셋을 맞춤화하고 최적화할 수 있도록 하기 위해 사용자 지정 구성 요소가 Screens의 오프라인 캐싱 논리에 종속성을 노출하도록 하는 확장 메커니즘을 제공합니다.
+플레이어에 다운로드되는 정확한 에셋을 맞춤화하고 최적화할 수 있도록 하기 위해 Adobe은 사용자 지정 구성 요소가 AEM Screens의 오프라인 캐싱 논리에 종속성을 노출하도록 하는 확장 메커니즘을 제공합니다.
 
 아래 섹션에서는 사용자 지정 오프라인 리소스 핸들러에 대한 템플릿과 `pom.xml` 특정 프로젝트에 사용할 수 있습니다.
 
@@ -555,14 +552,14 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
-## 다른 페이지 또는 조각을 포함하는 사용자 지정 구성 요소에 대한 추가 고려 사항 {#additional-considerations}
+## 다른 페이지 또는 조각을 포함하는 사용자 지정 구성 요소에 대한 기타 고려 사항 {#additional-considerations}
 
-개발 중인 사용자 지정 구성 요소가 다른 페이지나 경험 조각을 포함하기 위한 것이며 채널을 다시 게시하지 않고도 플레이어에서 임베드된 콘텐츠의 변경 사항을 자동으로 선택하게 하려면 다음 두 가지 제한 사항을 고려해야 합니다.
+사용자 지정 구성 요소가 다른 페이지나 경험 조각을 포함하도록 되어 있고 채널을 다시 게시하지 않고 플레이어가 임베드된 콘텐츠의 변경 사항을 자동으로 선택하려는 경우에는 다음 두 가지 제한을 고려하십시오.
 
 1. 직접 확장하는 대신 `foundation/components/parbase`, 다음 중 하나를 확장해야 합니다. `screens/core/components/content/page` 또는 `screens/core/components/content/experiencefragment`
-2. 포함된 콘텐츠를 참조하는 데 사용하는 속성의 이름은 다음과 같아야 합니다. `pagePath`
+2. 포함된 콘텐츠를 참조하는 데 사용하는 속성의 이름은 다음과 같아야 합니다. `pagePath`.
 
-이러한 2개의 Screens 코어 구성 요소를 활용하면 필요한 종속성 중 일부(클라이언트측 라이브러리, 글꼴 등)를 번들로 묶을 수 있다는 추가적인 이점이 있습니다. 구성 요소 대화 상자의 오프라인 구성 옵션을 통해 이를 위해 사용해야 하는 모든 사용자 지정 오프라인 핸들러의 책임이 줄어들며, 경우에 따라 처음부터 오프라인 구성 요소를 사용해야 하는 필요성이 완전히 제거됩니다.
+이러한 두 개의 Screens 핵심 구성 요소를 사용하면 필요한 종속성(클라이언트측 라이브러리, 글꼴 등)을 번들로 제공할 수 있다는 추가적인 이점이 있습니다. 구성 요소 대화 상자에서 오프라인 구성 옵션을 통해 이렇게 하면 이 작업에 사용해야 하는 사용자 지정 오프라인 처리기의 책임이 줄어듭니다. 심지어 애초에 이를 사용할 필요를 완전히 제거할 수도 있습니다.
 
 ## 완료된 코드 {#finished-code}
 

@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ AEM Screens용 Android™ Player를 구현하려면 AEM Screens용 Android™ Pl
 
 ### 임시 메서드 {#ad-hoc-method}
 
-Ad-Hoc 메서드를 사용하면 최신 Android™ 플레이어(*.exe*). 방문 [**AEM 6.5 플레이어 다운로드**](https://download.macromedia.com/screens/) 페이지를 가리키도록 업데이트하는 중입니다.
+Ad-Hoc 메서드를 사용하면 최신 Android™ Player(*.exe*). 방문 [**AEM 6.5 플레이어 다운로드**](https://download.macromedia.com/screens/) 페이지를 가리키도록 업데이트하는 중입니다.
 
 응용 프로그램을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
@@ -176,7 +176,7 @@ Android™ 플레이어를 대량으로 배포할 때 모든 플레이어를 AEM
 
 ## Android™ 플레이어 이름 지정 {#name-android}
 
-사용자에게 친숙한 장치 이름을 Android™ 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Android™ 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 콘텐츠를 쉽게 할당할 수 있습니다.
+사용자에게 친숙한 장치 이름을 Android™ 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Android™ 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
 
 >[!NOTE]
 >등록하기 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 더 이상 플레이어 이름을 변경할 수 없습니다.

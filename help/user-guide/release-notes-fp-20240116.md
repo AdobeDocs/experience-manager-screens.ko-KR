@@ -1,20 +1,21 @@
 ---
 title: Screens 기능 팩 릴리스에 대한 릴리스 20240116
-description: 2024년 1월 16일에 릴리스된 AEM Screens 기능 팩 20240116에 대한 정보를 얻으려면 이 페이지를 따르십시오.
+description: 2024년 1월 16일에 릴리스된 AEM Screens 기능 팩 20240116에 대해 자세히 알아보십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
 # 기능 팩 20240116 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->최신 버전의 6.5 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. 에서 최신 버전 정보를 가져올 수 있습니다. [여기](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>최신 버전의 6.5 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. 에서 최신 버전 정보를 가져올 수 있습니다. [여기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 사용 가능 {#availability}
 
@@ -36,6 +37,6 @@ AEM Screens 기능 팩 202204의 릴리스 날짜는 2024년 1월 16일입니다
 
 * 의 XSS 문제 `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
-#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
+#### AEM Screens 플레이어 다운로드
 
 최신 AEM Screens 플레이어를 다운로드하려면 다음을 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

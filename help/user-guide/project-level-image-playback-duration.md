@@ -1,10 +1,8 @@
 ---
 title: 프로젝트 수준 이미지 재생 기간
-seo-title: Project Level Image Playback Duration
-description: 이 기능을 사용하면 프로젝트 수준에서 이미지 재생 기간을 정의할 수 있습니다.
-seo-description: This functionality allows you to define image playback duration at the project level.
+description: 프로젝트 수준에서 이미지 재생 기간을 정의하는 방법을 알아봅니다.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -20,7 +18,7 @@ ht-degree: 1%
 
 ### 사전 요구 사항 {#prerequisites}
 
-이 기능을 사용하려면 먼저 이 기능을 구현하기 위한 필수 구성 요소로 프로젝트를 설정해야 합니다. 예를 들어
+이 기능을 사용하려면 먼저 이 기능을 구현하기 위한 필수 구성 요소로 프로젝트를 설정해야 합니다. 예:
 
 1. AEM Screens 프로젝트 만들기(이 예에서는 **프로젝트 레벨 재생**)
 
