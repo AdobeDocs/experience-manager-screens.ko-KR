@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: AEM Screens 프로젝트에 대한 모범 사례 안내서
 breadcrumb-title: AEM Screens 모범 사례 안내서
 solution-title: AEM Screens
@@ -9,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 75%
+ht-degree: 25%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 75%
 
 + [이 안내서 정보](about-guide.md)
 + 개요 {#overview}
-   + [소개 AEM Screens으로](introduction.md)
+   + [AEM Screens 소개](introduction.md)
    + [프로젝트 역할 및 책임](roles-responsibilities.md)
    + [사전 요구 사항](pre-requisites.md)
    + [디지털 서명 프로젝트의 주요 요소](getting-started-digital-signage.md)
@@ -32,11 +33,11 @@ ht-degree: 75%
    + [UX 종속성](ux-dependencies.md)
    + [Analytics와 통합](analytics.md)
 + 디자인 브리핑 {#design-brief}
-   + [UX 경로 맵](journey-map.md)
+   + [UX 여정 맵](journey-map.md)
    + [UX 프로토타이핑](prototypes.md)
    + [UX 와이어프레임](wireframes.md)
    + [플랫폼으로 전환](transition-platform.md)
-   + [동적 크리에이티브 최적화](dynamic-creative-optimizations.md)
+   + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + 배포 브리핑 {#deployment-brief}
    + [AEM Platform 구성](aem-platform-configurations.md)
    + [프로젝트 분류 및 구현](project-taxonomy-implementation.md)
