@@ -1,22 +1,18 @@
 ---
 title: 텍스트 오버레이
-seo-title: Text Overlay
-description: 텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능으로, 이미지 위에 오버레이된 제목이나 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다. 자세한 내용은 이 페이지를 참조하십시오.
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: 이미지 위에 오버레이된 제목 또는 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있는 AEM Screens의 텍스트 오버레이에 대해 알아봅니다.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -36,9 +32,9 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능으로, 이미지 위에 오버레이된 제목이나 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다.
+텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능으로, 이미지 위에 오버레이된 제목 또는 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다.
 
-사용자 지정 구성 요소를 만드는 방법에 대해 알아보려면 을 참조하십시오. **AEM Screens 구성 요소 확장**.
+사용자 지정 구성 요소를 만드는 방법에 대해 알아보려면 **AEM Screens 구성 요소 확장**.
 
 이 섹션에서는 AEM Screens 프로젝트에서 포스터 구성 요소를 사용 및 적용하고 시퀀스 채널 중 하나에서 텍스트 오버레이로 사용하는 방법만 보여 줍니다.
 
@@ -48,7 +44,7 @@ ht-degree: 1%
 
 **전제 조건**
 
-이 기능의 구현을 시작하기 전에 텍스트 오버레이 구현을 시작하기 위한 필수 조건으로 프로젝트를 설정했는지 확인하십시오. 예:
+이 기능을 구현하려면 먼저 텍스트 오버레이 구현을 시작하기 위한 필수 조건으로 프로젝트를 설정해야 합니다. 예:
 
 * AEM Screens 프로젝트 만들기(이 예에서는 **TextOverlayDemo**)
 
@@ -62,7 +58,7 @@ ht-degree: 1%
 
 AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ Text Overlay 속성을 사용하여 Screens 프로젝트의 구성 요소에 텍
 
 AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
-데이터 저장소를 사용하여 데이터 기반 에셋 변경 사항을 설정하고 관리하는 방법에 대한 자세한 내용은 [AEM Screens에서 ContextHub 구성](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+데이터 저장소를 사용하여 데이터 기반 자산 변경 사항을 설정하고 관리하는 방법에 대한 자세한 내용은 [AEM Screens에서 ContextHub 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-프로젝트에 필요한 구성을 설정했으면 아래 단계에 따라 Google Sheets의 값을 사용하십시오.
+프로젝트에 필요한 구성을 설정한 후 아래 단계에 따라 Google 시트의 값을 사용하십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **속성** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 선택 **속성** 작업 표시줄에서
 
-1. 다음 항목 선택 **개인화** 탭을 사용하여 ContextHub 구성을 설정할 수 있습니다.
+1. 다음 항목 선택 **개인화** 를 탭하여 ContextHub 구성을 설정할 수 있습니다.
 
-   1. 다음 항목 선택 **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 클릭 **선택**.
+   1. 다음 항목 선택 **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 선택 **선택**.
 
-   1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **screens** > **설정** > **wcm** > **세그먼트** 및 클릭 **선택**.
+   1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **screens** > **설정** > **wcm** > **세그먼트** 및 선택 **선택**.
 
-   1. **저장 및 닫기**&#x200B;를 클릭합니다.
+   1. **저장 후 닫기**&#x200B;를 선택합니다.
 
       >[!NOTE]
       >
@@ -118,17 +114,17 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서 을 클릭하여 편집기를 엽니다.
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 에 설명된 대로 이미지 및 텍스트 오버레이 구성 요소를 이미지에 추가합니다. [텍스트 오버레이 사용](/help/user-guide/text-overlay.md#using-text-overlay) 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
-1. 클릭 **구성** (렌치 아이콘) **이미지** 대화 상자.
+1. 선택 **구성** (렌치 아이콘) **이미지** 대화 상자.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. 다음 위치로 이동 **컨텍스트 허브** 의 탭 **이미지** 대화 상자. 클릭 **추가**.
+1. 다음 위치로 이동 **컨텍스트 허브** 의 탭 **이미지** 대화 상자. **추가**&#x200B;를 선택합니다.
 
    >[!NOTE]
    >ContextHub 구성을 설정하지 않은 경우 프로젝트에 대해 이 옵션이 비활성화됩니다.
@@ -138,7 +134,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >다음 이미지는 Google Sheets에서 검색한 값을 보여 줍니다.
+   >다음 이미지는 Google 시트에서 검색한 값을 보여 줍니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
@@ -146,6 +142,6 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. 클릭 **미리 보기** 원하는 출력을 봅니다.
+1. 선택 **미리 보기**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

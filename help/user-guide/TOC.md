@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 도움말
@@ -8,10 +8,10 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Screens 소개](aem-screens-introduction.md)
 + 개요 및 킥스타트 안내서 {#overview}
    + [킥스타트 안내서](kickstart-for-aem-screens.md)
-   + [Screens 모범 사례 안내서](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
+   + [Screens 모범 사례 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [주요 용어](screens-glossary.md)
 + 디지털 간판 네트워크 기본 사항 {#digital-signage-network}
    + [1부: 프로젝트 역할 및 책임](project-roles-responsibilities.md)
@@ -44,7 +44,7 @@ ht-degree: 11%
    + 클라이언트별 고려 사항 {#installing-client}
       + [크롬 OS 플레이어](implementing-chrome-os-player.md)
       + [Chrome Player를 문제 해결을 위한 확장 프로그램으로 사용](using-chrome-player-as-an-extension.md)
-      + [Android 플레이어](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows 플레이어](implementing-windows-player.md)
       + [플레이어 티즌](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)

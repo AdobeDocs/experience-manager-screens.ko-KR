@@ -1,11 +1,9 @@
 ---
 title: 직접 배치 워크플로 구성
-seo-title: Direct Placement Workflow Configuration
 description: 이 페이지에서는 직접 배치 워크플로우 구성을 중점적으로 다룹니다.
-seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -13,7 +11,7 @@ ht-degree: 1%
 
 # 직접 배치 워크플로 구성 {#direct-placement-workflow}
 
-사전 정의된 AEM Screens 채널에 에셋을 프로그래밍 방식으로 삽입할 수 있는 에셋 워크플로를 구성하는 방법에 대해 알아보려면 이 페이지를 따르십시오.
+사전 정의된 AEM Screens 채널에 에셋을 프로그래밍 방식으로 삽입할 수 있는 에셋 워크플로 구성에 대해 알아볼 수 있도록 이 페이지를 따르십시오.
 
 이 섹션에서는 다음 주제를 다룹니다.
 
@@ -22,7 +20,7 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-직접 배치 워크플로 구성은 AEM Screens 프로젝트 채널을 자산의 특정 폴더에 매핑하며, 해당 폴더에서 에셋을 배치할 수 있도록 합니다. 게시를 완료하려면 벌크 오프라인 업데이트를 트리거하는 것이 좋습니다.
+직접 배치 워크플로 구성은 AEM Screens 프로젝트 채널을 자산의 특정 폴더에 매핑하며, 해당 폴더에서 에셋을 배치할 수 있도록 합니다. Adobe은 일괄 오프라인 업데이트를 트리거하여 게시를 완료할 것을 권장합니다.
 
 또는 콘텐츠 작성자는 를 수동으로 클릭할 수 있습니다. **오프라인 컨텐츠 업데이트**.
 
@@ -34,7 +32,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->구성을 시작하기 전에 다음을 설치해야 합니다 [데모 패키지](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). 패키지를 설치한 후에는 AEM 인스턴스 > 도구(아이콘) >에서 해당 패키지를 보고 액세스할 수 있습니다 **워크플로** > **워크플로 모델**.
+>구성을 시작하기 전에 다음을 설치해야 합니다 `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. 패키지를 설치한 후에는 AEM 인스턴스 > 도구(아이콘) >에서 해당 패키지를 보고 액세스할 수 있습니다 **워크플로** > **워크플로 모델**.
 
 직접 배치 워크플로우를 구성하려면 아래 단계를 수행합니다.
 

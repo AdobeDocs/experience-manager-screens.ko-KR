@@ -1,22 +1,18 @@
 ---
 title: 장치 관리
-seo-title: Managing Devices
-description: 이 페이지에서는 장치 지정에 대해 설명합니다.
-seo-description: Follow this page to learn about device assignment. The Devices console allows you to access the device manager to assign your device to a display.
-uuid: 889cc11c-60f7-4966-82b5-9ebdd082a3c5
+description: AEM Screens의 장치 할당 및 관리에 대해 알아봅니다.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
+source-wordcount: '249'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 4%
 
 이 페이지에서는 장치 지정에 대해 설명합니다.
 
-장치 콘솔에서 장치 관리자에 액세스하여 장치를 디스플레이에 할당할 수 있습니다.
+장치 콘솔을 사용하면 장치 관리자에 액세스하여 장치를 디스플레이에 할당할 수 있습니다.
 
 >[!CAUTION]
 >

@@ -1,23 +1,19 @@
 ---
 title: 장치 등록
-seo-title: Device Registration
-description: 이 페이지에서는 AEM Screens 프로젝트의 장치 등록 프로세스에 대해 설명합니다.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: AEM Screens 프로젝트의 장치 등록 프로세스에 대해 알아봅니다.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +23,7 @@ ht-degree: 1%
 
 ## 장치 등록 {#registering-a-device}
 
-장치 등록 프로세스는 2개의 별도 시스템에서 수행됩니다.
+장치 등록 프로세스는 두 개의 별도 시스템에서 수행됩니다.
 
 * 등록할 실제 디바이스(예: 간판 디스플레이)
 * 장치를 등록하는 데 사용되는 AEM 서버
@@ -36,9 +32,9 @@ ht-degree: 1%
 >
 >최신 Windows Player(*.exe*), 출처 [AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
->1. 왼쪽 상단 모서리에서 길게 눌러 관리 패널을 엽니다.
+>1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
 >1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
->1. 을(를) 클릭합니다 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
+>1. 다음 항목 선택 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >AEM 대시보드에서 Screens용 새 프로젝트를 만드는 방법에 대한 자세한 내용은 [Screens 프로젝트 만들기 및 관리](creating-a-screens-project.md).
+   >AEM 대시보드에서 Screens용 프로젝트를 만드는 방법에 대한 자세한 내용은 [Screens 프로젝트 만들기 및 관리](creating-a-screens-project.md).
 
 1. 탭/클릭 **장치 관리자** 단추를 클릭합니다.
 
@@ -88,13 +84,13 @@ ht-degree: 1%
    >
    >다음 **디스플레이 할당** 장치를 디스플레이에 직접 추가할 수 있습니다.
 
-   다음을 클릭: **완료**&#x200B;를 사용하려면 장치를 디스플레이에 할당해야 합니다.
+   다음을 클릭: **완료**&#x200B;을 클릭하여 장치를 디스플레이에 할당해야 합니다.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Screens 프로젝트용 디스플레이를 만들고 관리하는 방법에 대한 자세한 내용은 을 참조하십시오. [디스플레이 만들기 및 관리](managing-displays.md).
+   >Screens 프로젝트용 디스플레이를 만들고 관리하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](managing-displays.md).
 
 ### 디스플레이에 장치 할당 {#assigning-device-to-a-display}
 
@@ -150,21 +146,21 @@ ht-degree: 1%
   >[!NOTE]
   >다음과 같이 여러 단어로 장치 이름을 만드는 것이 좋습니다. *보스턴 스토어 로비* 단일 항목 대신 *보스톤스토어로비*.
 
-* 다음과 같은 장치 이름을 만드는 경우 *보스턴 스토어 로비*, 모든 단어를 검색할 수 있습니다 *보스턴*, *스토어* 또는 *로비* 장치 이름이 인 경우 *보스톤스토어로비* 검색 중 *보스턴* 이(가) 결과를 표시하지 않습니다.
+* 다음과 같은 장치 이름을 만드는 경우 *보스턴 스토어 로비*, 모든 단어를 검색합니다 *보스턴*, *스토어*, 또는 *로비*. 그러나 디바이스 이름이 인 경우 *보스톤스토어로비*, 검색 후 *보스턴* 결과를 표시하지 않습니다.
 
-* 와일드카드, `*` 은 검색에 대해 지원됩니다. 이 경우 이름이 로 시작하는 모든 장치를 찾습니다. *보스턴*, 다음을 사용할 수 있습니다 *보스턴**.
+* 와일드카드, `*` 은 검색에 대해 지원됩니다. 이름이 로 시작하는 모든 장치를 찾으려는 경우 *보스턴*, 다음을 사용할 수 있습니다 *보스턴**.
 
-* 장치 이름이 인 경우 *보스톤스토어로비* 및 검색 *보스턴* 을 대신 사용하여 결과를 반환하지 않습니다. *보스턴** 검색 기준에 있으면 결과가 반환됩니다.
+* 장치 이름이 인 경우 *보스톤스토어로비* 및 검색 *보스턴* 은 결과를 반환하지 않고 다음을 사용합니다. *보스턴** 검색 기준에서 결과를 반환합니다.
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
-시스템 전체 사용자 암호 제한으로 인해 디바이스 등록에 실패할 수 있습니다. 디바이스 등록은 디바이스 사용자를 생성하기 위해 무작위로 생성된 암호를 사용한다.
+시스템 전체 사용자 암호 제한으로 인해 디바이스 등록에 실패할 수 있습니다. 디바이스 등록에서는 디바이스 사용자를 생성하기 위해 임의로 생성된 암호를 사용합니다.
 
 암호가 다음에 의해 제한된 경우 *AuthorizableActionProvider* 구성, 장치 사용자 만들기가 실패할 수 있습니다.
 
 >[!NOTE]
 >
->현재 생성된 무작위 암호는 33~122 범위의 36개의 ASCII 문자로 구성됩니다(거의 모든 특수 문자 포함).
+>현재 생성된 무작위 암호는 33에서 122 사이의 36개의 ASCII 문자로 구성됩니다(거의 모든 특수 문자 포함).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### 추가 리소스 {#additional-resources}
+### 기타 리소스 {#additional-resources}
 
 AEM Screens 플레이어에 대해 알아보려면 다음을 참조하십시오. [AEM Screens 플레이어](working-with-screens-player.md).

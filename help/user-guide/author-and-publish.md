@@ -2,9 +2,9 @@
 title: AEM Screens에서 작성자 및 게시 인스턴스 구성
 description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Screens에는 세 가지 복제 에이전트가 필요합니다.
 1. 토폴로지 커넥터 URL 업데이트: 다음과 같은 모든 Publish 인스턴스 URL을 추가합니다.
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **토폴로지 커넥터 허용 목록**: 모든 게시 인스턴스를 포함하는 IP 또는 서브넷에 적응합니다. 포트 번호 없이 모든 게시 인스턴스의 IP/호스트 이름을 화이트리스트에 추가해야 합니다.
+1. **토폴로지 커넥터 `Whitelist` 목록**: 모든 게시 인스턴스를 포함하는 IP 또는 서브넷에 적응합니다. 다음을 확인합니다. `whitelist` 포트 번호 없이 모든 게시 인스턴스의 IP/호스트 이름입니다.
 
 1. 사용 **로컬 루프 자동 중지**
 
@@ -213,7 +213,7 @@ Screens에는 세 가지 복제 에이전트가 필요합니다.
 >
 >이 예제를 시작하려면 AEM Screens 프로젝트 만들기 후 프로젝트에서 위치, 표시 및 채널을 만듭니다. 채널에 콘텐츠를 추가하고 디스플레이에 채널을 할당합니다.
 
-#### 1단계: AEM Screens 플레이어 시작(장치) {#step-starting-an-aem-screens-player-device}
+#### 1단계: AEM Screens 플레이어 시작(장치)
 
 1. 별도의 브라우저 창을 시작합니다.
 1. 를 사용하여 스크린 플레이어로 이동 *웹 브라우저*, 즉,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` 또는 AEM Screens 앱을 시작합니다. 장치를 열면 장치의 상태가 등록되지 않은 것으로 표시됩니다.
@@ -280,7 +280,7 @@ Screens에는 세 가지 복제 에이전트가 필요합니다.
 * *예약* - 일정을 사용하는 경우 게시되는지 확인
 * *위치, 일정 및 채널 폴더* - 해당 리소스가 폴더 내에 있는 경우.
 
-작성자/게시 동작을 확인하려면 아래 단계를 따르십시오.
+작성 및 게시 동작을 확인하려면 아래 단계를 따르십시오.
 
 1. 작성자 인스턴스에서 일부 채널 콘텐츠를 업데이트합니다.
 1. 수행 **게시 관리** 모든 게시 인스턴스에 새 변경 사항을 게시하려면 다음을 수행하십시오.

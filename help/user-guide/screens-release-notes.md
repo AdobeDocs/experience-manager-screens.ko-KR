@@ -13,10 +13,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,11 @@ AEM Screens 기능 팩 201809의 릴리스 날짜는 2018년 10월 1일입니다
 
 AEM 6.4.2 기능 팩 2 및 AEM 6.3.3 기능 팩 4용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
-* 크롬OS
+* ChromeOS
 * Windows
 * Android
 * iOS
 
 #### AEM Screens 플레이어 다운로드 {#aem-screens-player-downloads}
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대한 자세한 내용은 을 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).

@@ -1,32 +1,28 @@
 ---
 title: AEM Screens Player를 사용한 작업
-seo-title: Working with Screens Player
-description: 이 페이지를 따라 Screens Player에 대해 알아보십시오. 관리자 UI 및 채널 전환기에 대해서도 설명합니다.
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: AEM Screens 플레이어, 관리 UI 및 채널 전환기 작업에 대해 알아봅니다.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
-# AEM Screens Player를 사용한 작업 {#working-with-aem-screens-player}
+# AEM Screens Player를 사용한 작업
 
 AEM Screens 플레이어에서 채널 콘텐츠 및 기타 설정을 관리할 수 있습니다.
 
 >[!NOTE]
 >
->누르기 ***Ctrl+Cmd+F*** OS X AEM Screens Player의 전체 화면 모드를 종료하려면
+>누르기 ***Ctrl+Cmd+F*** 따라서 OS X AEM Screens Player의 전체 화면 모드를 종료할 수 있습니다.
 
 디스플레이에 채널을 할당하면 AEM Screens Player에 콘텐츠가 표시됩니다. 관리 UI에 대한 환경 설정(대시보드에서) 또는 플레이어 자체에서 플레이어에 대한 설정을 구성할 수 있습니다.
 
@@ -40,7 +36,7 @@ AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 장치를 클릭하여 장치 대시보드를 엽니다.
+1. 장치 대시보드를 열 수 있도록 장치를 클릭합니다.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -52,11 +48,11 @@ AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에
 
 활성화 **관리자 UI** 사용자는 환경 설정 패널에서 Screens Player에서 관리자 설정을 열 수 있습니다. 또한 장치 대시보드에서 이 옵션을 비활성화하면 사용자가 플레이어에서 관리자 UI를 열 수 없습니다.
 
-Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리에서 을 길게 눌러 터치 사용 AEM Screens 플레이어에서 또는 마우스를 사용하여 관리자 메뉴를 엽니다. 등록이 완료되고 채널이 로드된 후의 정보를 표시합니다.
+Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 길게 눌러 터치 사용 AEM Screens 플레이어에서 또는 마우스를 사용하여 관리자 메뉴를 엽니다. 등록이 완료되고 채널이 로드되면 정보가 표시됩니다.
 
 >[!NOTE]
 >
->또한 AEM Screens Player 앱 가동 시간을 보고 앱 상태를 확인할 수 있습니다.
+>또한 AEM Screens Player 앱 가동 시간을 보고 앱 상태를 확인할 수도 있습니다.
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
@@ -70,7 +66,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리에�
 
 * 재설정 **펌웨어**, **환경 설정**, 또는 **팩터리로** 이 대화 상자에서 확인할 수 있습니다.
 
-* AEM Screens 플레이어에 대해 보관할 최대 로그 파일 수를 지정합니다. **최대 수 보관할 로그 파일의 수**.
+* AEM Screens 플레이어에 대해 유지할 최대 로그 파일 수를 지정합니다. **최대 수 보관할 로그 파일의 수**.
 
 * 활성화 또는 비활성화 **관리 메뉴**, **채널 전환기**, 및 **활동 UI** Screens 플레이어용
 
@@ -80,7 +76,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리에�
 
 >[!NOTE]
 >
->다음 **펌웨어 업데이트** 옵션은 Android 플레이어와 같이 cordova에서만 작동합니다.
+>다음 **펌웨어 업데이트** 옵션은 Android™ 플레이어와 같은 Cordova에서만 작동합니다.
 
 >[!NOTE]
 >
@@ -90,7 +86,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리에�
 
 AEM Screens 플레이어의 관리 UI에서 채널 및 애플리케이션에 대한 캐시를 지울 수 있습니다.
 
-다음 항목 선택 **컨텐츠 캐시** 측면 레일에서 캐시를 업데이트합니다.
+다음 항목 선택 **컨텐츠 캐시** 캐시를 업데이트할 수 있도록 사이드 레일에서.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -112,11 +108,11 @@ Screens 플레이어에서 채널의 설정을 전환하고 제어할 수 있습
 >
 >(참조: *Screens 플레이어에서 환경 설정 변경* 아래 섹션에서 언급됨)을 참조하십시오.
 
-### AEM Screens 플레이어에서 환경 설정 관리 {#managing-preferences-from-the-aem-screens-player}
+### AEM Screens 플레이어에서 환경 설정 관리
 
 플레이어 자체에서 관리자 UI 및 채널 전환기에 대한 설정을 변경할 수도 있습니다.
 
-플레이어에서 환경 설정을 변경하려면 다음 단계를 따르십시오.
+플레이어에서 환경 설정을 변경하려면:
 
 1. 유휴 채널의 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
 1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서
@@ -124,7 +120,7 @@ Screens 플레이어에서 채널의 설정을 전환하고 제어할 수 있습
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## AEM Screens 플레이어 문제 해결 {#troubleshooting-aem-screens-player}
+## AEM Screens 플레이어 문제 해결
 
 AEM Screens 플레이어(하드웨어 및 소프트웨어)와 관련된 다양한 문제를 해결할 수 있습니다.
 
@@ -137,14 +133,14 @@ AEM Screens 플레이어(하드웨어 및 소프트웨어)와 관련된 다양�
 | 플레이어 다시 시작/다시 부팅 후 AEM Screens Player가 자동으로 시작되지 않음 | OS 시작 폴더 또는 초기화 절차 확인 |
 | AEM Screens Player에 잘못된/이전 콘텐츠가 표시됨 | 네트워크 연결 확인 |
 
-### AEM Screens 플레이어 업데이트 {#updates-for-aem-screens-player}
+### AEM Screens 플레이어 업데이트
 
 AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니다.
 
-| **방법** | **세부 사항** | **원격 사용** | **자동화** | **0회 다운타임** |
+| **방법** | **세부 사항** | **원격으로** | **자동화** | **0회 다운타임** |
 |---|---|---|---|---|
-| 펌웨어 업데이트 | 원격 명령을 통해 설치된 기존 플레이어에 적용됩니다. 업데이트 후 플레이어가 기존 콘텐츠로 자동 다시 로드됩니다. | 예 | 사용자 정의 | 거의 - 1~3초 |
-| 플레이어 쉘 업데이트 | 플레이어에 배포할 새 실행 파일입니다. 이렇게 하려면 플레이어에서 새 바이너리를 원격으로 복사하고 현재 실행 중인 바이너리를 중지하고 새 버전을 시작해야 합니다. 이렇게 하려면 패키지의 사전 로드를 다시 다운로드해야 할 수 있습니다. | 예(원격 셸을 통해) | 사용자 정의 | 아니요 |
+| 펌웨어 업데이트 | 원격 명령을 통해 기존 설치된 플레이어에 적용됩니다. 업데이트 후 플레이어가 기존 콘텐츠로 자동 다시 로드됩니다. | 예 | 사용자 정의 | 거의 - 1~3초 |
+| 플레이어 쉘 업데이트 | 플레이어에 배포할 새 실행 파일입니다. 이렇게 하려면 플레이어에서 새 바이너리를 원격으로 복사하고 현재 실행 중인 바이너리를 중지하고 새 버전을 시작해야 합니다. 이렇게 하려면 패키지의 사전 로드를 다시 다운로드해야 할 수 있습니다. | 예(원격 셸의 방식으로) | 사용자 정의 | 아니요 |
 
 ## 플레이어 장치에 대한 하드웨어 선택 지침 {#hardware-selection-guidelines-for-player-device}
 
@@ -175,10 +171,10 @@ AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니�
    <td>기본</td>
    <td>듀얼 코어, i3 또는 엔트리급 쿼드 코어 Intel® Atom 프로세서</td>
    <td><p>4GB 메모리</p> <p>2MB 캐시</p> </td>
-   <td><p>·ChromeOS 32GB</p> <p>·Windows 128GB</p> </td>
+   <td><p>*ChromeOS 32GB</p> <p>*Windows 128GB</p> </td>
    <td>온보드</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> 이더넷 / 무선,<br /> USB 2개</td>
+   <td>DVI<br /> 이더넷 / 무선<br /> USB 2개</td>
    <td>
     <ul>
      <li>표준 전체 화면 루프<br /> </li>
@@ -187,9 +183,9 @@ AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니�
   </tr>
   <tr>
    <td>표준</td>
-   <td>쿼드 코어, Intel® Core i5 프로세서</td>
+   <td>쿼드 코어, Intel® Core™ i5 프로세서</td>
    <td><p>8GB 메모리</p> <p>4MB 캐시</p> </td>
-   <td>128기가바이트</td>
+   <td>128GB</td>
    <td>온보드</td>
    <td>3840x2160(4K)</td>
    <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> USB 2개</td>
@@ -202,7 +198,7 @@ AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니�
   </tr>
   <tr>
    <td>고급</td>
-   <td>쿼드 코어, 하이퍼스레딩, 인텔® 코어 i7 프로세서</td>
+   <td>쿼드 코어, 하이퍼스레딩, 인텔® 코어™ i7 프로세서</td>
    <td><p>16GB 메모리</p> <p>8MB 캐시</p> </td>
    <td>256GB</td>
    <td>전용 그래픽 GPU</td>

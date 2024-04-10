@@ -1,14 +1,13 @@
 ---
 title: 킥스타트 안내서
-seo-title: Kickstart Guide
-description: 이 페이지를 따라 데모 AEM Screens 프로젝트를 만듭니다. 설치 및 새 프로젝트 설정부터 AEM Screens 플레이어에서 콘텐츠를 볼 수 있는 디지털 서명 경험을 만드는 데 도움이 됩니다.
+description: 데모 AEM Screens 프로젝트를 만드는 방법을 알아봅니다. 설치 및 새 프로젝트 설정부터 AEM Screens 플레이어에서 콘텐츠를 볼 수 있는 디지털 서명 경험을 만드는 데 도움이 됩니다.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1279'
 ht-degree: 2%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 2%
 AEM Screens에 대한 킥스타트는 AEM Screens 프로젝트를 설정하고 실행하는 방법을 보여 줍니다. 기본 디지털 사이니지 경험을 설정하고 각 채널에 에셋 및/또는 비디오와 같은 콘텐츠를 추가하고 콘텐츠를 AEM Screens 플레이어에 게시하는 과정을 안내합니다.
 
 >[!NOTE]
->프로젝트 세부 정보 작업을 시작하기 전에 AEM Screens용 최신 기능 팩을 설치했는지 확인하십시오. 에서 최신 기능 팩을 다운로드할 수 있습니다. [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용.
+>프로젝트 세부 사항을 작업하기 전에 AEM Screens용 최신 기능 팩을 설치했는지 확인하십시오. 에서 최신 기능 팩을 다운로드할 수 있습니다. [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용.
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -57,7 +56,8 @@ AEM Screens에 대한 킥스타트는 AEM Screens 프로젝트를 설정하고 �
 
 1. Adobe Experience Manager(AEM) 인스턴스로 이동하여 **스크린**. 또는 다음 위치에서 바로 탐색할 수 있습니다. `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. 클릭 **스크린 프로젝트 만들기** 새 Screens 프로젝트를 만듭니다. 제목을 다음으로 입력 **데모 화면** 및 클릭 **저장**.
+1. 클릭 **스크린 프로젝트 만들기** Screens 프로젝트를 만들 수 있습니다.
+1. 제목을 다음으로 입력 **데모 화면**&#x200B;을 클릭한 다음 을 클릭합니다 **저장**.
 
    ![이미지](assets/kickstart/demo-1.png)
 
@@ -66,9 +66,9 @@ AEM Screens에 대한 킥스타트는 AEM Screens 프로젝트를 설정하고 �
 
 ### 채널 만들기 {#creating-channel}
 
-AEM Screens 프로젝트를 만든 후에는 콘텐츠를 관리할 새 채널을 만들어야 합니다.
+AEM Screens 프로젝트를 만든 다음에는 콘텐츠를 관리할 채널을 만들어야 합니다.
 
-프로젝트에 대한 새 채널을 만들려면 아래 단계를 따르십시오.
+프로젝트에 대한 채널을 만들려면 아래 단계를 따르십시오.
 
 1. 프로젝트를 만든 후 **데모 화면** 프로젝트 및 선택 **채널** 아래 그림과 같은 폴더입니다. 클릭 **+ 만들기** 작업 표시줄에서
 
@@ -87,7 +87,7 @@ AEM Screens 프로젝트를 만든 후에는 콘텐츠를 관리할 새 채널�
 
 ### 채널에 콘텐츠 추가 {#adding-content}
 
-채널이 준비되면 AEM Screens 플레이어에서 표시할 채널에 콘텐츠를 추가해야 합니다.
+채널이 준비되면 AEM Screens 플레이어에서 표시할 수 있는 채널에 콘텐츠를 추가합니다.
 
 아래 단계에 따라 채널에 콘텐츠를 추가합니다(**테스트 채널**)을 클릭하여 제품에서 사용할 수 있습니다.
 
@@ -105,19 +105,16 @@ AEM Screens 프로젝트를 만든 후에는 콘텐츠를 관리할 새 채널�
 
 ### 위치 생성 {#creating-location}
 
-채널이 준비되면 위치를 만들어야 합니다.
+채널이 준비되면 위치를 만듭니다.
 
 >[!NOTE]
 >***위치*** 다양한 디지털 간판 경험을 구분하고 다양한 화면이 있는 위치에 따른 디스플레이 구성을 포함합니다.
 
-프로젝트의 새 위치를 만들려면 아래 단계를 따르십시오.
+프로젝트의 위치를 만들려면 아래 단계를 따르십시오.
 
 1. 다음 위치로 이동 **DemoProject** 을(를) 만들고 선택한 **위치** 폴더를 삭제합니다.
-
 1. 클릭 **+ 만들기** 작업 표시줄에서
-
 1. 선택 **위치** 마법사에서 를 클릭하고 **다음**.
-
 1. 다음을 입력합니다. **이름** (제목을 다음으로 입력) **테스트 위치**) 및 클릭 **만들기**.
 
 다음 **테스트 위치** 이(가) 만들어지고 다음에 추가됩니다. **위치** 폴더를 삭제합니다.
@@ -125,13 +122,12 @@ AEM Screens 프로젝트를 만든 후에는 콘텐츠를 관리할 새 채널�
 
 ### 위치에 대한 디스플레이 만들기 {#creating-display}
 
-위치를 만든 후에는 해당 위치에 대한 새 디스플레이를 만들어야 합니다.
+위치를 만든 경우 해당 위치에 대한 디스플레이를 만듭니다.
 
 >[!NOTE]
 >***표시*** 하나 이상의 화면에서 실행되는 디지털 경험을 나타냅니다.
 
 1. 다음 위치로 이동 **테스트 위치** 선택한 다음
-
 1. 클릭 **만들기** 작업 표시줄에서
 
    ![이미지](assets/kickstart/demo-disp1.png)
@@ -170,11 +166,11 @@ AEM Screens 프로젝트를 만든 후에는 콘텐츠를 관리할 새 채널�
 
    >[!NOTE]
    >
-   >다음 **채널 역할**, **우선 순위**, 및 **중단 방법** 모두 기본적으로 채워집니다. 다음을 참조하십시오 [채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 채널 할당 속성에 대해 자세히 알아보려면 섹션 을 참조하십시오.
+   >다음 **채널 역할**, **우선 순위**, 및 **중단 방법** 모두 기본적으로 채워집니다. 다음을 참조하십시오 [채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 채널 할당 속성에 대한 자세한 내용은 섹션 을 참조하십시오.
 
    ![이미지](assets/kickstart/demo-assign3.png)
 
-   또한 **활성화 창** 및 **자동연장 일정**.
+   또한 다음을 선택할 수 있습니다 **활성화 창** 및 **자동연장 일정**.
 
    >[!NOTE]
    >다음 *자동연장 일정* 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정합니다.
@@ -184,7 +180,7 @@ AEM Screens 프로젝트를 만든 후에는 콘텐츠를 관리할 새 채널�
 
 ### 장치 등록 및 디스플레이에 장치 할당 {#registering-device}
 
-AEM 대시보드를 사용하여 장치를 등록해야 합니다.
+AEM 대시보드를 사용하여 장치를 등록합니다.
 
 >[!IMPORTANT]
 >Chrome OS 플레이어는 실제 Chrome 플레이어 장치 없이 개발자 모드에서 Chrome 브라우저 플러그인으로 설치할 수 있습니다. 설치하려면 아래 단계를 따르십시오.
@@ -192,11 +188,11 @@ AEM 대시보드를 사용하여 장치를 등록해야 합니다.
 >1. 클릭 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
 >1. 압축을 풀고 디스크에 저장합니다.
 >1. Chrome 브라우저를 열고 을 선택합니다. **확장** 메뉴에서 선택하거나 을(를) 직접 탐색하여 ***chrome://extensions***.
->1. 전환 **개발자 모드** 오른쪽 상단에서
+>1. 전환 **개발자 모드** 오른쪽 상단 모서리에서
 >1. 클릭 **로드 압축 해제됨** 왼쪽 상단 모서리에서 압축을 푼 Chrome Player를 로드합니다.
 >1. 확인 **AEM Screens Chrome 플레이어** 플러그인 (확장 프로그램 목록에서 사용 가능한 경우)을 참조하십시오.
->1. 새 탭을 열고 **앱** 왼쪽 상단 모서리에서 아이콘을 클릭하거나 로 직접 이동합니다. ***chrome://apps***.
->1. 클릭 **AEM Screens** Chrome 플레이어를 시작하는 플러그인입니다. 기본적으로 플레이어는 전체 화면 모드로 실행됩니다. 누르기 **esc** 전체 화면 모드를 종료합니다.
+>1. 새 탭을 열고 **앱** 아이콘 을 왼쪽 상단 모서리에서 찾거나 ***chrome://apps***.
+>1. 클릭 **AEM Screens** Chrome 플레이어를 시작할 수 있는 플러그인입니다. 기본적으로 플레이어는 전체 화면 모드로 실행됩니다. 누르기 **Esc** 전체 화면 모드를 종료합니다.
 
 Chrome OS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등록합니다.
 
@@ -233,7 +229,7 @@ Chrome OS 플레이어가 켜지면 아래 단계에 따라 Chrome 장치를 등
 
    ![이미지](assets/kickstart/demo-register8.png)
 
-1. 탭/클릭 **완료** 등록 프로세스를 완료합니다. 디스플레이 대시보드에서 등록된 장치를 볼 수 있어야 합니다.
+1. 선택 **완료** 등록 프로세스를 완료합니다. 이제 디스플레이 대시보드에서 등록된 장치를 볼 수 있습니다.
 
    ![이미지](assets/kickstart/demo-register9.png)
 
