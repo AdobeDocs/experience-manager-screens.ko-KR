@@ -1,22 +1,18 @@
 ---
 title: 비디오 표현물
-seo-title: Video Renditions
-description: 이 페이지를 따라 Screens 프로젝트용 풀 HD 표현물을 생성하는 방법에 대해 알아보십시오.
-seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
-uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
+description: AEM Screens 프로젝트를 위한 풀 HD 렌디션 생성에 대해 알아봅니다.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 1%
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -28,35 +24,38 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->AEM Screens 비디오 렌디션이 장치에서 최적으로 재생되지 않는 경우 하드웨어 공급업체에 문의하여 비디오 사양을 확인하십시오. 이렇게 하면 장치에서 최상의 성능을 얻고 FFMPEG에 대한 적절한 매개 변수를 제공하여 렌디션을 생성하는 사용자 정의 비디오 프로필을 만드는 데 도움이 됩니다. 그런 다음 아래 단계를 사용하여 사용자 지정 비디오 프로필을 프로필 목록에 추가합니다.
+>AEM Screens 비디오 렌디션이 장치에서 최적으로 재생되지 않는 경우 하드웨어 공급업체에 문의하여 비디오 사양을 확인하십시오. 이렇게 하면 장치에서 최상의 성능을 얻고 FFMPEG에 적합한 매개 변수를 제공하여 렌디션을 생성하는 사용자 정의 비디오 프로필을 만들 수 있습니다. 그런 다음 아래 단계를 사용하여 사용자 지정 비디오 프로필을 프로필 목록에 추가합니다.
 >
->또한 다음을 참조하십시오. [비디오 문제 해결](troubleshoot-videos.md) 을 클릭하여 채널에서 비디오가 재생되는 문제를 해결하고 디버깅하십시오.
+>또한 다음을 참조하십시오 [비디오 문제 해결](troubleshoot-videos.md) 을 클릭하여 채널에서 비디오가 재생되는 문제를 해결하고 디버깅하십시오.
 
 전체 HD 렌디션을 자동으로 생성하려면 아래 절차를 따르십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 클릭하여 선택할 도구를 선택합니다 **워크플로**.
+1. Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 망치 아이콘을 클릭하여 다음을 선택할 수 있습니다. **워크플로**.
 
-   클릭 **모델** 워크플로 모델 관리를 입력합니다.
+   클릭 **모델**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 다음 항목 선택 **DAM 자산 업데이트** 모델을 만들고 작업 표시줄에서 편집 을 클릭하여 **DAM 자산 업데이트** 창.
+1. 워크플로우 모델 관리에서 **DAM 자산 업데이트** 모델 및 클릭 **편집** 작업 표시줄에서
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. 를 두 번 클릭합니다. **FFmpeg 코드 변환** 단계.
+1. 다음에서 **DAM 자산 업데이트** 창에서 두 번 클릭 **FFmpeg 코드 변환** 단계.
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 다음 항목 선택 **프로세스** 탭 - 프로세스 인수를 편집합니다. 다음 목록에 전체 HD 프로필 입력: **인수** 다음으로: ***,profile:fullhd-bp,profile:fullhd-hp*** 및 클릭 **확인**.
+1. 다음 항목 선택 **프로세스** 탭.
+1. 다음 목록에 전체 HD 프로필 입력: **인수** 를 다음과 같이 바꿉니다.
+   ***`,profile:fullhd-bp,profile:fullhd-hp`***
+1. **확인**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 클릭 **저장** 의 왼쪽 위에서 **DAM 자산 업데이트** 화면.
+1. 클릭 **저장** 의 왼쪽 상단 **DAM 자산 업데이트** 화면.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 다음으로 이동 **에셋** 새 비디오를 업로드하십시오. 비디오를 클릭하고 렌디션 측면 레일을 열면 두 개의 풀 HD 비디오가 표시됩니다.
+1. 다음으로 이동 **에셋** 새 비디오를 업로드하십시오. 비디오를 클릭하고 렌디션 사이드 레일을 엽니다. 2개의 풀 HD 비디오를 보십시오.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -64,7 +63,7 @@ ht-degree: 1%
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. 2개의 새로운 풀 HD 표현물이 보입니다.
+1. 2개의 새로운 풀 HD 표현물을 볼 수 있습니다.
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
@@ -72,13 +71,13 @@ ht-degree: 1%
 
 아래 단계에 따라 전체 HD 표현물을 수동으로 생성합니다.
 
-1. Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 클릭하여 선택할 도구를 선택합니다 **워크플로**.
+1. 도구를 선택하고 선택할 수 있도록 Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 클릭합니다. **워크플로**.
 
-   클릭 **모델** 워크플로 모델 관리를 입력합니다.
+   클릭 **모델**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 다음 항목 선택 **화면 업데이트 자산** 모델을 만든 다음 **워크플로우 시작** 을(를) 열려면 **워크플로우 실행** 대화 상자.
+1. 워크플로우 모델 관리에서 **화면 업데이트 자산** 모델을 만든 다음 **워크플로우 시작** 을(를) 열려면 **워크플로우 실행** 대화 상자.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
@@ -90,6 +89,6 @@ ht-degree: 1%
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. 를 엽니다. **표현물** 측면 레일을 클릭하면 새로운 풀 HD 표현물이 표시됩니다.
+1. 를 엽니다. **표현물** 사이드 레일. 새로운 풀 HD 표현물을 확인하십시오.
 
    ![step8_-_open_therenditionseiderail](assets/step8_-_open_therenditionssiderail.png)

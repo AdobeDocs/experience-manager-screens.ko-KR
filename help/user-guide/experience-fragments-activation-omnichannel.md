@@ -1,11 +1,9 @@
 ---
 title: 경험 조각 활성화
-seo-title: Experience Fragments Activation
-description: 경험 조각 활성화에 대해 알아보려면 이 사용 사례 예제를 따르십시오.
-seo-description: Follow this use case example to learn about experience fragments activation.
-source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
+description: AEM Screens과 관련된 경험 조각 활성화에 대해 학습하는 데 도움이 되는 사용 사례 예입니다.
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 경험 조각 은 페이지 내에서 참조되는 콘텐츠 및 레이아웃을 포함한 하나 이상의 구성 요소 그룹입니다.
 
-다음 사용 사례를 통해 경험 조각을 AEM Screens 프로젝트에 활용하는 데모 프로젝트를 구현할 수 있습니다. 이 사용 사례의 주요 사항은 다음과 같습니다.
+다음 사용 사례를 통해 경험 조각이 AEM Screens 프로젝트에 적용되는 데모 프로젝트를 구현할 수 있습니다. 이 사용 사례의 주요 사항은 다음과 같습니다.
 
 * 텍스트 크기 늘리기
 * 이미지 뒤집기
@@ -34,7 +32,7 @@ ht-degree: 0%
 
 ### AEM Screens 프로젝트에서 경험 조각 구현 {#experience-fragments-implementation}
 
-경험 조각을 만들어 AEM Screens 프로젝트에서 활용했다면 **DemoProject** 이제 요구 사항에 따라 경험 조각을 향상시킬 수 있습니다.
+경험 조각을 만들어 AEM Screens 프로젝트에 적용한 경우 **DemoProject** 요구 사항에 따라 경험 조각을 향상시킬 수 있습니다.
 
 ### 텍스트 크기 늘리기 {#increasing-text-size}
 
