@@ -1,12 +1,10 @@
 ---
 title: 데이터 트리거
-seo-title: Data Triggers
-description: 이 페이지에서는 데이터 트리거에 대해 설명합니다
-seo-description: The page describes data triggers
+description: AEM Screens의 데이터 트리거에 대해 알아봅니다.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,9 +19,9 @@ ht-degree: 0%
 
 이를 콘텐츠의 클라이언트측 병합이라고도 합니다.
 
-이를 수행하려는 주요 이유는 각 플레이어 장치 또는 종단점이 데이터 세트를 사용하여 다양한 다양한 요소를 기반으로 재생할 최상의 콘텐츠를 자동으로 결정할 수 있기 때문입니다.
+그 이유는 각 플레이어 장치 또는 끝점이 데이터 세트를 사용하여 다양한 다양한 요소를 기반으로 재생할 최상의 콘텐츠를 자동으로 결정할 수 있도록 하기 위해서입니다.
 
-따라서 컨텐츠 작성에 있어 끊임없는 인력 투입이 필요하지 않으므로 네트워크 운영을 위한 TCO를 절감하고 디지털 환경을 더욱 관련성 있고 상황에 맞게 보다 효과적으로 만들 수 있습니다.
+따라서 컨텐츠 작성 시 사용자가 지속적으로 개입할 필요가 없습니다. 또한 네트워크 운영을 위한 총소유비용(TCO)을 절감하고 디지털 환경을 더욱 관련성 있고 상황에 맞는 방식으로, 더욱 효과적으로 만들 수 있습니다.
 
 예를 들면 다음과 같습니다.
 

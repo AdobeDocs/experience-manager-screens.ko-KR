@@ -3,8 +3,7 @@ title: 데이터 기반 이벤트
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -22,7 +21,7 @@ AEM Screens은 Context Hub를 통해 데이터 기반 이벤트를 활성화합�
 
 ### 데이터 기반 이벤트 분류 {#categorizing-data-driven-events}
 
-데이터 기반 이벤트는 다음 네 가지 카테고리로 분류됩니다.
+데이터 기반 이벤트는 다음 네 가지 다른 카테고리로 분류됩니다.
 
 * 작동 중인 데이터
 * 프레젠테이션의 데이터

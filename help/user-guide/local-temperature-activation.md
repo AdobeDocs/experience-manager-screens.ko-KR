@@ -1,22 +1,18 @@
 ---
 title: 여행 센터 온도 활성화
-seo-title: Travel Center Temperature Activation
-description: 다음 사용 사례에서는 Google Sheets에 채워진 값을 기반으로 하여 트래블 센터 현지 온도 활성화 를 사용하는 방법을 보여줍니다.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: AEM Screens을 사용하여 이 사용 사례가 Google Sheets에 채워진 값을 기반으로 여행 센터 로컬 온도 활성화의 사용을 보여 주는 방법을 알아봅니다.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ ht-degree: 0%
 
 ## 설명 {#description}
 
-이 사용 사례에서 Google Sheets의 값이 50보다 작은 경우 뜨거운 음료가 포함된 이미지가 표시되고, 값이 50보다 크거나 같은 경우 차가운 음료가 포함된 이미지가 표시됩니다. 값이 없거나 다른 경우에는 플레이어에 기본 이미지가 표시됩니다.
+이 사용 사례에서 Google Sheets 의 값이 50 미만인 경우 뜨거운 음료가 포함된 이미지가 표시됩니다. 값이 50보다 크거나 같으면 차가운 음료가 포함된 이미지가 표시됩니다. 다른 값이 있거나 값이 전혀 없으면 플레이어가 기본 이미지를 표시합니다.
 
 ## 전제 조건 {#preconditions}
 
@@ -42,7 +38,7 @@ ht-degree: 0%
 1. **Google 시트 채우기**
 
    1. ContextHubDemo Google 시트로 이동합니다.
-   1. 다음을 사용하여 열 추가 **제목1** (온도에 대한 해당 값 포함)
+   1. 다음을 사용하여 열 추가 **`Heading1`** (온도에 대한 해당 값 포함)
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ ht-degree: 0%
 
    1. 다음 항목 선택 **시트 A1 1** 및 클릭 **편집**.
 
-   1. 비교 속성을 선택하고 구성 아이콘을 클릭하여 속성을 편집합니다.
+   1. 비교 속성을 선택하고 구성 아이콘을 클릭합니다.
    1. 선택 **구글시트/값/1/0** 의 드롭다운에서 **속성 이름**
 
    1. 다음 항목 선택 **연산자** 다음으로: **크거나 같음** 드롭다운 메뉴에서
@@ -61,7 +57,7 @@ ht-degree: 0%
 
    1. 마찬가지로 **시트 A1 2** 및 클릭 **편집**.
 
-   1. 다음 항목 선택 **비교 속성 - 값** 구성 아이콘을 클릭하여 속성을 편집합니다.
+   1. 다음 항목 선택 **비교 속성 - 값** 구성 아이콘을 클릭합니다.
    1. 선택 **구글시트/값/1/0** 의 드롭다운에서 **속성 이름**
 
    1. 다음 항목 선택 **연산자** 다음으로: **보다 작음** 드롭다운 메뉴에서
@@ -89,6 +85,6 @@ ht-degree: 0%
 1. **미리보기 확인**
 
    1. 클릭 **미리 보기.** 또한 Google 시트를 열고 값을 업데이트합니다.
-   1. 50 미만으로 값을 변경하면 여름 음료의 이미지를 볼 수 있습니다. Google 시트의 값이 50 이상인 경우 뜨거운 음료의 이미지를 볼 수 있어야 합니다.
+   1. 값을 50 미만으로 변경합니다. 차가운 음료수의 이미지를 볼 수 있을 것이다. Google 시트의 값이 50 이상이면 뜨거운 음료의 이미지가 표시됩니다.
 
    ![result3](assets/result3.gif)
