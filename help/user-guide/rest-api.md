@@ -1,28 +1,24 @@
 ---
 title: REST API
-seo-title: REST API
-description: AEM Screens은 Siren 사양을 따르는 간단한 RESTful API를 제공합니다. 이 페이지를 따라 콘텐츠 구조를 탐색하고 환경의 장치에 명령을 보내는 방법을 알아보십시오.
-seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: AEM Screens에서 Siren 사양을 따르는 간단한 RESTful API를 제공하는 방법을 알아봅니다. 콘텐츠 구조를 탐색하고 환경의 장치에 명령을 보내는 방법도 알아봅니다.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
 
 # REST API{#rest-apis}
 
-AEM Screens은 다음을 따르는 간단한 RESTful API를 제공합니다. [사이렌](https://github.com/kevinswiber/siren) 사양. 콘텐츠 구조를 탐색하고 환경의 장치에 명령을 전송할 수 있습니다.
+AEM Screens은 다음을 따르는 간단한 RESTful API를 제공합니다. [사이렌](https://github.com/kevinswiber/siren) 사양. 콘텐츠 구조를 탐색하고 환경의 장치에 명령을 보낼 수 있습니다.
 
 API는에서 액세스할 수 있습니다. [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 

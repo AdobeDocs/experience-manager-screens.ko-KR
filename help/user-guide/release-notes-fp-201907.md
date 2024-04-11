@@ -1,23 +1,19 @@
 ---
 title: 기능 팩 201907 릴리스 정보
-seo-title: Release Notes for Feature Pack 201907
-description: 2019년 7월 31일에 릴리스된 AEM Screens 기능 팩 201907에 대한 정보를 얻으려면 이 페이지를 따르십시오.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: 2019년 7월 31일에 릴리스된 AEM Screens 기능 팩 201907에 대해 알아보십시오.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. Screens는 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 AEM Screens은 다음 세부 사항이 포함된 AEM 6.4.5 기능 팩 5 및 AEM 6.5.1 기능 팩 1을 릴리스했습니다.
 
@@ -61,21 +57,21 @@ AEM Screens 프로젝트에 대해 ContextHub를 구성한 후 다양한 사용 
 
 * **론치**
 
-론치를 사용하면 콘텐츠 작성자가 채널의 향후 버전을 만들 수 있습니다. 론치를 통해 작성자는 론치의 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있어야 합니다. 승인자 그룹은 알림을 받게 되며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 콘텐츠가 디바이스에서 재생됩니다.
+론치를 사용하여 콘텐츠 작성자는 채널의 향후 버전을 만들 수 있습니다. 론치를 통해 작성자는 론치의 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있어야 합니다. 승인자 그룹은 알림을 받으며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 콘텐츠가 디바이스에서 재생됩니다.
 다음을 참조하십시오 [론치](launches.md) 을 참조하십시오.
 
 * **경험 조각의 오프라인 구성**
 
 이제 Screens 경험 조각을 구성하는 동안 오프라인 구성(클라이언트측 라이브러리 및 정적 파일)을 추가할 수 있습니다. 다음을 참조하십시오 [경험 조각 사용](experience-fragments-in-screens.md) 을 참조하십시오.
 
-### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
+### 릴리스된 AEM Screens 플레이어
 
 AEM 6.4.5 기능 팩 5 및 AEM 6.5.1 기능 팩 1용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
+#### AEM Screens 플레이어 다운로드
 
 최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).

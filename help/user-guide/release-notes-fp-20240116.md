@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '153'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 5%
 # 기능 팩 20240116 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->최신 버전의 6.5 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. 에서 최신 버전 정보를 가져올 수 있습니다. [여기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe 최신 버전의 6.5 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. 에서 최신 버전 정보를 가져올 수 있습니다. [여기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 사용 가능 {#availability}
 
