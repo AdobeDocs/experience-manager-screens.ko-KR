@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -74,8 +74,6 @@ Adobe Analytics 설정은 OSGi 콘솔에서 구성할 수 있습니다.
 >[!CAUTION]
 >
 >속성을 구성하기 전에 Adobe 관계 관리자에게 문의하여 티켓을 받으십시오. **Analytics API 키** 및 **Analytics 프로젝트** AEM Screens에서 사용할 수 있습니다.
-
-![]()
 
 ### 속성 구성 {#configuring-the-properties}
 
