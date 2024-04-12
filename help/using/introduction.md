@@ -1,17 +1,17 @@
 ---
-title: '[!UICONTROL AEM Screens] 소개'
-description: 이 페이지는 AEM Screens 소개 섹션입니다.
+title: AEM Screens 소개
+description: AEM Screens에 대해 알아보고 이를 통해 얻을 수 있는 이점을 알아보십시오.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 58%
+source-wordcount: '660'
+ht-degree: 56%
 
 ---
 
 # AEM Screens 소개 {#introduction}
 
-**AEM(Adobe Experience Manager) Screens** 는 동적 및 대화형 디지털 경험을 제작, 게시 및 재생할 수 있는 디지털 서명 솔루션입니다. 포괄적인 옴니채널 디지털 마케팅 전략과 함께 다양한 유형의 매장 디스플레이 화면을 포함합니다.
+**AEM Screens** 는 동적 및 대화형 디지털 경험을 제작, 게시 및 재생할 수 있는 디지털 서명 솔루션입니다. 포괄적인 옴니채널 디지털 마케팅 전략과 함께 다양한 유형의 매장 디스플레이 화면을 포함합니다.
 
 AEM Screens을 사용하면 다음을 만들 수 있습니다.
 

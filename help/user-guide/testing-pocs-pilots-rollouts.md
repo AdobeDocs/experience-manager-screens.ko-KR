@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대규모 디지털 사이니지 배포를 위한 일반적인 판매 주기는 9~18개월입니다. 최종 기간에 영향을 미치는 요소는 여러 가지가 있습니다. 그 중 적어도 하나는 최종 고객이 성공을 측정하는 방법과 새로운 솔루션을 도입할 때 비즈니스 파트너에게 미치는 위험 정도입니다.
+>대규모 디지털 사이니지 배포를 위한 일반적인 영업 주기는 9개월에서 18개월입니다. 최종 기간에 영향을 미치는 요소는 여러 가지가 있습니다. 그 중 적어도 하나는 최종 고객이 성공을 측정하는 방법과 새로운 솔루션을 도입할 때 비즈니스 파트너에게 미치는 위험 정도입니다.
 
 예를 들어 소매 환경에서 디지털 간판 프로그램의 이해 당사자는 다음과 같습니다.
 

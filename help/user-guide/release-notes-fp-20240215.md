@@ -1,12 +1,13 @@
 ---
 title: Screens 기능 팩 릴리스에 대한 릴리스 20240215
-description: 2024년 2월 15일에 릴리스된 AEM Screens 기능 팩 20240215에 대한 정보를 얻으려면 이 페이지를 따르십시오.
+description: 2024년 2월 15일에 릴리스된 AEM Screens 기능 팩 20240215에 대한 정보를 알아보십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
+exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '151'
 ht-degree: 5%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 5%
 # 기능 팩 20240215 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->최신 버전의 6.5 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. 에서 최신 버전 정보를 가져올 수 있습니다. [여기](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Adobe 최신 버전의 6.5 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. 에서 최신 버전 정보를 가져올 수 있습니다. [여기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 사용 가능 {#availability}
 

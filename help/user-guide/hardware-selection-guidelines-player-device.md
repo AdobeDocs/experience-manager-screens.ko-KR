@@ -1,9 +1,9 @@
 ---
 title: 플레이어 장치에 대한 하드웨어 선택 지침
-description: 플레이어 장치에 대한 하드웨어 선택 지침
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: AEM Screens 플레이어 장치의 하드웨어 선택 지침에 대해 알아봅니다.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
    <td><strong>메모리</strong></td>
    <td><strong>스토리지 SSD</strong></td>
    <td><strong>GPU</strong></td>
-   <td><strong>표시</strong></td>
+   <td><strong>디스플레이</strong></td>
    <td><strong>I/O</strong></td>
    <td><strong>일반적인 사용 사례</strong></td>
   </tr>
@@ -43,10 +43,10 @@ ht-degree: 3%
    <td>기본</td>
    <td>듀얼 코어, i3 또는 엔트리급 쿼드 코어 Intel® Atom 프로세서</td>
    <td><p>4GB 메모리</p> <p>2MB 캐시</p> </td>
-   <td><p>·ChromeOS 32GB</p> <p>·Windows 128GB</p> </td>
+   <td><p>*ChromeOS 32GB</p> <p>*Windows 128GB</p> </td>
    <td>온보드</td>
-   <td>1920x1080</td>
-   <td>DVI,<br /> 이더넷 / 무선,<br /> USB 2개</td>
+   <td>1920 x 1080</td>
+   <td>DVI<br /> 이더넷 / 무선,<br /> USB 2개</td>
    <td>
     <ul>
      <li>표준 전체 화면 루프<br /> </li>
@@ -55,11 +55,11 @@ ht-degree: 3%
   </tr>
   <tr>
    <td>표준</td>
-   <td>쿼드 코어, Intel® Core i5 프로세서</td>
+   <td>쿼드 코어, Intel® Core™ i5 프로세서</td>
    <td><p>8GB 메모리</p> <p>4MB 캐시</p> </td>
-   <td>128기가바이트</td>
+   <td>128GB</td>
    <td>온보드</td>
-   <td>3840x2160(4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> USB 2개</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ ht-degree: 3%
   </tr>
   <tr>
    <td>고급</td>
-   <td>쿼드 코어, 하이퍼스레딩, 인텔® 코어 i7 프로세서</td>
+   <td>쿼드 코어, 하이퍼스레딩, 인텔® 코어™ i7 프로세서</td>
    <td><p>16GB 메모리</p> <p>8MB 캐시</p> </td>
    <td>256GB</td>
    <td>전용 그래픽 GPU</td>
-   <td>3840x2160(4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> 4xUSB</td>
    <td>
     <ul>
