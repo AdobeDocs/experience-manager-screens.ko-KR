@@ -2,9 +2,9 @@
 title: 테스트 및 품질 보증
 description: 모범 사례 안내서에서 AEM Screens에 대한 테스트 및 품질 보증에 대해 알아봅니다.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 테스트 및 품질 보증 {#testing-quality}
 
 >[!NOTE]
->이 활동의 일반적인 이해 당사자는 A/V 통합자입니다.
+>이 활동의 일반적인 이해 당사자는 오디오/비디오 통합자입니다.
 
 디지털 사이니지 네트워크의 배포가 가까워지면 모든 하드웨어 구성 요소, 모든 소프트웨어 구성 요소, 모든 네트워킹 구성 요소를 포함한 네트워크의 모든 요소를 해결하는 테스트 및 QA 계획을 만듭니다.
 이 단계에서는 전체 테스트 시스템을 구축하고 완전히 테스트해야 합니다.
@@ -82,4 +82,4 @@ AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 �
 * TeamViewer
 * 에어워치
 * `42Gears`
-* 독점 AV 통합업체 미들웨어
+* 독점 오디오/비디오 통합자 미들웨어

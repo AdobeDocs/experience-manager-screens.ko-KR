@@ -1,14 +1,13 @@
 ---
 title: 데이터 트리거를 사용하여 작성
-seo-title: Authoring with Data Triggers
-description: 이 페이지를 따라 데이터 트리거로 작성하는 방법을 알아봅니다.
+description: AEM Screens 채널에서 데이터 트리거를 사용하여 작성하는 방법에 대해 자세히 알아보십시오.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -50,11 +49,11 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 다음 항목 선택 **개인화** 탭을 사용하여 ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 선택합니다.
+1. 다음 항목 선택 **개인화** 탭을 사용하여 ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 선택할 수 있습니다.
 
    1. 다음 항목 선택 **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 클릭 **선택**.
 
-   1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **We.Retail** > **설정** > **wcm** > **세그먼트** 및 클릭 **선택**.
+   1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **`We.Retail`** > **설정** > **wcm** > **세그먼트** 및 클릭 **선택**.
 
    1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
@@ -68,7 +67,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >모든 것을 올바르게 설정하면 **타겟팅** 아래 그림과 같이 편집기에서 드롭다운에 있는 옵션입니다.
+   >모든 것을 올바르게 설정했으면 다음과 같이 표시됩니다 **타겟팅** 아래 그림과 같이 편집기에서 드롭다운에 있는 옵션입니다.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

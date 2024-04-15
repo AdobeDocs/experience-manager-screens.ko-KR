@@ -1,21 +1,21 @@
 ---
 title: 기능 팩 202203 릴리스 정보
-description: 2022년 3월 25일에 릴리스된 AEM Screens 기능 팩 202203에 대한 정보를 얻으려면 이 페이지를 따르십시오.
+description: 2022년 3월 25일에 릴리스된 AEM Screens 기능 팩 202203에 대해 자세히 알아보십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
 # 기능 팩 202112 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. Screens는 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 ## 사용 가능 {#availability}
 
@@ -45,19 +45,19 @@ AEM Screens 기능 팩 202203의 릴리스 날짜는 2022년 3월 25일입니다
 
 * 이제 플레이어 활동 UI가 예상대로 작동합니다.
 
-* 게시 관리를 통해 최신 업데이트를 가져오지 못했습니다. 이제 해결되었습니다.
+* 플레이어가 게시 관리를 통해 최신 업데이트를 통과하지 못했습니다. 이제 해결되었습니다.
 
-### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
+### 릴리스된 AEM Screens 플레이어
 
 AEM 6.5 기능 팩 11용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 * iOS
 
-#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
+#### AEM Screens 플레이어 다운로드
 
 최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

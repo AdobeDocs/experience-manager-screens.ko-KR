@@ -1,29 +1,27 @@
 ---
 title: 환경 [!UICONTROL AEM Screens]
-seo-title: Environments for [!UICONTROL AEM Screens]
-description: 이 페이지에서는 AEM Screens 프로젝트 환경에 대해 설명합니다.
-seo-description: This page highlights the environments for an AEM Screens project.
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+description: AEM Screens 프로젝트 환경에 대해 자세히 알아보십시오.
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '152'
+ht-degree: 0%
 
 ---
 
 
 # 환경 {#environments}
 
-클라이언트가 보유하고 있으며 이 두 가지 모두를 사용할 AEM 환경을 미리 결정합니다. *개발* 및 *배포*.
+에 대해 클라이언트가 가지고 있고 사용자가 사용할 AEM 환경을 미리 결정합니다. *개발* 및 *배포*.
 
 >[!NOTE]
 >
->AEM Screens이 작동하려면 여러 패키지가 필요합니다. 모든 환경에서 동일한 버전의 Adobe Experience Manager을 실행해야 합니다.
+>AEM Screens이 작동하려면 프로젝트가 작동하는 여러 패키지가 필요합니다. 모든 환경에서 동일한 버전의 Adobe Experience Manager을 실행해야 합니다.
 
 AEM Screens 프로젝트에 대한 환경을 설정하려면 아래 지침을 따르십시오.
 
 1. 사용 중인 Adobe Experience Manager 버전에 대해 최신 버전의 다음 패키지를 실행합니다.
 
-   * **AEM Service Pack**
+   * **AEM 서비스 팩**
    * **화면 기능 팩**
    * **AEM 누적 수정 팩**
 

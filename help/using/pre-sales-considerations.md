@@ -1,12 +1,10 @@
 ---
 title: 프로젝트 범위 지정 시 고려 사항
-seo-title: Considerations as Projects are Scoped
-description: 이 페이지에서는 프로젝트 범위가 지정될 때의 고려 사항에 대해 설명합니다
-seo-description: The page describes Considerations as Projects are Scoped
+description: AEM Screens 프로젝트의 범위가 지정됨에 따른 고려 사항에 대해 자세히 알아보십시오.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 >이 활동의 일반적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
 
 이 단계에는 프로젝트 범위를 완전히 정의하는 데 필요한 모든 사전 영업 및 검색 작업이 포함됩니다. Day Zero 동안 수행된 작업은 프로젝트의 나머지 부분에 대한 톤을 설정하며, 빌드 중인 애플리케이션의 전반적인 성공에 영향을 줍니다.
-이 단계에서는 프로젝트 계획을 수립하는 데 도움이 되도록 주요 공급업체를 파악하고 함께 모읍니다. 이 단계에서는 영업 담당자, 마케팅 관리자 및 IT 팀과 같은 고객 회사 내의 주요 프로젝트 이해 관계자와 함께 바이인이 구축되는 것도 중요합니다. 이들 모두 애플리케이션 개발 및 지속적인 유지 관리에 중요한 역할을 담당하게 되기 때문입니다.
+이 단계에서는 프로젝트 계획을 수립하는 데 도움이 되도록 주요 공급업체를 파악하고 함께 모읍니다. 고객사 내 주요 프로젝트 이해 관계자와 함께 바이인(buy-in)도 수립하는 것이 이 단계에서 중요하다. 이러한 이해 관계자에는 영업 임원, 마케팅 관리자 및 IT 팀이 포함됩니다. 이러한 사람들은 모두 응용 프로그램의 개발 및 지속적인 유지 관리에서 중요한 역할을 합니다.
 
 ## 주요 결과물 {#key-deliverables}
 
@@ -31,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->응용 프로그램에 필요한 데이터 및 출처를 최대한 빨리 파악합니다. 구현 중에 더 자세한 탐색이 수행되지만 다음 시간 동안 시간을 투자하십시오. *0일* 클라이언트에서 사용하려는 데이터, 해당 데이터가 현재 저장된 위치 및 빌드 중인 애플리케이션에서 액세스할 수 있는 방법을 알아봅니다. 앞으로 발생할 수 있는 과제를 미리 개발팀에 알리는 것이 보다 원활하게 이행하는 데 도움이 될 것이다.
+>응용 프로그램에 필요한 데이터 및 해당 데이터가 어디에서 오는지 가능한 한 빨리 식별합니다. 구현 중에 더 깊이 있는 탐색이 발생합니다. 그러나 다음 시간 동안 시간을 내어 *0일* 를 사용하여 클라이언트가 사용하려는 데이터를 확인합니다. 현재 저장된 데이터의 위치와 작성 중인 애플리케이션에서 액세스할 수 있는 방법을 알아봅니다. 문제가 발생하기 전에 개발 팀에 알리는 것이 구현이 보다 원활하게 진행될 수 있도록 지원합니다.
 
-에서 비디오 튜토리얼 보기 [프로젝트 범위 지정 시 고려 사항](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) 추가 정보.
+비디오 튜토리얼 보기 [&quot;프로젝트 범위 지정 시 고려 사항&quot;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

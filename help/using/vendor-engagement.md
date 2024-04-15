@@ -2,7 +2,7 @@
 title: 공급업체 참여
 description: AEM Screens 모범 사례 안내서를 위한 공급업체 참여에 대해 알아봅니다.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 공급업체 참여 {#vendor-engagement}
 
 >[!NOTE]
->이 활동의 일반적인 이해 당사자는 A/V 통합자입니다.
+>이 활동의 일반적인 이해 당사자는 오디오/비디오 통합자입니다.
 
 이 활동에서는 네트워크 및 파트너 종속성을 조합하고 제공하는 데 필요한 모든 주요 공급업체를 파악하는 것이 중요합니다.
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 * 컨텐츠 전략
 * 비즈니스 운영 요구 사항
 * IT 및 네트워크 환경 검색
-* AV 요구 사항
+* 오디오/비디오 요구 사항
 * 장비 사양
 * 사이트 준비
 
@@ -67,7 +67,7 @@ I/O는 대상자 근접 감지를 기반으로 컨텐츠의 조건부 재생을 
 
 비즈니스 운영은 콘텐츠 전략 대화에서 정의하는 것도 중요합니다. 최종 클라이언트의 지원 요구 사항을 공식화하면 구축 후 예상 목표를 관리하고 지원 노력을 적절히 측정할 수 있습니다.
 
-### A/V 요구 사항 {#a-v-requirements}
+### 오디오/비디오 요구 사항 {#a-v-requirements}
 
 장비 서비스를 위한 디바이스 액세스를 둘러싼 고려 사항과 마찬가지로 장착 시나리오에도 정의가 필요합니다. 이는 초기 설치 인력 및 장비 권장 사항뿐만 아니라 지속적인 서비스 및 지원 요구 사항을 결정하는 데에도 영향을 줍니다.
 

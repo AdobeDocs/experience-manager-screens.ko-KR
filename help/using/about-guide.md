@@ -2,10 +2,10 @@
 title: 이 안내서 정보
 description: 전략 및 설계 브리핑, 배포, 지원 이후 프로젝트를 계획 및 실행하기 위한 AEM Screens 프로젝트의 모범 사례에 대해 알아봅니다.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 34%
+source-wordcount: '255'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ AEM Screens 모범 사례 안내서는 AEM Screens 프로젝트를 성공적으�
 이 문서의 대상:
 
 * *AEM 구현자*
-* *AV 통합업체*
+* *오디오/비디오 통합업체*
 * *비즈니스 전략가*
 * *프로젝트 관리자*
 * *컨설턴트*
