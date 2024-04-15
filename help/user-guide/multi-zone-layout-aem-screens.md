@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1126'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 1%
 
 프로젝트 요구 사항에 따라 한 채널에 여러 영역이 필요하며 이를 하나의 포괄적인 단위로 편집해야 하는 경우가 있습니다. 예를 들어, 단일 채널에서 세 개의 별도 영역에서 실행되는 관련 소셜 미디어 피드가 있는 제품 시퀀스입니다.
 
+>[!NOTE]
+>다중 영역 채널에서는 잠재적인 충돌 및 의도하지 않은 동작으로 인해 자산 수준 스케줄링을 권장하지 않습니다. 자산 수준의 스케줄링이 필요한 경우, 별도의 시퀀스 채널을 생성하고 해당 채널 내에 스케줄링 로직을 적용하는 것이 좋습니다. 그런 다음 시퀀스 채널을 다중 영역 채널에 포함합니다.
 
 ### 사전 요구 사항 {#prerequisites}
 
