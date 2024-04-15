@@ -1,12 +1,10 @@
 ---
 title: 장치 사양
-seo-title: Device Specifications
-description: 이 페이지에서는 장치 사양에 대해 설명합니다
-seo-description: The page describes device specifications
+description: AEM Screens과 관련된 장치 사양에 대해 자세히 알아보십시오.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 * 화면을 AEM 서버와 동기화하려면 플레이어에서 인터넷 연결이 필요합니까?
 
-* 플레이어에 대한 컨텐츠는 언제 업데이트됩니까?
+* 플레이어의 컨텐츠는 언제 업데이트됩니까?
 
 * 비디오를 실행하는 경우 컨텐츠가 제대로 표시되도록 디바이스의 사양을 이해해야 합니다.
 
@@ -40,4 +38,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->또한 선택한 하드웨어에 대한 사양을 검증하여 개발 중인 애플리케이션을 지원할 수 있도록 해야 합니다. 예를 들어, 응용 프로그램이 한 번에 5개의 HD 비디오를 실행하도록 설계된 경우 하드웨어에서 지원합니까?
+>또한 선택한 하드웨어에 대한 사양을 검증하여 개발 중인 애플리케이션을 지원할 수 있도록 해야 합니다. 예를 들어, 응용 프로그램이 5개의 HD 비디오를 동시에 실행하도록 설계된 경우 하드웨어에서 지원합니까?

@@ -1,26 +1,22 @@
 ---
 title: AEM Screens 구성 요소 확장
-seo-title: Extending an AEM Screens Component
-description: 다음 튜토리얼에서는 AEM Screens 구성 요소를 기본 제공하기 위한 단계 및 모범 사례를 안내합니다. 이미지 구성 요소가 확장되어 작성 가능한 텍스트 오버레이가 추가됩니다.
-seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
-uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
+description: 이 자습서에서는 AEM Screens 구성 요소를 곧바로 확장하기 위한 단계 및 모범 사례에 대해 알아봅니다. 이미지 구성 요소가 확장되어 작성 가능한 텍스트 오버레이가 추가됩니다.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 2%
+source-wordcount: '1696'
+ht-degree: 1%
 
 ---
 
-# AEM Screens 구성 요소 확장 {#extending-an-aem-screens-component}
+# AEM Screens 구성 요소 확장
 
 다음 튜토리얼에서는 AEM Screens 구성 요소를 기본 제공하기 위한 단계 및 모범 사례를 안내합니다. 이미지 구성 요소가 확장되어 작성 가능한 텍스트 오버레이가 추가됩니다.
 
@@ -44,11 +40,11 @@ ht-degree: 2%
 1. [AEM 스크린 플레이어](/help/user-guide/aem-screens-introduction.md)
 1. 로컬 개발 환경
 
-튜토리얼 단계 및 스크린샷은 CRXDE-Lite를 사용하여 수행됩니다. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) 또는 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE 사용에 대한 추가 정보 [AEM을 사용한 개발은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+튜토리얼 단계 및 스크린샷은 CRXDE-Lite를 사용하여 수행됩니다. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) 또는 [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE 사용에 대한 추가 정보 [AEM을 사용한 개발은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## 프로젝트 설정 {#project-setup}
 
-Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프로젝트로 관리됩니다. 튜토리얼을 신속하게 수행하기 위해 다음을 사용하여 프로젝트가 사전 생성되었습니다. [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). 에 대한 추가 세부 정보 [maven AEM Project Archetype으로 프로젝트를 만드는 방법은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프로젝트로 관리됩니다. 튜토리얼을 신속하게 수행하기 위해 다음을 사용하여 프로젝트가 사전 생성되었습니다. [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). 에 대한 추가 세부 정보 [maven AEM Project Archetype으로 프로젝트를 만드는 방법은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. 다음을 사용하여 다음 패키지를 다운로드하여 설치합니다. **CRX 패키지 관리** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -59,22 +55,22 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC 시작 화면 We.Retail 실행 프로젝트
+   SRC 시작 화면 `We.Retail` 프로젝트 실행
 
 [파일 가져오기](assets/start-poster-screens-weretail-run.zip)
 
 1. 위치 **CRX 패키지 관리자** `http://localhost:4502/crx/packmgr/index.jsp` 다음 두 패키지가 설치됩니다.
 
-   1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
-   1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+   1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
+   1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
    ![Screens We.Retail에서는 CRX 패키지 관리자를 통해 설치된 Ui.Apps 및 Ui.Content 패키지를 실행합니다.](assets/crx-packages.png)
 
-   Screens We.Retail에서는 CRX 패키지 관리자를 통해 설치된 Ui.Apps 및 Ui.Content 패키지를 실행합니다.
+   AEM Screens `We.Retail Run Ui.Apps` 및 `Ui.Content` crx 패키지 관리자를 통해 설치된 패키지
 
 ## 포스터 구성 요소 만들기 {#poster-cmp}
 
-포스터 구성 요소는 기본 제공 화면 이미지 구성 요소를 확장합니다. 슬링의 메커니즘, `sling:resourceSuperType`를 사용하여 복사하여 붙여넣을 필요 없이 이미지 구성 요소의 핵심 기능을 상속할 수 있습니다. 의 기본 사항에 대한 추가 정보 [Sling 요청 처리는 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html)
+포스터 구성 요소는 기본 AEM Screens 이미지 구성 요소를 확장합니다. 슬링의 메커니즘, `sling:resourceSuperType`를 사용하여 복사하여 붙여넣을 필요 없이 이미지 구성 요소의 핵심 기능을 상속할 수 있습니다. 의 기본 사항에 대한 추가 정보 [Sling 요청 처리는 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 포스터 구성 요소는 미리 보기/프로덕션 모드에서 전체 화면으로 렌더링됩니다. 편집 모드에서는 시퀀스 채널 작성을 용이하게 하기 위해 구성 요소를 다르게 렌더링하는 것이 중요합니다.
 
@@ -95,15 +91,15 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    /apps/weretail-run/components/content/poster의 속성
 
-   를 설정하여 `sling:resourceSuperType`속성이 다음과 같음 `screens/core/components/content/image` 포스터 구성 요소는 이미지 구성 요소의 모든 기능을 효과적으로 상속합니다. 아래에 있는 동등한 노드 및 파일 `screens/core/components/content/image` 를 아래에 추가할 수 있습니다. `poster` 구성 요소를 사용하여 기능을 재정의하고 확장합니다.
+   를 설정하여 `sling:resourceSuperType`속성이 다음과 같음 `screens/core/components/content/image`: 포스터 구성 요소는 이미지 구성 요소의 모든 기능을 효과적으로 상속합니다. 아래에 있는 동등한 노드 및 파일 `screens/core/components/content/image` 아래에 추가할 수 있습니다. `poster` 기능을 재정의하고 확장할 구성 요소입니다.
 
-1. 다음을 복사합니다. `cq:editConfig` 노드 아래 `/libs/screens/core/components/content/image.`붙여넣기 `cq:editConfig` 아래에 `/apps/weretail-run/components/content/poster` 구성 요소.
+1. 다음을 복사합니다. `cq:editConfig` 노드 아래 `/libs/screens/core/components/content/image`. 붙여넣기 `cq:editConfig` 아래에 `/apps/weretail-run/components/content/poster` 구성 요소.
 
-   다음에서 `cq:editConfig/cq:dropTargets/image/parameters` 노드 업데이트 `sling:resourceType` 같지 않은 속성 `weretail-run/components/content/poster`.
+   다음에서 `cq:editConfig/cq:dropTargets/image/parameters` 노드, 업데이트 `sling:resourceType` 같지 않은 속성 `weretail-run/components/content/poster`.
 
    ![edit-config](assets/edit-config.png)
 
-   아래에 표시된 cq:editConfig의 XML 표현:
+   의 XML 표현 `cq:editConfig` 아래 표시:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -135,11 +131,11 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    ![/libs/wcm/foundation/components/image/cq:dialog에서 /apps/weretail-run/components/content/poster로 복사된 대화 상자](assets/2018-05-03_at_4_13pm.png)
 
-   /libs/wcm/foundation/components/image/cq:dialog에서 /apps/weretail-run/components/content/poster로 복사된 대화 상자
+   다음 위치에서 복사된 대화 상자 `/libs/wcm/foundation/components/image/cq:dialog` 끝 `/apps/weretail-run/components/content/poster`
 
-   화면 `image` 구성 요소가 WCM Foundation으로 슈퍼타이핑되었습니다. `image` 구성 요소. 따라서 `poster` 구성 요소는 두 기능을 모두 상속합니다. 포스터 구성 요소의 대화 상자는 [스크린]과 [기초] 대화 상자의 조합으로 구성됩니다. 의 기능 **Sling 리소스 병합** 위 형식화된 구성 요소에서 상속된 관련 없는 대화 상자 필드 및 탭을 숨기는 데 사용됩니다.
+   더 AEM Screens `image` 구성 요소가 WCM Foundation으로 슈퍼타이핑되었습니다. `image` 구성 요소. 따라서 `poster` 구성 요소는 두 기능을 모두 상속합니다. 포스터 구성 요소의 대화 상자는 [스크린]과 [기초] 대화 상자의 조합으로 구성됩니다. 의 기능 **Sling 리소스 병합** 위 형식화된 구성 요소에서 상속된 관련 없는 대화 상자 필드 및 탭을 숨기는 데 사용됩니다.
 
-1. 아래의 cq:dialog 업데이트 `/apps/weretail-run/components/content/poster` XML에 표시되는 다음 변경 사항:
+1. 업데이트 `cq:dialog` 아래에 `/apps/weretail-run/components/content/poster` XML에 표시되는 다음 변경 사항:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -250,7 +246,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    포스터 - 최종 대화 상자 구조
 
-   이 시점에서 의 인스턴스는 `poster` 구성 요소를 **유휴 채널** We.Retail 실행 프로젝트의 페이지: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   이 시점에서 의 인스턴스는 `poster` 구성 요소를 **유휴 채널** 페이지의`We.Retail` 프로젝트 실행: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
    ![포스터 대화 상자 필드](assets/poster-dialog-full.png)
 
@@ -280,13 +276,13 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
    </div>
    ```
 
-   위의 는 포스터 구성 요소에 대한 프로덕션 마크업입니다. HTL 스크립트 재정의 `screens/core/components/content/image/production.html`. 다음 `image.js` 는 POJO와 유사한 이미지 개체를 만드는 서버측 스크립트입니다. 그런 다음 Image 개체를 호출하여 `src` 를 인라인 스타일 background-image로 만듭니다.
+   포스터 구성 요소에 대한 프로덕션 마크업은 바로 위에 표시됩니다. HTL 스크립트 재정의 `screens/core/components/content/image/production.html`. 다음 `image.js` 는 POJO와 유사한 이미지 개체를 만드는 서버측 스크립트입니다. 그런 다음 Image 개체를 호출하여 `src` 를 인라인 스타일 background-image로 만듭니다.
 
    `The h1` h2 태그가 추가되면 구성 요소 속성에 따라 제목 및 설명 이 표시됩니다. `${properties.jcr:title}` 및 `${properties.jcr:description}`.
 
    주변 `h1` 및 `h2` 태그는 의 변형이 있는 3개의 CSS 클래스가 있는 div 래퍼입니다. `cmp-poster__text`&quot;. 에 대한 값 `textPosition` 및 `textColor` 속성은 작성자의 대화 상자 선택을 기반으로 렌더링된 CSS 클래스를 변경하는 데 사용됩니다. 다음 섹션에서 클라이언트 라이브러리의 CSS를 작성하여 표시에 이러한 변경 사항을 활성화합니다.
 
-   로고는 또한 구성 요소에 오버레이로 포함됩니다. 이 예에서 We.Retail 로고에 대한 경로는 DAM에서 하드 코딩됩니다. 사용 사례에 따라 로고 경로를 동적으로 채워진 값으로 만드는 대화 상자 필드를 만드는 것이 더 적절할 수 있습니다.
+   로고는 또한 구성 요소에 오버레이로 포함됩니다. 이 예제의 경로` We.Retail` 로고가 DAM에 하드 코딩되어 있습니다. 사용 사례에 따라 로고 경로를 동적으로 채워진 값으로 만드는 대화 상자 필드를 만드는 것이 더 적절할 수 있습니다.
 
    또한 구성 요소에는 BEM(블록 요소 수정자) 표기법이 사용됩니다. BEM은 재사용 가능한 구성 요소를 쉽게 만들 수 있는 CSS 코딩 규칙입니다. BEM은 다음에 의해 사용되는 표기법입니다. [AEM 핵심 구성 요소](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -312,23 +308,23 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
    </div>
    ```
 
-   위 값은 **편집** 포스터 구성 요소에 대한 마크업 HTL 스크립트 재정의 `/libs/screens/core/components/content/image/edit.html`. 마크업은 과 유사합니다. `production.html` 이미지 위에 제목과 설명을 표시합니다.
+   다음 **편집** 포스터 구성 요소에 대한 마크업은 바로 위에 표시됩니다. HTL 스크립트 재정의 `/libs/screens/core/components/content/image/edit.html`. 마크업은 과 유사합니다. `production.html` 이미지 위에 제목과 설명을 표시합니다.
 
    다음 `aem-Screens-editWrapper`구성 요소가 편집기에서 전체 화면으로 렌더링되지 않도록 가 추가됩니다. 다음 `data-emptytext` 속성은 이미지 또는 컨텐츠가 채워지지 않은 경우 자리 표시자가 표시되도록 합니다.
 
 ## 클라이언트측 라이브러리 만들기 {#clientlibs}
 
-클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다. 사용에 대한 추가 정보 [클라이언트측 라이브러리는 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다. 사용에 대한 추가 정보 [클라이언트측 라이브러리는 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드에서 다르게 렌더링됩니다. 두 세트의 클라이언트 라이브러리가 생성되는데, 하나는 편집 모드용이고 다른 하나는 미리보기/프로덕션용입니다.
 
 1. 포스터 구성 요소의 클라이언트측 라이브러리에 대한 폴더를 만듭니다.
 
-   아래에 `/apps/weretail-run/components/content/poster,`다음 이름의 폴더 만들기 `clientlibs`.
+   아래에 `/apps/weretail-run/components/content/poster`, 폴더 만들기 `clientlibs`.
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. 아래 `clientlibs` 폴더 (이)라는 노드를 만듭니다. `shared` 유형 `cq:ClientLibraryFolder.`
+1. 아래 `clientlibs` 폴더, 다음 이름의 노드 만들기 `shared` 유형 `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -343,7 +339,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    다음 `categories` 속성은 클라이언트 라이브러리를 식별하는 문자열입니다. 다음 `cq.screens.components` 범주는 편집 모드와 미리 보기/프로덕션 모드 모두에서 사용됩니다. 에 정의된 모든 CSS/JS `shared` clientlib은 모든 모드에서 로드됩니다.
 
-   프로덕션 환경에서는 경로를 /apps에 직접 노출하지 않는 것이 좋습니다. 다음 `allowProxy` 속성은 의 접두사를 통해 클라이언트 라이브러리 CSS 및 JS가 참조되도록 합니다. `/etc.clientlibs`. 에 대한 추가 정보 [allowProxy 속성은 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+   프로덕션 환경에서는 경로를 /apps에 직접 노출하지 않는 것이 좋습니다. 다음 `allowProxy` 속성은 의 접두사를 통해 클라이언트 라이브러리 CSS 및 JS가 참조되도록 합니다. `/etc.clientlibs`. 에 대한 추가 정보 [allowProxy 속성은 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 파일 만들기: `css.txt` 공유 폴더 아래에 있습니다.
 
@@ -416,13 +412,13 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    >[!NOTE]
    >
-   >Google Web Fonts은 글꼴 패밀리에 사용됩니다. Web Fonts은 인터넷 연결이 필요하며 일부 Screens 구현이 안정적인 연결이 되는 것은 아닙니다. 오프라인 모드를 계획하는 것은 Screens 배포에 중요한 고려 사항입니다.
+   >Google Web Fonts은 글꼴 패밀리에 사용됩니다. Web Fonts은 인터넷 연결이 필요하며 모든 AEM Screens 구현에 안정적인 연결이 있는 것은 아닙니다. 오프라인 모드를 계획하는 것은 AEM Screens 배포에 중요한 고려 사항입니다.
 
 1. 다음을 복사합니다. `shared` 클라이언트 라이브러리 폴더입니다. 동위 멤버로 붙여넣고 이름을 로 변경합니다. `production`.
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. 업데이트 `categories` 생성할 프로덕션 클라이언트 라이브러리의 속성입니다. `cq.screens.components.production.`
+1. 업데이트 `categories` 다음이 될 프로덕션 클라이언트 라이브러리의 속성 `cq.screens.components.production.`
 
    다음 `cq.screens.components.production` 카테고리는 미리보기/프로덕션 모드일 때만 스타일이 로드되도록 합니다.
 
@@ -485,7 +481,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    위의 스타일은 Title과 Description을 화면의 절대 위치에 표시합니다. 제목이 설명보다 크게 표시됩니다. 구성 요소의 BEM 표기법을 사용하여 cmp 포스터 클래스 내에서 스타일의 범위를 쉽게 지정할 수 있습니다.
 
-세 번째 clientlibrary 범주: `cq.screens.components.edit` 구성 요소에 특정 스타일만 편집 을 추가하는 데 사용할 수 있습니다.
+세 번째 클라이언트 라이브러리 범주: `cq.screens.components.edit` 구성 요소에 특정 스타일만 편집 을 추가하는 데 사용할 수 있습니다.
 
 | Clientlib 범주 | 사용 |
 |---|---|
@@ -495,14 +491,14 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
 ## 시퀀스 채널에 포스터 구성 요소 추가 {#add-sequence-channel}
 
-포스터 구성 요소는 시퀀스 채널에서 사용됩니다. 이 자습서의 시작 패키지에는 유휴 채널이 포함되어 있습니다. 유휴 채널은 그룹의 구성 요소를 허용하도록 미리 구성되어 있습니다. **We.Retail 실행 - 콘텐츠**. 포스터 구성 요소의 그룹이 (으)로 설정됨 `We.Retail Run - Content` 를 채널에 추가할 수 있습니다.
+포스터 구성 요소는 시퀀스 채널에서 사용됩니다. 이 자습서의 시작 패키지에는 유휴 채널이 포함되어 있습니다. 유휴 채널은 그룹의 구성 요소를 허용하도록 미리 구성되어 있습니다. **`We.Retail Run - Content`**. 포스터 구성 요소의 그룹이 (으)로 설정됨 `We.Retail Run - Content` 를 채널에 추가할 수 있습니다.
 
-1. We.Retail 실행 프로젝트에서 유휴 채널 을 엽니다. **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. 다음에서 유휴 채널 열기 `We.Retail` 프로젝트 실행: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. 의 새 인스턴스를 드래그 앤 드롭합니다. **포스터** 구성 요소를 작성합니다.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. 포스터 구성 요소의 대화 상자를 편집하여 이미지, 제목, 설명을 추가합니다. [텍스트 위치] 및 [텍스트 색상] 선택 항목을 사용하여 제목/설명을 이미지 위에서 읽을 수 있도록 합니다.
+1. 이미지, 제목, 설명을 추가할 수 있도록 포스터 구성 요소의 대화 상자를 편집합니다. [텍스트 위치] 및 [텍스트 색상] 선택 항목을 사용하여 제목/설명을 이미지 위에서 읽을 수 있도록 합니다.
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
@@ -518,12 +514,12 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
 ## 완료된 코드 {#finished-code}
 
-다음은 자습서의 완성된 코드입니다. 다음 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** 및 **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** 는 컴파일된 AEM 패키지입니다. **SRC-screens-weretail-run-0.0.1.zip**은 Maven을 사용하여 배포할 수 있는 컴파일되지 않은 소스 코드입니다.
+다음은 자습서의 완성된 코드입니다. 다음 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** 및 **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** 는 컴파일된 AEM 패키지입니다. 다음 **SRC-screens-weretail-run-0.0.1.zip** 는 Maven을 사용하여 배포할 수 있는 컴파일되지 않은 소스 코드입니다.
 
 [파일 가져오기](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
 [파일 가져오기](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC 최종 Screens We.Retail 실행 프로젝트
+SRC 파이널 AEM Screens `We.Retail` 프로젝트 실행
 
 [파일 가져오기](assets/src-screens-weretail-run-001.zip)

@@ -1,25 +1,23 @@
 ---
 title: 2일 지원 및 유지 관리
-seo-title: Day Two Support and Maintenance for AEM Screens
-description: 이 페이지에서는 2일차 지원 및 유지 관리에 대해 설명합니다
-seo-description: The page describes Day Two Support and Maintenance
+description: 2일차 AEM Screens 지원 및 유지 관리에 대해 알아봅니다.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 9%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
 # 2일 플랫폼 지원 및 유지 관리 {#day-two-support-maintenance}
 
-AEM Screens이 작동하려면 여러 패키지가 필요합니다. 모든 환경에서 동일한 버전의 Adobe Experience Manager을 실행해야 합니다.
+AEM Screens이 작동하려면 프로젝트가 작동하는 여러 패키지가 필요합니다. 모든 환경에서 동일한 버전의 Adobe Experience Manager을 실행해야 합니다.
 
 프로젝트 개발 2일차 단계에 대한 지원 및 유지 관리로서 다음 지침을 따르십시오.
 
 1. 사용 중인 Adobe Experience Manager 버전에 대해 최신 버전의 다음 패키지를 실행합니다.
 
-   * **AEM Service Pack**
+   * **AEM 서비스 팩**
    * **화면 기능 팩**
    * **AEM 누적 수정 팩**
 

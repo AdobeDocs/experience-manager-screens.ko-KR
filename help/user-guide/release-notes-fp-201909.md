@@ -1,13 +1,13 @@
 ---
 title: 기능 팩 201909 릴리스 정보
-description: AEM Screens 기능 팩 201909 릴리스 노트는 2019년 7월 31일에 릴리스되었습니다.
+description: 2019년 7월 31일에 릴리스된 AEM Screens 기능 팩 201909에 대해 자세히 알아보십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 AEM Screens은 다음 세부 사항이 포함된 AEM 6.4.6 기능 팩 6 및 AEM 6.5.2 기능 팩 2를 출시했습니다.
 

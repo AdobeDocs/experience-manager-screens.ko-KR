@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >
 >이 섹션에서는 AEM 6.5.5 Screens 기능 팩 이상에 대한 채널 할당 및 채널 예약을 강조 표시합니다.
 
-디스플레이를 설정한 후에는 디스플레이에 채널을 할당하여 콘텐츠를 확인해야 합니다.
+디스플레이를 설정한 경우 디스플레이에 채널을 할당하여 콘텐츠를 봅니다.
 
 이 페이지에는 디스플레이에 채널 할당, 채널 속성 이해 및 DayParting이 표시됩니다.
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 ### Chrome 플레이어에서 콘텐츠 보기 {#viewing-content-output}
 
-이 예에서는 Chrome 플레이어의 출력을 보여 줍니다. 채널을 디스플레이에 할당했으면 플레이어에 장치를 등록해야 합니다.
+이 예에서는 Chrome 플레이어의 출력을 보여 줍니다. 디스플레이에 채널을 할당하면 플레이어에 장치를 등록합니다.
 
 AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보려면 를 참조하십시오. [장치 등록](device-registration.md).
 

@@ -1,21 +1,21 @@
 ---
 title: 기능 팩 202112 릴리스 정보
-description: 2022년 1월 12일에 릴리스된 AEM Screens 기능 팩 202112에 대한 정보를 얻으려면 이 페이지를 따르십시오.
+description: 2022년 1월 12일에 릴리스된 AEM Screens 기능 팩 202112에 대해 자세히 알아보십시오.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '315'
+ht-degree: 3%
 
 ---
 
 # 기능 팩 202112 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. Screens는 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 ## 사용 가능 {#availability}
 
@@ -29,7 +29,7 @@ AEM Screens 기능 팩 202112의 릴리스 날짜는 2022년 1월 12일입니다
 
 ### 새로운 기능 {#what-is-new}
 
-* 이제 Android 애플리케이션 업데이트가 Android 11(API 레벨 30)을 타깃팅합니다. 현재 Android 플레이어는 target API 레벨 29에 있습니다.
+* 이제 Android™ 애플리케이션 업데이트가 Android™ 11(API 레벨 30)을 타깃팅합니다. 현재 Android™ 플레이어는 target API 레벨 29에 있습니다.
 
 * 이전 플레이어 구성에서 디스플레이 미리 보기가 중단됨
 
@@ -37,7 +37,7 @@ AEM Screens 기능 팩 202112의 릴리스 날짜는 2022년 1월 12일입니다
 
 * SmartSync에서 동시 다운로드 오류 해결
 
-* 개발자는 이제 매니페스트 처리의 확장성, 명확성 및 용이성을 보장하기 위해 매니페스트의 해당 에셋 아래에 렌디션 항목으로만 나열되는 에셋 렌디션을 봅니다.
+* 개발자는 매니페스트의 해당 에셋 아래에 렌디션 항목으로만 나열할 에셋 렌디션을 보고 확장성, 명확성 및 편의성을 확인하십시오.
 
 ### 버그 수정 {#bug-fixes}
 
@@ -57,16 +57,16 @@ AEM Screens 기능 팩 202112의 릴리스 날짜는 2022년 1월 12일입니다
 
 * SmartSync에서 동시 다운로드 오류를 수정합니다.
 
-### 릴리스된 AEM Screens 플레이어 {#released-aem-screens-players}
+### 릴리스된 AEM Screens 플레이어
 
 AEM 6.5 기능 팩 10용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens 플레이어 다운로드  {#aem-screens-player-downloads}
+#### AEM Screens 플레이어 다운로드
 
 최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

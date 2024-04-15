@@ -1,13 +1,11 @@
 ---
-title: 에 대한 UX 종속성 [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: 이 안내서에서는 의 UX 종속성에 대해 설명합니다. [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: AEM Screens에 대한 UX 종속성
+description: AEM Screens의 UX 종속성에 대해 자세히 알아보십시오.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +31,7 @@ UX 종속성은 콘텐츠가 전략화되는 위치와 방법을 정의하므로
 
 1. 연결 및 네트워크 배선은 어떻게 설정됩니까?
 
-1. 컴퓨터와 연결 상태를 얼마나 자주 켜고 끄나요?
+1. 컴퓨터와 연결이 얼마나 자주 켜지고 꺼지나요?
 
 1. 고정장치 디자인은 접근성을 지원합니까?
 

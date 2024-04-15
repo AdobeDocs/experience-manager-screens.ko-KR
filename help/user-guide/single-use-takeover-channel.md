@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # 단일 사용 전환 채널 {#single-use-takeover-channel}
 
 다음 페이지에서는 특정 시간 동안 한 번 재생되는 단일 전환 채널을 만드는 방법에 대한 프로젝트 설정을 강조하는 사용 사례를 보여 줍니다.
-
 
 ## 사용 사례 설명 {#use-case-description}
 
