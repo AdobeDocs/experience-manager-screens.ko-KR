@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 소개 {#introduction}
 
-조직에서 처음으로 AEM Screens 프로젝트를 설정하는 경우 모든 위치도 만들어야 합니다. 프로젝트에 많은 위치가 포함된 경우 UI에서 많은 항목을 클릭하고 기다리는 지루한 작업이 발생합니다.
+조직에서 처음으로 AEM Screens 프로젝트를 설정하는 경우 모든 위치도 만듭니다. 프로젝트에 많은 위치가 포함된 경우 UI에서 많은 항목을 클릭하고 기다리는 지루한 작업이 발생합니다.
 
 이 기능의 목표는 프로젝트를 설정하는 데 필요한 시간을 줄여 예산 문제를 해결하는 것입니다.
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 1. 다음 **가져오기** 마법사가 표시됩니다. 위치가 있는 프로젝트의 파일을 선택하거나 파일(***minimal-file.xls***)에서 다운로드했습니다. *전제 조건* 섹션.
 
-   파일을 선택했으면 **다음**.
+   파일을 선택한 후 **다음**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

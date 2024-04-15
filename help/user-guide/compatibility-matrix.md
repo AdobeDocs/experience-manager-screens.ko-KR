@@ -1,17 +1,13 @@
 ---
 title: AEM Screens Player용 호환성 매트릭스
-seo-title: Compatibility Matrix for AEM Screens Player
-description: 이 페이지에는 해당 AEM Screens 버전과 함께 AEM Screens 플레이어가 나열됩니다.
-seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
+description: AEM Screens 플레이어 및 해당 AEM Screens 버전에 대해 자세히 알아보십시오.
 page-status-flag: de-activated
-uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
-discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 9%
+source-wordcount: '301'
+ht-degree: 7%
 
 ---
 
@@ -55,13 +51,13 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 [파일 가져오기](assets/aem-screens-player-ios-330ipa.zip)
 
-## Windows Player {#windows-player}
+## 윈도우 플레이어 {#windows-player}
 
 <table>
  <tbody>
   <tr>
    <td><strong>AEM 서버 버전</strong></td> 
-   <td><strong>Windows Player</strong></td> 
+   <td><strong>윈도우 플레이어</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
@@ -86,9 +82,9 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 [파일 가져오기](assets/aem-screens-player-windows-1048-signedexe.zip)
 
-## Android 플레이어 {#android-player}
+## Android™ 플레이어 {#android-player}
 
-| **AEM 서버 버전** | **Android 플레이어** |
+| **AEM 서버 버전** | **Android™ 플레이어** |
 |---|---|
 | **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -** (Macromedia 사이트에서 사용 가능) 및 Google Play 스토어 |
 | **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3.3.0** |
@@ -96,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### 다운로드 링크 {#download-link-2}
 
-Android Player용 다운로드 링크 클릭:
+Android™ Player용 다운로드 링크 클릭:
 
 aem-screens-player-android-3.3.0.apk.zip
 
@@ -107,9 +103,9 @@ aem-screens-player-android-3.3.0.apk.zip
   <tr>
    <td><strong>AEM 서버 버전</strong></td> 
    <td><strong>iOS 플레이어</strong></td> 
-   <td><strong>Windows Player</strong></td> 
+   <td><strong>윈도우 플레이어</strong></td> 
    <td><strong>크롬 OS 플레이어</strong><br /> </td> 
-   <td><strong>Android 플레이어</strong></td> 
+   <td><strong>Android™ 플레이어</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 

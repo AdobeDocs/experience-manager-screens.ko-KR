@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -24,7 +24,7 @@ DAM에 비디오를 업로드하여 채널에 추가하면 AEM Screens 플레이
 
 ## DAM 표현물 {#dam-renditions}
 
-비디오를 채널에 업로드하면 AEM에서 해당 비디오에 대한 일부 렌디션 만들기를 시작해야 합니다. 에셋에서 비디오를 볼 수 있습니다.
+비디오를 채널에 업로드한 후 AEM에서 해당 비디오에 대한 일부 렌디션 만들기를 시작해야 합니다. 에셋에서 비디오를 볼 수 있습니다.
 
 비디오를 보려면 다음 작업을 수행하십시오.
 

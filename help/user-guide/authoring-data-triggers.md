@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 사전 요구 사항 {#prereqs}
 
-아래 단계에 따라 채널에서 타겟팅을 활성화하기 전에 다음을 학습해야 합니다. [AEM Screens에서 구성 의 주요 용어](configuring-context-hub.md) AEM Screens에서 ContextHub 및 타깃팅을 이해하는 데 필요합니다.
+아래 단계에 따라 채널에서 타겟팅을 활성화하기 전에 다음을 알아보십시오. [AEM Screens에서 구성 의 주요 용어](configuring-context-hub.md) AEM Screens에서 ContextHub 및 타깃팅을 이해하는 데 필요합니다.
 
 >[!IMPORTANT]
 >

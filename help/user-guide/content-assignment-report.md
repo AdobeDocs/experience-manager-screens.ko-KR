@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ AEM Screens 관리자 또는 작성자는 콘텐츠 할당 보고서 기능을 �
 
 ## 콘텐츠 할당 보고서 다운로드 {#downloading-content-assignment-report-fp}
 
-AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 위치에 디스플레이를 할당하면 콘텐츠 할당 보고서를 다운로드할 수 있습니다.
+AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 위치에 디스플레이를 할당하면 콘텐츠 할당 보고서를 다운로드합니다.
 
 >[!NOTE]
 >콘텐츠 할당 보고서 기능은 프로젝트 수준에서만 액세스할 수 있습니다.

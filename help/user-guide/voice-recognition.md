@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 > 음성 인식 기능은 Chrome OS 및 Windows 플레이어에서만 사용할 수 있습니다.
 
-AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해 음성 인식을 활성화하고 각 채널을 고유한 태그와 연결하여 채널 전환을 트리거해야 합니다.
+AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해 음성 인식을 활성화하고 각 채널을 고유한 태그와 연결하여 채널 전환을 트리거합니다.
 
 다음 섹션에서는 AEM Screens 프로젝트에서 음성 인식 기능을 활성화하고 사용하는 방법에 대해 설명합니다.
 
@@ -97,7 +97,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
    또는,
 
-   프로젝트에 대해 미리 AEM 인스턴스에서 태그를 만든 다음 선택할 수도 있습니다. 에 설명된 단계를 따르면 [태그 만들기](#creating-tags)를 클릭하여 위치에서 태그를 선택한 다음 아래 그림과 같이 채널에 추가할 수 있습니다.
+   프로젝트에 대해 미리 AEM 인스턴스에서 태그를 만든 다음 선택할 수도 있습니다. 에 설명된 단계를 수행한 후 [태그 만들기](#creating-tags)를 클릭하여 위치에서 태그를 선택한 다음 아래 그림과 같이 채널에 추가할 수 있습니다.
 
    ![이미지](assets/voice-recognition/vr-tag1.png)
 

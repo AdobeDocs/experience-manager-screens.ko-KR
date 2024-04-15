@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->장치를 할당하기 전에 등록해야 합니다. 자세한 내용은 [장치 등록](device-registration.md).
+>장치를 할당하기 전에 등록하십시오. 다음을 참조하십시오 [장치 등록](device-registration.md).
 
 ## 장치 지정 {#device-assignment}
 
@@ -69,6 +69,4 @@ ht-degree: 6%
 
 ### 다음 단계 {#the-next-steps}
 
-디스플레이에 채널 할당에 익숙해지면 다음 리소스를 참조하십시오.
-
-* [모니터링 및 문제 해결](monitoring-screens.md)
+디스플레이에 채널 할당에 대해 잘 알고 있으면 를 참조하십시오.[모니터링 및 문제 해결](monitoring-screens.md).

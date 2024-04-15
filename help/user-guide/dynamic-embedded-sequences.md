@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >Dynamic Embedded Sequence는 포함된 시퀀스와 유사하지만 한 채널에 대한 변경/업데이트가 관련된 다른 채널에 전파된 계층 구조를 따를 수 있습니다. 이 시퀀스는 상위-하위 계층 구조를 따르며 이미지나 비디오와 같은 에셋도 포함합니다.
 >
->***동적 포함된 시퀀스*** 위치별 콘텐츠를 표시할 수 있지만 ***포함된 시퀀스*** 콘텐츠의 일반 슬라이드 쇼만 표시합니다. 또한 동적 포함 시퀀스를 설정하는 동안 채널 역할과 이름을 사용하여 채널을 구성해야 합니다. 실제 구현은 아래 단계를 참조하십시오.
+>***동적 포함된 시퀀스*** 위치별 콘텐츠를 표시할 수 있지만 ***포함된 시퀀스*** 콘텐츠의 일반 슬라이드 쇼만 표시합니다. 또한 동적 임베디드 시퀀스를 설정하는 동안 채널 역할과 이름을 사용하여 채널을 구성합니다. 실제 구현은 아래 단계를 참조하십시오.
 >
 >포함된 시퀀스 구현에 대한 자세한 내용은 [포함된 시퀀스](embedded-sequences.md) AEM Screens.
 

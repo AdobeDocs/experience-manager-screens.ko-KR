@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **V3 매니페스트 지원**
 
-  이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 Manifest를 활성화하려면 다음을 수행해야 합니다.
+  이제 매니페스트 버전 v3에 대한 Dispatcher를 구성할 수 있습니다. v3 Manifest를 활성화하려면 다음을 수행하십시오.
 
    * 작성자와 게시자에서 보류 중인 오프라인 콘텐츠 작업을 모두 지웁니다.
 

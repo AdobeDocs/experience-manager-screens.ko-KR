@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ AEM Screens 링크(왼쪽 상단)를 선택한 다음 화면 을 선택하여 Ad
 
 ## 속성 보기 {#viewing-properties}
 
-Screens 프로젝트를 만든 후 프로젝트를 선택하고 **속성** 작업 표시줄에서 을 클릭하여 프로젝트의 속성을 편집합니다.
+Screens 프로젝트를 만든 후 프로젝트를 선택하고 **속성** 프로젝트의 속성을 편집할 수 있도록 작업 표시줄에서 을 선택합니다.
 
 다음 옵션을 사용하면 의 속성을 편집/변경할 수 있습니다. **테스트 화면**.
 
@@ -74,4 +74,4 @@ Screens 프로젝트를 만든 후 프로젝트를 선택하고 **속성** 작�
 
 ### 다음 단계 {#the-next-steps}
 
-나만의 프로젝트를 만들었으면 다음을 참조하십시오. [채널 관리](managing-channels.md) 을 사용하여 채널에서 컨텐츠를 만들고 관리할 수 있습니다.
+자체 프로젝트를 만들었으면 다음을 참조하십시오. [채널 관리](managing-channels.md) 을 사용하여 채널에서 컨텐츠를 만들고 관리할 수 있습니다.

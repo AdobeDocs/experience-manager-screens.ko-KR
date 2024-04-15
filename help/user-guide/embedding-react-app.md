@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -48,7 +48,7 @@ AEM SPA 편집기를 사용하려면 아래 단계를 따르십시오.
    >
    >이 설명서는 **GroupId** 다음으로: ***com.adobe.aem.screens*** 및 **ArtifactId** 다음으로: ***내 샘플 SPA*** (기본값은 입니다.) 필요에 따라 원하는 대로 선택할 수 있습니다.
 
-1. 프로젝트가 생성되면 선택한 IDE 또는 편집기를 사용하여 생성된 Maven 프로젝트를 가져옵니다.
+1. 프로젝트가 생성되면 원하는 IDE 또는 편집기를 사용하여 생성된 Maven 프로젝트를 가져옵니다.
 1. 명령을 사용하여 로컬 AEM 인스턴스에 배포 ***mvn clean install -PatoInstallPackage***.
 
 ### REACT 앱에서 콘텐츠 편집 {#editing-content-in-the-react-app}

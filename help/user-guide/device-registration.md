@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
    >
    >다음 **디스플레이 할당** 장치를 디스플레이에 직접 추가할 수 있습니다.
 
-   다음을 클릭: **완료**&#x200B;을 클릭하여 장치를 디스플레이에 할당해야 합니다.
+   다음을 클릭: **완료**&#x200B;를 클릭하고 장치를 디스플레이에 할당합니다.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ## 장치 관리자에서 장치 검색 {#search-device}
 
-플레이어에 장치를 등록하면 장치 관리자 UI에서 모든 장치를 볼 수 있습니다.
+플레이어에 장치를 등록한 경우 장치 관리자 UI에서 모든 장치를 볼 수 있습니다.
 
 1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: ). **데모 화면** > **장치**.
 

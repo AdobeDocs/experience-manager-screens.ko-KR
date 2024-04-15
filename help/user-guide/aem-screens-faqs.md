@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만�
 
 ### 3. v3 매니페스트를 구성하는 데 필요한 사항 {#configure-v3}
 
-v3 Manifest를 활성화하려면 다음을 수행해야 합니다.
+v3 Manifest를 활성화하려면 다음을 수행하십시오.
 
 * Dispatcher를 업데이트합니다.
 다음을 참조하십시오 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) 을 참조하십시오.

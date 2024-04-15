@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 3%
 
 ---
@@ -67,7 +67,7 @@ AEM Screens에 대한 프로젝트를 만든 후 아래 단계에 따라 프로�
 
 >[!IMPORTANT]
 >
-> 콘텐츠를 만들고 채널에 추가하면 다음 단계로 위치를 만든 후 디스플레이를 만듭니다. 또한 해당 채널을 디스플레이에 할당해야 합니다. 섹션의 끝에 있는 아래 리소스를 참조하십시오.
+>컨텐츠를 만들고 채널에 추가한 후 다음 단계는 위치를 만들고 디스플레이를 만드는 것입니다. 또한 해당 채널을 디스플레이에 할당합니다. 섹션의 끝에 있는 아래 리소스를 참조하십시오.
 
 ## 채널을 사용한 작업 {#working-with-channels}
 

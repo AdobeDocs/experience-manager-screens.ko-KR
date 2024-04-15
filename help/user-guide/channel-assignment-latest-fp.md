@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ### 디스플레이에 채널 할당 {#assigning-channel-to-display}
 
-프로젝트 설정이 완료되면 콘텐츠를 보려면 채널을 디스플레이에 할당해야 합니다.
+프로젝트 설정이 완료되면 콘텐츠를 볼 수 있도록 채널을 디스플레이에 할당합니다.
 
 1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** > **위치** > **산호세** > **로비**.
 
@@ -105,7 +105,7 @@ AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보
 
 ## 타임라인 보기 {#timeline-view}
 
-채널을 디스플레이에 할당하고 반복 일정을 설정하면 타임라인을 다음에서 볼 수 있습니다. **할당된 채널 및 일정** 패널.
+화면에 채널을 할당하고 반복 일정을 설정하면 타임라인을 다음에서 볼 수 있습니다. **할당된 채널 및 일정** 패널.
 
 아래 단계에 따라 타임라인 보기로 이동합니다.
 

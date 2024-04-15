@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ AEM Screens 프로젝트에서 인벤토리 기반 채널을 만들고 관리하
 
 ## 전제 조건 {#preconditions}
 
-AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데모용으로 Google 시트를 설정해야 합니다.
+AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데모용으로 Google Sheets를 설정하십시오.
 
 >[!IMPORTANT]
 >

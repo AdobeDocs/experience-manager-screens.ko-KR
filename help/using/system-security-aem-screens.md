@@ -1,10 +1,9 @@
 ---
 title: AEM Screens 보안 검사 목록
-description: 이 페이지에서는 AEM Screens에 대한 보안 검사 목록에 대해 설명합니다.
-seo-description: The page describes Security Checklist for AEM Screens
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+description: AEM Screens 보안 체크리스트에 대해 자세히 알아보십시오.
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 ### 기본과 동기화 중 {#sync-up-primary}
 
-1. Chrome 장치를 기본 장치로 설정한 후에는 다른 장치(이 경우 Windows 플레이어)를 동기화하여 기본 장치와 동기화할 수 있습니다.
-에서 다른 장치(이 경우 Windows 플레이어)를 선택합니다. **장치** 패널 및 클릭 **기본 장치와 동기화**&#x200B;을 참조하십시오.
+1. Chrome 장치를 기본 장치로 설정한 후 다른 장치(이 경우 Windows 플레이어)를 동기화하여 기본 장치와 동기화합니다.
+에서 다른 장치(이 경우 Windows 플레이어)를 선택합니다. **장치** 패널 및 클릭 **기본 장치와 동기화**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 기본과 동기화 해제 {#desync-up-primary}
 
-장치를 기본 장치에 동기화한 후에는 해당 장치에서 할당을 비동기화할 수 있습니다.
+장치를 기본 장치에 동기화한 후 해당 장치에서 할당을 비동기화할 수 있습니다.
 
 >[!NOTE]
 >

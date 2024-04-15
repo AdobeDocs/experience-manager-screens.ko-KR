@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '697'
 ht-degree: 5%
 
 ---
@@ -99,7 +99,7 @@ A ***Live Copy*** 는 원본 소스와의 라이브 관계가 유지되는 특�
 
 ### 라이브 카피 채널에 변경 사항 전파 {#propagating-changes-to-the-live-copy-channel}
 
-원래 채널에서 변경/업데이트를 수행하는 경우 이러한 변경 내용을 라이브 카피 채널에도 전파해야 합니다.
+원래 채널을 변경하거나 업데이트하는 경우 이러한 변경 사항을 라이브 카피 채널에도 전파합니다.
 
 변경 사항이 원래 채널에서 라이브 카피 채널로 전파되도록 하려면 아래 단계를 따르십시오.
 

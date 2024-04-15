@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -86,6 +86,4 @@ Sales Opportunity 가 프로젝트로 전환되면 Kick Off Meeting 이 예정�
 
 ## 다음 단계 {#the-next-step}
 
-AEM Screens 배포를 위한 프로젝트 관리와 관련된 주요 고려 사항을 철저히 숙지하면
-
-다음으로 이동 **[5부: 지원 고려 사항](support-considerations.md)** 2일 지원 및 관련 프로세스를 이해합니다.
+AEM Screens 배포용 프로젝트 관리와 관련된 주요 고려 사항을 마치면 다음으로 이동합니다. **[5부: 지원 고려 사항](support-considerations.md)** 2일 지원 및 관련 프로세스를 이해합니다.

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 비디오 패딩 워크플로우 만들기 {#creating-a-video-padding-workflow-1}
 
-비디오 패딩 워크플로를 만들려면 비디오에 대한 워크플로를 만든 다음 AEM Screens 프로젝트 채널에서 사용해야 합니다.
+비디오 패딩 워크플로우를 만들려면 비디오에 대한 워크플로우를 만든 다음 AEM Screens 프로젝트 채널에서 동일한 워크플로우를 사용합니다.
 
 워크플로우를 만들고 사용하려면 아래 단계를 따르십시오.
 

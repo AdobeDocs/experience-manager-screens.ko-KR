@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 
 1. MDM이나 ADB 또는 Android™ Studio 파일 탐색기를 사용하여 이 정책 JSON 파일을 *sdcard* android™ 디바이스의 폴더입니다.
 
-1. 파일이 배포되면 MDM을 사용하여 플레이어 애플리케이션을 설치합니다.
+1. 파일이 배포되면 MDM을 사용하여 플레이어 응용 프로그램을 설치합니다.
 
 1. 플레이어 애플리케이션이 실행되면 이 구성 파일을 읽고 해당 파일이 등록된 다음 제어되는 해당 AEM 서버를 가리킵니다.
 

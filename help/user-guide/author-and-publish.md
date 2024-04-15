@@ -2,9 +2,9 @@
 title: AEM Screens에서 작성자 및 게시 인스턴스 구성
 description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 AEM Screens 기능은 AEM 6.4 Screens 기능 팩 2를 설치한 경우에만 사용할 수 있습니다. 이 기능 팩에 액세스하려면 Adobe 지원에 문의하고 액세스를 요청해야 합니다. 권한이 있으면 패키지 공유에서 다운로드할 수 있습니다.
+>이 AEM Screens 기능은 AEM 6.4 Screens 기능 팩 2를 설치한 경우에만 사용할 수 있습니다. 이 기능 팩에 액세스하려면 Adobe 지원에 문의하고 액세스를 요청하십시오. 권한이 있으면 패키지 공유에서 다운로드할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Dispatcher와 함께 둘 이상의 게시 인스턴스를 사용하려면 Dispatcher를 업데이트해야 합니다. 다음을 참조하십시오 [고정 세션 활성화](dispatcher-configurations-aem-screens.md#enable-sticky-session) 을 참조하십시오.
+>Dispatcher와 함께 게시 인스턴스를 두 개 이상 사용하려면 Dispatcher를 업데이트합니다. 다음을 참조하십시오 [고정 세션 활성화](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 작성자에 대한 복제 에이전트 설정 {#setting-replication-agents}
 
-복제 에이전트를 만들려면 표준 복제 에이전트를 만드는 방법을 배워야 합니다.
+복제 에이전트를 만들려면 표준 복제 에이전트를 만드는 방법을 알아봅니다.
 
 Screens에는 세 가지 복제 에이전트가 필요합니다.
 

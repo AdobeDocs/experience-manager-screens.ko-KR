@@ -1,21 +1,17 @@
 ---
 title: ContentSync에서 SmartSync로 전환
-seo-title: Transitioning from ContentSync to SmartSync
-description: 이 페이지를 따라 SmartSync 기능과 ContentSync에서 SmartSync로 전환하는 방법에 대해 알아보십시오.
-seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
-uuid: c0619b56-1f6f-465a-a428-6df28e40b555
+description: SmartSync 기능과 ContentSync에서 SmartSync로 전환하는 방법에 대해 자세히 알아보십시오.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -32,7 +28,7 @@ SmartSync는 AEM Screens에서 사용하는 최신 메커니즘입니다. 오프
 
 **서버측**:
 
-* 자산을 포함한 채널의 컨텐츠는에서 캐시됩니다. */var/contentsync*.
+* 자산을 포함한 채널의 컨텐츠는에 캐시됩니다. *`/var/contentsync`*.
 * 캐시는 디스플레이에 사용할 수 있는 콘텐츠를 설명하는 매니페스트를 통해 플레이어에 노출됩니다.
 
 **클라이언트측**:
@@ -41,10 +37,10 @@ SmartSync는 AEM Screens에서 사용하는 최신 메커니즘입니다. 오프
 
 ### SmartSync 사용의 이점 {#benefits-of-using-smartsync}
 
-SmartSync 기능은 AEM Screens 프로젝트에 많은 이점을 제공합니다. 허용
+SmartSync 기능은 다음과 같은 몇 가지 이점을 AEM Screens 프로젝트에 제공합니다.
 
-* 네트워크 트래픽 및 서버 측 스토리지 요구량 대폭 감소
-* 플레이어는 자산이 없거나 변경된 경우에만 자산을 지능적으로 다운로드합니다
+* 네트워크 트래픽 및 서버측 스토리지 요구 사항의 대폭 감소.
+* 플레이어는 에셋이 없거나 변경된 경우에만 에셋을 지능적으로 다운로드합니다.
 * 서버측 및 클라이언트측 스토리지 최적화
 
 >[!NOTE]
@@ -63,7 +59,7 @@ SmartSync 기능은 AEM Screens 프로젝트에 많은 이점을 제공합니다
 
 | **플랫폼** | **지원되는 최소 플레이어 버전** |
 |---|---|
-| Android | 3.3.72 |
+| Android™ | 3.3.72 |
 | 크롬 OS | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -85,11 +81,11 @@ ContentSync에서 SmartSync로 전환하려면 아래 단계를 따르십시오.
 
 1. **Adobe Experience Manager 웹 콘솔 구성** 열림. 검색 대상 *offlinecontentservice*.
 
-   검색용 **Screens Offline 콘텐츠 서비스** 속성, 누르기 **Command+F** 대상 **Mac** 및 **Ctrl+F** 대상 **Windows**.
+   을 검색하려면 **Screens Offline 콘텐츠 서비스** 속성, 누르기 **Command+F** 대상 **Mac**, 및 **Ctrl+F** 대상 **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. 클릭 **저장** 을(를) 활성화하려면 **Screens Offline 콘텐츠 서비스** 따라서 AEM Screens용 SmartSync를 사용합니다.
-1. SmartSync를 활성화했으면 프로젝트로 이동하여 을(를) 클릭해야 합니다. **오프라인 컨텐츠 업데이트** *(작업 표시줄에서)* 아래 그림과 같이.
+1. SmartSync를 활성화한 경우 프로젝트로 이동하여 을(를) 클릭합니다. **오프라인 컨텐츠 업데이트** *(작업 표시줄에서)* 아래 그림과 같이.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

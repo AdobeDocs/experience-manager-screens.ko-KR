@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 디스플레이는 서로의 옆에 위치된 스크린들의 가상 그룹화이다. 디스플레이는 설치와 관련하여 영구적입니다. 이는 콘텐츠 작성자가 실제 카운터 부분이 아닌 논리 디스플레이로 작업하고 항상 를 참조하는 개체입니다.
 
-위치를 만들면 해당 위치에 대한 디스플레이를 만들어야 합니다.
+위치를 만들 때는 위치에 대한 디스플레이를 만들어야 합니다.
 
 이 페이지에서는 Screens용 디스플레이 제작 및 관리를 보여 줍니다.
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 >
 >**다음 단계**:
 >
->위치에 대한 디스플레이를 만들 때 콘텐츠를 사용하려면 디스플레이에 채널을 할당해야 합니다.
+>위치에 대한 디스플레이를 만들 때 디스플레이에 채널을 할당하여 콘텐츠를 사용합니다.
 >
 >다음을 참조하십시오 [채널 할당](channel-assignment.md) 섹션에 채널을 디스플레이에 할당하는 방법을 알아봅니다.
 
@@ -73,8 +73,6 @@ ht-degree: 1%
 장치 구성이 만들어지고 현재 디스플레이에 추가됩니다(다음 데모에서는 새 장치 구성이 *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
-
-장치 구성이 해당 위치의 디스플레이에 설정되면 다음 단계는 디스플레이에 채널을 할당하는 것입니다.
 
 >[!NOTE]
 >

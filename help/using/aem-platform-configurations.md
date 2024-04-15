@@ -2,9 +2,9 @@
 title: AEM Platform 구성
 description: 이 페이지에서는 AEM 플랫폼 구성에 대해 설명합니다
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및 로드 밸런싱 도구입�
 
    >[!NOTE]
    >
-   >다음 `-strict -2` 은(는) 매개 변수 목록의 마지막 매개 변수여야 합니다. 또한 AEM 6.4에서는 아래의 노드를 복사해야 합니다 */libs/settings/dam/video* 끝 */conf/global/settings/dam/video* 에서 언급된대로 [비디오 표현물](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >다음 `-strict -2` 은(는) 매개 변수 목록의 마지막 매개 변수여야 합니다. 또한 AEM 6.4에서 */libs/settings/dam/video* 끝 */conf/global/settings/dam/video* 에서 언급된대로 [비디오 표현물](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. 비디오 전환이 발생하고 렌디션이 생성 중인지 확인합니다.
 
 ## 암호 제한 {#password-restrictions}

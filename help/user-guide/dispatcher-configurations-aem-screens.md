@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 >
 >Dispatcher가 없는 경우 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
 
-AEM Screens 프로젝트에 대해 Dispatcher를 구성하려면 먼저 Dispatcher에 대한 사전 지식이 있어야 합니다.
+AEM Screens 프로젝트에 대해 Dispatcher를 구성하기 전에 Dispatcher에 대해 알고 있어야 합니다.
 다음을 참조하십시오 [Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 을 참조하십시오.
 
 ## 매니페스트 버전 v2에 대한 Dispatcher 구성 {#configuring-dispatcher}
@@ -94,7 +94,7 @@ Screens 필터를 구성하려면 다음을 추가하십시오. ***/filter***.
 
 Screens 플레이어는 인증된 세션을 사용하므로 Dispatcher는 플레이어 요청을 캐시하지 않습니다. `channels/assets`.
 
-자산이 Dispatcher 캐시에서 제공되도록 자산에 대한 캐시를 활성화하려면 다음을 수행해야 합니다.
+자산이 Dispatcher 캐시에서 제공하도록 자산에 대한 캐시를 활성화하려면 다음을 수행합니다.
 
 * 추가 `/allowAuthorization 1` 위치: `/cache` 섹션
 * 아래 규칙 추가 `/rules` 섹션 / `/cache`

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ AEM Screens 프로젝트의 채널에 대한 작성자 > 게시 > 장치에서 �
 
 ### 채널 및 장치 재할당: {#channel-and-device-re-assignment}
 
-장치를 다시 할당한 경우, 장치가 새 디스플레이에 다시 할당되면 초기 디스플레이와 새 디스플레이를 모두 게시해야 합니다.
+장치를 다시 할당한 경우 장치가 새 디스플레이에 다시 할당되면 초기 디스플레이와 새 디스플레이를 모두 게시합니다.
 
-마찬가지로 채널을 다시 할당한 경우 채널이 새 디스플레이에 다시 할당되면 초기 디스플레이와 새 디스플레이를 모두 게시해야 합니다.
+마찬가지로 채널을 다시 할당한 경우 채널이 새 디스플레이에 다시 할당되면 초기 디스플레이와 새 디스플레이를 모두 게시합니다.

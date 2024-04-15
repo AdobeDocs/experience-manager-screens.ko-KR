@@ -4,9 +4,9 @@ description: Screens 복제 에이전트를 구성하는 방법에 대해 알아
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 5%
 
 ---
@@ -125,7 +125,7 @@ Screens 복제 에이전트에 대한 구성을 완료하려면 다음 두 섹�
 
 1. **확인**&#x200B;을 클릭합니다.
 
-1. 이전 단계를 완료하면 을 클릭할 수 있습니다 **연결 테스트** 연결을 확인합니다.
+1. 이전 단계를 완료한 후 **연결 테스트** 연결을 확인합니다.
 
    ![이미지](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

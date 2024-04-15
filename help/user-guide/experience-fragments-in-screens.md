@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ A **테스트 채널** 이(가) 다음에 추가됩니다. **DemoProject**.\
 
    >[!NOTE]
    >
-   >Screens 조각을 만들면 조각의 속성을 편집할 수 있습니다. 조각을 선택하고 **속성** 작업 표시줄에서
+   >AEM Screens 조각을 만든 다음에는 조각의 속성을 편집할 수 있습니다. 조각을 선택하고 **속성** 작업 표시줄에서
 
    **화면 조각의 속성 편집**
 
