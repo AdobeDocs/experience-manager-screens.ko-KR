@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 클릭 **편집** 작업 표시줄에서
+1. 선택 **편집** 작업 표시줄에서
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. 채널의 모든 이미지를 선택하고 아래 그림과 같이 왼쪽 상단의 렌치 아이콘을 클릭하여 채널 수준 구성 대화 상자를 열 수 있습니다.
+1. 채널의 모든 이미지를 선택하고 아래 그림과 같이 왼쪽 상단의 렌치 아이콘을 선택하여 채널 수준 구성 대화 상자를 열 수 있습니다.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   편집 **기간** 8000(밀리초)부터 3000(밀리초)까지, 즉 3초입니다. 오른쪽 상단에 있는 확인 표시를 클릭합니다. **페이지** 대화 상자를 통해 변경 사항을 저장할 수 있습니다.
+   편집 **기간** 8000(밀리초)부터 3000(밀리초)까지, 즉 3초입니다. 오른쪽 상단에 있는 확인 표시를 선택합니다. **페이지** 대화 상자를 통해 변경 사항을 저장할 수 있습니다.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -67,7 +67,7 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
 
    **프로젝트 경로** AEM Screens 프로젝트의 경로를 지정합니다. 경로는 일반적으로 다음과 같습니다 `/content/screens/<Name of your project>`.
 
-   *예*, `/content/screens/we-retail`. AEM Screens 아래에서 프로젝트를 선택하여(아이콘을 클릭하지 마십시오) URL에서 이 경로를 찾을 수 있습니다.
+   *예*, `/content/screens/we-retail`. AEM Screens 아래에서 프로젝트를 선택하여(아이콘을 선택하지 않음) URL에서 이 경로를 찾을 수 있습니다.
 
    >[!NOTE]
    >

@@ -2,7 +2,7 @@
 title: 이미지 재생 기간
 description: AEM Screens의 이미지 재생 기간에 대해 알아봅니다.
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 클릭 **편집** 작업 표시줄에서
+1. 선택 **편집** 작업 표시줄에서
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   편집 **기간** 8000(밀리초)부터 3000(밀리초)까지, 즉 3초입니다. 오른쪽 상단의 확인 표시를 클릭합니다. **페이지** 대화 상자를 통해 변경 사항을 저장할 수 있습니다.
+   편집 **기간** 8000(밀리초)부터 3000(밀리초)까지, 즉 3초입니다. 오른쪽 상단의 확인 표시를 선택합니다. **페이지** 대화 상자를 통해 변경 사항을 저장할 수 있습니다.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

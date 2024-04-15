@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '238'
 ht-degree: 7%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 7%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. 다음 항목 선택 **장치** 폴더 및 탭/클릭 **장치 관리자** 작업 표시줄에서 을 참조하십시오. 할당된 장치와 할당되지 않은 장치가 표시됩니다.
+1. 다음 항목 선택 **장치** 폴더 및 선택 **장치 관리자** 작업 표시줄에서 을 참조하십시오. 할당된 장치와 할당되지 않은 장치가 표시됩니다.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
@@ -48,7 +48,7 @@ ht-degree: 7%
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. 탭/클릭 **완료** 할당 프로세스를 완료합니다.
+1. 다음 항목 선택 **완료** 할당 프로세스를 완료합니다.
 
 
    디스플레이 대시보드는에 지정된 디바이스를 표시합니다. **장치** 패널.

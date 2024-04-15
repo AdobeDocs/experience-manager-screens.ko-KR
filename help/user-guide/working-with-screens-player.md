@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -36,7 +36,7 @@ AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 장치 대시보드를 열 수 있도록 장치를 클릭합니다.
+1. 장치 대시보드를 열 수 있도록 장치를 선택합니다.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 

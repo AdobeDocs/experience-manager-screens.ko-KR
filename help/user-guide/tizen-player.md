@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ AEM Screens용 Tizen Player를 구현하려면 아래 단계를 따르십시오.
 
 아래 단계에 따라 Tizen 플레이어에서 이름을 구성하십시오.
 
-1. 리모컨에서 메뉴 단추를 클릭합니다.
+1. 리모컨에서 메뉴 버튼을 선택합니다.
 1. 다음으로 이동 **네트워크** > **장치 이름** 따라서 플레이어에 이름을 할당할 수 있습니다.
 
 ### Samsung 장치에서 업데이트 구성 {#config-updates}
@@ -55,11 +55,11 @@ AEM Screens용 Tizen Player를 구현하려면 아래 단계를 따르십시오.
 장치에서 AEM Screens 플레이어 설치를 완료할 수 있도록 Samsung 장치에서 아래 절차를 따르십시오.
 
 1. Samsung 장치로 이동하여 켭니다.
-1. 다음을 클릭합니다. **메뉴** 장치의 리모콘에서 단추를 누르고 아래로 스크롤하여 **시스템** 왼쪽 탐색 모음에서 을 클릭합니다.
+1. 다음 항목 선택 **메뉴** 장치의 리모콘에서 단추를 누르고 아래로 스크롤하여 **시스템** 왼쪽 탐색 모음에서 을 클릭합니다.
 1. 아래로 스크롤하여 **다음을 통해 재생** 옵션 및 변경 **URL 런처** 옵션을 선택합니다.
    ![이미지](/help/user-guide/assets/tizen/rms-2.png)
 1. URL 런처가 설정되면 **홈** 리모컨에서 단추를 클릭합니다.
-1. 다음 위치로 이동 **URL 런처 설정** 로컬 호스트 서버의 IP 주소를 입력하고 **완료**.
+1. 다음 위치로 이동 **URL 런처 설정** localhost 서버의 IP 주소를 입력하고 **완료**.
 
    >[!NOTE]
    >Tizen 플레이어가 http 서버에 연결할 수 있어야 합니다.

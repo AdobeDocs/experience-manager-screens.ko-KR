@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ ChromeOS 플레이어는 실제 Chrome 플레이어 장치 없이 개발자 모�
 
 Chrome 플레이어를 브라우저 확장 기능으로 설치하는 방법에 대한 자세한 내용은 이 페이지를 참조하십시오.
 
-1. 클릭 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
+1. 선택 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
 
 1. 압축을 풀고 디스크에 저장합니다.
 
-1. Chrome 브라우저를 열고 3개 점이 있는 메뉴를 클릭하고 을 선택합니다. **추가 도구** 출처: **확장** 오른쪽 상단 모서리에서 또는 로 직접 이동 `chrome://extensions`.
+1. Chrome 브라우저를 열고 3개 점이 있는 메뉴를 선택한 다음 를 선택합니다. **추가 도구** 출처: **확장** 오른쪽 상단 모서리에서 또는 로 직접 이동 `chrome://extensions`.
 
 1. 전환 **개발자** 오른쪽 상단에서 모드.
 
-1. 클릭 **로드 압축 해제됨** 왼쪽 상단 모서리에서 압축을 푼 Chrome Player를 로드합니다.
+1. 선택 **로드 압축 해제됨** 왼쪽 상단 모서리에서 압축을 푼 Chrome Player를 로드합니다.
 
 1. 확장 기능 목록에서 AEM Screens Chrome Player 플러그인을 사용할 수 있는지 확인합니다.
 
-1. 새 탭을 열고 왼쪽 상단 모서리에서 앱 아이콘을 클릭하거나 로 직접 이동합니다. `chrome://apps`.
+1. 새 탭을 열고 왼쪽 상단 모서리에서 앱 아이콘을 선택하거나 로 바로 이동합니다. `chrome://apps`.
 
-1. 클릭 **AEM Screens 플러그인** Chrome 플레이어를 시작할 수 있습니다.
+1. 선택 **AEM Screens 플러그인** Chrome 플레이어를 시작할 수 있습니다.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Chrome 플레이어를 브라우저 확장 기능으로 설치하는 방법에 �
 1. 플레이어 파일로 이전 폴더 이름 바꾸기
 1. 이전 폴더와 동일한 위치에서 새 zip 추출
 1. Chrome을 시작하고 다음으로 이동 `chrome://extensions`
-1. 플레이어 아이콘을 확인하고 새로 고침 또는 다시 로드 단추를 클릭합니다.
+1. 플레이어 아이콘을 확인하고 새로 고침 또는 다시 로드 단추를 선택합니다.

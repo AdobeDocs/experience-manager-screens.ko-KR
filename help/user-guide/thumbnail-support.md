@@ -2,7 +2,7 @@
 title: AEM Screens의 비디오에 대한 썸네일 지원
 description: AEM Screens에서 비디오에 대한 썸네일 지원을 추가하는 방법을 알아봅니다.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%

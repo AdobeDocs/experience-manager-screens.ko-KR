@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Apache Sling Referrer 필터 허용 을 활성화합니다. 이는 AEM Screens P
 
 1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성**
 1. 다음 확인: **allow.empty** 옵션을 선택합니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**&#x200B;을 선택합니다.
 
 ### 3. AEM Screens 플레이어를 등록하는 동안 장치에 FAILURE가 표시되고 콘솔 로그에 ENAME_NOT_FOUND 오류가 표시되는 경우 문제를 해결하는 방법
 
@@ -133,13 +133,13 @@ Android™ Player 구현 방법에 대한 자세한 내용은 [**Android™ Play
 
 ChromeOS 플레이어는 실제 Chrome 플레이어 장치 없이 개발자 모드에서 Chrome 브라우저 플러그인으로 설치할 수 있습니다. 설치하려면 아래 단계를 따르십시오.
 
-1. 클릭 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
+1. 선택 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
 1. 압축을 풀고 디스크에 저장합니다.
 1. Chrome 브라우저를 열고 을 선택합니다. **확장** 메뉴에서 선택하거나 을(를) 직접 탐색하여 ***chrome://extensions***.
 1. 전환 **개발자 모드** 오른쪽 상단 모서리에서
 1. 선택 **로드 압축 해제됨** 왼쪽 상단 모서리에서 압축을 푼 Chrome Player를 로드합니다.
 1. 확장 목록에서 사용할 수 있는 경우 다음을 확인하십시오 **AEM Screens Chrome 플레이어** 플러그인입니다.
-1. 새 탭을 열고 **앱** 아이콘 을 왼쪽 상단 모서리에서 찾거나 ***chrome://apps***.
+1. 새 탭을 열고 다음을 선택합니다. **앱** 아이콘 을 왼쪽 상단 모서리에서 찾거나 ***chrome://apps***.
 1. 다음 항목 선택 **AEM Screens** 플러그인. 기본적으로 플레이어는 전체 화면 모드로 실행됩니다. 누르기 **Esc** 전체 화면 모드를 종료합니다.
 
 ### 2. Screens 플레이어가 사용자 지정 오류 처리기로 게시 인스턴스를 통해 인증할 수 없는 경우 문제를 해결하는 방법

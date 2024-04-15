@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 선택 **편집** 작업 표시줄에서
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -114,7 +114,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 선택 **편집** 작업 표시줄에서
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
    >[!NOTE]
    >ContextHub 구성을 설정하지 않은 경우 프로젝트에 대해 이 옵션이 비활성화됩니다.
 
-1. 입력 **값** 다음에서 **자리 표시자** 필드. Google 시트에서 값을 가져올 행을 선택합니다. **ContextHub 변수**. 이 경우 값은 Google 시트의 행 2 및 열 1에서 검색됩니다. 이제 을(를) 입력합니다. **기본값** 다음으로: **20**&#x200B;을 참조하십시오. 완료되면 확인 표시를 클릭합니다.
+1. 입력 **값** 다음에서 **자리 표시자** 필드. Google 시트에서 값을 가져올 행을 선택합니다. **ContextHub 변수**. 이 경우 값은 Google 시트의 행 2 및 열 1에서 검색됩니다. 이제 을(를) 입력합니다. **기본값** 다음으로: **20**&#x200B;을 참조하십시오. 완료되면 확인 표시를 선택합니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

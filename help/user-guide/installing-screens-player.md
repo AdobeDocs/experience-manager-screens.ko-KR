@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -28,8 +28,8 @@ AEM Screens 플레이어는 Android™, Chrome OS 및 Windows에서 사용할 �
 >최신 플레이어를 다운로드한 후(*.exe*)를 클릭하여 임시 설치를 완료할 수 있도록 플레이어에서 다음 단계를 수행합니다.
 >
 >1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
->1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
->1. 클릭 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
+>1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 선택 **저장**.
+>1. 선택 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
 
 ## 기본 재생 모니터링 {#playback-monitoring}
 

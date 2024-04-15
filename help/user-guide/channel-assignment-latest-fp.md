@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** > **위치** > **산호세** > **로비**.
 
-1. 탭/클릭 **채널 할당** 작업 표시줄에서
+1. 선택 **채널 할당** 작업 표시줄에서
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    또는,
 
-   탭/클릭 **대시보드** 작업 표시줄에서 을(를) 클릭하고 **+채널 할당** 다음에서 **할당된 채널 및 일정** 패널.
+   선택 **대시보드** 작업 표시줄에서 을(를) 선택하고 **+채널 할당** 다음에서 **할당된 채널 및 일정** 패널.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ ht-degree: 2%
    >
    >채널 할당 속성에 대해 자세히 알아보려면 [채널 속성](#channel-properties) 섹션.
 
-1. 클릭 **저장** 기본 설정을 구성했으면 다음과 같이 하십시오.
+1. 선택 **저장** 기본 설정을 구성했으면 다음과 같이 하십시오.
 
 ### Chrome 플레이어에서 콘텐츠 보기 {#viewing-content-output}
 
@@ -111,11 +111,11 @@ AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보
 
 1. 필요한 디스플레이로 이동합니다(예: ). **데모 화면** > **위치** > **산호세** > **로비**.
 
-1. 탭/클릭 **채널 할당** 작업 표시줄에서
+1. 선택 **채널 할당** 작업 표시줄에서
 
    또는,
 
-   탭/클릭 **대시보드** 및 클릭 **타임라인** 다음에서 **할당된 채널 및 일정** 패널.
+   선택 **대시보드** 및 선택 **타임라인** 다음에서 **할당된 채널 및 일정** 패널.
 
    ![이미지](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

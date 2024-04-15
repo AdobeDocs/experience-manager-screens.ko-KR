@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -76,7 +76,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
    ![이미지](assets/config/empty-ref2.png)
 
-1. 클릭 **저장** apache Sling Referrer 필터를 활성화하려면 Allow Empty를 사용하십시오.
+1. 선택 **저장** apache Sling Referrer 필터를 활성화하려면 Allow Empty를 사용하십시오.
 
 
 #### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
    ![이미지](assets/config/config-1.png)
 
-1. 클릭 **저장** 을(를) 활성화하려면 *http* 서비스.
+1. 선택 **저장** 을(를) 활성화하려면 *http* 서비스.
 
 #### AEM Screens용 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
 

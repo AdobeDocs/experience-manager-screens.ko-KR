@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 2%
@@ -79,9 +79,9 @@ ContentSync 구성을 테스트하려면 아래 단계를 따르십시오.
 
 1. 열기 `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. 목록에서 구성 선택
-1. 캐시 지우기 를 클릭합니다
-1. 캐시 업데이트를 클릭합니다
-1. Download Full 을 클릭합니다.
+1. 캐시 지우기 선택
+1. 캐시 업데이트 선택
+1. 전체 다운로드 선택
 1. zip 파일 추출
 1. 추출된 폴더에서 로컬 서버 시작
 1. 시작 페이지를 열고 앱 상태 확인
@@ -95,12 +95,12 @@ ContentSync 구성을 테스트하려면 아래 단계를 따르십시오.
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. 채널 대시보드로 이동합니다.
-1. 클릭 **...** 다음에서 **채널 정보** 패널.
+1. 선택 **...** 다음에서 **채널 정보** 패널.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. 채널 속성으로 이동합니다.
-1. ((채널)) 탭에서 확인란이 비활성화되었는지 확인한 다음 **저장 및 닫기**.
+1. ((채널)) 탭에서 확인란이 비활성화되어 있는지 확인한 다음 을 선택합니다 **저장 및 닫기**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

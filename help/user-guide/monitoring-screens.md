@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 장치 선택(**새 테스트 장치**) 및 클릭 **대시보드** 작업 표시줄에서
+1. 장치 선택(**새 테스트 장치**) 및 선택 **대시보드** 작업 표시줄에서
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 의 장치에서 플레이어 스크린샷을 볼 수 있습니다. **플레이어 스크린샷** 패널.
 
-클릭 (**...**)를 클릭하여 [플레이어 스크린샷] 패널의 오른쪽 상단 모서리에서 **스크린샷 새로 고침** 실행 중인 플레이어의 스냅샷을 봅니다.
+선택 (**...**)를 클릭하여 [플레이어 스크린샷] 패널의 오른쪽 상단 모서리에서 **스크린샷 새로 고침** 실행 중인 플레이어의 스냅샷을 봅니다.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Apache Sling Referrer Filter Allow Empty 를 활성화하려면 아래 단계를
 
 1. Adobe Experience Manager 웹 콘솔 구성&#x200B;**으로 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`이동합니다**.
 1. **allow.empty** 옵션을 선택합니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**&#x200B;을 선택합니다.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

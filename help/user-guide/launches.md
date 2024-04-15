@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![이미지](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. 채널 선택 **퓨처런치** 및 클릭 **시작 만들기** 작업 표시줄에서
+1. 채널 선택 **퓨처런치** 및 선택 **시작 만들기** 작업 표시줄에서
 
    ![이미지](/help/user-guide/assets/launches-images/launches-12.png)
 
 1. 다음 **시작 만들기** 마법사가 열립니다. 마법사에 이미 표시된 채널을 선택하거나 **+ 채널 추가** 론치를 만들 채널을 추가합니다.
 
-1. 클릭 **다음** 다음에서 **시작 만들기** 마법사. 다음 **하위 페이지 포함** 기본적으로 옵션이 선택되어 있습니다.
+1. 선택 **다음** 다음에서 **시작 만들기** 마법사. 다음 **하위 페이지 포함** 기본적으로 옵션이 선택되어 있습니다.
 
    ![이미지](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >다음을 사용할 수 있습니다. **+ 채널 추가** 론치를 만들 다른 채널을 추가하는 옵션입니다.
 
-   사용 **채널 추가** 옵션을 사용하려면에 대한 론치를 만들 채널로 이동하고 을 클릭합니다. **선택**.
+   사용 **채널 추가** 옵션을 선택한 다음 론치를 만들 채널로 이동하여 을 선택합니다. **선택**.
 
    다음 **선택** 론치를 추가할 여러 채널 또는 폴더를 선택하려고 하면 옵션이 비활성화됩니다.
 
    ![이미지](/help/user-guide/assets/launches-images/launches-14.png)
 
-   채널/채널을 선택한 후 을 클릭합니다. **다음**.
+   채널/채널을 선택한 후 을 선택합니다. **다음**.
 
 
-1. 다음을 입력합니다. **론치 제목** 다음으로: **SummerPromotions** 및 를 설정할 필요가 없습니다. **론치 날짜**&#x200B;을 참조하십시오. **만들기**&#x200B;를 클릭합니다.
+1. 다음을 입력합니다. **론치 제목** 다음으로: **SummerPromotions** 및 를 설정할 필요가 없습니다. **론치 날짜**&#x200B;을 참조하십시오. **만들기**&#x200B;를 선택합니다.
 
    >[!NOTE]
    >

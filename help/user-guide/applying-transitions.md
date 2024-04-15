@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -31,7 +31,7 @@ AEM Screens 프로젝트에 전환 구성 요소를 추가하려면 아래 단�
 >
 >AEM Screens 프로젝트 만들기 **테스트 프로젝트** 채널 포함 **테스트 전환**. 또한 출력을 볼 위치 및 디스플레이를 설정합니다.
 
-1. 채널로 이동 **테스트 전환** 및 클릭 **편집** 작업 표시줄에서
+1. 채널로 이동 **테스트 전환** 및 선택 **편집** 작업 표시줄에서
 
    ![image1](assets/transitions1.png)
 

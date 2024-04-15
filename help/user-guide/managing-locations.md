@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -33,11 +33,11 @@ ht-degree: 1%
 Screens용 프로젝트를 만든 후 아래 단계에 따라 Screens 프로젝트의 위치를 만드십시오.
 
 1. Adobe Experience Manager 링크(왼쪽 상단)를 선택한 다음 화면 을 선택합니다. 또는 다음 위치로 직접 이동할 수 있습니다. `http://localhost:4502/screens.html/content/screens`.
-1. Screens 프로젝트로 이동한 다음 **위치**.
-1. 클릭 **만들기** 작업 표시줄의 더하기 아이콘 옆에 있습니다.
-1. 템플릿 선택 **위치** 마법사에서 를 클릭하고 **다음**.
+1. Screens 프로젝트로 이동하고 선택 **위치**.
+1. 선택 **만들기** 작업 표시줄의 더하기 아이콘 옆에 있습니다.
+1. 템플릿 선택 **위치** 마법사에서 를 선택하고 **다음**.
 1. 다음에 대한 속성 입력 **제목 및 태그**, **기타 제목 및 설명**, **설정/해제 시간**, 및 **별칭 URL**.
-1. 클릭 **만들기** 그리고 위치가 만들어지고 위치 폴더에 추가됩니다.
+1. 선택 **만들기** 그리고 위치가 만들어지고 위치 폴더에 추가됩니다.
 
 AEM Screens 프로젝트용 위치를 만드는 방법에 대해 이해하려면 아래 단계를 참조하십시오. 데모 목적으로 새 위치(산호세)는 *DemoProject*.
 
@@ -50,7 +50,7 @@ AEM Screens 프로젝트용 위치를 만드는 방법에 대해 이해하려면
 위치의 속성을 편집/액세스하려면 다음 작업을 수행하십시오.
 
 1. 위치를 선택합니다.
-1. 클릭 **속성** 작업 표시줄에서
+1. 선택 **속성** 작업 표시줄에서
 
 ![player3](assets/player3.gif)
 

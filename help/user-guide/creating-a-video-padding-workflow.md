@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ ht-degree: 0%
 비디오에 대한 워크플로우를 만들려면 아래 단계를 따르십시오.
 
 1. AEM 인스턴스로 이동합니다.
-1. 측면 레일에서 도구 를 클릭합니다.
+1. 사이드 레일에서 도구를 선택합니다.
 1. 선택 **워크플로** > **모델** 모델을 만들 수 있습니다.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 클릭 **모델** > **만들기** > **모델 만들기**. 다음을 입력합니다. **제목** (as) **비디오 렌디션**) 및 **이름** 다음에서 **워크플로우 모델 추가**. 클릭 **완료** 워크플로 모델을 추가합니다.
+1. 선택 **모델** > **만들기** > **모델 만들기**. 다음을 입력합니다. **제목** (as) **비디오 렌디션**) 및 **이름** 다음에서 **워크플로우 모델 추가**. 선택 **완료** 워크플로 모델을 추가합니다.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. 워크플로우 모델을 만든 후 모델(**비디오 렌디션**), 클릭 **편집** 작업 표시줄에서
+1. 워크플로우 모델을 만든 후 모델(**비디오 렌디션**), 선택 **편집** 작업 표시줄에서
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ ht-degree: 0%
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. 워크플로우 선택(**비디오 표현물**).
-1. 클릭 **워크플로우 시작** 작업 표시줄에서
+1. 선택 **워크플로우 시작** 작업 표시줄에서
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. 다음에서 **워크플로우 실행** 대화 상자에서 **페이로드** (as) ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) 및 를 입력합니다. **제목** 다음으로: ***RunVideo*** 및 클릭 **실행**.
+1. 다음에서 **워크플로우 실행** 대화 상자에서 **페이로드** (as) ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) 및 를 입력합니다. **제목** 다음으로: ***RunVideo*** 및 선택 **실행**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ AEM Screens 프로젝트에서 워크플로우를 사용하려면 아래 단계�
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. 클릭 **편집** 작업 표시줄에서 처음에 업로드한 비디오를 드래그 앤 드롭합니다. **에셋**.
+1. 선택 **편집** 작업 표시줄에서 처음에 업로드한 비디오를 드래그 앤 드롭합니다. **에셋**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. 비디오를 업로드했으면 다음을 클릭합니다. **미리 보기** 출력을 봅니다.
+1. 비디오를 업로드한 경우 다음을 선택합니다. **미리 보기** 출력을 봅니다.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

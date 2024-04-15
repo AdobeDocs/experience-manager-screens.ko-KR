@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -47,7 +47,7 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 �
 
 1. AEM Screens 프로젝트로 이동하고 프로젝트를 선택합니다 **데모 화면**.
 
-1. 클릭 **컨텐츠 할당 보고서** 작업 표시줄에서
+1. 선택 **컨텐츠 할당 보고서** 작업 표시줄에서
 
    ![이미지](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 �
    >[!NOTE]
    >스프레드시트에 표시되는 데이터는 알파벳순으로 읽기 쉬운 형식으로 정렬됩니다.
 
-1. 에서 채널 중 하나 클릭 **채널** 열은 **콘텐츠** 탭. 결과적으로 해당 채널로 직접 이동하여 해당 특정 채널과 연관된 에셋(이미지 및 비디오)에 대한 정보를 제공합니다.
+1. 에서 채널 선택 **채널** 열은 **콘텐츠** 탭. 결과적으로 해당 채널로 직접 이동하여 해당 특정 채널과 연관된 에셋(이미지 및 비디오)에 대한 정보를 제공합니다.
 
    ![이미지](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

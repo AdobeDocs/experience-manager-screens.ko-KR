@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -46,17 +46,17 @@ ht-degree: 0%
 1. **요구 사항에 따라 Audiences에서 세그먼트 구성**
 
    1. 대상의 세그먼트로 이동합니다( 참조). ***2단계: 대상자 세분화 설정*** 위치: **[AEM Screens에서 ContextHub 구성](configuring-context-hub.md)** 페이지 를 참조하십시오.
-   1. 다음 항목 선택 **시트 A1 1** 및 클릭 **편집**.
+   1. 다음 항목 선택 **시트 A1 1** 및 선택 **편집**.
    1. 비교 속성을 선택하고 **구성** 아이콘.
    1. 선택 **googlesheets/value/1/2** 의 드롭다운에서 **속성 이름**.
    1. 다음 항목 선택 **연산자** 다음으로: **같음** 드롭다운 메뉴에서 을(를) 선택합니다.
    1. 다음을 입력합니다. **값** 다음으로: **1**.
-   1. 마찬가지로 **시트 A1 2** 및 클릭 **편집**.
+   1. 마찬가지로 **시트 A1 2** 및 선택 **편집**.
    1. 비교 속성을 선택하고 **구성** 아이콘.
    1. 선택 **googlesheets/value/1/2** 의 드롭다운에서 **속성 이름**.
    1. 다음 항목 선택 **연산자** 다음으로: **2**.
 
-1. 이동하여 채널()을 선택하고 **편집** 작업 표시줄에서 다음 예제에서는 **DataDrivenRestaurant**&#x200B;기능을 보여주는 데 순차적 채널이 사용됩니다.
+1. 채널()을 탐색하고 선택한 다음 **편집** 작업 표시줄에서 다음 예제에서는 **DataDrivenRestaurant**&#x200B;기능을 보여주는 데 순차적 채널이 사용됩니다.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ ht-degree: 0%
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. 선택 **타겟팅** 편집기에서 다음을 선택합니다. **브랜드** 및 **활동** 드롭다운 메뉴에서 **타깃팅 시작**.
+1. 선택 **타겟팅** 편집기에서 다음을 선택합니다. **브랜드** 및 **활동** 드롭다운 메뉴에서 다음을 선택합니다. **타깃팅 시작**.
 1. **미리보기 확인**
 
-   1. 클릭 **미리 보기.** 또한 Google Sheets 를 열고 값을 업데이트합니다.
+   1. 선택 **미리 보기.** 또한 Google Sheets 를 열고 값을 업데이트합니다.
    1. 에서 값 업데이트 **`Restaurant1`** 및 **`Restaurant2`** 열. If **`Restaurant1`** > **`Restaurant2`,** 의 이미지를 볼 수 있어야 합니다. *스테이크* 그렇지 않으면, *태국인* 화면에 음식 이미지가 표시됩니다.
 
    ![결과5](assets/result5.gif)
