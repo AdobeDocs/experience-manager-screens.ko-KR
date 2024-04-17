@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
 1. **AEM Screens > 로 이동합니다. `We.Retail` 프로젝트 실행:**
 
-   AEM 시작 메뉴에서 화면 아이콘을 선택합니다. 확인 `We.Retail` 프로젝트 실행이 표시됩니다.
+   AEM 시작 메뉴에서 화면 아이콘을 클릭합니다. 확인 `We.Retail` 프로젝트 실행이 표시됩니다.
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ AEM Screens 사용 [정적 페이지 템플릿](https://experienceleague.adobe.c
 
 Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요소를 테스트하기 위해 새 시퀀스 채널이 만들어집니다.
 
-1. AEM 시작 메뉴에서 다음으로 이동합니다. **스크린** > **`We.Retail`실행** > 및 선택 **채널**.
+1. AEM 시작 메뉴에서 다음으로 이동합니다. **스크린** > **`We.Retail`실행** > 및 클릭 **채널**.
 
-1. 다음 항목 선택 **만들기** 단추
+1. 다음을 클릭합니다. **만들기** 단추
 
    1. 선택 **엔티티 만들기**
 
@@ -435,9 +435,9 @@ Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요�
 
 1. 페이지 모드를 다음으로 전환 **디자인** 모드.
 
-   1. 다음 항목 선택 **렌치** 허용된 구성 요소를 구성할 수 있도록 Parsys의 아이콘
+   1. 다음을 클릭합니다. **렌치** 허용된 구성 요소를 구성할 수 있도록 Parsys의 아이콘
 
-   1. 다음 항목 선택 **스크린** 그룹 및 **`We.Retail`실행 - 콘텐츠** 그룹입니다.
+   1. 다음을 클릭합니다. **스크린** 그룹 및 **`We.Retail`실행 - 콘텐츠** 그룹입니다.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -45,9 +45,9 @@ AEM Screens 프로젝트를 설정하고 이전 단계에 표시된 대로 각 �
 
 콘텐츠 할당 보고서를 다운로드하려면 아래 지침을 따르십시오.
 
-1. AEM Screens 프로젝트로 이동하고 프로젝트를 선택합니다 **데모 화면**.
+1. AEM Screens 프로젝트로 이동한 다음 프로젝트를 클릭합니다 **데모 화면**.
 
-1. 선택 **컨텐츠 할당 보고서** 작업 표시줄에서
+1. 클릭 **컨텐츠 할당 보고서** 작업 표시줄에서
 
    ![이미지](/help/user-guide/assets/content-assignment-report/can-download.png)
 

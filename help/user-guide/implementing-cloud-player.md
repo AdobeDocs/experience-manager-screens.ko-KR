@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Cloud Player 설치는 플랫폼에 따라 다를 수 있습니다. 일반적으
 
    ![이미지](/help/user-guide/assets/cloud-player-install.png)
 
-1. 확인 대화 상자에서 설치 아이콘 및 설치 버튼을 선택합니다. Cloud Player는 디바이스에 독립 실행형 애플리케이션으로 설치되며, 아이콘을 사용하여 시작할 수 있습니다.
+1. 확인 대화 상자에서 설치 아이콘 및 설치 버튼을 클릭합니다. Cloud Player는 디바이스에 독립 실행형 애플리케이션으로 설치되며, 아이콘을 사용하여 시작할 수 있습니다.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Chrome OS의 대량 프로비저닝에 대한 자세한 내용은 다음을 참�
 
 ## AEM 인스턴스에 필요한 구성 {#bulk-provisioning-config-aem}
 
-AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 선택하여 CORS b/w AEM &amp; cloud player를 활성화합니다.
+AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 클릭하여 CORS b/w AEM &amp; cloud player를 활성화합니다.
 * [AEM 온-프레미스/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

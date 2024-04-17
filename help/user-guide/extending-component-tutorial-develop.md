@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -192,7 +192,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    속성 `sling:hideChildren`= `"[linkURL,size]`는에서 사용됩니다. `items` 노드를 사용하여 **linkURL** 및 **크기** 대화 상자에서 필드가 숨겨집니다. 포스터 대화 상자에서 이러한 노드를 제거하는 것만으로는 충분하지 않습니다. 속성 `sling:hideResource="{Boolean}true"` 액세스 가능성 탭에서 을 사용하여 전체 탭을 숨깁니다.
 
-   선택한 두 필드가 대화 상자에 추가되어 작성자가 제목 및 설명의 텍스트 위치와 색상을 제어할 수 있습니다.
+   두 개의 클릭 필드가 대화 상자에 추가되어 작성자가 제목 및 설명의 텍스트 위치와 색상을 제어할 수 있습니다.
 
    ![포스터 - 최종 대화 상자 구조](assets/2018-05-03_at_4_49pm.png)
 

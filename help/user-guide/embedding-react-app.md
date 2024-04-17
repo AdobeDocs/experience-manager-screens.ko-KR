@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,11 +77,11 @@ AEM Screens에 대화형 REACT 앱을 추가하려면 아래 단계를 따르십
    >
    >채널을 디스플레이에 할당할 때 사용자 상호 작용 이벤트를 추가해야 합니다.
 
-1. 선택 **편집** 채널의 속성을 편집할 수 있도록 작업 표시줄에서 을 선택합니다.
+1. 클릭 **편집** 채널의 속성을 편집할 수 있도록 작업 표시줄에서 을 선택합니다.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 을(를) 끌어다 놓습니다. **포함된 페이지** 구성 요소 를 선택하거나, 응용 프로그램 채널에서 기존 구성 요소를 재사용하고, mysamplespa 응용 프로그램에서 홈 페이지를 선택합니다. 예를 들면 다음과 같습니다. ***/content/mysamplespa/en/home***.
+1. 을(를) 끌어다 놓습니다. **포함된 페이지** 구성 요소 를 선택하거나, 응용 프로그램 채널에서 기존 구성 요소를 재사용하고, mysamplespa 응용 프로그램 아래의 홈 페이지를 클릭합니다(예: ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ AEM Screens을 통해 SPA을 Adobe Analytics과 오프라인 기능을 통합하
    다음을 참조하십시오 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) AEM Screens을 사용하여 Adobe Analytics에서 시퀀싱을 수행하고 offline Adobe Analytics을 사용하여 사용자 지정 이벤트를 보내는 방법에 대한 자세한 내용을 참조하십시오.
 
 1. 선택한 IDE/편집기(특히 텍스트 구성 요소 또는 이벤트 방출을 시작하려는 기타 구성 요소)에서 React 앱을 편집합니다.
-1. 선택 이벤트 또는 구성 요소에 대해 캡처하려는 다른 이벤트에서 표준 데이터 모델을 사용하여 분석 정보를 추가합니다.
+1. 클릭 이벤트나 구성 요소에 대해 캡처하려는 다른 이벤트에서 표준 데이터 모델을 사용하여 분석 정보를 추가합니다.
 
    다음을 참조하십시오 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) 을 참조하십시오.
 

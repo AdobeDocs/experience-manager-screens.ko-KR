@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 �
 
 1. 프로젝트에 경로를 복사합니다. 이 경우 경로는 `/apps/settings/wcm/designs/customstyle`.
 
-1. 이라는 제목이 있는 채널로 이동합니다. **DemoBrand** (단계 (1)에서 생성) 및 선택 **속성** 을 클릭합니다.
+1. 이라는 제목이 있는 채널로 이동합니다. **DemoBrand** (단계 (1)에서 생성) 및 클릭 **속성** 을 클릭합니다.
 
 1. 다음 위치로 이동 **고급** 탭을 클릭하고 다음을 확인합니다. **디자인** 필드.
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 �
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. 선택 **저장 및 닫기** 를 클릭하여 디자인 경로를 업데이트합니다.
+1. 클릭 **저장 및 닫기** 를 클릭하여 디자인 경로를 업데이트합니다.
 
    >[!IMPORTANT]
    >선택적으로 기존 Screens 템플릿을 오버레이하여 기본적으로 자체 디자인을 삽입하거나 자체 템플릿을 모두 만들 수 있습니다. 자세한 내용은 아래 단계를 참조하십시오.
@@ -108,9 +108,9 @@ AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 �
 
 텍스트 오버레이에 업데이트된 디자인을 보려면 아래 단계를 따르십시오.
 
-1. 이라는 AEM Screens 프로젝트로 이동합니다. **`customstyle`** > **채널** > **DemoBrand**. 채널을 선택하고 **편집** 작업 표시줄에서
+1. 이라는 AEM Screens 프로젝트로 이동합니다. **`customstyle`** > **채널** > **DemoBrand**. 채널을 클릭하고 **편집** 작업 표시줄에서
 
-1. 이제 디자인에 디자인을 추가했습니다. **디자인** 위에서 설명한 대로 필드를 선택합니다. **미리 보기** 를 클릭하여 텍스트 오버레이로 이미지의 현재 스타일을 봅니다.
+1. 이제 디자인에 디자인을 추가했습니다. **디자인** 위에서 언급했듯이 **미리 보기** 를 클릭하여 텍스트 오버레이로 이미지의 현재 스타일을 봅니다.
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

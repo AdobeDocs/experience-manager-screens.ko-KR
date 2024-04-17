@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
    >
    >이메일 주소는 하나만 입력할 수 있습니다. 벌크 이메일을 보내려면 관련 사용자와 함께 그룹 또는 메일 그룹을 만듭니다.
 
-1. 선택 **저장** 이메일을 통해 AEM Screens 디바이스에 대한 모니터 활동을 구성합니다.
+1. 클릭 **저장** 이메일을 통해 AEM Screens 디바이스에 대한 모니터 활동을 구성합니다.
 
 ## 이메일 알림 {#email-notification}
 

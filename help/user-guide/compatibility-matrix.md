@@ -4,7 +4,7 @@ description: AEM Screens 플레이어 및 해당 AEM Screens 버전에 대해 �
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 7%
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 ### 다운로드 링크 {#download-link}
 
-iOS Player용 다운로드 링크 선택:
+iOS Player용 다운로드 링크 클릭:
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### 다운로드 링크 {#download-link-1}
 
-Windows 10 Player용 다운로드 링크 선택:
+Windows 10 Player용 다운로드 링크 클릭:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### 다운로드 링크 {#download-link-2}
 
-Android™ Player용 다운로드 링크 선택:
+Android™ Player용 다운로드 링크 클릭:
 
 aem-screens-player-android-3.3.0.apk.zip
 

@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -71,7 +71,7 @@ ht-degree: 1%
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >선택 **모두 저장** 컨텐츠를 만들거나 편집하거나 CRXDE Lite에 복사할 때마다 노드의 작업 표시줄에서 을 클릭합니다. 그렇지 않으면 업데이트를 커밋할 수 없습니다.
+   >클릭 **모두 저장** 컨텐츠를 만들거나 편집하거나 CRXDE Lite에 복사할 때마다 노드의 작업 표시줄에서 을 클릭합니다. 그렇지 않으면 업데이트를 커밋할 수 없습니다.
 
 1. 에서 왼쪽 막대 템플릿 복사 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 끝 `/apps/customtemplate/template`.
 
@@ -144,7 +144,7 @@ AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. 선택 **만들기** 작업 표시줄에서 템플릿을 선택합니다 **`Left20-LandscapeHD3Zone`** 다음에서 **만들기** 마법사.
+1. 클릭 **만들기** 작업 모음에서 템플릿을 클릭하고 **`Left20-LandscapeHD3Zone`** 다음에서 **만들기** 마법사.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

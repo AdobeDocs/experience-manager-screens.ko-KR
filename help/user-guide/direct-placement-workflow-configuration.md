@@ -1,7 +1,7 @@
 ---
 title: 직접 배치 워크플로 구성
 description: 이 페이지에서는 직접 배치 워크플로우 구성을 중점적으로 다룹니다.
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 직접 배치 워크플로 구성은 AEM Screens 프로젝트 채널을 자산의 특정 폴더에 매핑하며, 해당 폴더에서 에셋을 배치할 수 있도록 합니다. Adobe은 일괄 오프라인 업데이트를 트리거하여 게시를 완료할 것을 권장합니다.
 
-또는 콘텐츠 작성자는 을 수동으로 선택할 수 있습니다. **오프라인 컨텐츠 업데이트**.
+또는 콘텐츠 작성자는 를 수동으로 클릭할 수 있습니다. **오프라인 컨텐츠 업데이트**.
 
 >[!NOTE]
 >

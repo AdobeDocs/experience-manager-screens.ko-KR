@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 플레이어의 자동 등록을 구현하려면 아래 단계를 따르십시오.
 
-1. AEM 인스턴스에 로그인하고 AEM Screens 프로젝트를 선택한 다음 를 선택합니다. **속성** 작업 표시줄에서
-1. 다음 항목 선택 **고급** 탭을 사용하여 다음을 볼 수 있습니다. **장치 등록** 섹션.
+1. AEM 인스턴스에 로그인하고 AEM Screens 프로젝트를 클릭한 다음 를 클릭합니다. **속성** 작업 표시줄에서
+1. 다음을 클릭합니다. **고급** 탭을 사용하여 다음을 볼 수 있습니다. **장치 등록** 섹션.
 
 1. 에서 자동 등록 코드 지정 **일괄 등록 코드** 필드 및 선택적 기본 표시 위치 **기본 디스플레이 할당** 를 입력하여 자동 등록된 플레이어에 할당합니다.
 
    >[!NOTE]
-   >원하는 코드를 입력하고 필요한 경우 기본 디스플레이를 선택합니다.
+   >원하는 코드를 입력하고 필요한 경우 기본 표시를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. MDM 또는 구성 JSON 파일을 사용하여 플레이어에 적절한 서버 URL 및 등록 코드를 프로비저닝합니다.

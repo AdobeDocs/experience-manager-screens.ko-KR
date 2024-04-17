@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,15 +58,15 @@ ht-degree: 1%
 
 AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 선택 **편집** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. 이미지를 선택하고 **구성** (렌치 아이콘) 을 클릭하여 속성 대화 상자를 엽니다.
+1. 이미지를 클릭하고 **구성** (렌치 아이콘) 을 클릭하여 속성 대화 상자를 엽니다.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. 다음 항목 선택 **텍스트 오버레이** 아래 그림과 같이 대화 상자의 탐색 모음에서 옵션을 선택합니다.
+1. 다음을 클릭합니다. **텍스트 오버레이** 아래 그림과 같이 대화 상자의 탐색 모음에서 옵션을 선택합니다.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
 프로젝트에 필요한 구성을 설정한 후 아래 단계에 따라 Google 시트의 값을 사용하십시오.
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 선택 **속성** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **속성** 작업 표시줄에서
 
-1. 다음 항목 선택 **개인화** 를 탭하여 ContextHub 구성을 설정할 수 있습니다.
+1. 다음을 클릭합니다. **개인화** 를 탭하여 ContextHub 구성을 설정할 수 있습니다.
 
-   1. 다음 항목 선택 **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 선택 **선택**.
+   1. 다음을 클릭합니다. **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 클릭 **선택**.
 
-   1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **screens** > **설정** > **wcm** > **세그먼트** 및 선택 **선택**.
+   1. 다음을 클릭합니다. **세그먼트 경로** 다음으로: **conf** > **screens** > **설정** > **wcm** > **세그먼트** 및 클릭 **선택**.
 
-   1. **저장 후 닫기**&#x200B;를 선택합니다.
+   1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 선택 **편집** 작업 표시줄에서
+1. 다음으로 이동 **TextOverlayDemo** > **채널** > **텍스트 샘플** 및 클릭 **편집** 작업 표시줄에서
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 에 설명된 대로 이미지 및 텍스트 오버레이 구성 요소를 이미지에 추가합니다. [텍스트 오버레이 사용](/help/user-guide/text-overlay.md#using-text-overlay) 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
-1. 선택 **구성** (렌치 아이콘) **이미지** 대화 상자.
+1. 클릭 **구성** (렌치 아이콘) **이미지** 대화 상자.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. 다음 위치로 이동 **컨텍스트 허브** 의 탭 **이미지** 대화 상자. **추가**&#x200B;를 선택합니다.
+1. 다음 위치로 이동 **컨텍스트 허브** 의 탭 **이미지** 대화 상자. 클릭 **추가**.
 
    >[!NOTE]
    >ContextHub 구성을 설정하지 않은 경우 프로젝트에 대해 이 옵션이 비활성화됩니다.
 
-1. 입력 **값** 다음에서 **자리 표시자** 필드. Google 시트에서 값을 가져올 행을 선택합니다. **ContextHub 변수**. 이 경우 값은 Google 시트의 행 2 및 열 1에서 검색됩니다. 이제 을(를) 입력합니다. **기본값** 다음으로: **20**&#x200B;을 참조하십시오. 완료되면 확인 표시를 선택합니다.
+1. 입력 **값** 다음에서 **자리 표시자** 필드. Google 시트에서 값을 가져올 행을 클릭합니다. **ContextHub 변수**. 이 경우 값은 Google 시트의 행 2 및 열 1에서 검색됩니다. 이제 을(를) 입력합니다. **기본값** 다음으로: **20**&#x200B;을 참조하십시오. 완료되면 확인 표시를 클릭합니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. 선택 **미리 보기**.
+1. 클릭 **미리 보기**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

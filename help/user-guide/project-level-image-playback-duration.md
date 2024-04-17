@@ -2,7 +2,7 @@
 title: 프로젝트 수준 이미지 재생 기간
 description: 프로젝트 수준에서 이미지 재생 기간을 정의하는 방법을 알아봅니다.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -43,10 +43,10 @@ ht-degree: 1%
 
 프로젝트 수준 이미지 재생 기간을 업데이트하는 방법을 알려면 아래 단계를 따르십시오.
 
-1. 프로젝트로 이동 **프로젝트 레벨 재생** 및 선택 **속성** 작업 표시줄에서
+1. 프로젝트로 이동 **프로젝트 레벨 재생** 및 클릭 **속성** 작업 표시줄에서
    ![assets](assets/image_playback3.png)
 
-1. 채널의 모든 이미지를 선택하고 아래 그림과 같이 왼쪽 상단의 렌치 아이콘을 선택하여 채널 수준 구성 대화 상자를 열 수 있습니다.
+1. 채널의 모든 이미지를 클릭하고 아래 그림과 같이 왼쪽 상단의 렌치 아이콘을 클릭하여 채널 수준 구성 대화 상자를 열 수 있습니다.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

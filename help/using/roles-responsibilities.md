@@ -2,7 +2,7 @@
 title: AEM Screens 프로젝트 역할 및 책임
 description: AEM Screens 프로젝트 역할 및 책임에 대해 알아봅니다.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -47,7 +47,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 #### 하드웨어 파트너 고려 {#selecting-hardware-partner}
 
-적절한 하드웨어 파트너를 선택하는 것이 중요합니다. 다음 질문을 고려해야 합니다.
+올바른 하드웨어 파트너를 클릭하는 것이 중요합니다. 다음 질문을 고려해야 합니다.
 
 1. SLA(서비스 수준 계약)는 무엇입니까?
 

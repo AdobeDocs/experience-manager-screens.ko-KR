@@ -10,7 +10,7 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -33,8 +33,8 @@ ht-degree: 0%
 >최신 Windows Player(*.exe*), 출처 [AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
 >1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
->1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 선택 **저장**.
->1. 다음 항목 선택 **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
+>1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
+>1. 다음을 클릭합니다. **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -49,15 +49,15 @@ ht-degree: 0%
    >
    >AEM 대시보드에서 Screens용 프로젝트를 만드는 방법에 대한 자세한 내용은 [Screens 프로젝트 만들기 및 관리](creating-a-screens-project.md).
 
-1. 다음 항목 선택 **장치 관리자** 단추를 클릭합니다.
+1. 다음을 클릭합니다. **장치 관리자** 단추를 클릭합니다.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 다음 항목 선택 **장치 등록** 오른쪽 상단의 버튼.
+1. 다음을 클릭합니다. **장치 등록** 오른쪽 상단의 버튼.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 필요한 장치(1단계와 동일)를 선택하고 **장치 등록**.
+1. 필요한 장치(1단계와 동일)를 클릭하고 **장치 등록**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 다음과 같은 경우 **등록 코드** 두 컴퓨터에서 동일함, 선택 **유효성 검사** (6) 단계에 표시된 대로 AEM의 단추입니다.
-1. 원하는 디바이스 이름을 설정하고 을(를) 선택합니다. **등록**.
+1. 다음과 같은 경우 **등록 코드** 두 컴퓨터에서 동일함, 클릭 **유효성 검사** (6) 단계에 표시된 대로 AEM의 단추입니다.
+1. 원하는 디바이스 이름을 설정하고 를 클릭합니다 **등록**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 선택 **완료** 등록 프로세스를 완료합니다.
+1. 클릭 **완료** 등록 프로세스를 완료합니다.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
    >
    >다음 **디스플레이 할당** 장치를 디스플레이에 직접 추가할 수 있습니다.
 
-   다음을 선택하는 경우 **완료**&#x200B;를 클릭하고 장치를 디스플레이에 할당합니다.
+   다음을 클릭: **완료**&#x200B;를 클릭하고 장치를 디스플레이에 할당합니다.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,19 +96,19 @@ ht-degree: 0%
 
 디스플레이에 장치를 할당하지 않은 경우 아래 단계에 따라 AEM Screens 프로젝트의 디스플레이에 장치를 할당합니다.
 
-1. 장치 선택 및 선택 **장치 지정** 작업 표시줄에서
+1. 장치를 클릭하고 **장치 지정** 작업 표시줄에서
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 에서 디스플레이 경로 선택 **디스플레이/장치 구성 경로**.
+1. 에서 디스플레이 경로를 클릭합니다. **디스플레이/장치 구성 경로**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 선택 **할당** 경로 선택 시.
+1. 클릭 **할당** 를 클릭합니다.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 선택 **완료** 장치가 성공적으로 할당되면 아래 그림과 같이
+1. 클릭 **완료** 장치가 성공적으로 할당되면 아래 그림과 같이
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: ). **데모 화면** > **장치**.
 
-1. 다음 항목 선택 **장치** 폴더 및 선택 **장치 관리자** 작업 표시줄에서
+1. 다음을 클릭합니다. **장치** 폴더 및 클릭 **장치 관리자** 작업 표시줄에서
 
    ![이미지](/help/user-guide/assets/device-manager/device-manager-1.png)
 

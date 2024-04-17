@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **적응형 표현물**
 
-  적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 선택할 수 있습니다.
+  적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다.
 
   이제 AEM Screens 개발자로서 모든 콘텐츠 변형을 수동으로 만들지 않고도 장치별 에셋 렌디션을 자동으로 다운로드하고 재생하도록 구성할 수 있습니다. 다음을 참조하십시오 [적응형 표현물: 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md) 을 참조하십시오.
 
@@ -60,7 +60,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
       * 작성자 및 게시의 CRXDE Lite 로 이동합니다.
 
-      * 도구 > 쿼리를 선택합니다.
+      * 도구 > 쿼리를 클릭합니다.
 
       * 쿼리에서 다음을 사용합니다 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

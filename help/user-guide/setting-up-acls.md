@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -30,19 +30,19 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 선택 **그룹** ID(예: Acme)를 입력합니다.
+1. 클릭 **그룹** ID(예: Acme)를 입력합니다.
 
    또는 이 링크를 사용하여 `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   그런 다음 을 선택합니다. **저장**.
+   그런 다음 을 클릭합니다. **저장**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 선택 **참가자** 목록에서 선택한 다음 두 번 선택합니다.
+1. 클릭 **참가자** 목록에서 를 클릭하고 더블 클릭합니다.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 추가 **Acme** (만든 프로젝트) 대상 **그룹에 구성원 추가**. **저장**&#x200B;을 선택합니다.
+1. 추가 **Acme** (만든 프로젝트) 대상 **그룹에 구성원 추가**. **저장**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
 
 1. 그룹에 대한 권한 설정 **Acme** 사용 `(http://localhost:4502/useradmin)`.
 
-   그룹 선택 **Acme** 및 선택 **권한**.
+   그룹 클릭 **Acme** 을(를) 클릭하고 **권한**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

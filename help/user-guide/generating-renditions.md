@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 전체 HD 렌디션을 자동으로 생성하려면 아래 절차를 따르십시오.
 
-1. Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 선택하여 **워크플로**.
+1. Adobe Experience Manager 링크(왼쪽 상단)를 클릭하고 해머 아이콘을 클릭하여 **워크플로**.
 
-   선택 **모델**.
+   클릭 **모델**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 워크플로우 모델 관리에서 **DAM 자산 업데이트** 모델 및 선택 **편집** 작업 표시줄에서
+1. 워크플로우 모델 관리에서 **DAM 자산 업데이트** 모델 및 클릭 **편집** 작업 표시줄에서
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ ht-degree: 0%
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 다음 항목 선택 **프로세스** 탭.
+1. 다음을 클릭합니다. **프로세스** 탭.
 1. 다음 목록에 전체 HD 프로필 입력: **인수** 를 다음과 같이 바꿉니다.
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. 선택 **확인**.
+1. **확인**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 선택 **저장** 의 왼쪽 상단 **DAM 자산 업데이트** 화면.
+1. 클릭 **저장** 의 왼쪽 상단 **DAM 자산 업데이트** 화면.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 다음으로 이동 **에셋** 새 비디오를 업로드하십시오. 비디오를 선택하고 렌디션 사이드 레일을 엽니다. 2개의 풀 HD 비디오를 보십시오.
+1. 다음으로 이동 **에셋** 새 비디오를 업로드하십시오. 비디오를 클릭하고 렌디션 사이드 레일을 엽니다. 2개의 풀 HD 비디오를 보십시오.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ ht-degree: 0%
 
 아래 단계에 따라 전체 HD 표현물을 수동으로 생성합니다.
 
-1. 도구를 선택하고 선택할 수 있도록 Adobe Experience Manager 링크(왼쪽 상단)를 선택하고 해머 아이콘을 선택합니다. **워크플로**.
+1. Adobe Experience Manager 링크(왼쪽 상단)를 클릭하고 망치 아이콘을 클릭하여 도구를 클릭하고 을 클릭합니다 **워크플로**.
 
-   선택 **모델**.
+   클릭 **모델**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 워크플로우 모델 관리에서 **화면 업데이트 자산** 모델을 선택한 다음 **워크플로우 시작** 을(를) 열려면 **워크플로우 실행** 대화 상자.
+1. 워크플로우 모델 관리에서 **화면 업데이트 자산** 모델을 만든 다음 **워크플로우 시작** 을(를) 열려면 **워크플로우 실행** 대화 상자.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 에서 원하는 비디오를 선택합니다. **페이로드** 및 선택 **실행**.
+1. 에서 원하는 비디오를 클릭합니다. **페이로드** 및 클릭 **실행**.
 
    ![단계6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. 다음으로 이동 **에셋**&#x200B;를 클릭하고 에셋으로 드릴다운한 다음 선택합니다.
+1. 다음으로 이동 **에셋**&#x200B;를 클릭하고 에셋으로 드릴다운한 다음 클릭합니다.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

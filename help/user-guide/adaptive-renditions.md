@@ -2,10 +2,10 @@
 title: 적응형 렌디션 아키텍처 개요 및 구성
 description: AEM Screens의 적응형 표현물 CRXDE Lite에서 아키텍처 개요 및 구성에 대해 알아봅니다.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ## 소개 {#introduction}
 
-적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 선택할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생하여 고객이 다음 디자인에만 집중할 수 있도록 합니다 *main* 경험.
+적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생하여 고객이 다음 디자인에만 집중할 수 있도록 합니다 *main* 경험.
 
 ## 목표 {#objective}
 
@@ -58,11 +58,11 @@ ht-degree: 3%
 렌디션 매핑에 노드를 추가하려면 아래 단계를 따르십시오.
 
 1. 이 경로로 이동 `/conf/screens/sling:configs/rendition-mapping` 출처: **CRXDE Lite**.
-1. 아래에 노드 만들기 **렌디션 매핑**. 마우스 오른쪽 버튼 클릭 **렌디션 매핑** 및 선택 **만들기** > **노드 만들기**&#x200B;을 참조하십시오.
+1. 아래에 노드 만들기 **렌디션 매핑**. 마우스 오른쪽 버튼 클릭 **렌디션 매핑** 및 클릭 **만들기** > **노드 만들기**&#x200B;을 참조하십시오.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 다음을 입력합니다. **이름** 매핑 규칙: **rule1** 및 노드 **유형** 다음으로: **`nt:unstructured`** 위치: **노드 만들기** 대화 상자. 선택 **확인**.
+1. 다음을 입력합니다. **이름** 매핑 규칙: **rule1** 및 노드 **유형** 다음으로: **`nt:unstructured`** 위치: **노드 만들기** 대화 상자. **확인**&#x200B;을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ ht-degree: 3%
    >[!NOTE]
    >다음을 참조하십시오 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 자세히 알아보십시오.
 
-   선택 **rule1** 만든 후 입력한 값 **표현식** 위치: **이름** 및 **(orientation:landscape)** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. **추가**&#x200B;를 선택합니다.
+   클릭 **rule1** 만든 후 입력한 값 **표현식** 위치: **이름** 및 **(orientation:landscape)** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ ht-degree: 3%
    >[!NOTE]
    >표현식이 true로 평가되는 경우 패턴 속성에 정의된 값이 새 자산 렌디션과 일치하고 선택됩니다.
 
-   패턴 속성을 추가하려면 다음을 선택합니다. **rule1** 만든 후 입력한 값 **패턴** 위치: **이름** 및 **가로** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. **추가**&#x200B;를 선택합니다.
+   패턴 속성을 추가하려면 **rule1** 만든 후 입력한 값 **패턴** 위치: **이름** 및 **가로** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 선택 **모두 저장** 에서 만든 노드 아래의 속성을 확인합니다. **렌디션 매핑**.
+1. 클릭 **모두 저장** 에서 만든 노드 아래의 속성을 확인합니다. **렌디션 매핑**.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

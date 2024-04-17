@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -29,4 +29,4 @@ AEM Screens 보안 체크리스트 페이지에서는 질문 및 고려 사항 �
 
 ### 보안 검사 목록 다운로드 {#download-checklist}
 
-AEM Screens 보안 검사 목록을 다운로드하려면 다음을 선택합니다. [여기](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
+AEM Screens 보안 검사 목록을 다운로드하려면 다음을 클릭하십시오. [여기](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).

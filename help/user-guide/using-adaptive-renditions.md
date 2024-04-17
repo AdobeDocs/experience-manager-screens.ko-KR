@@ -2,7 +2,7 @@
 title: AEM Screens에서 적응형 표현물 사용
 description: AEM Screens에서 적응형 렌디션을 사용하는 방법을 알아봅니다.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 소개 {#introduction}
 
-적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 선택할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생하여 고객이 다음 디자인에만 집중할 수 있도록 합니다 *main* 경험.
+적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생하여 고객이 다음 디자인에만 집중할 수 있도록 합니다 *main* 경험.
 
 ## 목표 {#objective}
 
@@ -35,12 +35,12 @@ Tour Screens 채널에서 사용할 자산에 렌디션을 적용하려면 다�
 1. 다음 위치로 이동 **에셋** AEM 인스턴스의 폴더입니다.
 1. 간판 표시에 더 적합한 에셋 버전 만들기(예: ) `seahorse.jpg`.
 1. 렌디션 이름 지정 패턴(예: ) 선택`landscape`에서 정의된 것과 유사 **패턴** 의 속성 **CRXDE Lite**. 다음을 참조하십시오 [렌디션 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 을 참조하십시오.
-1. 선택 **렌디션 추가** 아래 그림과 같이 렌디션을 업로드합니다.
+1. 클릭 **렌디션 추가** 아래 그림과 같이 렌디션을 업로드합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. 이름이 변경된 에셋 파일을 선택합니다. 추가하는 렌디션에는 패턴(3단계에서 정의됨)이 포함되어야 합니다. 예를 들면 다음과 같습니다. `seahorse-landscape.png`.
-1. 에셋을 추가한 경우 에셋을 선택하고 을 선택합니다 **게시 관리** 을 클릭하여 자산을 게시합니다.
+1. 이름이 변경된 에셋 파일을 클릭합니다. 추가하는 렌디션에는 패턴(3단계에서 정의됨)이 포함되어야 합니다. 예를 들면 다음과 같습니다. `seahorse-landscape.png`.
+1. 에셋을 추가한 경우 에셋을 클릭하고 을 클릭합니다 **게시 관리** 을 클릭하여 자산을 게시합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

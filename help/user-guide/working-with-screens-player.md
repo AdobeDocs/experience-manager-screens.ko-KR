@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -32,11 +32,11 @@ AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에
 
 1. 프로젝트에서 디바이스 대시보드로 이동합니다(예: ). ***테스트 프로젝트*** > ***장치***.
 
-   선택 **장치** 및 **장치 관리자** 작업 표시줄에서
+   클릭 **장치** 및 **장치 관리자** 작업 표시줄에서
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 장치 대시보드를 열 수 있도록 장치를 선택합니다.
+1. 장치 대시보드를 열 수 있도록 장치를 클릭합니다.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 
 
 #### 구성 메뉴 옵션 액세스 {#configuration-options}
 
-다음을 선택하면 구성을 업데이트할 수 있습니다. **구성** 아래 그림과 같이 측면 메뉴에서 옵션을 선택합니다.
+다음을 클릭하면 구성을 업데이트할 수 있습니다. **구성** 아래 그림과 같이 측면 메뉴에서 옵션을 선택합니다.
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 
 
 AEM Screens 플레이어의 관리 UI에서 채널 및 애플리케이션에 대한 캐시를 지울 수 있습니다.
 
-다음 항목 선택 **컨텐츠 캐시** 캐시를 업데이트할 수 있도록 사이드 레일에서.
+다음을 클릭합니다. **컨텐츠 캐시** 캐시를 업데이트할 수 있도록 사이드 레일에서.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

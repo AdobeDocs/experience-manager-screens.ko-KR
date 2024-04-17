@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -42,7 +42,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
    ![assets](assets/health-check1.png)
 
 
-2. 선택 **선택한 상태 검사 실행** 위에 나열된 두 속성에 대해 유효성 검사를 실행할 수 있습니다.
+2. 클릭 **선택한 상태 검사 실행** 위에 나열된 두 속성에 대해 유효성 검사를 실행할 수 있습니다.
 
    두 필터가 모두 활성화된 경우 **화면 구성 상태 서비스** 다음을 표시합니다. **결과** 다음으로: **확인** 두 구성이 모두 활성화되었습니다.
 
@@ -76,7 +76,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
    ![이미지](assets/config/empty-ref2.png)
 
-1. 선택 **저장** apache Sling Referrer 필터를 활성화하려면 Allow Empty를 사용하십시오.
+1. 클릭 **저장** apache Sling Referrer 필터를 활성화하려면 Allow Empty를 사용하십시오.
 
 
 #### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
    ![이미지](assets/config/config-1.png)
 
-1. 선택 **저장** 을(를) 활성화하려면 *http* 서비스.
+1. 클릭 **저장** 을(를) 활성화하려면 *http* 서비스.
 
 #### AEM Screens용 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
 

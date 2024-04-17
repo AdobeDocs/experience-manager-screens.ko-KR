@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -45,17 +45,17 @@ ht-degree: 1%
 
 1. AEM Screens 채널 중 하나로 이동합니다. 다음 단계에서는 을 사용하여 타깃팅을 활성화하는 방법을 보여 줍니다 **DataDrivenRetail** *(시퀀스 채널)* 이(가) AEM Screens 채널에서 만들어졌습니다.
 
-1. 채널 선택 **DataDrivenRetail** 및 선택 **속성** 작업 표시줄에서
+1. 채널 클릭 **DataDrivenRetail** 및 클릭 **속성** 작업 표시줄에서
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 다음 항목 선택 **개인화** 탭을 사용하여 ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 선택할 수 있습니다.
+1. 다음을 클릭합니다. **개인화** 탭을 사용하여 ContextHub 구성을 설정하고 ContextHub 및 세그먼트 경로를 클릭할 수 있습니다.
 
-   1. 다음 항목 선택 **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 선택 **선택**.
+   1. 다음을 클릭합니다. **ContextHub 경로** 다음으로: **리브** > **설정** > **cloudsettings** > **기본값** > **ContextHub 구성** 및 클릭 **클릭**.
 
-   1. 다음 항목 선택 **세그먼트 경로** 다음으로: **conf** > **`We.Retail`** > **설정** > **wcm** > **세그먼트** 및 선택 **선택**.
+   1. 다음을 클릭합니다. **세그먼트 경로** 다음으로: **conf** > **`We.Retail`** > **설정** > **wcm** > **세그먼트** 및 클릭 **클릭**.
 
-   1. **저장 후 닫기**&#x200B;를 선택합니다.
+   1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 다음 위치로 이동하여 선택합니다. **DataDrivenRetail** 출처: **DataDrivenAssets** > **채널** 및 선택 **편집** 작업 표시줄에서 채널 편집기에서 에셋을 끌어다 놓습니다.
+1. 다음 위치로 이동하여 **DataDrivenRetail** 출처: **DataDrivenAssets** > **채널** 및 클릭 **편집** 작업 표시줄에서 채널 편집기에서 에셋을 끌어다 놓습니다.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 선택 **타겟팅**.
+1. 클릭 **타겟팅**.
 
-1. 선택 **브랜드** 및 **활동** 드롭다운 메뉴에서 다음을 선택합니다. **타깃팅 시작**.
+1. 클릭 **브랜드** 및 **활동** 드롭다운 메뉴에서 **타깃팅 시작**.
 
 ### 자세히 알아보기: 사용 사례 예 {#learn-more-example-use-cases}
 

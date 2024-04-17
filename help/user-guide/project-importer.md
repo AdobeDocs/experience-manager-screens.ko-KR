@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -101,13 +101,13 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 프로젝트 선택,** DemoProjectImporter **>** 만들기 **>** 사이드 바** 위치 가져오기
+1. 프로젝트를 클릭합니다.** DemoProjectImporter **>** 만들기 **>** 사이드 바** 위치 가져오기
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 다음 **가져오기** 마법사가 표시됩니다. 위치가 있는 프로젝트의 파일을 선택하거나 파일(***minimal-file.xls***)에서 다운로드했습니다. *전제 조건* 섹션.
+1. 다음 **가져오기** 마법사가 표시됩니다. 위치에 있는 프로젝트의 파일을 클릭하거나 파일( )을 클릭합니다.***minimal-file.xls***)에서 다운로드했습니다. *전제 조건* 섹션.
 
-   파일을 선택한 후 다음을 선택합니다 **다음**.
+   파일을 선택한 후 **다음**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

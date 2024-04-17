@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ContentSync에서 SmartSync로 전환하려면 아래 단계를 따르십시오.
 
 1. ContentSync에서 SmartSync로 마이그레이션하려면 SmartSync를 활성화하기 전에 ContentSync 캐시를 지워야 합니다.
 
-   링크를 사용하여 인스턴스에서 ContentSync 콘솔로 이동합니다 ***https://localhost:4502/libs/cq/contentsync/content/console.html*** 및 선택 **캐시 지우기**&#x200B;아래 그림과 같이
+   링크를 사용하여 인스턴스에서 ContentSync 콘솔로 이동합니다 ***https://localhost:4502/libs/cq/contentsync/content/console.html*** 및 클릭 **캐시 지우기**&#x200B;아래 그림과 같이
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -85,7 +85,7 @@ ContentSync에서 SmartSync로 전환하려면 아래 단계를 따르십시오.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 선택 **저장** 을(를) 활성화하려면 **Screens Offline 콘텐츠 서비스** 따라서 AEM Screens용 SmartSync를 사용합니다.
-1. SmartSync를 활성화한 경우 프로젝트로 이동하여 을(를) 선택합니다 **오프라인 컨텐츠 업데이트** *(작업 표시줄에서)* 아래 그림과 같이.
+1. 클릭 **저장** 을(를) 활성화하려면 **Screens Offline 콘텐츠 서비스** 따라서 AEM Screens용 SmartSync를 사용합니다.
+1. SmartSync를 활성화한 경우 프로젝트로 이동하여 을(를) 클릭합니다. **오프라인 컨텐츠 업데이트** *(작업 표시줄에서)* 아래 그림과 같이.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

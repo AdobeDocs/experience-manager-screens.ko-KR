@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AEM Screens용 Windows Player를 구현하려면 AEM Screens용 Windows Player�
 1. 설정 **로그인 토큰 쿠키에 대한 SameSite 속성** 출처: **Lax** 끝 **없음**.
    ![이미지](/help/user-guide/assets/granite-updates.png)
 
-1. **저장**&#x200B;을 선택합니다.
+1. **저장**&#x200B;을 클릭합니다.
 
 ### 임시 메서드 {#ad-hoc-method}
 
@@ -55,7 +55,7 @@ Ad-Hoc 메서드를 사용하면 최신 Windows Player(*.exe*). 방문 [**AEM 6.
 응용 프로그램을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
 1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
-1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 연결하려는 AEM 인스턴스의 위치(주소)를 입력하고 를 선택합니다 **저장**.
+1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 연결하려는 AEM 인스턴스의 위치(주소)를 입력하고 를 클릭합니다 **저장**.
 1. 다음 위치로 이동 **장치** **등록** 디바이스 등록 프로세스의 상태를 확인할 수 있도록 왼쪽 작업 메뉴에서 링크를 클릭합니다.
 
 >[!NOTE]
@@ -73,7 +73,7 @@ Ad-Hoc 메서드를 사용하면 최신 Windows Player(*.exe*). 방문 [**AEM 6.
 
 Windows 플레이어에서 이름을 구성하려면 아래 단계를 따르십시오.
 
-1. 선택 **시작** > **실행**.
+1. 클릭 **시작** > **실행**.
 1. 입력 `system.cpl`.
 1. 컴퓨터 이름 탭을 사용하여 컴퓨터의 호스트 이름을 설정합니다.
 

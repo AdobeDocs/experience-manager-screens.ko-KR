@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -29,7 +29,7 @@ DAM에 비디오를 업로드하여 채널에 추가하면 AEM Screens 플레이
 비디오를 보려면 다음 작업을 수행하십시오.
 
 1. 예를 들어 비디오로 이동합니다. `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 비디오를 선택하고 왼쪽 상단 메뉴를 확장한 다음 를 선택합니다 **표현물**.
+1. 비디오를 클릭하고 왼쪽 상단 메뉴를 확장한 다음 를 클릭합니다. **표현물**.
 
 다양한 렌디션(MP4 또는 M4V)이 있어야 합니다.
 
@@ -39,7 +39,7 @@ DAM에 비디오를 업로드하여 채널에 추가하면 AEM Screens 플레이
 >
 >렌디션이 없으면 AEM이 실행 중인 OS에 ffmpeg가 설치되어 있는지 확인하십시오.
 >
->선택 [여기](https://www.ffmpeg.org/download.html) ffmpeg를 설치하려면
+>클릭 [여기](https://www.ffmpeg.org/download.html) ffmpeg를 설치하려면
 
 ## 비디오 자산 {#video-assets}
 
@@ -51,11 +51,11 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 ### 비디오 프로필 확인 {#checking-video-profile}
 
-1. 다음 위치로 이동 **비디오 프로필**, 즉, `http://localhost:4502/etc/dam/video.html` 및 선택 **테스트 비디오 업로드**.
+1. 다음 위치로 이동 **비디오 프로필**, 즉, `http://localhost:4502/etc/dam/video.html` 및 클릭 **테스트 비디오 업로드**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 테스트 비디오 업로드 및 선택 **확인** 코드 변환 작업을 시작할 수 있습니다.
+1. 테스트 비디오를 업로드하고 **확인** 코드 변환 작업을 시작할 수 있습니다.
 
    트랜스코딩된 비디오가 실패할 경우 ffmpeg 출력을 확장하여 ffmpeg의 콘솔 출력에 발생한 오류를 파악합니다.
 
@@ -77,10 +77,10 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. 비디오를 선택하고 **편집** 대화 상자. 를 엽니다. **프로필** 탭.
+1. 비디오를 클릭하고 **편집** 대화 상자. 를 엽니다. **프로필** 탭.
 
    >[!NOTE]
-   >다른 프로필을 선택하십시오(최소 &quot;High Quality H.264&quot; 프로필이 있어야 함).
+   >다른 프로필을 클릭합니다(적어도 &quot;고품질 H.264&quot; 프로필이 있어야 함).
 
 ### 웹 플레이어에서 비디오 확인 {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 DAM 워크플로우를 사용하여 FullHD 렌디션을 만들려면 다음 작업을 수행하십시오.
 
 1. 다음 위치로 이동 *워크플로우 모델 관리자* 이(가) `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. 다음 항목 선택 **화면 업데이트 자산** 모델.
-1. 선택 **워크플로우 시작** 작업 표시줄에서
+1. 다음을 클릭합니다. **화면 업데이트 자산** 모델.
+1. 클릭 **워크플로우 시작** 작업 표시줄에서
 1. 다음에서 **워크플로우 실행** 대화 상자에서 **페이로드**.
-1. 선택 **실행**.
+1. 클릭 **실행**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
 
 절대 전략을 설정하려면 아래 단계를 따르십시오.
 
-1. 채널 작성자로 이동하여 아래 그림과 같이 시퀀스 구성 요소를 선택합니다.
+1. 아래 그림과 같이 채널 작성자로 이동하여 시퀀스 구성 요소를 클릭합니다.
 1. 구성 대화 상자를 엽니다.
 1. 편집 **전략** 절대 값을 추가합니다.
 

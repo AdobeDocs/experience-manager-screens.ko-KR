@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 7%
@@ -36,19 +36,19 @@ ht-degree: 7%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. 다음 항목 선택 **장치** 폴더 및 선택 **장치 관리자** 작업 표시줄에서 을 참조하십시오. 할당된 장치와 할당되지 않은 장치가 표시됩니다.
+1. 다음 클릭: **장치** 폴더 및 클릭 **장치 관리자** 작업 표시줄에서 을 참조하십시오. 할당된 장치와 할당되지 않은 장치가 표시됩니다.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 목록에서 미할당 장치를 선택하고 **장치 지정** 작업 표시줄에서 을 참조하십시오.
+1. 목록에서 미할당 장치를 클릭하고 **장치 지정** 작업 표시줄에서 을 참조하십시오.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. 목록에서 장치를 할당할 디스플레이를 선택하고 **할당**.
+1. 목록에서 장치를 할당할 디스플레이를 클릭하고 **할당**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. 다음 항목 선택 **완료** 할당 프로세스를 완료합니다.
+1. 다음을 클릭합니다. **완료** 할당 프로세스를 완료합니다.
 
 
    디스플레이 대시보드는에 지정된 디바이스를 표시합니다. **장치** 패널.

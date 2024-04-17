@@ -2,7 +2,7 @@
 title: AEM Screens의 비디오에 대한 썸네일 지원
 description: AEM Screens에서 비디오에 대한 썸네일 지원을 추가하는 방법을 알아봅니다.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 기존 AEM Screens 채널로 이동하거나 채널을 만듭니다.
 
-1. 채널을 선택하고 **편집** 작업 표시줄에서
+1. 채널을 클릭하고 **편집** 작업 표시줄에서
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. 비디오를 선택하고 *렌치* 아이콘.
+1. 비디오를 클릭하고 *렌치* 아이콘.
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ ht-degree: 2%
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. 자산 선택기에서 다음으로 이미지를 끌어다 놓기 **축소판** 놓기 영역 및 선택 **완료**.
+1. 자산 선택기에서 다음으로 이미지를 끌어다 놓기 **축소판** 놓기 영역 및 클릭 **완료**.
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. 선택 **미리 보기**.
+1. 클릭 **미리 보기**.
 
 1. 구성 요소에 비디오가 설정되어 있으면 비디오가 재생됩니다. 썸네일이 설정되어 있지 않으면 썸네일이 재생됩니다. 그렇지 않으면 구성 요소가 구성되지 않은 것으로 간주되고 건너뜁니다.
 

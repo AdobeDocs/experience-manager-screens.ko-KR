@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -37,7 +37,7 @@ AEM Screens 기능 팩 201812의 릴리스 날짜는 2019년 1월 16일입니다
 
 * **다중 자산 예약**:
 
-  다중 에셋 스케줄링을 사용하면 여러 에셋을 선택하고 선택한 모든 에셋에 재생 일정을 적용할 수 있습니다. 다음을 참조하십시오 **다중 자산 예약**&#x200B;의 섹션&#x200B;**[자산 예약](asset-level-scheduling.md)**.
+  다중 에셋 스케줄링을 사용하면 여러 에셋을 클릭하고 선택한 모든 에셋에 재생 일정을 적용할 수 있습니다. 다음을 참조하십시오 **다중 자산 예약**&#x200B;의 섹션&#x200B;**[자산 예약](asset-level-scheduling.md)**.
 
 * **다중 영역 레이아웃**:
 
