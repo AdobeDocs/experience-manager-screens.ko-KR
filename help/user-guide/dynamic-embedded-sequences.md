@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -251,7 +251,7 @@ AEM Screens 프로젝트에서 동적 임베디드 시퀀스를 구현하는 데
 
 ## 결과 보기 {#viewing-the-results}
 
-채널 및 표시에 대한 설정이 완료되면 AEM Screens 플레이어를 시작하여 콘텐츠를 봅니다.
+채널 및 표시에 대한 설정이 완료되면 AEM Screens Player를 실행하여 콘텐츠를 봅니다.
 
 >[!NOTE]
 >
@@ -261,17 +261,17 @@ AEM Screens 프로젝트에서 동적 임베디드 시퀀스를 구현하는 데
 >* [AEM Screens Player를 사용한 작업](working-with-screens-player.md)
 
 
-다음 출력은 표시 경로에 따라 AEM Screens 플레이어에서 채널 컨텐츠를 확인합니다.
+다음 출력은 표시 경로에 따라 AEM Screens Player에서 채널 컨텐츠를 확인합니다.
 
 **시나리오 1**:
 
-표시 경로를 다음과 같이 지정하는 경우 **데모** > **위치** > **지역 A** > **스토어 1** > **`Store1Display`**, 다음 콘텐츠는 AEM Screens 플레이어에 표시됩니다.
+표시 경로를 다음과 같이 지정하는 경우 **데모** > **위치** > **지역 A** > **스토어 1** > **`Store1Display`**&#x200B;에서 다음 콘텐츠가 AEM Screens 플레이어에 표시됩니다.
 
 ![채널 표시1](assets/channeldisplay1.gif)
 
 **시나리오 1**:
 
-표시 경로를 다음과 같이 지정하는 경우 **데모** > **위치** > **지역** > **스토어 3** > **`Store3Display`**, 다음 콘텐츠는 AEM Screens 플레이어에 표시됩니다.
+표시 경로를 다음과 같이 지정하는 경우 **데모** > **위치** > **지역** > **스토어 3** > **`Store3Display`**&#x200B;에서 다음 콘텐츠가 AEM Screens 플레이어에 표시됩니다.
 
 ![채널 표시2](assets/channeldisplay2.gif)
 

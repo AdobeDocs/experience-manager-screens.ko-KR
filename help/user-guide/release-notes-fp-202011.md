@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '287'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens은 AEM 6.5 기능 팩 6을 출시했습니다.
 
-AEM Screens 6.5.6 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP6**.
+AEM Screens 6.5.6용 최신 기능 팩 릴리스를 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음 위치로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP6**.
 
 ## 릴리스 일자 {#release-date}
 
@@ -37,12 +37,12 @@ AEM Screens 기능 팩 202011의 릴리스 날짜는 2020년 11월 30일입니�
 
 * **플레이어 티즌**
 
-  Tizen 플레이어라고 하는 새 플레이어가 AEM Screens 6.5.6 릴리스의 최신 기능 팩과 함께 도입되었습니다.
+  Tizen 플레이어라고 하는 새 플레이어가 AEM Screens 6.5.6 릴리스용 최신 기능 팩과 함께 도입되었습니다.
 다음을 참조하십시오 [Tizen Player 구현](/help/user-guide/tizen-player.md) 을 참조하십시오.
 
 * **장치 관리자에서 검색 기능**
 
-  이제 AEM Screens 6.5.6 릴리스의 최신 기능 팩과 함께 장치 관리자 UI에서 새 검색 기능을 사용할 수 있습니다.
+  이제 장치 관리자 UI에서 AEM Screens 6.5.6 릴리스용 최신 기능 팩과 함께 새로운 검색 기능을 사용할 수 있습니다.
 다음을 참조하십시오 [장치 관리자에서 장치 검색](/help/user-guide/device-registration.md#search-device) 을 참조하십시오.
 
 * **기본 Ping 간격**
@@ -61,4 +61,4 @@ AEM 6.5 기능 팩 6용으로 출시된 AEM Screens 플레이어는 다음과 �
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

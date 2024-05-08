@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,21 @@ ht-degree: 0%
 ## 빈 화면 문제 {#blank-screen}
 
 >[!NOTE]
->문제를 제기하기 전에 기본 지원이나 고객 측 지원에서 시도해야 하는 나열된 필수 확인 사항입니다.
+>나열된 필수 검사는 문제를 제기하기 전에 기본 지원 또는 고객 측 지원에서 시도해야 합니다.
 
 ### 1. 검은색 화면이나 재생되지 않는 콘텐츠가 있는 고객을 위한 응급 처치 문제 해결 단계는 무엇입니까? {#troubleshooting-blank-screen}
 
 * 채널 미리 보기가 작동하는지 확인합니다.
 * 디스플레이 미리 보기가 작동하는지 확인
-* 플레이어를 동일한 디스플레이에 시스템의 브라우저 확장으로 등록하고 제대로 작동하는지 확인하십시오.
+* 플레이어를 동일한 디스플레이에 시스템의 브라우저 확장으로 등록하고 작동하는지 확인하십시오.
 * 시스템에서 실행 중인 플레이어로 다음 위치로 이동합니다. `http://localhost:24502`. 모든 콘텐츠가 올바르게 다운로드되었는지 확인합니다.
 * 에셋을 검사하여 적절한 렌디션이 만들어지고 올바른 렌디션이 재생되는지 확인합니다.
 * 예약된 컨텐츠가 있는지 확인하고 시간이 올바른지 확인합니다. 플레이어에서 설정한 시간이 올바른지 확인합니다.
-* Inspect 플레이어 콘솔이 로그인하여 오류가 있는지 확인합니다. 마우스 오른쪽 버튼을 클릭하고 을 검사하여 콘솔 로그를 확인합니다. Windows 플레이어를 사용하는 경우 `CTRL + ALT +I` 로그를 볼 수 있도록 개발 콘솔을 표시합니다.
+* Inspect 플레이어 콘솔이 로그인하여 오류가 있는지 확인합니다. 마우스 오른쪽 버튼을 클릭하고 을 검사하여 콘솔 로그를 확인합니다. Windows Player를 사용하는 경우 `CTRL + ALT +I` 로그를 볼 수 있도록 개발 콘솔을 표시합니다.
 
 ### 2. 기본 채널 또는 일정을 만들어 AEM Screens의 회색 화면 문제를 해결하는 방법
 
-필드에 빈 화면이나 회색 화면을 표시하지 않으려면 우선 순위가 가장 낮은 모든 디스플레이에 할당된 기본 전역 채널 또는 일정을 만듭니다. 재생기에 이 콘텐츠가 디스크에 이미 캐시되어 있기 때문에(네트워크, 플레이어, 서버 또는 복제 때문에) 콘텐츠 업데이트에 문제가 발생하는 경우 제대로 재생되고 회색 화면을 피해야 합니다.
+필드에 빈 화면이나 회색 화면을 표시하지 않으려면 우선 순위가 가장 낮은 모든 디스플레이에 할당된 기본 전역 채널 또는 일정을 만듭니다. 플레이어에서 이 콘텐츠를 디스크에 이미 캐시했기 때문에 콘텐츠 업데이트에 문제가 발생하는 경우. 그것은 잘 연주하고 회색 화면을 피해야 합니다.
 
 채널 또는 일정과 같은 다른 모든 콘텐츠는 우선 순위가 1보다 크므로 다른 콘텐츠는 우선 순위를 취하고 전역 채널 또는 일정 콘텐츠(우선 순위 1을 가진)는 폴백 옵션으로만 재생됩니다.
 
@@ -62,11 +62,11 @@ An ***온라인 채널*** 은 업데이트된 콘텐츠를 실시간 환경에 �
 1. 디스플레이의 상위 위치에는 참조된 채널 이름과 일치하는 하위 노드가 있습니다
 1. 디스플레이의 부모 위치에 참조된 채널 이름과 일치하는 자식 노드가 있습니다.
 
-따라서 위치 폴더에 도달하고 현재 해당 폴더에서 중지합니다. 예를 들어 채널 폴더에 있는 채널은 참조할 수 없으며 위치 하위 트리의 채널만 참조하게 됩니다.
+위치 폴더에 도달할 때까지 계속됩니다. 지금은 중지합니다(예를 들어 채널 폴더에 있는 채널은 참조할 수 없으며 위치 하위 트리의 채널만).
 
 ### 5. AEM Screens 채널에서 사용자 지정 clientlib 오프라인 구성을 설정하는 방법
 
-빌드된 사용자 지정 클라이언트측 코드를 사용하는 경우 `clientlib` AEM Screens 채널에서는 다음 절차를 수행하여 `clientlib` 파일이 채널에 성공적으로 로드되었습니다. (`manifest.json`) 및 의 경로를 포함합니다. `clientlib`.
+빌드된 사용자 지정 클라이언트측 코드를 사용하는 경우 `clientlib` AEM Screens 채널에서는 다음 단계가 필요합니다. 단계는 `clientlib` 파일이 채널에 성공적으로 로드되었습니다. (`manifest.json`) 및 의 경로를 포함합니다. `clientlib`.
 
 채널 편집기에서 아래 단계를 수행합니다.
 
@@ -77,11 +77,11 @@ An ***온라인 채널*** 은 업데이트된 콘텐츠를 실시간 환경에 �
 
 ## 장치 등록 {#device-registration}
 
-### 1. 장치 온보딩 및 등록 요청과 같은 끝점을 찾으면 많은 장치를 스크립팅하고 이러한 장치를 등록할 수 있습니다. 이것을 분기 Wi-Fi에 고정하는 것 외에 이러한 요청을 보호할 수 있습니까? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. 장치 온보딩 및 등록 요청과 같은 끝점을 찾으면 많은 장치를 스크립팅하고 이러한 장치를 등록할 수 있습니다. 분기 Wi-Fi에 잠그는 것 외에 이러한 요청을 보호할 수 있습니까? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 현재 등록은 작성자 인스턴스에서만 가능합니다. 등록 서비스는 인증되지 않지만 AEM에서 보류 중인 장치만 만들고 실제로 장치를 등록하거나 디스플레이를 할당하지 않습니다.
 
-장치를 등록하려면(AEM에서 장치에 대한 사용자 만들기) AEM에 인증하고 현재 등록 마법사에 따라 수동으로 등록을 완료합니다. 이론적으로 악의적인 사용자는 여러 개의 보류 중인 장치를 만들 수 있지만 AEM 로그인이 없으면 어떤 장치도 등록할 수 없습니다.
+장치를 등록하려면(AEM에서 장치에 대한 사용자 만들기) AEM에 인증하고 등록 마법사에 따라 수동으로 등록을 완료합니다. 이론적으로 악의적인 사용자는 여러 개의 보류 중인 장치를 만들 수 있지만 AEM 로그인이 없는 경우에는 어떤 장치도 등록할 수 없습니다.
 
 ### 2. 일부 인증 형식을 사용하여 HTTP GET 요청을 HTTP POST으로 변환하는 방법이 있습니까? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
@@ -91,7 +91,7 @@ An ***온라인 채널*** 은 업데이트된 콘텐츠를 실시간 환경에 �
 
 ### 3. 디바이스 등록 요청을 거절할 방법이 있습니까? {#is-there-a-way-to-decline-a-device-registration-request}
 
-등록 요청을 거부할 수 없습니다. 대신 등록 요청은에 구성된 시간 제한 후에 만료되어야 합니다. `Adobe Experience Manager Web Console`. 기본적으로 이 값은 하루로 설정되고 메모리 캐시에 저장됩니다.
+등록 요청을 거부할 수 없습니다. 대신 등록 요청은에 구성된 시간 제한 후에 만료되어야 합니다 `Adobe Experience Manager Web Console`. 기본적으로 이 값은 하루로 설정되고 메모리 캐시에 저장됩니다.
 
 ## 장치 모니터링 및 상태 보고서 {#device-monitoring-and-health-reports}
 
@@ -101,11 +101,11 @@ An ***온라인 채널*** 은 업데이트된 콘텐츠를 실시간 환경에 �
 
 * AEM에서 오프라인 콘텐츠를 푸시할 수 없음
 * 채널에 콘텐츠가 없습니다.
-* 현재 예약된 자산 중 어느 것도 표시되지 않습니다
+* 현재 예약된 에셋이 없습니다.
 
-### 2. AEM Screens 플레이어를 등록할 수 없고 해당 상태가 실패로 표시되면 어떻게 해야 합니까?
+### 2. AEM Screens Player가 등록할 수 없고 상태가 실패로 표시되면 어떻게 해야 합니까?
 
-Apache Sling Referrer 필터 허용 을 활성화합니다. 이는 AEM Screens Player와 AEM Screens 서버 간 제어 프로토콜의 최적 작동을 위해 필요하다.
+Apache Sling Referrer 필터 허용 을 활성화합니다. AEM Screens Player와 AEM Screens 서버 간 제어 프로토콜의 최적 작동에 필요합니다.
 
 1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성**
 1. 다음 확인: **allow.empty** 옵션을 선택합니다.
@@ -135,16 +135,16 @@ ChromeOS 플레이어는 실제 Chrome 플레이어 장치 없이 개발자 모�
 
 1. 클릭 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
 1. 압축을 풀고 디스크에 저장합니다.
-1. Chrome 브라우저를 열고 를 클릭합니다. **확장** 메뉴에서 선택하거나 을(를) 직접 탐색하여 ***chrome://extensions***.
-1. 전환 **개발자 모드** 오른쪽 상단 모서리에서
+1. Chrome 브라우저를 열고 을 클릭합니다. **확장** 메뉴에서 선택하거나 을(를) 직접 탐색하여 ***chrome://extensions***.
+1. 전환 **개발자 모드** 오른쪽 상단에서
 1. 클릭 **로드 압축 해제됨** 왼쪽 상단 모서리에서 압축을 푼 Chrome Player를 로드합니다.
-1. 확장 목록에서 사용할 수 있는 경우 다음을 확인하십시오 **AEM Screens Chrome 플레이어** 플러그인입니다.
+1. 확장 목록에서 사용 가능한 경우 다음을 확인하십시오. **AEM Screens Chrome 플레이어** 플러그인입니다.
 1. 새 탭을 열고 **앱** 아이콘 을 왼쪽 상단 모서리에서 찾거나 ***chrome://apps***.
 1. 다음을 클릭합니다. **AEM Screens** 플러그인. 기본적으로 플레이어는 전체 화면 모드로 실행됩니다. 누르기 **Esc** 전체 화면 모드를 종료합니다.
 
 ### 2. Screens 플레이어가 사용자 지정 오류 처리기로 게시 인스턴스를 통해 인증할 수 없는 경우 문제를 해결하는 방법
 
-AEM Screens 플레이어가 시작되면 (으)로 요청을 수행합니다. ***/content/screens/svc.ping.json***: 플레이어에 404 오류가 발생하는 경우입니다. 플레이어는 게시 인스턴스에 대해 인증하기 위한 인증 요청을 시작합니다. 게시 인스턴스에 사용자 지정 오류 처리기가 있는 경우 익명 사용자에 대한 404 상태 코드가 반환되는지 확인하십시오. ***/content/screens/svc.ping.json***.
+AEM Screens Player가 시작되면 다음을 요청합니다. ***/content/screens/svc.ping.json***: 플레이어에 404 오류가 발생하는 경우입니다. 플레이어는 게시 인스턴스에 대해 인증하기 위한 인증 요청을 시작합니다. 게시 인스턴스에 사용자 지정 오류 처리기가 있는 경우 의 익명 사용자에 대한 404 상태 코드를 반환해야 합니다 ***/content/screens/svc.ping.json***.
 
 ### 3. Android™ Player에서 장치 화면 상태를 설정하는 방법 {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -155,15 +155,15 @@ Android™ 플레이어에서 Stay Awake를 켜려면 아래 단계를 따르십
 1. 다음으로 이동 **개발자 옵션**.
 1. 사용 **깨어 있어라**.
 
-### 4. Windows 플레이어에 대해 창 모드를 활성화하는 방법{#enable-player}
+### 4. Windows Player의 창 모드를 활성화하는 방법{#enable-player}
 
-Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모드입니다.
+Windows Player에는 창 모드가 없습니다. 항상 전체 화면 모드입니다.
 
-### 5. AEM Screens 플레이어가 로그인 요청을 계속 보내는 경우 문제를 해결하는 방법
+### 5. AEM Screens Player에서 로그인 요청을 계속 보내는 경우 문제를 해결하는 방법
 
-에 요청을 지속적으로 보내는 AEM Screens 플레이어의 문제를 해결하려면 아래 단계를 따르십시오. `/content/screens/svc.json` 및 `/libs/granite/core/content/login.validate/j_security_check`:
+에 요청을 지속적으로 보내는 AEM Screens Player 문제를 해결하려면 아래 단계를 따르십시오. `/content/screens/svc.json` 및 `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. AEM Screens 플레이어가 시작되면 다음을 요청합니다. `/content/screens/svc.json`. 플레이어가 응답에서 404 상태 코드를 받으면 를 사용하여 인증 요청을 시작합니다. `/libs/granite/core/content/login.validate/j_security_check` 에 대해 *게시* 인스턴스. 에 사용자 지정 오류 처리기가 있는 경우 *게시* 예를 들어 의 익명 사용자에 대한 404 상태 코드를 반환해야 합니다. `/content/screens/svc.json` 또는 `/content/screens/svc.ping.json`.
+1. AEM Screens Player가 시작되면 다음을 요청합니다. `/content/screens/svc.json`. 플레이어가 응답에서 404 상태 코드를 받으면 를 사용하여 인증 요청을 시작합니다. `/libs/granite/core/content/login.validate/j_security_check` 에 대해 *게시* 인스턴스. 에 사용자 지정 오류 처리기가 있는 경우 *게시* 예를 들어 의 익명 사용자에 대한 404 상태 코드를 반환해야 합니다. `/content/screens/svc.json` 또는 `/content/screens/svc.ping.json`.
 
 1. Dispatcher 구성에서 이러한 요청이 허용되는지 확인 `/filters`.
 
@@ -209,7 +209,7 @@ Windows 플레이어에는 창 모드가 없습니다. 항상 전체 화면 모�
 
    * CRXDE Lite에서 다음으로 이동 `/etc/importers/polling/livefyre-poller/jcr:content`.
    * 속성 추가 *활성화됨* 유형 *부울*.
-   * 설정 **enabled 속성** 끝 **false**.
+   * 설정 **활성화된 속성** 대상 **false**.
 
 ### 2. Oak 색인 정보를 추가하는 방법 {#add-oak-index-info}
 

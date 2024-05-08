@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ AEM Screens 기능 팩 201812의 릴리스 날짜는 2019년 1월 16일입니다
 
 * **채널의 에셋에 텍스트 오버레이**:
 
-  텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능으로, 이미지 위에 오버레이된 제목 또는 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다. 다음을 참조하십시오 [**텍스트 오버레이**](text-overlay.md).
+  텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능입니다. 이미지 위에 오버레이된 제목 또는 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다. 다음을 참조하십시오 [**텍스트 오버레이**](text-overlay.md).
 
 * **다중 자산 예약**:
 
@@ -57,4 +57,4 @@ AEM 6.3 기능 팩 5 및 AEM 6.4 기능 팩 3용으로 출시된 AEM Screens 플
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. [**AEM Screens 플레이어 다운로드**](https://download.macromedia.com/screens/).
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. [**AEM Screens 플레이어 다운로드**](https://download.macromedia.com/screens/).

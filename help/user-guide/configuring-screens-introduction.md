@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->AEM Screens 플레이어는 CSRF(크로스 사이트 요청 위조) 토큰을 사용하지 않습니다. 따라서 AEM Screens에 사용할 준비가 되도록 AEM 서버를 구성하려면 빈 레퍼러를 허용하여 레퍼러 필터를 건너뜁니다.
+>AEM Screens Player는 CSRF(크로스 사이트 요청 위조) 토큰을 사용하지 않습니다. 따라서 AEM Screens에 사용할 준비가 되도록 AEM 서버를 구성하려면 빈 레퍼러를 허용하여 레퍼러 필터를 건너뜁니다.
 
 ## 상태 확인 프레임워크 {#health-check-framework}
 
-상태 확인 프레임워크를 사용하면 AEM Screens 프로젝트를 실행하기 전에 필요한 두 구성이 설정되어 있는지 확인할 수 있습니다.
+상태 검사 프레임워크를 사용하면 AEM Screens 프로젝트를 실행하기 전에 필요한 두 구성이 설정되어 있는지 확인할 수 있습니다.
 
 이를 통해 사용자는 AEM Screens 프로젝트를 실행하기 위한 다음의 두 가지 구성 검사를 확인할 수 있습니다. 즉, 다음 두 필터의 상태를 확인할 수 있습니다.
 
@@ -93,7 +93,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
    ![이미지](assets/config/config-1.png)
 
-1. 클릭 **저장** 을(를) 활성화하려면 *http* 서비스.
+1. 클릭 **저장** 을(를) 활성화하려면 *Http* 서비스.
 
 #### AEM Screens용 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
 
@@ -116,7 +116,7 @@ AEM Screens은 TOUCH UI가 필요하며 Adobe Experience Manager(AEM)의 클래�
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
 
-AEM Screens Player가 온라인 채널을 재생하는 데 필요합니다.
+AEM Screens 플레이어에서 온라인 채널을 재생하려면 이 제거를 수행해야 합니다.
 
 #### 암호 제한 {#password-restrictions}
 

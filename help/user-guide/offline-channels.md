@@ -1,6 +1,6 @@
 ---
 title: 오프라인 채널
-description: AEM Screens 플레이어에서 ContentSync 기술을 사용하여 채널에 대한 오프라인 지원을 제공하는 방법에 대해 자세히 알아보십시오.
+description: ContentSync 기술을 사용하여 AEM Screens Player에서 채널에 대한 오프라인 지원을 제공하는 방법에 대해 자세히 알아보십시오.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 2%

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens은 AEM 6.5 기능 팩 3을 출시했습니다.
 
-AEM Screens 6.5.3 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP3**.
+AEM Screens 6.5.3용 최신 기능 팩 릴리스를 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음 위치로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP3**.
 
 ## 릴리스 일자 {#release-date}
 
@@ -57,4 +57,4 @@ AEM 6.4 기능 팩 7 및 AEM 6.5 기능 팩 3용으로 출시된 AEM Screens 플
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. [**AEM Screens 플레이어 다운로드**](https://download.macromedia.com/screens/).
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. [**AEM Screens 플레이어 다운로드**](https://download.macromedia.com/screens/).

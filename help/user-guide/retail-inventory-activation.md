@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 설명 {#description}
 
-이 사용 사례에서는 세 가지 색상의 스웨터에 대한 소매 재고 목록을 보여줍니다. Google Sheets에 기록된 재고에 있는 구매 가능한 스웨트 셔츠 수에 따라, 가장 많은 수의 이미지(빨간색, 녹색 또는 파란색 스웨트 셔츠)가 화면에 표시됩니다.
+이 사용 사례는 세 가지 색상의 스웨터에 대한 소매 재고 목록을 보여줍니다. Google Sheets에 기록된 재고에 있는 구매 가능한 스웨트 셔츠 수에 따라, 가장 많은 수의 이미지(빨간색, 녹색 또는 파란색 스웨트 셔츠)가 화면에 표시됩니다.
 
-이 사용 사례의 경우, 사용 가능한 스웨터 수 중 가장 높은 값을 기준으로 빨간색, 녹색 또는 파란색 스웨터가 화면에 표시됩니다.
+이 사용 사례에서는 사용할 수 있는 스웨터 수가 가장 많은 값을 기준으로 빨간색, 녹색 또는 파란색 스웨터가 화면에 표시됩니다.
 
 ## 전제 조건 {#preconditions}
 

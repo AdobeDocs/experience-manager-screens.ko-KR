@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 설명 {#description}
 
-이 사용 사례에서 Google Sheets 의 값이 50 미만인 경우 뜨거운 음료가 포함된 이미지가 표시됩니다. 값이 50보다 크거나 같으면 차가운 음료가 포함된 이미지가 표시됩니다. 다른 값이 있거나 값이 전혀 없으면 플레이어가 기본 이미지를 표시합니다.
+이 사용 사례의 경우, Google Sheets 의 값이 50 미만이면 뜨거운 음료가 포함된 이미지가 표시됩니다. 값이 50보다 크거나 같으면 차가운 음료가 포함된 이미지가 표시됩니다. 다른 값이 있거나 값이 전혀 없으면 플레이어가 기본 이미지를 표시합니다.
 
 ## 전제 조건 {#preconditions}
 

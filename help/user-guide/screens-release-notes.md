@@ -9,9 +9,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
@@ -52,4 +52,4 @@ AEM 6.4.2 기능 팩 2 및 AEM 6.3.3 기능 팩 4용으로 출시된 AEM Screens
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).

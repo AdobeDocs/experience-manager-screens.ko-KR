@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # 비디오 재생 구성 및 문제 해결 {#video-playback-configuration-and-troubleshooting}
 
-DAM에 비디오를 업로드하여 채널에 추가하면 AEM Screens 플레이어에서 비디오가 재생되지 않는 문제가 발생할 수 있습니다.
+DAM에 비디오를 업로드하고 채널에 추가하면 AEM Screens 플레이어에서 비디오가 재생되지 않는 문제가 발생할 수 있습니다.
 
 다음 섹션에서는 채널에서 비디오가 재생되는 문제를 해결하고 디버그하는 방법에 대해 설명합니다.
 

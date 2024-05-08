@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens은 AEM 6.5 기능 팩 10을 출시했습니다.
 
-AEM Screens 6.5.10 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP10**.
+AEM Screens 6.5.10용 최신 기능 팩 릴리스를 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음 위치로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP10**.
 
 ## 릴리스 일자 {#release-date}
 
@@ -37,7 +37,7 @@ AEM Screens 기능 팩 202112의 릴리스 날짜는 2022년 1월 12일입니다
 
 * SmartSync에서 동시 다운로드 오류 해결
 
-* 개발자는 매니페스트의 해당 에셋 아래에 렌디션 항목으로만 나열할 에셋 렌디션을 보고 확장성, 명확성 및 편의성을 확인하십시오.
+* 개발자는 매니페스트의 해당 에셋 아래에 렌디션 항목으로만 나열할 에셋 렌디션을 봅니다. 이렇게 하면 매니페스트 처리의 확장성, 명확성 및 용이성이 보장됩니다.
 
 ### 버그 수정 {#bug-fixes}
 
@@ -45,11 +45,11 @@ AEM Screens 기능 팩 202112의 릴리스 날짜는 2022년 1월 12일입니다
 
 * On-Premise 플레이어 로그를 수집하고 검은색 화면에 대해 분석합니다.
 
-* 분할 화면 채널이 있는 빈 화면을 표시하는 플레이어가 이제 수정되었습니다.
+* 분할 화면 채널이 있는 빈 화면을 표시하는 플레이어가 이제 수정되었습니다
 
 * 공개 Maven에 코어 번들을 추가하여 사용자 지정 처리기 문서를 수정했습니다.
 
-* 업그레이드 후 플레이어가 펌웨어 버전을 업데이트하지 않았습니다. 이제 해결되었습니다.
+* 업그레이드 후 플레이어에서 펌웨어 버전을 업데이트하지 않았습니다. 이 버그는 이제 수정되었습니다.
 
 * 이전 플레이어 구성에서 디스플레이 미리 보기가 중단되었습니다.
 
@@ -69,4 +69,4 @@ AEM 6.5 기능 팩 10용으로 출시된 AEM Screens 플레이어는 다음과 �
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

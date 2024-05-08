@@ -1,12 +1,12 @@
 ---
-title: 다중 영역에서 단일 영역으로 전환 사용 사례
+title: MultiZone에서 SingleZone으로 전환 사용 사례
 description: MultiZone에서 SingleZone으로 전환 사용 사례에 대해 배울 수 있도록 이 페이지를 따르십시오.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%

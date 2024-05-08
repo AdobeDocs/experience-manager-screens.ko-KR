@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens은 AEM 6.5 기능 팩 5를 출시했습니다.
 
-AEM Screens 6.5.5 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 최신 기능 팩을 다운로드하십시오.
+AEM Screens 6.5.5 릴리스용 최신 기능 팩은 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음 위치로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 최신 기능 팩을 다운로드하십시오.
 
 ## 릴리스 일자 {#release-date}
 
@@ -38,7 +38,7 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 
 * **자동연장 일정**
 
-  반복 예약을 사용하여 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정합니다.
+  반복 예약을 사용하여 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정할 수 있습니다.
 
   다음을 참조하십시오 [자동연장 일정](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 을 참조하십시오.
 
@@ -70,4 +70,4 @@ AEM 6.5 기능 팩 5가 릴리스된 AEM Screens용으로 다음 AEM Screens 플
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

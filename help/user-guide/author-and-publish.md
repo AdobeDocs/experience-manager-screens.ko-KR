@@ -2,7 +2,7 @@
 title: AEM Screens에서 작성자 및 게시 인스턴스 구성
 description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Screens에는 세 가지 복제 에이전트가 필요합니다.
 
 >[!NOTE]
 >
->다운로드한 AEM Screens 앱 또는 웹 브라우저를 사용하여 AEM Screens 플레이어를 열 수 있습니다.
+>다운로드한 AEM Screens 앱 또는 웹 브라우저를 사용하여 AEM Screens Player를 열 수 있습니다.
 
 #### 2단계: 작성자에 장치 등록 {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Screens에는 세 가지 복제 에이전트가 필요합니다.
 
 >[!NOTE]
 >
->또는 장치를 활성화한 후 서버 URL을 편집하거나 업데이트할 수도 있습니다. 클릭 **서버 URL 편집** 아래 그림과 같이 작업 모음에서 변경 사항이 AEM Screens 플레이어에 전파됩니다.
+>또는 장치를 활성화한 후 서버 URL을 편집하거나 업데이트할 수도 있습니다. 클릭 **서버 URL 편집** 아래 그림과 같이 작업 표시줄에서 변경 사항이 AEM Screens Player로 전파됩니다.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 

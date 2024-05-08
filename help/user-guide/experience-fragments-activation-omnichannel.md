@@ -1,7 +1,7 @@
 ---
 title: 경험 조각 활성화
 description: AEM Screens과 관련된 경험 조각 활성화에 대해 학습하는 데 도움이 되는 사용 사례 예입니다.
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%

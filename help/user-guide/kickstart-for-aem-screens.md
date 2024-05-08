@@ -1,13 +1,13 @@
 ---
 title: 킥스타트 안내서
-description: 데모 AEM Screens 프로젝트를 만드는 방법을 알아봅니다. 설치 및 새 프로젝트 설정부터 AEM Screens 플레이어에서 콘텐츠를 볼 수 있는 디지털 서명 경험을 만드는 데 도움이 됩니다.
+description: 데모 AEM Screens 프로젝트를 만드는 방법을 알아봅니다. 설치 및 새 프로젝트 설정부터 AEM Screens Player에서 콘텐츠를 볼 수 있도록 디지털 서명 경험을 만드는 데 도움이 됩니다.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 2%
 AEM Screens에 대한 킥스타트는 AEM Screens 프로젝트를 설정하고 실행하는 방법을 보여 줍니다. 기본 디지털 사이니지 경험을 설정하고 각 채널에 에셋 및/또는 비디오와 같은 콘텐츠를 추가하고 콘텐츠를 AEM Screens 플레이어에 게시하는 과정을 안내합니다.
 
 >[!NOTE]
->프로젝트 세부 사항을 작업하기 전에 AEM Screens용 최신 기능 팩을 설치했는지 확인하십시오. 에서 최신 기능 팩을 다운로드할 수 있습니다. [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용.
+>프로젝트 세부 사항을 작업하기 전에 AEM Screens용 최신 기능 팩을 설치했는지 확인하십시오. 에서 최신 기능 팩을 다운로드할 수 있습니다 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용.
 
 ## 사전 요구 사항 {#prerequisites}
 
 아래 단계에 따라 AEM Screens용 샘플 프로젝트를 만들고 콘텐츠를 Screens 플레이어에 추가로 게시하십시오.
 
 >[!NOTE]
->다음 자습서에서는 Chrome OS 플레이어에서 채널의 콘텐츠를 재생하는 사례를 보여줍니다.
+>다음 튜토리얼에서는 Chrome OS 플레이어에서 채널의 콘텐츠를 재생하는 사례를 보여 줍니다.
 
 >[!IMPORTANT]
 >**OSGi 구성 설정**
@@ -87,7 +87,7 @@ AEM Screens 프로젝트를 만든 후 콘텐츠를 관리할 채널을 만듭�
 
 ### 채널에 콘텐츠 추가 {#adding-content}
 
-채널이 준비되면 AEM Screens 플레이어에서 표시할 수 있는 채널에 콘텐츠를 추가합니다.
+채널이 준비되면 AEM Screens Player에서 표시할 수 있는 채널에 콘텐츠를 추가합니다.
 
 아래 단계에 따라 채널에 콘텐츠를 추가합니다(**테스트 채널**)을 클릭하여 제품에서 사용할 수 있습니다.
 
@@ -97,7 +97,7 @@ AEM Screens 프로젝트를 만든 후 콘텐츠를 관리할 채널을 만듭�
 
    ![이미지](assets/kickstart/demo-6.png)
 
-1. 작업 표시줄의 왼쪽에서 사이드 패널을 토글하여 에셋 및 구성 요소를 여는 아이콘을 클릭합니다.
+1. 작업 표시줄의 왼쪽에 있는 사이드 패널을 토글하여 에셋 및 구성 요소를 여는 아이콘을 클릭합니다.
 
 1. 채널에 추가하려는 구성 요소를 드래그하여 놓습니다.
 
@@ -162,18 +162,18 @@ AEM Screens 프로젝트를 만든 후 콘텐츠를 관리할 채널을 만듭�
 
 1. 다음 **채널 할당** 대화 상자가 열립니다.
 
-1. 다음에서 **설정** 옵션, 채널 선택 **경로 기준**  및 **지원되는 이벤트** 다음으로: **초기 로드** 및 **유휴 화면**.
+1. 다음에서 **설정** 옵션, 채널 선택 **경로 기준** 및 **지원되는 이벤트** 과 같은 **초기 로드** 및 **유휴 화면**.
 
    >[!NOTE]
    >
-   >다음 **채널 역할**, **우선 순위**, 및 **중단 방법** 모두 기본적으로 채워집니다. 다음을 참조하십시오 [채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 채널 할당 속성에 대한 자세한 내용은 섹션 을 참조하십시오.
+   >다음 **채널 역할**, **우선 순위**, 및 **중단 방법** 모두 기본적으로 채워집니다. 다음을 참조하십시오. [채널 속성](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 채널 할당 속성에 대한 자세한 내용은 섹션 을 참조하십시오.
 
    ![이미지](assets/kickstart/demo-assign3.png)
 
    을(를) 클릭합니다. **활성화 창** 및 **자동연장 일정**.
 
    >[!NOTE]
-   >다음 *자동연장 일정* 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정합니다.
+   >다음 *자동연장 일정* 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정할 수 있습니다.
    >다음을 참조하십시오 [자동연장 일정](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 을 참조하십시오.
 
 1. 클릭 **저장** 기본 설정을 구성했으면 다음과 같이 하십시오.
@@ -187,8 +187,8 @@ AEM 대시보드를 사용하여 장치를 등록합니다.
 >
 >1. 클릭 [여기](https://download.macromedia.com/screens/) 최신 Chrome 플레이어를 다운로드하려면 다음을 수행하십시오.
 >1. 압축을 풀고 디스크에 저장합니다.
->1. Chrome 브라우저를 열고 를 클릭합니다. **확장** 메뉴에서 선택하거나 을(를) 직접 탐색하여 ***chrome://extensions***.
->1. 전환 **개발자 모드** 오른쪽 상단 모서리에서
+>1. Chrome 브라우저를 열고 을 클릭합니다. **확장** 메뉴에서 선택하거나 을(를) 직접 탐색하여 ***chrome://extensions***.
+>1. 전환 **개발자 모드** 오른쪽 상단에서
 >1. 클릭 **로드 압축 해제됨** 왼쪽 상단 모서리에서 압축을 푼 Chrome Player를 로드합니다.
 >1. 확인 **AEM Screens Chrome 플레이어** 플러그인 (확장 프로그램 목록에서 사용 가능한 경우)을 참조하십시오.
 >1. 새 탭을 열고 **앱** 아이콘 을 왼쪽 상단 모서리에서 찾거나 ***chrome://apps***.

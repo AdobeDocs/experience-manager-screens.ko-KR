@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 개요 {#overview}
 
-***AEM Screens 알림 서비스*** AEM Screens 플레이어가 구성 가능한 시간 동안 ping을 실행하지 않는 경우 관리자가 이메일을 받게 됩니다.
+***AEM Screens 알림 서비스*** AEM Screens 플레이어에서 구성 가능한 시간 동안 ping을 수행하지 않는 경우 관리자가 이메일을 받을 수 있도록 해줍니다.
 
 이 서비스는 OSGi 웹 콘솔에서 구성할 수 있습니다.
 

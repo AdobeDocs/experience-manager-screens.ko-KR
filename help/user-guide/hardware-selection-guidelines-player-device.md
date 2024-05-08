@@ -1,7 +1,7 @@
 ---
 title: 플레이어 장치에 대한 하드웨어 선택 지침
-description: AEM Screens 플레이어 장치의 하드웨어 선택 지침에 대해 알아봅니다.
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+description: AEM Screens Player 장치에 대한 하드웨어 선택 지침에 대해 알아봅니다.
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%

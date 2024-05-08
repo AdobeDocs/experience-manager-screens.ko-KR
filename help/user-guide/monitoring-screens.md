@@ -1,6 +1,6 @@
 ---
 title: 장치 제어 센터 문제 해결
-description: 장치 대시보드를 사용하여 AEM Screens 플레이어 활동 및 장치의 성능을 모니터링하고 문제를 해결하는 방법에 대해 알아봅니다.
+description: 장치 대시보드를 사용하여 AEM Screens Player 활동 및 장치의 성능을 모니터링하고 문제를 해결하는 방법에 대해 알아봅니다.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%

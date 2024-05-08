@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 1%
@@ -141,7 +141,7 @@ AEM Screens 프로젝트에서 채널 수준 활성화를 구현하려면 다음
 
 ## 결과 보기 {#viewing-the-results}
 
-채널 및 표시에 대한 설정이 완료되면 AEM Screens 플레이어를 시작하여 콘텐츠를 봅니다.
+채널 및 표시에 대한 설정이 완료되면 AEM Screens Player를 실행하여 콘텐츠를 봅니다.
 
 플레이어에 다음 콘텐츠가 표시됩니다. **주 광고 채널** 정확히 오후 11시 59분 (일정에 따라), **TargetedSinglePlay** 채널은 오전 12:05까지 컨텐츠를 표시한 다음 **주 광고 채널** 콘텐츠 재생을 다시 시작합니다.
 

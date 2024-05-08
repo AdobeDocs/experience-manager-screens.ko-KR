@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens은 AEM 6.5 기능 팩 9를 출시했습니다.
 
-AEM Screens 6.5.9 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP9**.
+AEM Screens 6.5.9용 최신 기능 팩 릴리스를 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음 위치로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP9**.
 
 ## 릴리스 일자 {#release-date}
 
@@ -31,7 +31,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **비디오에 대한 썸네일 지원**
 
-  이제 AEM Screens에서 비디오에 대한 썸네일 지원이 제공됩니다. 콘텐츠 작성자는 이미지를 자리 표시자로 사용할 수 있도록 비디오의 썸네일을 정의합니다. 또한 적절한 팀에서 실제 비디오를 마무리하는 동안 콘텐츠 재생 및 타겟팅을 적절하게 테스트합니다. 비디오 재생이 실패할 경우 이미지를 사용할 수도 있습니다.
+  이제 AEM Screens에서 비디오에 대한 썸네일 지원이 제공됩니다. 콘텐츠 작성자는 이미지를 자리 표시자로 사용할 수 있도록 비디오의 썸네일을 정의합니다. 또한 적절한 팀이 실제 비디오를 마무리하는 동안 콘텐츠 재생 및 타깃팅을 적절하게 테스트합니다. 비디오 재생이 실패할 경우 이미지를 사용할 수도 있습니다.
 다음을 참조하십시오 [비디오에 대한 썸네일 지원](/help/user-guide/thumbnail-support.md) 을 참조하십시오.
 
 * **기본 재생 모니터링**
@@ -41,12 +41,12 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * **콘텐츠 할당 보고서 업데이트**
 
-  이제 콘텐츠 할당 보고서가 최적화되고 사용자 경험이 개선되었습니다. 다운로드 가능한 보고서는 위치, 디스플레이 및 장치와 같은 향상된 플레이어 관련 엔티티를 하나의 스프레드시트 탭에 표시하고 채널 및 에셋과 같은 콘텐츠 공급자 정보를 다른 탭에 표시합니다.
+  이제 콘텐츠 할당 보고서가 최적화되고 사용자 환경이 개선되었습니다. 다운로드 가능한 보고서에는 향상된 플레이어 관련 엔티티가 표시됩니다. 이러한 엔티티는 하나의 스프레드시트 탭에 위치, 디스플레이 및 디바이스를 포함합니다. 또한 기타 탭에 채널 및 에셋과 같은 콘텐츠 공급자 정보가 포함됩니다.
 다음을 참조하십시오 [컨텐츠 할당 보고서](/help/user-guide/content-assignment-report.md) 을 참조하십시오.
 
 * **적응형 표현물**
 
-  적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다.
+  적응형 렌디션을 사용하면 고객이 정의한 규칙에 따라 장치에서 자동으로 최상의 렌디션을 클릭할 수 있습니다.
 
   이제 AEM Screens 개발자로서 모든 콘텐츠 변형을 수동으로 만들지 않고도 장치별 에셋 렌디션을 자동으로 다운로드하고 재생하도록 구성할 수 있습니다. 다음을 참조하십시오 [적응형 표현물: 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md) 을 참조하십시오.
 
@@ -97,7 +97,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * 매핑을 렌디션 키 목록으로 변환했습니다.
 
-* 에 대한 액세스 제거됨 `cmd.exe` 및 `reg.exe` windows player에서.
+* 에 대한 액세스 제거됨 `cmd.exe` 및 `reg.exe` Windows Player에서.
 
 * 플레이어는 마지막으로 성공한 재생 이벤트를 보고해야 합니다.
 
@@ -130,7 +130,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * 삭제된 장치는 이제 Screens 복제 큐를 차단하지 않습니다.
 
-* 매니페스트에 타깃팅된 콘텐츠나 Sites 임베드된 페이지가 없습니다. 이 문제가 해결되었습니다.
+* 매니페스트에 타깃팅된 콘텐츠 또는 Sites에 포함된 페이지가 없습니다. 이 버그는 이제 수정되었습니다.
 
 * 이제 새 핵심 이미지 구성 요소가 채널 매니페스트에 추가됩니다.
 
@@ -140,7 +140,7 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
 * 여러 콘텐츠 공급자 유형에 대한 지원을 추가했습니다.
 
-* 임베드된 시퀀스 재생 전략이 중단되어 이제 이 문제가 해결되었습니다.
+* 임베드된 시퀀스 재생 전략이 중단되었으며 이 버그가 이제 수정되었습니다.
 
 * 요청 매개 변수를 사용하는 오프라인 매니페스트 `wcmmode` html 항목의 경우 캐시 불가능.
 
@@ -162,4 +162,4 @@ AEM 6.5 기능 팩 9용으로 출시된 AEM Screens 플레이어는 다음과 �
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

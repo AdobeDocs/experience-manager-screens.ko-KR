@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens 클라우드 서비스 고객의 경우 Adobe 관계 관리자에게 문의하여 Screens Cloud에서 Adobe Analytics을 활성화하십시오.
+>이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens Cloud Service 고객의 경우 Adobe 관계 관리자에게 문의하여 Screens Cloud에서 Adobe Analytics을 활성화하십시오.
 
 >[!NOTE]
 >
->이러한 기능 팩 중 하나에 액세스하려면 Adobe 지원 센터에 문의하여 액세스를 요청하십시오. 에서 AEM Screens의 최신 기능 팩을 다운로드할 수 있습니다. [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용.
+>이러한 기능 팩 중 하나에 액세스하려면 Adobe 지원 센터에 문의하여 액세스를 요청하십시오. AEM Screens용 최신 기능 팩은 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용.
 
 이 섹션에서는 다음 주제를 다룹니다.
 
@@ -45,8 +45,8 @@ AEM Screens은 Adobe Analytics과의 획기적인 통합을 제공하며 재생 
 * 자산별 재생 증명 보고 허용
 * 모든 플레이어 이벤트가 캡처되고 타임스탬프가 지정되었는지 확인합니다.
 * 플레이가 네트워크에 연결되어 있지 않은 경우 모든 플레이어 이벤트가 로컬에 저장되도록 합니다.
-* 시간 경과에 따른 재생 이벤트를 추적하는 피드백 루프를 작성할 수 있도록 합니다.
-* 시스템은 콘텐츠 작성자가 정의한 성공 기준에 따라 콘텐츠 및 레이아웃을 수정할 수 있습니다
+* 시간에 따른 재생 이벤트를 추적하는 피드백 루프를 생성할 수 있습니다
+* 콘텐츠 작성자가 정의한 성공 기준에 따라 시스템이 콘텐츠 및 레이아웃을 편집할 수 있도록 해줍니다
 
 AEM Screens과 Adobe Analytics 통합은 다음을 적용합니다 *목표*:
 
@@ -55,7 +55,7 @@ AEM Screens과 Adobe Analytics 통합은 다음을 적용합니다 *목표*:
 
 ## 아키텍처 세부 정보 {#architectural-details}
 
-AEM Screens 고객은 표시된 시간과 기간(집계된) 동안 표시되는 콘텐츠를 이해하려고 합니다. 이는 간판 솔루션의 일반적인 기능입니다. AEM Screens은 별도의 분석 애플리케이션을 빌드하는 대신 Adobe Analytics을 사용합니다. 이 조합을 통해 위치에 표시된 콘텐츠를 다른 데이터 소스와 상호 연관시키는 데 도움이 되는 크로스 채널 분석 이라는 시장에서 고유한 기능을 달성할 수 있습니다.
+AEM Screens 고객은 표시된 시간과 기간(집계된) 동안 표시되는 콘텐츠를 이해하려고 합니다. 이러한 필요성은 간판 솔루션의 공통 기능입니다. AEM Screens은 별도의 분석 애플리케이션을 빌드하는 대신 Adobe Analytics을 사용합니다. 이 조합을 통해 위치에 표시된 콘텐츠를 다른 데이터 소스와 상호 연관시키는 데 도움이 되는 크로스 채널 분석 이라는 시장에서 고유한 기능을 달성할 수 있습니다.
 
 다음 아키텍처 다이어그램은 AEM Screens과 Adobe Analytics 통합에 대해 설명합니다.
 
@@ -119,7 +119,7 @@ Adobe Analytics 설정은 OSGi 콘솔에서 구성할 수 있습니다.
 
 #### AEM Screens에서 Adobe Analytics 서비스 사용 {#using-adobe-analytics-service-in-aem-screens}
 
-이 시나리오는 펌웨어의 분석 서비스에서 REST 호출을 통해 Analytics API를 호출합니다. 또한 AEM screens-core 구성 요소를 사용하여 특정 사용 사례에 맞는 이벤트를 명시적으로 만들고 전송합니다. 이 모든 기능을 통해 사용자 지정 개발 채널에서 모든 사용자 지정 메시지를 Analytics로 보낼 수 있는 확장성을 확보할 수 있습니다.
+이 시나리오는 펌웨어의 분석 서비스에서 REST 호출을 통해 Analytics API를 호출합니다. 또한 AEM screens-core 구성 요소를 계측하여 특정 사용 사례에 맞는 이벤트를 만들고 전송할 수 있습니다. 이 모든 기능을 통해 사용자 지정 메시지를 사용자 지정 개발 채널에서 Analytics로 보낼 수 있는 확장성을 확보할 수 있습니다.
 
 Analytics 이벤트는 indexedDB에 오프라인으로 저장되고 나중에 청크되어 클라우드로 전송됩니다.
 

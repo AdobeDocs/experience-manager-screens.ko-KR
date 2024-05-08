@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다. 콘텐츠는 AEM 작성자 인스턴스에 작성된 다음 여러 게시 인스턴스에 정방향 복제됩니다. 이제 AEM Screens의 장치는 로드 밸런서를 통해 AEM 게시 팜에 연결할 수 있습니다. 여러 AEM 게시 인스턴스를 추가하여 게시 팜의 크기를 계속 조정할 수 있습니다.
 
-*예*, AEM Screens 콘텐츠 작성자는 특정 장치용 작성 시스템에서 명령을 발행합니다. 해당 장치는 게시 팜과 상호 작용하도록 구성된 장치에 대한 정보를 가져오는 게시 팜 또는 AEM Screens 콘텐츠 작성자와 상호 작용하도록 구성되어 있습니다.
+*예*, AEM Screens 콘텐츠 작성자는 특정 장치용 작성 시스템에서 명령을 발행합니다. 해당 디바이스는 게시 팜과 상호 작용하도록 구성된 디바이스에 대한 정보를 가져오는 AEM Screens 콘텐츠 작성자 또는 게시 팜과 상호 작용하도록 구성되어 있습니다.
 
 다음 다이어그램은 작성 환경과 게시 환경을 모두 보여 줍니다.
 

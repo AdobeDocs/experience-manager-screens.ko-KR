@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens은 AEM 6.5 기능 팩 7을 출시했습니다.
 
-AEM Screens 6.5.7 릴리스의 최신 기능 팩을 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음으로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP7**.
+AEM Screens 6.5.7용 최신 기능 팩 릴리스를 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe ID 사용. 다음 위치로 이동 **Adobe Experience Manager** 탭 및 검색 **스크린** 이라는 최신 기능 팩을 가져오려면 **AEM 6.5 Screens FP7**.
 
 ## 릴리스 일자 {#release-date}
 
@@ -38,7 +38,7 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 5일입니다.
 
 * **Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝**
 
-  Android™ 플레이어를 대량으로 배포할 때 모든 플레이어를 AEM에 수동으로 등록하는 것은 지루해집니다. 다음과 같은 EMM(엔터프라이즈 모빌리티 관리) 솔루션을 사용하는 것이 좋습니다. `VMWare Airwatch`, `MobileIron`, 또는 `Samsung Knox` 배포를 원격으로 프로비저닝하고 관리합니다. AEM Screens Android™ 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig를 지원합니다.
+  Android™ 플레이어를 대량으로 배포할 때 AEM에 모든 플레이어를 수동으로 등록하는 것은 지루한 일이 됩니다. 다음과 같은 EMM(엔터프라이즈 모빌리티 관리) 솔루션을 사용하는 것이 좋습니다. `VMWare Airwatch`, `MobileIron`, 또는 `Samsung Knox` 배포를 원격으로 프로비저닝하고 관리합니다. AEM Screens Android™ 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig를 지원합니다.
 
   다음을 참조하십시오 [Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝](/help/user-guide/implementing-android-player.md#implementation) 을 참조하십시오.
 
@@ -57,9 +57,9 @@ AEM Screens 기능 팩 202103의 릴리스 날짜는 2021년 3월 5일입니다.
 
 * 쿼리 예외로 인해 오프라인 콘텐츠를 업데이트하지 못했습니다.
 
-* 이제 대화형 경험의 상호 작용 중 전환 간 시간 지연이 수정되었습니다.
+* 이제 대화형 경험에서 상호 작용 중 전환 간 시간 지연이 수정되었습니다.
 
-* 구성 업데이트 요청 실패로 인해 빈 화면이 발생했습니다.
+* 구성 업데이트 요청에 실패하여 빈 화면이 표시되었습니다.
 
 ### 릴리스된 AEM Screens 플레이어
 
@@ -71,4 +71,4 @@ AEM 6.5 기능 팩 7용으로 출시된 AEM Screens 플레이어는 다음과 �
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/index.html)**.

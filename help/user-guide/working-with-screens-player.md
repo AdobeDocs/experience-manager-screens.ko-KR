@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -48,7 +48,7 @@ AEM 작성 인스턴스를 통해 액세스할 수 있는 장치 대시보드에
 
 활성화 **관리자 UI** 사용자는 환경 설정 패널에서 Screens Player에서 관리자 설정을 열 수 있습니다. 또한 장치 대시보드에서 이 옵션을 비활성화하면 사용자가 플레이어에서 관리자 UI를 열 수 없습니다.
 
-Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 길게 눌러 터치 사용 AEM Screens 플레이어에서 또는 마우스를 사용하여 관리자 메뉴를 엽니다. 등록이 완료되고 채널이 로드되면 정보가 표시됩니다.
+Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 길게 눌러 터치 사용 가능한 AEM Screens 플레이어에서 또는 마우스를 사용하여 관리자 메뉴를 엽니다. 등록이 완료되고 채널이 로드되면 정보가 표시됩니다.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 
 
 * 활성화 또는 비활성화 **관리 메뉴**, **채널 전환기**, 및 **활동 UI** Screens 플레이어용
 
-  다음과 같은 경우 **활동 UI** 이(가) 다음에서 활성화됨: **구성** 메뉴에서 AEM Screens 플레이어는 *플레이어 활동 알림* 아래 그림과 같이 플레이어의 오른쪽 상단 모서리에서 다음을 수행합니다.
+  다음과 같은 경우 **활동 UI** 이(가) 다음에서 활성화됨: **구성** 메뉴에서 AEM Screens 플레이어에 *플레이어 활동 알림* 아래 그림과 같이 플레이어의 오른쪽 상단 모서리에서 다음을 수행합니다.
 
   ![이미지](/help/user-guide/assets/activity_ui.png)
 
@@ -84,7 +84,7 @@ Screens 플레이어에서 관리자 UI를 보려면 왼쪽 상단 모서리를 
 
 #### 콘텐츠 캐시 메뉴 옵션 액세스 {#content-cache-options}
 
-AEM Screens 플레이어의 관리 UI에서 채널 및 애플리케이션에 대한 캐시를 지울 수 있습니다.
+AEM Screens Player의 관리 UI에서 채널 및 애플리케이션에 대한 캐시를 지울 수 있습니다.
 
 다음을 클릭합니다. **컨텐츠 캐시** 캐시를 업데이트할 수 있도록 사이드 레일에서.
 

@@ -2,9 +2,9 @@
 title: AEM Screens의 비디오에 대한 썸네일 지원
 description: AEM Screens에서 비디오에 대한 썸네일 지원을 추가하는 방법을 알아봅니다.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!NOTE]
 >썸네일 이미지는 비디오 구성 요소에 설정된 경우, 플레이어에서 비디오 재생 오류가 발생하면 재생됩니다. 이렇게 하면 컨텐츠를 완전히 건너뛸 것이 아니라 원하는 메시지를 대상자에게 전달(컨텐츠 재생)할 수 있습니다.
 
-썸네일 지원 기능을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+썸네일 지원 기능을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * 비디오가 아직 준비되지 않았거나 플레이어에서 큰 에셋 다운로드를 테스트하지 않으려는 경우 채널 경험을 준비합니다
 

@@ -2,7 +2,7 @@
 title: 프로젝트 분류
 description: 프로젝트 분류법은 AEM Screens과 관련되어 있으므로 자세히 알아보십시오.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%

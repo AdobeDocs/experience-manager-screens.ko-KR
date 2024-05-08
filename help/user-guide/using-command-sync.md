@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
    >
    >장치를 등록하는 방법에 대해 알아보려면 다음을 참조하십시오. [장치 등록](/help/user-guide/device-registration.md)
 
-1. 이 예에서는 데모 목적으로 Chrome 장치와 Windows 플레이어를 두 개의 개별 장치로 보여 줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
+1. 이 예에서는 데모 목적으로 chrome 장치와 Windows Player를 두 개의 개별 장치로 보여 줍니다. 두 장치 모두 동일한 디스플레이를 가리킵니다.
    ![image1](assets/command-sync6.png)
 
 ### 채널 설정 업데이트 중
@@ -91,7 +91,7 @@ ht-degree: 0%
 ### 기본 설정 {#setting-up-primary}
 
 1. 에서 디스플레이 대시보드로 이동합니다. **명령 동기화 데모** > **위치**  > **로비** > **로비 디스플레이** 및 클릭 **대시보드** 작업 표시줄에서
-에서 두 장치(chrome 및 windows 플레이어)를 확인합니다. **장치** 패널, 다음 참조:
+에서 두 장치(chrome 및 Windows Player)를 확인합니다. **장치** 패널, 다음 참조:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. 다음에서 **장치** 패널을 통해 기본 장치로 설정할 장치를 클릭합니다. 다음 예에서는 Chrome 장치를 기본 장치로 설정하는 방법을 보여 줍니다. 클릭 **기본 장치로 설정**.
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 ### 기본과 동기화 중 {#sync-up-primary}
 
-1. Chrome 장치를 기본 장치로 설정한 후 다른 장치(이 경우 Windows 플레이어)를 동기화하여 기본 장치와 동기화합니다.
-에서 다른 장치(이 경우 windows player)를 클릭합니다. **장치** 패널 및 클릭 **기본 장치와 동기화**.
+1. Chrome 장치를 기본 장치로 설정한 후 다른 장치(이 경우 Windows Player)를 동기화하여 기본 장치와 동기화합니다.
+에서 다른 장치(이 경우 Windows Player)를 클릭합니다. **장치** 패널 및 클릭 **기본 장치와 동기화**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
    >[참고:]
    > 다음 **기본 장치와 동기화** 대화 상자에 기본 디바이스 목록이 표시됩니다. 원하는 항목을 선택합니다.
 
-1. 장치(Windows 플레이어)가 기본 장치(Chrome 플레이어)에 동기화되면 **장치** 패널.
+1. 장치(Windows Player)가 기본 장치(Chrome Player)에 동기화되면 **장치** 패널.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

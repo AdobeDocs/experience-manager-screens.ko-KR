@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -76,7 +76,7 @@ ht-degree: 2%
 >
 > 이 옵션은 에서만 사용할 수 있습니다. <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 기능 팩 4.
 
-콘텐츠 작성자는 채널이 중단되는 시기를 지정하여 중요하지 않은 콘텐츠를 자르도록 선택할 수 있지만, 필요에 따라 예약으로 인해 재생이 중단되기 전에 중요한 콘텐츠가 재생되도록 할 수 있습니다.
+콘텐츠 작성자는 채널이 중단되는 시기를 지정하여 중요하지 않은 콘텐츠를 차단할 수 있지만, 선택적으로 중요한 콘텐츠는 예약으로 인해 재생을 중지하기 전에 재생되도록 할 수 있습니다.
 
 에서 중단 방법을 설정하는 데 사용할 수 있는 다음 옵션 중 하나를 클릭합니다. **채널 할당** 대화 상자:
 

@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,8 @@ AEM Screens 기능 팩 201907의 릴리스 날짜는 2019년 7월 31일입니다
 
 * **데이터 트리거는 AEM Screens 채널에서 에셋 변경을 유도합니다**
 
-플레이어는 긴급 시스템에서 발사된 이벤트를 수신하면 긴급 정보를 표시하는 채널로 전환한다. 채널은 긴급 상황이 종료될 때까지 독점적으로 재생됩니다.
+플레이어가 긴급 정보를 표시하는 채널로 전환합니다. 응급 시스템은 이벤트를 받으면 이 정보를 전송합니다. 채널은 긴급 상황이 종료될 때까지 독점적으로 재생됩니다.
+
 
 다음을 참조하십시오 [긴급 채널](emergency-channel.md) 구현에 대한 사용 사례.
 
@@ -74,4 +75,4 @@ AEM 6.4.5 기능 팩 5 및 AEM 6.5.1 기능 팩 1용으로 출시된 AEM Screens
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).
+최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).

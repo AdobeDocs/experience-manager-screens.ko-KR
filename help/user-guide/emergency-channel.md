@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 채널의 우선 순위가 업데이트되면 모든 AEM Screens 플레이어에 다음이 표시됩니다. **긴급 채널** 콘텐츠.
+1. 채널의 우선 순위가 업데이트되면 모든 AEM Screens Player에 **긴급 채널** 콘텐츠.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
@@ -185,4 +185,4 @@ ht-degree: 0%
 
 다음 **긴급 채널** 콘텐츠 작성자가 우선순위 값을 1로 재설정할 때까지 해당 콘텐츠를 계속 표시합니다.
 
-콘텐츠 작성자는 긴급 상황이 해결되었다는 지침을 받으면 의 우선 순위를 업데이트해야 합니다. **주 광고 채널** 일반 재생이 다시 시작됩니다.
+콘텐츠 작성자는 긴급 상황이 해결되었다는 지침을 받으면 의 우선 순위를 업데이트해야 합니다 **주 광고 채널** 일반 재생이 다시 시작됩니다.

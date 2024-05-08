@@ -2,9 +2,9 @@
 title: 적응형 렌디션 아키텍처 개요 및 구성
 description: AEM Screens의 적응형 표현물 CRXDE Lite에서 아키텍처 개요 및 구성에 대해 알아봅니다.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## 소개 {#introduction}
 
-적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생하여 고객이 다음 디자인에만 집중할 수 있도록 합니다 *main* 경험.
+적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 표현물을 자동으로 다운로드하고 재생하므로 고객은 다음을 디자인하는 데 집중할 수 있습니다 *main* 경험만 입력하십시오.
 
 ## 목표 {#objective}
 
@@ -72,7 +72,7 @@ ht-degree: 2%
    >[!NOTE]
    >다음을 참조하십시오 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 자세히 알아보십시오.
 
-   클릭 **rule1** 만든 후 입력한 값 **표현식** 위치: **이름** 및 **(orientation:landscape)** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
+   클릭 **rule1** 을(를) 생성한 다음 **표현식** 위치: **이름** 및 **(orientation:landscape)** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ ht-degree: 2%
    >[!NOTE]
    >표현식이 true로 평가되는 경우 패턴 속성에 정의된 값이 새 자산 렌디션과 일치하고 선택됩니다.
 
-   패턴 속성을 추가하려면 **rule1** 만든 후 입력한 값 **패턴** 위치: **이름** 및 **가로** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
+   패턴 속성을 추가하려면 **rule1** 을(를) 생성한 다음 **패턴** 위치: **이름** 및 **가로** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ ht-degree: 2%
 
 ## 다음 단계 {#next-steps}
 
-콘텐츠 작성자는 렌디션 매핑 속성 및 규칙을 추가한 후 에셋을 구성할 수 있습니다. 이 작업은 적응형 표현물을 사용하여 수행할 수도 있고, 대규모 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수도 있습니다. 다음을 참조하십시오 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md) 추가 정보.
+콘텐츠 작성자는 렌디션 매핑 속성 및 규칙을 추가한 후 에셋을 구성할 수 있습니다. 적응형 렌디션을 사용하고 대규모 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수도 있습니다. 다음을 참조하십시오 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md) 추가 정보.
