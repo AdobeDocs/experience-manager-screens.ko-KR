@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1404'
 ht-degree: 5%
 
 ---
@@ -235,7 +235,7 @@ An **포함된 페이지** 프로젝트에 임베드된 페이지를 추가할 �
 
 전환 구성 요소를 사용하여 화면 프로젝트에 전환을 추가할 수 있습니다.
 
-다음 이미지는 편집기에 대한 전환 구성 요소(끌어서 놓기를 통해 추가됨)를 보여 줍니다.
+다음 이미지는 편집기에 대한 전환 구성 요소(끌어서 놓기 방식으로 추가됨)를 보여 줍니다.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 

@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
 #### 빈 레퍼러 요청 허용 {#allow-empty-referrer-requests}
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** by way of AEM instance > hammer icon > **작업** > **웹 콘솔**.
 
    ![이미지](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
 #### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** by way of AEM instance > hammer icon > **작업** > **웹 콘솔**.
 
    ![이미지](assets/config/empty-ref1.png)
 

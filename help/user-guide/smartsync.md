@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ContentSync에서 SmartSync로 전환하려면 아래 단계를 따르십시오.
    >
    >SmartSync를 처음 사용하기 전에 모든 컨텐츠 캐시를 지워야 합니다.
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
+1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** by way of AEM instance > hammer icon > **작업** > **웹 콘솔**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

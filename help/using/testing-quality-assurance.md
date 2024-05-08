@@ -2,9 +2,9 @@
 title: 테스트 및 품질 보증
 description: 모범 사례 안내서에서 AEM Screens에 대한 테스트 및 품질 보증에 대해 알아봅니다.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 단계는 나중에 장비와 함께 배송되어 나중에 참조할 수 있도록 사이트에 보관할 수 있는 설치 및 사용 안내서를 작성하는 도구로도 사용해야 합니다.
+>이 단계는 설치 및 사용 안내서를 작성하는 도구로도 사용해야 합니다. 두 제품 모두 나중에 장비와 함께 선적하여 나중에 참조할 수 있도록 사이트에 보관할 수 있습니다.
 
 다음 요소를 고려해야 합니다.
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 ## 3. 장치 관리 고려 사항 {#device-management-considerations}
 
-AEM Screens에는 Screens 플레이어 애플리케이션 끝점을 관리할 수 있는 장치 제어 센터 모듈이 포함되어 있습니다.
+AEM Screens에는 Screens 플레이어 애플리케이션 엔드포인트를 관리할 수 있는 장치 제어 센터 모듈이 포함되어 있습니다.
 
-다음 중 하나를 참조합니다. *플레이어* Screens 플레이어 애플리케이션이 설치되어 있고 AEM 인스턴스에 등록된 하드웨어 장치.
+다음을 참조합니다. *플레이어* Screens 플레이어 애플리케이션이 설치되어 있고 AEM 인스턴스에 등록된 하드웨어 장치.
 이 모듈에서는 다음 작업을 수행할 수 있습니다.
 
 1. 플레이어 애플리케이션 오류 로그 모니터링

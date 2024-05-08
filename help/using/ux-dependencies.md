@@ -2,9 +2,9 @@
 title: AEM Screens에 대한 UX 종속성
 description: AEM Screens의 UX 종속성에 대해 자세히 알아보십시오.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 활동의 일반적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
+>이 활동의 대표적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
 
 UX 종속성은 콘텐츠가 전략화되는 위치와 방법을 정의하므로 가장 큰 영향을 줍니다.
 

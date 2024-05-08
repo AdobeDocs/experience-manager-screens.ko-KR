@@ -2,7 +2,7 @@
 title: 폐쇄형 회사 네트워크
 description: 폐쇄형 회사 네트워크
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->모든 장치는 인터넷 연결에 대한 동시 액세스를 가지며 네트워크에 더 많은 소비자 또는 컴퓨터를 추가하면 대역폭이 선형적으로 감소합니다.
+>모든 장치는 인터넷 연결에 동시에 액세스할 수 있으며 네트워크에 더 많은 소비자 또는 컴퓨터를 추가하면 대역폭이 선형적으로 감소합니다.
 
 ### 근거리 통신망 {#lan-connection}
 

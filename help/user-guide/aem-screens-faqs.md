@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Windows Player에는 창 모드가 없습니다. 항상 전체 화면 모드입�
 
 ### 6. 플레이어 API에서 디스플레이 및 장치의 세부 정보를 가져오는 방법
 
-다음을 통해 디스플레이 및 장치에 대한 세부 정보를 가져올 수 있습니다.
+다음을 통해 디스플레이 및 장치의 세부 정보를 가져올 수 있습니다.
 
 * **내부 JS API**
 * **ContextHub 저장소**: 세 개의 ContextHub 저장소가 `/libs/screens/clientlibs/contexthub` 채널, 장치 및 정보를 표시합니다.

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '225'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ AEM Screens 기능 팩 202204의 릴리스 날짜는 2024년 1월 2일입니다.
 
 * AEM Screens 장치 &quot;유휴 텍스트&quot; 필드의 XSS 문제 (SCRNS-2614)
 
-* 의 XSS 문제 `screens/dashboard/device.html` 를 통해 `Clear cache` 작업 대화 상자. (SCRNS-2632)
+* 의 XSS 문제 `screens/dashboard/device.html` 의 방식으로 `Clear cache` 작업 대화 상자. (SCRNS-2632)
 
 * 의 화면 플레이어 구성에서 XSS 문제 `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -45,7 +45,7 @@ AEM Screens 기능 팩 202204의 릴리스 날짜는 2024년 1월 2일입니다.
 
 * 매개변수가 있는 반영된 XSS `item` 위치: `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* 에 반영된 XSS `screens/dashboard/device.html` 를 통해 `returnPage` 매개 변수. (SCRNS-3056)
+* 에 반영된 XSS `screens/dashboard/device.html` 의 방식으로 `returnPage` 매개 변수. (SCRNS-3056)
 
 * assign-device-wizard.html에서 리디렉션을 엽니다. (SCRNS-3444)
 

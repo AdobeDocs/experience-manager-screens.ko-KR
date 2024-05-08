@@ -2,9 +2,9 @@
 title: AEM Screens을 위한 비즈니스 콘텐츠 전략
 description: AEM Screens과 관련된 마케팅 및 비즈니스 콘텐츠 전략에 대해 자세히 알아보십시오.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 활동의 일반적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
+>이 활동의 대표적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
 
 콘텐츠는 참여를 이끄는 주요 요소입니다. Pre-sales 단계에서는 애플리케이션이 하드웨어, 소프트웨어 및 접속 리소스를 사용하여 클라이언트 고객에게 원하는 가치를 제공하는 방식을 고려한 비즈니스 컨텐츠 전략을 정의하는 것이 중요합니다.
 

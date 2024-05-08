@@ -2,9 +2,9 @@
 title: 프로토타입
 description: 이 페이지에서는 AEM Screens 프로젝트의 프로토타입에 대해 설명합니다
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 활동의 일반적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
+>이 활동의 대표적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
 
 UX 프로토타이핑을 사용하여 UX 여정 맵에 이전에 정의된 아이디어, 가정 및 종속성을 테스트하는 것이 중요합니다.
 

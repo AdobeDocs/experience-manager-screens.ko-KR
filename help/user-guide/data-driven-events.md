@@ -3,9 +3,9 @@ title: 데이터 기반 이벤트
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ AEM Screens은 Context Hub를 통해 데이터 기반 이벤트를 활성화합�
 
 #### 작동 중인 데이터 {#data-in-operational}
 
-이는 추가적으로 채널 인터럽트(Channel Interrupt)와 플레이스홀더(Placeholder)로 분류할 수 있다.
+이 이벤트는 채널 인터럽트 및 플레이스홀더로 더 분류될 수 있습니다.
 
 #### 프레젠테이션의 데이터 {#data-in-presentation}
 
@@ -42,4 +42,4 @@ LCD 화면에 화면 켜기/끄기 명령을 보낼 때. 예를 들어 화면의
 
 #### 프레젠테이션 데이터 출력 {#data-out-presentational}
 
-피드백 루프에 정보를 집계하는 차트를 작성합니다. Analytics를 사용하여 이벤트를 평가하고 알립니다.
+정보를 피드백 루프에 집계하는 차트입니다. Analytics를 사용하여 이벤트를 평가하고 알립니다.

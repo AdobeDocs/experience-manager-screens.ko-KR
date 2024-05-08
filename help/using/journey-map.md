@@ -2,9 +2,9 @@
 title: 여정 맵
 description: AEM Screens용 여정 맵에 대해 알아봅니다.
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 활동의 일반적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
+>이 활동의 대표적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
 
 사용자 경험 여정 맵은 사용자가 네트워크에서 제공하는 디지털 콘텐츠를 경험하는 방법과 이유를 파악할 수 있도록 설계되었습니다.
 

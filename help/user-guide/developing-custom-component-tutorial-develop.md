@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2139'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 이 자습서를 완료하려면 다음 항목이 필요합니다.
 
-1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) 여기에 최신 Screens 기능 팩도 포함되어 있습니다.
+1. [AEM 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes) 여기에 최신 Screens 기능 팩도 포함되어 있습니다.
 
 1. [AEM Screens 플레이어](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. 로컬 개발 환경
@@ -296,7 +296,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    categories 속성은 클라이언트 라이브러리를 식별하는 문자열입니다. cq.screens.componentcategory는 편집 모드와 미리보기/프로덕션 모드 모두에서 사용됩니다. 따라서 sharedclientlib에 정의된 모든 CSS/JS는 모든 모드에서 로드됩니다.
 
-   프로덕션 환경에서는 경로를 /apps에 직접 노출하지 않는 것이 좋습니다. allowProxy 속성은 접두사 of/etc.clientlibs을 통해 클라이언트 라이브러리 CSS 및 JS가 참조되도록 합니다.
+   프로덕션 환경에서는 경로를 /apps에 직접 노출하지 않는 것이 좋습니다. allowProxy 속성은 접두사 of/etc.clientlibs을 통해 클라이언트 라이브러리 CSS 및 JS를 참조하도록 합니다.
 
 1. 파일 만들기: `css.txt` 공유 폴더 아래에 있습니다.
 
