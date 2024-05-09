@@ -2,9 +2,9 @@
 title: 이미지 재생 기간
 description: AEM Screens의 이미지 재생 기간에 대해 알아봅니다.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-시퀀스 채널을 만들고 여기에 이미지를 추가하면 기본적으로 모든 이미지가 채널 레벨 구성에 정의된 재생 기간을 가정합니다. 개별 이미지는 여전히 기본값을 재정의하고 다른 재생 시간을 가질 수 있습니다. 이는 특정 이미지 구성 요소의 재생 시간을 편집하여 수행됩니다.
+시퀀스 채널을 만들고 여기에 이미지를 추가하면 기본적으로 모든 이미지가 채널 레벨 구성에 정의된 재생 기간을 가정합니다. 개별 이미지는 여전히 기본값을 재정의하고 다른 재생 시간을 가질 수 있습니다. 이 기능은 특정 이미지 구성 요소의 재생 시간을 편집하여 수행됩니다.
 
 ### 사전 요구 사항 {#prerequisites}
 
 이 기능을 구현하려면 먼저 이 기능을 구현하기 위한 필수 조건으로 프로젝트를 설정해야 합니다. 예:
 
 1. AEM Screens 프로젝트 만들기(이 예에서는 **ChannelLevelPlayback**)
-1. 다음으로 시퀀스 채널 만들기 **PlaybackChannel** 아래에 **채널** 폴더
+1. 다음으로 시퀀스 채널 만들기 **PlaybackChannel** 다음 아래에 **채널** 폴더
 1. 콘텐츠 추가 **PlaybackChannel**
 
 ## 채널 수준 이미지 재생 기간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **페이지** 대화 상자가 열립니다.
+1. 다음 **페이지** 대화 상자가 열립니다.
 
    >[!NOTE]
    >

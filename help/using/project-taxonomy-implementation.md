@@ -2,9 +2,9 @@
 title: 프로젝트 분류
 description: 프로젝트 분류법은 AEM Screens과 관련되어 있으므로 자세히 알아보십시오.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ AEM Screens 디지털 사이니지 솔루션을 구현하기 전에 다음 요�
 * **예약**
 * **콘텐츠 미리보기**
 
-이러한 용어에 대해 알아보려면 다음을 참조하십시오. [용어집](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+이러한 용어에 대한 자세한 내용은 [용어집](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >사용을 고려하는 것이 가장 좋습니다.
 >
 >* Screens 프로젝트를 자동으로 채우는 하드웨어 자산 데이터베이스
->* 모든 플레이어를 AEM의 특정 인스턴스로 자동으로 지정하는 텍스트 구성 파일
+>* 모든 플레이어를 AEM의 특정 인스턴스로 자동으로 가리키는 텍스트 구성 파일
 
 ## AEM Screens 프로젝트 구현 {#creating-a-project}
 

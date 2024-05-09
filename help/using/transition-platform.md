@@ -2,9 +2,9 @@
 title: 플랫폼으로 전환
 description: AEM Screens의 플랫폼으로의 전환에 대해 알아봅니다.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >이 활동의 일반적인 이해 당사자는 AEM 구현자입니다.
 
-프로젝트가 전략적 비전에서 와이어프레임 현실로 진행되었으므로 이제 배포할 수 있는 AEM에서 Screens 프로젝트를 실제로 만드는 데 필요한 작업 준비를 시작해야 합니다.
+프로젝트가 전략적 비전에서 와이어프레임 현실로 진행되었으므로 배포할 수 있는 AEM에서 실제 Screens 프로젝트 생성을 준비해야 합니다.
 
 이 프로젝트에는 프로토타이핑 단계에서 정의된 느슨하게 정의된 요구 사항에 대한 플랫폼별 구성의 매핑이 포함됩니다.
 
