@@ -1,6 +1,6 @@
 ---
-title: Android&trade 구현; 플레이어
-description: Android&trade; Watchdog, Android&trade; 플레이어의 충돌을 복구할 수 있는 솔루션인 구현에 대해 알아봅니다.
+title: Android 플레이어 구현
+description: Android 플레이어를 충돌에서 복구할 수 있는 솔루션인 Android Watchdog의 구현에 대해 알아봅니다.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 이 섹션에서는 Android™ 플레이어 구성에 대해 설명합니다. 구성 파일 및 사용 가능한 옵션에 대한 정보와 개발 및 테스트에 사용할 설정에 대한 권장 사항을 제공합니다.
 
-또한, **감시장치** 는 충돌에서 플레이어를 복구하는 솔루션입니다. 응용 프로그램은 Watchdog 서비스에 등록하고 주기적으로 Watchdog 서비스가 사용 중이라는 메시지를 전송해야 합니다. 워치독 서비스가 지정된 시간 내에 keep-alive 메시지를 받지 못한 경우 서비스는 깨끗한 복구를 위해 장치를 재부팅하거나(충분한 권한이 있는 경우) 응용 프로그램을 다시 시작하려고 시도합니다.
+또한, **감시장치** 는 충돌에서 플레이어를 복구하는 솔루션입니다. 응용 프로그램은 Watchdog 서비스에 등록하고 주기적으로 Watchdog 서비스가 사용 중이라는 메시지를 전송해야 합니다. 워치독 서비스가 지정된 시간 내에 keep-alive 메시지를 수신하지 못한 경우 서비스는 디바이스를 재부팅하려고 시도합니다. 완전한 복구를 위해(충분한 권한이 있는 경우) 또는 애플리케이션을 다시 시작합니다.
 
 ## Android™ Player 설치 {#installing-android-player}
 
@@ -50,7 +50,7 @@ AEM Screens용 Android™ Player를 구현하려면 AEM Screens용 Android™ Pl
 
 ### 임시 메서드 {#ad-hoc-method}
 
-Ad-Hoc 메서드를 사용하면 최신 Android™ Player(*.exe*). 방문 [**AEM 6.5 플레이어 다운로드**](https://download.macromedia.com/screens/) 페이지를 가리키도록 업데이트하는 중입니다.
+Ad-Hoc 메서드를 사용하면 최신 Android™ Player(*.exe*). 다음 방문: [**AEM 6.5 플레이어 다운로드**](https://download.macromedia.com/screens/) 페이지를 가리키도록 업데이트하는 중입니다.
 
 응용 프로그램을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
@@ -67,7 +67,7 @@ Ad-Hoc 메서드를 사용하면 최신 Android™ Player(*.exe*). 방문 [**AEM
 
 ## Android™ Watchdog 구현 {#implementing-android-watchdog}
 
-Android™의 아키텍처로 인해 디바이스를 재부팅하려면 애플리케이션에 시스템 권한이 있어야 합니다. 이렇게 하려면 제조업체의 서명 키를 사용하여 APK에 서명합니다. 그렇지 않으면 Watchdog가 플레이어 애플리케이션을 다시 시작하고 디바이스를 재부팅하지 않습니다.
+Android™의 아키텍처로 인해 디바이스를 재부팅하려면 애플리케이션에 시스템 권한이 있어야 합니다. 제조업체의 서명 키를 사용하여 APK에 서명합니다. 그렇지 않으면 워치독이 플레이어 애플리케이션을 다시 시작하고 디바이스를 재부팅하지 않을 수 있습니다.
 
 ### Android™ 간판 `apks` 제조업체 키 사용 {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -81,12 +81,12 @@ Android™의 일부 권한이 있는 API에 액세스하려면 다음과 같이
 
 제조업체의 키를 사용하여 Android™ APK에 서명하려면 아래 단계를 따르십시오.
 
-1. Google Play 또는 에서 APK 다운로드 [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지
+1. Google Play 또는 [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지
 1. 다음을 가져올 수 있도록 제조업체의 플랫폼 키를 가져옵니다. *pk8* 및 a *pem* 파일
 
-1. 를 찾습니다. `apksigner` 찾기 사용 Android™ sdk의 도구 `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. 를 찾습니다. `apksigner` find를 사용하는 Android™ SDK의 도구 `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Android™ sdk에서 zip align 도구의 경로 찾기
+1. Android™ SDK에서 zip align 도구의 경로를 찾습니다
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 설치 ***aemscreensaligned.apk*** 장치에 adb 설치 사용
 
@@ -94,7 +94,7 @@ Android™의 일부 권한이 있는 API에 액세스하려면 다음과 같이
 
 크로스 Android 감시 서비스는 를 사용하여 Cordova 플러그인으로 구현됩니다. *경보 관리자*.
 
-다음 다이어그램은 watchdog 서비스의 구현을 보여 줍니다.
+다음 다이어그램은 Watchdog 서비스의 구현을 보여 줍니다.
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
@@ -110,7 +110,7 @@ Android™의 일부 권한이 있는 API에 액세스하려면 다음과 같이
 
 ## Android™ Player 벌크 프로비저닝 {#bulk-provision-android-player}
 
-Android™ 플레이어를 대량으로 롤아웃할 때 플레이어가 AEM 인스턴스를 가리키도록 프로비저닝하고 관리 UI에 속성을 수동으로 입력하지 않고 다른 속성을 구성해야 합니다.
+Android™ 플레이어를 대량으로 롤아웃할 때 플레이어가 AEM 인스턴스를 가리키도록 프로비저닝하고 관리 UI에 수동으로 입력하지 않고 다른 속성을 구성해야 합니다.
 
 >[!NOTE]
 >이 기능은 Android™ player 42.0.372에서 사용할 수 있습니다.
@@ -139,7 +139,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 | *resolution* | 장치의 해상도입니다. |
 | *rebootScheduling* | 재부팅 일정은 모든 플랫폼에 적용됩니다. |
 | *enableAdminUI* | 관리자 UI를 활성화하여 사이트에서 장치를 구성합니다. 다음으로 설정 *false* 일단 완전히 구성되고 프로덕션에 들어가면. |
-| *enableOSD* | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 다음으로 설정 고려: *false* 일단 완전히 구성되고 프로덕션에 들어가면. |
+| *enableOSD* | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 다음으로 설정하는 것이 좋습니다. *false* 를 완전히 구성하고 프로덕션에 있는 경우. |
 | *enableActivityUI* | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시하려면 활성화합니다. 문제 해결을 위해 활성화하고, 완전히 구성되어 프로덕션에 있는 경우 비활성화합니다. |
 | *enableNativeVideo* | 비디오 재생에 기본 하드웨어 가속을 사용하려면 활성화합니다(Android™만 해당). |
 
@@ -172,7 +172,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 
 ## Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝 {#bulk-provisioning}
 
-Android™ 플레이어를 대량으로 배포할 때 모든 플레이어를 AEM에 수동으로 등록하는 것은 지루해집니다. 다음과 같은 EMM(엔터프라이즈 모빌리티 관리) 솔루션을 사용하는 것이 좋습니다. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron 또는 Samsung Knox를 사용하여 원격으로 배포를 프로비저닝하고 관리합니다. AEM Screens Android™ 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig를 지원합니다.
+Android™ 플레이어를 대량으로 배포할 때 AEM에 모든 플레이어를 수동으로 등록하는 것은 지루한 일이 됩니다. 다음과 같은 EMM(Enterprise Mobility Management) 솔루션을 사용합니다. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron 또는 Samsung Knox를 사용하여 원격으로 배포를 프로비저닝하고 관리할 수 있습니다. AEM Screens Android™ 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig를 지원합니다.
 
 ## Android™ 플레이어 이름 지정 {#name-android}
 
@@ -198,7 +198,7 @@ Android™ Player에서 대량 프로비저닝을 허용하려면 아래 단계�
 1. 이러한 매개 변수를 구성하고, 저장하고, 장치에 정책을 배포합니다.
 
    >[!NOTE]
-   >장치는 구성과 함께 애플리케이션을 수신하고 선택한 구성이 있는 올바른 AEM 서버를 가리켜야 합니다. 벌크 등록 코드를 구성하도록 선택하고 AEM에 구성된 것과 동일하게 유지한 경우 플레이어가 자동으로 등록할 수 있어야 합니다. 기본 디스플레이를 구성한 경우 일부 기본 콘텐츠를 다운로드하여 표시할 수도 있습니다(나중에 필요에 따라 변경할 수 있음).
+   >장치는 구성과 함께 애플리케이션을 수신해야 합니다. 선택한 구성이 있는 올바른 AEM 서버를 가리켜야 합니다. 벌크 등록 코드를 구성하도록 선택하고 AEM에 구성된 것과 동일하게 유지한 경우 플레이어가 자동으로 등록할 수 있어야 합니다. 기본 디스플레이를 구성한 경우 일부 기본 콘텐츠를 다운로드하여 표시할 수도 있습니다(나중에 필요에 따라 변경할 수 있음).
 
 또한 AppConfig 지원에 대해 EMM 공급업체에 확인해야 합니다. 가장 인기 있는 항목: [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), 및 [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) 다른 사람들 중에는 이 업계 표준을 지지하는 사람들도 있습니다.
 

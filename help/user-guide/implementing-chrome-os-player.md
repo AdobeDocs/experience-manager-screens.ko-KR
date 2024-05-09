@@ -9,14 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Chrome OS Player 구현  {#implementing-chrome-os-player}
+# Chrome OS Player 구현 {#implementing-chrome-os-player}
 
 이 섹션에서는 Chrome 관리 콘솔을 사용하여 Chrome OS 플레이어를 구현하는 방법에 대해 설명합니다.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 Chrome 관리 콘솔을 설정하려면 아래 단계를 따르십시오.
 
 1. Chrome 관리 콘솔에 등록합니다. Chrome 관리 콘솔에 대한 라이선스를 받아야 합니다. 연락처 [Google 지원](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) 자세한 내용은 Chrome 장치 설정 관리 를 참조하십시오.
-1. Chrome OS 장치를 도메인에 등록하고 장치가 Chrome 관리 콘솔과 동기화되려면 15분이 걸립니다. Chrome 장치 등록에 대한 자세한 내용을 보려면 [여기](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Chrome OS 장치를 도메인에 등록하고 장치가 Chrome 관리 콘솔과 동기화되도록 15분 동안 기다립니다. Chrome 장치 등록에 대한 자세한 내용을 보려면 [여기](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome 플레이어는 Chrome 웹 스토어에서 사용할 수 있습니다.
 
 >[!NOTE]
@@ -34,7 +34,7 @@ Chrome 관리 콘솔을 설정하려면 아래 단계를 따르십시오.
 
 ## Chrome OS Player 이름 지정 {#name-chrome}
 
-사용자에게 친숙한 장치 이름을 Chrome 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Chrome 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 콘텐츠를 쉽게 할당할 수 있습니다.
+사용자에게 친숙한 장치 이름을 Chrome 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Chrome 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 콘텐츠를 쉽게 할당할 수도 있습니다.
 
 >[!NOTE]
 >등록하기 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 더 이상 플레이어 이름을 변경할 수 없습니다.
@@ -144,13 +144,13 @@ AEM Screens Player는 Chrome OS 플레이어에 대한 원격 정책 구성도 �
 | rebootScheduling | 플레이어를 재부팅하는 일정입니다. |
 | enableAdminUI | 관리자 UI를 활성화하여 사이트에서 장치를 구성합니다. 완전히 구성되고 프로덕션에 있는 경우 false 로 설정합니다. |
 | enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 완전히 구성되고 프로덕션에 있는 경우 false 로 설정하는 것이 좋습니다. |
-| enableActivityUI | 다운로드 및 동기화와 같은 작업 진행 상황을 표시할 수 있도록 활성화합니다. 문제 해결을 위해 활성화하고, 완전히 구성되어 프로덕션에 있는 경우 비활성화합니다. |
+| enableActivityUI | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시할 수 있도록 활성화합니다. 문제 해결을 위해 활성화하고, 완전히 구성되어 프로덕션에 있는 경우 비활성화합니다. |
 | cloudMode | Chrome 플레이어를 Screens에 as a Cloud Service으로 연결하려면 true로 설정합니다. AMS 또는 온프레미스 AEM에 연결하려면 false로 설정합니다. |
 | cloudToken | Screens에 대해 as a Cloud Service으로 등록할 등록 토큰입니다. |
 
 >[!NOTE]
 >
->정책 구성은 엄격하게 적용되며 플레이어의 관리 UI에서 수동으로 재정의되지 않습니다. 특정 정책에 대해 수동 플레이어 구성을 허용하려면에 정책을 지정하지 마십시오 ***정책 구성***. 예를 들어 재부팅 일정에 대해 수동 구성을 허용하려면 키를 지정하지 마십시오 ***rebootScheduling*** 정책 구성에서 사용할 수 있습니다.
+>정책 구성은 엄격하게 적용되며 플레이어의 관리 UI는 수동으로 재정의되지 않습니다. 특정 정책에 대해 수동 플레이어 구성을 허용하려면에 정책을 지정하지 마십시오 ***정책 구성***. 예를 들어 재부팅 일정에 대해 수동 구성을 허용하려면 키를 지정하지 마십시오 ***rebootScheduling*** 정책 구성에서 사용할 수 있습니다.
 
 ### Screens 원격 제어 사용 {#using-remote-control}
 

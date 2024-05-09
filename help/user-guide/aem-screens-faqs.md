@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ AMS 커넥터가 작동할 AEM 6.5 기능 팩 8 의 최소 버전을 설치합�
 
 이 서비스는 작성자 및 게시 인스턴스에 대한 공개 호스트 이름을 정의하는 데 사용되며 값은 장치 서버 URL을 업데이트하고 ContextHub 타겟팅에도 사용됩니다.
 
-Screens의 CQ 링크 외부화 서비스는 다음을 통해 구성할 수 있습니다.
+Screens의 CQ 링크 외부화 서비스는 다음 방식으로 구성할 수 있습니다.
 
 1. 다음으로 이동 `http://localhost:4502/system/console/configMgr`
 1. 일별 CQ 링크 외부화
