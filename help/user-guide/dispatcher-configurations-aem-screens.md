@@ -5,16 +5,16 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # AEM Screens에 대한 Dispatcher 구성{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다.
+Dispatcher는 Adobe Experience Manager의 캐싱, 또는 로드 밸런싱 도구 또는 둘 다입니다.
 
 다음 페이지에서는 AEM Screens 프로젝트에 대한 Dispatcher 구성을 위한 지침을 제공합니다.
 
@@ -32,9 +32,9 @@ AEM Screens 프로젝트에 대해 Dispatcher를 구성하기 전에 Dispatcher�
 >[!IMPORTANT]
 >다음 Dispatcher 구성은 매니페스트 버전 v2에만 적용됩니다. 다음을 참조하십시오 [매니페스트 버전 v3에 대한 Dispatcher 구성](#configuring-dispatcherv3) 매니페스트 버전 v3용
 
-AEM Screens 플레이어 또는 장치는 인증된 세션을 사용하여 게시 인스턴스의 리소스에도 액세스합니다. 따라서 게시 인스턴스가 여러 개 있는 경우 인증된 세션이 AEM Screens 플레이어/장치에서 발생하는 모든 요청에 대해 유효하도록 요청이 항상 동일한 게시 인스턴스로 이동해야 합니다.
+AEM Screens 플레이어 또는 장치는 인증된 세션을 사용하여 게시 인스턴스의 리소스에도 액세스합니다. 게시 인스턴스가 여러 개 있는 경우 인증된 세션이 AEM Screens 플레이어 또는 장치에서 발생하는 모든 요청에 대해 유효하도록 요청이 항상 동일한 게시 인스턴스로 이동해야 합니다.
 
-AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 아래 단계를 따르십시오.
+아래 단계에 따라 AEM Screens 프로젝트에 대한 Dispatcher를 구성합니다.
 
 ### 고정 세션 활성화 {#enable-sticky-session}
 
@@ -67,7 +67,7 @@ AEM Screens 프로젝트에 대한 Dispatcher를 구성하려면 아래 단계�
 
 ### 2단계: 화면 필터 구성 {#step-configure-screens-filters}
 
-Screens 필터를 구성하려면 다음을 추가하십시오. ***/filter***.
+Screens 필터를 구성하려면 다음을 Screens에 추가합니다***`/filter`***.
 
 ```
 ## AEM Screens Filters
@@ -133,7 +133,7 @@ Screens의 기능을 위해 게시 인스턴스 앞에 있는 디스패처에서
 
 ### 매니페스트 버전 v3의 필수 구성 요소{#prerequisites3}
 
-AEM Screens에 대해 Dispatcher(매니페스트 버전 v3)를 구성하기 전에 다음 두 가지 전제 조건을 따르십시오.
+AEM Screens용 Dispatcher(매니페스트 버전 v3)를 구성하기 전에 다음 두 가지 전제 조건을 따르십시오.
 
 * 을(를) 사용하고 있는지 확인합니다. `v3 manifests`. 다음으로 이동 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 및 다음을 확인합니다. `Enable ContentSync Cache` 이(가) 선택되지 않았습니다.
 
@@ -143,7 +143,7 @@ AEM Screens에 대해 Dispatcher(매니페스트 버전 v3)를 구성하기 전�
 
   ![이미지](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### 필터  {#filter-v3}
+### 필터 {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ AEM Screens에 대해 Dispatcher(매니페스트 버전 v3)를 구성하기 전�
 
 * 추가 `/allowAuthorized "1"` 끝 `/cache` 의 섹션 `publish_farm.any`.
 
-* 모든 AEM Screens 플레이어는 인증된 세션을 사용하여 AEM(작성자/게시)에 연결합니다. Dispatcher는 이러한 URL을 캐시하지 않으므로 활성화해야 합니다.
+* 모든 AEM Screens 플레이어는 인증된 세션을 사용하여 AEM(작성자/게시)에 연결합니다. 기본적으로 Dispatcher는 이러한 URL을 캐시하지 않으므로 활성화해야 합니다.
 
 * 추가 `statfileslevel "10"` 끝 `/cache` 의 섹션 `publish_farm.any`
-캐시 docroot에서 최대 10개 수준까지 캐싱을 지원하고 모든 것을 무효화하지 않고 콘텐츠가 게시될 때 그에 따라 무효화됩니다. 콘텐츠 구조의 깊이에 따라 이 수준을 자유롭게 변경할 수 있습니다.
+이 규칙은 캐시 docroot에서 최대 10개 수준까지 캐싱을 지원하고 모든 것을 무효화하지 않고 콘텐츠가 게시될 때 그에 따라 무효화합니다. 콘텐츠 구조의 깊이에 따라 이 수준을 자유롭게 변경할 수 있습니다.
 
 * 다음에 추가 `/invalidate section in publish_farm.any`
 

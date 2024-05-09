@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -30,12 +30,12 @@ ht-degree: 1%
 
 1. **명명 규칙**:
 
-   AEM Screens 프로젝트에서 사용할 사용자 지정 다중 영역 템플릿을 만드는 방법을 이해하려면 먼저 만들려는 템플릿의 용어를 이해하십시오.
+   AEM Screens 프로젝트에서 사용할 사용자 지정 다중 영역 템플릿을 만드는 방법을 이해하는 데 도움이 됩니다. 그러나 먼저 만들려는 템플릿의 버전을 이해해야 합니다.
 
    | **레이아웃 이름** | **설명** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 3개의 영역을 만들 수 있는 3개 영역 가로 레이아웃:<br>* 영역 1은 왼쪽에서 가로 및 세로 화면의 20%입니다.<br>* 영역 2를 가로 화면의 80%, 세로 화면의 20%로 오른쪽 정렬<br>* 영역 3은 가로 100%, 세로 80%로 16:9 화면 비율 |
-   | `Upper20-PortraitHD2Zone` | 화면 상단에서 화면의 20%를 덮고 종횡비가 16:9인 2영역 세로 템플릿 |
+   | `Left20-LandscapeHD3Zone` | 3개의 영역을 만들 수 있는 3개 영역 가로 레이아웃:<br>* 영역 1은 왼쪽에서 가로 및 세로 화면의 20%입니다.<br>* Zone 2는 가로 화면의 80%, 세로 화면의 20%가 오른쪽으로 정렬됨<br>* 영역 3은 가로 화면의 100%, 세로 화면의 80%입니다. 종횡비는 16:9입니다. |
+   | `Upper20-PortraitHD2Zone` | 16:9의 화면 비율과 함께 맨 위에서 화면의 20%를 차지하는 2영역 세로 템플릿입니다. |
    | `Right20-LandscapeSD3Zone` | 오른쪽에서 화면의 20%를 덮고 종횡비가 4:3인 3영역 템플릿 |
 
    >[!IMPORTANT]
@@ -90,11 +90,11 @@ ht-degree: 1%
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. 막대 왼쪽 템플릿을 복사한 단계 (4)를 참조하면 아래에 3개의 응답형 그리드를 볼 수 있습니다 `my-custom-layout/jcr:content`. 사용자 지정 css 클래스를 의 각 응답형 격자에 추가합니다. *`cq:cssClass`* 속성(예: ) *my-custom-layout - 왼쪽 상단* 대상 *r1c1* 노드.
+1. 막대 왼쪽 템플릿을 복사한 단계 (4)를 참조하면 아래에 3개의 응답형 그리드를 볼 수 있습니다 `my-custom-layout/jcr:content`. 사용자 지정 css 클래스를 의 각 응답형 격자에 추가합니다. *`cq:cssClass`* 속성(예: ) *내 사용자 지정 레이아웃-왼쪽 상단* 대상 *r1c1* 노드.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   마찬가지로 를 추가합니다 *my-custom-layout - 오른쪽 위* 대상 *r1c2*  및, *my-custom-layout - bottom* 대상 *r2c1* 노드.
+   마찬가지로 를 추가합니다 *my-custom-layout-top-right* 대상 *r1c2* 및 *my-custom-layout-bottom* 대상 *r2c1* 노드.
 
    >[!NOTE]
    >이러한 사용자 정의 클래스는 css에서 이러한 응답형 그리드의 너비/높이를 설정하는 데 사용됩니다.
@@ -152,13 +152,13 @@ AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 이미지를 배경 레이어로 삽입  {#inserting-image}
+## 이미지를 배경 레이어로 삽입 {#inserting-image}
 
 레이아웃에 이미지를 배경 레이어로 삽입할 수 있습니다.
 
 &quot;data-uri&quot;를 사용하도록 CSS 규칙을 조정하고 이미지를 직접 인라인할 수 있습니다(`Base64` 인코딩됨)을 추가하여 (13단계)에서 만든 CSS 파일에서 *static.css*.
 
-이 작업은 다음과 같이 수행됩니다.
+이러한 배열은 다음과 같이 수행됩니다.
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 또는 아래 단계를 따를 수 있습니다.

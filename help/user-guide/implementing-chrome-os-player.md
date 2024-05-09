@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Chrome 플레이어에서 이름을 구성하려면 아래 단계를 수행하�
    ![이미지](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome 플레이어는 기업 등록에 등록해야 하며 Chrome 플레이어는 Chrome Management Console을 통해 배포되어야 합니다. 그렇지 않으면 자산 ID가 빈 값(예: chrome이 확장 기능으로 반환됨)을 반환합니다. 장치 이름은 등록 시점에만 기록됩니다. 향후 변경 사항은 Adobe Experience Manager(AEM)에서 선택되지 않습니다.
+   >Chrome 플레이어는 기업 등록에 등록해야 하며 Chrome 플레이어는 Chrome Management Console을 통해 배포되어야 합니다. 그렇지 않으면 자산 ID가 빈 값(예: Chrome이 확장명)으로 반환됩니다. 장치 이름은 등록 시점에만 기록됩니다. 향후 변경 사항은 Adobe Experience Manager(AEM)에서 선택되지 않습니다.
 
 ### 키오스크 모드 활성화 {#enabling-kiosk-mode}
 
