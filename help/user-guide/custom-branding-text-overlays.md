@@ -1,31 +1,31 @@
 ---
 title: 텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용
-description: AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 지정 브랜딩과 스타일을 적용하는 방법에 대해 알아봅니다.
+description: AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 지정 브랜딩 및 스타일을 적용하는 방법에 대해 알아봅니다.
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # 텍스트 오버레이에 대한 사용자 지정 브랜딩 및 스타일링 {#creating-custom-branding-styling}
 
-AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 지정 브랜딩과 스타일을 적용하는 방법에 대해 알아봅니다.
+AEM Screens 채널에서 에셋에 적용된 텍스트 오버레이에 사용자 지정 브랜딩 및 스타일을 적용하는 방법을 알아봅니다.
 
 ## 텍스트 오버레이에 대한 사용자 지정 브랜딩 및 스타일 만들기 {#steps-custom-branding}
 
 텍스트 오버레이에 대한 사용자 지정 브랜딩 및 스타일을 만들려면 아래 단계를 따르십시오.
 
-1. AEM Screens 프로젝트를 만듭니다. 이 예제에서는 이라는 프로젝트를 만들어 기능을 보여 줍니다. **`customstyle`** 및 라는 이름의 채널 **DemoBrand** 을 참조하십시오.
+1. AEM Screens 프로젝트를 만듭니다. 이 예제에서는 이라는 프로젝트를 만들어 기능을 보여 줍니다. **`customstyle`** 및 라는 이름의 채널 **DemoBrand**&#x200B;을 참조하십시오.
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. 편집기에서 이미지를 드래그 앤 드롭한 후 자산에 텍스트 오버레이를 추가합니다.
+1. 편집기에서 이미지를 드래그 앤 드롭한 후 에셋에 텍스트 오버레이를 추가합니다.
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -122,7 +122,7 @@ AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 �
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. 또한 마지막 두 개의 코드 블록을 *static.css* 텍스트 오버레이 주변의 박스형 스타일을 제거하는 파일입니다.
+1. 또한, *static.css* 텍스트 오버레이 주변의 박스형 스타일을 제거하는 파일입니다.
 
 ![이미지](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
@@ -130,4 +130,4 @@ AEM Screens 채널의 에셋에 적용된 텍스트 오버레이에 사용자 �
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   이제 자산에 추가된 텍스트 오버레이에 대한 브랜드 및 사용자 지정 스타일을 업데이트할 준비가 되었습니다.
+   이제 에셋에 추가된 텍스트 오버레이에 대한 브랜드 및 사용자 지정 스타일을 업데이트할 준비가 되었습니다.

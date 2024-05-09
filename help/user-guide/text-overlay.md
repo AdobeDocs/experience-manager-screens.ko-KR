@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능으로, 이미지 위에 오버레이된 제목 또는 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다.
+텍스트 오버레이는 AEM Screens에서 사용할 수 있는 기능입니다. 이미지 위에 오버레이된 제목 또는 설명을 제공하여 시퀀스 채널에서 매력적인 경험을 만들 수 있습니다.
 
 사용자 지정 구성 요소를 만드는 방법에 대해 알아보려면 **AEM Screens 구성 요소 확장**.
 
-이 섹션에서는 AEM Screens 프로젝트에서 포스터 구성 요소를 사용 및 적용하고 시퀀스 채널 중 하나에서 텍스트 오버레이로 사용하는 방법만 보여 줍니다.
+이 섹션에서는 AEM Screens 프로젝트에서 포스터 구성 요소를 사용하고 적용하는 방법에 대해서만 설명합니다. 또한 시퀀스 채널 중 하나에서 텍스트 오버레이로 사용하는 사례를 보여 줍니다.
 
 ## 텍스트 오버레이 사용 {#using-text-overlay}
 
@@ -48,11 +48,11 @@ ht-degree: 1%
 
 * AEM Screens 프로젝트 만들기(이 예에서는 **TextOverlayDemo**)
 
-* 이라는 이름의 시퀀스 채널 만들기 **텍스트 샘플** 아래에 **채널** 폴더
+* 이라는 이름의 시퀀스 채널 만들기 **텍스트 샘플** 다음 아래에 **채널** 폴더
 
 * 에 콘텐츠 추가 **텍스트 샘플** 채널
 
-다음 이미지는 **TextOverlayDemo** 프로젝트 포함 **텍스트 샘플** 의 채널 **채널** 폴더를 삭제합니다.
+다음 이미지는 **TextOverlayDemo** 이 포함된 프로젝트 **텍스트 샘플** 의 채널 **채널** 폴더를 삭제합니다.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,7 +84,7 @@ Text Overlay 속성을 사용하여 Screens 프로젝트의 구성 요소에 텍
 
 >[!NOTE]
 >
->세분화된 도구를 올바르게 사용하려면 (px)를 접미사(예: 200px)로 사용하여 올바른 위치를 픽셀 단위로 식별해야 합니다. 이 표현식의 결과는 시작점에서 200픽셀입니다.
+>세분화된 도구를 사용할 때는 (px)를 접미사(예: 200px)로 사용하여 올바른 위치를 픽셀 단위로 식별해야 합니다. 이 표현식의 결과는 시작점에서 200픽셀입니다.
 
 ## 텍스트 오버레이에서 ContextHub 값 사용 {#using-text-overlay-context-hub}
 
@@ -129,7 +129,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
    >[!NOTE]
    >ContextHub 구성을 설정하지 않은 경우 프로젝트에 대해 이 옵션이 비활성화됩니다.
 
-1. 입력 **값** 다음에서 **자리 표시자** 필드. Google 시트에서 값을 가져올 행을 클릭합니다. **ContextHub 변수**. 이 경우 값은 Google 시트의 행 2 및 열 1에서 검색됩니다. 이제 을(를) 입력합니다. **기본값** 다음으로: **20**&#x200B;을 참조하십시오. 완료되면 확인 표시를 클릭합니다.
+1. 입력 **값** 다음에서 **자리 표시자** 필드. Google 시트에서 값을 가져올 행을 클릭합니다. **ContextHub 변수**. 이 경우 값은 Google 시트의 행 2 및 열 1에서 검색됩니다. 이제 를 입력합니다. **기본값** 다음으로: **20**&#x200B;을 참조하십시오. 완료되면 확인 표시를 클릭합니다.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->최신 Windows Player(*.exe*), 출처 [AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
+>최신 Windows Player(*.exe*)에서 [AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
 >1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
 >1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 다음과 같은 경우 **등록 코드** 두 컴퓨터에서 동일함, 클릭 **유효성 검사** (6) 단계에 표시된 대로 AEM의 단추입니다.
+1. 다음과 같은 경우 **등록 코드** 두 컴퓨터에서 동일함 **유효성 검사** (6)단계에 표시된 것처럼 AEM의 단추입니다.
 1. 원하는 디바이스 이름을 설정하고 를 클릭합니다 **등록**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   선택 시 디스플레이 대시보드를 볼 수도 있습니다 **완료**.
+   을 선택하여 디스플레이 대시보드를 볼 수도 있습니다 **완료**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -144,19 +144,19 @@ ht-degree: 0%
 * 사용자는 *장치 ID* 또는 *장치 이름*.
 
   >[!NOTE]
-  >다음과 같이 여러 단어로 장치 이름을 만드는 것이 좋습니다. *보스턴 스토어 로비* 단일 항목 대신 *보스톤스토어로비*.
+  >다음과 같이 여러 단어로 장치 이름을 만드는 것이 좋습니다. *`Boston Store Lobby`* 단일 항목 대신 *`BostonStoreLobby`*.
 
-* 다음과 같은 장치 이름을 만드는 경우 *보스턴 스토어 로비*, 모든 단어를 검색합니다 *보스턴*, *스토어*, 또는 *로비*. 그러나 디바이스 이름이 인 경우 *보스톤스토어로비*, 검색 후 *보스턴* 결과를 표시하지 않습니다.
+* 다음과 같은 장치 이름을 만든 경우 *`Boston Store Lobby`*, 모든 단어를 검색합니다 *`boston`*, *`store`*, 또는 *`lobby`*. 그러나 디바이스 이름이 인 경우 *`BostonStoreLobby`*, 검색 후 *`boston`* 결과를 표시하지 않습니다.
 
-* 와일드카드, `*` 은 검색에 대해 지원됩니다. 이름이 로 시작하는 모든 장치를 찾으려는 경우 *보스턴*, 다음을 사용할 수 있습니다 *보스턴**.
+* 와일드카드, `*` 은 검색에 대해 지원됩니다. 이름이 로 시작하는 모든 장치를 찾으려는 경우 *`boston`*, *를 사용할 수 있습니다.`boston`**.
 
-* 장치 이름이 인 경우 *보스톤스토어로비* 및 검색 *보스턴* 은 결과를 반환하지 않고 다음을 사용합니다. *보스턴** 검색 기준에서 결과를 반환합니다.
+* 장치 이름이 인 경우 *`BostonStoreLobby`* 및 검색 *`boston`* 은 결과를 반환하지 않고 다음을 사용합니다. *`boston`** 검색 기준에서 결과를 반환합니다.
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
 시스템 전체 사용자 암호 제한으로 인해 디바이스 등록에 실패할 수 있습니다. 디바이스 등록에서는 디바이스 사용자를 생성하기 위해 임의로 생성된 암호를 사용합니다.
 
-암호가 다음에 의해 제한된 경우 *AuthorizableActionProvider* 구성, 장치 사용자 만들기가 실패할 수 있습니다.
+다음과 같은 경우 *AuthorizableActionProvider* 구성이 암호를 제한하므로 장치 사용자 만들기가 실패할 수 있습니다.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 기타 리소스 {#additional-resources}
 
-AEM Screens 플레이어에 대해 알아보려면 다음을 참조하십시오. [AEM Screens 플레이어](working-with-screens-player.md).
+AEM Screens Player에 대한 자세한 내용은 [AEM Screens 플레이어](working-with-screens-player.md).
