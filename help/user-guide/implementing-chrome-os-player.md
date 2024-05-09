@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Chrome 관리 콘솔을 설정하려면 아래 단계를 따르십시오.
 
 Chrome 플레이어에서 이름을 구성하려면 아래 단계를 수행하십시오.
 
-1. 오디오/비디오 통합자나 IT 관리자가 자산 ID와 위치를 기업 등록의 일부로 설정하도록 허용할 수도 있습니다.
+1. 오디오-비디오 통합자나 IT 관리자가 자산 ID와 위치를 엔터프라이즈 등록의 일부로 설정하도록 선택적으로 허용할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/chrome-device/chrome1.png)
 

@@ -2,9 +2,9 @@
 title: 장치 사양
 description: AEM Screens과 관련된 장치 사양에 대해 자세히 알아보십시오.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 활동의 일반적인 이해 당사자는 오디오/비디오 통합자입니다.
+>이 활동의 일반적인 이해 당사자는 오디오-비디오 통합자입니다.
 
 다음 기간 동안 수집한 정보 기반 *0일*, 개발을 시작하기 전에 다음 정보를 확인하십시오.
 

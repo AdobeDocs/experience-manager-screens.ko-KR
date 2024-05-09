@@ -2,9 +2,9 @@
 title: AEM Screens에서 적응형 표현물 사용
 description: AEM Screens에서 적응형 렌디션을 사용하는 방법을 알아봅니다.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ## 소개 {#introduction}
 
-적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생하여 고객이 다음 디자인에만 집중할 수 있도록 합니다 *main* 경험.
+적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 대한 최상의 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생합니다. 이를 통해 고객은 다음을 디자인하는 데 집중할 수 있습니다 *main* 경험.
 
 ## 목표 {#objective}
 
-이제 AEM Screens 컨텐츠 작성자는 모든 컨텐츠 변형을 수동으로 만들지 않고도 장치별 자산 렌디션을 자동으로 다운로드하고 재생하도록 구성할 수 있습니다.
-개발자가 렌디션 매핑 속성 및 규칙을 추가한 후에는 에셋에 렌디션 매핑을 적용한 다음 AEM Screens 채널에 포함할 준비가 된 것입니다.
+이제 AEM Screens 콘텐츠 작성자는 모든 콘텐츠 변형을 수동으로 만들 필요 없이 자동으로 다운로드 및 재생되도록 장치별 에셋 렌디션을 구성할 수 있습니다.
+개발자가 렌디션 매핑 속성 및 규칙을 추가하면 에셋에 렌디션 매핑을 적용한 다음 AEM Screens 채널에 포함할 수 있습니다.
 
 >[!IMPORTANT]
 >AEM Screens Adobe 채널에서 적응형 렌디션 사용을 시작하기 전에 이 기능의 아키텍처 개요 및 구성에 대해 학습하는 것이 좋습니다. 다음을 참조하십시오 [적응형 표현물: 아키텍처 개요 및 구성](/help/user-guide/adaptive-renditions.md).
@@ -26,7 +26,7 @@ ht-degree: 0%
 ## 채널에서 적응형 표현물 사용 {#using-adaptive-renditions}
 
 >[!NOTE]
->추가한 후 [스크린 프로젝트에 대한 렌디션 매핑 속성](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 및 [렌디션 매핑 규칙](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), 콘텐츠 작성자는 이제 에셋에 렌디션을 적용할 준비가 되었습니다.
+>을(를) 추가한 후 [스크린 프로젝트에 대한 렌디션 매핑 속성](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 및 [렌디션 매핑 규칙](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), 콘텐츠 작성자는 이제 에셋에 렌디션을 적용할 준비가 되었습니다.
 
 ### 자산에 렌디션 적용 {#apply-renditions-assets}
 

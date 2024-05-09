@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## AEM Screens을 사용한 Adobe Analytics의 시퀀싱 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-다음 ***순서 결정 과정*** 는 Adobe Analytics 서비스를 활성화하는 데이터 스토리지 서비스로 시작합니다. 채널 콘텐츠는 급여가 포함된 Adobe Analytics 이벤트를 전송합니다. 즉, 데이터 테스트 캡처를 Windows I/O로 전송하고 이벤트가 트리거됩니다. 이벤트는 색인 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자가 설정한 일정에 따라 개체 저장소에서 데이터를 잘라내고 청크 저장소에 추가로 전송합니다. 연결되면 최대 데이터 양을 전송하려고 합니다.
+다음 ***순서 결정 과정*** 는 Adobe Analytics 서비스를 활성화하는 데이터 스토리지 서비스로 시작합니다. 채널 콘텐츠는 급여가 포함된 Adobe Analytics 이벤트를 전송합니다. 즉, 데이터 테스트 캡처를 Windows I/O로 전송하고 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자가 설정한 일정에 따라 개체 저장소에서 데이터를 잘라내고 청크 저장소에 추가로 전송합니다. 연결되면 최대 데이터 양을 보내려고 합니다.
 
 ### 시퀀싱 다이어그램 {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ ht-degree: 10%
    <td>추천</td> 
    <td>문자열</td> 
    <td>타임스탬프 - UTC</td> 
-   <td>이벤트 시작 날짜 시간, 지정하지 않은 경우 이벤트 시간은 서버가 수신한 시간으로 간주됩니다</td> 
+   <td>이벤트 시작 날짜 시간. 이 시간을 지정하지 않으면 서버가 이벤트 시작 날짜를 수신한 시간으로 간주됩니다.</td> 
   </tr>
   <tr>
    <td> </td> 
