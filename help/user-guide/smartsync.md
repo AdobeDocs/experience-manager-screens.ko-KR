@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ SmartSync는 AEM Screens에서 사용하는 최신 메커니즘입니다. 오프
 
 서버측과 클라이언트측에서 모두 실행됩니다.
 
-**서버측**:
+**서버측**
 
 * 자산을 포함한 채널의 컨텐츠는에 캐시됩니다. *`/var/contentsync`*.
 * 캐시는 디스플레이에 사용할 수 있는 콘텐츠를 설명하는 매니페스트를 통해 플레이어에 노출됩니다.
 
-**클라이언트측**:
+**클라이언트측**
 
-* 플레이어는 위에 생성된 매니페스트를 기반으로 콘텐츠를 업데이트합니다.
+* 플레이어는 위에서 생성한 매니페스트를 기반으로 콘텐츠를 업데이트합니다.
 
 ### SmartSync 사용의 이점 {#benefits-of-using-smartsync}
 
