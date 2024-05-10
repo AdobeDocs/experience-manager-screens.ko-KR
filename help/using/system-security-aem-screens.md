@@ -1,9 +1,9 @@
 ---
 title: AEM Screens 보안 검사 목록
 description: AEM Screens 보안 체크리스트에 대해 자세히 알아보십시오.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # AEM Screens에 대한 시스템 보안 고려 사항 {#security-checklist}
 
 >[!IMPORTANT]
->내부 Git 리소스입니다.
+>내부 Git 리소스.
 
 이 페이지에서는 AEM Screens에 대한 시스템 보안 고려 사항을 강조 표시합니다.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## AEM Screens 보안에 대한 FAQ {#faqs-screens}
 
-다음 FAQ는 플레이어와 AEM Server 간의 통신 프로토콜로 HTTPS를 사용하는 인증된 등록된 플레이어 아키텍처를 가정합니다.
+다음 FAQ는 인증된 등록된 플레이어 아키텍처를 가정합니다. 플레이어와 AEM 서버 간의 통신 프로토콜로 HTTPS를 사용합니다.
 
 ### FAQ 1 {#faq1}
 
@@ -41,7 +41,7 @@ HTTP나 HTTP를 사용해야 합니까?
 
 **답변**
 
-HTTP를 사용합니다. 안전이 걱정된다면 이것은 필수품이다. HTTP를 사용하면 플레이어와 서버 간 통신이 암호화돼 콘텐츠를 가로채거나 수정이 불가능하다.
+HTTP를 사용합니다. 보안에 관심이 있다면 이 프로토콜은 필수다. HTTP를 사용하면 플레이어와 서버 간 통신이 암호화돼 콘텐츠를 가로채거나 수정이 불가능하다.
 
 
 ### FAQ 3 {#faq3}
@@ -50,7 +50,7 @@ HTTP를 사용합니다. 안전이 걱정된다면 이것은 필수품이다. HT
 
 **답변**
 
-모든 자산은 서버에서 서명(SHA)한 다음 플레이어에서 동일한 해시에 대해 유효성을 검사하여 무결성을 보장합니다.
+모든 자산은 서버에서 서명(SHA)됩니다. 그런 다음 플레이어가 동일한 해시에 대해 유효성을 검사하여 무결성을 보장합니다.
 해시가 일치하지 않으면 소프트웨어는 세 번 재검증을 시도합니다. 세 번 시도하면 다운로드 명령이 유효하지 않은 것으로 간주됩니다.
 
 

@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2161'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 [파일 가져오기](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [파일 가져오기](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **선택 사항** eclipse 또는 다른 IDE로 작업하는 경우 아래 소스 패키지를 다운로드합니다. Maven 명령을 사용하여 로컬 AEM 인스턴스에 프로젝트를 배포합니다.
+   **선택 사항** Eclipse 또는 다른 IDE로 작업하는 경우 아래 소스 패키지를 다운로드합니다. Maven 명령을 사용하여 로컬 AEM 인스턴스에 프로젝트를 배포합니다.
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -84,7 +84,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   이 패키지에는 프로젝트에 필요한 시작 콘텐츠 및 구성 구조가 포함되어 있습니다. **`/conf/we-retail-run`** 에 대한 모든 구성을 포함합니다. `We.Retail` 프로젝트를 실행합니다. **`/content/dam/we-retail-run`** 에는 프로젝트에 대한 디지털 에셋 시작이 포함됩니다. **`/content/screens/we-retail-run`** 에는 Screens 콘텐츠 구조가 포함되어 있습니다. 이러한 모든 경로 아래의 콘텐츠는 주로 AEM에서 업데이트됩니다. 환경(로컬, 개발, 스테이지, 프로덕션) 간의 일관성을 향상시키기 위해 기본 콘텐츠 구조가 소스 제어에 저장되는 경우가 많습니다.
+   이 패키지에는 프로젝트에 필요한 시작 콘텐츠 및 구성 구조가 포함되어 있습니다. **`/conf/we-retail-run`** 에 대한 모든 구성을 포함합니다. `We.Retail` 프로젝트를 실행합니다. **`/content/dam/we-retail-run`** 에는 프로젝트에 대한 디지털 에셋 시작이 포함됩니다. **`/content/screens/we-retail-run`** 에는 Screens 콘텐츠 구조가 포함되어 있습니다. 이러한 모든 경로의 콘텐츠는 주로 AEM에서 업데이트됩니다. 환경(로컬, 개발, 스테이지, 프로덕션) 간의 일관성을 향상시키기 위해 기본 콘텐츠 구조가 소스 제어에 저장되는 경우가 많습니다.
 
 1. **AEM Screens > 로 이동합니다. `We.Retail` 프로젝트 실행:**
 
@@ -116,7 +116,7 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
 
    /apps/weretail-run/components/content/helloworld에 대한 속성
 
-   다음 **헬로 월드** 구성 요소가 **foundation/components/parbase** 구성 요소를 사용하여 시퀀스 채널 내에서 적절하게 사용할 수 있습니다.
+   다음 **헬로 월드** 구성 요소가 **foundation, components, parbase** 구성 요소를 사용하여 시퀀스 채널 내에서 적절하게 사용할 수 있습니다.
 
 1. 아래에 파일 만들기 `/apps/weretail-run/components/content/helloworld` 명명된 `helloworld.html.`
 
@@ -158,7 +158,7 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    </div>
    ```
 
-   위의 내용은 Hello World 구성 요소에 대한 프로덕션 마크업입니다. A `data-duration` 구성 요소가 시퀀스 채널에서 사용되므로 속성이 포함됩니다. 다음 `data-duration` 속성은 시퀀스 항목이 표시되는 기간을 알기 위해 시퀀스 채널에서 사용됩니다.
+   위의 내용은 Hello World 구성 요소의 프로덕션 마크업입니다. A `data-duration` 구성 요소가 시퀀스 채널에서 사용되므로 속성이 포함됩니다. 다음 `data-duration` 속성은 시퀀스 항목이 표시되는 기간을 알기 위해 시퀀스 채널에서 사용됩니다.
 
    구성 요소는 를 렌더링합니다. `div` 및 `h1` 텍스트가 있는 태그. `${properties.message}` 는 이라는 JCR 속성의 컨텐츠를 출력하는 HTL 스크립트의 일부입니다 `message`. 사용자가 다음에 대한 값을 입력할 수 있는 대화 상자가 만들어집니다. `message` 속성 텍스트입니다.
 
@@ -189,15 +189,15 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    </div>
    ```
 
-   이상은 Hello World 구성 요소에 대해 편집된 마크업입니다. 대화 상자 메시지가 채워진 경우 첫 번째 블록에는 구성 요소의 편집된 버전이 표시됩니다.
+   위의 내용은 Hello World 구성 요소에 대해 편집된 마크업입니다. 대화 상자 메시지가 채워진 경우 첫 번째 블록에는 구성 요소의 편집된 버전이 표시됩니다.
 
-   두 번째 블록은 대화 메시지를 입력하지 않은 경우 렌더링됩니다. 다음 `cq-placeholder` 및 `data-emptytext` 레이블 렌더링 ***헬로 월드*** 그 경우에 장소 보유자로서. 레이블의 문자열은 i18n을 사용하여 다국어로 구성하여 여러 로케일에서 작성할 수 있습니다.
+   두 번째 블록은 대화 상자 메시지를 입력하지 않은 경우 렌더링됩니다. 다음 `cq-placeholder` 및 `data-emptytext` 레이블 렌더링 ***헬로 월드*** 그 경우에 장소 보유자로서. 레이블의 문자열은 i18n을 사용하여 다국어로 구성하여 여러 로케일에서 작성할 수 있습니다.
 
 1. **Hello World 구성 요소에 사용할 Screens 이미지 대화 상자 복사**
 
    기존 대화 상자에서 시작한 다음 수정하는 것이 가장 쉽습니다.
 
-   1. 다음 위치에서 대화 상자를 복사합니다. `/libs/screens/core/components/content/image/cq:dialog`
+   1. 대화 상자를 복사할 위치: `/libs/screens/core/components/content/image/cq:dialog`
    1. 아래에 대화 상자 붙여넣기 `/apps/weretail-run/components/content/helloworld`
 
    ![이미지 복사 대화 상자](assets/copy-image-dialog.gif)
@@ -272,7 +272,7 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
 
 클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다.
 
-AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드에서 다르게 렌더링됩니다. 두 개의 클라이언트 라이브러리가 만들어집니다(하나는 편집 모드용, 두 번째는 미리보기/프로덕션용).
+AEM Screens 구성 요소는 편집 모드와 미리 보기 프로덕션 모드에서 다르게 렌더링됩니다. 두 개의 클라이언트 라이브러리가 만들어집니다. 하나는 편집 모드용이고 두 번째는 미리보기-프로덕션용입니다.
 
 1. Hello World 구성 요소의 클라이언트측 라이브러리에 대한 폴더를 만듭니다.
 
@@ -294,9 +294,9 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared에 대한 속성
 
-   categories 속성은 클라이언트 라이브러리를 식별하는 문자열입니다. cq.screens.componentcategory는 편집 모드와 미리보기/프로덕션 모드 모두에서 사용됩니다. 따라서 sharedclientlib에 정의된 모든 CSS/JS는 모든 모드에서 로드됩니다.
+   categories 속성은 클라이언트 라이브러리를 식별하는 문자열입니다. cq.screens.componentcategory는 편집 모드와 미리보기 프로덕션 모드 모두에서 사용됩니다. 따라서 sharedclientlib에 정의된 모든 CSS 또는 JS는 모든 모드에서 로드됩니다.
 
-   프로덕션 환경에서는 경로를 /apps에 직접 노출하지 않는 것이 좋습니다. allowProxy 속성은 접두사 of/etc.clientlibs을 통해 클라이언트 라이브러리 CSS 및 JS를 참조하도록 합니다.
+   가장 좋은 방법은 로 직접 이동하는 경로입니다. `/apps` 프로덕션 환경에서는 를 노출해서는 안 됩니다. allowProxy 속성은 클라이언트 라이브러리 CSS 및 JS가 접두사를 통해 참조되도록 합니다. `/etc.clientlibs`.
 
 1. 파일 만들기: `css.txt` 공유 폴더 아래에 있습니다.
 
@@ -342,7 +342,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
 1. 업데이트 `categories` 다음이 될 프로덕션 클라이언트 라이브러리의 속성 `cq.screens.components.production.`
 
-   이렇게 하면 미리 보기/프로덕션 모드일 때만 스타일이 로드됩니다.
+   이렇게 하면 스타일이 미리 보기-프로덕션 모드에 있을 때만 로드됩니다.
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/production용 속성](assets/2018-04-30_at_5_04pm.png)
 
@@ -394,7 +394,7 @@ AEM Screens 사용 [정적 페이지 템플릿](https://experienceleague.adobe.c
    | 이름 | 유형 | 값 |
    |---|---|---|
    | `jcr:title` | 문자열 | `We.Retail` 실행 |
-   | `sling:resourceType` | 문자열 | wcm/core/components/designer |
+   | `sling:resourceType` | 문자열 | `wcm`, `core`, `components`, `designer` |
    | `cq:doctype` | 문자열 | html_5 |
 
    ![/apps/settings/wcm/designs/we-retail-run의 디자인 페이지](assets/2018-05-07_at_1219pm.png)
@@ -453,11 +453,11 @@ Hello World 구성 요소는 시퀀스 채널에서 사용됩니다. 구성 요�
 
 ## 사용자 지정 처리기용 템플릿 {#custom-handlers}
 
-사용자 지정 구성 요소가 에셋(이미지, 비디오, 글꼴 및 아이콘), 특정 에셋 표현물 또는 클라이언트측 라이브러리(css 및 js)와 같은 외부 리소스를 사용하는 경우 오프라인 구성에 자동으로 추가되지 않습니다. 그 이유는 기본적으로 HTML 마크업만 번들로 제공되기 때문입니다.
+사용자 지정 구성 요소가 에셋(이미지, 비디오, 글꼴 및 아이콘), 특정 에셋 표현물 또는 클라이언트측 라이브러리(css 및 js)와 같은 외부 리소스를 사용하는 경우 이러한 리소스는 오프라인 구성에 자동으로 추가되지 않습니다. 그 이유는 기본적으로 HTML 마크업만 번들로 제공되기 때문입니다.
 
-플레이어에 다운로드되는 정확한 에셋을 맞춤화하고 최적화할 수 있도록 하기 위해 Adobe은 사용자 지정 구성 요소가 AEM Screens의 오프라인 캐싱 논리에 종속성을 노출하도록 하는 확장 메커니즘을 제공합니다.
+플레이어에 다운로드되는 정확한 에셋을 맞춤화하고 최적화할 수 있도록 하기 위해 Adobe은 확장 메커니즘을 제공합니다. 이 메커니즘은 사용자 지정 구성 요소가 AEM Screens의 오프라인 캐싱 논리에 종속성을 노출하기 위한 것입니다.
 
-아래 섹션에서는 사용자 지정 오프라인 리소스 핸들러에 대한 템플릿과 `pom.xml` 특정 프로젝트에 사용할 수 있습니다.
+아래 섹션에서는 사용자 지정 오프라인 리소스 핸들러에 대한 템플릿을 보여줍니다. 또한 의 최소 요구 사항도 표시합니다. `pom.xml` 특정 프로젝트에 사용할 수 있습니다.
 
 ```java
 package …;
@@ -546,7 +546,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
       </dependencies>
 ```
 
-**참고** : AEMaaCS의 경우 `pom.xml` 특정 프로젝트에 사용할 수 있습니다.
+**참고** AEM : as a Cloud Service이 있는 경우 다음에서 종속성 아래를 사용하십시오. `pom.xml` 특정 프로젝트에 사용할 수 있습니다.
 
 ```css
    <dependencies>
@@ -574,7 +574,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 1. 직접 확장하는 대신 `foundation/components/parbase`, 다음 중 하나를 확장해야 합니다. `screens/core/components/content/page` 또는 `screens/core/components/content/experiencefragment`
 2. 포함된 콘텐츠를 참조하는 데 사용하는 속성의 이름은 다음과 같아야 합니다. `pagePath`.
 
-이러한 두 개의 Screens 핵심 구성 요소를 사용하면 필요한 종속성(클라이언트측 라이브러리, 글꼴 등)을 번들로 제공할 수 있다는 추가적인 이점이 있습니다. 구성 요소 대화 상자에서 오프라인 구성 옵션을 통해 이렇게 하면 이 작업에 사용해야 하는 사용자 지정 오프라인 처리기의 책임이 줄어듭니다. 심지어 애초에 이를 사용할 필요를 완전히 제거할 수도 있습니다.
+이러한 두 개의 Screens 핵심 구성 요소를 사용하면 필요한 종속성(클라이언트측 라이브러리, 글꼴 등)을 번들로 제공할 수 있다는 추가적인 이점이 있습니다. 이 기능은 구성 요소 대화 상자의 오프라인 구성 옵션을 통해 수행됩니다. 그런 다음 이를 위해 사용해야 하는 모든 사용자 지정 오프라인 처리기의 책임이 줄어듭니다. 심지어 애초에 이를 사용할 필요를 완전히 제거할 수도 있습니다.
 
 ## 완료된 코드 {#finished-code}
 

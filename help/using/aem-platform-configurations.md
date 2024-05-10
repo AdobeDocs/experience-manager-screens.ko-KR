@@ -2,14 +2,14 @@
 title: AEM Platform 구성
 description: 이 페이지에서는 AEM 플랫폼 구성에 대해 설명합니다
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-# AEM Platform 구성  {#platform-configurations}
+# AEM Platform 구성 {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->작성자와 게시가 각각 한 명만 있는 경우 다음 단계만 수행합니다. **작성자에 대한 복제 에이전트 설정** 위치: [AEM Screens에서 작성자 및 게시 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 페이지를 가리키도록 업데이트하는 중입니다.
+>작성자와 게시가 각각 한 명만 있는 경우 다음 단계만 따를 수 있습니다. **작성자에 대한 복제 에이전트 설정** 위치: [AEM Screens에서 작성자 및 게시 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 페이지를 가리키도록 업데이트하는 중입니다.
 
 ## Dispatcher 구성 {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및 로드 밸런싱 도구입�
 
 ## 암호 제한 {#password-restrictions}
 
-AMS 인스턴스에서 AEM의 암호 정책을 사용하지 않도록 설정해야 합니다. Screens 장치 서비스를 사용하여 웹 콘솔에서 교대로 구성할 수 있습니다. *com.adobe.cq.screens.device.impl.DeviceService*
+AMS 인스턴스에서 AEM의 암호 정책을 사용하지 않도록 설정해야 합니다. 또한 Screens 장치 서비스를 사용하여 웹 콘솔에서 교대로 구성할 수도 있습니다 *com.adobe.cq.screens.device.impl.DeviceService*
 다음을 참조하십시오 **암호 제한** 의 섹션[AEM Screens에서 작성자 및 게시 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## 환경 설정 {#setting-up-environments}
@@ -71,4 +71,4 @@ AMS 인스턴스에서 AEM의 암호 정책을 사용하지 않도록 설정해�
 
 ACL을 설정하면 각 개인 또는 팀이 자체 프로젝트를 처리하도록 프로젝트를 분리하는 방법을 설명합니다.
 
-을(를) 참조하십시오 [ACL 설정](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) 을 참조하십시오.
+다음을 참조하십시오 [ACL 설정](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) 을 참조하십시오.

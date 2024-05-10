@@ -1,13 +1,13 @@
 ---
 title: 플레이어 자동 등록
-description: AMS/On-Prem Screens에 있는 플레이어의 자동 등록에 대해 배울 수 있도록 이 페이지를 따르십시오.
+description: AMS/On-Prem Screens에 플레이어의 자동 등록에 대해 배울 수 있도록 이 페이지를 따르십시오.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. AEM 인스턴스에 로그인하고 AEM Screens 프로젝트를 클릭한 다음 를 클릭합니다. **속성** 작업 표시줄에서
 1. 다음을 클릭합니다. **고급** 탭을 사용하여 다음을 볼 수 있습니다. **장치 등록** 섹션.
 
-1. 에서 자동 등록 코드 지정 **일괄 등록 코드** 필드 및 선택적 기본 표시 위치 **기본 디스플레이 할당** 를 입력하여 자동 등록된 플레이어에 할당합니다.
+1. 에서 자동 등록 코드를 지정합니다. **일괄 등록 코드** 필드. 그런 다음 선택적 기본 디스플레이가 **기본 디스플레이 할당** 를 입력하여 자동 등록된 플레이어에 할당합니다.
 
    >[!NOTE]
    >원하는 코드를 입력하고 필요한 경우 기본 표시를 클릭합니다.
@@ -51,4 +51,4 @@ ht-degree: 0%
 * 항상 사용 `HTTPS` 및 아님 `HTTP` AEM과의 플레이어 커뮤니케이션용.
 
   >[!NOTE]
-  >기본 표시 할당은 현재 일괄 등록에만 작동하며 등록 코드가 없는 수동 등록에는 작동하지 않습니다.
+  >기본 표시 할당은 현재 일괄 등록에만 작동합니다. 등록 코드를 사용할 수 없는 경우 수동 등록에는 작동하지 않습니다.
