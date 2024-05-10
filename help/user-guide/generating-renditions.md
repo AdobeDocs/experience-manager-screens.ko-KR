@@ -9,26 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # 비디오 표현물 {#video-renditions}
 
-수동 및 자동 Full HD 표현물을 생성할 수 있습니다. 다음 섹션에서는 자산에 렌디션을 추가하는 워크플로에 대해 설명합니다.
+수동 및 자동 풀 HD 변환을 생성할 수 있습니다. 다음 섹션에서는 자산에 렌디션을 추가하는 워크플로에 대해 설명합니다.
 
-## Full HD 렌디션 자동 생성  {#automatically-generating-full-hd-renditions}
+## Full HD 렌디션 자동 생성 {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->AEM Screens 비디오 렌디션이 장치에서 최적으로 재생되지 않는 경우 하드웨어 공급업체에 문의하여 비디오 사양을 확인하십시오. 이렇게 하면 장치에서 최상의 성능을 얻고 FFMPEG에 적합한 매개 변수를 제공하여 렌디션을 생성하는 사용자 정의 비디오 프로필을 만들 수 있습니다. 그런 다음 아래 단계를 사용하여 사용자 지정 비디오 프로필을 프로필 목록에 추가합니다.
+>AEM Screens 비디오 렌디션이 장치에서 최적으로 재생되지 않는 경우 하드웨어 공급업체에 문의하여 비디오 사양을 확인하십시오. 이렇게 하면 장치에서 최상의 성능을 얻는 데 도움이 됩니다. 이렇게 하면 FFMPEG에 적합한 매개 변수를 제공하여 렌디션을 생성하는 사용자 지정 비디오 프로필을 만들 수 있습니다. 그런 다음 아래 단계를 사용하여 사용자 지정 비디오 프로필을 프로필 목록에 추가합니다.
 >
 >또한 다음을 참조하십시오 [비디오 문제 해결](troubleshoot-videos.md) 을 클릭하여 채널에서 비디오가 재생되는 문제를 해결하고 디버깅하십시오.
 
-전체 HD 렌디션을 자동으로 생성하려면 아래 절차를 따르십시오.
+아래 단계에 따라 전체 HD 렌디션을 자동으로 생성합니다.
 
 1. Adobe Experience Manager 링크(왼쪽 상단)를 클릭하고 해머 아이콘을 클릭하여 **워크플로**.
 

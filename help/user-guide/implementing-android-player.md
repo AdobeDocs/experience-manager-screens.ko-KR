@@ -1,6 +1,6 @@
 ---
-title: Android 플레이어 구현
-description: Android 플레이어를 충돌에서 복구할 수 있는 솔루션인 Android Watchdog의 구현에 대해 알아봅니다.
+title: Android&trade 구현; 플레이어
+description: Android&trade; Watchdog, Android&trade; 플레이어의 충돌을 복구할 수 있는 솔루션인 구현에 대해 알아봅니다.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Ad-Hoc 메서드를 사용하면 최신 Android™ Player(*.exe*). 다음 방문
 응용 프로그램을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
 1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
-1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 연결하려는 AEM 인스턴스의 위치(주소)를 입력하고 를 클릭합니다 **저장**.
+1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 연결할 AEM 인스턴스의 위치(주소)를 입력하고 을(를) 클릭합니다 **저장**.
 
 1. 다음 위치로 이동 **장치** **등록** 디바이스 등록 프로세스의 상태를 확인할 수 있도록 왼쪽 작업 메뉴에서 링크를 클릭합니다.
 

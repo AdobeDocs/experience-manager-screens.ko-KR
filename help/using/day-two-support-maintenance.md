@@ -2,9 +2,9 @@
 title: 2일 지원 및 유지 관리
 description: 2일차 AEM Screens 지원 및 유지 관리에 대해 알아봅니다.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 AEM Screens이 작동하려면 프로젝트가 작동하는 여러 패키지가 필요합니다. 모든 환경에서 동일한 버전의 Adobe Experience Manager을 실행해야 합니다.
 
-프로젝트 개발 2일차 단계에 대한 지원 및 유지 관리로서 다음 지침을 따르십시오.
+프로젝트 개발 단계 2일차에 대한 지원 및 유지 관리에 대한 지침을 따르십시오.
 
 1. 사용 중인 Adobe Experience Manager 버전에 대해 최신 버전의 다음 패키지를 실행합니다.
 

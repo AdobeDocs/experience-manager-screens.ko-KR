@@ -2,9 +2,9 @@
 title: AEM Screens에 대한 UX 종속성
 description: AEM Screens의 UX 종속성에 대해 자세히 알아보십시오.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---

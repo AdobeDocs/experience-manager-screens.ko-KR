@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Ad-Hoc 메서드를 사용하면 최신 Windows Player(*.exe*). 다음 방문: [
 응용 프로그램을 다운로드한 후 플레이어의 단계에 따라 임시 설치를 완료합니다.
 
 1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
-1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 연결하려는 AEM 인스턴스의 위치(주소)를 입력하고 를 클릭합니다 **저장**.
+1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 연결할 AEM 인스턴스의 위치(주소)를 입력하고 을(를) 클릭합니다 **저장**.
 1. 다음 위치로 이동 **장치** **등록** 디바이스 등록 프로세스의 상태를 확인할 수 있도록 왼쪽 작업 메뉴에서 링크를 클릭합니다.
 
 >[!NOTE]
