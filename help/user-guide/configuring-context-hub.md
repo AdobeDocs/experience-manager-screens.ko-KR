@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ AEM Screens 프로젝트에서 인벤토리 기반 채널을 만들고 관리하
 
 **대상자** - 규칙을 정의합니다.
 
-**세그먼트** - 주어진 규칙에 대해 재생할 에셋 버전. 예를 들어, 온도가 화씨 50도 미만이면 화면에는 뜨거운 음료, 아니면 차가운 음료의 이미지가 표시됩니다.
+**세그먼트** - 주어진 규칙에 대해 재생할 에셋의 버전입니다. 예를 들어, 온도가 화씨 50도 미만이면 화면에는 뜨거운 음료, 아니면 차가운 음료의 이미지가 표시됩니다.
 
 다음 다이어그램은 ContextHub 구성이 활동, 대상 및 채널과 일치하는 방식을 시각적으로 보여 줍니다.
 
@@ -41,7 +41,7 @@ AEM Screens 프로젝트에서 인벤토리 기반 채널을 만들고 관리하
 
 ## 전제 조건 {#preconditions}
 
-AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데모용으로 Google Sheets를 설정하십시오.
+AEM Screens 프로젝트에 대한 ContextHub 구성을 시작하기 전에 데모용으로 Google Sheets를 설정하십시오.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 
 데이터 저장소를 로컬 I/O 이벤트 또는 로컬 데이터베이스 이벤트로 설정할 수 있습니다.
 
-다음 에셋 수준 데이터 트리거 예제는 ContextHub 구성 및 AEM Screens 채널에 대한 세그먼트 경로를 사용할 수 있도록 해 주는 Excel 시트와 같은 데이터 저장소를 설정하는 로컬 데이터베이스 이벤트를 보여 줍니다.
+다음 자산 수준 데이터 트리거 예제는 로컬 데이터베이스 이벤트를 보여 줍니다. 이 이벤트는 ContextHub 구성 및 AEM Screens 채널에 대한 세그먼트 경로를 사용할 수 있도록 해 주는 Excel 시트와 같은 데이터 저장소를 설정합니다.
 
 을(를) 설정한 후 `google` 아래 예에 표시된 대로 시트를 올바르게 작성합니다.
 
@@ -67,7 +67,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 
 >[!NOTE]
 >
->아래 특정 예제에서는 값이 100보다 크거나 50보다 작은 경우 자산 변경을 트리거하는 데이터 저장소인 google sheets를 보여 줍니다.
+>아래 특정 예제에서는 값이 100보다 크거나 50보다 작은 경우 자산 변경을 트리거하는 데이터 저장소인 Google Sheets를 보여 줍니다.
 
 ## 2단계: 저장소 구성 설정 {#step-setting-store-configurations}
 
@@ -146,7 +146,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 
       >[!CAUTION]
       >
-      >전역 폴더 외부(예: 자체 프로젝트 폴더)에서 Google Sheets 스토어 구성을 생성하는 경우 타깃팅이 즉시 작동하지 않습니다.
+      >전역 폴더 외부(예: 자체 프로젝트 폴더)에 구성을 저장하도록 Google 시트를 만드는 경우 타깃팅이 즉시 작동하지 않습니다.
 
 1. **스토어 세분화 설정**
 
@@ -166,7 +166,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 
    1. AEM 인스턴스에서 다음으로 이동 **개인화** > **대상** > **screens**.
 
-   1. 클릭 **만들기** > **Context Hub 세그먼트 만들기** 다음 **새 ContextHub 세그먼트** 대화 상자가 열립니다.
+   1. 클릭 **만들기** > **ContextHub 세그먼트를 만듭니다.** 다음 **새 ContextHub 세그먼트** 대화 상자가 열립니다.
 
    1. 다음을 입력합니다. **제목** 다음으로: `**Higherthan50**` 및 클릭 **만들기**. 마찬가지로 이라는 다른 세그먼트를 만듭니다. `**Lowerthan50**`.
 
@@ -304,7 +304,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 
       >[!NOTE]
       >
-      >처음에 ContextHub 구성 및 세그먼트를 저장한 ContextHub 및 세그먼트 경로를 사용합니다.
+      >ContextHub 구성 및 세그먼트를 처음 저장한 ContextHub 및 세그먼트 경로를 사용합니다.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ AEM Screens 프로젝트에 대한 Context Hub 구성을 시작하기 전에 데
 
       >[!NOTE]
       >
-      >모든 것을 올바르게 설정했으면 다음과 같이 표시됩니다 **타겟팅** 아래 그림과 같이 편집기에서 드롭다운에 있는 옵션입니다.
+      >모든 것을 올바르게 설정한 경우 **타겟팅** 아래 그림과 같이 편집기에서 드롭다운에 있는 옵션입니다.
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub21.png)
 

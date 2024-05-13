@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 * *ui를 통해 수동으로 선택하는 것보다 훨씬 나은 성능을 제공합니다.*
 * *고객이 보유한 위치를 자체 시스템에서 내보내고 AEM에서 직접 쉽게 가져올 수 있습니다*
 
-이렇게 하면 초기 프로젝트 설정 중에 또는 기존 AEM Screens을 새 위치로 확장할 때 시간과 비용을 절약할 수 있습니다.
+이 프로세스는 초기 프로젝트 설정 중에 또는 기존 AEM Screens을 새 위치로 확장할 때 시간과 비용을 모두 절약합니다.
 
 ## 아키텍처 개요 {#architectural-overview}
 
@@ -51,14 +51,14 @@ ht-degree: 1%
 | **속성** | **설명** |
 |---|---|
 | ***`path {string*}`*** | 위치에 대한 리소스 경로 |
-| ***`[./jcr:title] {string*}`*** | 사용할 템플릿의 이름(위치) *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | 사용할 템플릿의 이름(즉, 위치) *screens/core/templates/location*) |
 | ***`template {string}`*** | 페이지에 사용할 선택적 제목 |
 | ***`[./jcr:description] {string}`*** | 페이지에 사용할 선택적 설명 |
 
 스프레드시트(CSV/XLS) 파일에는 다음 열이 필요합니다.
 
 * **경로 {string}** - 가져올 위치의 경로. 여기서 경로의 루트는 프로젝트의 위치 폴더입니다(즉, *`/foo`* 을(를) (으)로 가져옴 *`/content/screens/<project>/locations/foo`*)
-* **템플릿 {string}** - 새 위치에 사용할 템플릿은 현재 허용되는 유일한 값이 &quot;위치&quot;이지만 향후 모든 Screens 템플릿으로 확장됩니다(`display`, `sequencechannel`등)
+* **템플릿 {string}** - 새 위치에 사용할 템플릿은 현재로서는 &quot;위치&quot;만 허용되지만, 이 값은 향후 모든 Screens 템플릿으로 확장됩니다(`display`, `sequencechannel`등)
 * **[/*] {string}** - 위치에 설정할 모든 옵션 속성(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). 현재 릴리스에서는 필터링을 허용하지 않습니다.
 
 >[!NOTE]

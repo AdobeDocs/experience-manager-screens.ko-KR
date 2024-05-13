@@ -2,9 +2,9 @@
 title: Analytics와 AEM Screens
 description: Adobe Experience Manager Screens을 사용하는 Adobe Analytics에 대해 알아봅니다.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >이 활동의 일반적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
 
-AEM Screens은 각 플레이어 장치가 실행하는 추적 가능한 모든 이벤트를 로컬에서 캡처하는 기능을 제공합니다. 이 데이터는 처리를 위해 클라우드에 업로드할 수 있을 때까지 로컬에 저장됩니다. 모든 이벤트 데이터 외에 deviceID와 타임스탬프도 추가됩니다. 이렇게 하면 한 플레이어의 데이터를 다른 플레이어와 구별할 수 있으며 원하는 경우 하루 중 다른 시간에 실행되는 데이터를 별도로 평가할 수 있습니다.
+AEM Screens은 각 플레이어 장치가 실행하는 추적 가능한 모든 이벤트를 로컬에서 캡처할 수 있습니다. 이 데이터는 처리를 위해 클라우드에 업로드할 수 있을 때까지 로컬에 저장됩니다. 모든 이벤트 데이터 외에 deviceID와 타임스탬프도 추가됩니다. 이 기능을 사용하면 한 플레이어의 데이터를 다른 플레이어와 구분할 수 있습니다. 또한, 원하는 경우 하루 중 다른 시간에 실행되는 데이터를 별도로 평가할 수 있습니다.
 
 이 데이터를 캡처하려는 근본적인 이유는 두 가지가 있습니다.
 

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이 사용 사례의 경우 Google Sheet에 두 개의 레스토랑 예약 비율이 채워집니다 **`Restaurant1`** 및 **`Restaurant2`**. 수식은 다음 값을 기반으로 적용됩니다. `Restaurant1` 및 `Restaurant2` 그리고 수식을 기반으로 값 1 또는 2가 **AdTarget** 열.
 
-다음 값: **`Restaurant1`** > **`Restaurant2`**, 그런 다음 **AdTarget** 이(가) 값을 할당함 **1** 그렇지 않은 경우 **AdTarget** 이(가) 값을 할당함 **2**. 값 1은 다음을 생성합니다. *스테이크 요리* option과 value 2를 사용하면 결과가 표시됩니다. *태국 음식* 옵션을 선택합니다.
+다음 값: **`Restaurant1`** > **`Restaurant2`**, 그런 다음 **AdTarget** 이(가) 값을 할당함 **1** 그렇지 않은 경우 **AdTarget** 이(가) 값을 할당함 **2**. 값 1은 *스테이크 요리* option과 value 2를 사용하면 *태국 음식* 옵션을 선택합니다.
 
 ## 전제 조건 {#preconditions}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 탭.
+   >사용자 **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 이 시점에서 탭이 이미 설정되어 있어야 합니다.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

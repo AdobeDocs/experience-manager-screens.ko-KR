@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -77,14 +77,14 @@ ht-degree: 2%
 
 ContentSync 구성을 테스트하려면 아래 단계를 따르십시오.
 
-1. 열기 `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. 열기 `https://localhost:4502/libs/cq/contentsync/content/console.html`.
 1. 목록에서 구성을 클릭합니다.
-1. 캐시 지우기 를 클릭합니다
-1. 캐시 업데이트를 클릭합니다
-1. Download Full 을 클릭합니다.
-1. zip 파일 추출
-1. 추출된 폴더에서 로컬 서버 시작
-1. 시작 페이지를 열고 앱 상태 확인
+1. 클릭 **캐시 지우기**.
+1. 클릭 **캐시 업데이트**.
+1. 클릭 **전체 다운로드**.
+1. zip 파일을 추출합니다.
+1. 추출된 폴더에서 로컬 서버를 시작합니다.
+1. 시작 페이지를 열고 앱 상태를 확인합니다.
 
 ## 채널에 대한 오프라인 구성 활성화 {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ ContentSync 구성을 테스트하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >
->사용자 지정 오프라인 리소스 핸들러의 템플릿 및 의 최소 요구 사항에 대해 자세히 알아보려면 `pom.xml` 특정 프로젝트에 대해서는 [사용자 지정 처리기용 템플릿](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 위치: **AEM Screens용 맞춤형 구성 요소 개발**.
+>사용자 지정 오프라인 리소스 핸들러의 템플릿에 대해 알아봅니다. 또한 의 최소 요구 사항에 대해 자세히 알아보십시오. `pom.xml` 프로젝트용입니다. 다음을 참조하십시오 [사용자 지정 처리기용 템플릿](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 위치: **AEM Screens용 맞춤형 구성 요소 개발**.

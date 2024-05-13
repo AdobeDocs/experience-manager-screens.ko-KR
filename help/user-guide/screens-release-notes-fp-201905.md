@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ SmartSync는 서버 로드/스토리지 및 네트워크 트래픽을 최소화�
 
 * **AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합**
 
-이 섹션에서는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 포함하는 방법에 대해 설명합니다. 편집기는 AEM의 비즈니스 전문가가 구성할 수 있습니다. 또한 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법도 설명합니다.
+이 섹션에서는 AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 포함하는 방법에 대해 설명합니다. AEM의 비즈니스 전문가가 편집기를 구성할 수 있습니다. 또한 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법도 설명합니다.
 
 다음을 참조하십시오 **[AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합](embedding-react-app.md)** 을 참조하십시오.
 

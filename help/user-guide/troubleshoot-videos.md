@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -33,19 +33,19 @@ DAM에 비디오를 업로드하고 채널에 추가하면 AEM Screens 플레이
 
 다양한 렌디션(MP4 또는 M4V)이 있어야 합니다.
 
-렌디션이 없으면 AEM이 실행 중인 OS에 ffmpeg가 설치되어 있는지 확인하십시오.
+렌디션이 없으면 AEM이 실행 중인 OS에 FFMPEG가 설치되어 있는지 확인하십시오.
 
 >[!CAUTION]
 >
->렌디션이 없으면 AEM이 실행 중인 OS에 ffmpeg가 설치되어 있는지 확인하십시오.
+>렌디션이 없으면 AEM이 실행 중인 OS에 FFMPEG가 설치되어 있는지 확인하십시오.
 >
->클릭 [여기](https://www.ffmpeg.org/download.html) ffmpeg를 설치하려면
+>클릭 [여기](https://www.ffmpeg.org/download.html) FFMPEG를 설치합니다.
 
 ## 비디오 자산 {#video-assets}
 
 비디오에 소스 속성이 표시되지 않으면 비디오가 트랜스 코딩되지 않았을 수 있습니다. 비디오가 제대로 코드 변환되면 다음과 같이 대시보드에 표시됩니다.
 
-ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
+FFMPEG가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 1. 테스트 비디오를 업로드하고 **확인** 코드 변환 작업을 시작할 수 있습니다.
 
-   트랜스코딩된 비디오가 실패할 경우 ffmpeg 출력을 확장하여 ffmpeg의 콘솔 출력에 발생한 오류를 파악합니다.
+   트랜스코딩된 비디오가 실패할 경우 FFMPEG 출력을 확장하여 FFMPEG의 콘솔 출력에서 발생한 오류를 파악합니다.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -86,7 +86,7 @@ ffmpeg가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 사용 **웹 플레이어** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 를 사용하여 브라우저(Chrome 및 Safari)에서 재생의 유효성을 검사합니다. Safari가 OS X 및 iOS 브라우저인 동안 Chrome은 Android™ 디바이스에서 사용됩니다.
 
-비디오가 Safari에서 실행되지 않는 경우 OS X 및 iOS 플레이어에서도 실행되지 않습니다. 이는 인코딩 문제일 수 있으며 비디오를 다시 인코딩해야 합니다.
+비디오가 Safari에서 실행되지 않는 경우 OS X 및 iOS 플레이어에서도 실행되지 않습니다. 이 문제는 인코딩 문제일 수 있으며 비디오를 다시 인코딩해야 합니다.
 
 DAM 워크플로우를 사용하여 FullHD 렌디션을 만들려면 다음 작업을 수행하십시오.
 
@@ -113,7 +113,7 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
 
 >[!NOTE]
 >
->Chrome의 새로운 자동 재생 정책을 통해 유용한 사용자 경험을 위한 모범 사례에 대한 자세한 내용은 다음 설명서를 참조하십시오. *자동 재생 정책 변경 사항* 위치: `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Chrome의 새로운 자동 재생 정책으로 유용한 사용자 경험을 위한 모범 사례에 대해 자세히 알아보십시오. 다음을 참조하십시오 *자동 재생 정책 변경 사항* 위치: `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### 여러 플레이어에서 비디오 동기화 {#syncing-video-across-multiple-players}
 
