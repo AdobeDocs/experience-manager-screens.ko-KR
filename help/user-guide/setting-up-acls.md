@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 다음 섹션에서는 각 개인 또는 팀이 자체 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 설명합니다.
 
-AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 않고 프로젝트 요구 사항에 따라 각 사용자에게 특정 역할이 할당되도록 하려는 경우
+AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 않도록 해야 합니다. 각 사용자에게는 프로젝트 요구 사항에 따라 특정 역할이 할당됩니다.
 
 ## 권한 설정 {#setting-up-permissions}
 
@@ -66,12 +66,12 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
 
 | **경로** | **권한** | **설명** |
 |---|---|---|
-| `/apps/<project>` | 읽기 | 해당되는 경우 프로젝트 파일에 대한 액세스를 제공합니다. |
-| `/content/dam/<project>` | 모두 | DAM에 이미지 또는 비디오와 같은 프로젝트 에셋을 저장할 수 있는 액세스 권한을 제공합니다. |
+| `/apps/<project>` | 읽기 | 해당되는 경우 프로젝트 파일에 대한 액세스 권한을 제공합니다. |
+| `/content/dam/<project>` | 모두 | DAM에 이미지 또는 비디오와 같은 프로젝트 자산을 저장할 수 있는 액세스 권한을 제공합니다. |
 | `/content/screens/<project>` | 모두 | /content/screens 아래의 다른 모든 프로젝트에 대한 액세스를 제거합니다. |
 | `/content/screens/svc` | 읽기 | 등록 서비스에 대한 액세스 권한을 제공합니다. |
-| `/libs/screens` | 읽기 | DCC에 대한 액세스를 제공합니다. |
-| `/var/contentsync/content/screens/` | 모두 | 프로젝트의 오프라인 콘텐츠를 업데이트할 수 있습니다. |
+| `/libs/screens` | 읽기 | DCC에 대한 액세스 권한을 제공합니다. |
+| `/var/contentsync/content/screens/` | 모두 | 프로젝트의 오프라인 콘텐츠를 업데이트하는 데 도움이 됩니다. |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
   </tr>
   <tr>
    <td>스크린 플레이어<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>모든 플레이어 및 모든 플레이어/장치를 그룹화하면 자동으로 기여자의 구성원이 됩니다.</td>
+   <td>모든 플레이어 및 모든 플레이어/장치는 자동으로 기여자의 구성원입니다.</td>
    <td><p> 기여자 구성원</p> </td>
   </tr>
  </tbody>

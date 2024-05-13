@@ -5,9 +5,9 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 
 이 페이지는 이러한 구성을 별도로 게시하는 데 필요한 수동 단계를 학습하는 데 도움이 됩니다.
 
-기본적으로 수동 게시로 이어집니다.
+이 프로세스는 기본적으로 다음을 수동으로 게시합니다.
 
 1. ContextHub 저장소 및 UI 모듈 구성
 1. 개인화 대상자
@@ -64,7 +64,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 
 1. 클릭 **다음** 및 **게시**.
 
-### 활동 복제  {#replicating-activities}
+### 활동 복제 {#replicating-activities}
 
 1. AEM 인스턴스로 이동합니다. > **개인화** > **활동** 또는 사용 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 바로 탐색할 수 있습니다.
 
@@ -92,9 +92,9 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 
 ContextHub 구성을 복제하는 동안 테스트 연결에 실패하는 경우 아래 섹션에 문제 해결을 참조하십시오.
 
-1. 도구 > 로 이동합니다 **배포** > **배포** > **에이전트 게시**.
+1. 다음으로 이동 **도구** > **배포** > **배포** > **에이전트 게시**.
 
-1. 클릭 **편집** 작업 표시줄에서 이 끝점 URL이 **가져오기 종단점** 또한 필드는 배포 에이전트의 게시 서버 URL을 가리킵니다.
+1. 클릭 **편집** 작업 표시줄에서 이(가) **가져오기 종단점** 또한 필드는 배포 에이전트의 게시 서버 URL을 가리킵니다.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 기본 관리자 자격 증명을 사용하지 않는 경우에는 다른 사용자 이름과 암호로 분배 에이전트를 구성해야 합니다.

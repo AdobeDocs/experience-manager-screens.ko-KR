@@ -2,9 +2,9 @@
 title: 장치 사양
 description: AEM Screens과 관련된 장치 사양에 대해 자세히 알아보십시오.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---

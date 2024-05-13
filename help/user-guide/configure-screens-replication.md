@@ -4,9 +4,9 @@ description: Screens 복제 에이전트를 구성하는 방법에 대해 알아
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## 목표 {#objective}
 
-Screens 복제 에이전트는 다음과 같은 명령 데이터를 가져옵니다. *사용자*, *암호*, *rebootScheduling*, *maxNumberOfLogfilesToKeep*, 게시에서 작성자에 이르기까지 이러한 다양한 값. 작성자가 장치 ping을 표시할 수 있도록 이를 구성하는 것이 필수적이다.
+Screens 복제 에이전트는 다음과 같은 명령 데이터를 가져옵니다. *사용자*, *암호*, *rebootScheduling*, *maxNumberOfLogfilesToKeep*, 게시에서 작성자에 이르기까지 이러한 다양한 값. 작성자가 장치 ping을 표시할 수 있도록 이 에이전트를 구성해야 합니다.
 
 >[!NOTE]
 >Screens 복제 에이전트에 대한 자세한 내용은 [화면 복제 에이전트 및 명령](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -93,7 +93,7 @@ Screens 복제 에이전트에 대한 구성을 완료하려면 다음 두 섹�
 아래 섹션을 따라 수행하여 AEM Screens 복제 에이전트의 설정을 업데이트합니다.
 
 >[!IMPORTANT]
->모든 기존 AEM Screens 복제 에이전트에서 다음 단계를 완료합니다.
+>기존의 모든 AEM Screens 복제 에이전트에서 다음 단계를 완료합니다.
 
 1. AEM 인스턴스로 이동합니다.
 1. 도구 > 를 클릭합니다 **배포** > **복제**.

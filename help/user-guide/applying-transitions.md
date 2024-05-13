@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM Screens 프로젝트에 전환 구성 요소를 추가하려면 아래 단�
 
    >[!NOTE]
    >
-   >다음 **테스트 전환** 채널에 이미 에셋(이미지 및 비디오)이 거의 없습니다. 예를 들어 **테스트 전환** 채널에는 아래에 표시된 대로 세 개의 이미지와 두 개의 비디오가 포함됩니다.
+   >다음 **테스트 전환** 채널에 이미 몇 가지 에셋(이미지 및 비디오)이 있습니다. 예를 들어 **테스트 전환** 채널에는 아래에 표시된 대로 세 개의 이미지와 두 개의 비디오가 포함됩니다.
 
    ![image2](assets/transitions2.png)
 
