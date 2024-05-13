@@ -1,9 +1,9 @@
 ---
 title: 직접 배치 워크플로 구성
 description: 이 페이지에서는 직접 배치 워크플로우 구성을 중점적으로 다룹니다.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ ht-degree: 1%
 
 1. AEM 인스턴스에서 AEM Screens으로 이동하여 이라는 Screens 프로젝트를 만듭니다. **자산 워크플로우**.
 
-1. 이라는 제목이 있는 채널 만들기 **Workflow-Assets** 아래에 **채널** 폴더를 삭제합니다.
+1. 이라는 제목이 있는 채널 만들기 **Workflow-Assets** 다음 아래에 **채널** 폴더를 삭제합니다.
 

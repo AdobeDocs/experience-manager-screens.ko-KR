@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일의 새 프로젝트 가져오기](project-importer.md)
    + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
-   + [Screens 복제 에이전트 구성](configure-screens-replication.md)
+   + [화면에 복제 에이전트 구성](configure-screens-replication.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [크롬 OS 플레이어](implementing-chrome-os-player.md)
       + [Chrome Player를 문제 해결을 위한 확장 프로그램으로 사용](using-chrome-player-as-an-extension.md)
@@ -100,7 +100,7 @@ ht-degree: 11%
       + [전환 적용](applying-transitions.md)
       + [다중 영역에서 단일 영역으로 전환](multizone-to-singlezone.md)
       + [단일 사용 전환 채널](single-use-takeover-channel.md)
-      + [영구 사용 전환 채널](perpetual-takeover-channel.md)
+      + [TakeOver Channel의 지속적인 사용](perpetual-takeover-channel.md)
 + 개발자 및 API 리소스 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens용 맞춤형 구성 요소 개발](developing-custom-component-tutorial-develop.md)

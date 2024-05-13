@@ -1,7 +1,7 @@
 ---
 title: 환경 [!UICONTROL AEM Screens]
 description: AEM Screens 프로젝트 환경에 대해 자세히 알아보십시오.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
