@@ -1,7 +1,7 @@
 ---
 title: 경험 조각 활성화
 description: AEM Screens과 관련된 경험 조각 활성화에 대해 학습하는 데 도움이 되는 사용 사례 예입니다.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### AEM Screens 프로젝트에서 경험 조각 구현 {#experience-fragments-implementation}
 
-경험 조각을 만들어 AEM Screens 프로젝트에 적용한 경우 **DemoProject** 요구 사항에 따라 경험 조각을 향상시킬 수 있습니다.
+경험 조각을 만들어 AEM Screens 프로젝트에 적용한 경우 **DemoProject**, 요구 사항에 따라 경험 조각을 향상시킬 수 있습니다.
 
 ### 텍스트 크기 늘리기 {#increasing-text-size}
 

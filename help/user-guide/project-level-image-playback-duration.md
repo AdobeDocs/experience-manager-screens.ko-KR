@@ -2,9 +2,9 @@
 title: 프로젝트 수준 이미지 재생 기간
 description: 프로젝트 수준에서 이미지 재생 기간을 정의하는 방법을 알아봅니다.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 이 기능을 사용하기 전에 프로젝트를 필수 구성 요소로 설정하여 이 기능을 구현하십시오. 예:
 
 1. AEM Screens 프로젝트 만들기(이 예에서는 **프로젝트 레벨 재생**).
-1. 다음으로 시퀀스 채널 만들기 **재생 채널** 아래에 **채널** 폴더를 삭제합니다.
+1. 다음으로 시퀀스 채널 만들기 **재생 채널** 다음 아래에 **채널** 폴더를 삭제합니다.
 1. 콘텐츠 추가 **재생 채널**.
 
    ![assets](assets/image_playback1.png)

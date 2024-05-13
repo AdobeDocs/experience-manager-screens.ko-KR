@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >다음을 설정해야 합니다. **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 탭.
+   >사용자 **컨텍스트 허브** **구성** 채널 사용 **속성** > **개인화** 탭이 이미 설정되어 있어야 합니다.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ ht-degree: 0%
 1. **미리보기 확인**
 
    1. 클릭 **미리 보기.** 또한 Google 시트를 열고 값을 업데이트합니다.
-   1. 값을 50 미만으로 변경합니다. 차가운 음료수의 이미지를 볼 수 있을 것이다. Google 시트의 값이 50 이상이면 뜨거운 음료의 이미지가 표시됩니다.
+   1. 값을 50 미만으로 변경합니다. 차가운 음료수의 이미지를 볼 수 있습니다. Google 시트의 값이 50 이상이면 뜨거운 음료의 이미지가 표시됩니다.
 
    ![result3](assets/result3.gif)

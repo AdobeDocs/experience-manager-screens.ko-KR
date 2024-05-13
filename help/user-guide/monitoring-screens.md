@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -144,13 +144,13 @@ AEM은 다음에 대한 내장 모니터링을 제공합니다.
 
 * *하트비트* 5초마다 AEM Screens 플레이어가 작동 중임을 나타냅니다.
 * *스크린샷* 플레이어에 표시되는 항목을 보여 주는 플레이어에서 가 표시됩니다.
-* 다음 *AEM Screens 플레이어 펌웨어* 플레이어에 설치된 버전입니다.
+* 다음 *AEM Screens 플레이어 펌웨어* 버전이 플레이어에 설치됩니다.
 * *사용 가능한 저장 공간* 플레이어에서.
 
 타사 소프트웨어를 사용한 원격 모니터링용 Recommendations:
 
 * 플레이어에서 CPU 사용량.
-* AEM Screens Player 프로세스가 실행 중인지 확인합니다.
+* AEM Screens 플레이어 프로세스가 실행 중인지 확인합니다.
 * 플레이어의 원격 재시작/재부팅
 * 실시간 알림.
 
