@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ AEM 설명서의 독자는 전 세계에 분포되어 있으므로 영어를 모
 문서에서 항상 전체 이름으로 제품을 참조합니다 **Adobe Experience Manager** 처음 사용되었을 때 그 후, 다음과 같이 언급될 수 있습니다. **AEM**.
 
 Day, Day Software, CQ 및 CRX는 클래스 이름이나 AEM의 작업 내역을 참조하는 등 불가피한 경우를 제외하고는 사용하지 않아야 합니다.
+
