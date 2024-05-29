@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 11%
       + [채널 레벨 벌크 이미지 재생 기간](channel-level-image-playback.md)
       + [명령 동기화](using-command-sync.md)
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
+      + [태그 사용](tagging.md)
       + [음성 인식](voice-recognition.md)
       + [컨텐츠 할당 보고서](content-assignment-report.md)
       + [비디오에 대한 썸네일 지원](thumbnail-support.md)
