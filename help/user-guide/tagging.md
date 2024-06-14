@@ -3,9 +3,9 @@ title: Screens Cloud에 태그 지정
 description: 이 페이지에서는 Screens Cloud에서 태그를 생성, 관리 및 사용하는 방법에 대해 설명합니다.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
+source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,18 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
-> 태그 이름에는 문자, 숫자, 대시 및 밑줄만 포함할 수 있습니다. 이름은 문자 또는 숫자로만 시작하고 끝나야 합니다.
 > 테넌트에는 총 500개의 태그가 허용됩니다
 
 ## 태그 할당 관리 {#manage-tags-assignments}
 
-디스플레이 및 플레이어에서 생성된 태그를 사용합니다. 최대 30개의 태그로 태그를 지정할 수 있습니다.
+디스플레이 및 플레이어에서 생성된 태그를 사용합니다.
 
 ![태그 할당 관리](assets/tagging/assign-tags-to-players.gif).
+
+>[!NOTE]
+> 
+> 디스플레이나 플레이어는 최대 100개의 태그를 가질 수 있습니다.
+> 한 번에 최대 30개의 항목에 태그를 지정할 수 있습니다.
 
 ## 태그로 필터링 {#filter-by-tags}
 
