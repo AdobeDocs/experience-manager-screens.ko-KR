@@ -7,9 +7,9 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 비디오와 함께 팔로우하려면 다음 항목이 필요합니다.
 
-1. **AEM 6.4** 또는 **AEM 6.3*+ **화면 기능 팩 1**
+1. **AEM 6.4** 또는 **AEM 6.3*+ **Screens 기능 팩 1**
 
-1. 스크린 플레이어
+1. Screens 플레이어
 
-AEM Screens Player를 다운로드하려면 [여기](https://download.macromedia.com/screens/). 또한 AEM Screens은 [Google Play 스토어](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+AEM Screens Player를 다운로드하려면 [여기](https://download.macromedia.com/screens/). 또한 AEM Screens은 Google Play 스토어에서 사용할 수 있습니다. <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 아래 비디오에서는 새 채널 만들기, 새 콘텐츠 작성 및 재사용 가능한 일정에 채널 추가에 대해 자세히 설명합니다. 그것은 전반부를 느슨하게 따라간다 [Screens 킥스타트 안내서](kickstart-for-aem-screens.md).
 

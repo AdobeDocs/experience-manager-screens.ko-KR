@@ -1,6 +1,6 @@
 ---
-title: Android&trade 구현; 플레이어
-description: Android&trade; Watchdog, Android&trade; 플레이어의 충돌을 복구할 수 있는 솔루션인 구현에 대해 알아봅니다.
+title: Android&trade 구현, 플레이어
+description: Android Android&trade; 충돌을 복구하는 데 사용할 수 있는 솔루션인 Watchdog의 구현에 대해 알아봅니다. 플레이어가 충돌합니다.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -32,7 +32,7 @@ AEM Screens용 Android™ Player를 구현하려면 AEM Screens용 Android™ Pl
 ### AEM Screens 6.5.5 서비스 팩용 환경 설정 {#fp-environment-setup}
 
 >[!NOTE]
->AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Android™ 플레이어용 환경을 설정합니다.
+>AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Android™ 플레이어에 대한 환경을 설정합니다.
 
 설정 **로그인 토큰 쿠키에 대한 SameSite 속성** 출처: **Lax** 끝 **없음** 출처: **Adobe Experience Manager 웹 콘솔 구성** 모든 AEM 작성자 및 게시 인스턴스.
 
@@ -67,11 +67,11 @@ Ad-Hoc 메서드를 사용하면 최신 Android™ Player(*.exe*). 다음 방문
 
 ## Android™ Watchdog 구현 {#implementing-android-watchdog}
 
-Android™의 아키텍처로 인해 디바이스를 재부팅하려면 애플리케이션에 시스템 권한이 있어야 합니다. 제조업체의 서명 키를 사용하여 APK에 서명합니다. 그렇지 않으면 워치독이 플레이어 애플리케이션을 다시 시작하고 디바이스를 재부팅하지 않을 수 있습니다.
+Android™ 아키텍처로 인해 디바이스를 재부팅하려면 애플리케이션에 시스템 권한이 있어야 합니다. 제조업체의 서명 키를 사용하여 APK에 서명합니다. 그렇지 않으면 워치독이 플레이어 애플리케이션을 다시 시작하고 디바이스를 재부팅하지 않을 수 있습니다.
 
-### Android™ 간판 `apks` 제조업체 키 사용 {#signage-of-android-apks-using-manufacturer-keys}
+### Android™ `apks` 제조업체 키 사용 {#signage-of-android-apks-using-manufacturer-keys}
 
-Android™의 일부 권한이 있는 API에 액세스하려면 다음과 같이 하십시오. *PowerManager* 또는 *HDMIControlServices*, Android에 서명™ `apk` 제조업체 키를 사용합니다.
+Android의 일부 권한이 있는 API에 액세스하려면 다음™ 같이 하십시오. *PowerManager* 또는 *HDMIControlServices*, Android에 서명합니다™ `apk` 제조업체 키를 사용합니다.
 
 >[!CAUTION]
 >
@@ -86,13 +86,13 @@ Android™의 일부 권한이 있는 API에 액세스하려면 다음과 같이
 
 1. 를 찾습니다. `apksigner` find를 사용하는 Android™ SDK의 도구 `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Android™ SDK에서 zip align 도구의 경로를 찾습니다
+1. Android™ SDK에서 zip 정렬 도구의 경로를 찾습니다
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 설치 ***aemscreensaligned.apk*** 장치에 adb 설치 사용
 
 ## Android™ Watchdog 서비스 이해 {#android-watchdog-services}
 
-크로스 Android 감시 서비스는 를 사용하여 Cordova 플러그인으로 구현됩니다. *경보 관리자*.
+크로스 Android™ watchdog 서비스는 를 사용하여 Cordova 플러그인으로 구현됩니다 *경보 관리자*.
 
 다음 다이어그램은 Watchdog 서비스의 구현을 보여 줍니다.
 
@@ -104,13 +104,13 @@ Android™의 일부 권한이 있는 API에 액세스하려면 다음과 같이
 
 >[!NOTE]
 >
->™에서 *경보 관리자* 를 등록하는 데 사용됩니다. *pendingIntts* 앱이 충돌하고 알람 전달이 API 19(Kitkat)에서 부정확한 경우에도 실행할 수 있습니다. 타이머의 간격과 간격 사이에 간격을 유지합니다. *경보 관리자* *pendingIntent* 경보가 울려
+>Android™에서 *경보 관리자* 를 등록하는 데 사용됩니다. *pendingIntts* 앱이 충돌하고 알람 전달이 API 19(Kitkat)에서 부정확한 경우에도 실행할 수 있습니다. 타이머의 간격과 간격 사이에 간격을 유지합니다. *경보 관리자* *pendingIntent* 경보가 울려
 
 **3. 응용 프로그램 충돌** - 충돌이 발생하면 AlarmManager에 등록된 보류 중인 재부팅 인텐트가 더 이상 재설정되지 않습니다. 따라서 Cordova 플러그인의 초기화 시 사용 가능한 권한에 따라 앱의 재부팅 또는 재시작을 실행합니다.
 
 ## Android™ Player 벌크 프로비저닝 {#bulk-provision-android-player}
 
-Android™ 플레이어를 대량으로 롤아웃할 때 플레이어가 AEM 인스턴스를 가리키도록 프로비저닝하고 관리 UI에 수동으로 입력하지 않고 다른 속성을 구성해야 합니다.
+Android™ 플레이어를 일괄적으로 롤아웃할 때 Admin UI에 수동으로 입력하지 않고 AEM 인스턴스를 가리키도록 플레이어를 프로비저닝하고 다른 속성을 구성해야 합니다.
 
 >[!NOTE]
 >이 기능은 Android™ player 42.0.372에서 사용할 수 있습니다.
@@ -120,7 +120,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 1. 이름으로 구성 JSON 파일 만들기 `player-config.default.json`.
 다음 참조: [JSON 정책 예](#example-json) 및 다양한 기능의 사용을 설명하는 표 [정책 속성](#policy-attributes).
 
-1. MDM이나 ADB 또는 Android™ Studio 파일 탐색기를 사용하여 이 정책 JSON 파일을 *sdcard* android™ 디바이스의 폴더입니다.
+1. MDM 또는 ADB 또는 Android™ Studio 파일 탐색기를 사용하여 이 정책 JSON 파일을 *sdcard* Android™ 디바이스의 폴더입니다.
 
 1. 파일이 배포되면 MDM을 사용하여 플레이어 응용 프로그램을 설치합니다.
 
@@ -141,7 +141,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 | *enableAdminUI* | 관리자 UI를 활성화하여 사이트에서 장치를 구성합니다. 다음으로 설정 *false* 일단 완전히 구성되고 프로덕션에 들어가면. |
 | *enableOSD* | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 다음으로 설정하는 것이 좋습니다. *false* 를 완전히 구성하고 프로덕션에 있는 경우. |
 | *enableActivityUI* | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시하려면 활성화합니다. 문제 해결을 위해 활성화하고, 완전히 구성되어 프로덕션에 있는 경우 비활성화합니다. |
-| *enableNativeVideo* | 비디오 재생에 기본 하드웨어 가속을 사용하려면 활성화합니다(Android™만 해당). |
+| *enableNativeVideo* | 비디오 재생에 기본 하드웨어 가속을 사용하려면 활성화합니다(Android™ 전용). |
 
 ### JSON 정책 예 {#example-json}
 
@@ -170,13 +170,13 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 >[!NOTE]
 >모든 Android™ 장치에는 `*sdcard*` 실제 여부를 나타내는 폴더 `*sdcard*` 가 삽입되거나 삽입되지 않습니다. 이 파일은 배포 시 다운로드 폴더와 동일한 수준에 있습니다. Samsung Knox와 같은 일부 MDM에서 이 메시지가 표시될 수 있습니다 *sdcard* 폴더 위치 *내부 스토리지*.
 
-## Enterprise Mobility Management를 사용한 Android™ Player 일괄 프로비저닝 {#bulk-provisioning}
+## Enterprise Mobility Management를 사용한 Android™ Player 벌크 프로비저닝 {#bulk-provisioning}
 
-Android™ 플레이어를 대량으로 배포할 때 AEM에 모든 플레이어를 수동으로 등록하는 것은 지루한 일이 됩니다. 다음과 같은 EMM(Enterprise Mobility Management) 솔루션을 사용합니다. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron 또는 Samsung Knox를 사용하여 원격으로 배포를 프로비저닝하고 관리할 수 있습니다. AEM Screens Android™ 플레이어는 원격 프로비저닝을 허용하도록 업계 표준 EMM AppConfig를 지원합니다.
+Android™ 플레이어를 대량으로 배포할 때 AEM에 모든 플레이어를 수동으로 등록하는 것은 번거로워집니다. 다음과 같은 EMM(Enterprise Mobility Management) 솔루션을 사용합니다. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron 또는 Samsung Knox를 사용하여 원격으로 배포를 프로비저닝하고 관리할 수 있습니다. AEM Screens Android™ player는 원격 프로비저닝이 가능하도록 업계 표준 EMM AppConfig를 지원합니다.
 
 ## Android™ 플레이어 이름 지정 {#name-android}
 
-사용자에게 친숙한 장치 이름을 Android™ 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Android™ 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+사용자에게 친숙한 장치 이름을 Android™ 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)에 보낼 수 있습니다. 이 기능을 사용하면 Android™ 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
 
 >[!NOTE]
 >등록하기 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 더 이상 플레이어 이름을 변경할 수 없습니다.
@@ -188,7 +188,7 @@ Android™ 플레이어에서 이름을 구성하려면 아래 단계를 따르�
 
 ### Enterprise Mobility Management를 사용하여 Android™ Player 벌크 프로비저닝 구현 {#implementation}
 
-Android™ Player에서 대량 프로비저닝을 허용하려면 아래 단계를 따르십시오.
+Android™ Player에서 일괄 프로비저닝을 허용하려면 아래 단계를 따르십시오.
 
 1. Android™ 장치가 Google Play 서비스를 지원하는지 확인합니다.
 1. AppConfig를 지원하는 자주 사용하는 EMM 솔루션으로 Android™ 플레이어 장치를 등록합니다.
@@ -204,4 +204,4 @@ Android™ Player에서 대량 프로비저닝을 허용하려면 아래 단계�
 
 ### Screens 원격 제어 사용 {#using-remote-control}
 
-AEM Screens은 원격 제어 기능을 제공합니다. 이 기능에 대한 자세한 내용은 여기를 참조하십시오. [화면 원격 제어](implementing-remote-control.md)
+AEM Screens은 원격 제어 기능을 제공합니다. 이 기능에 대한 자세한 내용은 여기를 참조하십시오. [Screens 원격 제어](implementing-remote-control.md)

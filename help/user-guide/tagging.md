@@ -1,16 +1,16 @@
 ---
-title: Screens Cloud에 태그 지정
-description: 이 페이지에서는 Screens Cloud에서 태그를 생성, 관리 및 사용하는 방법에 대해 설명합니다.
+title: Screens 클라우드에 태그 지정
+description: 이 페이지에서는 Screens Cloud에서 태그를 생성, 관리 및 사용하는 방법을 설명합니다.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Screens Cloud에 태그 지정 {#tagging-on-Screens-Cloud}
+# Screens 클라우드에 태그 지정 {#tagging-on-Screens-Cloud}
 
 >[!CAUTION]
 >
