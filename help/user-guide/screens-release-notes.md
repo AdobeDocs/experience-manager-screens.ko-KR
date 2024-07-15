@@ -30,16 +30,16 @@ AEM Screens 기능 팩 201809의 릴리스 날짜는 2018년 10월 1일입니다
 
 ### 새로운 기능 {#what-s-new}
 
-* **Adobe Analytics 재생 증명 보고**: 를 참조하십시오 [AEM Screens과 Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md) 자세히 알아보십시오.
+* **Adobe Analytics 재생 증명 보고**: 자세한 내용은 [AEM Screens과 Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)을 참조하십시오.
 
-* **Adobe Analytics 플레이어에서 캐시하고 보낼 수 있음 `playback` Adobe Analytics에 대한 이벤트**: 를 참조하십시오 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) 자세히 알아보십시오.
+* **Adobe Analytics에서 플레이어가 `playback` 이벤트를 캐시하고 Adobe Analytics에 보낼 수 있도록 설정**: 자세한 내용은 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)을 참조하십시오.
 
-* **오프라인 컨텐츠 벌크 업데이트**: 모든 채널을 일괄적으로 업데이트할 수 있으며 특정 채널로 이동하여 콘텐츠를 업데이트하는 번거로움을 피할 수 있습니다. 다음을 참조하십시오 [벌크 오프라인 업데이트](bulk-offline-update.md) 자세히 알아보십시오.
+* **오프라인 콘텐츠 일괄 업데이트**: 모든 채널을 일괄적으로 업데이트할 수 있으며 특정 채널로 이동하여 콘텐츠를 업데이트하는 번거로움을 피할 수 있습니다. 자세한 내용은 [일괄 오프라인 업데이트](bulk-offline-update.md)를 참조하세요.
 
-* **모든 게시 인스턴스에 채널을 일괄적으로 게시**
-* **향상된 플레이어 로깅 메커니즘**: AEM Screens 플레이어에 대한 최대 로그 파일 수를 지정할 수 있습니다. 다음을 참조하십시오 [AEM Screens 플레이어 작업](working-with-screens-player.md) 을 참조하십시오.
+* **모든 게시 인스턴스에 일괄 Publish 채널**
+* **향상된 플레이어 로깅 메커니즘**: AEM Screens 플레이어의 최대 로그 파일 수를 지정할 수 있습니다. 자세한 내용은 [AEM Screens 플레이어로 작업](working-with-screens-player.md)을 참조하세요.
 
-* **작성자/게시 배포(강화)**
+* **작성자/Publish 배포(강화)**
 
 ### 릴리스된 AEM Screens 플레이어
 
@@ -52,4 +52,4 @@ AEM 6.4.2 기능 팩 2 및 AEM 6.3.3 기능 팩 4용으로 출시된 AEM Screens
 
 #### AEM Screens 플레이어 다운로드
 
-최신 AEM Screens Player를 다운로드하고 버그 수정에 대한 자세한 내용을 보려면 를 참조하십시오. [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/).
+최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 [AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)를 참조하십시오.

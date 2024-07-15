@@ -27,11 +27,11 @@ ht-degree: 1%
 
 이 기능의 구현을 시작하기 전에 먼저 이 기능의 구현을 시작하기 위한 필수 조건으로 프로젝트를 설정했는지 확인하십시오. 예:
 
-1. AEM Screens 프로젝트 예제 만들기, **ChannelLevelPlayback**.
+1. AEM Screens 프로젝트 예인 **ChannelLevelPlayback**&#x200B;을(를) 만듭니다.
 
-1. 다음으로 시퀀스 채널 만들기 **PlaybackChannel** 다음 아래에 **채널** 폴더를 삭제합니다.
+1. **채널** 폴더 아래에 시퀀스 채널을 **PlaybackChannel**(으)로 만듭니다.
 
-1. 콘텐츠 추가 **PlaybackChannel**.
+1. **PlaybackChannel**&#x200B;에 콘텐츠를 추가합니다.
 
 ## 채널 수준 이미지 재생 기간 할당 편집 {#editing-channel-level-image-playback-duration-assignment}
 
@@ -41,11 +41,11 @@ ht-degree: 1%
 
 채널 수준 이미지 재생 기간 할당을 업데이트하는 방법을 배우려면 아래 단계를 따르십시오.
 
-1. 시퀀스 채널로 이동합니다. **PlaybackChannel**.
+1. 시퀀스 채널 **PlaybackChannel**(으)로 이동합니다.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 클릭 **편집** 작업 표시줄에서
+1. 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -57,14 +57,14 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. 다음 **페이지** 대화 상자가 열립니다.
+1. **페이지** 대화 상자가 열립니다.
 
    >[!NOTE]
    >기본적으로 채널의 이미지는 재생 시간(8초)으로 설정됩니다.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   편집 **기간** 8000(밀리초)부터 3000(밀리초)까지, 즉 3초입니다. 오른쪽 상단에 있는 확인 표시를 클릭합니다. **페이지** 대화 상자를 통해 변경 사항을 저장할 수 있습니다.
+   **기간**&#x200B;을(를) 8000(밀리초)에서 3000(밀리초)까지(즉, 3초) 편집합니다. 변경 내용을 저장할 수 있도록 **페이지** 대화 상자의 오른쪽 맨 위에 있는 확인 표시를 클릭합니다.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

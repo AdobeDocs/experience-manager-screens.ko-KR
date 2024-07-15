@@ -26,23 +26,23 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
 
 다음 단계에서는 프로젝트에 대한 ACL 설정 절차를 요약합니다.
 
-1. AEM에 로그인하고 다음으로 이동 **도구** > **보안**.
+1. AEM에 로그인하고 **도구** > **보안**(으)로 이동합니다.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 클릭 **그룹** ID(예: Acme)를 입력합니다.
+1. **그룹**&#x200B;을 클릭하고 ID(예: Acme)를 입력하십시오.
 
-   또는 이 링크를 사용하여 `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   또는 이 링크 `http://localhost:4502/libs/granite/security/content/groupadmin.html`을(를) 사용합니다.
 
-   그런 다음 을 클릭합니다. **저장**.
+   그런 다음 **저장**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 클릭 **참가자** 목록에서 를 클릭하고 더블 클릭합니다.
+1. 목록에서 **기여자**&#x200B;를 클릭하고 두 번 클릭합니다.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 추가 **Acme** (만든 프로젝트) 대상 **그룹에 구성원 추가**. **저장**&#x200B;을 클릭합니다.
+1. **Acme**(만든 프로젝트)을(를) **그룹에 구성원 추가**&#x200B;에 추가합니다. **저장**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,13 +50,13 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
    >
    >프로젝트 팀원이 플레이어를 등록하도록 하려면(모든 플레이어에 대한 사용자 생성이 포함됨) 사용자-관리자 그룹을 찾아 사용자-관리자에 ACME 그룹을 추가합니다
 
-1. 작업 중인 모든 사용자 추가 **Acme** 프로젝트 대상: **Acme** 그룹입니다.
+1. **Acme** 프로젝트에서 작업 중인 모든 사용자를 **Acme** 그룹에 추가합니다.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 그룹에 대한 권한 설정 **Acme** 사용 `(http://localhost:4502/useradmin)`.
+1. 이 `(http://localhost:4502/useradmin)`을(를) 사용하여 **Acme** 그룹에 대한 권한을 설정합니다.
 
-   그룹 클릭 **Acme** 을(를) 클릭하고 **권한**.
+   **Acme** 그룹을 클릭하고 **권한**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -83,9 +83,9 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
 
 예를 들어 다음과 같은 프로젝트별 그룹을 만들 수 있습니다.
 
-* 화면 프로젝트 관리자
+* Screens 프로젝트 관리자
 * Screens 프로젝트 운영자(플레이어 등록 및 위치 및 장치 관리)
-* 화면 프로젝트 사용자(채널, 일정 및 채널 할당 작업)
+* Screens 프로젝트 사용자(채널, 일정 및 채널 할당 작업)
 
 다음 표에는 AEM Screens 프로젝트에 대한 설명 및 권한이 있는 그룹이 요약되어 있습니다.
 
@@ -97,7 +97,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
    <td><strong>권한</strong></td>
   </tr>
   <tr>
-   <td>화면 관리자<br /> <em><code>screens-admins</code></em></td>
+   <td>Screens 관리자<br /> <em><code>screens-admins</code></em></td>
    <td>AEM Screens 기능에 대한 관리자 수준 액세스</td>
    <td>
     <ul>
@@ -110,7 +110,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
     </ul> </td>
   </tr>
   <tr>
-   <td>화면 사용자<br /> <em><code>screens-users</code></em></td>
+   <td>Screens 사용자<br /> <em><code>screens-users</code></em></td>
    <td>AEM Screens에서 채널 및 일정을 만들고 업데이트하며 위치를 지정합니다.</td>
    <td>
     <ul>
@@ -132,7 +132,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
     </ul> </td>
   </tr>
   <tr>
-   <td>스크린 플레이어<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
+   <td>Screens 플레이어스<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>모든 플레이어 및 모든 플레이어/장치는 자동으로 기여자의 구성원입니다.</td>
    <td><p> 기여자 구성원</p> </td>
   </tr>

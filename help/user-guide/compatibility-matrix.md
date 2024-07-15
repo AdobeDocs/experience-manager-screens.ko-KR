@@ -86,7 +86,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 | **AEM 서버 버전** | **Android™ 플레이어** |
 |---|---|
-| **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -** (Macromedia 사이트에서 사용 가능) 및 Google Play 스토어 |
+| **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -**(Macromedia 사이트에서 사용 가능) 및 Google Play 스토어 |
 | **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3.3.0** |
 | **AEM 6.4** | **3.3.0** |
 
@@ -104,15 +104,15 @@ aem-screens-player-android-3.3.0.apk.zip
    <td><strong>AEM 서버 버전</strong></td> 
    <td><strong>iOS 플레이어</strong></td> 
    <td><strong>윈도우 플레이어</strong></td> 
-   <td><strong>크롬 OS 플레이어</strong><br /> </td> 
+   <td><strong>Chrome OS 플레이어</strong><br /> </td> 
    <td><strong>Android™ 플레이어</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
    <td><p><strong>3.2.72 - </strong>Apple 스토어에서 사용 가능</p> <p><strong>3.3.0</strong> - 작동하지 않음</p> <p> </p> </td> 
    <td><strong>1.0.12</strong> - (Macromedia에서 사용 가능)</td> 
-   <td><p><strong>1.0.30 -</strong> Chrome 스토어에서 사용할 수 있습니다.</p> <p>기능 팩 1에서는 지원되지 않음</p> </td> 
-   <td><strong>3.2.68 -</strong> (Macromedia 사이트에서 사용 가능) 및 Google Play 스토어</td> 
+   <td><p>Chrome 스토어에서 <strong>1.0.30 -</strong>을(를) 사용할 수 있습니다.</p> <p>기능 팩 1에서는 지원되지 않음</p> </td> 
+   <td><strong>3.2.68 -</strong>(Macromedia 사이트에서 사용 가능) 및 Google Play 스토어</td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 

@@ -28,18 +28,18 @@ ht-degree: 10%
 
 이 섹션에서는 다음 주제를 다룹니다.
 
-* **AEM Screens을 사용한 Adobe Analytics의 시퀀싱**
+* AEM Screens을 사용하여 Adobe Analytics에서 **시퀀싱**
 * **오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트 보내기**
 
 ## AEM Screens을 사용한 Adobe Analytics의 시퀀싱 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-다음 ***순서 결정 과정*** 는 Adobe Analytics 서비스를 활성화하는 데이터 스토리지 서비스로 시작합니다. 채널 콘텐츠는 급여가 포함된 Adobe Analytics 이벤트를 전송합니다. 즉, 데이터 테스트 캡처를 Windows I/O로 전송하고 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자가 설정한 일정에 따라 개체 저장소에서 데이터를 잘라내고 청크 저장소에 추가로 전송합니다. 연결되면 최대 데이터 양을 보내려고 합니다.
+***시퀀스 프로세스***&#x200B;는 Adobe Analytics 서비스를 활성화하는 데이터 저장소 서비스로 시작합니다. 채널 콘텐츠는 급여가 포함된 Adobe Analytics 이벤트를 전송합니다. 즉, 데이터 테스트 캡처를 Windows I/O로 전송하고 이벤트가 트리거됩니다. 이벤트는 인덱스 DB에 저장되고 객체 저장소에 추가로 저장됩니다. 관리자가 설정한 일정에 따라 개체 저장소에서 데이터를 잘라내고 청크 저장소에 추가로 전송합니다. 연결되면 최대 데이터 양을 보내려고 합니다.
 
 ### 시퀀싱 다이어그램 {#sequencing-diagram}
 
 다음 순서 다이어그램은 AEM Screens과 Adobe Analytics 통합에 대해 설명합니다.
 
-![analytics_청킹](assets/analytics_chunking.png)
+![analytics_chunking](assets/analytics_chunking.png)
 
 ## 오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트 보내기 {#sending-custom-events-using-offline-adobe-analytics}
 
@@ -99,7 +99,7 @@ ht-degree: 10%
    <td>추천</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>워크플로 이름(화면)</td> 
+   <td>워크플로우 이름(Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ ht-degree: 10%
    <td>required</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>주요 카테고리(데스크탑, 모바일, 웹, 프로세스, SDK, 서비스, 에코시스템) - 이벤트 유형 그룹화 - <strong>플레이어 전송됨</strong></td> 
+   <td>기본 범주(데스크톱, 모바일, 웹, 프로세스, SDK, 서비스, 환경) - 이벤트 유형 그룹화 - <strong>플레이어 전송됨</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -237,7 +237,7 @@ ht-degree: 10%
    <td>실패 설명<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>소스/원본 제품</em></strong></td> 
+   <td><strong><em>Source/Originating 제품</em></strong></td> 
    <td>이름</td> 
    <td>source.name</td> 
    <td>required</td> 

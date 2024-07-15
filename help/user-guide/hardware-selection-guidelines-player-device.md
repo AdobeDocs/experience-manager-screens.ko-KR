@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ## 중요 고려 사항 {#important-considerations}
 
-* 항상 소스 ***커머셜*** 또는 ***산업*** PC 플레이어와 디스플레이 패널 또는 프로젝터 모두에 대해 구성 요소를 등급화합니다.
+* PC 플레이어와 디스플레이 패널 또는 프로젝터 모두에 대해 항상 ***상업용*** 또는 ***산업용*** 등급 구성 요소를 공급하십시오.
 
 * 항상 디지털 간판 시장을 제공하는 공급업체와 협력하십시오.
 * 주변 온도, 상대 습도 등 환경 요인을 항상 고려한다.
@@ -46,7 +46,7 @@ ht-degree: 3%
    <td><p>*ChromeOS 32GB</p> <p>*Windows 128GB</p> </td>
    <td>온보드</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> 이더넷 / 무선,<br /> USB 2개</td>
+   <td>DVI<br /> 이더넷/무선,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>표준 전체 화면 루프<br /> </li>
@@ -59,11 +59,11 @@ ht-degree: 3%
    <td><p>8GB 메모리</p> <p>4MB 캐시</p> </td>
    <td>128GB</td>
    <td>온보드</td>
-   <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> USB 2개</td>
+   <td>3840x2160(<code>4K</code>)</td>
+   <td>DVI, HDMI<br /> 이더넷/무선,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>단일 소스 다이내믹 콘텐츠</li>
+     <li>단일 Source 다이내믹 콘텐츠</li>
      <li>단순 대화형</li>
      <li>1-3 영역 레이아웃</li>
     </ul> </td>
@@ -74,13 +74,13 @@ ht-degree: 3%
    <td><p>16GB 메모리</p> <p>8MB 캐시</p> </td>
    <td>256GB</td>
    <td>전용 그래픽 GPU</td>
-   <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> 이더넷 / 무선,<br /> 4xUSB</td>
+   <td>3840x2160(<code>4K</code>)</td>
+   <td>DVI, HDMI<br /> 이더넷/무선,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4개 이상의 콘텐츠 영역, 동시 비디오 재생</li>
      <li>다중 페이지 인터랙티브</li>
-     <li>다중 소스 데이터 트리거</li>
+     <li>다중 Source 데이터 트리거</li>
     </ul> </td>
   </tr>
  </tbody>

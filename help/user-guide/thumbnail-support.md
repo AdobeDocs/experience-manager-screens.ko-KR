@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 기존 AEM Screens 채널로 이동하거나 채널을 만듭니다.
 
-1. 채널을 클릭하고 **편집** 작업 표시줄에서
+1. 채널을 클릭하고 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,19 +40,19 @@ ht-degree: 2%
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. 비디오를 클릭하고 *렌치* 아이콘.
+1. 비디오를 클릭하고 *렌치* 아이콘을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. 다음 **비디오** 를 볼 수 있는 대화 상자가 열립니다 **축소판** 놓기 영역.
+1. **썸네일** 놓기 영역을 볼 수 있는 **비디오** 대화 상자가 열립니다.
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. 자산 선택기에서 다음으로 이미지를 끌어다 놓기 **축소판** 놓기 영역 및 클릭 **완료**.
+1. 자산 선택기에서 **썸네일** 놓기 영역으로 이미지를 끌어다 놓고 **완료**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. 클릭 **미리 보기**.
+1. **미리 보기**&#x200B;를 클릭합니다.
 
 1. 구성 요소에 비디오가 설정되어 있으면 비디오가 재생됩니다. 썸네일이 설정되어 있지 않으면 썸네일이 재생됩니다. 그렇지 않으면 구성 요소가 구성되지 않은 것으로 간주되고 건너뜁니다.
 

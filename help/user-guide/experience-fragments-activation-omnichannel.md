@@ -24,15 +24,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >**사전 요구 사항
->경험 조각의 기본 사항과 AEM Screens 프로젝트에서 경험 조각을 사용하는 방법에 대한 사전 지식이 있어야 합니다. 다음을 참조하십시오 [경험 조각 사용](/help/user-guide/experience-fragments-in-screens.md)
+>경험 조각의 기본 사항과 AEM Screens 프로젝트에서 경험 조각을 사용하는 방법에 대한 사전 지식이 있어야 합니다. [경험 조각 사용](/help/user-guide/experience-fragments-in-screens.md)을 참조하세요.
 
 ### 데모 프로젝트 설정 {#demo-project-setup}
 
-제목이 인 프로젝트 만들기 **DemoProject** 및 이라는 이름의 시퀀스 채널 **테스트 채널** 아래 그림과 같이 AEM Screens에서 을 참조하십시오.
+아래 그림과 같이 AEM Screens에서 제목이 **DemoProject**&#x200B;인 프로젝트와 제목이 **TestChannel**&#x200B;인 시퀀스 채널을 만듭니다.
 
 ### AEM Screens 프로젝트에서 경험 조각 구현 {#experience-fragments-implementation}
 
-경험 조각을 만들어 AEM Screens 프로젝트에 적용한 경우 **DemoProject**, 요구 사항에 따라 경험 조각을 향상시킬 수 있습니다.
+경험 조각을 만들어 AEM Screens 프로젝트 **DemoProject**&#x200B;에 적용하면 요구 사항에 따라 경험 조각을 향상시킬 수 있습니다.
 
 ### 텍스트 크기 늘리기 {#increasing-text-size}
 

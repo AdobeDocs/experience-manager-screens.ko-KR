@@ -48,9 +48,9 @@ ht-degree: 0%
 
 ## 3. 장치 관리 고려 사항 {#device-management-considerations}
 
-AEM Screens에는 Screens 플레이어 애플리케이션 엔드포인트를 관리할 수 있는 장치 제어 센터 모듈이 포함되어 있습니다.
+AEM Screens에는 Screens 플레이어 애플리케이션 엔드포인트를 관리할 수 있는 Device Control Center 모듈이 포함되어 있습니다.
 
-다음을 참조합니다. *플레이어* Screens 플레이어 애플리케이션이 설치되어 있고 AEM 인스턴스에 등록된 하드웨어 장치.
+Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스에 등록된 *player* 하드웨어 장치를 참조합니다.
 이 모듈에서는 다음 작업을 수행할 수 있습니다.
 
 1. 플레이어 애플리케이션 오류 로그 모니터링
@@ -58,7 +58,7 @@ AEM Screens에는 Screens 플레이어 애플리케이션 엔드포인트를 관
 1. 콘텐츠 다운로드 관리
 1. 응용 프로그램 다시 시작 문제 관리
 
-에 대해 자세히 알아보려면 ***장치 제어 센터***, 참조 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 위치: **AEM Screens 사용 안내서**.
+***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ AEM Screens에는 Screens 플레이어 애플리케이션 엔드포인트를 관
 >
 > Adobe은 모든 배포에 전용 타사 장치 관리 플랫폼을 사용할 것을 권장합니다.
 
-선택한 특정 플랫폼은 다음을 포함한 몇 가지 요인에 따라 다릅니다. ***대상 운영 체제***, ***프로젝트 요구 사항***, 및 ***끝점 수***.
+선택한 특정 플랫폼은 ***대상 운영 체제***, ***프로젝트 요구 사항*** 및 ***끝점 수***&#x200B;를 포함한 여러 요소에 따라 다릅니다.
 
 몇 가지 예는 다음과 같습니다.
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 타겟 대상 {#target-audience}
 
-숙련된 AEM 구현자는 다음과 같은 역할이 참조되었을 수 있습니다. *작성자*, *개발자*, 및 *IT 기술자*.
+숙련된 AEM 구현자는 *작성자*, *개발자* 및 *IT 기술자*(으)로 지칭되는 역할을 보았을 수 있습니다.
 
 일반적인 AEM Screens 프로젝트에서는 역할 각각이 프로젝트에서 중요한 목적을 수행하므로 역할이 더욱 세분화됩니다.
 
@@ -65,4 +65,4 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 프로젝트 관리자는 일반적으로 AEM Screens 배포에 대한 전체 배포를 관리합니다. 프로젝트 관리자는 지정된 프로젝트의 전체 구현을 위한 주요 담당자입니다. 이들은 일정 설정, 팀 요구 사항 처리 및 커뮤니케이션 등 주요 업무를 수행합니다. 또한 당면 과제를 해결하고 목표를 달성할 수 있도록 보장합니다.
 
 >[!NOTE]
->디지털 서명 프로젝트의 다양한 역할과 책임 및 타겟 대상자에 대해 자세히 알아보려면 다음을 참조하십시오. **[프로젝트 역할 및 책임](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>디지털 서명 프로젝트의 다양한 역할과 책임 및 대상 대상에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**&#x200B;을 참조하세요.

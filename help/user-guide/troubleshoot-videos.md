@@ -24,12 +24,12 @@ DAM에 비디오를 업로드하고 채널에 추가하면 AEM Screens 플레이
 
 ## DAM 표현물 {#dam-renditions}
 
-비디오를 채널에 업로드한 후 AEM에서 해당 비디오에 대한 일부 렌디션 만들기를 시작해야 합니다. 에셋에서 비디오를 볼 수 있습니다.
+비디오를 채널에 업로드한 후 AEM에서 해당 비디오에 대한 일부 렌디션 만들기를 시작해야 합니다. Assets에서 비디오를 볼 수 있습니다.
 
 비디오를 보려면 다음 작업을 수행하십시오.
 
-1. 예를 들어 비디오로 이동합니다. `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 비디오를 클릭하고 왼쪽 상단 메뉴를 확장한 다음 를 클릭합니다. **표현물**.
+1. 비디오로 이동합니다(예: `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`).
+1. 비디오를 클릭하고 왼쪽 상단 메뉴를 확장한 다음 **렌디션**&#x200B;을 클릭합니다.
 
 다양한 렌디션(MP4 또는 M4V)이 있어야 합니다.
 
@@ -39,9 +39,9 @@ DAM에 비디오를 업로드하고 채널에 추가하면 AEM Screens 플레이
 >
 >렌디션이 없으면 AEM이 실행 중인 OS에 FFMPEG가 설치되어 있는지 확인하십시오.
 >
->클릭 [여기](https://www.ffmpeg.org/download.html) FFMPEG를 설치합니다.
+>FFMPEG를 설치하려면 [여기](https://www.ffmpeg.org/download.html)를 클릭하십시오.
 
-## 비디오 자산 {#video-assets}
+## 비디오 Assets {#video-assets}
 
 비디오에 소스 속성이 표시되지 않으면 비디오가 트랜스 코딩되지 않았을 수 있습니다. 비디오가 제대로 코드 변환되면 다음과 같이 대시보드에 표시됩니다.
 
@@ -51,11 +51,11 @@ FFMPEG가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 ### 비디오 프로필 확인 {#checking-video-profile}
 
-1. 다음 위치로 이동 **비디오 프로필**, 즉, `http://localhost:4502/etc/dam/video.html` 및 클릭 **테스트 비디오 업로드**.
+1. **비디오 프로필**, 즉 `http://localhost:4502/etc/dam/video.html`(으)로 이동한 다음 **테스트 비디오 업로드**&#x200B;를 클릭합니다.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 테스트 비디오를 업로드하고 **확인** 코드 변환 작업을 시작할 수 있습니다.
+1. 코드 변환을 시작할 수 있도록 테스트 비디오를 업로드하고 **확인**&#x200B;을 클릭합니다.
 
    트랜스코딩된 비디오가 실패할 경우 FFMPEG 출력을 확장하여 FFMPEG의 콘솔 출력에서 발생한 오류를 파악합니다.
 
@@ -73,28 +73,28 @@ FFMPEG가 설치되어 있고 비디오 프로필이 있는지 확인합니다.
 
 비디오 구성 요소가 제대로 구성되지 않은 경우 페이지 디자인에서 프로필 목록을 확인하십시오.
 
-1. 채널로 이동하고 **디자인** 모드.
+1. 채널로 이동하고 **디자인** 모드를 클릭합니다.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. 비디오를 클릭하고 **편집** 대화 상자. 를 엽니다. **프로필** 탭.
+1. 비디오를 클릭하고 **편집** 대화 상자를 엽니다. **프로필** 탭을 엽니다.
 
    >[!NOTE]
    >다른 프로필을 클릭합니다(적어도 &quot;고품질 H.264&quot; 프로필이 있어야 함).
 
 ### 웹 플레이어에서 비디오 확인 {#checking-the-video-in-the-web-player}
 
-사용 **웹 플레이어** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 를 사용하여 브라우저(Chrome 및 Safari)에서 재생의 유효성을 검사합니다. Safari가 OS X 및 iOS 브라우저인 동안 Chrome은 Android™ 디바이스에서 사용됩니다.
+**웹 플레이어** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`을(를) 사용하여 브라우저(Chrome 및 Safari)에서 재생의 유효성을 검사하십시오. Chrome은 Android™ 디바이스에서 사용되는 반면 Safari는 OS X 및 iOS 브라우저입니다.
 
 비디오가 Safari에서 실행되지 않는 경우 OS X 및 iOS 플레이어에서도 실행되지 않습니다. 이 문제는 인코딩 문제일 수 있으며 비디오를 다시 인코딩해야 합니다.
 
 DAM 워크플로우를 사용하여 FullHD 렌디션을 만들려면 다음 작업을 수행하십시오.
 
-1. 다음 위치로 이동 *워크플로우 모델 관리자* 이(가) `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. 다음을 클릭합니다. **화면 업데이트 자산** 모델.
-1. 클릭 **워크플로우 시작** 작업 표시줄에서
-1. 다음에서 **워크플로우 실행** 대화 상자에서 **페이로드**.
-1. 클릭 **실행**.
+1. `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`인 *워크플로 모델 관리자*(으)로 이동합니다.
+1. **Screens 자산 업데이트** 모델을 클릭합니다.
+1. 작업 표시줄에서 **워크플로 시작**&#x200B;을 클릭합니다.
+1. **워크플로 실행** 대화 상자에서 **페이로드**&#x200B;에서 비디오 자산을 클릭합니다.
+1. **실행**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
@@ -106,14 +106,14 @@ AEM Screens 플레이어가 비디오를 선택하지만 표시되지 않는 경
 
 Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 ***chrome://flags/#autoplay-policy***
-1. 변경 **자동 재생 정책** 출처: **기본값** 끝 **사용자 제스처가 필요하지 않습니다.**
+1. ***chrome://flags/#autoplay-policy***(으)로 이동
+1. **자동 재생 정책**&#x200B;을(를) **기본**&#x200B;에서 **사용자 동작 필요 없음**(으)로 변경
 
 1. 웹 브라우저를 다시 시작하고 플레이어 업데이트
 
 >[!NOTE]
 >
->Chrome의 새로운 자동 재생 정책으로 유용한 사용자 경험을 위한 모범 사례에 대해 자세히 알아보십시오. 다음을 참조하십시오 *자동 재생 정책 변경 사항* 위치: `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Chrome의 새로운 자동 재생 정책을 통해 유용한 사용자 경험을 위한 모범 사례에 대해 자세히 알아보십시오. `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`의 *자동 재생 정책 변경*&#x200B;을(를) 참조하십시오.
 
 ### 여러 플레이어에서 비디오 동기화 {#syncing-video-across-multiple-players}
 
@@ -137,18 +137,18 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
 
 1. 아래 그림과 같이 채널 작성자로 이동하여 시퀀스 구성 요소를 클릭합니다.
 1. 구성 대화 상자를 엽니다.
-1. 편집 **전략** 절대 값을 추가합니다.
+1. **전략**&#x200B;을(를) 편집하고 절대 값을 추가하십시오.
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    >[!NOTE]
    >플레이어의 OS는 시계가 같아야 합니다.
 
-**OS X에서 시계 정렬** OS X에서 시계를 맞추려면 아래 단계를 따르십시오.
+**OS X에서 시계 정렬** OS X에서 시계를 정렬하려면 아래 단계를 따르십시오.
 
-1. 열기 **날짜 및 시간** 각 OS X 상자의 환경 설정
-1. 확인 **날짜 및 시간을 자동으로 설정**
-1. 드롭다운에 값 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com 을 붙여넣거나 간단히 실행합니다. *sudo ntpdate -u -v 0.pool.ntp.org*
+1. 각 OS X 상자에서 **날짜 및 시간** 환경 설정 열기
+1. **자동으로 날짜 및 시간 설정** 확인
+1. 드롭다운에 값 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com을 붙여넣거나 *sudo ntpdate -u -v 0.pool.ntp.org*&#x200B;을(를) 실행하십시오.
 1. 2명 이상의 플레이어 시작
 
 플레이어가 새로운 정렬된 시퀀스를 시작하기 전에 약간의 시간이 걸릴 수 있습니다.

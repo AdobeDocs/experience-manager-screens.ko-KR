@@ -29,7 +29,7 @@ ht-degree: 1%
 
 작성자가 스프레드시트를 입력 파일로 제공하고 시스템에서 백엔드에 위치 트리를 자동으로 만들도록 함으로써 다음과 같은 기능을 제공합니다.
 
-* *ui를 통해 수동으로 선택하는 것보다 훨씬 나은 성능을 제공합니다.*
+* *UI를 통해 수동으로 선택하는 것보다 훨씬 우수한 성능을 달성합니다*
 * *고객이 보유한 위치를 자체 시스템에서 내보내고 AEM에서 직접 쉽게 가져올 수 있습니다*
 
 이 프로세스는 초기 프로젝트 설정 중에 또는 기존 AEM Screens을 새 위치로 확장할 때 시간과 비용을 모두 절약합니다.
@@ -51,19 +51,19 @@ ht-degree: 1%
 | **속성** | **설명** |
 |---|---|
 | ***`path {string*}`*** | 위치에 대한 리소스 경로 |
-| ***`[./jcr:title] {string*}`*** | 사용할 템플릿의 이름(즉, 위치) *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | 사용할 템플릿 이름(즉, *screens/core/templates/location*&#x200B;의 위치) |
 | ***`template {string}`*** | 페이지에 사용할 선택적 제목 |
 | ***`[./jcr:description] {string}`*** | 페이지에 사용할 선택적 설명 |
 
 스프레드시트(CSV/XLS) 파일에는 다음 열이 필요합니다.
 
-* **경로 {string}** - 가져올 위치의 경로. 여기서 경로의 루트는 프로젝트의 위치 폴더입니다(즉, *`/foo`* 을(를) (으)로 가져옴 *`/content/screens/<project>/locations/foo`*)
-* **템플릿 {string}** - 새 위치에 사용할 템플릿은 현재로서는 &quot;위치&quot;만 허용되지만, 이 값은 향후 모든 Screens 템플릿으로 확장됩니다(`display`, `sequencechannel`등)
-* **[/*] {string}** - 위치에 설정할 모든 옵션 속성(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). 현재 릴리스에서는 필터링을 허용하지 않습니다.
+* **경로 {string}** - 가져올 위치의 경로입니다. 경로의 루트가 프로젝트의 위치 폴더인 *`/foo`*&#x200B;을(를) *`/content/screens/<project>/locations/foo`*(으)로 가져옵니다.
+* **템플릿 {string}** - 지금은 허용되는 유일한 값이 &quot;location&quot;이지만 이 값은 이후의 모든 Screens 템플릿(`display`, `sequencechannel` 등)으로 확장됩니다.
+* **[/*] {string}** - 위치에 설정할 모든 선택적 속성(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). 현재 릴리스에서는 필터링을 허용하지 않습니다.
 
 >[!NOTE]
 >
->위의 조건과 일치하지 않는 열은 모두 무시됩니다. 예를 들어 시트(CSV/XLS) 파일에 다음 이외의 다른 열이 정의되어 있는 경우 **경로**, **템플릿**, **제목**, 및 **설명** 파일에서 해당 필드는 무시됩니다. 및, **프로젝트 가져오기** 에서는 프로젝트를 AEM Screens 프로젝트로 가져오기 위한 추가 필드에 대한 유효성을 검사하지 않습니다.
+>위의 조건과 일치하지 않는 열은 모두 무시됩니다. 예를 들어, 시트(CSV/XLS) 파일에 파일의 **경로**, **템플릿**, **제목** 및 **설명** 이외의 다른 열이 정의되어 있으면 해당 필드가 무시됩니다. **프로젝트 가져오기**&#x200B;에서는 프로젝트를 AEM Screens 프로젝트로 가져오기 위한 추가 필드의 유효성을 검사하지 않습니다.
 
 ## 프로젝트 가져오기 사용 {#using-project-importer}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ### 사전 요구 사항 {#prerequisites}
 
-* 제목이 인 프로젝트 만들기 **DemoProjectImport**
+* 제목이 **DemoProjectImport**&#x200B;인 프로젝트 만들기
 
 * 가져와야 하는 샘플 CSV 또는 Excel 파일을 사용합니다.
 
@@ -97,21 +97,21 @@ ht-degree: 1%
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. AEM Screens 프로젝트(**DemoProjectImport**).
+1. AEM Screens 프로젝트(**DemoProjectImport**)로 이동합니다.
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 프로젝트를 클릭합니다.** DemoProjectImporter **>** 만들기 **>** 사이드 바** 위치 가져오기
+1. 사이드바** 프로젝트 DemoProjectImporter **>** **>** 가져오기 위치 만들기**를 클릭합니다.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 다음 **가져오기** 마법사가 표시됩니다. 위치에 있는 프로젝트의 파일을 클릭하거나 파일( )을 클릭합니다.***minimal-file.xls***)에서 다운로드했습니다. *전제 조건* 섹션.
+1. **가져오기** 마법사가 표시됩니다. 위치에 있는 프로젝트의 파일을 클릭하거나 *필수 구성 요소* 섹션에서 다운로드한 파일(***minimal-file.xls***)을 클릭합니다.
 
-   파일을 선택한 후 **다음**.
+   파일을 선택한 후 **다음**&#x200B;을 클릭합니다.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 가져오기 마법사에서 파일(위치)의 내용을 확인하고 **가져오기**.
+1. 가져오기 마법사에서 파일(위치)의 내용을 확인하고 **가져오기**&#x200B;를 클릭합니다.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

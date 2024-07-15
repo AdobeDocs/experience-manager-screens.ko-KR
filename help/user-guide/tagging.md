@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->다음 **태깅** 기능은 테넌트에 대해 활성화되어 있을 경우에만 사용할 수 있습니다. 활성화하려면 AEM Screens 엔지니어링 팀에 문의하십시오.
+>테넌트에 대해 **태그 지정** 기능을 사용하도록 설정한 경우에만 사용할 수 있습니다. 활성화하려면 AEM Screens 엔지니어링 팀에 문의하십시오.
 
 ## 소개 {#introduction}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 태그 만들기 및 관리 {#create-and-manage-tags}
 
-![태그 만들기](assets/tagging/create-tag.gif).
+![태그를 만듭니다](assets/tagging/create-tag.gif).
 
 동일한 작업 메뉴를 사용하여 태그의 이름을 변경하거나 삭제합니다.
 

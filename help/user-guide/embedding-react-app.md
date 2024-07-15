@@ -25,7 +25,7 @@ REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이
 
 AEM SPA 편집기를 사용하려면 아래 단계를 따르십시오.
 
-1. AEM SPA 편집기 저장소 복제 [https://github.com/adobe/aem-spa-project-archetype입니다.](https://github.com/adobe/aem-spa-project-archetype)
+1. [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)에서 AEM SPA 편집기 리포지토리 복제
 
    >[!NOTE]
    >
@@ -46,42 +46,42 @@ AEM SPA 편집기를 사용하려면 아래 단계를 따르십시오.
 
    >[!NOTE]
    >
-   >이 설명서는 **GroupId** 다음으로: ***com.adobe.aem.screens*** 및 **ArtifactId** 다음으로: ***내 샘플 SPA*** (기본값은 입니다.) 필요에 따라 원하는 대로 선택할 수 있습니다.
+   >이 설명서는 **GroupId**&#x200B;을(를) ***com.adobe.aem.screens***(으)로 사용하고 **ArtifactId**&#x200B;을(를) ***내 샘플 SPA***(기본값)로 사용합니다. 필요에 따라 원하는 대로 선택할 수 있습니다.
 
 1. 프로젝트가 생성되면 원하는 IDE 또는 편집기를 사용하여 생성된 Maven 프로젝트를 가져옵니다.
-1. 명령을 사용하여 로컬 AEM 인스턴스에 배포 ***mvn clean install -PatoInstallPackage***.
+1. ***mvn clean install -PautoInstallPackage*** 명령을 사용하여 로컬 AEM 인스턴스에 배포합니다.
 
 ### REACT 앱에서 콘텐츠 편집 {#editing-content-in-the-react-app}
 
 REACT 앱에서 콘텐츠를 편집하려면:
 
-1. 다음으로 이동 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` 호스트 이름, 포트 및 프로젝트 이름을 적절하게 바꿉니다.
+1. `https://localhost:4502/editor.html/content/mysamplespa/en/home.html`(호스트 이름, 포트 및 프로젝트 이름 대체)로 이동합니다.
 1. Hello World 애플리케이션에 표시되는 텍스트를 편집할 수 있습니다.
 
 ### AEM Screens에 대화형 REACT 앱 추가 {#adding-the-interactive-react-app-to-aem-screens}
 
 AEM Screens에 대화형 REACT 앱을 추가하려면 아래 단계를 따르십시오.
 
-1. AEM Screens 프로젝트를 만듭니다. 다음을 참조하십시오 [프로젝트 생성 및 관리](creating-a-screens-project.md) 을 참조하십시오.
-1. 만들기 **응용 프로그램 채널** (권장 사항) (또는 1x1 템플릿, 또는 다중 영역 채널) **채널** AEM Screens 프로젝트 폴더
+1. AEM Screens 프로젝트를 만듭니다. 자세한 내용은 [프로젝트 만들기 및 관리](creating-a-screens-project.md)를 참조하십시오.
+1. AEM Screens 프로젝트의 **채널** 폴더에 **응용 프로그램 채널**(권장)(또는 1x1 템플릿 또는 다중 영역 채널)을 만듭니다.
 
    >[!NOTE]
-   >**시퀀스 채널** 기본적으로 경험의 대화형 속성과 충돌하는 슬라이드쇼 논리가 제공되므로 이 사용 사례에서는 권장되지 않습니다.
-   >다음을 참조하십시오 [채널 만들기 및 관리](managing-channels.md) 을 참조하십시오.
+   >**시퀀스 채널**은(는) 기본적으로 경험의 대화형 특성과 충돌하는 슬라이드쇼 논리를 제공하므로 이 사용 사례에서는 권장되지 않습니다.
+   >자세한 내용은 [채널 만들기 및 관리](managing-channels.md)를 참조하십시오.
 
 1. 시퀀스 채널을 편집하고 포함된 페이지 구성 요소를 드래그 앤 드롭합니다.
 
-   다음을 참조하십시오 [채널에 구성 요소 추가](adding-components-to-a-channel.md) 을 참조하십시오.
+   자세한 내용은 [채널에 구성 요소 추가](adding-components-to-a-channel.md)를 참조하십시오.
 
    >[!NOTE]
    >
    >채널을 디스플레이에 할당할 때 사용자 상호 작용 이벤트를 추가해야 합니다.
 
-1. 클릭 **편집** 채널의 속성을 편집할 수 있도록 작업 표시줄에서 을 선택합니다.
+1. 채널의 속성을 편집할 수 있도록 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 을(를) 끌어다 놓습니다. **포함된 페이지** 구성 요소 또는 응용 프로그램 채널에서 기존 구성 요소를 재사용하고 mysamplespa 응용 프로그램 아래의 홈 페이지를 클릭합니다(예: ). ***/content/mysamplespa/en/home***.
+1. **포함된 페이지** 구성 요소를 끌어다 놓거나 응용 프로그램 채널에서 기존 구성 요소를 다시 사용하고 mysamplespa 응용 프로그램 아래의 홈 페이지(예: ***/content/mysamplespa/en/home***)를 클릭합니다.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -92,7 +92,7 @@ AEM Screens에 대화형 REACT 앱을 추가하려면 아래 단계를 따르십
 
 1. 이 프로젝트에 대해 플레이어를 등록하고 디스플레이에 할당합니다. 이제 AEM Screens에서 실행 중인 대화형 애플리케이션을 볼 수 있습니다.
 
-   다음을 참조하십시오 [장치 등록](device-registration.md) 장치 등록에 대한 자세한 정보입니다.
+   장치 등록에 대한 자세한 내용은 [장치 등록](device-registration.md)을 참조하세요.
 
 ## AEM Screens을 통해 SPA과 Adobe Analytics 통합 및 오프라인 기능 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -100,12 +100,12 @@ AEM Screens을 통해 SPA을 Adobe Analytics과 오프라인 기능을 통합하
 
 1. AEM Screens에서 Adobe Analytics을 구성합니다.
 
-   다음을 참조하십시오 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) AEM Screens을 사용하여 Adobe Analytics에서 시퀀싱을 수행하고 offline Adobe Analytics을 사용하여 사용자 지정 이벤트를 보내는 방법에 대한 자세한 내용을 참조하십시오.
+   AEM Screens을 사용하여 Adobe Analytics에서 시퀀스 지정을 수행하고 오프라인 Adobe Analytics을 사용하여 사용자 지정 이벤트를 보내는 방법에 대한 자세한 내용은 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)을 참조하십시오.
 
 1. 선택한 IDE/편집기(특히 텍스트 구성 요소 또는 이벤트 방출을 시작하려는 기타 구성 요소)에서 React 앱을 편집합니다.
 1. 클릭 이벤트나 구성 요소에 대해 캡처할 다른 이벤트에서 표준 데이터 모델을 사용하여 분석 정보를 추가합니다.
 
-   다음을 참조하십시오 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md) 을 참조하십시오.
+   자세한 내용은 [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)을 참조하십시오.
 
 1. AEM Screens Analytics API를 호출하여 이벤트를 오프라인으로 저장하고 Adobe Analytics으로 버스트로 전송할 수 있습니다.
 

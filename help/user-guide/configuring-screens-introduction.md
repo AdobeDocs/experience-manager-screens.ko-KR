@@ -37,26 +37,26 @@ ht-degree: 1%
 
 AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 있는지 확인하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 [Adobe Experience Manager 웹 콘솔 Sling 상태 확인](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. [Adobe Experience Manager 웹 콘솔 Sling 상태 검사](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)(으)로 이동합니다.
 
-   ![assets](assets/health-check1.png)
+   ![자산](assets/health-check1.png)
 
 
-2. 클릭 **선택한 상태 검사 실행** 위에 나열된 두 속성에 대해 유효성 검사를 실행할 수 있습니다.
+2. 위에 나열된 두 속성에 대한 유효성 검사를 실행할 수 있도록 **선택한 상태 검사 실행**&#x200B;을 클릭합니다.
 
-   두 필터가 모두 활성화된 경우 **화면 구성 상태 서비스** 다음을 표시합니다. **결과** 다음으로: **확인** 두 구성이 모두 활성화되었습니다.
+   두 필터가 모두 활성화된 경우 **Screens 구성 상태 서비스**&#x200B;는 두 구성이 모두 활성화된 상태에서 **결과**&#x200B;을(를) **확인**(으)로 표시합니다.
 
-   ![assets](assets/health-check2.png)
+   ![자산](assets/health-check2.png)
 
    하나 또는 두 필터가 모두 비활성화된 경우 아래 그림과 같이 사용자에 대한 경고가 표시됩니다.
 
    다음 경고는 두 필터가 모두 비활성화된 경우를 보여 줍니다.
-   ![assets](assets/health-check3.png)
+   ![자산](assets/health-check3.png)
 
 >[!NOTE]
 >
->* 활성화하려면 **Apache Sling Referrer 필터**, 참조 [빈 레퍼러 요청 허용](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* 활성화하려면 **HTTP** 서비스, 참조 [Apache Felix Jetty 기반 HTTP 서비스](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* **Apache Sling 레퍼러 필터**&#x200B;를 사용하려면 [빈 레퍼러 요청 허용](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)을 참조하십시오.
+>* **HTTP** 서비스를 사용하려면 [Apache Felix Jetty 기반 HTTP 서비스](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)를 참조하십시오.
 
 ### 사전 요구 사항 {#prerequisites}
 
@@ -64,45 +64,45 @@ AEM Screens에 대해 이러한 두 가지 중요한 구성이 활성화되어 �
 
 #### 빈 레퍼러 요청 허용 {#allow-empty-referrer-requests}
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** by way of AEM instance > hammer icon > **작업** > **웹 콘솔**.
+1. AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**&#x200B;을 통해 **Adobe Experience Manager 웹 콘솔 구성**(으)로 이동합니다.
 
    ![이미지](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager 웹 콘솔 구성** 열림. Sling 레퍼러를 검색합니다.
+1. **Adobe Experience Manager 웹 콘솔 구성**&#x200B;이 열립니다. Sling 레퍼러를 검색합니다.
 
-   sling 레퍼러 속성을 검색하려면 **Command+F** 대상 **Mac** 및 **Ctrl+F** 대상 **Windows**.
+   sling 레퍼러 속성을 검색하려면 **Mac**&#x200B;의 경우 **Command+F**&#x200B;를 누르고 **Windows**&#x200B;의 경우 **Control+F**&#x200B;를 누릅니다.
 
-1. 다음 확인: **빈 항목 허용** 아래 그림과 같은 옵션입니다.
+1. 아래 그림과 같이 **비우기 허용** 옵션을 선택합니다.
 
    ![이미지](assets/config/empty-ref2.png)
 
-1. 클릭 **저장** apache Sling Referrer 필터를 활성화하려면 Allow Empty를 사용하십시오.
+1. Apache Sling Referrer Filter Allow Empty를 활성화하려면 **저장**&#x200B;을(를) 클릭하십시오.
 
 
 #### Apache Felix Jetty 기반 HTTP 서비스 {#allow-apache-felix-service}
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** by way of AEM instance > hammer icon > **작업** > **웹 콘솔**.
+1. AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**&#x200B;을 통해 **Adobe Experience Manager 웹 콘솔 구성**(으)로 이동합니다.
 
    ![이미지](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager 웹 콘솔 구성** 열림. Apache Felix Jetty 기반 HTTP 서비스를 검색합니다.
+1. **Adobe Experience Manager 웹 콘솔 구성**&#x200B;이 열립니다. Apache Felix Jetty 기반 HTTP 서비스를 검색합니다.
 
-   이 속성을 검색하려면 **Command+F** 대상 **Mac** 및 **Ctrl+F** 대상 **Windows**.
+   이 속성을 검색하려면 **Mac**&#x200B;의 경우 **Command+F**&#x200B;를 누르고 **Windows**&#x200B;의 경우 **Control+F**&#x200B;를 누르십시오.
 
-1. 다음 확인: **HTTP 활성화** 아래 그림과 같은 옵션입니다.
+1. 아래 그림과 같이 **HTTP 사용** 옵션을 선택합니다.
 
    ![이미지](assets/config/config-1.png)
 
-1. 클릭 **저장** 을(를) 활성화하려면 *Http* 서비스.
+1. *Http* 서비스를 사용하려면 **저장**&#x200B;을 클릭하세요.
 
 #### AEM Screens용 Touch UI 활성화 {#enable-touch-ui-for-aem-screens}
 
 AEM Screens은 TOUCH UI가 필요하며 Adobe Experience Manager(AEM)의 클래식 UI에서 작동하지 않습니다.
 
-1. 다음으로 이동 `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
-1. 다음을 확인합니다. **기본 작성 UI 모드** 이(가) (으)로 설정됨 **터치**&#x200B;아래 그림과 같이
+1. `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`(으)로 이동
+1. 아래 그림과 같이 **기본 제작 UI 모드**&#x200B;가 **TOUCH**(으)로 설정되어 있는지 확인하십시오
 
-또는 authorInstance를 사용하여 동일한 설정을 수행할 수도 있습니다 *>* 도구(망치 아이콘) > **작업** > **웹 콘솔** 및 검색 **WCM 작성 UI 모드 서비스**.
+또는 AuthorInstance *>* 도구(망치 아이콘) > **작업** > **웹 콘솔**&#x200B;을 사용하여 동일한 설정을 수행하고 **WCM 작성 UI 모드 서비스**&#x200B;를 검색할 수도 있습니다.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -112,7 +112,7 @@ AEM Screens은 TOUCH UI가 필요하며 Adobe Experience Manager(AEM)의 클래�
 
 #### NOSAMPLECONTENT 실행 모드의 AEM {#aem-in-nosamplecontent-runmode}
 
-프로덕션에서 AEM을 실행하면 **NOSAMPLECONTENT** 실행 모드. 제거 *X-Frame-Options=SAMEORIGIN* 의 헤더(추가 응답 헤더 섹션)
+프로덕션에서 AEM을 실행하면 **NOSAMPLECONTENT** 실행 모드가 사용됩니다. 추가 응답 헤더 섹션에서 *X-Frame-Options=SAMEORIGIN* 헤더를 제거합니다.
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
 
@@ -120,27 +120,27 @@ AEM Screens 플레이어에서 온라인 채널을 재생하려면 이 제거를
 
 #### 암호 제한 {#password-restrictions}
 
-에 대한 최신 변경 사항 포함 ***DeviceServiceImpl***, 암호 제한 사항을 제거할 필요가 없습니다.
+***DeviceServiceImpl***&#x200B;에 대한 최신 변경 내용으로 인해 암호 제한을 제거할 필요가 없습니다.
 
-다음을 구성할 수 있습니다. ***DeviceServiceImpl*** 화면 장치 사용자의 암호를 만드는 동안 암호 제한을 활성화하려면 아래 링크를 클릭하십시오.
+화면 장치 사용자에 대한 암호를 만드는 동안 암호 제한을 사용하도록 아래 링크에서 ***DeviceServiceImpl***&#x200B;을 구성할 수 있습니다.
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-아래 단계에 따라 구성하십시오. ***DeviceServiceImpl***:
+***DeviceServiceImpl***&#x200B;을(를) 구성하려면 아래 단계를 따르십시오.
 
-1. 다음으로 이동 **Adobe Experience Manager 웹 콘솔 구성** AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**.
+1. AEM 인스턴스 > hammer 아이콘 > **작업** > **웹 콘솔**&#x200B;을 통해 **Adobe Experience Manager 웹 콘솔 구성**(으)로 이동합니다.
 
-1. **Adobe Experience Manager 웹 콘솔 구성** 열림. `*deviceservice*`을 검색합니다. 속성을 검색하려면 **Command+F** macOS 및 **Ctrl+F** Microsoft® Windows용
+1. **Adobe Experience Manager 웹 콘솔 구성**&#x200B;이 열립니다. `*deviceservice*`을 검색합니다. 속성을 검색하려면 macOS의 경우 **Command+F**, Microsoft® Windows의 경우 **Control+F**&#x200B;을 누릅니다.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher 구성 {#dispatcher-configuration}
 
-AEM Screens 프로젝트에 대한 Dispatcher를 구성하는 방법에 대해 알아보려면 를 참조하십시오. [AEM Screens 프로젝트에 대한 Dispatcher 구성](dispatcher-configurations-aem-screens.md).
+AEM Screens 프로젝트에 대한 Dispatcher을 구성하는 방법은 [AEM Screens 프로젝트에 대한 Dispatcher 구성](dispatcher-configurations-aem-screens.md)을 참조하십시오.
 
 #### Java™ 인코딩 {#java-encoding}
 
-설정 ***Java™ 인코딩*** 유니코드로 이동합니다. 예를 들어, `*Dfile.encoding=Cp1252*` 작동하지 않습니다.
+***Java™ 인코딩***&#x200B;을 유니코드로 설정합니다. 예를 들어 `*Dfile.encoding=Cp1252*`은(는) 작동하지 않습니다.
 
 >[!NOTE]
 >

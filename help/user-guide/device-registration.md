@@ -30,11 +30,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->최신 Windows Player(*.exe*)에서 [AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 플레이어의 단계에 따라 임시 설치를 완료합니다.
+>[AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 최신 Windows Player(*.exe*)를 다운로드한 후, 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
 >1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
->1. 다음으로 이동 **구성** 왼쪽 작업 메뉴에서 AEM 인스턴스의 위치 주소를 입력합니다 **서버** 및 클릭 **저장**.
->1. 다음을 클릭합니다. **등록** 왼쪽 작업 메뉴 및 아래 단계를 연결하여 디바이스 등록 프로세스를 완료합니다.
+>1. 왼쪽 작업 메뉴에서 **구성**(으)로 이동하고 **서버**&#x200B;에 있는 AEM 인스턴스의 위치 주소를 입력한 다음 **저장**&#x200B;을 클릭합니다.
+>1. 왼쪽 작업 메뉴에서 **등록** 링크를 클릭하고 아래 단계를 클릭하여 장치 등록 프로세스를 완료합니다.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -43,21 +43,21 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. AEM에서 **장치** 프로젝트의 폴더입니다.
+1. AEM에서 프로젝트의 **장치** 폴더로 이동합니다.
 
    >[!NOTE]
    >
-   >AEM 대시보드에서 Screens용 프로젝트를 만드는 방법에 대한 자세한 내용은 [Screens 프로젝트 만들기 및 관리](creating-a-screens-project.md).
+   >AEM 대시보드에서 Screens용 프로젝트를 만드는 방법에 대한 자세한 내용은 [Screens 프로젝트 만들기 및 관리](creating-a-screens-project.md)를 참조하십시오.
 
-1. 다음을 클릭합니다. **장치 관리자** 단추를 클릭합니다.
+1. 작업 표시줄에서 **장치 관리자** 단추를 클릭합니다.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 다음을 클릭합니다. **장치 등록** 오른쪽 상단의 버튼.
+1. 오른쪽 상단의 **Device Registration** 단추를 클릭합니다.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 필요한 장치(1단계와 동일)를 클릭하고 **장치 등록**.
+1. 필요한 장치(1단계와 동일)를 클릭하고 **장치 등록**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -65,54 +65,54 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 장치에서 다음을 확인합니다. **등록 코드**.
+1. 장치에서 **등록 코드**&#x200B;를 확인하세요.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 다음과 같은 경우 **등록 코드** 두 컴퓨터에서 동일함 **유효성 검사** (6)단계에 표시된 것처럼 AEM의 단추입니다.
-1. 원하는 디바이스 이름을 설정하고 를 클릭합니다 **등록**.
+1. **등록 코드**&#x200B;이 두 컴퓨터에서 동일한 경우, (6)단계와 같이 AEM에서 **유효성 검사** 단추를 클릭하십시오.
+1. 원하는 장치 이름을 설정하고 **등록**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 클릭 **완료** 등록 프로세스를 완료합니다.
+1. 등록 프로세스를 완료하려면 **완료**&#x200B;를 클릭하십시오.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >다음 **새로 등록** 새 장치를 등록할 수 있습니다.
+   >**새로 등록**&#x200B;을 통해 새 장치를 등록할 수 있습니다.
    >
-   >다음 **디스플레이 할당** 장치를 디스플레이에 직접 추가할 수 있습니다.
+   >**디스플레이 할당**&#x200B;을 사용하면 장치를 디스플레이에 직접 추가할 수 있습니다.
 
-   다음을 클릭: **완료**&#x200B;를 클릭하고 장치를 디스플레이에 할당합니다.
+   **마침**&#x200B;을 클릭하면 장치를 디스플레이에 지정하십시오.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Screens 프로젝트용 디스플레이를 만들고 관리하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](managing-displays.md).
+   >Screens 프로젝트의 디스플레이를 만들고 관리하는 방법에 대한 자세한 내용은 [디스플레이 만들기 및 관리](managing-displays.md)를 참조하세요.
 
 ### 디스플레이에 장치 할당 {#assigning-device-to-a-display}
 
 디스플레이에 장치를 할당하지 않은 경우 아래 단계에 따라 AEM Screens 프로젝트의 디스플레이에 장치를 할당합니다.
 
-1. 장치를 클릭하고 **장치 지정** 작업 표시줄에서
+1. 장치를 클릭하고 작업 표시줄에서 **장치 할당**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 에서 디스플레이 경로를 클릭합니다. **디스플레이/장치 구성 경로**.
+1. **디스플레이/장치 구성 경로**&#x200B;에서 디스플레이 경로를 클릭합니다.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 클릭 **할당** 를 클릭합니다.
+1. 경로를 클릭하면 **할당**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 클릭 **완료** 장치가 성공적으로 할당되면 아래 그림과 같이
+1. 아래 그림과 같이 장치가 할당되면 **마침**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   을 선택하여 디스플레이 대시보드를 볼 수도 있습니다 **완료**.
+   **마침**&#x200B;을 선택하여 디스플레이 대시보드를 볼 수도 있습니다.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -120,9 +120,9 @@ ht-degree: 0%
 
 플레이어에 장치를 등록한 경우 장치 관리자 UI에서 모든 장치를 볼 수 있습니다.
 
-1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: ). **데모 화면** > **장치**.
+1. AEM Screens 프로젝트에서 장치 관리자 UI로 이동합니다(예: **DemoScreens** > **장치**).
 
-1. 다음을 클릭합니다. **장치** 폴더 및 클릭 **장치 관리자** 작업 표시줄에서
+1. **장치** 폴더를 클릭하고 작업 표시줄에서 **장치 관리자**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ ht-degree: 0%
 
    또는,
 
-   선택 `/` (슬래시) 검색 기능을 호출합니다.
+   검색 기능을 호출하려면 `/`(슬래시)을(를) 선택하십시오.
 
    ![이미지](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### 검색 기능에 대한 제한 사항 {#limitations}
 
-* 사용자는 *장치 ID* 또는 *장치 이름*.
+* 사용자가 *장치 ID* 또는 *장치 이름*&#x200B;에 있는 단어를 검색할 수 있습니다.
 
   >[!NOTE]
-  >다음과 같이 여러 단어로 장치 이름을 만드는 것이 좋습니다. *`Boston Store Lobby`* 단일 항목 대신 *`BostonStoreLobby`*.
+  >하나의 단일 *`BostonStoreLobby`*&#x200B;이(가) 아닌 *`Boston Store Lobby`*&#x200B;과(와) 같은 여러 단어로 장치 이름을 만드는 것이 좋습니다.
 
-* 다음과 같은 장치 이름을 만든 경우 *`Boston Store Lobby`*, 모든 단어를 검색합니다 *`boston`*, *`store`*, 또는 *`lobby`*. 그러나 디바이스 이름이 인 경우 *`BostonStoreLobby`*, 검색 후 *`boston`* 결과를 표시하지 않습니다.
+* *`Boston Store Lobby`*&#x200B;과(와) 같은 장치 이름을 만든 경우 단어 *`boston`*, *`store`* 또는 *`lobby`*&#x200B;을(를) 검색합니다. 그러나 장치 이름이 *`BostonStoreLobby`*&#x200B;이면 *`boston`*&#x200B;을(를) 검색해도 결과가 표시되지 않습니다.
 
-* 와일드카드, `*` 은 검색에 대해 지원됩니다. 이름이 로 시작하는 모든 장치를 찾으려는 경우 *`boston`*, *를 사용할 수 있습니다.`boston`**.
+* 와일드카드 `*`이(가) 검색용으로 지원됩니다. 이름이 *`boston`*&#x200B;로 시작하는 모든 장치를 찾으려면 *`boston`**를 사용할 수 있습니다.
 
-* 장치 이름이 인 경우 *`BostonStoreLobby`* 및 검색 *`boston`* 은 결과를 반환하지 않고 다음을 사용합니다. *`boston`** 검색 기준에서 결과를 반환합니다.
+* 장치 이름이 *`BostonStoreLobby`*&#x200B;이고 *`boston`*&#x200B;을(를) 검색해도 결과가 반환되지 않으면 검색 기준에서 *`boston`**을(를) 사용하면 결과가 반환됩니다.
 
 ## 장치 등록 제한 사항 {#limitations-on-device-registration}
 
 시스템 전체 사용자 암호 제한으로 인해 디바이스 등록에 실패할 수 있습니다. 디바이스 등록에서는 디바이스 사용자를 생성하기 위해 임의로 생성된 암호를 사용합니다.
 
-다음과 같은 경우 *AuthorizableActionProvider* 구성이 암호를 제한하므로 장치 사용자 만들기가 실패할 수 있습니다.
+*AuthorizableActionProvider* 구성에서 암호를 제한하면 장치 사용자 만들기가 실패할 수 있습니다.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 기타 리소스 {#additional-resources}
 
-AEM Screens Player에 대한 자세한 내용은 [AEM Screens 플레이어](working-with-screens-player.md).
+AEM Screens 플레이어에 대한 자세한 내용은 [AEM Screens 플레이어](working-with-screens-player.md)를 참조하세요.

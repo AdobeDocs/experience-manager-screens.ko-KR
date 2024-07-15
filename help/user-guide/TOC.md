@@ -23,7 +23,7 @@ ht-degree: 11%
    + [킥스타트 안내서](kickstart-for-aem-screens.md)
    + [Screens 모범 사례 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [주요 용어](screens-glossary.md)
-+ 디지털 간판 네트워크 기본 사항 {#digital-signage-network}
++ 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
    + [1부: 프로젝트 역할 및 책임](project-roles-responsibilities.md)
    + [2부: 프로젝트 범위 지정 시 고려 사항](project-considerations.md)
    + [3부: 테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
@@ -33,16 +33,16 @@ ht-degree: 11%
    + [Screens 서버 구성](configuring-screens-introduction.md)
    + [Dispatcher 구성 설정](dispatcher-configurations-aem-screens.md)
    + [Screens 플레이어 설치](installing-screens-player.md)
-   + [스크린 플레이어 연결 중](working-with-screens-player.md)
+   + [Screens 플레이어 연결](working-with-screens-player.md)
    + [장치 등록](device-registration.md)
    + [ACL 설정](setting-up-acls.md)
    + [AEM Screens 보안 검사 목록](security-checklist.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일의 새 프로젝트 가져오기](project-importer.md)
-   + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
-   + [화면에 복제 에이전트 구성](configure-screens-replication.md)
+   + [Publish 서버에 데이터 트리거 복제](replicating-data-triggers.md)
+   + [Screens에서 복제 에이전트 구성](configure-screens-replication.md)
    + 클라이언트별 고려 사항 {#installing-client}
-      + [크롬 OS 플레이어](implementing-chrome-os-player.md)
+      + [Chrome OS 플레이어](implementing-chrome-os-player.md)
       + [Chrome Player를 문제 해결을 위한 확장 프로그램으로 사용](using-chrome-player-as-an-extension.md)
       + [Android](implementing-android-player.md)
       + [Windows 플레이어](implementing-windows-player.md)
@@ -50,21 +50,21 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [플레이어 자동 등록](auto-registration-players.md)
       + [원격 제어 사용](implementing-remote-control.md)
-   + Author 게시 {#author-publish}
+   + 작성자 Publish {#author-publish}
       + [Author-Publish 아키텍처 개요](author-publish-architecture-overview.md)
-      + [작성자 및 게시 구성](author-and-publish.md)
-   + AEM Screens과 Analytics 통합 {#analytics-integration}
+      + [작성자 및 Publish 구성](author-and-publish.md)
+   + AEM Screens {#analytics-integration}과(와) Analytics 통합
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
       + [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
 + 작성 및 사용 사례 예 {#authoring}
-   + Screens 프로젝트 설정 {#setting-up-projects}
+   + Screens 프로젝트 {#setting-up-projects} 설정 중
       + [프로젝트 생성 및 관리](creating-a-screens-project.md)
       + [채널 만들기 및 관리](managing-channels.md)
       + [디스플레이 만들기 및 관리](managing-displays.md)
       + [위치 생성 및 관리](managing-locations.md)
       + [스케줄 생성 및 관리](managing-schedules.md)
       + [장치 관리](managing-devices.md)
-      + 채널 할당 {#assigning-channels}
+      + 채널 {#assigning-channels} 할당 중
          + [채널 지정](channel-assignment-latest-fp.md)
          + [채널 할당: 이전 AEM Screens 기능 팩](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}
@@ -80,7 +80,7 @@ ht-degree: 11%
       + [포함된 시퀀스](embedded-sequences.md)
       + [다중 영역 레이아웃](multi-zone-layout-aem-screens.md)
       + [비디오 표현물](generating-renditions.md)
-      + [동적 포함된 시퀀스](dynamic-embedded-sequences.md)
+      + [동적 포함 시퀀스](dynamic-embedded-sequences.md)
       + [채널 레벨 벌크 이미지 재생 기간](channel-level-image-playback.md)
       + [명령 동기화](using-command-sync.md)
       + [데이터 트리거를 사용하여 작성](authoring-data-triggers.md)
@@ -89,7 +89,7 @@ ht-degree: 11%
       + [컨텐츠 할당 보고서](content-assignment-report.md)
       + [비디오에 대한 썸네일 지원](thumbnail-support.md)
       + [AEM Screens에서 적응형 표현물 사용](using-adaptive-renditions.md)
-   + 컨텐츠 업데이트 관리 {#content-updates}
+   + 콘텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 콘텐츠 업데이트](on-demand-content.md)
       + [Content as-a-service 업데이트](content-update-as-a-service.md)
       + [Screens Launch를 사용한 콘텐츠 업데이트](launches.md)
@@ -124,7 +124,7 @@ ht-degree: 11%
    + [기능 팩 202204 릴리스 정보](release-notes-fp-202204.md)
    + [기능 팩 202203 릴리스 정보](release-notes-fp-202203.md)
    + [기능 팩 202112 릴리스 정보](release-notes-fp-202112.md)
-   + [기능 팩 202109 릴리스 정보](release-notes-fp-202109.md)
+   + [기능 팩 릴리스 정보 202109](release-notes-fp-202109.md)
    + [기능 팩 202105 릴리스 정보](release-notes-fp-202105.md)
    + [기능 팩 202103 릴리스 정보](release-notes-fp-202103.md)
    + [기능 팩 202011 릴리스 정보](release-notes-fp-202011.md)

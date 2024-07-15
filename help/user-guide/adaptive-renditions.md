@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## 소개 {#introduction}
 
-적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 표현물을 자동으로 다운로드하고 재생하므로 고객은 다음을 디자인하는 데 집중할 수 있습니다 *main* 경험만 입력하십시오.
+적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 가장 적합한 렌디션을 자동으로 클릭할 수 있습니다. 장치는 이러한 규칙에 따라 에셋의 가장 적절한 표현물을 자동으로 다운로드하고 재생하므로 고객은 *main* 경험만 디자인하는 데 집중할 수 있습니다.
 
 ## 목표 {#objective}
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 적응형 렌디션은 특정 명명 규칙에 따라 이름이 지정된 에셋에 대한 여러 렌디션을 갖는 개념을 기반으로 합니다. 특정 렌디션을 재생하려면 예상되는 기능이 있는 장치에서만 확인할 수 있는 미디어 쿼리 식을 평가해야 합니다.
 
-연관된 렌디션 이름 지정 패턴이 있는 기능은 아래 그림과 같이 세로 또는 가로와 같은 렌디션 매핑 규칙을 정의합니다. 사용 가능한 모든 표현식을 계산한 후 화면 플레이어는 일치하는 규칙에 해당하는 명명 패턴을 수집합니다. 패턴은 렌디션 이름에서 패턴을 찾아 시퀀스 재생 중에 올바른 렌디션을 찾는 데 사용됩니다.
+연관된 렌디션 이름 지정 패턴이 있는 기능은 아래 그림과 같이 세로 또는 가로와 같은 렌디션 매핑 규칙을 정의합니다. 사용 가능한 모든 표현식을 계산한 후 Screens 플레이어는 일치하는 규칙에 해당하는 이름 지정 패턴을 수집합니다. 패턴은 렌디션 이름에서 패턴을 찾아 시퀀스 재생 중에 올바른 렌디션을 찾는 데 사용됩니다.
 
 ![이미지](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
@@ -32,23 +32,23 @@ ht-degree: 2%
 적응형 렌디션 기능을 활성화하려면 다음 매핑 규칙이 있어야 하며 채널 및 디스플레이에 대한 CA(컨텍스트 인식) 구성을 해결해야 합니다.
 
 >[!NOTE]
->콘텐츠 인식 구성에 대한 자세한 내용은 을 참조하십시오. [여기](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+>콘텐츠 인식 구성에 대한 자세한 내용은 [여기](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)를 참조하세요.
 
 아래 단계에 따라 설정을 구성하십시오.
 
-1. 다음으로 이동 **CRXDE Lite**. 다음과 같은 경우 확인 **렌디션 매핑** 구성이 다음 위치에 있음 `/conf/screens/sling:configs/rendition-mapping`을 참조하십시오.
+1. **CRXDE Lite**(으)로 이동합니다. 아래 그림과 같이 `/conf/screens/sling:configs/rendition-mapping`에 **렌디션 매핑** 구성이 있는지 확인합니다.
 
    >![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >최신 기능 팩 202109을 설치한 경우 **렌디션 매핑** 에 미리 채워진 노드 구조 `/conf/screens/sling:configs/rendition-mapping` CRXDE Lite. 다음을 참조하십시오 [기능 팩 202109 릴리스 정보](/help/user-guide/release-notes-fp-202109.md) 최신 기능 팩에 대한 자세한 내용을 보려면 .
-   >기존 프로젝트의 경우 Screens 프로젝트에 **렌디션 매핑** 구성이 연결되었습니다. 다음을 참조하십시오 [기존 프로젝트에 렌디션 매핑 추가](#rendition-mapping-existing) 섹션에 자세히 설명되어 있습니다.
+   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 `/conf/screens/sling:configs/rendition-mapping`에 미리 채워진 **렌디션 매핑** 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용을 보려면 [기능 팩 202109 릴리스 정보](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.
+   >기존 프로젝트의 경우 Screens 프로젝트에 **렌디션 매핑** 구성이 연결되어 있는지 확인하십시오. 자세한 내용은 [기존 프로젝트에 렌디션 매핑 추가](#rendition-mapping-existing) 섹션을 참조하십시오.
 
 ### 기존 프로젝트에 렌디션 매핑 속성 추가 {#rendition-mapping-existing}
 
-1. 다음으로 이동 **CRXDE Lite**.
+1. **CRXDE Lite**(으)로 이동합니다.
 
-1. 를 추가하여 렌디션 매핑 연결을 명시적으로 정의 `sling:configRef` 을(를) 가리키는 속성 `/conf/screens` 아래 그림과 같이 프로젝트 콘텐츠 노드로 이동합니다.
+1. 아래 그림과 같이 프로젝트 콘텐츠 노드에 `/conf/screens`을(를) 가리키는 `sling:configRef` 속성을 추가하여 렌디션 매핑 연결을 명시적으로 정의합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -57,12 +57,12 @@ ht-degree: 2%
 
 렌디션 매핑에 노드를 추가하려면 아래 단계를 따르십시오.
 
-1. 이 경로로 이동 `/conf/screens/sling:configs/rendition-mapping` 출처: **CRXDE Lite**.
-1. 아래에 노드 만들기 **렌디션 매핑**. 마우스 오른쪽 버튼 클릭 **렌디션 매핑** 및 클릭 **만들기** > **노드 만들기**&#x200B;을 참조하십시오.
+1. **CRXDE Lite**&#x200B;에서 이 경로 `/conf/screens/sling:configs/rendition-mapping`(으)로 이동합니다.
+1. **렌디션 매핑** 아래에 노드를 만듭니다. 아래 그림과 같이 **렌디션 매핑**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **만들기** > **노드 만들기**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 다음을 입력합니다. **이름** 매핑 규칙: **rule1** 및 노드 **유형** 다음으로: **`nt:unstructured`** 위치: **노드 만들기** 대화 상자. **확인**&#x200B;을 클릭합니다.
+1. **노드 만들기** 대화 상자에서 **규칙1**&#x200B;과(와) 같은 매핑 규칙에 대한 **이름**&#x200B;과(와) **유형**&#x200B;을(를) **`nt:unstructured`**(으)로 입력하십시오. **확인**&#x200B;을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -70,9 +70,9 @@ ht-degree: 2%
 1. 쿼리 표현식이 포함된 값으로 표현식 속성을 추가합니다.
 
    >[!NOTE]
-   >다음을 참조하십시오 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 자세히 알아보십시오.
+   >자세한 내용은 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)을 참조하세요.
 
-   클릭 **rule1** 을(를) 생성한 다음 **표현식** 위치: **이름** 및 **(orientation:landscape)** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
+   만든 **rule1**&#x200B;을(를) 클릭하고 아래와 같이 **Name**&#x200B;에 **식**&#x200B;을(를), **Value**&#x200B;에 **(orientation:landscape)**&#x200B;을(를) 입력하십시오. **추가**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,14 +81,14 @@ ht-degree: 2%
    >[!NOTE]
    >표현식이 true로 평가되는 경우 패턴 속성에 정의된 값이 새 자산 렌디션과 일치하고 선택됩니다.
 
-   패턴 속성을 추가하려면 **rule1** 을(를) 생성한 다음 **패턴** 위치: **이름** 및 **가로** 위치: **값**&#x200B;아래에 표시된 대로 를 클릭합니다. 클릭 **추가**.
+   패턴 속성을 추가하려면 만든 **rule1**&#x200B;을 클릭하고 아래와 같이 **Name**&#x200B;에 **pattern**&#x200B;을(를) 입력하고 **Value**&#x200B;에 **landscape**&#x200B;을(를) 입력하십시오. **추가**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 클릭 **모두 저장** 에서 만든 노드 아래의 속성을 확인합니다. **렌디션 매핑**.
+1. **모두 저장**&#x200B;을 클릭하고 **렌디션 매핑**&#x200B;에서 만든 노드 아래의 속성을 확인합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 ## 다음 단계 {#next-steps}
 
-콘텐츠 작성자는 렌디션 매핑 속성 및 규칙을 추가한 후 에셋을 구성할 수 있습니다. 적응형 렌디션을 사용하고 대규모 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수도 있습니다. 다음을 참조하십시오 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md) 추가 정보.
+콘텐츠 작성자는 렌디션 매핑 속성 및 규칙을 추가한 후 에셋을 구성할 수 있습니다. 적응형 렌디션을 사용하고 대규모 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수도 있습니다. 자세한 내용은 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md)을 참조하십시오.

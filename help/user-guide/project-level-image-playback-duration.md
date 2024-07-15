@@ -20,15 +20,15 @@ ht-degree: 1%
 
 이 기능을 사용하기 전에 프로젝트를 필수 구성 요소로 설정하여 이 기능을 구현하십시오. 예:
 
-1. AEM Screens 프로젝트 만들기(이 예에서는 **프로젝트 레벨 재생**).
-1. 다음으로 시퀀스 채널 만들기 **재생 채널** 다음 아래에 **채널** 폴더를 삭제합니다.
-1. 콘텐츠 추가 **재생 채널**.
+1. AEM Screens 프로젝트를 만듭니다(이 예제에서는 **ProjectLevelPlayback**).
+1. **채널** 폴더 아래에 시퀀스 채널을 **PlayBackChannel**(으)로 만듭니다.
+1. **PlayBackChannel**&#x200B;에 콘텐츠를 추가합니다.
 
-   ![assets](assets/image_playback1.png)
+   ![자산](assets/image_playback1.png)
 
-   예를 들어 다음 이미지는 다음에 추가된 이미지를 보여 줍니다. **재생 채널** 편집기:
+   예를 들어 다음 이미지는 **PlayBackChannel** 편집기에 추가된 이미지를 보여 줍니다.
 
-   ![assets](assets/image_playback2.png)
+   ![자산](assets/image_playback2.png)
 
 ## 프로젝트 수준 이미지 재생 기간 할당 편집 {#editing-project-level-image-playback-duration-assignment}
 
@@ -39,18 +39,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이미지 또는 채널 수준 재생 기간을 업데이트하려면 를 참조하십시오. [채널 레벨 이미지 재생 기간](channel-level-image-playback.md).
+>이미지 또는 채널 수준 재생 기간을 업데이트하려면 [채널 수준 이미지 재생 기간](channel-level-image-playback.md)을 참조하세요.
 
 프로젝트 수준 이미지 재생 기간을 업데이트하는 방법을 알려면 아래 단계를 따르십시오.
 
-1. 프로젝트로 이동 **프로젝트 레벨 재생** 및 클릭 **속성** 작업 표시줄에서
-   ![assets](assets/image_playback3.png)
+1. 프로젝트 **ProjectLevelPlayback**(으)로 이동하고 작업 표시줄에서 **속성**을 클릭합니다.
+   ![자산](assets/image_playback3.png)
 
 1. 채널의 모든 이미지를 클릭하고 아래 그림과 같이 왼쪽 상단의 렌치 아이콘을 클릭하여 채널 수준 구성 대화 상자를 열 수 있습니다.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. 다음 **페이지** 대화 상자가 열립니다.
+1. **페이지** 대화 상자가 열립니다.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   편집 **기간** 8000(밀리초)부터 3000(밀리초)까지, 즉 3초입니다. 오른쪽 상단의 확인 표시를 선택합니다. **페이지** 대화 상자를 통해 변경 사항을 저장합니다.
+   **기간**&#x200B;을(를) 8000(밀리초)에서 3000(밀리초)까지(즉, 3초) 편집합니다. 변경 내용이 저장되도록 **페이지** 대화 상자의 오른쪽 맨 위에 있는 확인 표시를 선택합니다.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
