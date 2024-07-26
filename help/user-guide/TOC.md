@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 11%
 
 ---
@@ -21,8 +21,9 @@ ht-degree: 11%
 + [Screens 소개](aem-screens-introduction.md)
 + 개요 및 킥스타트 안내서 {#overview}
    + [킥스타트 안내서](kickstart-for-aem-screens.md)
-   + [Screens 모범 사례 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Screens 모범 사례 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/using/about-guide)
    + [주요 용어](screens-glossary.md)
+   + [Screens 용어 및 개념](screens-concepts-feature-video-understand.md)
 + 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
    + [1부: 프로젝트 역할 및 책임](project-roles-responsibilities.md)
    + [2부: 프로젝트 범위 지정 시 고려 사항](project-considerations.md)
