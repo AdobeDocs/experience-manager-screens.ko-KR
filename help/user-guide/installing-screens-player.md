@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -57,6 +57,7 @@ AEM Screens Player의 기본 재생 모니터링을 사용하면 다음을 수�
 | lastContentChange {string} | 마지막 콘텐츠 변경 타임스탬프 |
 
 >[!NOTE]
+>
 >선택적으로, 플레이어 환경 설정(재생 모니터링 활성화)에서 보다 고급 속성을 활성화할 수 있습니다.
 >
 >| 속성 | 설명 |
