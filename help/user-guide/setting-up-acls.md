@@ -1,6 +1,6 @@
 ---
 title: ACL 설정
-description: 각 개인 또는 팀이 자체 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 알아봅니다.
+description: ACL(액세스 제어 목록)을 사용하여 프로젝트를 분리하여 각 개인 또는 팀이 고유한 프로젝트를 처리하도록 하는 방법에 대해 알아봅니다.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
 
-# ACL 설정 {#setting-up-acls}
+# ACL(액세스 제어 목록) 설정 {#setting-up-acls}
 
-다음 섹션에서는 각 개인 또는 팀이 자체 프로젝트를 처리하도록 ACL을 사용하여 프로젝트를 분리하는 방법을 설명합니다.
+다음 섹션에서는 각 개인 또는 팀이 자체 프로젝트를 처리하도록 ACL(액세스 제어 목록)을 사용하여 프로젝트를 분리하는 방법을 설명합니다.
 
 AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 않도록 해야 합니다. 각 사용자에게는 프로젝트 요구 사항에 따라 특정 역할이 할당됩니다.
 
