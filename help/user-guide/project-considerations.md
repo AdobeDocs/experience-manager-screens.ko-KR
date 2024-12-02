@@ -1,5 +1,5 @@
 ---
-title: "2부: 프로젝트 범위 지정 시 고려 사항"
+title: '2부: 프로젝트 범위 지정 시 고려 사항'
 description: AEM Screens의 컨텐츠 전략, I/O 레이어, 자산 유형 및 대상자 세분화에 대해 알아봅니다. 작업 영역, 비즈니스 운영 요구 사항 및 사이트 준비 고려 사항에 대해 읽어 보십시오.
 contentOwner: jsyal
 content-type: reference

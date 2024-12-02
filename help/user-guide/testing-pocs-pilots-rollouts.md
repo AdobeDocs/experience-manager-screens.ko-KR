@@ -1,5 +1,5 @@
 ---
-title: "3부: 테스트, POC, 파일럿 및 롤아웃"
+title: '3부: 테스트, POC, 파일럿 및 롤아웃'
 description: 프로젝트 주기, 하드웨어 테스트를 둘러싼 작업, 개념 증명, 파일럿 및 롤아웃 등 전반적인 프로젝트 계획과 관련된 주요 용어를 알아봅니다.
 contentOwner: jsyal
 content-type: reference

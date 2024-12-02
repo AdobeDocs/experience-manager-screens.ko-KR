@@ -1,5 +1,5 @@
 ---
-title: "4부: 프로젝트 관리 및 배포"
+title: '4부: 프로젝트 관리 및 배포'
 description: AEM Screens의 프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알아봅니다.
 contentOwner: jsyal
 content-type: reference

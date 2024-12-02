@@ -1,5 +1,5 @@
 ---
-title: "1부: 프로젝트 역할 및 책임"
+title: '1부: 프로젝트 역할 및 책임'
 description: 이 튜토리얼에서는 디지털 사이니지 프로젝트의 판매 및 프로젝트 수명 주기 동안 필요한 역할, 책임 및 타임라인을 이해합니다.
 feature: Overview
 role: User, Data Architect

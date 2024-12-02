@@ -1,5 +1,5 @@
 ---
-title: "5부: 지원 고려 사항"
+title: '5부: 지원 고려 사항'
 description: 하드웨어, 소프트웨어 및 연결 문제를 해결하는 방법에 대해 알아봅니다. 현장 지원을 위한 비용 예측 및 프레임워크를 살펴보십시오. 또한 SLA 매개 변수, 운영 예산 및 NOC 핸드오프를 관리하는 방법도 알아봅니다.
 contentOwner: jsyal
 content-type: reference
