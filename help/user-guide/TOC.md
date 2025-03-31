@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [AEM Screens 보안 검사 목록](security-checklist.md)
    + [ContentSync에서 SmartSync로 전환](smartsync.md)
    + [파일의 새 프로젝트 가져오기](project-importer.md)
-   + [Publish 서버에 데이터 트리거 복제](replicating-data-triggers.md)
+   + [게시 서버에 데이터 트리거 복제](replicating-data-triggers.md)
    + [Screens에서 복제 에이전트 구성](configure-screens-replication.md)
    + 클라이언트별 고려 사항 {#installing-client}
       + [Chrome OS 플레이어](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [플레이어 자동 등록](auto-registration-players.md)
       + [원격 제어 사용](implementing-remote-control.md)
-   + 작성자 Publish {#author-publish}
+   + 작성자 게시 {#author-publish}
       + [Author-Publish 아키텍처 개요](author-publish-architecture-overview.md)
-      + [작성자 및 Publish 구성](author-and-publish.md)
+      + [작성자 및 게시 구성](author-and-publish.md)
    + AEM Screens {#analytics-integration}과(와) Analytics 통합
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
       + [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 11%
    + [오프라인 채널](offline-channels.md)
    + [AEM Screens 구성 요소 확장](extending-component-tutorial-develop.md)
    + [구성 요소 만들기](creating-components.md)
-   + [AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합](embedding-react-app.md)
+   + [AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합](embedding-react-app.md)
    + [AEM Screens에서 ContextHub 구성](configuring-context-hub.md)
    + [다중 영역 레이아웃에 대한 사용자 지정 템플릿 만들기](creating-custom-templates-multizone-layouts.md)
    + [텍스트 오버레이에 사용자 정의 브랜딩 및 스타일 적용](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [장치 제어 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 정보 {#release-notes}
+   + [기능 팩 202401 릴리스 정보](release-notes-fp-20250215.md)
    + [기능 팩 202401 릴리스 정보](release-notes-fp-202401.md)
    + [기능 팩 20240116 릴리스 정보](release-notes-fp-20240116.md)
    + [기능 팩 20240215 릴리스 정보](release-notes-fp-20240215.md)
