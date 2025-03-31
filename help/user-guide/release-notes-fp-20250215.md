@@ -4,7 +4,7 @@ description: 2025년 3월 27일에 릴리스된 AEM Screens 기능 팩 20250327�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 206140ca131ccf4149c91e793eae9447f748549d
+source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%
@@ -42,4 +42,3 @@ AEM Screens 기능 팩 20250327의 릴리스 날짜는 2025년 3월 27일입니�
 * 서비스 팩 21 및 Screens 기능 팩과의 패키지 충돌. (SCRNS-4638)
 
 * Screens 대시보드가 작동하지 않습니다. (SCRNS-4749)
-

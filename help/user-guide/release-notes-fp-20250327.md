@@ -4,8 +4,7 @@ description: 2025년 3월 27일에 릴리스된 AEM Screens 기능 팩 20250327�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
-source-git-commit: 48b440ca3f25352300c5813bdbccd12de8f5fba4
+source-git-commit: 9934df069cf7625b55d82cef58ee8fea08b585a1
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%

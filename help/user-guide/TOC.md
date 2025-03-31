@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
+source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '550'
 ht-degree: 11%
 
 ---
@@ -119,6 +119,9 @@ ht-degree: 11%
    + [장치 제어 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 정보 {#release-notes}
+   + [기능 팩 20250327 릴리스 정보](release-notes-fp-20250327.md)
+   + [기능 팩 20250224 릴리스 정보](release-notes-fp-20250224.md)
+   + [기능 팩 20240715 릴리스 정보](release-notes-fp-20240715.md)
    + [기능 팩 202401 릴리스 정보](release-notes-fp-20250215.md)
    + [기능 팩 202401 릴리스 정보](release-notes-fp-202401.md)
    + [기능 팩 20240116 릴리스 정보](release-notes-fp-20240116.md)
