@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # Android™ Player 구현 {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
 
 이 섹션에서는 Android™ 플레이어 구성에 대해 설명합니다. 구성 파일 및 사용 가능한 옵션에 대한 정보와 개발 및 테스트에 사용할 설정에 대한 권장 사항을 제공합니다.
 
@@ -77,7 +80,7 @@ Android™ 아키텍처로 인해 디바이스를 재부팅하려면 애플리�
 >
 >전제 조건:
 >
->다음 단계를 수행하기 전에 Android™ SDK가 설치되어 있어야 합니다.
+>다음 단계를 수행하기 전에 Android™ SDK이 설치되어 있어야 합니다.
 
 제조업체의 키를 사용하여 Android™ APK에 서명하려면 아래 단계를 따르십시오.
 
@@ -110,7 +113,7 @@ Android™ 아키텍처로 인해 디바이스를 재부팅하려면 애플리�
 
 ## Android™ Player 벌크 프로비저닝 {#bulk-provision-android-player}
 
-Android™ 플레이어를 일괄적으로 롤아웃할 때 Admin UI에 수동으로 입력하지 않고 AEM 인스턴스를 가리키도록 플레이어를 프로비저닝하고 다른 속성을 구성해야 합니다.
+Android™ 플레이어를 일괄적으로 롤아웃할 때 관리 UI에 수동으로 입력하지 않고 AEM 인스턴스를 가리키도록 플레이어를 프로비저닝하고 다른 속성을 구성해야 합니다.
 
 >[!NOTE]
 >이 기능은 Android™ player 42.0.372에서 사용할 수 있습니다.
@@ -124,7 +127,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 
 1. 파일이 배포되면 MDM을 사용하여 플레이어 응용 프로그램을 설치합니다.
 
-1. 플레이어 애플리케이션이 실행되면 이 구성 파일을 읽고 해당 파일이 등록된 다음 제어되는 해당 AEM 서버를 가리킵니다.
+1. 플레이어 애플리케이션이 실행되면 이 구성 파일을 읽고 해당 구성 파일이 등록된 다음 제어되는 해당 AEM 서버를 가리킵니다.
 
    >[!NOTE]
    >이 파일은 응용 프로그램을 처음 시작할 때 *읽기 전용*&#x200B;이므로 후속 구성에 사용할 수 없습니다. 구성 파일을 삭제하기 전에 플레이어를 시작한 경우 응용 프로그램을 제거하고 장치에 다시 설치하십시오.
@@ -133,7 +136,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 
 다음 표에는 정책 속성이 참조용으로 JSON 예와 함께 요약되어 있습니다.
 
-| **정책 이름** | **목적** |
+| **정책 이름** | **용도** |
 |---|---|
 | *server* | Adobe Experience Manager 서버의 URL입니다. |
 | *해상도* | 장치의 해상도입니다. |
@@ -172,11 +175,11 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 
 ## Enterprise Mobility Management를 사용한 Android™ Player 벌크 프로비저닝 {#bulk-provisioning}
 
-Android™ 플레이어를 대량으로 배포할 때 AEM에 모든 플레이어를 수동으로 등록하는 것은 번거로워집니다. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 배포를 원격으로 프로비저닝하고 관리할 수 있습니다. AEM Screens Android™ player는 원격 프로비저닝이 가능하도록 업계 표준 EMM AppConfig를 지원합니다.
+Android™ 플레이어를 일괄적으로 배포할 때 모든 플레이어를 AEM에 수동으로 등록하는 것은 번거로워집니다. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron 또는 Samsung Knox와 같은 EMM(Enterprise Mobility Management) 솔루션을 사용하여 배포를 원격으로 프로비저닝하고 관리할 수 있습니다. AEM Screens Android™ player는 원격 프로비저닝이 가능하도록 업계 표준 EMM AppConfig를 지원합니다.
 
 ## Android™ 플레이어 이름 지정 {#name-android}
 
-사용자에게 친숙한 장치 이름을 Android™ 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)에 보낼 수 있습니다. 이 기능을 사용하면 Android™ 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
+사용자에게 친근한 장치 이름을 Android™ 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Android™ 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 컨텐츠를 쉽게 할당할 수 있습니다.
 
 >[!NOTE]
 >등록하기 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 더 이상 플레이어 이름을 변경할 수 없습니다.
