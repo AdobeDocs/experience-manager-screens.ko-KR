@@ -84,7 +84,7 @@ ht-degree: 2%
    >
    >채널 할당 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
-1. **일정** 옵션에서 **활성화 기간** 및 **반복 일정**을 클릭합니다.
+1. **일정** 옵션에서 **활성화 기간** 및 **반복 일정**&#x200B;을 클릭합니다.
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]

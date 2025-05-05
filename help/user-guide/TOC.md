@@ -54,18 +54,18 @@ ht-degree: 11%
    + 작성자 게시 {#author-publish}
       + [Author-Publish 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
-   + AEM Screens {#analytics-integration}과(와) Analytics 통합
+   + AEM Screens과(와) Analytics 통합 {#analytics-integration}
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
       + [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
 + 작성 및 사용 사례 예 {#authoring}
-   + Screens 프로젝트 {#setting-up-projects} 설정 중
+   + Screens 프로젝트 설정 중 {#setting-up-projects}
       + [프로젝트 생성 및 관리](creating-a-screens-project.md)
       + [채널 만들기 및 관리](managing-channels.md)
       + [디스플레이 만들기 및 관리](managing-displays.md)
       + [위치 생성 및 관리](managing-locations.md)
       + [스케줄 생성 및 관리](managing-schedules.md)
       + [장치 관리](managing-devices.md)
-      + 채널 {#assigning-channels} 할당 중
+      + 채널 할당 중 {#assigning-channels}
          + [채널 지정](channel-assignment-latest-fp.md)
          + [채널 할당: 이전 AEM Screens 기능 팩](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}

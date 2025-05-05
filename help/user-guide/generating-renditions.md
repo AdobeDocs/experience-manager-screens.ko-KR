@@ -45,7 +45,7 @@ ht-degree: 0%
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
 1. **프로세스** 탭을 클릭합니다.
-1. **인수**의 목록에 전체 HD 프로필을 다음과 같이 입력하십시오.
+1. **인수**&#x200B;의 목록에 전체 HD 프로필을 다음과 같이 입력하십시오.
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. **확인**&#x200B;을 클릭합니다.
 
