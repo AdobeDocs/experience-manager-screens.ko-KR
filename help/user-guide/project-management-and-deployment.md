@@ -80,7 +80,7 @@ Sales Opportunity 가 프로젝트로 전환되면 Kick Off Meeting 이 예정�
 
 ### 프로젝트 관리 및 배포
 
->[!VIDEO](https://video.tv.adobe.com/v/28408)
+>[!VIDEO](https://video.tv.adobe.com/v/32796?captions=kor)
 
 *프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알아봅니다.*
 

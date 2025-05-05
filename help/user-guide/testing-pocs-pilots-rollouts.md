@@ -73,7 +73,7 @@ QC 테스트가 완료되면 IT 엔지니어링팀이 2일 지원 중에 참조�
 
 ### 테스트, POC, 파일럿 및 롤아웃
 
->[!VIDEO](https://video.tv.adobe.com/v/28405)
+>[!VIDEO](https://video.tv.adobe.com/v/32815?captions=kor)
 
 *프로젝트 주기, 하드웨어 테스트를 둘러싼 작업, 개념 증명, 파일럿 및 롤아웃과 같은 전체 프로젝트 계획과 관련된 주요 용어를 알아봅니다.*
 
