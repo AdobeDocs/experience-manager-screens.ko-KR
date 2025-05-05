@@ -112,7 +112,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 1. pub2용 AEM Screens 복제 에이전트를 만듭니다. pub1용 Screens 복제 에이전트를 복사하고 pub2용 4504로 포트를 변경합니다.
 
    >[!NOTE]
-   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
+   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
 
 #### Screens 역방향 복제 에이전트 생성 {#creating-screens-reverse-replication-agents}
 

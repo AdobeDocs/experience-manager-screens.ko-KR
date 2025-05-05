@@ -25,7 +25,7 @@ AEM Screens 디지털 사이니지 솔루션을 구현하기 전에 다음 요�
 * **예약**
 * **콘텐츠 미리 보기**
 
-이러한 용어에 대한 자세한 내용은 [용어집](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary)을 참조하세요.
+이러한 용어에 대한 자세한 내용은 [용어집](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/overview/screens-glossary)을 참조하세요.
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ AEM Screens 작성자는 AEM Screens에서 사용 가능한 구성 요소를 사
 
 작성자는 일반적으로 다음과 같이 AEM Screens 프로젝트를 시작합니다.
 
-* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [채널 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [구성 요소 및 자산을 채널에 추가](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [일정 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [위치 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [디스플레이 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [디스플레이에 채널 할당](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [채널 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [구성 요소 및 자산을 채널에 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [일정 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [위치 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [디스플레이 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [디스플레이에 채널 할당](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [AEM Screens 플레이어에서 콘텐트 보기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [AEM Screens 플레이어에서 콘텐트 보기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 위치 세트를 일괄 가져올 수도 있습니다. [파일에서 새 프로젝트 가져오기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)를 참조하십시오.
+>CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 위치 세트를 일괄 가져올 수도 있습니다. [파일에서 새 프로젝트 가져오기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/project-importer)를 참조하십시오.

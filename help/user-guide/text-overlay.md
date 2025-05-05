@@ -94,7 +94,7 @@ AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 단계
 
 AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
-데이터 저장소를 사용하여 데이터 기반 자산 변경 내용을 설정하고 관리하는 방법에 대한 자세한 내용은 [AEM Screens에서 ContextHub 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub)을 참조하세요.
+데이터 저장소를 사용하여 데이터 기반 자산 변경 내용을 설정하고 관리하는 방법에 대한 자세한 내용은 [AEM Screens에서 ContextHub 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/developing/configuring-context-hub)을 참조하세요.
 
 프로젝트에 필요한 구성을 설정한 후 아래 단계에 따라 Google 시트의 값을 사용하십시오.
 

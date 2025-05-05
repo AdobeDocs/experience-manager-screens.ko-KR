@@ -18,7 +18,7 @@ ht-degree: 1%
 
 [AEM Screens용 킥스타트](kickstart-for-aem-screens.md)를 사용하여 간단한 디지털 사이니지 환경을 시작하고 실행합니다.
 
-Experience Manageras a Cloud Service 에서 Experience Manager Screens 프로젝트를 구성하고 만드는 방법에 대해 알아보려면 [여기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)를 참조하십시오.
+Experience Manageras a Cloud Service 에서 Experience Manager Screens 프로젝트를 구성하고 만드는 방법에 대해 알아보려면 [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/using/about-guide)를 참조하십시오.
 
 ## 개요 {#overview}
 
@@ -57,7 +57,7 @@ Experience Manager Screens과 관련된 주요 용어를 이해하려면 [용어
 
 * **안내식 구현 Essentials**
 
-  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens 구현 필수 사항](https://experienceleague.adobe.com/?launch=AEM-7a)**&#x200B;을(를) 따르십시오.
+  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens 구현 필수 사항](https://experienceleague.adobe.com/ko?launch=AEM-7a)**&#x200B;을(를) 따르십시오.
 
 * **Experience Manager Screens 프로젝트에 대한 모범 사례 안내서**
 

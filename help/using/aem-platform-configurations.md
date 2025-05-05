@@ -19,21 +19,21 @@ ht-degree: 3%
 
 ## 서버 구성 {#server-configurations}
 
-서버 구성을 설정하려면 [서버 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration)을 참조하십시오.
+서버 구성을 설정하려면 [서버 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration)을 참조하십시오.
 
 ## Author-Publish {#author-publish}
 
-[AEM Screens에서 작성자 및 Publish 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)을 참조하십시오.
+[AEM Screens에서 작성자 및 Publish 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)을 참조하십시오.
 
 >[!NOTE]
 >
->작성자 및 Publish이 한 명만 있는 경우 [AEM Screens에서 작성자 및 Publish 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 페이지의 **작성자에 대한 복제 에이전트 설정**&#x200B;의 단계만 따를 수 있습니다.
+>작성자 및 Publish이 한 명만 있는 경우 [AEM Screens에서 작성자 및 Publish 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 페이지의 **작성자에 대한 복제 에이전트 설정**&#x200B;의 단계만 따를 수 있습니다.
 
 ## Dispatcher 구성 {#dispatcher-configurations}
 
 Dispatcher은 Adobe Experience Manager의 캐싱 및 로드 밸런싱 도구입니다. AEM의 Dispatcher를 사용하면 AEM 서버를 공격으로부터 보호할 수 있습니다. 따라서 엔터프라이즈급 웹 서버와 함께 Dispatcher을 사용하여 AEM 인스턴스의 보안을 강화할 수 있습니다.
 
-AEM Screens 프로젝트에 대해 Dispatcher을 구성하기 위한 지침을 강조 표시하는 **[AEM Screens용 Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**&#x200B;을 참조하십시오.
+AEM Screens 프로젝트에 대해 Dispatcher을 구성하기 위한 지침을 강조 표시하는 **[AEM Screens용 Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**&#x200B;을 참조하십시오.
 
 ## FFMpeg 및 비디오 표현물 설치 {#installing-ffmpeg}
 
@@ -44,13 +44,13 @@ AEM Screens 프로젝트에 대해 Dispatcher을 구성하기 위한 지침을 �
 
    >[!NOTE]
    >
-   >`-strict -2`은(는) 매개 변수 목록의 마지막 매개 변수여야 합니다. 또한 AEM 6.4에서 [비디오 표현물](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions)에 언급된 대로 */libs/settings/dam/video* 아래의 노드를 */conf/global/settings/dam/video*&#x200B;에 복사합니다.
+   >`-strict -2`은(는) 매개 변수 목록의 마지막 매개 변수여야 합니다. 또한 AEM 6.4에서 [비디오 표현물](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions)에 언급된 대로 */libs/settings/dam/video* 아래의 노드를 */conf/global/settings/dam/video*&#x200B;에 복사합니다.
 1. 비디오 전환이 발생하고 렌디션이 생성 중인지 확인합니다.
 
 ## 암호 제한 {#password-restrictions}
 
 AMS 인스턴스에서 AEM의 암호 정책을 사용하지 않도록 설정해야 합니다. 또한 Screens 장치 서비스 *com.adobe.cq.screens.device.impl.DeviceService*를 사용하여 웹 콘솔에서 교대로 구성할 수 있습니다.
-[AEM Screens에서 작성자 및 Publish 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)의 **암호 제한** 섹션을 참조하십시오.
+[AEM Screens에서 작성자 및 Publish 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)의 **암호 제한** 섹션을 참조하십시오.
 
 ## 환경 설정 {#setting-up-environments}
 
@@ -66,10 +66,10 @@ AMS 인스턴스에서 AEM의 암호 정책을 사용하지 않도록 설정해�
 
 >[!NOTE]
 >
->AEM Screens용 최신 기능 팩을 설치하려면 [릴리스 정보](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)를 참조하세요.
+>AEM Screens용 최신 기능 팩을 설치하려면 [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/aem-screens-introduction)를 참조하세요.
 
 ## ACL 설정 {#setting-up-acls}
 
 ACL을 설정하면 각 개인 또는 팀이 자체 프로젝트를 처리하도록 프로젝트를 분리하는 방법을 설명합니다.
 
-자세한 내용은 [ACL 설정](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls)을 참조하십시오.
+자세한 내용은 [ACL 설정](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/setting-up-acls)을 참조하십시오.

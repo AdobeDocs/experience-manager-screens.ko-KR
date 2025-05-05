@@ -40,8 +40,8 @@ ht-degree: 0%
 
 이 기능을 구현하기 전에 다음에 대한 개념적 지식이 있는지 확인하십시오.
 
-* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [디스플레이 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [디스플레이 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [디스플레이에 채널 할당](/help/user-guide/channel-assignment.md)
 
 ## 다중 영역 레이아웃 만들기 {#creating-multi-zone-layout}

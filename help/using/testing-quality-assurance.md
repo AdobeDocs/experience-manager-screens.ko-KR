@@ -58,7 +58,7 @@ Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스
 1. 콘텐츠 다운로드 관리
 1. 응용 프로그램 다시 시작 문제 관리
 
-***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
+***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
 
 >[!CAUTION]
 >

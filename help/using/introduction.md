@@ -30,7 +30,7 @@ AEM Screens를 사용하여 디지털 간판 네트워크를 만들고 관리하
 
 >[!NOTE]
 >
->AEM Screens 프로젝트 개발 및 관리의 다양한 기능에 대한 자세한 내용은 **[AEM Screens 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**&#x200B;를 참조하세요.
+>AEM Screens 프로젝트 개발 및 관리의 다양한 기능에 대한 자세한 내용은 **[AEM Screens 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/aem-screens-introduction)**&#x200B;를 참조하세요.
 
 ## AEM Sites 대 AEM Screens {#aem-sites-screens}
 

@@ -174,5 +174,5 @@ DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재
 >
 > DayParting에 대한 자세한 내용은 아래 섹션을 참조하십시오.
 >
->* [Assets에서 반복 처리](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [채널에서 Assets에 대한 반복 처리](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Assets에서 반복 처리](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [채널에서 Assets에 대한 반복 처리](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
