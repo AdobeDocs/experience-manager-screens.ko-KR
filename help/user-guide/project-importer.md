@@ -101,7 +101,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 사이드바 **&#x200B; 프로젝트 DemoProjectImporter &#x200B;**>**&#x200B; **>**&#x200B; 가져오기 위치 만들기**&#x200B;를 클릭합니다.
+1. 사이드바 **&#x200B; 프로젝트 DemoProjectImporter &#x200B;**>**&#x200B; &#x200B;**>**&#x200B; 가져오기 위치 만들기**&#x200B;를 클릭합니다.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
