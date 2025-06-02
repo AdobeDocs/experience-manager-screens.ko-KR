@@ -67,15 +67,15 @@ Cloud Player 설치는 플랫폼에 따라 다를 수 있습니다. 일반적으
 
 ## Chrome OS에서 일괄 프로비저닝 {#bulk-provisioning-chrome}
 
-Chrome OS의 대량 프로비저닝에 대해 자세히 알아보십시오. [Chrome OS에 Cloud Player 설치](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)를 참조하십시오. <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
+Chrome OS의 대량 프로비저닝에 대해 자세히 알아보십시오. [Chrome OS에 Cloud Player 설치](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)를 참조하십시오. <!-- `https://www.adobe.com/go/aem_screens_cloud_player_kr` -->
 
 ## AEM 인스턴스에 필요한 구성 {#bulk-provisioning-config-aem}
 
 AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 클릭하여 CORS b/w AEM 및 Cloud Player를 활성화합니다.
 
-* [AEM 온-프레미스/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM 온-프레미스/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_kr` -->
 
-* [AEM 클라우드 서비스](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM 클라우드 서비스](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_kr` -->
 
 
 >[!NOTE]
