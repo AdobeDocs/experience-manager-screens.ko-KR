@@ -62,8 +62,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >새 Screens 프로젝트에 첫 번째 장치가 추가될 때마다 사용자 그룹이 생성됩니다.
->>예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*입니다.
->>이 그룹은 아래 그림과 같이 **참가자** 그룹의 구성원으로 추가됩니다.
+>&#x200B;>예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*입니다.
+>&#x200B;>이 그룹은 아래 그림과 같이 **참가자** 그룹의 구성원으로 추가됩니다.
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

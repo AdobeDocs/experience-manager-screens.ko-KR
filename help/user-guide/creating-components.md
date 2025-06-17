@@ -53,4 +53,4 @@ AEM 구성 요소는 웹 페이지에서 사용할 수 있는 콘텐츠를 유�
 
 >[!NOTE]
 >
->사용자 지정 구성 요소를 개발하려면 ***[AEM Screens 샘플 구성 요소 템플릿](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)을 ***.
+>사용자 지정 구성 요소를 개발하려면 ***[AEM Screens 샘플 구성 요소 템플릿](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)을 &#x200B;***.

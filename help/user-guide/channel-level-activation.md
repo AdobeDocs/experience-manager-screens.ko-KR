@@ -146,8 +146,8 @@ AEM Screens 프로젝트에서 채널 수준 활성화를 구현하려면 다음
 >[!NOTE]
 >
 >AEM Screen Player에 대한 자세한 내용은 다음 리소스를 참조하십시오.
->>[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)
->>[AEM Screens 플레이어 작업](working-with-screens-player.md)
+>&#x200B;>[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)
+>&#x200B;>[AEM Screens 플레이어 작업](working-with-screens-player.md)
 
 
 ## 채널에서 Assets에 대한 반복 처리 {#handling-recurrence-in-assets}

@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->>FeaturePack(FP) 버전 11.5는 ServicePack(SP)과 최대 버전 21까지 호환됩니다.
+>&#x200B;>FeaturePack(FP) 버전 11.5는 ServicePack(SP)과 최대 버전 21까지 호환됩니다.
 
 
 ## 사용 가능 {#availability}

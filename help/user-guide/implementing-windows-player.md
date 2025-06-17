@@ -85,7 +85,7 @@ Windows Installer의 기본 옵션 및 사용 가능한 사용자 지정 목록�
 
 ## CLI를 사용한 설치(PowerShell) {#install-powershell}
 
-1. Screens Player용 사용자 지정 위치 **전용**을(를) 만듭니다. 예:
+1. Screens Player용 사용자 지정 위치 **전용**&#x200B;을(를) 만듭니다. 예:
    `C:\Users\User\screens-player`
 1. 설치
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
