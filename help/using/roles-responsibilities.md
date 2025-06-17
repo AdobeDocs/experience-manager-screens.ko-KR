@@ -85,7 +85,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 >[!NOTE]
 >
->디지털 서명 프로젝트의 다양한 역할과 책임 및 대상 대상에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**&#x200B;을 방문하세요.
+>디지털 서명 프로젝트의 다양한 역할과 책임 및 대상 대상에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**&#x200B;을 방문하세요.
 
 
 ## 프로젝트 단계 {#project-stages}
@@ -100,7 +100,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 >
 >이 가이드는 주로 *1일*&#x200B;과 *2일*&#x200B;에 중점을 두지만, 성공적인 디지털 사이니지 프로젝트를 실행하기 위해서는 세 가지 단계에 모두 관심을 기울여야 합니다.
 >
->프로젝트 사전 프로덕션, 프로젝트 시작 및 프로젝트 진행에 대해 알아보려면 **[프로젝트 관리 및 배포](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;에 대한 비디오를 시청하십시오.
+>프로젝트 사전 프로덕션, 프로젝트 시작 및 프로젝트 진행에 대해 알아보려면 **[프로젝트 관리 및 배포](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;에 대한 비디오를 시청하십시오.
 
 ## RCI 차트 {#raci-chart}
 
