@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 이 섹션에서는 발행물 관리를 위한 온디맨드 콘텐츠에 대해 설명합니다.
 
-## 게시 관리: 작성자에서 Publish으로 컨텐츠 업데이트를 장치로 전달 {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## 게시 관리: 작성자에서 장치로 게시되는 콘텐츠 업데이트를 전달합니다. {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니다. 게시 관리 기능을 사용하면 작성자에서 게시로 콘텐츠 업데이트를 장치에 제공할 수 있습니다. 전체 AEM Screens 프로젝트에 대한 콘텐츠 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대한 콘텐츠만 게시/게시 취소할 수 있습니다.
+AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니다. **게시 관리**&#x200B;를 통해 작성자의 콘텐츠 업데이트를 장치에 게시할 수 있습니다. 전체 AEM Screens 프로젝트에 대한 콘텐츠 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대한 콘텐츠만 게시/게시 취소할 수 있습니다.
 
 ### AEM Screens 프로젝트에 대한 게시 관리 {#managing-publication-for-an-aem-screens-project}
 
 작성자에서 AEM Screens 프로젝트용 장치로 게시하는 콘텐츠 업데이트를 전달하려면 아래 단계를 따르십시오.
 
 1. AEM Screens 프로젝트로 이동합니다.
-1. 프로젝트를 Publish 인스턴스에 게시할 수 있도록 작업 표시줄에서 **게시 관리**&#x200B;를 클릭합니다.
+1. 게시 인스턴스에 프로젝트를 게시할 수 있도록 작업 표시줄에서 **게시 관리**&#x200B;를 클릭합니다.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
@@ -62,7 +62,7 @@ AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니
 이 옵션을 사용하면 이전에 게시된 페이지에 대한 업데이트만 관리할 수 있습니다.
 
 
-1. **`Manage Publication wizard`**&#x200B;에서 **Publish**&#x200B;을(를) 클릭합니다.
+1. **`Manage Publication wizard`**&#x200B;에서 **게시**&#x200B;를 클릭합니다.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,12 +72,12 @@ AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니
    >
    >
    >    1. 프로젝트에 변경 사항이 없고 **오프라인 콘텐츠 업데이트**&#x200B;에 대한 내용이 없으면 워크플로가 작동하지 않습니다.
-   >    1. 게시 관리 워크플로에서 **Publish** 단추를 선택한 후 작성자가 복제 프로세스를 완료하지 않으면(콘텐츠가 게시 인스턴스에 업로드되는 중) 워크플로가 작동하지 않습니다.
+   >    1. 게시 관리 워크플로에서 **게시** 단추를 선택한 후 작성자가 복제 프로세스를 완료하지 않으면(콘텐츠가 게시 인스턴스에 업로드됨) 워크플로가 작동하지 않습니다.
 
    >[!CAUTION]
    >콘텐츠 작성자는 작성자 인스턴스에 연결된 장치의 변경 내용을 보려면 채널 대시보드에서 또는 프로젝트를 선택하여 **오프라인 콘텐츠 업데이트**&#x200B;를 클릭합니다. 이 경우 오프라인 콘텐츠의 업데이트는 작성자 인스턴스에서만 수행됩니다.
 
-1. 프로젝트로 이동한 다음 작업 표시줄에서 **오프라인 콘텐츠 업데이트**&#x200B;를 클릭합니다. 이 작업을 수행하면 동일한 명령이 게시 인스턴스에 전달되므로 Publish 인스턴스에서도 오프라인 zip이 생성됩니다.
+1. 프로젝트로 이동한 다음 작업 표시줄에서 **오프라인 콘텐츠 업데이트**&#x200B;를 클릭합니다. 이 작업은 동일한 명령을 게시 인스턴스에 전달하므로 오프라인 zip이 게시 인스턴스에도 생성됩니다.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -92,14 +92,14 @@ AEM Screens에서 콘텐츠를 게시하거나 게시를 취소할 수 있습니
 
 ### 채널에 대한 게시 관리 {#managing-publication-for-a-channel}
 
-AEM Screens 프로젝트의 채널용 작성자 > Publish > 디바이스에서 콘텐츠 업데이트를 게재하려면 아래 단계를 따르십시오.
+AEM Screens 프로젝트의 채널에 대한 작성자 > 게시 > 장치에서 콘텐츠 업데이트를 전달하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >
 >채널에 변경 사항이 있는 경우에만 이 섹션을 따르십시오. 이전 업데이트 오프라인 컨텐츠 후에 채널에 변경 사항이 없으면 개별 채널에 대한 게시 관리 워크플로우가 작동하지 않습니다.
 
 1. AEM Screens 프로젝트로 이동하고 채널을 클릭합니다.
-1. 채널을 Publish 인스턴스에 게시할 수 있도록 작업 표시줄에서 **게시 관리**&#x200B;를 클릭합니다.
+1. 게시 인스턴스에 채널을 게시할 수 있도록 작업 표시줄에서 **게시 관리**&#x200B;를 클릭합니다.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
@@ -107,7 +107,7 @@ AEM Screens 프로젝트의 채널용 작성자 > Publish > 디바이스에서 �
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. **`Manage Publication`** 마법사에서 **Publish**&#x200B;을(를) 클릭합니다.
+1. **`Manage Publication`** 마법사에서 **게시**&#x200B;를 클릭합니다.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -115,15 +115,15 @@ AEM Screens 프로젝트의 채널용 작성자 > Publish > 디바이스에서 �
    >
    >콘텐츠가 게시 인스턴스에 도달할 때까지 몇 초/분 동안 기다립니다.
 
-1. 채널 대시보드에서 **오프라인 콘텐츠 업데이트**&#x200B;를 트리거하면 오프라인 콘텐츠가 작성자 인스턴스로만 푸시되고 게시 인스턴스는 푸시되지 않습니다. 1~4단계는 오프라인 콘텐츠를 Publish 인스턴스로 푸시하기 위한 것입니다.
+1. 채널 대시보드에서 **오프라인 콘텐츠 업데이트**&#x200B;를 트리거하면 오프라인 콘텐츠가 작성자 인스턴스로만 푸시되고 게시 인스턴스는 푸시되지 않습니다. 1~4단계는 오프라인 콘텐츠를 게시 인스턴스로 푸시하기 위한 것입니다.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Publish을 먼저 실행한 다음 이전 단계에서 요약한 대로 오프라인 컨텐츠 업데이트를 트리거합니다.
+   >먼저 게시한 다음 이전 단계에서 요약한 대로 오프라인 콘텐츠 업데이트를 트리거합니다.
 
-### 채널 및 장치 재할당: {#channel-and-device-re-assignment}
+### 채널 및 디바이스 재할당: {#channel-and-device-re-assignment}
 
 장치를 다시 할당한 경우 장치가 새 디스플레이에 다시 할당되면 초기 디스플레이와 새 디스플레이를 모두 게시합니다.
 

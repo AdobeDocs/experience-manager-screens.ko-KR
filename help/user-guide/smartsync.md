@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,7 +45,7 @@ SmartSync 기능은 다음과 같은 몇 가지 이점을 AEM Screens 프로젝�
 
 >[!NOTE]
 >
->Adobe은 AEM Screens 프로젝트에 SmartSync를 사용할 것을 강력히 권장합니다.
+>Adobe에서는 AEM Screens 프로젝트에 SmartSync를 사용할 것을 권장합니다.
 
 ## ContentSync에서 SmartSync로 마이그레이션 {#migrating-from-contentsync-to-smartsync}
 

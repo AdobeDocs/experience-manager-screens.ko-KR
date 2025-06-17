@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ DAM에 비디오를 업로드하고 채널에 추가하면 AEM Screens 플레이
 
 ## DAM 표현물 {#dam-renditions}
 
-비디오를 채널에 업로드한 후 AEM에서 해당 비디오에 대한 일부 렌디션 만들기를 시작해야 합니다. Assets에서 비디오를 볼 수 있습니다.
+비디오를 채널에 업로드하면 AEM에서 해당 비디오에 대한 일부 렌디션 만들기를 시작해야 합니다. Assets에서 비디오를 볼 수 있습니다.
 
 비디오를 보려면 다음 작업을 수행하십시오.
 
@@ -148,7 +148,7 @@ Google의 자동 재생 정책 플래그 문제를 해결하려면 아래 단계
 
 1. 각 OS X 상자에서 **날짜 및 시간** 환경 설정 열기
 1. **자동으로 날짜 및 시간 설정** 확인
-1. 드롭다운에 값 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com을 붙여넣거나 *sudo ntpdate -u -v 0.pool.ntp.org*&#x200B;을(를) 실행하십시오.
+1. 드롭다운에 값 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com을 붙여 넣거나 *`sudo ntpdate -u -v 0.pool.ntp.org`*&#x200B;을(를) 실행하십시오.
 1. 2명 이상의 플레이어 시작
 
 플레이어가 새로운 정렬된 시퀀스를 시작하기 전에 약간의 시간이 걸릴 수 있습니다.

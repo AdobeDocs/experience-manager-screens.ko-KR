@@ -1,24 +1,24 @@
 ---
 cloud: Experience Cloud
-user-guide-title: AEM Screens 프로젝트에 대한 모범 사례 안내서
+user-guide-title: AEM Screens 프로젝트 우수 사례
 breadcrumb-title: AEM Screens 모범 사례 안내서
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 24%
+source-wordcount: '131'
+ht-degree: 7%
 
 ---
 
 
-# AEM Screens 프로젝트에 대한 모범 사례 안내서 {#using}
+# AEM Screens 프로젝트 우수 사례 {#using}
 
 + [이 안내서 정보](about-guide.md)
 + 개요 {#overview}
@@ -39,7 +39,7 @@ ht-degree: 24%
    + [플랫폼으로 전환](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + 배포 브리핑 {#deployment-brief}
-   + [AEM Platform 구성](aem-platform-configurations.md)
+   + [AEM 플랫폼 구성](aem-platform-configurations.md)
    + [프로젝트 분류 및 구현](project-taxonomy-implementation.md)
    + 네트워크 트래픽 관리 {#manage-network-traffic}
       + [네트워크 트래픽 관리](/help/using/managing-network-traffic.md)
@@ -48,7 +48,7 @@ ht-degree: 24%
       + [모바일 데이터 라우터 및 활성 네트워크 구성 요소가 있는 모바일 네트워크](/help/using/mobile-network-router.md)
       + [폐쇄형 회사 네트워크(유선/무선)](/help/using/enclosed-corporate-network.md)
    + [장치 구성](device-configurations.md)
-   + [테스트 및 품질 보증](testing-quality-assurance.md)
+   + [테스트 및 품질 Assurance](testing-quality-assurance.md)
    + [공급업체 참여 전략](vendor-engagement.md)
 + 지원 및 유지 관리 {#ongoing-support}
    + [지원 및 모니터링](support-monitoring.md)

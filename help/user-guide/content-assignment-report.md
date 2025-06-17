@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 콘텐츠 할당 보고서 를 사용하면 선택한 AEM Screens 프로젝트의 모든 채널, Assets, 디스플레이 및 장치를 미리 볼 수 있을 뿐만 아니라 프로젝트의 높은 수준 구조를 제공합니다.
 
 
-### 전제 조건 {#pre-reqs}
+### 사전 요구 사항 {#pre-reqs}
 
 콘텐츠 할당 보고서를 다운로드하기 전에 채널, 위치 및 장치가 있는 AEM Screens 프로젝트를 설정했는지 확인하십시오.
 자세한 내용은 다음 리소스를 참조하십시오.

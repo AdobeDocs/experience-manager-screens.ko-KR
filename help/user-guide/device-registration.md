@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >[AEM 6.4 플레이어 다운로드](https://download.macromedia.com/screens/) 페이지에서 최신 Windows Player(*.exe*)를 다운로드한 후, 플레이어의 단계에 따라 임시 설치를 완료합니다.
 >
 >1. 왼쪽 상단 모서리를 길게 눌러 관리 패널을 엽니다.
->1. 왼쪽 작업 메뉴에서 **구성**(으)로 이동하고 **서버**&#x200B;에 있는 AEM 인스턴스의 위치 주소를 입력한 다음 **저장**&#x200B;을 클릭합니다.
+>1. 왼쪽 작업 메뉴에서 **구성**(으)로 이동하고 **서버**&#x200B;에서 AEM 인스턴스의 위치 주소를 입력한 다음 **저장**&#x200B;을 클릭합니다.
 >1. 왼쪽 작업 메뉴에서 **등록** 링크를 클릭하고 아래 단계를 클릭하여 장치 등록 프로세스를 완료합니다.
 >
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. AEM에서 디바이스가 해당 등록 코드를 전송할 때까지 기다립니다.
+1. AEM에서 장치가 등록 코드를 전송할 때까지 기다립니다.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. **등록 코드**&#x200B;이 두 컴퓨터에서 동일한 경우, (6)단계와 같이 AEM에서 **유효성 검사** 단추를 클릭하십시오.
+1. **등록 코드**&#x200B;가 두 컴퓨터에서 동일한 경우, (6)단계와 같이 AEM에서 **유효성 검사** 단추를 클릭하십시오.
 1. 원하는 장치 이름을 설정하고 **등록**&#x200B;을 클릭합니다.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -82,7 +82,7 @@ ht-degree: 0%
    >
    >**새로 등록**&#x200B;을 통해 새 장치를 등록할 수 있습니다.
    >
-   >**디스플레이 할당**&#x200B;을 사용하면 장치를 디스플레이에 직접 추가할 수 있습니다.
+   >**디스플레이 할당**&#x200B;을 통해 장치를 디스플레이에 직접 추가할 수 있습니다.
 
    **마침**&#x200B;을 클릭하면 장치를 디스플레이에 지정하십시오.
 

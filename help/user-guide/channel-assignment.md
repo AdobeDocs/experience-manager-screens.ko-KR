@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 일정은 **DayParting**&#x200B;과(와) 결합하면 하루 중 특정 시간에 여러 채널이 실행되는 글로벌 일정을 설정하고 모든 디스플레이에 대해 설정된 일정을 한 번에 재사용할 수 있습니다.
 
-DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생할 콘텐츠를 지정하는 것을 의미합니다. AEM Screens을 사용하면 요구 사항에 따라 일, 주 또는 월 단위로 채널을 DayParting 기준으로 예약할 수 있습니다.
+DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재생할 콘텐츠를 지정하는 것을 말합니다. AEM Screens을 사용하면 요구 사항에 따라 일, 주 또는 월 단위로 채널을 DayParting 기준으로 예약할 수 있습니다.
 
 다음 예제에서는 서로 다른 세 가지 시나리오에서 채널의 날짜 분할을 설명합니다.
 
@@ -174,5 +174,5 @@ DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재
 >
 > DayParting에 대한 자세한 내용은 아래 섹션을 참조하십시오.
 >
->* [Assets에서 반복 처리](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [채널에서 Assets에 대한 반복 처리](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Assets에서 반복 처리](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [채널에서 Assets에 대한 반복 처리](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -104,7 +104,7 @@ AEM Screens 채널에서 에셋에 적용된 텍스트 오버레이에 사용자
 
 ## 결과 보기 {#viewing-the-result}
 
-이전 단계를 완료하면 **CRXDE Lite**&#x200B;에서 *statis.css* 파일을 업데이트하여 에셋에 이미 추가된 텍스트 오버레이에 대한 업데이트를 볼 수 있습니다.
+이전 단계를 완료하면 **CRXDE Lite**&#x200B;에서 *statis.css* 파일을 업데이트할 수 있으므로 에셋에 이미 추가된 텍스트 오버레이에 대한 업데이트를 볼 수 있습니다.
 
 텍스트 오버레이에 업데이트된 디자인을 보려면 아래 단계를 따르십시오.
 
@@ -114,7 +114,7 @@ AEM Screens 채널에서 에셋에 적용된 텍스트 오버레이에 사용자
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. CRXDE Lite에서 *static.css* 파일로 이동한 다음 아래와 같이 `font-family: "Lucida Console", Courier, monospace;`과(와) 같은 글꼴을 이 파일에 추가합니다.
+1. CRXDE Lite에서 *static.css* 파일로 이동하고 아래와 같이 `font-family: "Lucida Console", Courier, monospace;`과(와) 같은 글꼴을 이 파일에 추가합니다.
 
    ![이미지](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

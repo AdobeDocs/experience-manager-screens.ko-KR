@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 1%
 
 스프레드시트(CSV/XLS) 파일에는 다음 열이 필요합니다.
 
-* **경로 {string}** - 가져올 위치의 경로입니다. 경로의 루트가 프로젝트의 위치 폴더인 *`/foo`*&#x200B;을(를) *`/content/screens/<project>/locations/foo`*(으)로 가져옵니다.
-* **템플릿 {string}** - 지금은 허용되는 유일한 값이 &quot;location&quot;이지만 이 값은 이후의 모든 Screens 템플릿(`display`, `sequencechannel` 등)으로 확장됩니다.
-* **[/*] {string}** - 위치에 설정할 모든 선택적 속성(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). 현재 릴리스에서는 필터링을 허용하지 않습니다.
+* **경로{string}** - 가져올 위치의 경로. 경로의 루트가 프로젝트의 위치 폴더인 경우 *`/foo`*&#x200B;을(를) *`/content/screens/<project>/locations/foo`*(으)로 가져옵니다.
+* **템플릿{string}** - 지금은 허용되는 유일한 값이 &quot;location&quot;이지만 이 값은 향후 모든 `Screens` 템플릿(`display`, `sequencechannel` 등)으로 확장됩니다.
+* **[/*] {string}** - 위치(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`)에 설정할 모든 선택적 속성입니다. 현재 릴리스에서는 필터링을 허용하지 않습니다.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 사이드바 **&#x200B; 프로젝트 DemoProjectImporter &#x200B;**>**&#x200B; &#x200B;**>**&#x200B; 가져오기 위치 만들기**&#x200B;를 클릭합니다.
+1. 사이드바** 프로젝트 DemoProjectImporter **>** **>** 가져오기 위치 만들기**를 클릭합니다.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 10%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 10%
   </tr>
   <tr>
    <td> </td> 
-   <td>횟수</td> 
+   <td>계수</td> 
    <td>event.count</td> 
    <td>선택 사항</td> 
    <td>숫자</td> 
@@ -198,7 +198,7 @@ ht-degree: 10%
    <td>AA에 필요</td> 
    <td>문자열</td> 
    <td> </td> 
-   <td>사용자 지정 페이지 이름에 대한 Adobe Analytics 지원</td> 
+   <td>Adobe Analytics에서 사용자 지정 페이지 이름 지원</td> 
   </tr>
   <tr>
    <td> </td> 

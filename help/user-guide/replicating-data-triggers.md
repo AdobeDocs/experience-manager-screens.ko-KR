@@ -1,18 +1,18 @@
 ---
-title: Publish 서버에 데이터 트리거 복제
+title: 게시 서버에 데이터 트리거 복제
 description: AEM Screens용 게시 서버에 데이터 트리거를 복제하는 방법을 알아봅니다.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
 
-# Publish 서버에 데이터 트리거 복제 {#replicating-data-triggers}
+# 게시 서버에 데이터 트리거 복제 {#replicating-data-triggers}
 
 ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 데이터 트리거를 기반으로 콘텐츠를 사용자 정의하는 경우 게시할 때 모든 ContextHub 및 Personalization 관련 구성이 채널과 함께 자동으로 복제되지 않습니다.
 
@@ -24,13 +24,13 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 1. Personalization 대상
 1. Personalization 활동
 
-## Publish 서버에 데이터 트리거를 복제하는 단계 {#replicating-data-triggers-publish}
+## 게시 서버에 데이터 트리거를 복제하는 단계 {#replicating-data-triggers-publish}
 
 게시 서버에 데이터 트리거를 복제하려면 아래 단계를 따르십시오.
 
 ### 1단계: ContextHub 구성 복제 {#replicating-contexthub-configurations}
 
-1. 설정을 구성할 수 있도록 **도구** > **배포** > **배포** > **Publish 에이전트**(으)로 이동하고 게시 에이전트를 클릭합니다.
+1. 설정을 구성할 수 있도록 **도구** > **배포** > **배포** > **게시 에이전트**(으)로 이동하고 게시 에이전트를 클릭합니다.
 
    ![이미지1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -62,7 +62,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 
 1. 작업 표시줄에서 **게시 관리**&#x200B;를 클릭합니다.
 
-1. **다음** 및 **Publish**&#x200B;을 클릭합니다.
+1. **다음** 및 **게시**&#x200B;를 클릭합니다.
 
 ### 활동 복제 {#replicating-activities}
 
@@ -74,7 +74,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 
 1. 작업 표시줄에서 **게시 관리**&#x200B;를 클릭합니다.
 
-1. **다음** 및 **Publish**&#x200B;을 클릭합니다.
+1. **다음** 및 **게시**&#x200B;를 클릭합니다.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 �
 
 ContextHub 구성을 복제하는 동안 테스트 연결에 실패하는 경우 아래 섹션에 문제 해결을 참조하십시오.
 
-1. **도구** > **배포** > **배포** > **Publish 에이전트**&#x200B;로 이동합니다.
+1. **도구** > **배포** > **배포** > **에이전트 게시**&#x200B;로 이동합니다.
 
 1. 작업 표시줄에서 **편집**&#x200B;을 클릭하고 **가져오기 끝점** 필드의 끝점 URL도 배포 에이전트의 게시 서버 URL을 가리키는지 확인하십시오.
    ![이미지1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
@@ -102,7 +102,7 @@ ContextHub 구성을 복제하는 동안 테스트 연결에 실패하는 경우
    아래 단계를 따르십시오.
 
    1. **Adobe Experience Manager 웹 콘솔 화면**&#x200B;을 열 수 있도록 도구 > **작업** > **웹 콘솔** `http://localhost:4502/system/console/configMgr`로 이동합니다.
-   1. **Apache Sling 배포 전송 자격 증명 검색 - 사용자 자격 증명 기반 DistributionTransportSecretProvider**
+   1. **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`** 검색
 
       ![이미지1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 

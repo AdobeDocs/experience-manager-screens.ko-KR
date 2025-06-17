@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 4%
 
 라이브 카피에서 상속을 취소할 수도 있으므로 콘텐츠는 원본 분기와 독립적입니다.
 
-다음 예제에서는 편집 모드에서 이미지를 클릭하고 오른쪽 상단의 상속 취소 기호를 클릭하는 방법을 보여 줍니다.
+다음 예제에서는 편집 모드에서 이미지를 클릭하고 오른쪽 상단의 **상속 취소** 아이콘을 클릭하는 방법을 보여 줍니다.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ ht-degree: 4%
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. 변경 내용을 라이브 카피 채널에 전파하려면 AEM 대시보드로 이동하여 라이브 카피 채널을 클릭한 다음 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
+1. Live Copy 채널에 변경 내용을 전파하려면 AEM 대시보드로 이동하여 Live Copy 채널을 클릭한 다음 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 

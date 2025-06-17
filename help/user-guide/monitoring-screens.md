@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >다음 로그 수준 중 하나를 클릭할 수 있습니다.
+>
 >* **사용 안 함**
 >* **디버그**
 >* **정보**
@@ -126,7 +127,7 @@ ht-degree: 1%
 
 빈 레퍼러를 활성화하여 장치가 데이터를 서버에 게시할 수 있도록 합니다. 예를 들어 빈 레퍼러 속성이 비활성화된 경우 디바이스는 스크린샷을 다시 게시할 수 없습니다.
 
-현재 이러한 기능 중 일부는 OSGi 구성에서 *Apache Sling Referrer Filter Allow Empty*&#x200B;를 활성화한 경우에만 사용할 수 있습니다. 대시보드에 보안 설정으로 인해 이러한 기능 중 일부가 작동하지 않을 수 있다는 경고가 표시될 수 있습니다.
+현재 이러한 기능 중 일부는 OSGi 구성에서 *`Apache Sling Referrer Filter Allow Empty`*&#x200B;을(를) 활성화한 경우에만 사용할 수 있습니다. 대시보드에 보안 설정으로 인해 이러한 기능 중 일부가 작동하지 않을 수 있다는 경고가 표시될 수 있습니다.
 
 Apache Sling Referrer Filter Allow Empty 를 활성화하려면 아래 단계를 따르십시오
 
@@ -147,9 +148,9 @@ AEM은 다음에 대한 내장 모니터링을 제공합니다.
 * *AEM Screens 플레이어 펌웨어* 버전이 플레이어에 설치되어 있습니다.
 * 플레이어에서 *사용 가능한 저장소 공간*.
 
-타사 소프트웨어를 사용한 원격 모니터링용 Recommendations:
+타사 소프트웨어를 사용한 원격 모니터링 권장 사항:
 
-* 플레이어에서 CPU 사용량.
+* 플레이어에서 CPU 사용.
 * AEM Screens 플레이어 프로세스가 실행 중인지 확인합니다.
 * 플레이어의 원격 재시작/재부팅
 * 실시간 알림.

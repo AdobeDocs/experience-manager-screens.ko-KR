@@ -2,9 +2,9 @@
 title: '[!UICONTROL AEM Screens]용 디지털 사이니지의 기본 사항'
 description: 디지털 서명 프로젝트의 기본 사항에 대해 알아봅니다.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM Screens 구현 모범 사례로 들어가기 전에 프로젝트를 기존�
 
 1. **연결**
 
-   접속성은 다음 질문에 중점을 둡니다.
+   접속성은 다음과 같은 질문을 강조합니다.
    * 네트워크 연결(셀 또는 wi-fi) 또는 독립형
       * USB 콘텐츠 업데이트를 허용해야 합니까?
       * 데이터 수집 사용을 허용해야 합니까?

@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ AEM Screens용 Tizen 플레이어를 구현하려면 아래 단계를 따르십�
 
 ### Tizen 플레이어 이름 지정 {#name-tizen}
 
-사용자에게 친숙한 장치 이름을 Tizen 플레이어에 할당하여 할당된 장치 이름을 AEM(Adobe Experience Manager)로 보낼 수 있습니다. 이 기능을 사용하면 Tizen 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 콘텐츠를 쉽게 할당할 수도 있습니다.
+사용자에게 친숙한 장치 이름을 Tizen 플레이어에 할당하여 할당된 장치 이름을 Adobe Experience Manager(AEM)로 보낼 수 있습니다. 이 기능을 사용하면 Tizen 플레이어의 이름을 지정할 수 있을 뿐만 아니라 적절한 콘텐츠를 쉽게 할당할 수도 있습니다.
 
 >[!NOTE]
 >등록하기 전에만 플레이어 이름을 선택할 수 있습니다. 플레이어가 등록되면 더 이상 플레이어 이름을 변경할 수 없습니다.
@@ -73,9 +73,9 @@ AEM Screens용 Tizen 플레이어를 구현하려면 아래 단계를 따르십�
 ## SameSite 쿠키 문제가 있는 사용자 에이전트 면제 {#exempting-user-agents}
 
 >[!IMPORTANT]
->**이 섹션은 AEM(Adobe Experience Manager) 6.5.5부터 AEM 6.5.7까지 적용됩니다**
+>**이 섹션은 Adobe Experience Manager(AEM) 6.5.5부터 AEM 6.5.7까지 적용됩니다**
 >
->AEM 6.5.5에서 AEM 6.5.7로 발급한 로그인 토큰에 사용된 *`SameSite=None`* 특성과 호환되지 않는 브라우저 엔진이 있습니다. 일반적으로 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 셋톱 박스 또는 내장 된 검색 엔진이 있는 기타 장치와 같이 때때로 이러한 업그레이드가 가능하지 않을 수 있습니다.
+>일부 브라우저 엔진이 AEM 6.5.5에서 AEM 6.5.7로 발급한 로그인 토큰에 사용된 *`SameSite=None`* 특성과 호환되지 않습니다. 일반적으로 브라우저를 사용 가능한 최신 버전으로 업그레이드하여 문제를 해결할 수 있습니다. 스마트 디스플레이, 셋톱 박스 또는 내장 된 검색 엔진이 있는 기타 장치와 같이 때때로 이러한 업그레이드가 가능하지 않을 수 있습니다.
 
 *SameSite=None*&#x200B;을 사용할 때 호환되지 않는 클라이언트를 제외하려면 아래 단계를 따르십시오.
 
@@ -93,7 +93,7 @@ AEM Screens용 Tizen 플레이어를 구현하려면 아래 단계를 따르십�
 
 ## Tizen 플레이어 원격 프로비저닝 {#remote-provisioning}
 
-Tizen 플레이어를 원격으로 프로비저닝하면 많은 노력 없이 수백, 수천 개의 Samsung Tizen 디스플레이를 배포할 수 있습니다. 서버 URL 및 벌크 등록 코드 또는 기타 매개 변수를 사용하여 각 플레이어를 수동으로 구성하는 번거로움을 피할 수 있습니다. 그리고 AEM Screensas a Cloud Service 가 있으면 클라우드 모드와 클라우드 토큰을 구성할 수 있습니다.
+Tizen 플레이어를 원격으로 프로비저닝하면 많은 노력 없이 수백, 수천 개의 Samsung Tizen 디스플레이를 배포할 수 있습니다. 서버 URL 및 벌크 등록 코드 또는 기타 매개 변수를 사용하여 각 플레이어를 수동으로 구성하는 번거로움을 피할 수 있습니다. 또한 AEM Screens as a Cloud Service이 있는 경우 클라우드 모드 및 클라우드 토큰을 구성합니다.
 
 이 기능을 사용하면 Tizen 플레이어를 원격으로 구성하고 필요한 경우 중앙에서 해당 구성을 업데이트할 수 있습니다. 필요한 것은 적절한 매개 변수와 함께 `config.json`을(를) 저장하기 위해 Tizen 응용 프로그램 `(wgt and xml file)`을(를) 호스팅하는 데 사용되는 `HTTP` 서버와 텍스트 편집기입니다.
 
@@ -119,9 +119,9 @@ Tizen 플레이어는 설치 및 실행 시(및 다시 부팅할 때마다) `con
 
 >[!NOTE]
 >플레이어의 관리 UI 정책 구성은 엄격하게 적용되며 수동으로 재정의되지 않습니다. 특정 정책에 대해 수동 플레이어 구성을 허용하려면 정책 구성에 정책을 지정하지 마십시오.
->예를 들어 다시 부팅 일정에 대해 수동 구성을 허용하려면 정책 구성에 키 `rebootSchedule`을(를) 지정하지 마십시오. 플레이어를 다시 로드할 때마다 정책 구성을 읽습니다.
+>>예를 들어 다시 부팅 일정에 대해 수동 구성을 허용하려면 정책 구성에 키 `rebootSchedule`을(를) 지정하지 마십시오. 플레이어를 다시 로드할 때마다 정책 구성을 읽습니다.
 
-| **정책 이름** | **목적** |
+| **정책 이름** | **용도** |
 |---|---|
 | 서버 | Adobe Experience Manager(AEM) 서버의 URL입니다. |
 | registrationKey | 미리 공유한 키를 사용하여 장치를 대량으로 등록하는 데 사용됩니다. |
@@ -130,8 +130,8 @@ Tizen 플레이어는 설치 및 실행 시(및 다시 부팅할 때마다) `con
 | enableAdminUI | 관리자 UI를 활성화하여 사이트에서 장치를 구성합니다. 완전히 구성되고 프로덕션에 있는 경우 false 로 설정합니다. |
 | enableOSD | 사용자가 장치에서 채널을 전환할 수 있도록 채널 전환기 UI를 활성화합니다. 완전히 구성되고 프로덕션에 있는 경우 false 로 설정하는 것이 좋습니다. |
 | enableActivityUI | 다운로드 및 동기화와 같은 활동의 진행 상황을 표시할 수 있도록 활성화합니다. 문제 해결을 위해 활성화하고, 완전히 구성되어 프로덕션에 있는 경우 비활성화합니다. |
-| cloudMode | Tizplayer가 Screens as a Cloud Service에 연결되게 하려면 true로 설정합니다. AMS 또는 온프레미스 AEM에 연결하려면 false로 설정합니다. |
-| cloudToken | Screensas a Cloud Service 에 등록할 등록 토큰. |
+| cloudMode | Tizen 플레이어가 Screens as a Cloud Service에 연결되도록 하려면 true로 설정합니다. AMS 또는 온프레미스 AEM에 연결하려면 false로 설정합니다. |
+| cloudToken | Screens as a Cloud Service에 대해 등록할 등록 토큰입니다. |
 
 
 ## Tizen 장치를 Samsung RMS(원격 관리 서비스)에 등록 {#enroll-tizen-device-rms}

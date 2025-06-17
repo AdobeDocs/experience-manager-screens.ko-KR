@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 # Android™ Player 구현 {#implementing-android-player}
 
 >[!CAUTION]
->Android 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens에서 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
+>Android 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
 
 이 섹션에서는 Android™ 플레이어 구성에 대해 설명합니다. 구성 파일 및 사용 가능한 옵션에 대한 정보와 개발 및 테스트에 사용할 설정에 대한 권장 사항을 제공합니다.
 
@@ -130,7 +130,7 @@ Android™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 �
 1. 플레이어 애플리케이션이 실행되면 이 구성 파일을 읽고 해당 구성 파일이 등록된 다음 제어되는 해당 AEM 서버를 가리킵니다.
 
    >[!NOTE]
-   >이 파일은 응용 프로그램을 처음 시작할 때 *읽기 전용*&#x200B;이므로 후속 구성에 사용할 수 없습니다. 구성 파일을 삭제하기 전에 플레이어를 시작한 경우 응용 프로그램을 제거하고 장치에 다시 설치하십시오.
+   >이 파일은 응용 프로그램을 처음 시작할 때 *읽기 전용*&#x200B;이므로 후속 구성에 사용할 수 없습니다. 구성 파일을 삭제하기 전에 플레이어를 시작한 경우 장치를 제거하고 다시 설치하면 됩니다.
 
 ### 정책 속성 {#policy-attributes}
 

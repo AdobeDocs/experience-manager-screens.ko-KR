@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ AEM은 몇 가지 다른 구성 요소를 제공합니다. 다른 구성 요소�
  </tbody>
 </table>
 
-### 임베딩된 페이지 {#embedded-page}
+### 임베디드 페이지 {#embedded-page}
 
 **포함된 페이지**&#x200B;를 사용하면 포함된 페이지를 프로젝트에 추가할 수 있습니다. 예를 들어 웹 애플리케이션이나 제품 카탈로그일 수 있습니다.
 
@@ -131,7 +131,7 @@ AEM은 몇 가지 다른 구성 요소를 제공합니다. 다른 구성 요소�
  </tbody>
 </table>
 
-### 포함된 시퀀스 {#embedded-sequence}
+### 임베디드 시퀀스 {#embedded-sequence}
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ AEM은 몇 가지 다른 구성 요소를 제공합니다. 다른 구성 요소�
  </tbody>
 </table>
 
-### 동적 포함된 시퀀스 {#dynamic-embedded-sequence}
+### 동적 임베디드 시퀀스 {#dynamic-embedded-sequence}
 
 동적 포함된 시퀀스를 사용하면 채널 역할의 경우를 제외하고 위에서 언급한 것과 유사한 시퀀스를 추가할 수 있습니다.
 
@@ -289,7 +289,7 @@ AEM은 몇 가지 다른 구성 요소를 제공합니다. 다른 구성 요소�
   </tr>
   <tr>
    <td><strong><em>활성 시작일</em></strong></td>
-   <td>전환을 활성화할 수 있는 시기를 설명하는 타임스탬프입니다.<br /> </td>
+   <td>전환이 활성화될 수 있는 시기를 설명하는 타임스탬프입니다.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>활성 종료일</em></strong></td>

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -61,7 +61,7 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
 
 1. 다음 속성을 추가합니다.
 
-   **프로젝트 경로** AEM Screens 프로젝트의 경로를 지정합니다. 경로는 일반적으로 `/content/screens/<Name of your project>`입니다.
+   **프로젝트 경로** - AEM Screens 프로젝트의 경로를 지정합니다. 경로는 일반적으로 `/content/screens/<Name of your project>`입니다.
 
    *예:*, `/content/screens/we-retail`. AEM Screens 아래에서 프로젝트를 선택하여(아이콘을 클릭하지 마십시오) URL에서 이 경로를 찾을 수 있습니다.
 
@@ -69,6 +69,6 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
    >
    >채널을 기준으로 프로젝트 경로를 지정합니다.
 
-   **예약 빈도** 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5시 또는 17시)을 지정합니다.
+   **예약 빈도** - 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5시 또는 17시)을 지정합니다.
 
 1. 설정을 저장하려면 **저장**&#x200B;을 클릭하세요. 모든 콘텐츠는 지정된 시간에 업데이트됩니다.

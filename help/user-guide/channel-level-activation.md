@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -146,8 +146,8 @@ AEM Screens 프로젝트에서 채널 수준 활성화를 구현하려면 다음
 >[!NOTE]
 >
 >AEM Screen Player에 대한 자세한 내용은 다음 리소스를 참조하십시오.
->[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)
->[AEM Screens 플레이어 작업](working-with-screens-player.md)
+>>[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)
+>>[AEM Screens 플레이어 작업](working-with-screens-player.md)
 
 
 ## 채널에서 Assets에 대한 반복 처리 {#handling-recurrence-in-assets}

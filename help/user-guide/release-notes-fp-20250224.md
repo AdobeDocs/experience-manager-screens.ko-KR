@@ -4,9 +4,10 @@ description: 2025년 2월 24일에 릴리스된 AEM Screens 기능 팩 20250224�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 5%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->FeaturePack(FP) 버전 11.5는 ServicePack(SP)과 최대 버전 21까지 호환됩니다.
+>>FeaturePack(FP) 버전 11.5는 ServicePack(SP)과 최대 버전 21까지 호환됩니다.
 
 
 ## 사용 가능 {#availability}
@@ -35,4 +36,4 @@ AEM Screens 기능 팩 20250224의 릴리스 날짜는 2025년 2월 24일입니�
 ### 버그 수정 {#bug-fixes}
 
 * 서비스 팩 21 및 Screens 기능 팩과의 패키지 충돌. (SCRNS-4638)
-* Vuln 수정 위치 /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
+* `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js`의 취약성 수정(SCRNS-4607)

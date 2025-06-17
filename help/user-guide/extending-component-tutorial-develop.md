@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 1%
 1. [AEM 스크린 플레이어](/help/user-guide/aem-screens-introduction.md)
 1. 로컬 개발 환경
 
-튜토리얼 단계 및 스크린샷은 CRXDE-Lite를 사용하여 수행됩니다. [Eclipse](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) 또는 [IntelliJ](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 [AEM을 사용한 개발에 대한 자세한 내용은 여기에서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)을(를) 참조하십시오.
+튜토리얼 단계 및 스크린샷은 CRXDE-Lite를 사용하여 수행됩니다. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) 또는 [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE를 사용하여 자습서를 완료할 수도 있습니다. IDE를 사용하여 [AEM을 사용하여 개발하는 방법에 대한 자세한 내용은 여기에서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)을 참조하십시오.
 
 ## 프로젝트 설정 {#project-setup}
 
-Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프로젝트로 관리됩니다. 자습서를 신속하게 수행하기 위해 프로젝트가 [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype)을(를) 사용하여 사전 생성되었습니다. [Maven AEM Project Archetype을 사용하여 프로젝트를 만드는 방법에 대한 자세한 내용은 여기에서 ](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)을(를) 참조하십시오.
+Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프로젝트로 관리됩니다. 자습서를 신속하게 수행하기 위해 [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype)을(를) 사용하여 프로젝트가 미리 생성되었습니다. [Maven AEM Project Archetype을 사용하여 프로젝트를 만드는 방법에 대한 자세한 내용은 여기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)에서 확인할 수 있습니다.
 
 1. **CRX 패키지 관리** `http://localhost:4502/crx/packmgr/index.jsp)r:`를 사용하여 다음 패키지를 다운로드하여 설치하십시오.
 
@@ -133,7 +133,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    `/libs/wcm/foundation/components/image/cq:dialog`에서 `/apps/weretail-run/components/content/poster`(으)로 대화 상자 복사됨
 
-   AEM Screens `image` 구성 요소가 WCM Foundation `image` 구성 요소로 대체되었습니다. 따라서 `poster` 구성 요소는 두 구성 요소에서 기능을 상속합니다. 포스터 구성 요소의 대화 상자는 Screens 및 Foundation 대화 상자의 조합으로 구성됩니다. **Sling 리소스 병합**&#x200B;의 기능을 사용하여 슈퍼타입 구성 요소에서 상속된 관련 없는 대화 상자 필드 및 탭을 숨깁니다.
+   AEM Screens `image` 구성 요소가 WCM Foundation `image` 구성 요소로 대체되었습니다. 따라서 `poster` 구성 요소는 두 구성 요소에서 기능을 상속합니다. 포스터 구성 요소의 대화 상자는 Screens 및 Foundation 대화 상자의 조합으로 구성됩니다. **`Sling Resource Merger`**&#x200B;의 기능을 사용하여 슈퍼타이핑된 구성 요소에서 상속된 관련 없는 대화 상자 필드 및 탭을 숨깁니다.
 
 1. XML에 표시된 다음 변경 내용으로 `/apps/weretail-run/components/content/poster` 아래의 `cq:dialog`을(를) 업데이트합니다.
 
@@ -308,13 +308,13 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
    </div>
    ```
 
-   포스터 구성 요소에 대한 **edit** 마크업이 바로 위에 표시됩니다. HTL 스크립트가 `/libs/screens/core/components/content/image/edit.html`을(를) 재정의합니다. 마크업은 `production.html` 마크업과 유사하며 이미지 위에 제목과 설명을 표시합니다.
+   포스터 구성 요소에 대한 **edited** 마크업이 바로 위에 표시됩니다. HTL 스크립트가 `/libs/screens/core/components/content/image/edit.html`을(를) 재정의합니다. 마크업은 `production.html` 마크업과 유사하며 이미지 위에 제목과 설명을 표시합니다.
 
    구성 요소가 편집기에서 전체 화면으로 렌더링되지 않도록 `aem-Screens-editWrapper`이(가) 추가됩니다. `data-emptytext` 특성은 이미지 또는 컨텐츠가 채워지지 않은 경우 자리 표시자가 표시되도록 합니다.
 
 ## 클라이언트측 라이브러리 만들기 {#clientlibs}
 
-클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다. [클라이언트측 라이브러리 사용에 대한 자세한 내용은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다. [클라이언트측 라이브러리 사용에 대한 자세한 내용은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드에서 다르게 렌더링됩니다. 두 세트의 클라이언트 라이브러리가 생성되는데, 하나는 편집 모드용이고 다른 하나는 미리보기/프로덕션용입니다.
 
@@ -339,7 +339,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    `categories` 속성은 클라이언트 라이브러리를 식별하는 문자열입니다. `cq.screens.components` 범주는 편집 모드와 미리 보기/프로덕션 모드 모두에서 사용됩니다. 따라서 `shared` clientlib에 정의된 모든 CSS/JS는 모든 모드에서 로드됩니다.
 
-   가장 좋은 방법은 프로덕션 환경에서 `/apps`에 직접 경로를 노출하지 않는 것입니다. `allowProxy` 속성은 `/etc.clientlibs`의 접두사를 통해 클라이언트 라이브러리 CSS 및 JS를 참조하도록 합니다. [allowProxy 속성에 대한 자세한 내용은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   가장 좋은 방법은 프로덕션 환경에서 `/apps`에 직접 경로를 노출하지 않는 것입니다. `allowProxy` 속성은 `/etc.clientlibs`의 접두사를 통해 클라이언트 라이브러리 CSS 및 JS를 참조하도록 합니다. [allowProxy 속성에 대한 자세한 내용은 여기에서 확인할 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 공유 폴더 아래에 이름이 `css.txt`인 파일을 만듭니다.
 
@@ -412,7 +412,7 @@ AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드�
 
    >[!NOTE]
    >
-   >Google Web Fonts은 글꼴 패밀리에 사용됩니다. Web Fonts은 인터넷 연결이 필요하며 모든 AEM Screens 구현에 안정적인 연결이 있는 것은 아닙니다. 오프라인 모드를 계획하는 것은 AEM Screens 배포에 중요한 고려 사항입니다.
+   >Google Web Fonts은 글꼴 패밀리에 사용됩니다. Web Fonts은 인터넷 연결이 필요하지만 모든 AEM Screens 구현에 안정적인 연결이 있는 것은 아닙니다. 오프라인 모드를 계획하는 것은 AEM Screens 배포에 중요한 고려 사항입니다.
 
 1. `shared` 클라이언트 라이브러리 폴더를 복사합니다. 동위 문자로 붙여 넣고 이름을 `production`(으)로 바꾸십시오.
 

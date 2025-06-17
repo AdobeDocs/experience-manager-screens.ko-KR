@@ -2,9 +2,9 @@
 title: AEM Screens 프로젝트 역할 및 책임
 description: AEM Screens 프로젝트 역할 및 책임에 대해 알아봅니다.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 0%
 
 ### Adobe {#adobe-audience}
 
-Adobe은 CSE(고객 성공 엔지니어) 및 Adobe 지원과 같은 Adobe Managed Services 리소스를 포함합니다.
+Adobe에는 CSE(고객 성공 엔지니어) 및 Adobe 지원과 같은 Adobe Managed Services 리소스가 포함되어 있습니다.
 
 ### AEM 구현자 {#aem-implementors}
 
-AEM 구현자는 AEM용 사용자 경험, 사용자 지정 템플릿 및 백엔드 통합을 개발하기 위해 개발 및 통합 작업을 수행할 책임이 있습니다.
+AEM 구현자는 AEM에 대한 사용자 경험, 사용자 지정 템플릿 및 백엔드 통합을 개발하기 위해 개발 및 통합 작업을 수행할 책임이 있습니다.
 
 최종 고객 UX(사용자 경험) 매개 변수를 처리하는 데 필요한 사용자 지정 기능도 이 프로세스를 통해 캡처 및 제공됩니다.
 
@@ -53,7 +53,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 올바른 하드웨어 파트너를 클릭하는 것이 중요합니다. 다음 질문을 고려해야 합니다.
 
-1. SLA(서비스 수준 계약)는 무엇입니까?
+1. service level agreement의 약관은 무엇입니까?
 
 1. 글로벌 커버리지 소개
 
@@ -76,7 +76,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 크리에이티브 및 컨텐츠 관리 기능은 다음과 같습니다.
 
-* Creative Agency 또는,
+* Creative 에이전시 또는,
 * 브랜드 관리자
 
 ### 프로젝트 관리자 {#project-managers}
@@ -85,7 +85,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 >[!NOTE]
 >
->디지털 서명 프로젝트의 다양한 역할과 책임 및 대상 대상에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**&#x200B;을 방문하세요.
+>디지털 서명 프로젝트의 다양한 역할과 책임 및 대상 대상에 대해 자세히 알아보려면 **[프로젝트 역할 및 책임](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**&#x200B;을 방문하세요.
 
 
 ## 프로젝트 단계 {#project-stages}
@@ -100,7 +100,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 >
 >이 가이드는 주로 *1일*&#x200B;과 *2일*&#x200B;에 중점을 두지만, 성공적인 디지털 사이니지 프로젝트를 실행하기 위해서는 세 가지 단계에 모두 관심을 기울여야 합니다.
 >
->프로젝트 사전 프로덕션, 프로젝트 시작 및 프로젝트 진행에 대해 알아보려면 **[프로젝트 관리 및 배포](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;에 대한 비디오를 시청하십시오.
+>프로젝트 사전 프로덕션, 프로젝트 시작 및 프로젝트 진행에 대해 알아보려면 **[프로젝트 관리 및 배포](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;에 대한 비디오를 시청하십시오.
 
 ## RCI 차트 {#raci-chart}
 
@@ -130,7 +130,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 | 역할 및 책임에 대한 계약 | RA | RA | RA | RA |
 | 전략적 목표에 따른 조정 | CI | I | RA | RA |
 | 요구 사항 보고 및 ROI 식별 | I | C | RA | C |
-| 사이트 방문 및 하드웨어 요구 사항 | RA | I | C | C |
+| 사이트 방문 횟수 및 하드웨어 요구 사항 | RA | I | C | C |
 | 지원 프로세스 정의 | C | I | RA | I |
 | 작업 범위 및 프로젝트 계획 정의 | RA | RA | C | C |
 
@@ -187,7 +187,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 다음 표에는 **2일: 출시 후 지원 RACI 차트**&#x200B;가 요약되어 있습니다.
 
-| **단계** | **작성자** | **개발자** | **기술자** |
+| **단계** | **작성** | **개발자** | **기술자** |
 |---|---|---|---|
 | *2일: 시작 후 지원* |
 | 역할 및 책임에 대한 계약 | RA | RA | RA |

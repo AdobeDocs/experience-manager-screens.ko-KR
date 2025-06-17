@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 이 섹션에서는 다음 주제를 다룹니다.
 
 * **개요**
-* **전제 조건**
+* **사전 요구 사항**
 * **비디오 패딩 워크플로 만들기**
    * **워크플로 만들기**
    * **AEM Screens 프로젝트에서 워크플로 사용**
@@ -80,7 +80,7 @@ ht-degree: 0%
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. **인수** 탭을 클릭합니다.
-1. **명령줄 - 단계 속성** 대화 상자에서 **Mime 유형**(***video/mp4***)에 형식을 입력하고 명령을 (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***)로 입력합니다. 이 명령은 **명령** 필드에서 워크플로를 시작합니다.
+1. **명령줄 - 단계 속성** 대화 상자에서 **MIME 형식**(예: ***video/mp4***)에 형식을 입력하고 명령을 (***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***)로 입력합니다. 이 명령은 **명령** 필드에서 워크플로를 시작합니다.
 
    아래 노트에서 **MIME 유형** 및 **명령**&#x200B;에 대한 세부 정보를 참조하십시오.
 

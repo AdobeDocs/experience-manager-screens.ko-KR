@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -75,7 +75,7 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
 
 >[!NOTE]
 >
->경우에 따라 작성자 기능(예: 에셋 관리 및 채널 만들기)과 관리자 기능(예: 플레이어 등록)을 분리할 수 있습니다. 이러한 시나리오에서는 두 개의 그룹을 만들고 작성자 그룹을 기여자에게, 관리자 그룹을 기여자와 사용자 관리자 모두에 추가합니다.
+>경우에 따라 작성자 기능(예: 에셋 관리 및 채널 만들기)과 관리자 기능(예: 플레이어 등록)을 분리할 수 있습니다. 이러한 시나리오에서는 두 개의 그룹을 만들고 작성자의 그룹을 기여자에게 추가하고 관리자 그룹을 기여자와 사용자 관리자 모두에 추가합니다.
 
 ### 그룹 만들기 {#creating-groups}
 

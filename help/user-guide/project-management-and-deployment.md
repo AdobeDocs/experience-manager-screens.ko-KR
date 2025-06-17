@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 첫 번째 단계는 ***Day Zero***&#x200B;입니다. 이 단계에는 프로젝트의 범위를 정의할 때 필요한 모든 사전 영업 및 검색 작업이 포함됩니다. 두 번째 단계인 ***Day One***&#x200B;은(는) 배포 작업에 포함된 모든 활동을 참조합니다. 마지막으로 ***2일***&#x200B;은(는) 전체 솔루션의 일부로 진행 중인 모든 작업 및 지원 요소를 참조합니다.
 
-Day Zero 활동에는 Pre-Sales, 클라이언트 검색, 애플리케이션 요구 분석 및 프로젝트 범위 정의가 필요합니다. 이 단계에는 배포를 준비하기 위해 프로젝트 관리를 위한 프로젝트 요구 사항의 초기 참여 및 정의도 포함될 수 있습니다.
+***Day Zero***&#x200B;의 활동에는 사전 영업, 클라이언트 검색, 응용 프로그램 요구 분석 및 프로젝트 범위 정의가 포함됩니다. 이 단계에는 배포를 준비하기 위해 프로젝트 관리를 위한 프로젝트 요구 사항의 초기 참여 및 정의도 포함될 수 있습니다.
 
-Day Zero는 프로젝트 관리의 모든 측면을 다루는 8가지 주요 단계로 구성됩니다.
+모든 ***Day Zero***&#x200B;는 프로젝트 관리 램프 업의 모든 측면을 다루는 8개의 주요 단계로 구성됩니다.
 
 * 작업 범위 정의
 * 프로젝트 일정 정의
@@ -80,7 +80,7 @@ Sales Opportunity 가 프로젝트로 전환되면 Kick Off Meeting 이 예정�
 
 ### 프로젝트 관리 및 배포
 
->[!VIDEO](https://video.tv.adobe.com/v/32796?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알아봅니다.*
 

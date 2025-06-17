@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 전자 메일에 대한 설정을 구성할 수 있도록 다음 필드를 정의합니다.
 
-   **장치 경로** 모니터링할 Screens 프로젝트의 경로를 입력합니다. 경로는 일반적으로 `/home/users/screens/<Name of your project>`입니다.
+   **장치 경로** - 모니터링할 Screens 프로젝트의 경로를 입력합니다. 경로는 일반적으로 `/home/users/screens/<Name of your project>`입니다.
 
    예를 들어 프로젝트가 **`We.Retail`**&#x200B;인 경우 프로젝트 경로를 ***/home/users/screens/we-retail***(으)로 사용하십시오.
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    **TLS 사용** - TLS(전송 계층 보안)를 사용하면 SMTP 서버와의 보안 통신을 사용할 수 있습니다.
 
-   Adobe은 회사 메일 서버와의 보안 연결에 TLS를 사용할 것을 권장합니다. 메일 관리자에게 적절한 값을 문의하십시오.
+   Adobe에서는 회사 메일 서버와의 보안 연결에 TLS를 사용할 것을 권장합니다. 메일 관리자에게 적절한 값을 문의하십시오.
 
    **사용자 이름** - 전자 메일을 보낼 사용자 이름을 지정합니다.
 

@@ -4,9 +4,10 @@ description: 2025년 3월 27일에 릴리스된 AEM Screens 기능 팩 20250327�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
+exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->Adobe에서는 FP11.6을 SP(servicepack) >= 21과 함께 사용하는 것이 좋습니다.
+>>Adobe에서는 FP11.6을 SP(servicepack) >= 21과 함께 사용하는 것이 좋습니다.
 
 ## 사용 가능 {#availability}
 
@@ -34,8 +35,8 @@ AEM Screens 기능 팩 20250327의 릴리스 날짜는 2025년 3월 27일입니�
 * 이 릴리스에서는 SP22 이상의 카드 보기에서 문제가 해결되었습니다.
 
 * **AEM Screens 플레이어 업데이트**
-   * Linux 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens에서 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
-   * Android 기반 AEM Screens Player는 더 이상 업데이트되거나 개선되지 않습니다. 사용자는 AEM Screens에서 지원하는 대체 운영 체제로 마이그레이션하는 것이 좋습니다.
+   * Linux 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
+   * Android 기반 AEM Screens Player에 대한 추가 업데이트 또는 개선 사항은 없습니다. 사용자는 AEM Screens이 지원하는 대체 운영 체제로 마이그레이션하는 것이 좋습니다.
 
 ### 버그 수정 {#bug-fixes}
 

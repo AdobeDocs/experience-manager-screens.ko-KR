@@ -1,5 +1,5 @@
 ---
-title: 스케줄 생성 및 관리
+title: 일정 만들기 및 관리
 description: 개별적으로 할당을 반복하지 않아도 되도록 채널을 재사용 가능한 그룹으로 구성할 수 있는 일정에 대해 알아봅니다.
 contentOwner: Jyotika Syal
 content-type: reference
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# 스케줄 생성 및 관리 {#creating-and-managing-schedules}
+# 일정 만들기 및 관리 {#creating-and-managing-schedules}
 
 AEM Screens의 **일정**&#x200B;을 통해 재사용 가능한 그룹으로 채널을 구성할 수 있습니다. 이렇게 하면 콘텐츠를 표시할 각 디스플레이에 대해 개별적으로 할당을 반복하지 않아도 됩니다.
 
@@ -58,8 +58,8 @@ AEM Screens의 **일정**&#x200B;을 통해 재사용 가능한 그룹으로 채
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **일정 정보 패널** 일정 정보를 보거나 변경하려면 [일정 정보 패널]의 오른쪽 상단 모서리에서 [속성]을 클릭하십시오.
+   **일정 정보 패널** - [일정 정보 패널]의 오른쪽 상단 모서리에서 [속성]을 클릭하여 일정 속성을 보거나 변경합니다.
 
-   **할당된 채널 패널** 할당된 채널 패널의 오른쪽 상단에서 +채널 할당 을 클릭하여 채널 할당 대화 상자를 엽니다.
+   **할당된 채널 패널** - 할당된 채널 패널의 오른쪽 상단에서 +채널 할당 을 클릭하여 채널 할당 대화 상자를 엽니다.
 
-   **할당된 디스플레이 패널** 할당된 디스플레이 패널에서 디스플레이를 클릭하여 디스플레이 대시보드를 엽니다.
+   **할당된 디스플레이 패널** - 할당된 디스플레이 패널에서 디스플레이 중 하나를 클릭하여 디스플레이 대시보드를 엽니다.

@@ -1,26 +1,26 @@
 ---
-title: AEM Screens에서 작성자 및 Publish 인스턴스 구성
-description: AEM Screens의 작성자 인스턴스 및 Publish 인스턴스를 구성하는 방법을 알아봅니다.
+title: AEM Screens에서 작성자 및 게시 인스턴스 구성
+description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1939'
 ht-degree: 0%
 
 ---
 
 
-# AEM Screens에서 작성자 및 Publish 인스턴스 구성 {#configuring-author-and-publish-in-aem-screens}
+# AEM Screens에서 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-in-aem-screens}
 
 이 페이지에서는 다음 항목을 강조합니다.
 
-* **작성자 및 Publish 인스턴스 구성**
-* **Publish 토폴로지 설정**
-* **게시 관리: 작성자에서 Publish으로 콘텐츠 업데이트를 장치로 전달**
+* **작성자 및 게시 인스턴스 구성**
+* **게시 토폴로지 설정**
+* **게시 관리: 작성자가 장치에서 게시로 콘텐츠 업데이트 제공**
 
 ## 사전 요구 사항 {#prerequisites}
 
-작성자 및 Publish 서버를 시작하기 전에 다음 사항에 대한 사전 지식이 있어야 합니다.
+작성자 및 게시 서버를 시작하기 전에 다음 사항에 대한 사전 지식이 있어야 합니다.
 
 * **AEM 토폴로지**
 * **AEM Screens 프로젝트 만들기 및 관리**
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dispatcher과 함께 Publish 인스턴스를 두 개 이상 사용하려면 Dispatcher을 업데이트하십시오. [고정 세션 사용](dispatcher-configurations-aem-screens.md#enable-sticky-session)을 참조하세요.
+>Dispatcher을 사용하여 게시 인스턴스를 두 개 이상 사용하려면 Dispatcher을 업데이트하십시오. [고정 세션 사용](dispatcher-configurations-aem-screens.md#enable-sticky-session)을 참조하세요.
 
-## 작성자 및 Publish 인스턴스 구성 {#configuring-author-and-publish-instances}
+## 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->작성자 및 Publish 아키텍처 개요 및 AEM 작성자 인스턴스에서 콘텐츠를 작성한 후 여러 Publish 인스턴스로 앞으로 복제하는 방법에 대한 자세한 내용은 [작성자 및 Publish 아키텍처 개요](author-publish-architecture-overview.md)를 참조하십시오.
+>작성자 및 게시 아키텍처 개요와 콘텐츠가 AEM 작성자 인스턴스에서 작성된 다음 여러 게시 인스턴스로 앞으로 복제되는 방법에 대해 자세히 알려면 [작성자 및 게시 아키텍처 개요](author-publish-architecture-overview.md)를 참조하십시오.
 
-다음 섹션에서는 작성자 및 Publish 토폴로지에서 복제 에이전트를 설정하는 방법에 대해 설명합니다.
+다음 섹션에서는 작성자 및 게시 토폴로지에서 복제 에이전트를 설정하는 방법에 대해 설명합니다.
 
-작성자 및 두 개의 Publish 인스턴스를 호스팅하는 간단한 예를 설정할 수 있습니다.
+작성자 인스턴스 하나와 게시 인스턴스 두 개를 호스팅하는 간단한 예를 설정할 수 있습니다.
 
 * 작성자 > localhost:4502
 * Publish 1 (pub1) > localhost:4503
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 
-1. **기본 복제 에이전트 &#x200B;***(*** 표준 복제 에이전트로 지정됨**)
+1. **기본 복제 에이전트 ***(*** 표준 복제 에이전트로 지정됨**)
 1. **Screens 복제 에이전트**
 1. **역방향 복제 에이전트**
 
-### 1단계: 기본 복제 에이전트 생성 {#step-creating-a-default-replication-agent}
+### 1단계: 기본 복제 에이전트 만들기 {#step-creating-a-default-replication-agent}
 
 기본 복제 에이전트를 만들려면 아래 단계를 따르십시오.
 
@@ -112,54 +112,54 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 1. pub2용 AEM Screens 복제 에이전트를 만듭니다. pub1용 Screens 복제 에이전트를 복사하고 pub2용 4504로 포트를 변경합니다.
 
    >[!NOTE]
-   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
+   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
 
 #### Screens 역방향 복제 에이전트 생성 {#creating-screens-reverse-replication-agents}
 
 1. pub1에 대한 역방향 복제 에이전트를 만듭니다.
 1. pub2에 대한 역방향 복제 에이전트를 만듭니다. 전송 구성에서 포트를 변경하여 pub1에 대한 역방향 복제 에이전트를 복사하고 pub2에 사용할 전송을 업데이트할 수 있습니다.
 
-## Publish 토폴로지 설정 {#setting-up-publish-topology}
+## 게시 토폴로지 설정 {#setting-up-publish-topology}
 
 ### 1단계: Apache Sling Oak 기반 검색 구성 {#step-configure-apache-sling-oak-based-discovery}
 
-토폴로지의 모든 Publish 인스턴스에 대해 Apache Sling Oak 기반 검색 설정
+토폴로지의 모든 게시 인스턴스에 대해 Apache Sling Oak 기반 검색 설정
 
-각 Publish 인스턴스의 경우:
+각 게시 인스턴스의 경우:
 
 1. `https://<host>:<port>/system/console/configMgr`(으)로 이동
 1. **Apache Sling Oak 기반 검색 서비스** 구성을 클릭합니다.
-1. 토폴로지 커넥터 URL 업데이트: 다음과 같은 모든 partaking Publish 인스턴스의 URL을 추가합니다.
+1. 토폴로지 커넥터 URL 업데이트: 다음과 같은 모든 Publish 인스턴스 URL을 추가합니다.
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **토폴로지 커넥터 `Whitelist` 목록**: 모든 Publish 인스턴스를 포함하는 IP 또는 서브넷에 적용하십시오. 포트 번호 없이 모든 Publish 인스턴스의 IP/호스트 이름을 `whitelist`합니다.
+1. **토폴로지 커넥터 `Whitelist` 목록**: 모든 게시 인스턴스를 포함하는 IP 또는 서브넷에 적용하십시오. 포트 번호 없이 모든 게시 인스턴스의 IP/호스트 이름을 `whitelist`합니다.
 
 1. **로컬 루프 자동 중지** 사용
 
-구성은 각 Publish 인스턴스에 대해 동일해야 하며 자동 중지 로컬 루프는 무한 루프를 방지합니다.
+각 게시 인스턴스에 대해 구성이 동일해야 하며 자동 중지 로컬 루프가 무한 루프를 방지합니다.
 
-#### 2단계: Publish 토폴로지 확인 {#step-verify-publish-topology}
+#### 2단계: 게시 토폴로지 확인 {#step-verify-publish-topology}
 
-Publish 인스턴스의 경우 `https://:/system/console/topology`(으)로 이동합니다. **나가는 토폴로지 커넥터** 아래의 토폴로지에 각 Publish 인스턴스가 표시됩니다.
+게시 인스턴스의 경우 `https://:/system/console/topology`(으)로 이동합니다. **나가는 토폴로지 커넥터** 아래의 토폴로지에 각 게시 인스턴스가 표시됩니다.
 
 #### 3단계: ActiveMQ Artemis 클러스터 설정 {#step-setup-activemq-artemis-cluster}
 
 이 단계에서는 ActiveMQ Artemis 클러스터에 대해 암호화된 암호를 만들 수 있습니다.
-토폴로지에 있는 모든 Publish 인스턴스의 클러스터 사용자와 암호가 동일해야 합니다. ActiveMQ Artemis 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 암호화 지원을 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ에 대한 OSGi 구성에서 암호화된 암호를 사용할 수 있습니다.
+토폴로지에 있는 모든 게시 인스턴스의 클러스터 사용자와 암호가 동일해야 합니다. ActiveMQ Artemis 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 암호화 지원을 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ에 대한 OSGi 구성에서 암호화된 암호를 사용할 수 있습니다.
 
-각 Publish 인스턴스에서 다음을 수행합니다.
+각 게시 인스턴스에서 다음을 수행합니다.
 
 1. OSGi 콘솔에서 **기본** > **암호화 지원**(`https://<host>:<port>/system/console/crypto`)으로 이동합니다.
 1. **일반 텍스트**&#x200B;에 원하는 일반 텍스트 암호(모든 인스턴스에 대해 동일)를 입력합니다.
-1. **Protect**&#x200B;을(를) 클릭합니다.
+1. **보호**&#x200B;를 클릭합니다.
 1. **보호된 텍스트** 값을 메모장이나 텍스트 편집기에 복사합니다. 이 값은 ActiveMQ에 대한 OSGi 구성에서 사용할 수 있습니다.
 
-각 Publish 인스턴스에는 기본적으로 고유한 암호 키가 있으므로 각 pub 인스턴스에서 이 단계를 수행하고 다음 구성을 위해 고유한 키를 저장합니다.
+각 게시 인스턴스에는 기본적으로 고유한 암호화 키가 있으므로 각 pub 인스턴스에서 이 단계를 수행하고 다음 구성을 위해 고유한 키를 저장합니다.
 
 >[!NOTE]
 >
 >암호는 중괄호로 시작하고 끝나야 합니다. 예:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 4단계: ActiveMQ Artemis 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 
@@ -174,7 +174,7 @@ Publish 인스턴스의 경우 `https://:/system/console/topology`(으)로 이�
 
 #### ActiveMQ Artemis 클러스터 확인 {#verify-activemq-artemis-cluster}
 
-각 Publish 인스턴스에서 아래 단계를 수행합니다.
+각 게시 인스턴스에서 아래 단계를 수행합니다.
 
 1. OSGi 콘솔 > 주 > ActiveMQ Artemis `https://localhost:4505/system/console/mq`(으)로 이동합니다.
 1. 클러스터 정보 > 토폴로지 > 노드=2, 멤버=2에서 다른 인스턴스의 포트를 확인하고 확인합니다.
@@ -197,19 +197,19 @@ Publish 인스턴스의 경우 `https://:/system/console/topology`(으)로 이�
 
 #### 레퍼러 헤더 요구 사항 제거 {#remove-referrer-header-requirement}
 
-각 Publish 인스턴스의 단계를 따릅니다.
+각 게시 인스턴스의 단계를 따릅니다.
 
 1. **OSGi 콘솔** > **구성 관리자**(으)로 이동
 1. **Apache Sling 레퍼러 필터**&#x200B;를 클릭합니다.
 1. 구성을 업데이트하고 **비우기 허용 확인**
 
-### 작성자 및 Publish 인스턴스 구성 {#configuring-author-and-publish-instance}
+### 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-instance}
 
-게시 토폴로지를 설정한 후 작성자 및 Publish 인스턴스를 구성하여 구현의 실제 결과를 확인합니다.
+게시 토폴로지를 설정한 후 작성자 및 게시 인스턴스를 구성하여 구현의 실제 결과를 확인합니다.
 
 >[!NOTE]
 >
->**전제 조건**
+>**사전 요구 사항**
 >
 >이 예제를 시작하려면 AEM Screens 프로젝트 만들기 후 프로젝트에서 위치, 표시 및 채널을 만듭니다. 채널에 콘텐츠를 추가하고 디스플레이에 채널을 할당합니다.
 
@@ -231,7 +231,7 @@ Publish 인스턴스의 경우 `https://:/system/console/topology`(으)로 이�
 1. 등록 코드를 확인한 다음 **유효성 검사**&#x200B;를 클릭합니다.
 1. 장치의 제목을 입력한 다음 **등록**&#x200B;을 클릭하세요.
 
-#### 3단계: 표시할 장치 할당 {#step-assigning-the-device-to-display}
+#### 3단계: 표시할 장치 지정 {#step-assigning-the-device-to-display}
 
 1. 이전 단계의 대화 상자에서 **디스플레이 할당**&#x200B;을 클릭합니다.
 1. **위치** 폴더에서 채널의 표시 경로를 클릭합니다.
@@ -240,7 +240,7 @@ Publish 인스턴스의 경우 `https://:/system/console/topology`(으)로 이�
 
 플레이어를 확인하고 채널에 추가한 콘텐츠를 확인합니다.
 
-#### 4단계: Publish 인스턴스에 장치 구성 게시 {#step-publishing-device-configuration-to-publish-instances}
+#### 4단계: 게시 인스턴스에 장치 구성 게시 {#step-publishing-device-configuration-to-publish-instances}
 
 **장치 확인**
 
@@ -283,18 +283,18 @@ Publish 인스턴스의 경우 `https://:/system/console/topology`(으)로 이�
 작성 및 게시 동작을 확인하려면 아래 단계를 따르십시오.
 
 1. 작성자 인스턴스에서 일부 채널 콘텐츠를 업데이트합니다.
-1. 모든 Publish 인스턴스에 새 변경 내용을 게시하려면 **게시 관리**&#x200B;를 수행하십시오.
-1. **장치 관리자**&#x200B;에서 장치를 활성화하려면 **활성화**&#x200B;를 누르십시오.
+1. **게시 관리**&#x200B;를 수행하여 모든 게시 인스턴스에 새 변경 내용을 게시합니다.
+1. **장치 관리자**&#x200B;에서 장치를 활성화하려면 **활성화**&#x200B;를 클릭하십시오.
 1. 작성자 인스턴스 URL에서 게시 인스턴스 URL 중 하나로 **URL 편집**&#x200B;을 선택합니다.
 1. 업데이트된 채널 콘텐츠가 AEM Screens 플레이어에 표시되는지 확인합니다.
-1. 다른 Publish 인스턴스를 사용하여 이 단계를 반복합니다.
+1. 다른 게시 인스턴스를 사용하여 이 단계를 반복합니다.
 
 
-#### 5단계: 관리 패널에서 장치를 Publish 인스턴스로 지정 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### 5단계: 관리 패널에서 장치가 게시 인스턴스를 가리키기 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Screens 플레이어에서 관리자 UI를 보고 왼쪽 상단 모서리를 길게 누르면 터치가 활성화된 AEM Screens 플레이어에서 또는 마우스를 사용하여 관리자 메뉴를 열 수 있습니다.
 1. 사이드 패널에서 **구성** 옵션을 클릭합니다.
-1. 작성자 인스턴스를 **Server**&#x200B;의 Publish 인스턴스로 변경합니다.
+1. **Server**&#x200B;에서 작성자 인스턴스를 게시 인스턴스로 변경합니다.
 
 AEM Screens 플레이어에서 변경 사항을 봅니다.
 
@@ -306,23 +306,20 @@ AEM Screens 플레이어에서 변경 사항을 봅니다.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-**게시 관리** 기능을 사용하면 작성자에서 Publish으로 콘텐츠 업데이트를 장치로 전달할 수 있습니다. 전체 AEM Screens 프로젝트에 대한 콘텐츠 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대한 콘텐츠만 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](on-demand-content.md)를 참조하세요.
+**`Manage Publication`** 기능을 사용하면 콘텐츠 업데이트를 작성자에서 게시로 장치에 전달할 수 있습니다. 전체 AEM Screens 프로젝트에 대한 콘텐츠 또는 채널, 위치, 장치, 애플리케이션 또는 일정 중 하나에 대한 콘텐츠만 게시/게시 취소할 수 있습니다. 이 기능에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](on-demand-content.md)를 참조하세요.
 
 ## 문제 해결 팁 {#troubleshoot-tips}
 
-작성자/Publish 설정과 관련된 FAQ에 대한 답변을 보려면 아래 섹션을 따르십시오.
+작성자 및 게시 설정과 관련된 FAQ에 대한 답변을 보려면 아래 섹션을 따르십시오.
 
 ### 초기 등록 및 할당 후에 https에서 http로 리디렉션을 추가하는 방법 {#add-redirect}
 
-**솔루션**
-`Proxy/Load Balancer Connection in the Jetty configuration` 사용을 `true`(으)로 설정합니다.
+**솔루션** - `Proxy/Load Balancer Connection in the Jetty configuration`을(를) `true`(으)로 설정합니다.
 
 ### `/content/dam/projects/<project>` 외부 에셋의 오프라인 콘텐츠 및 플레이어 다운로드 문제를 업데이트하는 방법 {#update-offline-content}
 
-**솔루션**
-더 제한적으로 사용하려면 모든 `/content/dam` 또는 사용할 특정 자산에 대해 bulk-offline-update-screens-service 사용자 및 `screens-devices-master` 그룹에 대한 읽기 권한을 부여하십시오.
+**솔루션** - 더 제한적으로 사용하려면 모든 `/content/dam` 또는 사용할 특정 자산에 대해 bulk-offline-update-screens-service 사용자 및 `screens-devices-master` 그룹에 대한 읽기 권한을 부여하십시오.
 
 ### Screens 복제 에이전트 오류를 해결하는 방법 {#replication-agent}
 
-**솔루션**
-에이전트 구성에서 역방향 복제에 사용 옵션을 선택하지 않았는지 확인합니다. Screens 복제 에이전트는 역방향 복제 에이전트로 사용할 수 없으며, 이 기능의 범위는 장치 명령을 작성자에서 Publish으로 전달하는 것입니다.
+**솔루션** - 에이전트 구성에서 역방향 복제에 사용 옵션을 선택하지 않았는지 확인합니다. Screens 복제 에이전트는 역방향 복제 에이전트로 사용할 수 없으며, 이 기능의 범위는 장치 명령을 작성자에서 게시로 전달하는 것입니다.

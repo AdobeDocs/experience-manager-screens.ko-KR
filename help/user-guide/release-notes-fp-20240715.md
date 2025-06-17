@@ -4,10 +4,11 @@ description: 2024년 7월 15일에 릴리스된 AEM Screens 기능 팩 20240715�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 971b3d3768602929e213abdf9ae407fe9015ab4b
+exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->FeaturePack(FP) 버전 11.4는 ServicePack(SP)과 최대 버전 20까지 호환됩니다.
+>>FeaturePack(FP) 버전 11.4는 ServicePack(SP)과 최대 버전 20까지 호환됩니다.
 
 
 ## 사용 가능 {#availability}
@@ -30,8 +31,8 @@ AEM Screens 기능 팩 20240715의 릴리스 날짜는 2024년 7월 15일입니�
 
 ### 새로운 기능 {#what-is-new}
 
-* 이 릴리스에는 보안 수정 사항만 포함됩니다.
+이 릴리스에는 보안 수정 사항만 포함됩니다.
 
 ### 버그 수정 {#bug-fixes}
 
-* /libs/screens/clientlibs/libs/scripts/scroll/tests/index.html에서 XSS 문제(SCRNS-4359)
+`/libs/screens/clientlibs/libs/scripts/scroll/tests/index.html`의 XSS 문제(SCRNS-4359)
