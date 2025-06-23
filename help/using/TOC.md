@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: AEM Screens 프로젝트 우수 사례
+user-guide-title: AEM Screens 프로젝트에 대한 모범 사례
 breadcrumb-title: AEM Screens 모범 사례 안내서
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
@@ -13,12 +13,12 @@ role: User
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
 
-# AEM Screens 프로젝트 우수 사례 {#using}
+# AEM Screens 프로젝트에 대한 모범 사례 {#using}
 
 + [이 안내서 정보](about-guide.md)
 + 개요 {#overview}
