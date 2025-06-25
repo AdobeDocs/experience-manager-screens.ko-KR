@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: 6cdf350fa4e45b816d50b64252b8ed6d5e0904d0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '244'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->&#x200B;>Adobe에서는 FP11.6을 SP(servicepack) >= 21과 함께 사용하는 것이 좋습니다.
+>>Adobe에서는 FP11.6을 SP(servicepack) >= 21과 함께 사용하는 것이 좋습니다.
 
 ## 사용 가능 {#availability}
 
@@ -43,3 +43,5 @@ AEM Screens 기능 팩 20250327의 릴리스 날짜는 2025년 3월 27일입니�
 * 서비스 팩 21 및 Screens 기능 팩과의 패키지 충돌. (SCRNS-4638)
 
 * Screens 대시보드가 작동하지 않습니다. (SCRNS-4749)
+
+* /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js에서 XSS 문제(SCRNS-4761)
