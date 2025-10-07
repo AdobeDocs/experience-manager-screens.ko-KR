@@ -8,9 +8,9 @@ user-guide-description: 동적 및 대화형 디지털 경험과 상호 작용�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '556'
 ht-degree: 11%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 11%
    + [Screens 모범 사례 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/using/about-guide)
    + [주요 용어](screens-glossary.md)
    + [Screens 용어 및 개념](screens-concepts-feature-video-understand.md)
-+ 디지털 서명 네트워크 기본 사항 {#digital-signage-network}
++ 디지털 간판 네트워크 기본 사항 {#digital-signage-network}
    + [1부: 프로젝트 역할 및 책임](project-roles-responsibilities.md)
    + [2부: 프로젝트 범위 지정 시 고려 사항](project-considerations.md)
    + [3부: 테스트, POC, 파일럿 및 롤아웃](testing-pocs-pilots-rollouts.md)
@@ -51,22 +51,22 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [플레이어 자동 등록](auto-registration-players.md)
       + [원격 제어 사용](implementing-remote-control.md)
-   + 작성자 게시 {#author-publish}
+   + Author 게시 {#author-publish}
       + [Author-Publish 아키텍처 개요](author-publish-architecture-overview.md)
       + [작성자 및 게시 구성](author-and-publish.md)
-   + AEM Screens과(와) Analytics 통합 {#analytics-integration}
+   + AEM Screens과 Analytics 통합 {#analytics-integration}
       + [Adobe Analytics 통합](adobe-analytics-integration-aem-screens.md)
       + [AEM Screens을 사용하여 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)
 + 작성 및 사용 사례 예 {#authoring}
-   + Screens 프로젝트 설정 중 {#setting-up-projects}
+   + Screens 프로젝트 설정 {#setting-up-projects}
       + [프로젝트 생성 및 관리](creating-a-screens-project.md)
       + [채널 만들기 및 관리](managing-channels.md)
       + [디스플레이 만들기 및 관리](managing-displays.md)
       + [위치 생성 및 관리](managing-locations.md)
       + [스케줄 생성 및 관리](managing-schedules.md)
       + [장치 관리](managing-devices.md)
-      + 채널 할당 중 {#assigning-channels}
-         + [채널 지정](channel-assignment-latest-fp.md)
+      + 채널 할당 {#assigning-channels}
+         + [채널 할당](channel-assignment-latest-fp.md)
          + [채널 할당: 이전 AEM Screens 기능 팩](channel-assignment.md)
    + 핵심 제품 기능 사용 {#product-features}
       + [텍스트 오버레이](text-overlay.md)
@@ -90,7 +90,7 @@ ht-degree: 11%
       + [컨텐츠 할당 보고서](content-assignment-report.md)
       + [비디오에 대한 썸네일 지원](thumbnail-support.md)
       + [AEM Screens에서 적응형 표현물 사용](using-adaptive-renditions.md)
-   + 콘텐츠 업데이트 관리 {#content-updates}
+   + 컨텐츠 업데이트 관리 {#content-updates}
       + [온디맨드 콘텐츠 업데이트](on-demand-content.md)
       + [Content as-a-service 업데이트](content-update-as-a-service.md)
       + [Screens Launch를 사용한 콘텐츠 업데이트](launches.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [장치 제어 센터 문제 해결](monitoring-screens.md)
    + [비디오 재생 구성](troubleshoot-videos.md)
 + 릴리스 정보 {#release-notes}
+   + [기능 팩 20251007 릴리스 정보](release-notes-fp-20251007.md)
    + [기능 팩 20250327 릴리스 정보](release-notes-fp-20250327.md)
    + [기능 팩 20250224 릴리스 정보](release-notes-fp-20250224.md)
    + [기능 팩 20240715 릴리스 정보](release-notes-fp-20240715.md)
