@@ -4,10 +4,9 @@ description: 2025년 10월 7일에 릴리스된 AEM Screens 기능 팩 20251007�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 7ade4e2c50ecf4585bc11b25b0c2ac56597497cb
+source-git-commit: b7ce4b726e9e9a2d70d852f40af3b9681c96bbd1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -15,14 +14,14 @@ ht-degree: 5%
 # 기능 팩 20251007 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->&#x200B;>FP11.7을 SP(servicepack) 버전 22 이상에서 사용합니다.
+>Adobe에서는 최신 버전의 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
+>>FP11.7을 SP(servicepack) 버전 22 이상에서 사용합니다.
 
 ## 사용 가능 {#availability}
 
 AEM Screens은 AEM 6.5 기능 팩 11.7을 릴리스했습니다.
 
-Adobe ID을 사용하여 6.5.11.7소프트웨어 배포 포털[에서 AEM Screens &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하여 **Screens**&#x200B;을(를) 검색하여 **AEM 6.5 Screens FP11.7**(으)로 제목이 지정된 최신 기능 팩을 가져옵니다.
+Adobe ID을 사용하여 6.5.11.7소프트웨어 배포 포털[에서 AEM Screens ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 릴리스의 최신 기능 팩을 다운로드할 수 있습니다. **Adobe Experience Manager** 탭으로 이동하여 **Screens**&#x200B;을(를) 검색하여 **AEM 6.5 Screens FP11.7**(으)로 제목이 지정된 최신 기능 팩을 가져옵니다.
 
 ## 릴리스 일자 {#release-date}
 
