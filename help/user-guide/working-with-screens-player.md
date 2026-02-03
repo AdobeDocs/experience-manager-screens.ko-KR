@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -143,6 +143,10 @@ AEM Screens Player에 대한 업데이트에는 두 가지 유형이 있습니�
 | 플레이어 쉘 업데이트 | 플레이어에 배포되는 새 실행 파일입니다. 이 기능을 사용하려면 플레이어에서 새 바이너리를 원격으로 복사하고 현재 실행 중인 바이너리를 중지하고 새 버전을 시작해야 합니다. 패키지의 사전 로드를 다시 다운로드해야 할 수 있습니다. | 예(원격 셸의 방식으로) | 사용자 정의 | 아니요 |
 
 ## 플레이어 장치에 대한 하드웨어 선택 지침 {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**사용되지 않음:** 이 하드웨어 선택 지침은 사용되지 않으며 새 배포에 사용해서는 안 됩니다. 하드웨어 사양 및 권장 사항은 특정 배포 요구 사항 및 사용 사례에 따라 자격을 갖춘 AV 통합자가 제공해야 합니다.
 
 다음 섹션에서는 Screens 프로젝트에 대한 하드웨어 선택 지침을 제공합니다.
 
