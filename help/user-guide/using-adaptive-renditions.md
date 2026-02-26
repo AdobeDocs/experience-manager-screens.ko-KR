@@ -2,10 +2,10 @@
 title: AEM Screens에서 적응형 표현물 사용
 description: AEM Screens에서 적응형 렌디션을 사용하는 방법을 알아봅니다.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
@@ -13,11 +13,14 @@ ht-degree: 0%
 
 ## 소개 {#introduction}
 
+>[!CAUTION]
+>이 기능은 AEM 온-프레미스(AEM 6.x)에서만 지원됩니다. AEM as a Cloud Service에서는 지원되지 않습니다.
+
 적응형 렌디션을 사용하면 장치가 고객 정의 규칙에 따라 장치에 대한 최상의 렌디션을 자동으로 클릭할 수 있습니다. 디바이스는 이러한 규칙에 따라 에셋의 가장 적절한 렌디션을 자동으로 다운로드하고 재생합니다. 고객이 *main* 경험을 디자인하는 데 집중할 수 있도록 해줍니다.
 
 ## 목표 {#objective}
 
-이제 AEM Screens 콘텐츠 작성자는 모든 콘텐츠 변형을 수동으로 만들 필요 없이 자동으로 다운로드 및 재생되도록 장치별 에셋 렌디션을 구성할 수 있습니다.
+이제 AEM Screens 컨텐츠 작성자는 모든 컨텐츠 변형을 수동으로 만들지 않고도 장치별 자산 렌디션을 자동으로 다운로드하고 재생하도록 구성할 수 있습니다.
 개발자가 렌디션 매핑 속성 및 규칙을 추가하면 에셋에 렌디션 매핑을 적용한 다음 AEM Screens 채널에 포함할 수 있습니다.
 
 >[!IMPORTANT]
@@ -34,7 +37,7 @@ Tour Screens 채널에서 사용할 에셋에 렌디션을 적용하려면 다�
 
 1. AEM 인스턴스의 **Assets** 폴더로 이동합니다.
 1. 간판 표시에 더 적합한 자산 버전을 만드십시오(예: `seahorse.jpg`).
-1. 렌디션 이름 지정 패턴(예: **CRXDE Lite**&#x200B;의 **패턴** 속성에 정의된 것과 유사한 `landscape`)을(를) 선택합니다. 자세한 내용은 [렌디션 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)를 참조하십시오.
+1. 렌디션 이름 지정 패턴(예: `landscape`CRXDE Lite **의** pattern **속성에 정의된 것과 유사한**)을(를) 선택합니다. 자세한 내용은 [렌디션 매핑 규칙 추가](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)를 참조하십시오.
 1. 아래 그림과 같이 렌디션을 업로드하려면 **렌디션 추가**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
@@ -45,12 +48,12 @@ Tour Screens 채널에서 사용할 에셋에 렌디션을 적용하려면 다�
    ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >게시 관리 및 작성자에서 Publish으로 장치로 콘텐츠 업데이트를 전달하는 방법에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)를 참조하세요.
+   >게시 관리 및 작성자에서 게시로 콘텐츠 업데이트를 장치로 전달하는 방법에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)를 참조하세요.
 
 ## 마이그레이션 전략 {#migration-strategy}
 
 >[!IMPORTANT]
->대규모 네트워크의 경우 Adobe은 위험을 완화하기 위해 마이그레이션을 점차적으로 수행할 것을 권장합니다. 그 이유는 이 기능으로 인해 매니페스트와 파일 저장소 형식이 변경될 수 있기 때문입니다. 전체 프로젝트에 `sling:configRef`을(를) 추가하면 모든 플레이어가 기능 팩 6.5.9로 업데이트됩니다. 일부 플레이어를 업데이트한 경우 기능 팩 6.5.9로 모든 플레이어가 업데이트된 디스플레이, 위치 또는 채널 폴더에만 `sling:configRef`을(를) 추가하십시오.
+>대규모 네트워크의 경우 Adobe에서는 위험을 완화하기 위해 마이그레이션을 점차적으로 수행할 것을 권장합니다. 그 이유는 이 기능으로 인해 매니페스트와 파일 저장소 형식이 변경될 수 있기 때문입니다. 전체 프로젝트에 `sling:configRef`을(를) 추가하면 모든 플레이어가 기능 팩 6.5.9로 업데이트됩니다. 일부 플레이어를 업데이트한 경우 기능 팩 6.5.9로 모든 플레이어가 업데이트된 디스플레이, 위치 또는 채널 폴더에만 `sling:configRef`을(를) 추가하십시오.
 
 다음 다이어그램은 대규모 네트워크에 대한 마이그레이션 전략을 보여 줍니다.
 
