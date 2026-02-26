@@ -48,7 +48,7 @@ Tour Screens 채널에서 사용할 에셋에 렌디션을 적용하려면 다�
    ![이미지](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >게시 관리 및 작성자에서 게시로 콘텐츠 업데이트를 장치로 전달하는 방법에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)를 참조하세요.
+   >게시 관리 및 작성자에서 게시로 콘텐츠 업데이트를 장치로 전달하는 방법에 대한 자세한 내용은 [주문형 콘텐츠 업데이트](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)를 참조하세요.
 
 ## 마이그레이션 전략 {#migration-strategy}
 
