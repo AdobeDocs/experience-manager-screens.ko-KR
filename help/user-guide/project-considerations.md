@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ I/O는 대상자 근접 감지를 기반으로 컨텐츠의 조건부 재생을 
 
 * 콘텐츠가 인쇄, TV 또는 웹 캠페인에서 용도 변경되었습니까?
 * 콘텐츠가 정적 이미지 또는 동적으로 제공되는 구성 요소를 포함하는 템플릿으로 구성되는지 여부
-* 애니메이션이 비디오 또는 HTML 프로그램으로 재생됩니까?
+* 애니메이션이 비디오나 HTML 프로그램으로 재생됩니까?
 * 콘텐츠 구독 서비스, 소셜 미디어 또는 RSS 집계 서비스나 API 호출에서 서드파티 통합이 있습니까?
 * 이미지 해상도 요구 사항은 무엇입니까?
 * Screens 표준 16:9 종횡비입니까? 아니면 사용자 지정입니까? 세로 또는 가로?

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -24,12 +24,14 @@ ht-degree: 0%
 * **개요**
 * **일괄 오프라인 업데이트 사용**
 
-<!-- OBSOLETE VERSIONS
+<!--
+OBSOLETE VERSIONS
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share.
+-->
 
 ## 개요 {#overview}
 
@@ -73,6 +75,6 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
    >
    >채널을 기준으로 프로젝트 경로를 지정합니다.
 
-   **예약 빈도** - 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5시 또는 17시)을 지정합니다.
+   **예약 빈도** - 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5:00 또는 오후 17:00)을 지정합니다.
 
 1. 설정을 저장하려면 **저장**&#x200B;을 클릭하세요. 콘텐츠가 지정된 시간에 업데이트됩니다.

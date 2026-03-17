@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 1%
+source-wordcount: '1490'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +29,14 @@ ht-degree: 1%
 * 다중 자산 활성화
 * 범용 시작 시간에 대한 전역 재정의
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## 개요 {#overview}
 
@@ -81,7 +83,7 @@ ht-degree: 1%
 
 요구 사항에 따라 매일, 매주 또는 매월 특정 간격으로 자산이 반복되도록 예약할 수 있습니다.
 
-금요일 오후 1시부터 10시까지만 이미지를 표시한다고 가정합니다. **활성화** 탭을 사용하여 에셋에 대해 원하는 반복 간격을 설정할 수 있습니다.
+금요일 오후 1:00시부터 오후 10:00시까지만 이미지를 표시한다고 가정합니다. **활성화** 탭을 사용하여 에셋에 대해 원하는 반복 간격을 설정할 수 있습니다.
 
 ### 시간대 지정 {#day-parting}
 
@@ -100,14 +102,14 @@ ht-degree: 1%
 
 | **식** | **해석** |
 |---|---|
-| 오전 8시 이전 | 채널의 에셋은 매일 오전 8시 이전에 재생됩니다. |
-| 오후 2시 이후 | 채널의 에셋은 매일 오후 2시 이후에 재생됩니다. |
-| 오후 0:15 후 및 오후 0:45 전 | 채널의 에셋은 30분 동안 매일 오후 12시 15분 이후에 재생됩니다 |
-| 12:15 이전 또는 12:45 이후 | 채널의 에셋은 매일 오후 12시 15분 전에 재생되고 오후 12시 45분 이후에도 재생됩니다. |
+| 오전 8:00시 이전 | 채널의 에셋은 매일 오전 8:00 전에 재생됩니다. |
+| 오후 2:00시 이후 | 채널의 에셋은 매일 오후 2:00 이후에 재생됩니다. |
+| 12:15 후 및 12:45 전 | 채널의 에셋은 30분 동안 매일 오후 12:15 이후에 재생됩니다 |
+| 12:15 이전 또는 12:45 이후 | 채널의 에셋은 매일 오후 12:15 전에 재생되고 오후 12:45 이후에도 재생됩니다. |
 
 >[!NOTE]
 >
->*A.M./P.M.*(오후 2:00) 대신 _군사 시간_ 표기법(14:00)을 사용할 수도 있습니다.
+>*A.M./P.M.*(오후 2:00) 대신 _군 시간_ 표기법(14:00)을 사용할 수도 있습니다.
 
 ### 주 분할 {#week-parting}
 
@@ -175,11 +177,11 @@ ht-degree: 1%
 | **식** | **해석** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | 자산은 1월부터 3월 말까지 월요일과 수요일 오전 6시에서 오후 6시 사이에 채널에서 재생됩니다 |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2시 이후에 재생되기 시작하고 1월 2일 하루 종일 1월 3일 오전 3시까지 계속 재생됩니다 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2시 이후에 플레이어를 시작하여 1월 2일 오전 3시까지 계속 재생되고, 1월 2일 오후 2시에 다시 시작되어 1월 3일 오전 3시까지 계속 재생됩니다 |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2:00시 이후에 재생되며 1월 2일 하루 종일 1월 3일 오전 3:00시까지 계속 재생됩니다 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2:00시 이후에 플레이어를 시작하고 1월 2일 오전 3:00시까지 재생을 계속한 다음 1월 2일 오후 2:00시에 다시 시작하고 1월 3일 오전 3:00시까지 재생을 계속합니다 |
 
 >[!NOTE]
->요일 및 월을 정의할 때 월/월요일 및 1월/1과 같은 약식 및 전체 이름 표기를 모두 사용할 수 있습니다. 또한 *A.M./P.M.*(오후 2:00) 대신 _군사 시간_ 표기법(14:00)을 사용할 수도 있습니다.
+>요일 및 월을 정의할 때 월/월요일 및 1월/1과 같은 약식 및 전체 이름 표기를 모두 사용할 수 있습니다. 또한 *A.M./P.M.*(오후 2:00) 대신 _군 시간_ 표기법(14:00)을 사용할 수도 있습니다.
 
 
 ## 다중 자산 활성화 {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ ht-degree: 1%
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***다중 자산 활성화***&#x200B;를 통해 사용자는 여러 자산을 클릭하고 재생 일정을 선택한 모든 자산에 적용할 수 있습니다.
 

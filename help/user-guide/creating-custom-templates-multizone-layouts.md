@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,8 @@ ht-degree: 1%
    | **레이아웃 이름** | **설명** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | 세 개의 영역을 만들 수 있는 세 개의 영역 가로 레이아웃입니다. <br>* 영역 1은 왼쪽에서 가로 및 세로 화면의 20%입니다.<br>* 영역 2는 가로 화면의 80%이고 세로 화면의 20%는 오른쪽 정렬<br>* 영역 3은 가로 화면의 100%이고 세로 화면의 80%입니다. 종횡비는 16:9입니다. |
-   | `Upper20-PortraitHD2Zone` | 16:9의 화면 비율과 함께 맨 위에서 화면의 20%를 차지하는 2영역 세로 템플릿입니다. |
-   | `Right20-LandscapeSD3Zone` | 오른쪽에서 화면의 20%를 덮고 종횡비가 4:3인 3영역 템플릿 |
+   | `Upper20-PortraitHD2Zone` | 화면 상단에서 화면의 20%를 덮고 종횡비가 16:9인 2영역 세로 템플릿 |
+   | `Right20-LandscapeSD3Zone` | 화면 비율이 4:3인 오른쪽에서 화면의 20%를 차지하는 3개 영역 템플릿입니다. |
 
    >[!IMPORTANT]
    >사용자 지정 레이아웃 내에 정의된 영역이 전체 레이아웃의 전체 종횡비와 일치하지 않을 수 있습니다. 이 문서에서 따르는 명명 규칙은 전체적으로 사용자 정의 레이아웃의 종횡비를 지정합니다.
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 * **`Left20`** - 왼쪽 상단 영역에 가로 및 세로 화면 크기의 20%가 표시됩니다.
 * **`Landscape`** - 화면 방향.
-* **`HD`** - 종횡비는 16:9입니다.
+* **`HD`** - 종횡비가 16:9입니다.
 * **`3Zone`** - 디스플레이의 세 영역.
 
 ## 다중 영역 레이아웃의 시각적 표현 {#multi-layout-visual-one}
@@ -78,7 +78,7 @@ AEM Screens 프로젝트에 대한 `Left20-LandscapeHD3Zone` 레이아웃을 만
 1. 복사된 **lbar-left**(`/apps/customtemplate/template`)의 이름을 **my-custom-layout**(으)로 바꾸십시오.
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**&#x200B;에 대한&#x200B;**`jcr:description`**&#x200B;속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
+1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**에 대한&#x200B;**`jcr:description`**속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template4.png)
 

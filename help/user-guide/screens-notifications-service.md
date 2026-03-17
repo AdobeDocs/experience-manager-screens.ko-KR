@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ ht-degree: 0%
 * **전자 메일 알림**
 * **사용 사례** 예
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## 개요 {#overview}
 
@@ -61,7 +63,7 @@ ht-degree: 0%
    >
    >장치 사용자가 있는 프로젝트 경로를 지정합니다.
 
-   **일정 빈도** - 이 모니터에서 이메일을 보낼 시간(예: 오후 5시 또는 17시) 또는 빈도(예: 1)를 지정합니다.
+   **예약 빈도** - 이 모니터에서 이메일을 보내야 하는 시간(예: 오후 5:00 또는 17:00) 또는 시간(예: 1) 빈도를 지정합니다.
 
    **Ping 시간 초과** - 이 필드는 장치가 연결할 수 없는 것으로 간주되는 간격(분)을 지정합니다.
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
 **시나리오 1**
 
-예약 빈도를 오전 1시로 설정하고 핑 시간 초과를 60으로 설정합니다. 그런 다음 AEM Screens 디바이스가 오후 12:00부터 오후 1:00까지 ping을 수행하지 않으면 디바이스 비활성을 확인하는 이메일 알림을 받게 됩니다.
+예약 빈도를 오전 1:00로 설정하고 Ping 시간 초과를 60으로 설정했습니다. 그런 다음 AEM Screens 장치가 오후 12:00시 이후부터 오후 1:00시까지 ping을 수행하지 않으면 장치 비활성화를 확인하는 이메일 알림을 받게 됩니다.
 
 **시나리오 2**
 

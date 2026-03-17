@@ -5,14 +5,14 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 2%
+source-wordcount: '1448'
+ht-degree: 3%
 
 ---
 
-# 채널 지정 {#channel-assignment}
+# 채널 할당 {#channel-assignment}
 
 >[!IMPORTANT]
 >
@@ -76,7 +76,7 @@ ht-degree: 2%
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. **설정** 옵션에서 경로별 **또는 이름별**&#x200B;채널&#x200B;**을 선택하고**&#x200B;채널 역할&#x200B;**,**&#x200B;우선 순위&#x200B;**,**&#x200B;지원되는 이벤트&#x200B;**및**&#x200B;중단 방법&#x200B;**을 입력할 수 있습니다.** 또한 이 대화상자에서 명소 도구 설명을 활성화할 수 있습니다.
+1. **설정** 옵션에서 경로별 **또는 이름별**&#x200B;채널&#x200B;**을 선택하고**&#x200B;채널 역할&#x200B;**,**&#x200B;우선 순위&#x200B;**,**&#x200B;지원되는 이벤트&#x200B;**및**&#x200B;중단 방법&#x200B;**을 입력할 수 있습니다.**&#x200B;또한 이 대화상자에서 명소 도구 설명을 활성화할 수 있습니다.
 
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -84,7 +84,7 @@ ht-degree: 2%
    >
    >채널 할당 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
-1. **일정** 옵션에서 **활성화 기간** 및 **반복 일정**&#x200B;을 클릭합니다.
+1. **일정** 옵션에서 **활성화 기간** 및 **반복 일정**을 클릭합니다.
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -210,18 +210,18 @@ AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보
 
 | **이름** | **반복** | **시작** | **종료** |
 |---|---|---|---|
-| 아침 식사 | 일별 | 오전 6시 | 오전 11시 |
-| 점심 | 일별 | 오전 11시 | 오후 3시 |
-| 저녁식사 | 일별 | 오후 3시 | 오후 8시 |
+| 아침 식사 | 일별 | 오전 6:00 | 오전 11:00 |
+| 점심 | 일별 | 오전 11:00 | 오후 3:00시 |
+| 저녁식사 | 일별 | 오후 3:00시 | 오후 8:00 |
 
 #### 특정 요일에 콘텐츠 재생 {#playing-content-on-a-particular-day-of-the-week}
 
-이 예에서는 매주 주말 오후 8시부터 오후 10시까지 라이브 이벤트가 발생하고 오후 10시 이후부터 오전 1시까지 디너 메뉴에 대한 스페셜이 제공되는 카지노에서 구현된 DayParting을 보여 줍니다.
+이 예에서는 카지노에서 구현된 DayParting을 보여 줍니다. 이 경우 라이브 이벤트는 매주 주말 오후 8:00시부터 오후 10:00시까지 발생하며, 저녁 식사 메뉴에는 오후 10:00부터 오전 1:00까지 스페셜을 사용할 수 있습니다.
 
 | **이름** | **반복** | **시작** | **종료** |
 |---|---|---|---|
-| 주말 | 주별: 토요일 및 일요일 | 오후 8시 | 오후 10시 |
-| 특별 광고 | 매일: 월요일부터 금요일까지 | 오후 10시 | 오전 1시 |
+| 주말 | 주별: 토요일 및 일요일 | 오후 8:00 | 오후 10:00 |
+| 특별 광고 | 매일: 월요일부터 금요일까지 | 오후 10:00 | 오전 1:00 |
 
 >[!NOTE]
 >
