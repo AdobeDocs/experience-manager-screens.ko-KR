@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ### 기본 설정 {#setting-up-primary}
 
-1. **CommandSyncDemo** > **위치** > **로비** > **로비 디스플레이**&#x200B;에서 디스플레이 대시보드로 이동합니다. 작업 표시줄에서 **대시보드**를 클릭합니다.
+1. **CommandSyncDemo** > **위치** > **로비** > **로비 디스플레이**&#x200B;에서 디스플레이 대시보드로 이동합니다. 작업 표시줄에서 **대시보드**&#x200B;를 클릭합니다.
 **장치** 패널에서 두 장치(Chrome 및 Windows Player)를 확인합니다. 자세한 내용은 다음과 같습니다.
    ![이미지1](assets/command-sync/command-sync10-1.png)
 

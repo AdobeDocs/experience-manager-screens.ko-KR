@@ -78,7 +78,7 @@ AEM Screens 프로젝트에 대한 `Left20-LandscapeHD3Zone` 레이아웃을 만
 1. 복사된 **lbar-left**(`/apps/customtemplate/template`)의 이름을 **my-custom-layout**(으)로 바꾸십시오.
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**에 대한&#x200B;**`jcr:description`**속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
+1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**&#x200B;에 대한&#x200B;**`jcr:description`**&#x200B;속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
