@@ -314,7 +314,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
 ## 클라이언트측 라이브러리 만들기 {#clientlibs}
 
-클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다. [ 클라이언트측 라이브러리 사용에 관한 더 많은 정보는 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+클라이언트측 라이브러리는 AEM 구현에 필요한 CSS 및 JavaScript 파일을 구성하고 관리하는 메커니즘을 제공합니다. [&#x200B; 클라이언트측 라이브러리 사용에 관한 더 많은 정보는 여기에서 찾을 수 있습니다.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens 구성 요소는 편집 모드와 미리 보기/프로덕션 모드에서 다르게 렌더링됩니다. 두 세트의 클라이언트 라이브러리가 생성되는데, 하나는 편집 모드용이고 다른 하나는 미리보기/프로덕션용입니다.
 
