@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 13%
@@ -15,6 +15,7 @@ ht-degree: 13%
 # 기능 팩 20260318 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe에서는 최신 버전의 Adobe Experience Manager(AEM 6.5)로 업그레이드하는 것이 좋습니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
 >FP11.8을 SP(servicepack) 버전 22 이상에서 사용합니다.
 
