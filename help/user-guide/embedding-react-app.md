@@ -11,9 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 688
@@ -70,7 +74,7 @@ AEM Screens에 대화형 REACT 앱을 추가하려면 아래 단계를 따르십
 1. AEM Screens 프로젝트의 **채널** 폴더에 **응용 프로그램 채널**(권장)(또는 1x1 템플릿 또는 다중 영역 채널)을 만듭니다.
 
    >[!NOTE]
-   >**시퀀스 채널**은(는) 기본적으로 경험의 대화형 특성과 충돌하는 슬라이드쇼 논리를 제공하므로 이 사용 사례에서는 권장되지 않습니다.
+   >**시퀀스 채널**&#x200B;은(는) 기본적으로 경험의 대화형 특성과 충돌하는 슬라이드쇼 논리를 제공하므로 이 사용 사례에서는 권장되지 않습니다.
    >자세한 내용은 [채널 만들기 및 관리](managing-channels.md)를 참조하십시오.
 
 1. 시퀀스 채널을 편집하고 포함된 페이지 구성 요소를 드래그 앤 드롭합니다.
