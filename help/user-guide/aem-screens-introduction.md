@@ -67,7 +67,7 @@ Experience Manager Screens과 관련된 주요 용어를 이해하려면 [용어
 
 * **안내식 구현 Essentials**
 
-  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**&#x200B;를 따르십시오.
+  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/ko?launch=AEM-7a)**&#x200B;를 따르십시오.
 
 * **Experience Manager Screens 프로젝트에 대한 모범 사례 안내서**
 
