@@ -5,9 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 290
 ht-degree: 2%
 
 ---
@@ -16,9 +21,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe에서는 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
-AEM Screens은 다음 세부 사항이 포함된 AEM 6.4.6 기능 팩 6 및 AEM 6.5.2 기능 팩 2를 출시했습니다.
+AEM Screens은 다음 세부 사항이 포함된 AEM 6.4.6 기능 팩 6 및 AEM 6.5.2 기능 팩 2 를 릴리스했습니다.
 
 ## 릴리스 일자 {#release-date}
 
@@ -53,7 +58,7 @@ AEM 6.4.6 기능 팩 6 및 AEM 6.5.2 기능 팩 2용으로 출시된 AEM Screens
 
 * ChromeOS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens 플레이어 다운로드
 

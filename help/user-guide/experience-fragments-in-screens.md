@@ -10,9 +10,15 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
@@ -37,7 +43,7 @@ ht-degree: 1%
 
 예를 들어 다음 워크플로에서는 Sites에서 `We.Retail`의 경험 조각을 사용하는 방법을 보여 줍니다. 웹 페이지를 선택하고 프로젝트 중 하나의 AEM Screens 채널에서 해당 콘텐츠를 사용할 수 있습니다.
 
-### 전제 조건 {#pre-requisites}
+### 사전 요구 사항 {#pre-requisites}
 
 **채널을 사용하여 데모 프로젝트 만들기**
 
@@ -103,7 +109,7 @@ ht-degree: 1%
 
    c. **Live Copy 만들기** 마법사에서 **ScreensFragment**&#x200B;을(를) 클릭하고 **다음**&#x200B;을(를) 클릭합니다.
 
-   d. **제목** 및 **이름**&#x200B;을(를) **Screens**(으)로 입력합니다.
+   d. **제목** 및 **이름**&#x200B;을(를) **Screens**(으)로 입력하십시오.
 
    e. **만들기**&#x200B;를 클릭하면 Live Copy를 만들 수 있습니다.
 
@@ -141,13 +147,13 @@ ht-degree: 1%
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. **경험 조각**&#x200B;의 *3단계*&#x200B;에서 만든 조각의 **Screens** Live Copy를 클릭합니다.
+   f. **경험 조각**&#x200B;에서 *3단계*&#x200B;에서 만든 조각의 **Screens** Live Copy를 클릭합니다.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   시간. **기간**&#x200B;에 밀리초를 입력합니다.
+   h. **기간**&#x200B;에 밀리초를 입력하십시오.
 
-   i. **경험 조각** 대화 상자에서 **오프라인 구성**&#x200B;을 클릭하여 클라이언트측 라이브러리와 정적 파일을 정의할 수 있습니다.
+   난... **경험 조각** 대화 상자에서 **오프라인 구성**&#x200B;을 클릭하여 클라이언트측 라이브러리와 정적 파일을 정의할 수 있습니다.
 
    >[!NOTE]
    >

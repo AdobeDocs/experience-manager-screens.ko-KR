@@ -10,9 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/WwFvV7ZVDRUPpsXWQUKYkz6-gmEjBcpkApcHxzx5vII
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -73,7 +80,7 @@ ht-degree: 0%
 1. 편집기에서 **타깃팅**&#x200B;을 클릭하고 드롭다운 메뉴에서 **브랜드** 및 **활동**&#x200B;을 클릭한 다음 **타깃팅 시작**&#x200B;을 클릭합니다.
 1. **미리 보기 확인**
 
-   1. **미리 보기를 클릭합니다.** 또한 Google 시트를 열고 값을 업데이트합니다.
+   1. **미리 보기**&#x200B;를 클릭합니다. 또한 Google Sheets 를 열고 값을 업데이트합니다.
    1. **`Restaurant1`** 및 **`Restaurant2`** 열의 값을 업데이트합니다. **`Restaurant1`** > **`Restaurant2`,**&#x200B;인 경우 *스테이크* 음식 이미지를 볼 수 있어야 합니다. 그렇지 않으면 *태국어* 음식 이미지가 화면에 표시됩니다.
 
    ![결과5](assets/result5.gif)

@@ -5,9 +5,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1101
 ht-degree: 2%
 
 ---
@@ -116,18 +123,18 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
 1. AEM 인스턴스로 이동합니다.
 
-1. 도구 아이콘 > **태그 지정**&#x200B;을 클릭합니다.
+1. 도구 아이콘 > **태그 지정**을 클릭합니다.
    ![이미지](assets/voice-recognition/vr-7.png)
 
-1. **만들기** > **네임스페이스 만들기**&#x200B;를 클릭합니다.
+1. **만들기** > **네임스페이스 만들기**를 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag3.png)
 
 1. 프로젝트 이름(예: **VoiceDemo**)을 입력하고 **만들기**&#x200B;를 클릭합니다.
 
-1. **VoiceDemo** 프로젝트를 클릭하고 작업 표시줄에서 **태그 만들기**&#x200B;를 클릭합니다.
+1. **VoiceDemo** 프로젝트를 클릭하고 작업 표시줄에서 **태그 만들기**를 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag4.png)
 
-1. 태그 이름을 입력하고 **제출**&#x200B;을 클릭합니다.
+1. 태그 이름을 입력하고 **제출**을 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag5.png)
 
 이제 AEM Screens 프로젝트에서 이러한 태그를 사용할 수 있습니다.

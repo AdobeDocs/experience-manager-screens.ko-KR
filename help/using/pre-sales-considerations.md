@@ -2,9 +2,13 @@
 title: 프로젝트 범위 지정 시 고려 사항
 description: AEM Screens 프로젝트의 범위가 지정됨에 따른 고려 사항에 대해 자세히 알아보십시오.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/7klqpBq6hYXV2Uq9CTumo1k3MupO4h-Ewptnd3wyO8Y
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: 288
 ht-degree: 0%
 
 ---
@@ -31,4 +35,4 @@ ht-degree: 0%
 >
 >응용 프로그램에 필요한 데이터 및 해당 데이터가 어디에서 오는지 가능한 한 빨리 식별합니다. 구현 중에 더 깊이 있는 탐색이 발생합니다. 그러나 *0일* 동안 시간을 내어 클라이언트가 사용하려는 데이터를 확인하십시오. 현재 저장된 데이터의 위치와 빌드 중인 응용 프로그램이 데이터에 액세스하는 방법을 알아봅니다. 문제가 발생하기 전에 개발 팀에 알리는 것이 구현이 보다 원활하게 진행될 수 있도록 지원합니다.
 
-비디오 보기 [프로젝트 범위 지정 시 고려 사항](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+비디오 보기 [프로젝트 범위 지정 시 고려 사항](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

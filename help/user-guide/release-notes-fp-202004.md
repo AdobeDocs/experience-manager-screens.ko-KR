@@ -5,10 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/YLrwBzcHSxB1YdY2h8O3gCGIHsQaZs74ib8Hp624Tio
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe에서는 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 ## 사용 가능 {#availability}
 
@@ -67,11 +71,11 @@ AEM Screens 기능 팩 202004의 릴리스 날짜는 2020년 4월 20일입니다
 
 ### 릴리스된 AEM Screens 플레이어
 
-AEM 6.4 기능 팩 8 및 AEM 6.5 기능 팩 4가 릴리스된 AEM Screens용으로 릴리스된 AEM Screens 플레이어는 다음과 같습니다.
+AEM 6.4 기능 팩 8 및 AEM 6.5 기능 팩 4가 릴리스된 AEM Screens용으로 출시된 AEM Screens 플레이어는 다음과 같습니다.
 
 * ChromeOS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens 플레이어 다운로드
 

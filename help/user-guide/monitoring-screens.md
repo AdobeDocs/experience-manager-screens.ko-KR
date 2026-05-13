@@ -10,9 +10,14 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 781
 ht-degree: 1%
 
 ---
@@ -73,7 +78,7 @@ ht-degree: 1%
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-또한 [장치 정보] 패널의 오른쪽 상단 모서리에서 (**...**)을(를) 클릭하여 속성을 보거나 장치를 업데이트합니다.
+또한 (**...**)을 클릭합니다. [장치 정보] 패널의 오른쪽 상단 모서리에서 속성을 보거나 장치를 업데이트할 수 있습니다.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -89,7 +94,7 @@ ht-degree: 1%
 
 **플레이어 스크린샷** 패널에서 장치에서 플레이어 스크린샷을 볼 수 있습니다.
 
-플레이어 스크린샷 패널의 오른쪽 상단 모서리에서 (**...**)을(를) 클릭하고 **스크린샷 새로 고침**&#x200B;을(를) 클릭하여 실행 중인 플레이어의 스냅숏을 봅니다.
+클릭(**...**) [플레이어 스크린샷] 패널의 오른쪽 상단 모서리에서 **스크린샷 새로 고침**&#x200B;을 클릭하여 실행 중인 플레이어의 스냅숏을 봅니다.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 

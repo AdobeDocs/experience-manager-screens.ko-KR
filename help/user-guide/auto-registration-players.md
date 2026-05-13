@@ -5,9 +5,14 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/uvCRS49L6CQbah4AKFwRdhGN-pvKnTWtNMN8CnFojIQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -42,7 +47,7 @@ ht-degree: 0%
 
 아래 섹션을 따라 수행하여 보안에 대한 몇 가지 모범 사례를 고려하십시오.
 
-* 등록 코드가 손상되지 않았는지 확인 - 일괄 등록을 시작하기 바로 전에 AEM에서 코드를 구성하고 완료되면 해당 필드를 지운 다음 AEM에 저장합니다.
+* 등록 코드가 손상되지 않았는지 확인 - 일괄 등록을 시작하기 직전에 AEM에서 코드를 구성하고, 완료되면 해당 필드를 지운 다음 AEM에 저장합니다.
 
 * 가능한 경우 알려진 IP 범위에서만 액세스할 수 있도록 `/bin/screens/registration` 경로를 구성할 수 있습니다.
 

@@ -2,9 +2,13 @@
 title: AEM Screens을 위한 비즈니스 콘텐츠 전략
 description: AEM Screens과 관련된 마케팅 및 비즈니스 콘텐츠 전략에 대해 자세히 알아보십시오.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 0%
 
 콘텐츠는 참여를 이끄는 주요 요소입니다. 판매 전 단계에서는 비즈니스 콘텐츠 전략을 정의하는 것이 중요합니다. 이 전략은 애플리케이션이 하드웨어, 소프트웨어 및 연결 리소스를 사용하여 고객의 고객에게 의도한 가치를 전달하는 방식을 고려합니다.
 
-잘 정의된 비즈니스 콘텐츠 전략은 구매자의 여정과 관련하여 콘텐츠를 만들고, 배포하고, 그 사용을 추적하는 경로를 설정합니다. 또한 판매 단계의 마케팅 접점도 고려합니다. 적절한 시간에 적절한 고객에게 적절한 메시지를 전달하는 것이 중요합니다.
+잘 정의된 비즈니스 콘텐츠 전략은 구매자의 여정과 관련하여 콘텐츠를 만들고, 배포하고, 그 사용을 추적하는 경로를 설정합니다. 또한 영업 funnel의 마케팅 터치 포인트도 고려합니다. 적절한 시간에 적절한 고객에게 적절한 메시지를 전달하는 것이 중요합니다.
 
 Screens 애플리케이션이 이 전략을 달성하는 데 어떻게 도움이 될 수 있는지 고려하고 해당 콘텐츠를 게재하는 데 있어 애플리케이션의 성공을 측정하는 데 도움이 되는 KPI를 결정하십시오.
 

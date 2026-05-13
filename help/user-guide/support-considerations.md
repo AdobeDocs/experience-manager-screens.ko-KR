@@ -10,9 +10,14 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/ZSU00dlWZg6UJ7vYrmjbEQngzu7YC7lZ18XUigFp4aM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: 631
 ht-degree: 0%
 
 ---
@@ -48,7 +53,7 @@ ht-degree: 0%
 * 원격 장치 관리, 헬프 데스크 가용성 및 현장 기술자 지원과 같은 요구 사항은 디지털 사이니지 산업의 발전 단계에서 사실상 제공됩니다. 이러한 기본적인 요구 사항 외에도 오디오-비디오 통합업체는 사전 예방적 모니터링과 사후 대응 모니터링 및 지원 모델 간의 비용 변수도 탐색해야 합니다.
 * 장기적인 성공을 준비하려면 오디오-비디오 통합업체와 협력하여 2일 지원 수준 계약(&#39;S.L.A.&#39;라고도 함)을 수립하는 것이 무엇보다 중요합니다. SLA는 구축 후 지원되는 서비스 및 클라이언트 기대치를 설정하는 데 도움이 되는 세부 정보를 제공합니다.
 * 여러 네트워크를 성공적으로 관리하는 데 사용되는 핵심 리소스는 기술 자료입니다. SharePoint은 이러한 유형의 리소스에 대해 인기 있는 플랫폼입니다. 기술 자료에는 NOC 에이전트가 수행할 사전 스크립팅된 Q&amp;A가 포함되어 있어 인바운드 문제 해결 요청이 일관된 방식으로 처리되도록 합니다. 기술 자료에는 일반적으로 시스템 구성 및 사이트 위치에 대한 참조 자료가 포함되어 있습니다. Knowledge Base에는 하드웨어 및 시스템 소프트웨어 참조 자료에 대한 Cut-Sheets가 포함될 수 있습니다.
-* 모니터링 및 관리 기능은 대개 Media Player 운영 체제 및 화면 기능에 따라 다릅니다. Windows 운영 체제는 가장 높은 수준의 세부 정보를 제공합니다. Android™ 또는 iOS 장치에서 실행되는 배포의 경우 모바일 장치 관리(MDM이라고도 함)가 사용됩니다.
+* 모니터링 및 관리 기능은 대개 Media Player 운영 체제 및 화면 기능에 따라 다릅니다. Windows 운영 체제는 가장 높은 수준의 세부 정보를 제공합니다. ™ 또는 iOS 장치에서 실행되는 배포의 경우 모바일 장치 관리(MDM이라고도 함)가 사용됩니다.
 * 일부 화면 제조업체는 미디어 플레이어와 독립적으로 화면을 모니터링할 수 있는 기능을 제공하는 반면, 다른 제조업체는 외부 장치를 필요로 합니다.
 * 오디오-비디오 통합업체는 혼합된 기술을 사용하여 최종 클라이언트의 요구 사항을 가장 잘 처리할 수 있도록 솔루션을 유연하게 유지할 수 있습니다.
 

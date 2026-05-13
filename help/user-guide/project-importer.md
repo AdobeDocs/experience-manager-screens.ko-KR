@@ -10,9 +10,13 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -59,7 +63,7 @@ ht-degree: 1%
 
 * **경로{string}** - 가져올 위치의 경로. 경로의 루트가 프로젝트의 위치 폴더인 경우 *`/foo`*&#x200B;을(를) *`/content/screens/<project>/locations/foo`*(으)로 가져옵니다.
 * **템플릿{string}** - 지금은 허용되는 유일한 값이 &quot;location&quot;이지만 이 값은 향후 모든 `Screens` 템플릿(`display`, `sequencechannel` 등)으로 확장됩니다.
-* **[/*] {string}** - 위치(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`)에 설정할 모든 선택적 속성입니다. 현재 릴리스에서는 필터링을 허용하지 않습니다.
+* **[./*] {string}** - 위치에 설정할 모든 선택적 속성(즉, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). 현재 릴리스에서는 필터링을 허용하지 않습니다.
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ ht-degree: 1%
 >제한 사항:
 >
 >* CSV/XLS/XLSX 확장명 이외의 파일은 현재 릴리스에서 지원되지 않습니다.
->* 가져온 파일 및 &quot;&quot;로 시작하는 모든 항목에 대한 속성 필터링이 없습니다./&quot;을(를) 가져옵니다.
+>* 가져온 파일에 대한 속성 필터링이 없으며 &quot;./&quot;로 시작하는 모든 항목을 가져옵니다.
 >
 
 ### 사전 요구 사항 {#prerequisites}
@@ -101,7 +105,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 사이드바 **&#x200B; 프로젝트 DemoProjectImporter &#x200B;**>**&#x200B; &#x200B;**>**&#x200B; 가져오기 위치 만들기**&#x200B;를 클릭합니다.
+1. 사이드바&#x200B;**프로젝트 DemoProjectImporter**>****>** 가져오기 위치 만들기**를 클릭합니다.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

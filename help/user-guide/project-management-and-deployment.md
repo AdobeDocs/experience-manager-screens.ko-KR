@@ -10,9 +10,13 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: 675
 ht-degree: 0%
 
 ---
@@ -80,7 +84,7 @@ Sales Opportunity 가 프로젝트로 전환되면 Kick Off Meeting 이 예정�
 
 ### 프로젝트 관리 및 배포
 
->[!VIDEO](https://video.tv.adobe.com/v/32796?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *프로젝트 관리 및 배포 준비(프로젝트 사전 프로덕션, 프로젝트 시작, 프로젝트 진행)에 대해 알아봅니다.*
 

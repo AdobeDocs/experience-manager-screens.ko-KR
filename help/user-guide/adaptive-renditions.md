@@ -2,10 +2,13 @@
 title: 적응형 렌디션 아키텍처 개요 및 구성
 description: AEM Screens의 적응형 변환을 위한 CRXDE Lite의 아키텍처 개요 및 구성에 대해 알아봅니다.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
+TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 3%
+source-wordcount: 672
+ht-degree: 4%
 
 ---
 
@@ -39,19 +42,19 @@ ht-degree: 3%
 
 아래 단계에 따라 설정을 구성하십시오.
 
-1. **CRXDE Lite**(으)로 이동합니다. 아래 그림과 같이 **에**&#x200B;렌디션 매핑`/conf/screens/sling:configs/rendition-mapping` 구성이 있는지 확인합니다.
+1. **CRXDE Lite**(으)로 이동합니다. 아래 그림과 같이 `/conf/screens/sling:configs/rendition-mapping`에 **렌디션 매핑** 구성이 있는지 확인합니다.
 
    >![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 **에서 미리 채워진**&#x200B;렌디션 매핑`/conf/screens/sling:configs/rendition-mapping` 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용을 보려면 [기능 팩 202109 릴리스 정보](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.
+   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 `/conf/screens/sling:configs/rendition-mapping`에서 미리 채워진 **렌디션 매핑** 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용을 보려면 [기능 팩 202109 릴리스 정보](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.
    >기존 프로젝트의 경우 Screens 프로젝트에 **렌디션 매핑** 구성이 연결되어 있는지 확인하십시오. 자세한 내용은 [기존 프로젝트에 렌디션 매핑 추가](#rendition-mapping-existing) 섹션을 참조하십시오.
 
 ### 기존 프로젝트에 렌디션 매핑 속성 추가 {#rendition-mapping-existing}
 
 1. **CRXDE Lite**(으)로 이동합니다.
 
-1. 아래 그림과 같이 프로젝트 콘텐츠 노드에 `sling:configRef`을(를) 가리키는 `/conf/screens` 속성을 추가하여 렌디션 매핑 연결을 명시적으로 정의합니다.
+1. 아래 그림과 같이 프로젝트 콘텐츠 노드에 `/conf/screens`을(를) 가리키는 `sling:configRef` 속성을 추가하여 렌디션 매핑 연결을 명시적으로 정의합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -60,12 +63,12 @@ ht-degree: 3%
 
 렌디션 매핑에 노드를 추가하려면 아래 단계를 따르십시오.
 
-1. `/conf/screens/sling:configs/rendition-mapping`CRXDE Lite **에서 이 경로**(으)로 이동합니다.
+1. **CRXDE Lite**&#x200B;에서 이 경로 `/conf/screens/sling:configs/rendition-mapping`(으)로 이동합니다.
 1. **렌디션 매핑** 아래에 노드를 만듭니다. 아래 그림과 같이 **렌디션 매핑**&#x200B;을 마우스 오른쪽 단추로 클릭하고 **만들기** > **노드 만들기**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. **노드 만들기** 대화 상자에서 **규칙1**&#x200B;과(와) 같은 매핑 규칙에 대한 **이름**&#x200B;과(와) **`nt:unstructured`**&#x200B;유형&#x200B;**을(를)**(으)로 입력하십시오. **확인**&#x200B;을 클릭합니다.
+1. **노드 만들기** 대화 상자에서 **규칙1**&#x200B;과(와) 같은 매핑 규칙에 대한 **이름**&#x200B;과(와) **유형**&#x200B;을(를) **`nt:unstructured`**(으)로 입력하십시오. **확인**&#x200B;을 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -75,7 +78,7 @@ ht-degree: 3%
    >[!NOTE]
    >자세한 내용은 [미디어 쿼리 구문 사용](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)을 참조하세요.
 
-   만든 **규칙1**&#x200B;을(를) 클릭하고 아래와 같이 **이름**&#x200B;에 **식**&#x200B;을(를), **값:landscape에**(방향&#x200B;**)**&#x200B;을(를) 입력합니다. **추가**&#x200B;를 클릭합니다.
+   만든 **규칙1**&#x200B;을(를) 클릭하고 아래와 같이 **이름**&#x200B;에 **식**&#x200B;을(를), **값**&#x200B;에 **(방향:landscape)**&#x200B;을(를) 입력합니다. **추가**&#x200B;를 클릭합니다.
 
    ![이미지](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 

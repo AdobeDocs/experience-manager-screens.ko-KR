@@ -10,10 +10,15 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: 693
+ht-degree: 1%
 
 ---
 
@@ -21,11 +26,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens Cloud Service 고객의 경우 Adobe 관계 관리자에게 문의하여 Screens Cloud에서 Adobe Analytics을 활성화하십시오.
+>이 AEM Screens 기능은 최소 버전의 AEM 6.4.2 기능 팩 2 또는 AEM 6.3.3 기능 팩 4를 설치한 경우에만 사용할 수 있습니다. AEM Screens Cloud Service 고객의 경우 Adobe Relationship Manager에게 문의하여 Screens Cloud에서 Adobe Analytics을 활성화하십시오.
 
 >[!NOTE]
 >
->이러한 기능 팩 중 하나에 액세스하려면 Adobe 지원 센터에 문의하여 액세스를 요청하십시오. Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Screens용 최신 기능 팩을 다운로드할 수 있습니다.
+>이러한 기능 팩 중 하나에 액세스하려면 Adobe 지원에 문의하고 액세스를 요청하십시오. Adobe ID을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)에서 AEM Screens용 최신 기능 팩을 다운로드할 수 있습니다.
 
 이 섹션에서는 다음 주제를 다룹니다.
 
