@@ -135,14 +135,14 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
 
    ```xml
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/helloworld.html
-   
+
    */-->
-   
+
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-   
+
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -161,9 +161,9 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-   
+
    */-->
-   
+
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -181,18 +181,18 @@ AEM Screens에는 기존 WCM Sites 구성 요소에 대해 반드시 true가 아
 
    ```xml
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/edit.html
-   
+
    */-->
-   
+
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-   
+
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"
