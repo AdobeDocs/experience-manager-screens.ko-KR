@@ -10,9 +10,17 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/q9YVg4tWFAjPgKDfObgzgVItzxybnW66fKVjLYnnqig
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 257
 ht-degree: 2%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe에서는 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 AEM Screens은 다음 세부 사항이 포함된 AEM 6.3 기능 팩 5 및 AEM 6.4 기능 팩 3을 릴리스했습니다.
 
@@ -44,7 +52,7 @@ AEM Screens 기능 팩 201812의 릴리스 날짜는 2019년 1월 16일입니다
   다중 영역 레이아웃 을 사용하면 다중 영역 콘텐츠를 만들고 비디오, 이미지 및 텍스트와 같은 다양한 에셋을 사용하여 단일 화면에서 결합할 수 있습니다. **[다중 영역 레이아웃](multi-zone-layout-aem-screens.md)**&#x200B;을 참조하세요.
 
 * **플레이어와 Assets 스마트 동기화**
-* **작성자/Publish 배포(강화)**
+* **작성자/게시 배포(강화)**
 
 ### 릴리스된 AEM Screens 플레이어
 
@@ -52,7 +60,7 @@ AEM 6.3 기능 팩 5 및 AEM 6.4 기능 팩 3용으로 출시된 AEM Screens 플
 
 * ChromeOS
 * Windows
-* Android™
+* ™
 * iOS
 
 #### AEM Screens 플레이어 다운로드

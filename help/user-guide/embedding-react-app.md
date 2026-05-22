@@ -1,5 +1,5 @@
 ---
-title: AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합
+title: AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합
 description: AEM SPA 편집기를 사용하여 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 임베드하는 방법에 대해 알아봅니다.
 content-type: reference
 topic-tags: developing
@@ -10,20 +10,28 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: 688
 ht-degree: 0%
 
 ---
 
-# AEM SPA Editor를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
+# AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 포함할 수 있습니다. AEM SPA 편집기를 사용하면 AEM의 비즈니스 전문가가 구성할 수 있습니다. 또한 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법을 배울 수도 있습니다.
 
 ## AEM SPA 편집기 사용 {#using-the-aem-spa-editor}
 
-AEM SPA 편집기를 사용하려면 아래 단계를 따르십시오.
+AEM SPA 편집기를 사용하려면 아래 절차를 따르십시오.
 
 1. [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)에서 AEM SPA 편집기 리포지토리 복제
 
@@ -31,7 +39,7 @@ AEM SPA 편집기를 사용하려면 아래 단계를 따르십시오.
    >
    >이 Archetype은 고유한 SPA 프로젝트의 시작점으로 최소 Adobe Experience Manager 프로젝트를 만듭니다. 이 Archetype을 사용할 때 제공해야 하는 속성을 사용하면 이 프로젝트의 모든 부분을 원하는 대로 지정할 수 있습니다.
 
-1. AEM SPA editor archetype 프로젝트를 만들려면 추가 정보 지침을 따르십시오.
+1. AEM SPA 편집기 원형 프로젝트를 만들려면 추가 정보 지침을 따르십시오.
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -94,9 +102,9 @@ AEM Screens에 대화형 REACT 앱을 추가하려면 아래 단계를 따르십
 
    장치 등록에 대한 자세한 내용은 [장치 등록](device-registration.md)을 참조하세요.
 
-## AEM Screens을 통해 SPA과 Adobe Analytics 통합 및 오프라인 기능 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
+## AEM Screens을 통해 Adobe Analytics과 SPA 통합 및 오프라인 기능 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
-AEM Screens을 통해 SPA을 Adobe Analytics과 오프라인 기능을 통합하려면 아래 단계를 따르십시오.
+AEM Screens을 통해 SPA를 Adobe Analytics과 오프라인 기능과 통합하려면 아래 절차를 따르십시오.
 
 1. AEM Screens에서 Adobe Analytics을 구성합니다.
 

@@ -5,9 +5,19 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: 579
 ht-degree: 2%
 
 ---
@@ -26,7 +36,7 @@ Experience Manager as a Cloud Service에서 Experience Manager Screens 프로젝
 
 Experience Manager Screens은 전용 디지털 메뉴 보드, 제품 추천, 배경 라이프스타일 이미지를 만들어 고객 상호 작용을 확장할 수 있는 강력한 웹 기반 솔루션입니다. 동일한 Experience Manager 플랫폼에서 상점, 호텔, 은행, 의료 및 교육 기관 등과 같은 물리적 공간에 통합되고 유용한 브랜드 경험을 제공하는 데 도움이 됩니다. Screens은 많은 고유한 애플리케이션을 제공합니다. 예를 들어, 상호 작용 디스플레이, 방법 찾기, 브랜딩 및 배포된 도메인을 기반으로 하는 고객과 직원의 환경을 위한 환경 추가 등이 있습니다.
 
-Experience Manager Screens을 사용하여 애플리케이션을 만들고 관리하는 작업은 간단하고 직관적입니다. *application*&#x200B;은(는) 고객 또는 구현 파트너가 Experience Manager Screens용으로 빌드한 웹 페이지를 호스팅합니다. *위치*&#x200B;은(는) 사전 정의된 계층을 관리하고 *디스플레이*&#x200B;를 포함합니다. 각 디스플레이 에는 서로 다른 장치 및 화면을 표시하는 대시보드가 있습니다. Experience Manager Screens용 콘텐츠는 *채널*&#x200B;에서 관리됩니다. Experience Manager Screens Player는 채널 내에 있는 컨텐츠를 디스플레이로 렌더링합니다.
+Experience Manager Screens을 사용하여 애플리케이션을 만들고 관리하는 작업은 간단하고 직관적입니다. *application*&#x200B;은(는) 고객 또는 구현 파트너가 Experience Manager Screens용으로 빌드한 웹 페이지를 호스팅합니다. *위치*&#x200B;는 사전 정의된 계층을 관리하고 *디스플레이*&#x200B;를 포함합니다. 각 디스플레이 에는 서로 다른 장치 및 화면을 표시하는 대시보드가 있습니다. Experience Manager Screens용 콘텐츠는 *채널*&#x200B;에서 관리됩니다. Experience Manager Screens Player는 채널 내에 있는 컨텐츠를 디스플레이로 렌더링합니다.
 
 Experience Manager Screens과 관련된 주요 용어를 이해하려면 [용어집](screens-glossary.md)을 참조하세요.
 

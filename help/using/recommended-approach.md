@@ -2,9 +2,21 @@
 title: 권장 방법
 description: AEM Screens 프로젝트의 권장 접근 방식에 대해 알아봅니다.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: 436
 ht-degree: 0%
 
 ---
@@ -53,4 +65,4 @@ ht-degree: 0%
 클라이언트에서 기능이 풍부한 제품을 원하는 경우 프로젝트 초기에 계획된 기능의 일부를 제공하고 향후 단계를 위해 다른 기능을 예약하십시오. 기능이 많은 첫 번째 제공물은 더 큰 위험을 수반하며 클라이언트와의 검증이 더 어렵습니다.
 
 * **사용자 지정 통합 범위 이해**:
-터치 스크린 상호 작용, 모션 센서 또는 RFID를 사용하는 대화형 구성 요소는 구현 방법에서 상당한 맞춤형 개발이 필요합니다. 슬라이드쇼, 비디오 광고 또는 정적 메뉴는 Screens 채널에서 그래픽 콘텐츠 또는 HTML으로 제공될 수 있습니다.
+터치 스크린 상호 작용, 모션 센서 또는 RFID이 있는 대화형 구성 요소는 구현 방법에서 상당한 사용자 지정 개발이 필요합니다. 슬라이드쇼, 비디오 광고 또는 정적 메뉴는 Screens 채널에서 그래픽 콘텐츠 또는 HTML으로 제공될 수 있습니다.

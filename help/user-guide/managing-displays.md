@@ -9,9 +9,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 664
 ht-degree: 1%
 
 ---
@@ -102,7 +116,7 @@ ht-degree: 1%
 
 **디스플레이 정보** 패널에서 디스플레이 속성을 제공합니다.
 
-속성을 보고 디스플레이를 미리 볼 수 있도록 **정보 표시** 패널의 오른쪽 상단 모서리에서 (**...**)을 클릭합니다.
+클릭(**...**) 속성을 보고 디스플레이를 미리 볼 수 있도록 **정보 표시** 패널의 오른쪽 상단 모서리에서.
 
 
 #### 속성 보기 {#viewing-properties}
@@ -123,7 +137,7 @@ ht-degree: 1%
 
 **장치** 패널에서 장치 구성에 대한 정보를 제공합니다.
 
-장치 구성을 추가하고 장치를 업데이트할 수 있도록 **장치** 패널의 오른쪽 상단 모서리에서 (**...**)을(를) 클릭합니다.
+클릭(**...**) **장치** 패널의 오른쪽 상단 모서리에서 장치 구성을 추가하고 장치를 업데이트할 수 있습니다.
 
 또한 장치 구성을 클릭하여 속성을 보거나 장치를 할당하거나 완전히 삭제합니다.
 

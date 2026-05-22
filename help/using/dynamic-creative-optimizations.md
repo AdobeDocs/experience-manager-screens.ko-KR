@@ -2,9 +2,20 @@
 title: 데이터 트리거
 description: AEM Screens의 데이터 트리거에 대해 알아봅니다.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/oeJ7C6Rt8-Z9sFnEP1S1tn0VW4PuiKkXkeDYaz8Vd4s
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 261
 ht-degree: 0%
 
 ---
@@ -23,7 +34,7 @@ ht-degree: 0%
 
 이 기능을 사용하면 콘텐츠 작성 시 사용자가 지속적으로 개입할 필요가 없습니다. 또한 네트워크 운영을 위한 총소유비용(TCO)을 절감하고 디지털 환경을 더욱 관련성 있고 상황에 맞는 방식으로, 더욱 효과적으로 만들 수 있습니다.
 
-예를 들면 다음과 같습니다.
+해당 예는 다음과 같습니다.
 
 * 기능 제품의 현재 재고 수준 사용
 * 외부 온도 또는 날씨

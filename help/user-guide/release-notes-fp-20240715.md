@@ -5,10 +5,20 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+TQID: https://experienceleague.adobe.com/iBrvF7rb4cVg2oyd8Oot3HJmjgv-Vg7jgLdy2ba6hZs
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: 170
+ht-degree: 15%
 
 ---
 
@@ -16,7 +26,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
->&#x200B;>FeaturePack(FP) 버전 11.4는 ServicePack(SP)과 최대 버전 20까지 호환됩니다.
+>FeaturePack(FP) 버전 11.4는 ServicePack(SP)과 최대 버전 20까지 호환됩니다.
 
 
 ## 사용 가능 {#availability}

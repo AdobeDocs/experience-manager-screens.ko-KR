@@ -8,9 +8,19 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
+TQID: https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 909
 ht-degree: 0%
 
 ---
@@ -67,15 +77,15 @@ Cloud Player 설치는 플랫폼에 따라 다를 수 있습니다. 일반적으
 
 ## Chrome OS에서 일괄 프로비저닝 {#bulk-provisioning-chrome}
 
-Chrome OS의 대량 프로비저닝에 대해 자세히 알아보십시오. [Chrome OS에 Cloud Player 설치](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)를 참조하십시오. <!-- `https://www.adobe.com/go/aem_screens_cloud_player_kr` -->
+Chrome OS의 대량 프로비저닝에 대해 자세히 알아보십시오. [Chrome OS에 Cloud Player 설치](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)를 참조하십시오. <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## AEM 인스턴스에 필요한 구성 {#bulk-provisioning-config-aem}
 
 AEM 인스턴스 유형에 따라 다음 안내서 중 하나를 클릭하여 CORS b/w AEM 및 Cloud Player를 활성화합니다.
 
-* [AEM 온-프레미스/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_kr` -->
+* [AEM 온-프레미스/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [AEM 클라우드 서비스](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_kr` -->
+* [AEM 클라우드 서비스](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]

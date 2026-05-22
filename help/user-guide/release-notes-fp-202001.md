@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/J-tjGLbbC0TT77elnAghVAyDx5nLjv8-ShcJKEv-EyE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 2%
+source-wordcount: 319
+ht-degree: 4%
 
 ---
 
@@ -16,7 +24,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe에서는 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 ## 사용 가능 {#availability}
 
@@ -42,7 +50,7 @@ AEM Screens 기능 팩 202001의 릴리스 날짜는 2020년 1월 31일입니다
 상태 검사 프레임워크에 대한 자세한 내용은 [상태 검사 프레임워크](/help/user-guide/configuring-screens-introduction.md#health-check-framework)를 참조하십시오.
 
 * **기본 전환 유형에 대한 업데이트**
-**Type**&#x200B;과(와) 같은 전환 구성 요소의 속성이 이제 **Fade**(으)로 설정되고 **Duration**&#x200B;은(는) 기본적으로 **1600밀리초**&#x200B;입니다.
+**Type**&#x200B;과(와) 같은 전환 구성 요소의 속성이 이제 **Fade**(으)로 설정되고 **Duration**&#x200B;은(는) 기본적으로 **1600밀리초**(으)로 설정됩니다.
 
   자세한 내용은 [전환 적용](/help/user-guide/applying-transitions.md) 사용 사례를 참조하십시오.
 
@@ -53,7 +61,7 @@ AEM 6.4 기능 팩 7 및 AEM 6.5 기능 팩 3용으로 출시된 AEM Screens 플
 
 * ChromeOS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens 플레이어 다운로드
 

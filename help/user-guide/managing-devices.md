@@ -9,9 +9,24 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/BtVUYTZ9GisSxK6-M-QsYRGdykFB51IchqI7CX-vsa8
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 242
 ht-degree: 7%
 
 ---
@@ -55,15 +70,15 @@ ht-degree: 7%
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   장치 구성을 추가하거나 장치를 업데이트하려면 **장치** 패널의 오른쪽 상단 모서리에서 (**...**)을(를) 클릭합니다.
+   (**...**)을(를) 클릭합니다. **장치** 패널의 오른쪽 상단 모서리에서 장치 구성을 추가하거나 장치를 업데이트합니다.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
 >새 Screens 프로젝트에 첫 번째 장치가 추가될 때마다 사용자 그룹이 생성됩니다.
->&#x200B;>예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*입니다.
->&#x200B;>이 그룹은 아래 그림과 같이 **참가자** 그룹의 구성원으로 추가됩니다.
+>예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*입니다.
+>이 그룹은 아래 그림과 같이 **참가자** 그룹의 구성원으로 추가됩니다.
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

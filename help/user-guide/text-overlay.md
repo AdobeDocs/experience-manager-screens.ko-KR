@@ -10,9 +10,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/Vf9FDFJ9XI-vMFniqvL4jtq9afwXRRwNFnKyYjk-dBg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: 788
 ht-degree: 1%
 
 ---
@@ -42,7 +58,7 @@ ht-degree: 1%
 
 다음 섹션에서는 AEM Screens 프로젝트에서의 텍스트 오버레이 사용에 대해 설명합니다.
 
-**전제 조건**
+**사전 요구 사항**
 
 이 기능을 구현하려면 먼저 텍스트 오버레이 구현을 시작하기 위한 필수 조건으로 프로젝트를 설정해야 합니다. 예:
 
@@ -90,7 +106,7 @@ AEM Screens 채널에서 텍스트 오버레이를 사용하려면 아래 단계
 
 다음 섹션에서는 텍스트 오버레이 구성 요소의 Google Sheets와 같은 데이터 스토어의 값 사용에 대해 설명합니다.
 
-**전제 조건**
+**사전 요구 사항**
 
 AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
@@ -138,7 +154,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 설정합니다.
 
    ![이미지1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. 아래 그림과 같이 이미지 대화 상자에서 **텍스트 오버레이** 탭으로 돌아가서 *현재 온도 {Value}* 텍스트를 추가합니다.
+1. 아래 그림과 같이 이미지 대화 상자에서 **텍스트 오버레이** 탭으로 돌아가서 *현재 온도{Value}* 텍스트를 추가합니다.
 
    ![이미지1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 

@@ -1,13 +1,19 @@
 ---
 title: 출시 후 지원
 description: AEM Screens에 대한 출시 후 지원에 대한 자세한 내용은 모범 사례 안내서를 참조하세요.
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: 390
+ht-degree: 3%
 
 ---
-
 
 # 출시 후 지원 {#post-launch-support}
 
@@ -21,7 +27,7 @@ ht-degree: 4%
 * 현장 기술자 지원
 * 장치 관리(보증 지원 및 예비 장치 스토리지)
 
-또한 장기적인 성공을 준비하려면 오디오-비디오 통합업체와 협력하여 2일 서비스 수준 계약(SLA)을 체결하는 것이 무엇보다 중요합니다. SLA에서는 고객의 기대치를 정확하게 설정하는 데 도움이 되도록 모든 배포 후 지원 서비스를 자세히 설명해야 합니다.
+또한 장기적인 성공을 준비하려면 오디오-비디오 통합자와 협력하여 Day 2 Service level agreement(SLA)를 구축하는 것이 무엇보다 중요합니다. SLA에서는 고객의 기대치를 정확하게 설정하는 데 도움이 되도록 모든 배포 후 지원 서비스를 자세히 설명해야 합니다.
 
 >[!NOTE]
 >

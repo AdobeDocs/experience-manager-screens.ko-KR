@@ -1,18 +1,33 @@
 ---
-title: 채널 지정
+title: 채널 할당
 description: 채널 할당 및 시간대 지정에 대해 알아봅니다.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: 1239
 ht-degree: 2%
 
 ---
 
-# 채널 지정 {#channel-assignment}
+# 채널 할당 {#channel-assignment}
 
 >[!IMPORTANT]
 >이 섹션에서는 AEM 6.5.5 Screens 버전 이전의 기능 팩에 대한 채널 할당 및 채널 예약을 강조 표시합니다.
@@ -114,13 +129,13 @@ DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재
 
 | **채널** | **역할** | **우선 순위** | **일정** |
 |---|---|---|---|
-| Menu_A | 아침 식사 |  | 6:00 이후 및 11:00 이전 |
-| Menu_B | 점심 |  | 11:00 이후 및 15:00 이전 |
-| Menu_C | 저녁식사 |  | 15:00 이후 및 20:00 이전 |
+| Menu_A | 아침 식사 |  | 6:00 후 및 11:00 전 |
+| Menu_B | 점심 |  | 11:00 후 및 15:00 전 |
+| Menu_C | 저녁식사 |  | 15:00 후 및 20:00 전 |
 
 #### 특정 요일에 콘텐츠 재생 {#playing-content-on-a-particular-day-of-the-week}
 
-이 예는 매일 주말 오후 8시부터 오후 10시까지 라이브 이벤트가 발생하고 오후 10시 이후부터 오전 1시까지 디너 메뉴에 대한 스페셜이 제공되는 카지노에서 달성된 dayParting을 보여줍니다.
+이 예는 매일 주말 오후 8:00부터 오후 10:00까지 라이브 이벤트가 발생하고 오후 10:00부터 오전 1:00까지 디너 메뉴에 대한 스페셜을 사용할 수 있는 카지노에서 달성한 dayParting을 보여줍니다.
 
 <table>
  <tbody>

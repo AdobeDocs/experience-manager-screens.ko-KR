@@ -2,13 +2,21 @@
 title: AEM Screens에서 작성자 및 게시 인스턴스 구성
 description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: 1974
 ht-degree: 0%
 
 ---
-
 
 # AEM Screens에서 작성자 및 게시 인스턴스 구성 {#configuring-author-and-publish-in-aem-screens}
 
@@ -45,8 +53,8 @@ ht-degree: 0%
 작성자 인스턴스 하나와 게시 인스턴스 두 개를 호스팅하는 간단한 예를 설정할 수 있습니다.
 
 * 작성자 > localhost:4502
-* Publish 1 (pub1) > localhost:4503
-* Publish 2 (pub2) > localhost:4504
+* Publish 1(pub1) > localhost:4503
+* Publish 2(pub2) > localhost:4504
 
 ## 작성자에 대한 복제 에이전트 설정 {#setting-replication-agents}
 
@@ -127,7 +135,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 
 각 게시 인스턴스의 경우:
 
-1. `https://<host>:<port>/system/console/configMgr`(으)로 이동
+1. 다음으로 이동 `https://<host>:<port>/system/console/configMgr`
 1. **Apache Sling Oak 기반 검색 서비스** 구성을 클릭합니다.
 1. 토폴로지 커넥터 URL 업데이트: 다음과 같은 모든 Publish 인스턴스 URL을 추가합니다.
    * `https://publish:4503/libs/sling/topology/connector`
@@ -159,7 +167,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 >[!NOTE]
 >
 >암호는 중괄호로 시작하고 끝나야 합니다. 예:
->&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 4단계: ActiveMQ Artemis 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 

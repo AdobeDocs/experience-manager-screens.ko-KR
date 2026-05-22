@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: 355
+ht-degree: 3%
 
 ---
 
@@ -16,7 +24,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
+>Adobe에서는 최신 버전의 Adobe Experience Manager(AEM)로 업그레이드하는 것이 좋습니다. AEM Screens은 AEM 6.3 Screens 플랫폼에 대한 유지 관리 지원을 제공합니다.
 
 ## 사용 가능 {#availability}
 
@@ -55,19 +63,19 @@ AEM Screens 기능 팩 202008의 릴리스 날짜는 2020년 9월 3일입니다.
 AEM Screens 6.5.5 서비스 팩을 사용하는 경우 Windows 또는 Android™ 플레이어용 환경을 설정합니다.
 
 로그인 토큰 쿠키에 대한 **SameSite 특성**&#x200B;을(를) **Lax**&#x200B;에서 **Adobe Experience Manager 웹 콘솔에서**&#x200B;없음&#x200B;**(으)로 설정합니다.
-모든 AEM 작성자 및 게시 인스턴스의 구성**.
+모든 AEM 작성자 및 게시 인스턴스에서**&#x200B;을(를) 구성합니다.
 
 * 자세한 내용은 [Windows 10 Player 구현](implementing-windows-player.md#fp-environment-setup)을 참조하십시오.
 
-* 자세한 내용은 [Android™ 플레이어 구현](implementing-android-player.md#fp-environment-setup)을 참조하십시오.
+* 자세한 내용은 [™ 플레이어 구현](implementing-android-player.md#fp-environment-setup)을 참조하십시오.
 
 ### 릴리스된 AEM Screens 플레이어
 
-AEM 6.5 기능 팩 5가 릴리스된 AEM Screens용으로 다음 AEM Screens 플레이어가 릴리스되었습니다.
+AEM 6.5 기능 팩 5가 릴리스된 AEM Screens에 대해 다음 AEM Screens 플레이어가 출시되었습니다.
 
 * Chrome
 * Windows
-* Android™
+* ™
 
 #### AEM Screens 플레이어 다운로드
 

@@ -2,16 +2,26 @@
 title: 직접 인터넷 액세스
 description: 직접 인터넷 액세스
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # 직접 인터넷 네트워크(유선/무선) {#direct-internet-access}
 
-직접 인터넷 네트워크에는 AEM Screens이 연결해야 하는 AEM Cloud Service에 도달하기 위한 인터넷 액세스 시작 액세스 포인트가 포함되어 있습니다.
+직접 인터넷 네트워크에는 AEM Screens이 연결해야 하는 AEM 클라우드 서비스에 도달하기 위한 인터넷 액세스 시작 액세스 포인트가 포함되어 있습니다.
 
 AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 
@@ -28,7 +38,7 @@ AEM Screens 통신을 위한 표준 포트는 다음과 같습니다.
 
 ## 직접 인터넷 액세스에 AEM Screens 플레이어 연결
 
-이 구성에서 AEM Screen 플레이어가 제대로 연결되었는지 확인하려면 아래 단계를 따르십시오.
+이 구성에서 AEM Screen 플레이어가 제대로 연결되도록 하려면 아래 단계를 따르십시오.
 
 1. 각 AEM 화면 플레이어가 라우터의 네트워크에 연결되어 있는지 확인합니다.
 1. 시스템 브라우저에서 URL을 호출하여 인터넷 연결을 테스트합니다.
@@ -76,7 +86,7 @@ AEM Screens을 인터넷 링크에 연결하기 위해 Wi-Fi 솔루션이 필요
 
 >[!NOTE]
 >
->Adobe Wi-Fi 중계기가 필요한 경우 Google Nest Mesh Wi-Fi 등과 같은 Mesh Wi-Fi 액세스 포인트를 권장합니다. 다른 Wi-Fi 반복 기술은 전체 네트워크에서 대역폭 손실이 크게 발생합니다.
+>Wi-Fi 중계기가 필요한 경우 Adobe은 Google Nest Mesh Wi-Fi 또는 이와 유사한 Mesh Wi-Fi 액세스 포인트를 권장합니다. 다른 Wi-Fi 반복 기술은 전체 네트워크에서 대역폭 손실이 크게 발생합니다.
 
 ## Media 및 Assets 다운로드 {#download}
 
