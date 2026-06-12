@@ -24,8 +24,8 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 1%
+source-wordcount: 290
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ AEM Screens 링크(왼쪽 상단)를 선택한 다음 Screens을 선택하여 Ad
 
 >[!NOTE]
 >**탐색 팁:**
->커서 키를 사용하여 AEM의 여러 폴더를 탐색할 수도 있습니다. 또한 특정 엔티티를 클릭한 후 스페이스 바를 눌러 해당 특정 폴더의 속성을 편집하거나 봅니다.
+>커서 키를 사용하여 AEM의 다른 폴더를 탐색할 수도 있습니다. 또한 특정 엔티티를 클릭한 후 스페이스 바를 눌러 해당 특정 폴더의 속성을 편집하거나 봅니다.
 
 ## 새 Screens 프로젝트 만들기
 
