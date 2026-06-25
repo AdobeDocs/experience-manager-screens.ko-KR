@@ -75,7 +75,7 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 
 ### 1부: 프로젝트 역할 및 책임
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/32833?captions=kor)
 
 *Adobe, Audio/Visual Integrator 및 AEM 구현자의 역할과 책임에 대해 알아봅니다.*
 
