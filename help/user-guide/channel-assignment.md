@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1239
+source-wordcount: 1285
 ht-degree: 2%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 2%
 디스플레이를 설정한 경우 디스플레이에 채널을 할당하여 콘텐츠를 봅니다.
 
 이 페이지에는 디스플레이에 대한 채널 할당이 표시됩니다.
+
+이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >디스플레이에 여러 채널을 할당할 수 있습니다.

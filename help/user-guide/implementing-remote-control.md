@@ -17,14 +17,17 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 352
+source-wordcount: 398
 ht-degree: 0%
 
 ---
 
 # Screens 원격 제어 사용 {#implementing-remote-control}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 원격 제어 기능을 사용하면 관리 UI, 채널 전환기 또는 캐시 지우기, 다시 로드와 같은 기능에 더 쉽게 액세스할 수 있습니다. 또한 플레이어에서 로컬 펌웨어 버전 및 시스템 정보를 볼 수 있는 방법을 제공합니다. 이 기능은 마우스 연결이 어려울 수 있으므로 특히 유용합니다. 또는 플레이어가 AEM과 연결이 끊긴 경우 손이 닿지 않는 프로덕션 디바이스에서 작동하며 그 이상도 마찬가지입니다. 해상도 차이로 인해 마우스로 관리 UI를 찾아 열기 어려울 수 있으므로 Samsung RMS를 사용할 때도 유용합니다.
 

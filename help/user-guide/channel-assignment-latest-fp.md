@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: 1464
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 3%
 디스플레이를 설정한 경우 디스플레이에 채널을 할당하여 콘텐츠를 봅니다.
 
 이 페이지에는 디스플레이에 채널 할당, 채널 속성 이해 및 DayParting이 표시됩니다.
+
+이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -200,7 +202,7 @@ AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보
 
 >[!NOTE]
 >채널에 여러 개의 반복 일정을 추가할 수 있습니다.
->자동연장 일정에서 *DayParting*&#x200B;을(를) 도입했습니다. 하루 중 특정 시간에 여러 채널이 실행되는 글로벌 일정을 설정하고 모든 디스플레이에 대해 설정된 일정을 한 번에 재사용합니다.
+>반복 일정에서 *DayParting*&#x200B;을(를) 도입했습니다. 하루 중 특정 시간에 여러 채널이 실행되는 글로벌 일정을 설정하고 모든 디스플레이에 대해 설정된 일정을 한 번에 재사용합니다.
 
 다음 옵션을 설정할 수 있습니다.
 

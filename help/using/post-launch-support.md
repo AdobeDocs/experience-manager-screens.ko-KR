@@ -8,18 +8,21 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 3%
+source-wordcount: 396
+ht-degree: 0%
 
 ---
 
 # 출시 후 지원 {#post-launch-support}
 
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+
 초기 단계에서 출시 후 지원을 간과하지 마십시오.
 
-하드웨어 공급업체로부터 적절한 지원을 받을 수 있도록 하는 것은 비즈니스 운영에 매우 중요합니다. **오디오-비디오 통합자**&#x200B;는 비즈니스 이해 당사자와 긴밀히 협력하여 다양한 측면에서 필요한 요구 사항을 파악해야 합니다.
+사이트가 하드웨어 공급업체로부터 적절한 지원을 받을 수 있도록 하는 것은 비즈니스 운영에 매우 중요합니다. **오디오-비디오 통합자**&#x200B;는 비즈니스 이해 당사자와 긴밀히 협력하여 다양한 측면에서 필요한 요구 사항을 파악해야 합니다.
 출시 후 지원 시 다음 요구 사항을 고려하십시오.
 
 * 원격 장치 관리

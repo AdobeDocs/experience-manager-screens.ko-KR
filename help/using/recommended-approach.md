@@ -14,14 +14,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 482
 ht-degree: 0%
 
 ---
 
 # 권장 방법 {#recommended-approach}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 엔터프라이즈 수준의 AEM Screens 프로젝트를 장기적인 프로젝트로 간주하는 것이 좋습니다. 특히 솔루션이 복잡한 사용자 상호 작용을 허용하거나 다양한 디바이스 및 위치에 배포되는 경우 프로젝트 기간이 1년 이상일 수 있습니다.
 

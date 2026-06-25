@@ -17,14 +17,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 358
-ht-degree: 3%
+source-wordcount: 397
+ht-degree: 2%
 
 ---
 
 # 컨텐츠 할당 보고서 {#content-assignment-report}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 콘텐츠 할당 보고서 기능을 사용하면 AEM Screens 관리자 또는 작성자가 *콘텐츠 할당 보고서*&#x200B;를 스프레드시트 형식으로 내보낼 수 있습니다.
 

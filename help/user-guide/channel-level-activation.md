@@ -23,14 +23,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1845
 ht-degree: 0%
 
 ---
 
 # 채널 수준 활성화 {#channel-level-activation-single-event-playback}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 채널에 사용된 에셋에 대한 채널 레벨 활성화에 대해 설명합니다.
 
@@ -162,8 +165,8 @@ AEM Screens 프로젝트에서 채널 수준 활성화를 구현하려면 다음
 
 >[!NOTE]
 >
->AEM Screen Player에 대한 자세한 내용은 다음 리소스를 참조하십시오.>[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)
->[AEM Screens 플레이어 작업](working-with-screens-player.md)
+>AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시오.>[AEM Screens Player 다운로드](https://download.macromedia.com/screens/)
+>[AEM Screens 플레이어로 작업](working-with-screens-player.md)
 
 
 ## 채널에서 Assets에 대한 반복 처리 {#handling-recurrence-in-assets}

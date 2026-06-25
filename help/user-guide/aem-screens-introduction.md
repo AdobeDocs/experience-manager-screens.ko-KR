@@ -15,14 +15,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: 625
 ht-degree: 2%
 
 ---
 
 # Adobe Experience Manager Screens란?{#what-is-aem-screens}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 **Experience Manager Screens** - 다양한 유형의 화면을 포함하는 동적 및 대화형 디지털 경험과 상호 작용을 포괄적인 디지털 마케팅 플랫폼에 게시할 수 있는 디지털 서명 솔루션입니다.
 

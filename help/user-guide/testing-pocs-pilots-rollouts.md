@@ -24,14 +24,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 593
 ht-degree: 0%
 
 ---
 
 # 3부: 테스트, POC, 파일럿 및 롤아웃 {#part-testing-pocs-pilots-rollouts}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 팀원이 롤아웃 전에 성공적인 솔루션을 개발할 수 있도록 하는 데 중요한 주요 용어를 더 잘 이해할 수 있도록 설계된 5부로 구성된 일련의 3부를 중점적으로 다룹니다.
 

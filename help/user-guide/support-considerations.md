@@ -21,14 +21,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: 677
 ht-degree: 0%
 
 ---
 
 # 5부: 지원 고려 사항 {#part-support-considerations}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 팀원들이 하드웨어, 소프트웨어 및 연결 문제를 해결하는 방법을 학습하는 데 도움이 되도록 5부로 구성된 시리즈의 마지막 부분을 중점적으로 다룹니다. 이 단계에서는 현장 지원을 위한 비용 추정 및 프레임워크를 살펴봅니다. 또한 SLA 매개 변수, 운영 예산 및 NOC 핸드오프를 관리하는 방법을 설명합니다.
 

@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: 532
 ht-degree: 0%
 
 ---
 
 # 네트워크 트래픽 관리 {#managing-network-traffic}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 네트워크 설정은 다양한 구조를 가질 수 있습니다. 이 섹션에서는 조직 내에서 가장 일반적인 네트워크 설정 및 일반화된 접근 방식에 대해 설명합니다.
 
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >**AEM Screens 네트워크 요구 사항**
->AEM Screens은 AEM as a Cloud Service과 직접 통신하므로 두 노드 간의 안정적인 연결을 설정해야 합니다. 방화벽은 상업용 인터넷 접속에 필수적이다. 고객은 이러한 방화벽 및 기타 IT 보안 관련 네트워크 구성 요소에서 열려야 하는 통신 포트를 이해합니다.
+>AEM Screens은 AEM as a Cloud Service과 직접 통신하므로 두 노드 간에 안정적인 연결을 설정해야 합니다. 방화벽은 상업용 인터넷 접속에 필수적이다. 고객은 이러한 방화벽 및 기타 IT 보안 관련 네트워크 구성 요소에서 열려야 하는 통신 포트를 이해합니다.
 
 ## 프록시 서버 개요 {#proxy-servers}
 
