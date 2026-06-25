@@ -3,19 +3,19 @@ title: 와이어프레임
 description: AEM Screens 프로젝트에 와이어프레임을 사용하는 방법에 대해 알아봅니다.
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 TQID: https://experienceleague.adobe.com/vZIM1FREMXC5FemQIbC5F5O27wTU6acsRyv5GP5zDEw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: 212
 ht-degree: 0%
 
 ---
 
 # 와이어프레임 {#wireframes}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >이 활동의 대표적인 이해 당사자는 마케팅/비즈니스 전략가입니다.
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 이렇게 하면 프로토타이핑 단계에서 실제 배포 단계로 프로젝트를 더 가깝게 이동할 수 있습니다.
 
-**자산 수준 보기**&#x200B;에서 다양한 컨텐츠 레이아웃 옵션과 컨텐츠 그룹화를 정의하는 와이어프레임을 만들어야 합니다. 이 작업은 그룹으로 조합할 때 표시될 여러 콘텐츠를 정의하는 데 도움이 됩니다.
+**자산 수준 보기**에서 다양한 컨텐츠 레이아웃 옵션과 컨텐츠 그룹화를 정의하는 와이어프레임을 만들어야 합니다. 이 작업은 그룹으로 조합할 때 표시될 여러 콘텐츠를 정의하는 데 도움이 됩니다.
 일반적으로 이 활동에서는 실제 프로덕션 준비 그래픽, 이미지 및 비디오를 사용합니다.
 
 **채널 수준 보기**&#x200B;에서 포함된 채널에 대한 재생 전략을 포함하여 전체 경험에서 콘텐츠의 채널이 함께 연결되는 방식을 보여 주는 와이어프레임을 만들어야 합니다. 데이터 트리거가 참여할 때 발생할 수 있는 채널 전환을 검토할 수도 있습니다.

@@ -5,23 +5,21 @@ role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 6%
+source-wordcount: 531
+ht-degree: 5%
 
 ---
 
 # Screens 복제 에이전트 구성 {#configuring-screens-replication-agent}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 다음 페이지에서는 Screens 복제 에이전트를 구성하는 방법을 설명합니다.
 
@@ -30,7 +28,7 @@ ht-degree: 6%
 Screens 복제 에이전트는 *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* 및 더 많은 이러한 값과 같은 명령 데이터를 게시에서 작성자로 가져오는 역할을 합니다. 작성자가 장치 ping을 표시할 수 있도록 이 에이전트를 구성해야 합니다.
 
 >[!NOTE]
->Screens 복제 에이전트에 대한 자세한 내용은 [Screens 복제 에이전트 및 명령](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)을 참조하세요.
+>Screens 복제 에이전트에 대한 자세한 내용은 [Screens 복제 에이전트 및 명령](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)을 참조하세요.
 
 Screens 복제 에이전트에 대한 구성을 완료하려면 다음 두 섹션을 모두 완료하십시오.
 

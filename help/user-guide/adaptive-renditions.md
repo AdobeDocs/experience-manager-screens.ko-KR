@@ -3,19 +3,19 @@ title: 적응형 렌디션 아키텍처 개요 및 구성
 description: AEM Screens의 적응형 변환을 위한 CRXDE Lite의 아키텍처 개요 및 구성에 대해 알아봅니다.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: 703
 ht-degree: 4%
 
 ---
 
 # 적응형 표현물: 아키텍처 개요 및 구성 {#adaptive-renditions}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 ## 소개 {#introduction}
 
@@ -50,7 +50,7 @@ ht-degree: 4%
    >![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 `/conf/screens/sling:configs/rendition-mapping`에서 미리 채워진 **렌디션 매핑** 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용을 보려면 [기능 팩 202109 릴리스 정보](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.
+   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 `/conf/screens/sling:configs/rendition-mapping`에서 미리 채워진 **렌디션 매핑** 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용은 [기능 팩 릴리스 정보 202109](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.
    >기존 프로젝트의 경우 Screens 프로젝트에 **렌디션 매핑** 구성이 연결되어 있는지 확인하십시오. 자세한 내용은 [기존 프로젝트에 렌디션 매핑 추가](#rendition-mapping-existing) 섹션을 참조하십시오.
 
 ### 기존 프로젝트에 렌디션 매핑 속성 추가 {#rendition-mapping-existing}

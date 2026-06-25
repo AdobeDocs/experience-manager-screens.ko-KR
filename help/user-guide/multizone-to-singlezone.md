@@ -7,28 +7,24 @@ role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 TQID: https://experienceleague.adobe.com/MTRkmtP5J3PL13VZWm9nalthBX-03nu-Z2OsbnMO1Q4
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 2%
+source-wordcount: 467
+ht-degree: 1%
 
 ---
 
 # 다중 영역에서 단일 영역으로 전환 {#multizone-to-singlezone-use-case}
 
 ## 사용 사례 설명 {#use-case-description}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 섹션에서는 단일 영역 레이아웃 채널과 교대로 반복되는 다중 영역 레이아웃 채널을 설정하는 방법에 중점을 둔 사용 사례 예를 설명합니다. 멀티존 채널에는 시퀀싱 이미지/비디오 자산이 있으며 멀티존에서 단일 존으로, 그리고 역으로 프로젝트를 설정하는 방법을 보여 줍니다.
 
@@ -79,7 +75,7 @@ ht-degree: 2%
 
    ![자산](assets/mz-to-sz5.png)
 
-1. **시퀀스** 필드의 기간을 **밀리초&lbrace;310000(으)로 설정합니다.**
+1. **시퀀스** 필드의 기간을 **밀리초{310000(으)로 설정합니다.**
 
    ![자산](assets/mz-to-sz6.png)
 

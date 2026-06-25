@@ -3,22 +3,20 @@ title: 프로젝트 분류
 description: 프로젝트 분류법은 AEM Screens과 관련되어 있으므로 자세히 알아보십시오.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 TQID: https://experienceleague.adobe.com/z2YWTrwMKTcKYMKsAtgvL1ZP6Uv9svRAy1Xu58hKMKI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: 457
 ht-degree: 0%
 
 ---
 
 # 프로젝트 분류 {#project-taxonomy}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -34,7 +32,7 @@ AEM Screens 디지털 사이니지 솔루션을 구현하기 전에 다음 요�
 * **예약**
 * **콘텐츠 미리 보기**
 
-이러한 용어에 대한 자세한 내용은 [용어집](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/overview/screens-glossary)을 참조하세요.
+이러한 용어에 대한 자세한 내용은 [용어집](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary)을 참조하세요.
 
 >[!NOTE]
 >
@@ -53,15 +51,15 @@ AEM Screens 작성자는 AEM Screens에서 사용 가능한 구성 요소를 사
 
 작성자는 일반적으로 다음과 같이 AEM Screens 프로젝트를 시작합니다.
 
-* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [채널 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [채널에 구성 요소 및 에셋 추가](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [일정 생성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [위치 생성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [디스플레이 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [디스플레이에 채널 할당](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [채널 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [채널에 구성 요소 및 에셋 추가](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [일정 생성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [위치 생성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [디스플레이 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [디스플레이에 채널 할당](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [AEM Screens 플레이어에서 컨텐츠 보기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [AEM Screens 플레이어에서 컨텐츠 보기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 위치 세트를 일괄 가져올 수도 있습니다. [파일에서 새 프로젝트 가져오기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/project-importer)를 참조하십시오.
+>CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 위치 세트를 일괄 가져올 수도 있습니다. [파일에서 새 프로젝트 가져오기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)를 참조하십시오.

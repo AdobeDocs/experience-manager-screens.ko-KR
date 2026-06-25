@@ -7,21 +7,20 @@ role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
 TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 893
+source-wordcount: 939
 ht-degree: 1%
 
 ---
 
 # 다중 영역 레이아웃에 대한 사용자 지정 템플릿 만들기 {#creating-custom-templates-multizone}
+
+>[!IMPORTANT]
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 다중 영역 레이아웃에 대한 사용자 지정 템플릿을 만드는 방법을 보여 줍니다.
 
@@ -86,7 +85,7 @@ AEM Screens 프로젝트에 대한 `Left20-LandscapeHD3Zone` 레이아웃을 만
 1. 복사된 **lbar-left**(`/apps/customtemplate/template`)의 이름을 **my-custom-layout**(으)로 바꾸십시오.
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**&#x200B;에 대한&#x200B;**`jcr:description`**&#x200B;속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
+1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**에 대한&#x200B;**`jcr:description`**속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
