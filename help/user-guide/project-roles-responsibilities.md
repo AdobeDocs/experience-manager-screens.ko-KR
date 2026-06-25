@@ -31,7 +31,7 @@ ht-degree: 0%
 # 1부: 프로젝트 역할 및 책임 {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 5부 시리즈 중 1부를 강조 표시합니다. 팀 구성원이 디지털 간판 프로젝트의 판매 및 프로젝트 수명 주기 동안 필요한 역할, 책임 및 타임라인을 더 잘 이해할 수 있도록 설계되었습니다.
 

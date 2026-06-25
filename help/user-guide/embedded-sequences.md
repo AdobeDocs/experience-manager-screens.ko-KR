@@ -36,7 +36,7 @@ ht-degree: 0%
 # 포함된 시퀀스 {#embedded-sequences}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 채널에 대해 ***포함된 시퀀스***&#x200B;를 사용하면 사용자가 상위 채널에 구성 요소를 추가하고 다른 채널의 콘텐츠를 재사용하여 상위 채널에 포함할 수 있습니다.
 

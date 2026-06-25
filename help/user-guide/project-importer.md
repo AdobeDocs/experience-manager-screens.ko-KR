@@ -32,7 +32,7 @@ ht-degree: 1%
 ## 소개 {#introduction}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 조직에서 처음으로 AEM Screens 프로젝트를 설정하는 경우 모든 위치도 만듭니다. 프로젝트에 많은 위치가 포함된 경우 UI에서 많은 선택 및 대기가 필요한 지루한 작업이 발생합니다.
 

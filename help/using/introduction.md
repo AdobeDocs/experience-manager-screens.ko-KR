@@ -20,7 +20,7 @@ ht-degree: 49%
 # AEM Screens 소개 {#introduction}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 **AEM Screens**&#x200B;은(는) 동적 및 대화형 디지털 경험을 작성, 게시 및 재생할 수 있는 디지털 서명 솔루션입니다. 포괄적인 옴니채널 디지털 마케팅 전략과 함께 다양한 유형의 매장 디스플레이 화면을 포함합니다.
 

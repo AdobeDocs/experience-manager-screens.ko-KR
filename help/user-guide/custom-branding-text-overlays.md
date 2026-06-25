@@ -24,7 +24,7 @@ ht-degree: 2%
 # 텍스트 오버레이에 대한 사용자 지정 브랜딩 및 스타일링 {#creating-custom-branding-styling}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 AEM Screens 채널에서 에셋에 적용된 텍스트 오버레이에 사용자 지정 브랜딩 및 스타일을 적용하는 방법을 알아봅니다.
 

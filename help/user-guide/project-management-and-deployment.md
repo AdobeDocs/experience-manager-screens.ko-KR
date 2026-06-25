@@ -29,7 +29,7 @@ ht-degree: 0%
 # 4부: 프로젝트 관리 및 배포 {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 프로젝트 관리 및 배포 준비를 다루고 프로젝트 관리 및 배포 준비와 관련하여 오디오-비디오 통합자가 담당하는 주요 요소를 정의하도록 설계된 5부 시리즈의 4부를 강조합니다.
 

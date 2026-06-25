@@ -28,7 +28,7 @@ ht-degree: 1%
 # 게시 서버에 데이터 트리거 복제 {#replicating-data-triggers}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 데이터 트리거를 기반으로 콘텐츠를 사용자 정의하는 경우 게시할 때 모든 ContextHub 및 Personalization 관련 구성이 채널과 함께 자동으로 복제되지 않습니다.
 

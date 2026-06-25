@@ -28,7 +28,7 @@ ht-degree: 0%
 # AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 포함할 수 있습니다. AEM SPA 편집기를 사용하면 AEM의 비즈니스 전문가가 구성할 수 있습니다. 또한 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법을 배울 수도 있습니다.
 

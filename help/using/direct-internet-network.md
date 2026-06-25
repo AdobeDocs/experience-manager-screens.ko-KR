@@ -22,7 +22,7 @@ ht-degree: 0%
 # 직접 인터넷 네트워크(유선/무선) {#direct-internet-access}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 직접 인터넷 네트워크에는 AEM Screens이 연결해야 하는 AEM 클라우드 서비스에 도달하기 위한 인터넷 액세스 시작 액세스 포인트가 포함되어 있습니다.
 

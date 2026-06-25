@@ -33,7 +33,7 @@ ht-degree: 1%
 # 디스플레이 만들기 및 관리 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 디스플레이는 서로의 옆에 위치된 스크린들의 가상 그룹화이다. 디스플레이는 설치와 관련하여 영구적입니다. 콘텐츠 작성자가 작업하고 항상 를 실제 카운터 부분이 아닌 논리 표시로 참조하는 개체입니다.
 

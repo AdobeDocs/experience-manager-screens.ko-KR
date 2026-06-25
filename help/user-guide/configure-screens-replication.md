@@ -24,7 +24,7 @@ ht-degree: 5%
 # Screens 복제 에이전트 구성 {#configuring-screens-replication-agent}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 다음 페이지에서는 Screens 복제 에이전트를 구성하는 방법을 설명합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 Screens 복제 에이전트는 *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* 및 더 많은 이러한 값과 같은 명령 데이터를 게시에서 작성자로 가져오는 역할을 합니다. 작성자가 장치 ping을 표시할 수 있도록 이 에이전트를 구성해야 합니다.
 
 >[!NOTE]
->Screens 복제 에이전트에 대한 자세한 내용은 [Screens 복제 에이전트 및 명령](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)을 참조하세요.
+>Screens 복제 에이전트에 대한 자세한 내용은 [Screens 복제 에이전트 및 명령](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)을 참조하세요.
 
 Screens 복제 에이전트에 대한 구성을 완료하려면 다음 두 섹션을 모두 완료하십시오.
 

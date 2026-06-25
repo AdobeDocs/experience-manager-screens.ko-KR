@@ -20,7 +20,7 @@ ht-degree: 0%
 # 테스트 및 품질 Assurance {#testing-quality}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >이 활동의 일반적인 이해 당사자는 오디오-비디오 통합자입니다.
@@ -69,7 +69,7 @@ Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스
 1. 콘텐츠 다운로드 관리
 1. 응용 프로그램 다시 시작 문제 관리
 
-***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
+***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
 
 >[!CAUTION]
 >
