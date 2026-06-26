@@ -11,11 +11,18 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1537
@@ -181,7 +188,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 시작하기 전에 데�
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. `**Higherthan50**` 세그먼트를 클릭하고 작업 표시줄에서 **속성**을 클릭합니다.
+   1. `**Higherthan50**` 세그먼트를 클릭하고 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
       ![이미지](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. **세그먼트 속성**&#x200B;에서 **Personalization** 탭을 클릭합니다. 아래 그림과 같이 **ContextHub 경로**&#x200B;을(를) `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`(으)로 설정하고 **세그먼트 경로**&#x200B;을(를) `/conf/screens/settings/wcm/segments`(으)로 설정하고 **저장**&#x200B;을(를) 클릭합니다.
