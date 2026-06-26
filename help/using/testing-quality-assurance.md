@@ -3,16 +3,12 @@ title: 테스트 및 품질 Assurance
 description: 모범 사례 안내서에서 AEM Screens에 대한 테스트 및 품질 보증에 대해 알아봅니다.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 392
 ht-degree: 0%
 
 ---
@@ -20,13 +16,12 @@ ht-degree: 0%
 # 테스트 및 품질 Assurance {#testing-quality}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >이 활동의 일반적인 이해 당사자는 오디오-비디오 통합자입니다.
 
-디지털 사이니지 네트워크의 배포가 가까워지면 모든 하드웨어 구성 요소, 모든 소프트웨어 구성 요소, 모든 네트워킹 구성 요소를 포함한 네트워크의 모든 요소를 해결하는 테스트 및 QA 계획을 만듭니다.
-이 단계에서는 전체 테스트 시스템을 구축하고 완전히 테스트해야 합니다.
+디지털 사이니지 네트워크의 배포가 가까워지면 모든 하드웨어 구성 요소, 모든 소프트웨어 구성 요소, 모든 네트워킹 구성 요소를 포함한 네트워크의 모든 요소를 해결하는 테스트 및 QA 계획을 만듭니다.이 단계에서는 전체 테스트 시스템을 구축하고 완전히 테스트해야 합니다.
 
 이전에 정의한 모든 KPI를 식별하고 이에 대해 결과물을 측정하는 체크리스트를 작성해야 합니다.
 
@@ -61,15 +56,14 @@ ht-degree: 0%
 
 AEM Screens에는 Screens 플레이어 애플리케이션 엔드포인트를 관리할 수 있는 Device Control Center 모듈이 포함되어 있습니다.
 
-Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스에 등록된 모든 *플레이어* 하드웨어 장치를 참조합니다.
-이 모듈에서는 다음 작업을 수행할 수 있습니다.
+Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스에 등록된 모든 *플레이어* 하드웨어 장치를 참조합니다.이 모듈에서는 다음 작업을 수행할 수 있습니다.
 
 1. 플레이어 애플리케이션 오류 로그 모니터링
 1. 원격 스크린샷 관리
 1. 콘텐츠 다운로드 관리
 1. 응용 프로그램 다시 시작 문제 관리
 
-***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
+***장치 제어 센터***&#x200B;에 대한 자세한 내용은 **AEM Screens 사용 안내서**&#x200B;의 [장치 제어 센터 문제 해결](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)을 참조하세요.
 
 >[!CAUTION]
 >
@@ -94,3 +88,4 @@ Screens 플레이어 응용 프로그램이 설치되어 있고 AEM 인스턴스
 * 에어워치
 * `42Gears`
 * 독점 오디오-비디오 통합기 미들웨어
+

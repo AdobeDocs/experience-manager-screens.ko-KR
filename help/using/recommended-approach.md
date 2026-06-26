@@ -3,18 +3,11 @@ title: 권장 방법
 description: AEM Screens 프로젝트의 권장 접근 방식에 대해 알아봅니다.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -24,7 +17,7 @@ ht-degree: 0%
 # 권장 방법 {#recommended-approach}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 엔터프라이즈 수준의 AEM Screens 프로젝트를 장기적인 프로젝트로 간주하는 것이 좋습니다. 특히 솔루션이 복잡한 사용자 상호 작용을 허용하거나 다양한 디바이스 및 위치에 배포되는 경우 프로젝트 기간이 1년 이상일 수 있습니다.
 
@@ -69,3 +62,4 @@ ht-degree: 0%
 
 * **사용자 지정 통합 범위 이해**:
 터치 스크린 상호 작용, 모션 센서 또는 RFID이 있는 대화형 구성 요소는 구현 방법에서 상당한 사용자 지정 개발이 필요합니다. 슬라이드쇼, 비디오 광고 또는 정적 메뉴는 Screens 채널에서 그래픽 콘텐츠 또는 HTML으로 제공될 수 있습니다.
+

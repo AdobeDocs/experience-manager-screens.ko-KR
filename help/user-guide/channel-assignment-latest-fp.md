@@ -6,23 +6,14 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 3%
 
 ---
@@ -37,7 +28,7 @@ ht-degree: 3%
 
 이 페이지에는 디스플레이에 채널 할당, 채널 속성 이해 및 DayParting이 표시됩니다.
 
-이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -101,7 +92,7 @@ ht-degree: 3%
    >
    >채널 할당 속성에 대한 자세한 내용은 [채널 속성](#channel-properties) 섹션을 참조하십시오.
 
-1. **일정** 옵션에서 **활성화 기간** 및 **반복 일정**&#x200B;을 클릭합니다.
+1. **일정** 옵션에서 **활성화 기간** 및 **반복 일정**을 클릭합니다.
    ![이미지](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -201,8 +192,7 @@ AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보
 반복 일정을 사용하면 콘텐츠에 대한 반복 일정을 설정할 수 있습니다. **+ 일정 추가**&#x200B;를 클릭하여 채널에 되풀이 일정을 추가합니다.
 
 >[!NOTE]
->채널에 여러 개의 반복 일정을 추가할 수 있습니다.
->반복 일정에서 *DayParting*&#x200B;을(를) 도입했습니다. 하루 중 특정 시간에 여러 채널이 실행되는 글로벌 일정을 설정하고 모든 디스플레이에 대해 설정된 일정을 한 번에 재사용합니다.
+>채널에 여러 개의 반복 일정을 추가할 수 있습니다.자동연장 일정에서 *DayParting*&#x200B;을(를) 도입했습니다. 하루 중 특정 시간에 여러 채널이 실행되는 글로벌 일정을 설정하고 모든 디스플레이에 대해 설정된 일정을 한 번에 재사용합니다.
 
 다음 옵션을 설정할 수 있습니다.
 
@@ -243,3 +233,4 @@ AEM Screens 플레이어에서 장치를 등록하는 방법에 대해 알아보
 >[!NOTE]
 >
 >또한 각 채널에 대해 ***우선 순위***&#x200B;를 정의할 수 있습니다. 예를 들어, 두 개의 채널이 같은 날 및 시간 또는 같은 달에 대해 설정된 경우 우선 순위가 높은 채널이 먼저 재생됩니다. 우선 순위의 최소값은 0으로 설정할 수 있습니다.
+

@@ -3,12 +3,9 @@ title: AEM Screens의 비디오에 대한 썸네일 지원
 description: AEM Screens에서 비디오에 대한 썸네일 지원을 추가하는 방법을 알아봅니다.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 TQID: https://experienceleague.adobe.com/VlgvGuLabotRAwprPRl4UFIAycPi7M1oqz47nQZIpVU
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 442
 ht-degree: 2%
@@ -18,7 +15,7 @@ ht-degree: 2%
 # 비디오에 대한 썸네일 지원 {#thumbnail-support-videos}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 ## 소개 {#introduction}
 
@@ -76,3 +73,4 @@ ht-degree: 2%
 * 비디오(비디오에 올바른 렌디션이 있는 경우)와 썸네일 세트가 모두 있는 비디오 구성 요소가 비디오를 재생합니다.
 
 * 비디오 세트가 있는 비디오 구성 요소는 재생 오류가 있을 경우 썸네일을 재생하고, 썸네일이 구성되지 않은 경우 다음 항목으로 건너뜁니다.
+

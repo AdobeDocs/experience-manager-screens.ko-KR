@@ -10,18 +10,12 @@ role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
 TQID: https://experienceleague.adobe.com/qh3gh-3IzKyUA4fr79v7JAT5WAq2Q2eZTqTlOAC7yN0
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 255
 ht-degree: 1%
@@ -31,7 +25,7 @@ ht-degree: 1%
 # REST API{#rest-apis}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 AEM Screens은 [Siren](https://github.com/kevinswiber/siren) 사양을 따르는 간단한 RESTful API를 제공합니다. 콘텐츠 구조를 탐색하고 환경의 장치에 명령을 보낼 수 있습니다.
 
@@ -178,3 +172,4 @@ Host: http://localhost:4502
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
+

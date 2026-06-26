@@ -6,16 +6,11 @@ role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 TQID: https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 0%
@@ -25,7 +20,7 @@ ht-degree: 0%
 # Chrome 플레이어를 확장 프로그램으로 사용 {#using-chrome-player}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 ChromeOS 플레이어는 실제 Chrome 플레이어 장치 없이 개발자 모드에서 Chrome 브라우저 플러그인으로 설치할 수 있습니다.
 
@@ -80,3 +75,4 @@ Chrome 플레이어를 브라우저 확장으로 설치하는 방법에 대한 �
 1. 이전 폴더와 동일한 위치에서 새 zip 추출
 1. Chrome을 시작하고 `chrome://extensions`(으)로 이동
 1. 플레이어 아이콘을 확인하고 새로 고침 또는 다시 로드 단추를 클릭합니다.
+

@@ -10,16 +10,11 @@ role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 TQID: https://experienceleague.adobe.com/jqnuLmKXfDCSHbnVTwBRBZsCyXUVn7OghNa00-62WeM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 2%
@@ -29,7 +24,7 @@ ht-degree: 2%
 # ACL(액세스 제어 목록) 설정 {#setting-up-acls}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 다음 섹션에서는 각 개인 또는 팀이 자체 프로젝트를 처리하도록 ACL(액세스 제어 목록)을 사용하여 프로젝트를 분리하는 방법을 설명합니다.
 
@@ -151,3 +146,4 @@ AEM 관리자는 프로젝트의 팀원이 다른 프로젝트를 방해하지 �
   </tr>
  </tbody>
 </table>
+

@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 360
 ht-degree: 1%
@@ -28,7 +24,7 @@ ht-degree: 1%
 # 기능 팩 201905 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!CAUTION]
 >
@@ -77,3 +73,4 @@ AEM 6.3.3.3 기능 팩 6 및 AEM 6.4.4.0 기능 팩 4용으로 다음 AEM Screen
 #### AEM Screens 플레이어 다운로드
 
 최신 AEM Screens 플레이어를 다운로드하고 버그 수정에 대해 자세히 알아보려면 **[AEM Screens 플레이어 다운로드](https://download.macromedia.com/screens/)**&#x200B;를 참조하십시오.
+

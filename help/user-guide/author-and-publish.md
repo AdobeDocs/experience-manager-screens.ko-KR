@@ -3,17 +3,12 @@ title: AEM Screens에서 작성자 및 게시 인스턴스 구성
 description: AEM Screens의 작성자 인스턴스 및 게시 인스턴스를 구성하는 방법을 알아봅니다.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -23,7 +18,7 @@ ht-degree: 0%
 이 페이지에서는 다음 항목을 강조합니다.
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 * **작성자 및 게시 인스턴스 구성**
 * **게시 토폴로지 설정**
@@ -65,7 +60,7 @@ ht-degree: 0%
 
 Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 
-1. **기본 복제 에이전트 &#x200B;***(*** 표준 복제 에이전트로 지정됨**)
+1. **기본 복제 에이전트 ***(*** 표준 복제 에이전트로 지정됨**)
 1. **Screens 복제 에이전트**
 1. **역방향 복제 에이전트**
 
@@ -123,7 +118,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 1. pub2용 AEM Screens 복제 에이전트를 만듭니다. pub1용 Screens 복제 에이전트를 복사하고 pub2용 4504로 포트를 변경합니다.
 
    >[!NOTE]
-   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
+   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
 
 #### Screens 역방향 복제 에이전트 생성 {#creating-screens-reverse-replication-agents}
 
@@ -155,8 +150,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 
 #### 3단계: ActiveMQ Artemis 클러스터 설정 {#step-setup-activemq-artemis-cluster}
 
-이 단계에서는 ActiveMQ Artemis 클러스터에 대해 암호화된 암호를 만들 수 있습니다.
-토폴로지에 있는 모든 게시 인스턴스의 클러스터 사용자와 암호가 동일해야 합니다. ActiveMQ Artemis 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 암호화 지원을 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ에 대한 OSGi 구성에서 암호화된 암호를 사용할 수 있습니다.
+이 단계에서는 ActiveMQ Artemis 클러스터에 대해 암호화된 암호를 만들 수 있습니다.토폴로지에 있는 모든 게시 인스턴스의 클러스터 사용자와 암호가 동일해야 합니다. ActiveMQ Artemis 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 암호화 지원을 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ에 대한 OSGi 구성에서 암호화된 암호를 사용할 수 있습니다.
 
 각 게시 인스턴스에서 다음을 수행합니다.
 
@@ -170,7 +164,6 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 >[!NOTE]
 >
 >암호는 중괄호로 시작하고 끝나야 합니다. 예:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 4단계: ActiveMQ Artemis 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 

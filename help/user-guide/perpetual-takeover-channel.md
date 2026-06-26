@@ -7,36 +7,28 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 857
-ht-degree: 1%
+source-wordcount: 921
+ht-degree: 0%
 
 ---
 
 # 영구 인계 채널 {#perpetual-takeover-channel}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 다음 페이지에서는 특정 시간 및 일 동안 지속적으로 재생되는 영구 인계 채널을 만드는 방법에 대한 프로젝트 설정을 강조하는 사용 사례를 보여줍니다.
 
 ## 사용 사례 설명 {#use-case-description}
 
-이 사용 사례에서는 디스플레이 또는 디스플레이 그룹에 대해 일반 재생 채널에서 *을(를)*을(를) 대신하는 채널을 만드는 방법을 설명합니다. 인수는 특정한 날과 시간 동안 지속적으로 이루어진다.
-예를 들어 매주 금요일 오전 9:00부터 오전 10:00까지 재생되는 영구 TakeOver 채널이 있습니다. 이 시간 동안에는 다른 채널이 재생되지 않습니다. 다음 예제에서는 매주 수요일 오후 2:00부터 오후 4:00까지 2시간 동안 콘텐츠를 재생할 수 있는 영구 인계 채널을 만드는 방법을 보여줍니다.
+이 사용 사례에서는 디스플레이 또는 디스플레이 그룹에 대해 일반 재생 채널에서 *을(를)*&#x200B;을(를) 대신하는 채널을 만드는 방법을 설명합니다. 인수는 특정한 날과 시간 동안 지속적으로 이루어진다.예를 들어 매주 금요일 오전 9:00부터 오전 10:00까지 재생되는 영구 TakeOver 채널이 있습니다. 이 시간 동안에는 다른 채널이 재생되지 않습니다. 다음 예제에서는 매주 수요일 오후 2:00부터 오후 4:00까지 2시간 동안 콘텐츠를 재생할 수 있는 영구 인계 채널을 만드는 방법을 보여줍니다.
 
 ### 전제 조건 {#preconditions}
 
@@ -141,3 +133,4 @@ ht-degree: 1%
 >[!NOTE]
 >
 >*A.M./P.M.*(오후 2:00) 대신 _군 시간_ 표기법(14:00)을 사용할 수도 있습니다.
+

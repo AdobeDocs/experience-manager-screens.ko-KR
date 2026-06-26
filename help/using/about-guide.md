@@ -3,15 +3,10 @@ title: 이 안내서 정보
 description: 전략 및 설계 브리핑, 배포, 지원 이후 프로젝트를 계획 및 실행하기 위한 AEM Screens 프로젝트의 모범 사례에 대해 알아봅니다.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 27%
@@ -21,7 +16,7 @@ ht-degree: 27%
 # 이 안내서 정보 {#about-guide}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 AEM Screens 모범 사례 안내서는 AEM Screens 프로젝트를 성공적으로 계획 및 완료할 수 있는 방법에 대한 지침을 제공하려고 합니다.
 
@@ -54,3 +49,4 @@ AEM Screens은 Adobe Experience Manager(AEM)의 새로운 확장 기능입니다
 >
 > * **UX**&#x200B;는 최종 고객에게 제공되는 디지털 간판 경험을 의미합니다.
 > * **UI**&#x200B;은(는) Screens에서 프로젝트를 만들고 관리할 수 있는 사용자 인터페이스를 의미합니다.
+

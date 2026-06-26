@@ -10,17 +10,11 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 TQID: https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 936
 ht-degree: 0%
@@ -30,7 +24,7 @@ ht-degree: 0%
 # Chrome OS 플레이어 구현 {#implementing-chrome-os-player}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 섹션에서는 Chrome Management Console을 사용하여 Chrome OS 플레이어를 구현하는 방법에 대해 설명합니다.
 
@@ -169,3 +163,4 @@ AEM Screens Player는 Chrome OS 플레이어에 대한 원격 정책 구성도 �
 ### Screens 원격 제어 사용 {#using-remote-control}
 
 AEM Screens은 원격 제어 기능을 제공합니다. 이 기능에 대해 자세히 알아보세요. [Screens 원격 제어](implementing-remote-control.md)
+

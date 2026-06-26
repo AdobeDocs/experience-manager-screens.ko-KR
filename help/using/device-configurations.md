@@ -3,12 +3,9 @@ title: 장치 사양
 description: AEM Screens과 관련된 장치 사양에 대해 자세히 알아보십시오.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 TQID: https://experienceleague.adobe.com/nRZXWarHxFk1wgwR5YLLNcxx3OKs-fWKq1U9uB7yeBw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -18,7 +15,7 @@ ht-degree: 0%
 # 장치 구성 {#device-configurations}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -48,3 +45,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >또한 선택한 하드웨어에 대한 사양을 검증하여 개발 중인 애플리케이션을 지원할 수 있도록 해야 합니다. 예를 들어, 응용 프로그램이 5개의 HD 비디오를 동시에 실행하도록 설계된 경우 하드웨어에서 지원합니까?
+

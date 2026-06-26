@@ -10,20 +10,12 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 710
 ht-degree: 1%
@@ -33,7 +25,7 @@ ht-degree: 1%
 # 디스플레이 만들기 및 관리 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 디스플레이는 서로의 옆에 위치된 스크린들의 가상 그룹화이다. 디스플레이는 설치와 관련하여 영구적입니다. 콘텐츠 작성자가 작업하고 항상 를 실제 카운터 부분이 아닌 논리 표시로 참조하는 개체입니다.
 
@@ -151,3 +143,4 @@ ht-degree: 1%
 위치에 대한 디스플레이 만들기를 완료하면 디스플레이에 대한 채널을 할당합니다.
 
 자세한 내용은 [채널 할당](channel-assignment.md)을 참조하세요.
+

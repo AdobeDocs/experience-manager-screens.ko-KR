@@ -11,20 +11,12 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 TQID: https://experienceleague.adobe.com/PxlKWiWPvedqs2krdj3UH5Chshni2X3RaTmZI1wW2-Q
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -34,7 +26,7 @@ ht-degree: 0%
 # 벌크 오프라인 업데이트 {#bulk-offline-update}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 섹션에서는 벌크 오프라인 업데이트에 대해 다음 주제를 다룹니다.
 
@@ -95,3 +87,4 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
    **예약 빈도** - 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5:00 또는 오후 17:00)을 지정합니다.
 
 1. 설정을 저장하려면 **저장**&#x200B;을 클릭하세요. 콘텐츠가 지정된 시간에 업데이트됩니다.
+

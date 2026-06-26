@@ -6,25 +6,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 2%
 # AEM Screens의 음성 인식 {#voice-recognition}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -93,8 +83,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
    ![이미지](assets/voice-recognition/vr-2.png)
 
-   Screens 분할 채널을 프로젝트에 추가한 경우 **SplitScreen**(으)로 이동하여 포함된 시퀀스 두 개를 드래그 앤 드롭합니다. 아래 그림과 같이 **ColdDrinks** 및 **HotDrinks** 채널에 경로를 추가합니다.
-   ![이미지](assets/voice-recognition/vr-emb-6.png)
+   Screens 분할 채널을 프로젝트에 추가한 경우 **SplitScreen**(으)로 이동하여 포함된 시퀀스 두 개를 드래그 앤 드롭합니다. 아래 그림과 같이 **ColdDrinks** 및 **HotDrinks** 채널에 경로를 추가합니다.   ![이미지](assets/voice-recognition/vr-emb-6.png)
 
 
 ### 채널에 대한 태그 설정 {#setting-tags}
@@ -136,18 +125,18 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
 1. AEM 인스턴스로 이동합니다.
 
-1. 도구 아이콘 > **태그 지정**&#x200B;을 클릭합니다.
+1. 도구 아이콘 > **태그 지정**을 클릭합니다.
    ![이미지](assets/voice-recognition/vr-7.png)
 
-1. **만들기** > **네임스페이스 만들기**&#x200B;를 클릭합니다.
+1. **만들기** > **네임스페이스 만들기**를 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag3.png)
 
 1. 프로젝트 이름(예: **VoiceDemo**)을 입력하고 **만들기**&#x200B;를 클릭합니다.
 
-1. **VoiceDemo** 프로젝트를 클릭하고 작업 표시줄에서 **태그 만들기**&#x200B;를 클릭합니다.
+1. **VoiceDemo** 프로젝트를 클릭하고 작업 표시줄에서 **태그 만들기**를 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag4.png)
 
-1. 태그 이름을 입력하고 **제출**&#x200B;을 클릭합니다.
+1. 태그 이름을 입력하고 **제출**을 클릭합니다.
    ![이미지](assets/voice-recognition/vr-tag5.png)
 
 이제 AEM Screens 프로젝트에서 이러한 태그를 사용할 수 있습니다.
@@ -204,3 +193,4 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 **분할 Screens 채널에 대해 원하는 출력**
 
 **Main** 채널이 콘텐츠를 재생하고 있습니다. 그러나 *뜨거운 음료와 차가운 음료에 대한 메뉴를 보고 싶습니다*&#x200B;와 같이 **뜨거운 음료**&#x200B;와 **차가운 음료**&#x200B;를 함께 사용하는 단어를 사용하면 채널은 **SplitScreen** 채널의 콘텐츠를 재생합니다. *주 메뉴로 돌아가기*&#x200B;를 지정하면 **주** 채널로 되돌아갑니다.
+

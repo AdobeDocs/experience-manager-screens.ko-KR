@@ -11,24 +11,14 @@ role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
 TQID: https://experienceleague.adobe.com/NK6M9ShPUQdDQQvgx7kD9c4uvfKjy61wJ6jSH0gB17E
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: d8a4be83-7d41-47be-b4a6-f8f3d35caceb
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: d8a4be83-7d41-47be-b4a6-f8f3d35cacebid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 825
 ht-degree: 0%
 
 ---
@@ -36,7 +26,7 @@ ht-degree: 0%
 # 포함된 시퀀스 {#embedded-sequences}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 채널에 대해 ***포함된 시퀀스***&#x200B;를 사용하면 사용자가 상위 채널에 구성 요소를 추가하고 다른 채널의 콘텐츠를 재사용하여 상위 채널에 포함할 수 있습니다.
 
@@ -56,8 +46,7 @@ ht-degree: 0%
 채널에 포함된 시퀀스를 추가할 수 있습니다. 포함된 시퀀스는 이미지 또는 비디오와 같은 에셋을 포함하는 다른 채널입니다. 포함된 시퀀스를 추가하면 사용자는 ***채널 경로***&#x200B;의 채널에 시퀀스를 추가할 수 있습니다.
 
 >[!NOTE]
->***채널 경로***은(는) 채널에 대한 명시적 참조를 정의합니다.
->*채널 경로*&#x200B;에 대한 자세한 내용은 Screens 작성에서 [채널 할당](channel-assignment.md)을 참조하세요.
+>***채널 경로***&#x200B;은(는) 채널에 대한 명시적 참조를 정의합니다.*채널 경로*&#x200B;에 대한 자세한 내용은 Screens 작성에서 [채널 할당](channel-assignment.md)을 참조하세요.
 
 채널에 포함된 시퀀스를 추가하려면 아래 단계를 따르십시오.
 
@@ -119,3 +108,4 @@ ht-degree: 0%
 1. 시퀀스에 포함된 채널의 **시퀀스** 탭에서 **기간(밀리초)**&#x200B;을 클릭합니다.
 
 ![최신](assets/latest.gif)
+

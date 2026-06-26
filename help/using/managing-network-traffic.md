@@ -3,17 +3,12 @@ title: 네트워크 트래픽 관리
 description: 이 페이지에서는 표준 네트워크 설정 및 네트워크 트래픽 관리 방법에 대해 설명합니다.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 587
 ht-degree: 0%
 
 ---
@@ -21,15 +16,14 @@ ht-degree: 0%
 # 네트워크 트래픽 관리 {#managing-network-traffic}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 네트워크 설정은 다양한 구조를 가질 수 있습니다. 이 섹션에서는 조직 내에서 가장 일반적인 네트워크 설정 및 일반화된 접근 방식에 대해 설명합니다.
 
 이 안내서에서는 프록시 서버 다음에 다른 조직 내에서 설정된 다양한 네트워크 구조를 소개합니다.
 
 >[!NOTE]
->**AEM Screens 네트워크 요구 사항**
->AEM Screens은 AEM as a Cloud Service과 직접 통신하므로 두 노드 간에 안정적인 연결을 설정해야 합니다. 방화벽은 상업용 인터넷 접속에 필수적이다. 고객은 이러한 방화벽 및 기타 IT 보안 관련 네트워크 구성 요소에서 열려야 하는 통신 포트를 이해합니다.
+>**AEM Screens 네트워크 요구 사항AEM Screens은 AEM as a Cloud Service과 직접 통신하므로 두 노드 간의 안정적인 연결을 설정해야 합니다. 방화벽은 상업용 인터넷 접속에 필수적이다. 고객은 이러한 방화벽 및 기타 IT 보안 관련 네트워크 구성 요소에서 열려야 하는 통신 포트를 이해합니다.
 
 ## 프록시 서버 개요 {#proxy-servers}
 
@@ -58,3 +52,4 @@ ht-degree: 0%
 | **직접 모바일 네트워크** | 손쉬운 설정<br>중형 이상 설치에 적합한 옵션<br>뛰어난 확장성<br>캡슐화된 Screens | 필수 인터넷 연결 |
 | **모바일 데이터 라우터 및 활성 네트워크 구성 요소가 있는 모바일 네트워크** | 간편한 설치<br>중형 이상의 설치 환경에 적합한 옵션<br>전용 네트워크를 캡슐화할 수 있음<br>장애 지점 최소화<br>비교적 저렴함<br>뛰어난 확장성 | 필수 인터넷 데이터 플랜 |
 | **회사 네트워크(유선/무선)** | 높은 유연성 및 확장성<br>다양한 방어선으로 인해 높은 보안<br>캡슐화된 네트워크<br>모니터링 및 유지 관리가 용이함<br>안정성 | 복잡하고 많은 비용<br>네트워크 전문가 또는 시스템 통합자에게 권장됨 |
+

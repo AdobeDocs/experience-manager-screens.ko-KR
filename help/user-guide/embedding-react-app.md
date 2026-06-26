@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 734
 ht-degree: 0%
@@ -28,7 +24,7 @@ ht-degree: 0%
 # AEM SPA 편집기를 사용하여 REACT 애플리케이션 임베드 및 AEM Screens Analytics와 통합 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 REACT(또는 Angular)를 사용하여 대화형 단일 페이지 애플리케이션을 포함할 수 있습니다. AEM SPA 편집기를 사용하면 AEM의 비즈니스 전문가가 구성할 수 있습니다. 또한 대화형 애플리케이션을 오프라인 Adobe Analytics과 통합하는 방법을 배울 수도 있습니다.
 
@@ -77,7 +73,7 @@ AEM Screens에 대화형 REACT 앱을 추가하려면 아래 단계를 따르십
 1. AEM Screens 프로젝트의 **채널** 폴더에 **응용 프로그램 채널**(권장)(또는 1x1 템플릿 또는 다중 영역 채널)을 만듭니다.
 
    >[!NOTE]
-   >**시퀀스 채널**&#x200B;은(는) 기본적으로 경험의 대화형 특성과 충돌하는 슬라이드쇼 논리를 제공하므로 이 사용 사례에서는 권장되지 않습니다.
+   >**시퀀스 채널**은(는) 기본적으로 경험의 대화형 특성과 충돌하는 슬라이드쇼 논리를 제공하므로 이 사용 사례에서는 권장되지 않습니다.
    >자세한 내용은 [채널 만들기 및 관리](managing-channels.md)를 참조하십시오.
 
 1. 시퀀스 채널을 편집하고 포함된 페이지 구성 요소를 드래그 앤 드롭합니다.
@@ -147,3 +143,4 @@ AEM Screens을 통해 SPA를 Adobe Analytics과 오프라인 기능과 통합하
    >[!NOTE]
    >
    >플레이어 펌웨어는 사용자가 전송하는 사용자 지정 분석 데이터에 플레이어 및 해당 런타임 환경에 대한 자세한 내용을 자동으로 추가합니다. 따라서 필요한 경우가 아니면 낮은 수준의 OS/디바이스 세부 정보를 캡처해야 할 수 있습니다. 비즈니스 분석 데이터에 집중합니다.
+

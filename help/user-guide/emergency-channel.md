@@ -10,19 +10,12 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 TQID: https://experienceleague.adobe.com/v0I1gmu10jscAJFcZGWu3g7X27BUNXIuyTGfKpPwUvA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 763
 ht-degree: 1%
@@ -34,7 +27,7 @@ ht-degree: 1%
 ## 사용 사례 설명 {#use-case-description}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 섹션에서는 사용 사례 예제를 설명합니다. 전제 조건이 있는 경우 콘텐츠 작성자가 시퀀스 채널에서 전환할 수 있는 긴급 채널을 만들고 관리하는 것을 강조합니다.
 
@@ -202,3 +195,4 @@ ht-degree: 1%
 **EmergencyChannel**&#x200B;은(는) 콘텐츠 작성자가 우선 순위 값을 1로 재설정할 때까지 해당 콘텐츠를 계속 표시합니다.
 
 콘텐츠 작성자는 긴급 상황이 해결되었다는 지침을 받으면 **MainAdChannel**&#x200B;의 우선 순위를 업데이트해야 합니다. 이렇게 하면 일반 재생이 다시 시작됩니다.
+

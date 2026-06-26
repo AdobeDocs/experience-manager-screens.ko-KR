@@ -6,19 +6,12 @@ role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 TQID: https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 1%
@@ -28,7 +21,7 @@ ht-degree: 1%
 # 게시 서버에 데이터 트리거 복제 {#replicating-data-triggers}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 ContextHub 및 AEM 타깃팅 엔진을 사용하여 작성자/게시 설정의 데이터 트리거를 기반으로 콘텐츠를 사용자 정의하는 경우 게시할 때 모든 ContextHub 및 Personalization 관련 구성이 채널과 함께 자동으로 복제되지 않습니다.
 
@@ -133,3 +126,4 @@ ContextHub 구성을 복제하는 동안 테스트 연결에 실패하는 경우
 
    1. `(name=default)`을(를) `(name=slingTransportSecretProvider)`(으)로 업데이트합니다.
    1. **저장**&#x200B;을 클릭하고 AEM 인스턴스의 **배포 에이전트** 화면에서 다시 테스트 연결을 실행하십시오.
+

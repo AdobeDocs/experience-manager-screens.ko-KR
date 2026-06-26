@@ -7,20 +7,12 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
 TQID: https://experienceleague.adobe.com/t4JTCyQhe7kb5v-dveK4Np9dAAGLBeatCN2kyTM6ELc
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: e8696a6a-4caa-4059-b0b2-3fbb66f5ab7e
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: e8696a6a-4caa-4059-b0b2-3fbb66f5ab7eid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 322
 ht-degree: 0%
@@ -30,7 +22,7 @@ ht-degree: 0%
 # 전환 적용 {#applying-transitions}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 단원에서는 서로 다른 에셋(이미지 및 비디오)과 채널에 포함된 시퀀스 사이에 **전환** 구성 요소를 적용하는 방법에 대해 설명합니다.
 
@@ -74,3 +66,4 @@ AEM Screens 프로젝트에 전환 구성 요소를 추가하려면 아래 단�
 1. 또한 이 채널 편집기에 **포함된 시퀀스** 구성 요소(시퀀스 채널 포함)를 추가하면 마지막에 전환 구성 요소를 추가할 수 있습니다. 이렇게 하면 다음 이미지에 표시된 대로 컨텐츠가 올바른 순서로 재생됩니다.
 
    ![이미지3](assets/transitions5.png)
+

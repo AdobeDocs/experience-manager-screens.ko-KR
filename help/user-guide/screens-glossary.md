@@ -6,14 +6,10 @@ role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 TQID: https://experienceleague.adobe.com/7wZWJnsszMHUi8OvOnUHVrJIotg0CE395r0yPlu-6-A
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -23,7 +19,7 @@ ht-degree: 0%
 # 용어 설명 {#glossary}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 **응용 프로그램 채널** - 응용 프로그램 채널에는 대화형 콘텐츠를 표시하는 개발자가 만든 응용 프로그램이 표시됩니다.
 
@@ -48,3 +44,4 @@ ht-degree: 0%
 **시퀀스 채널** - 시퀀스 채널은 슬라이드 쇼에서 하나씩 표시되는 구성 요소를 포함하여 작성할 수 있는 페이지입니다.
 
 **영역** - 영역은 채널의 기본 주소 지정 가능 엔터티로 사용되는 디스플레이의 세분화입니다. 가 여러 화면에 걸쳐 있는 경우 특히 화면에 눈에 띄는 물리적 테두리가 표시되는 경우 화면 차원과 일치하도록 영역을 정의하는 것이 좋습니다.
+

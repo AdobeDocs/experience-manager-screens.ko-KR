@@ -6,16 +6,11 @@ role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 625
 ht-degree: 2%
@@ -25,7 +20,7 @@ ht-degree: 2%
 # Adobe Experience Manager Screens란?{#what-is-aem-screens}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 **Experience Manager Screens** - 다양한 유형의 화면을 포함하는 동적 및 대화형 디지털 경험과 상호 작용을 포괄적인 디지털 마케팅 플랫폼에 게시할 수 있는 디지털 서명 솔루션입니다.
 
@@ -70,7 +65,7 @@ Experience Manager Screens과 관련된 주요 용어를 이해하려면 [용어
 
 * **안내식 구현 Essentials**
 
-  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/ko?launch=AEM-7a)**&#x200B;를 따르십시오.
+  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**&#x200B;를 따르십시오.
 
 * **Experience Manager Screens 프로젝트에 대한 모범 사례 안내서**
 
@@ -81,3 +76,4 @@ DEAD LINK * **New Adobe Customer Support Experience**
 
    Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. 
 -->
+
