@@ -23,7 +23,7 @@ ht-degree: 0%
 이 페이지에서는 다음 항목을 강조합니다.
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 * **작성자 및 게시 인스턴스 구성**
 * **게시 토폴로지 설정**
@@ -123,7 +123,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 1. pub2용 AEM Screens 복제 에이전트를 만듭니다. pub1용 Screens 복제 에이전트를 복사하고 pub2용 4504로 포트를 변경합니다.
 
    >[!NOTE]
-   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
+   >Screens 복제 에이전트를 구성하는 방법은 [Screens 복제 에이전트 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)을 참조하십시오.
 
 #### Screens 역방향 복제 에이전트 생성 {#creating-screens-reverse-replication-agents}
 

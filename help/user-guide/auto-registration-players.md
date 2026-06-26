@@ -26,7 +26,7 @@ ht-degree: 0%
 # 플레이어 자동 등록 {#auto-registration}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 수천 명의 플레이어를 수동으로 일괄 등록하는 것은 번거로울 수 있으며 시간과 비용을 추가할 수 있습니다. 이 프로세스를 단순화하기 위해 벌크 등록 기능을 사용하면 구성 파일 또는 MDM(모바일 장치 관리) 솔루션을 통해 플레이어에 프로비저닝할 수 있는 AEM의 미리 공유된 키를 지정할 수 있습니다.
 

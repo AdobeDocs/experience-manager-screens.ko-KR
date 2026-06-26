@@ -31,7 +31,7 @@ ht-degree: 1%
 ## 사용 사례 설명 {#use-case-description}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 섹션에서는 단일 영역 레이아웃 채널과 교대로 반복되는 다중 영역 레이아웃 채널을 설정하는 방법에 중점을 둔 사용 사례 예를 설명합니다. 멀티존 채널에는 시퀀싱 이미지/비디오 자산이 있으며 멀티존에서 단일 존으로, 그리고 역으로 프로젝트를 설정하는 방법을 보여 줍니다.
 

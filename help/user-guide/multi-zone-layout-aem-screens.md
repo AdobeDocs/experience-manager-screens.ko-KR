@@ -35,7 +35,7 @@ ht-degree: 0%
 # 다중 영역 레이아웃 {#multi-zone-layout}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 다음 페이지에서는 다중 영역 레이아웃의 사용에 대해 설명하고 다음 항목을 다룹니다.
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 이 기능을 구현하기 전에 다음에 대한 개념적 지식이 있는지 확인하십시오.
 
-* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [디스플레이 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [디스플레이 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [디스플레이에 채널 할당](/help/user-guide/channel-assignment.md)
 
 ## 다중 영역 레이아웃 만들기 {#creating-multi-zone-layout}

@@ -35,7 +35,7 @@ ht-degree: 0%
 # Screens Launch를 사용한 컨텐츠 업데이트 {#launches}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 콘텐츠 작성자는 채널의 향후 버전을 만들고 이 론치의 라이브 날짜를 추가로 설정할 수 있습니다. 이 기능을 사용하면 콘텐츠를 지정된 라이브 날짜에 디바이스 또는 플레이어에서 라이브할 수 있습니다.
 

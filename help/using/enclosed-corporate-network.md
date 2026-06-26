@@ -21,7 +21,7 @@ ht-degree: 0%
 # 폐쇄형 회사 네트워크(유선/무선) {#enclosed-corporate-networks}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 동봉된 기업 네트워크 설정은 소규모, 대규모, 대기업에도 적용됩니다. 이론적으로 더 복잡할 수 있으며, 논리적 설정은 아래 그림과 같다.
 

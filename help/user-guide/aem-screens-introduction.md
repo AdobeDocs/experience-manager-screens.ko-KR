@@ -25,7 +25,7 @@ ht-degree: 2%
 # Adobe Experience Manager Screens란?{#what-is-aem-screens}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 **Experience Manager Screens** - 다양한 유형의 화면을 포함하는 동적 및 대화형 디지털 경험과 상호 작용을 포괄적인 디지털 마케팅 플랫폼에 게시할 수 있는 디지털 서명 솔루션입니다.
 
@@ -70,7 +70,7 @@ Experience Manager Screens과 관련된 주요 용어를 이해하려면 [용어
 
 * **안내식 구현 Essentials**
 
-  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**&#x200B;를 따르십시오.
+  Experience Manager Screens에서 지원되는 기본 및 고급 기능을 다루는 안내 학습 경로 **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/ko?launch=AEM-7a)**&#x200B;를 따르십시오.
 
 * **Experience Manager Screens 프로젝트에 대한 모범 사례 안내서**
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 # 일정 만들기 및 관리 {#creating-and-managing-schedules}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 AEM Screens의 **일정**&#x200B;을 통해 재사용 가능한 그룹으로 채널을 구성할 수 있습니다. 이렇게 하면 콘텐츠를 표시할 각 디스플레이에 대해 개별적으로 할당을 반복하지 않아도 됩니다.
 

@@ -28,7 +28,7 @@ ht-degree: 0%
 # Cloud Player 구현 {#implementing-cloud-player}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 AEM Screens은 전통적으로 ChromeOS, Windows, Android™ 및 `Tizen`을(를) 비롯한 다양한 플랫폼에 대해 고유한 기본 플레이어 애플리케이션을 제공했습니다. 그러나 사용자의 변화하는 요구에 따라 Adobe은 혁신적인 솔루션인 AEM Screens Cloud Player를 도입했습니다.
 
