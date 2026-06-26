@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 0%
@@ -97,3 +97,4 @@ ht-degree: 0%
    1. **`Restaurant1`** 및 **`Restaurant2`** 열의 값을 업데이트합니다. **`Restaurant1`** > **`Restaurant2`,**&#x200B;인 경우 *스테이크* 음식 이미지를 볼 수 있어야 합니다. 그렇지 않으면 *태국어* 음식 이미지가 화면에 표시됩니다.
 
    ![결과5](assets/result5.gif)
+

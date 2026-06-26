@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 457
 ht-degree: 0%
@@ -68,3 +68,4 @@ AEM Screens 작성자는 AEM Screens에서 사용 가능한 구성 요소를 사
 
 >[!NOTE]
 >CSV/XLS 스프레드시트에서 AEM Screens 프로젝트로 위치 세트를 일괄 가져올 수도 있습니다. [파일에서 새 프로젝트 가져오기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/project-importer)를 참조하십시오.
+

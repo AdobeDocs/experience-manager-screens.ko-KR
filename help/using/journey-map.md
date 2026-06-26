@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -38,3 +38,4 @@ UX 여정 맵은 방문자가 물리적 공간을 어떻게 이동할 수 있고
 
 >[!NOTE]
 > 파일럿 중에 분석 수집을 시작하여 비즈니스 팀이 달성하려는 특정 지표에 대해 솔루션의 성공을 검증할 수 있도록 지원합니다. 파일럿이 어떻게 수행하는지 아는 것은 비즈니스 팀이 어떤 개선이 이루어져야 하는지 결정하는 데 도움이 됩니다.
+

@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 4%
 
 ---
@@ -53,8 +53,7 @@ ht-degree: 4%
    >![이미지](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 `/conf/screens/sling:configs/rendition-mapping`에서 미리 채워진 **렌디션 매핑** 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용은 [기능 팩 릴리스 정보 202109](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.
-   >기존 프로젝트의 경우 Screens 프로젝트에 **렌디션 매핑** 구성이 연결되어 있는지 확인하십시오. 자세한 내용은 [기존 프로젝트에 렌디션 매핑 추가](#rendition-mapping-existing) 섹션을 참조하십시오.
+   >최신 기능 팩 202109을 설치한 경우 CRXDE Lite의 `/conf/screens/sling:configs/rendition-mapping`에서 미리 채워진 **렌디션 매핑** 노드 구조가 표시됩니다. 최신 기능 팩에 대한 자세한 내용을 보려면 [기능 팩 202109 릴리스 정보](/help/user-guide/release-notes-fp-202109.md)를 참조하십시오.   >기존 프로젝트의 경우 Screens 프로젝트에 **렌디션 매핑** 구성이 연결되어 있는지 확인하십시오. 자세한 내용은 [기존 프로젝트에 렌디션 매핑 추가](#rendition-mapping-existing) 섹션을 참조하십시오.
 
 ### 기존 프로젝트에 렌디션 매핑 속성 추가 {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ ht-degree: 4%
 ## 다음 단계 {#next-steps}
 
 콘텐츠 작성자는 렌디션 매핑 속성 및 규칙을 추가한 후 에셋을 구성할 수 있습니다. 적응형 렌디션을 사용하고 대규모 네트워크용으로 디바이스를 마이그레이션하여 AEM Screens 채널에서 이 기능을 사용할 수도 있습니다. 자세한 내용은 [AEM Screens에서 적응형 표현물 사용](/help/user-guide/using-adaptive-renditions.md)을 참조하십시오.
+

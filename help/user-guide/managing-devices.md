@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 6%
+source-wordcount: 288
+ht-degree: 5%
 
 ---
 
@@ -79,12 +79,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->새 Screens 프로젝트에 첫 번째 장치가 추가될 때마다 사용자 그룹이 생성됩니다.
->예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*입니다.
->이 그룹은 아래 그림과 같이 **참가자** 그룹의 구성원으로 추가됩니다.
+>새 Screens 프로젝트에 첫 번째 장치가 추가될 때마다 사용자 그룹이 생성됩니다.예를 들어 프로젝트 노드 이름이 *we-retail*&#x200B;이면 사용자 그룹 이름은 *screens-we-retail-devices*&#x200B;입니다.이 그룹은 아래 그림과 같이 **참가자** 그룹의 구성원으로 추가됩니다.
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### 다음 단계 {#the-next-steps}
 
 디스플레이에 채널을 할당하는 방법을 잘 이해했으면 t[모니터링 및 문제 해결](monitoring-screens.md)을 참조하십시오.
+

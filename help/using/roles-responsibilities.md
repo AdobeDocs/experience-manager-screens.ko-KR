@@ -16,7 +16,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1349
 ht-degree: 0%
@@ -213,3 +213,4 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 | Tier 3 지원 | I | RA | C |
 | 컨텐츠 업데이트 | RA | I | I |
 | UX 성공 평가 및 개선 영역 파악 | RA | C | I |
+

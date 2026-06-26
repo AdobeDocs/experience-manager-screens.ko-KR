@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 736
 ht-degree: 49%
@@ -67,3 +67,4 @@ AEM 사이트 형식은 의도한 표시 장치의 차원에서 사용해야 합
 
 >[!NOTE]
 >많은 AEM Sites 구성 요소가 AEM Screens와 호환되지 않습니다. AEM Screens에는 사용자 정의 없이도 디지털 경험을 구축할 수 있는 기본 구성 요소가 많이 포함되어 있습니다. 프로젝트 요구 사항이 허용하는 경우 가능하면 기본 제공 AEM Screens 기능을 사용하십시오.
+

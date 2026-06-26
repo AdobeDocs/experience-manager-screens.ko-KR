@@ -14,7 +14,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 1%
@@ -170,7 +170,7 @@ AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려
 &quot;data-uri&quot;를 사용하도록 CSS 규칙을 조정하고 (13단계), *static.css*&#x200B;에서 만든 CSS 파일에서 이미지(`Base64` 인코딩)를 직접 인라인할 수 있습니다.
 
 이러한 배열은 다음과 같이 수행됩니다.
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+
 
 또는 아래 단계를 따를 수 있습니다.
 
@@ -183,3 +183,4 @@ AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려
 배경색을 변경하려면 xml 파일(*static.css*)에 다음 코드를 추가하십시오.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

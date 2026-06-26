@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -40,8 +40,7 @@ AEM Screens 링크(왼쪽 상단)를 선택한 다음 Screens을 선택하여 Ad
 또는 `http://localhost:4502/screens.html/content/screens`(으)로 바로 이동할 수 있습니다.
 
 >[!NOTE]
->**탐색 팁:**
->커서 키를 사용하여 AEM의 다른 폴더를 탐색할 수도 있습니다. 또한 특정 엔티티를 클릭한 후 스페이스 바를 눌러 해당 특정 폴더의 속성을 편집하거나 봅니다.
+>**탐색 팁:커서 키를 사용하여 AEM의 여러 폴더를 탐색할 수도 있습니다. 또한 특정 엔티티를 클릭한 후 스페이스 바를 눌러 해당 특정 폴더의 속성을 편집하거나 봅니다.
 
 ## 새 Screens 프로젝트 만들기
 
@@ -92,3 +91,4 @@ Screens 프로젝트를 만든 후 프로젝트를 클릭하고 작업 표시줄
 ### 다음 단계 {#the-next-steps}
 
 나만의 프로젝트를 만든 경우 [채널 관리](managing-channels.md)를 참조하여 채널에서 콘텐츠를 만들고 관리하십시오.
+

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -72,8 +72,7 @@ AMS 인스턴스에서 AEM의 암호 정책을 비활성화해야 합니다. 또
 * AEM 누적 수정 팩
 
 위의 항목 외에도 모든 개발 패키지(예: WCM 코어)를 식별합니다
-구성 요소) 또는 필요한 타사 툴킷(예: SAP Hybris)
-로컬 개발 환경에 동일한 소프트웨어 패키지를 설치합니다. 모든 QA, 스테이지 및 프로덕션 서버에서 동일한 구성을 채택하도록 클라이언트에 지시합니다. 서버 구성이 일치하지 않으면 배포 및 테스트 시 문제가 발생합니다.
+구성 요소) 또는 필요한 타사 툴킷(예: SAP Hybris)로컬 개발 환경에 동일한 소프트웨어 패키지를 설치합니다. 모든 QA, 스테이지 및 프로덕션 서버에서 동일한 구성을 채택하도록 클라이언트에 지시합니다. 서버 구성이 일치하지 않으면 배포 및 테스트 시 문제가 발생합니다.
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ AMS 인스턴스에서 AEM의 암호 정책을 비활성화해야 합니다. 또
 ACL을 설정하면 각 개인 또는 팀이 자체 프로젝트를 처리하도록 프로젝트를 분리하는 방법을 설명합니다.
 
 자세한 내용은 [ACL 설정](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/setting-up-acls)을 참조하십시오.
+

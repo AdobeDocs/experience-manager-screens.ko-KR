@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 27%
@@ -54,3 +54,4 @@ AEM Screens은 Adobe Experience Manager(AEM)의 새로운 확장 기능입니다
 >
 > * **UX**&#x200B;는 최종 고객에게 제공되는 디지털 간판 경험을 의미합니다.
 > * **UI**&#x200B;은(는) Screens에서 프로젝트를 만들고 관리할 수 있는 사용자 인터페이스를 의미합니다.
+

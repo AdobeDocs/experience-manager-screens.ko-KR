@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 
    ![이미지](assets/voice-recognition/vr-2.png)
 
-   Screens 분할 채널을 프로젝트에 추가한 경우 **SplitScreen**(으)로 이동하여 포함된 시퀀스 두 개를 드래그 앤 드롭합니다. 아래 그림과 같이 **ColdDrinks** 및 **HotDrinks** 채널에 경로를 추가합니다.
-   ![이미지](assets/voice-recognition/vr-emb-6.png)
+   Screens 분할 채널을 프로젝트에 추가한 경우 **SplitScreen**(으)로 이동하여 포함된 시퀀스 두 개를 드래그 앤 드롭합니다. 아래 그림과 같이 **ColdDrinks** 및 **HotDrinks** 채널에 경로를 추가합니다.   ![이미지](assets/voice-recognition/vr-emb-6.png)
 
 
 ### 채널에 대한 태그 설정 {#setting-tags}
@@ -204,3 +203,4 @@ AEM Screens 프로젝트에서 음성 인식을 구현하려면 표시에 대해
 **분할 Screens 채널에 대해 원하는 출력**
 
 **Main** 채널이 콘텐츠를 재생하고 있습니다. 그러나 *뜨거운 음료와 차가운 음료에 대한 메뉴를 보고 싶습니다*&#x200B;와 같이 **뜨거운 음료**&#x200B;와 **차가운 음료**&#x200B;를 함께 사용하는 단어를 사용하면 채널은 **SplitScreen** 채널의 콘텐츠를 재생합니다. *주 메뉴로 돌아가기*&#x200B;를 지정하면 **주** 채널로 되돌아갑니다.
+

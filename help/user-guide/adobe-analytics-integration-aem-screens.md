@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 739
 ht-degree: 1%
@@ -141,3 +141,4 @@ Analytics 이벤트는 indexedDB에 오프라인으로 저장되고 나중에 �
 >[!NOTE]
 >
 >***시퀀싱*** 및 ***이벤트에 대한 표준 데이터 모델***&#x200B;에 대한 자세한 내용은 **[AEM Screens에 대한 Adobe Analytics 구성](configuring-adobe-analytics-aem-screens.md)**&#x200B;을 참조하세요.
+

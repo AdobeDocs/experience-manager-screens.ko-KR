@@ -14,7 +14,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 0%
@@ -49,3 +49,4 @@ AEM Screens 플레이어를 다운로드하려면 [여기](https://download.macr
 아래 비디오는 위치, 디스플레이 및 디바이스 구성 생성을 보여 줍니다. 이 비디오는 디바이스를 등록하고 디바이스를 디스플레이에 할당하는 단계를 보여주기도 합니다. [Screens 킥스타트 가이드](kickstart-for-aem-screens.md)의 후반부를 따라 느슨하게 진행됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/34867?captions=kor&quality=9)
+

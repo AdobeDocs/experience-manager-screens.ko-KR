@@ -26,9 +26,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 825
 ht-degree: 0%
 
 ---
@@ -56,8 +56,7 @@ ht-degree: 0%
 채널에 포함된 시퀀스를 추가할 수 있습니다. 포함된 시퀀스는 이미지 또는 비디오와 같은 에셋을 포함하는 다른 채널입니다. 포함된 시퀀스를 추가하면 사용자는 ***채널 경로***&#x200B;의 채널에 시퀀스를 추가할 수 있습니다.
 
 >[!NOTE]
->***채널 경로***은(는) 채널에 대한 명시적 참조를 정의합니다.
->*채널 경로*&#x200B;에 대한 자세한 내용은 Screens 작성에서 [채널 할당](channel-assignment.md)을 참조하세요.
+>***채널 경로***&#x200B;은(는) 채널에 대한 명시적 참조를 정의합니다.*채널 경로*&#x200B;에 대한 자세한 내용은 Screens 작성에서 [채널 할당](channel-assignment.md)을 참조하세요.
 
 채널에 포함된 시퀀스를 추가하려면 아래 단계를 따르십시오.
 
@@ -119,3 +118,4 @@ ht-degree: 0%
 1. 시퀀스에 포함된 채널의 **시퀀스** 탭에서 **기간(밀리초)**&#x200B;을 클릭합니다.
 
 ![최신](assets/latest.gif)
+

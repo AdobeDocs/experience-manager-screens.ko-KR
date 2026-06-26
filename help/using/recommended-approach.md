@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -69,3 +69,4 @@ ht-degree: 0%
 
 * **사용자 지정 통합 범위 이해**:
 터치 스크린 상호 작용, 모션 센서 또는 RFID이 있는 대화형 구성 요소는 구현 방법에서 상당한 사용자 지정 개발이 필요합니다. 슬라이드쇼, 비디오 광고 또는 정적 메뉴는 Screens 채널에서 그래픽 콘텐츠 또는 HTML으로 제공될 수 있습니다.
+

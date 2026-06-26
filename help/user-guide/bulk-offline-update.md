@@ -24,7 +24,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -95,3 +95,4 @@ AEM Screens 프로젝트에 대해 벌크 오프라인 업데이트를 사용하
    **예약 빈도** - 이 서비스가 오프라인 콘텐츠를 업데이트해야 하는 시간(예: 오후 5:00 또는 오후 17:00)을 지정합니다.
 
 1. 설정을 저장하려면 **저장**&#x200B;을 클릭하세요. 콘텐츠가 지정된 시간에 업데이트됩니다.
+

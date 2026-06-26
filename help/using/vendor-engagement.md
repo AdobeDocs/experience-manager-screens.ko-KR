@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 * 모든 결과물에 대한 *리드 타임*&#x200B;을 확인합니다. 처음 필요한 설치의 하나 이상의 원하는 설치 날짜에서 역방향으로 작업하는 모든 리드 타임을 수용하는 배포 계획을 만듭니다.
 
 이전의 모든 단계를 완료하면 이제 포괄적인 *일 1* 배포 계획을 실행할 준비가 되었습니다.
+

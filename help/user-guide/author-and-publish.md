@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -155,8 +155,7 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 
 #### 3단계: ActiveMQ Artemis 클러스터 설정 {#step-setup-activemq-artemis-cluster}
 
-이 단계에서는 ActiveMQ Artemis 클러스터에 대해 암호화된 암호를 만들 수 있습니다.
-토폴로지에 있는 모든 게시 인스턴스의 클러스터 사용자와 암호가 동일해야 합니다. ActiveMQ Artemis 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 암호화 지원을 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ에 대한 OSGi 구성에서 암호화된 암호를 사용할 수 있습니다.
+이 단계에서는 ActiveMQ Artemis 클러스터에 대해 암호화된 암호를 만들 수 있습니다.토폴로지에 있는 모든 게시 인스턴스의 클러스터 사용자와 암호가 동일해야 합니다. ActiveMQ Artemis 구성의 암호를 암호화해야 합니다. 각 인스턴스에는 자체 암호화 키가 있으므로 암호화 지원을 사용하여 암호화된 암호 문자열을 만들어야 합니다. 그런 다음 ActiveMQ에 대한 OSGi 구성에서 암호화된 암호를 사용할 수 있습니다.
 
 각 게시 인스턴스에서 다음을 수행합니다.
 
@@ -170,7 +169,6 @@ Screens에 필요한 세 가지 복제 에이전트가 있습니다.
 >[!NOTE]
 >
 >암호는 중괄호로 시작하고 끝나야 합니다. 예:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 4단계: ActiveMQ Artemis 클러스터 활성화 {#step-activate-activemq-artemis-cluster}
 

@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1285
 ht-degree: 2%
@@ -193,3 +193,4 @@ DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재
 >
 >* [Assets에서 반복 처리](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
 >* [채널에서 Assets에 대한 반복 처리](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+

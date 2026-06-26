@@ -23,7 +23,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 283
 ht-degree: 1%
@@ -76,3 +76,4 @@ AEM Screens 프로젝트용 위치를 만드는 방법에 대해 이해하려면
 위치를 만든 후 해당 위치에 대한 디스플레이를 만듭니다.
 
 [디스플레이 만들기 및 관리](managing-displays.md)를 참조하세요.
+

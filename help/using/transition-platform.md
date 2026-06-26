@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 0%
@@ -43,3 +43,4 @@ ht-degree: 0%
 이 단계에서는 주의가 필요한 모든 필수 작업 및 활동을 검토하고 적절하게 문서화하여 배포 단계에서 할당된 작업을 올바르게 추적할 수 있도록 합니다.
 
 또한 이 단계에서 자동화를 위한 가능한 후보로 사전 정의된 모든 활동을 검토하십시오.
+

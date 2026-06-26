@@ -16,7 +16,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 388
 ht-degree: 0%
@@ -66,3 +66,4 @@ ht-degree: 0%
 
   >[!NOTE]
   >기본 표시 할당은 현재 일괄 등록에만 작동합니다. 등록 코드를 사용할 수 없는 경우 수동 등록에는 작동하지 않습니다.
+

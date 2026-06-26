@@ -19,7 +19,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 467
 ht-degree: 1%
@@ -101,3 +101,4 @@ ht-degree: 1%
 >[!NOTE]
 >
 >필요에 따라 채널 전환을 사용자 정의할 수 있습니다(다중 영역에서 단일 영역 레이아웃으로 또는 반대로).
+

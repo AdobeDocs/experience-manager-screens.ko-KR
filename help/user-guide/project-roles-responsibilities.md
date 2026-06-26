@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 0%
@@ -84,3 +84,4 @@ AEM 구현자는 일반적으로 위치에 시간이 지남에 따라 사용자 
 디지털 사이니지 프로젝트를 구현할 때의 프로젝트 역할과 책임에 대해 이해하면 다음 자습서를 따르십시오. AEM Screens 영업 기회를 개발할 때 프로젝트 범위가 지정되므로 테스트 및 사전 판매 고려 사항과 같은 주제를 다룹니다.
 
 자세한 내용은 **[파트 2: 프로젝트 범위 지정 시 고려 사항](project-considerations.md)**&#x200B;을 참조하십시오.
+

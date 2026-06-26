@@ -18,7 +18,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 734
 ht-degree: 0%
@@ -147,3 +147,4 @@ AEM Screens을 통해 SPA를 Adobe Analytics과 오프라인 기능과 통합하
    >[!NOTE]
    >
    >플레이어 펌웨어는 사용자가 전송하는 사용자 지정 분석 데이터에 플레이어 및 해당 런타임 환경에 대한 자세한 내용을 자동으로 추가합니다. 따라서 필요한 경우가 아니면 낮은 수준의 OS/디바이스 세부 정보를 캡처해야 할 수 있습니다. 비즈니스 분석 데이터에 집중합니다.
+

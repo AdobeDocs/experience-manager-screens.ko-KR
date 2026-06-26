@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -165,8 +165,7 @@ AEM Screens 프로젝트에서 채널 수준 활성화를 구현하려면 다음
 
 >[!NOTE]
 >
->AEM Screen Player에 대해 알아보려면 다음 리소스를 참조하십시오.>[AEM Screens Player 다운로드](https://download.macromedia.com/screens/)
->[AEM Screens 플레이어로 작업](working-with-screens-player.md)
+>AEM Screen Player에 대한 자세한 내용은 다음 리소스를 참조하십시오.AEM Screens 플레이어 다운로드AEM Screens 플레이어 작업&rbrack;(working-with-screens-player.md)
 
 
 ## 채널에서 Assets에 대한 반복 처리 {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ AEM Screens 프로젝트에서 채널 수준 활성화를 구현하려면 다음
 >[!NOTE]
 >
 >요일 및 월을 정의할 때 월/월요일 및 1월/1과 같은 약식 및 전체 이름 표기를 모두 사용할 수 있습니다. 또한 *A.M./P.M.*(오후 2:00) 대신 _군 시간_ 표기법(14:00)을 사용할 수도 있습니다.
+

@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 498
 ht-degree: 1%
@@ -102,3 +102,4 @@ ContentSync에서 SmartSync로 전환하려면 아래 단계를 따르십시오.
 1. SmartSync를 활성화한 경우 프로젝트로 이동하여 아래 그림과 같이 **오프라인 콘텐츠 업데이트** *(작업 표시줄에서),*&#x200B;을(를) 클릭합니다.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
+

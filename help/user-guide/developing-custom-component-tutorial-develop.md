@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2410
+source-wordcount: 2414
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    [파일 가져오기](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [파일 가져오기](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack;파일 가져오기
    **선택적으로** Eclipse 또는 다른 IDE로 작업하는 경우 아래 소스 패키지를 다운로드합니다. Maven 명령을 사용하여 로컬 AEM 인스턴스에 프로젝트를 배포합니다.
 
    **`mvn -PautoInstallPackage clean install`**
@@ -599,3 +599,4 @@ public class MyCustomHandler extends AbstractResourceHandler {
 [파일 가져오기](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
 [파일 가져오기](assets/screens-weretail-run.zip)
+

@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 442
 ht-degree: 2%
@@ -76,3 +76,4 @@ ht-degree: 2%
 * 비디오(비디오에 올바른 렌디션이 있는 경우)와 썸네일 세트가 모두 있는 비디오 구성 요소가 비디오를 재생합니다.
 
 * 비디오 세트가 있는 비디오 구성 요소는 재생 오류가 있을 경우 썸네일을 재생하고, 썸네일이 구성되지 않은 경우 다음 항목으로 건너뜁니다.
+

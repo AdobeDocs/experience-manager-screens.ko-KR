@@ -26,9 +26,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2532
+source-wordcount: 2539
 ht-degree: 1%
 
 ---
@@ -91,8 +91,7 @@ ht-degree: 1%
 * **채널** 폴더에 **전역** 채널을 만듭니다.
 * **전역** 채널에 콘텐츠를 추가합니다(*관련 자산에 대한&#x200B;**Resources.zip**&#x200B;확인*).
 
-다음 이미지는 **채널** 폴더에 **전역** 채널이 있는 **데모** 프로젝트를 보여 줍니다.
-![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
+다음 이미지는 **채널** 폴더에 **전역** 채널이 있는 **데모** 프로젝트를 보여 줍니다.![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### 리소스 {#resources}
 
@@ -418,3 +417,4 @@ AEM Screens 프로젝트에서 동적 임베디드 시퀀스를 구현하는 데
 >[!NOTE]
 >
 >권한 설정에 대한 자세한 내용은 [ACL 설정](setting-up-acls.md)을 참조하세요.
+

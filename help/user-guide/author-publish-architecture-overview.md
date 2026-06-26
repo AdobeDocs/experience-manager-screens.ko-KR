@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1041
 ht-degree: 0%
@@ -123,3 +123,4 @@ AEM Screens 아키텍처는 기존의 AEM Sites 아키텍처와 유사합니다.
 ### 다음 단계 {#the-next-steps}
 
 AEM Screens의 작성자 및 게시 설정에 대한 아키텍처 설계를 이해하면 [AEM Screens에 대한 작성자 및 게시 구성](author-and-publish.md)을 참조하십시오.
+

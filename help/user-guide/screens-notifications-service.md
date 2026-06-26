@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 0%
@@ -128,3 +128,4 @@ OBSOLETE NOTE>
 **시나리오 2**
 
 예약 빈도를 1로 설정하고 ping 시간 초과를 60으로 설정합니다. 그런 다음 AEM Screens 장치가 하루 중 특정 시간에 한 번에 ping을 수행하지 않으면 장치 비활성화를 확인하는 이메일 알림을 받게 됩니다.
+

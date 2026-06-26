@@ -22,7 +22,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 763
 ht-degree: 1%
@@ -202,3 +202,4 @@ ht-degree: 1%
 **EmergencyChannel**&#x200B;은(는) 콘텐츠 작성자가 우선 순위 값을 1로 재설정할 때까지 해당 콘텐츠를 계속 표시합니다.
 
 콘텐츠 작성자는 긴급 상황이 해결되었다는 지침을 받으면 **MainAdChannel**&#x200B;의 우선 순위를 업데이트해야 합니다. 이렇게 하면 일반 재생이 다시 시작됩니다.
+

@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 0%
@@ -50,3 +50,4 @@ UX 종속성은 콘텐츠가 전략화되는 위치와 방법을 정의하므로
 1. 하나의 디스플레이에 여러 개의 장치가 필요합니까(예: 다중 영역, 초대형 보드)?
 
 1. 밝기, 온도, 계절 등 환경 고려 사항은 무엇인가?
+

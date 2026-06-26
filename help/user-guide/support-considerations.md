@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 677
 ht-degree: 0%
@@ -79,3 +79,4 @@ ht-degree: 0%
 ## 결론 {#conclusion}
 
 5부로 구성된 이 시리즈는 프로젝트의 성공을 보장하는 데 중요한 고려 사항에 중점을 둡니다. 구현에 대한 자세한 내용은 AEM Screens 사용 안내서의 다른 섹션을 참조하십시오.
+
