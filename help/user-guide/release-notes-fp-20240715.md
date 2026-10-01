@@ -8,24 +8,29 @@ exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
 TQID: https://experienceleague.adobe.com/iBrvF7rb4cVg2oyd8Oot3HJmjgv-Vg7jgLdy2ba6hZs
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Security
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 15%
-
 ---
-
 # 기능 팩 20240715 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
+>
 >FeaturePack(FP) 버전 11.4는 ServicePack(SP)과 최대 버전 20까지 호환됩니다.
 
 

@@ -13,29 +13,35 @@ exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 TQID: https://experienceleague.adobe.com/IkYpLkG1zlxS5-YmCsyXLryXc7AsnZmuHj66Dh7NJSc
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 0%
-
 ---
-
 # 다중 영역 레이아웃 {#multi-zone-layout}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 다음 페이지에서는 다중 영역 레이아웃의 사용에 대해 설명하고 다음 항목을 다룹니다.
 
@@ -52,14 +58,15 @@ ht-degree: 0%
 프로젝트 요구 사항에 따라 한 채널에 여러 영역이 필요하며 이를 하나의 포괄적인 단위로 편집해야 하는 경우가 있습니다. 예를 들어, 단일 채널에서 세 개의 별도 영역에서 실행되는 관련 소셜 미디어 피드가 있는 제품 시퀀스입니다.
 
 >[!NOTE]
+>
 >다중 영역 채널에서는 잠재적인 충돌 및 의도하지 않은 동작으로 인해 자산 수준 스케줄링을 권장하지 않습니다. 에셋 수준 스케줄링이 필요한 경우 별도의 시퀀스 채널을 생성하고 해당 채널 내에 스케줄링 로직을 적용합니다. 그런 다음 시퀀스 채널을 다중 영역 채널에 포함합니다.
 
 ### 사전 요구 사항 {#prerequisites}
 
 이 기능을 구현하기 전에 다음에 대한 개념적 지식이 있는지 확인하십시오.
 
-* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [디스플레이 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [AEM Screens 프로젝트 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [디스플레이 만들기](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [디스플레이에 채널 할당](/help/user-guide/channel-assignment.md)
 
 ## 다중 영역 레이아웃 만들기 {#creating-multi-zone-layout}
@@ -192,7 +199,7 @@ AEM Screens 플레이어에서 컨텐츠를 볼 수 있도록 위치 및 디스�
       > 장치의 제목은 **장치 등록** 탭에 표시되는 장치 토큰(**토큰** 필드)과 일치해야 합니다.
 
    1. 제목이 장치 토큰과 일치하면 장치를 클릭하고 작업 표시줄에서 **장치 등록**&#x200B;을 클릭합니다.
-   1. 등록 코드가 Screens 플레이어 **장치 등록** 탭의 코드와 일치하는 경우 작업 표시줄에서 **유효성 검사**&#x200B;를 클릭하십시오.
+   1. 등록 코드가 Screens 플레이어 **장치 등록** 탭의 코드와 일치하는 경우 작업 표시줄에서 **유효성 검사**를 클릭하십시오.
       ![이미지](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. **제목**&#x200B;을(를) **`Chrome-Device1`**(으)로 입력하고 **등록**&#x200B;을(를) 클릭합니다.
    1. **디스플레이 할당**&#x200B;을 클릭하고 장치 구성 경로를 클릭합니다.

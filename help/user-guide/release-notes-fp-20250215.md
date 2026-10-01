@@ -8,22 +8,26 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 TQID: https://experienceleague.adobe.com/q6KAClMHbAULOEumQlx5-FdaaVmAcMOCL8m6KWIB458
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 10%
-
 ---
-
 # 기능 팩 20250327 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe에서는 6.5 Adobe Experience Manager(AEM 6.5)의 최신 버전으로 업그레이드할 것을 권장합니다. [여기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)에서 최신 버전 정보를 가져올 수 있습니다.
+> 
 >Adobe에서는 FP11.6을 SP(servicepack) >= 21과 함께 사용하는 것이 좋습니다.
 
 ## 사용 가능 {#availability}
@@ -43,8 +47,8 @@ AEM Screens 기능 팩 20250327의 릴리스 날짜는 2025년 3월 27일입니�
 * 이 릴리스에서는 SP22 이상의 카드 보기에서 문제가 해결되었습니다.
 
 * **AEM Screens 플레이어 업데이트**
-   * Linux 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
-   * Android 기반 AEM Screens Player에 대한 추가 업데이트 또는 개선 사항은 없습니다. 사용자는 AEM Screens이 지원하는 대체 운영 체제로 마이그레이션하는 것이 좋습니다.
+  * Linux 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
+  * Android 기반 AEM Screens Player에 대한 추가 업데이트 또는 개선 사항은 없습니다. 사용자는 AEM Screens이 지원하는 대체 운영 체제로 마이그레이션하는 것이 좋습니다.
 
 ### 버그 수정 {#bug-fixes}
 
