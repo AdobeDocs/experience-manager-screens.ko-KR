@@ -8,28 +8,36 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1295'
 ht-degree: 2%
-
 ---
-
 # 채널 할당 {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >이 섹션에서는 AEM 6.5.5 Screens 버전 이전의 기능 팩에 대한 채널 할당 및 채널 예약을 강조 표시합니다.
 
 디스플레이를 설정한 경우 디스플레이에 채널을 할당하여 콘텐츠를 봅니다.
@@ -78,6 +86,7 @@ ht-degree: 2%
 여러 할당이 재생 기준과 일치하는 경우 우선 순위를 사용하여 할당을 정렬합니다. 값이 가장 높은 것이 항상 낮은 값보다 우선합니다. 예를 들어, 두 개의 채널 A와 B가 있는 경우. A는 우선 순위가 1이고 B는 우선 순위가 2이므로 A보다 우선 순위가 높은 채널 B가 표시됩니다.
 
 >[!NOTE]
+>
 >채널의 우선 순위는 위에서 설명한 대로 **채널 할당** 대화 상자에서 숫자(최소 1)로 설정됩니다. 또한 할당된 채널은 내림차순 우선 순위를 기준으로 정렬됩니다.
 
 ### 지원되는 이벤트 {#supported-events-channel}
@@ -131,13 +140,13 @@ DayParting은 하루를 시간 슬롯으로 분할하고 원하는 시간에 재
 
 | **채널** | **역할** | **우선 순위** | **일정** |
 |---|---|---|---|
-| Menu_A | 아침 식사 |  | 6:00 후 및 11:00 전 |
-| Menu_B | 점심 |  | 11:00 후 및 15:00 전 |
-| Menu_C | 저녁식사 |  | 15:00 후 및 20:00 전 |
+| Menu_A | 아침 식사 |  | 6:00 이후 및 11:00 이전 |
+| Menu_B | 점심 |  | 11:00 이후 및 15:00 이전 |
+| Menu_C | 저녁식사 |  | 15:00 이후 및 20:00 이전 |
 
 #### 특정 요일에 콘텐츠 재생 {#playing-content-on-a-particular-day-of-the-week}
 
-이 예는 매일 주말 오후 8:00부터 오후 10:00까지 라이브 이벤트가 발생하고 오후 10:00부터 오전 1:00까지 디너 메뉴에 대한 스페셜을 사용할 수 있는 카지노에서 달성한 dayParting을 보여줍니다.
+이 예는 매일 주말 오후 8시부터 오후 10시까지 라이브 이벤트가 발생하고 오후 10시 이후부터 오전 1시까지 디너 메뉴에 대한 스페셜이 제공되는 카지노에서 달성된 dayParting을 보여줍니다.
 
 <table>
  <tbody>

@@ -8,25 +8,31 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: '1559'
 ht-degree: 0%
-
 ---
-
 # 자산 수준 활성화 {#asset-level-scheduling}
 
 >[!IMPORTANT]
@@ -40,10 +46,10 @@ ht-degree: 0%
 * 활성화 창
 * 단일 이벤트 재생
 * Assets에서 반복 처리
-   * 시간대 지정
-   * 주 분할
-   * 월 분할
-   * 파티션의 조합
+  * 시간대 지정
+  * 주 분할
+  * 월 분할
+  * 파티션의 조합
 * 다중 자산 활성화
 * 범용 시작 시간에 대한 전역 재정의
 
@@ -101,7 +107,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 요구 사항에 따라 매일, 매주 또는 매월 특정 간격으로 자산이 반복되도록 예약할 수 있습니다.
 
-금요일 오후 1:00시부터 오후 10:00시까지만 이미지를 표시한다고 가정합니다. **활성화** 탭을 사용하여 에셋에 대해 원하는 반복 간격을 설정할 수 있습니다.
+금요일 오후 1시부터 10시까지만 이미지를 표시한다고 가정합니다. **활성화** 탭을 사용하여 에셋에 대해 원하는 반복 간격을 설정할 수 있습니다.
 
 ### 시간대 지정 {#day-parting}
 
@@ -120,14 +126,14 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 | **식** | **해석** |
 |---|---|
-| 오전 8:00시 이전 | 채널의 에셋은 매일 오전 8:00 전에 재생됩니다. |
-| 오후 2:00시 이후 | 채널의 에셋은 매일 오후 2:00 이후에 재생됩니다. |
-| 12:15 후 및 12:45 전 | 채널의 에셋은 30분 동안 매일 오후 12:15 이후에 재생됩니다 |
-| 12:15 이전 또는 12:45 이후 | 채널의 에셋은 매일 오후 12:15 전에 재생되고 오후 12:45 이후에도 재생됩니다. |
+| 오전 8시 이전 | 채널의 에셋은 매일 오전 8시 이전에 재생됩니다. |
+| 오후 2시 이후 | 채널의 에셋은 매일 오후 2시 이후에 재생됩니다. |
+| 12:15 후 및 12:45 전 | 채널의 에셋은 30분 동안 매일 오후 12시 15분 이후에 재생됩니다 |
+| 12:15 이전 또는 12:45 이후 | 채널의 에셋은 매일 오후 12시 15분 전에 재생되고 오후 12시 45분 이후에도 재생됩니다. |
 
 >[!NOTE]
 >
->*A.M./P.M.*(오후 2:00) 대신 _군 시간_ 표기법(14:00)을 사용할 수도 있습니다.
+>*A.M./P.M.*(오후 2:00) 대신 _군사 시간_ 표기법(14:00)을 사용할 수도 있습니다.
 
 ### 주 분할 {#week-parting}
 
@@ -175,6 +181,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | `on February-July` | 에셋이 2월부터 7월 말까지 채널에서 재생됩니다. |
 
 >[!NOTE]
+>
 >요일 및 월을 정의할 때 월/월요일 및 1월/1과 같은 약식 및 전체 이름 표기를 모두 사용할 수 있습니다.
 
 ### 파티션의 조합 {#combined-parting}
@@ -183,8 +190,9 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 1. 시작 날짜/시간 및 종료/날짜 시간을 입력한 후 표현식 또는 자연어 텍스트 버전을 사용하여 반복 일정을 지정할 수 있습니다.
 
-   >[!NOTE]
-   >요구 사항에 따라 **활성 시작** 및 **활성 끝** 필드를 건너뛰거나 포함하고 [일정] 필드에 식을 추가할 수 있습니다.
+>[!NOTE]
+>
+>&#x200B;>요구 사항에 따라 **활성 시작** 및 **활성 끝** 필드를 건너뛰거나 포함하고 [일정] 필드에 식을 추가할 수 있습니다.
 
 1. **일정**&#x200B;에 식을 입력하면 특정 요일 및 시간 간격에 대한 에셋이 표시됩니다.
 
@@ -195,11 +203,12 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | **식** | **해석** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | 자산은 1월부터 3월 말까지 월요일과 수요일 오전 6시에서 오후 6시 사이에 채널에서 재생됩니다 |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2:00시 이후에 재생되며 1월 2일 하루 종일 1월 3일 오전 3:00시까지 계속 재생됩니다 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2:00시 이후에 플레이어를 시작하고 1월 2일 오전 3:00시까지 재생을 계속한 다음 1월 2일 오후 2:00시에 다시 시작하고 1월 3일 오전 3:00시까지 재생을 계속합니다 |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2시 이후에 재생되기 시작하고 1월 2일 하루 종일 1월 3일 오전 3시까지 계속 재생됩니다 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 채널의 에셋은 1월 1일 오후 2시 이후에 플레이어를 시작하여 1월 2일 오전 3시까지 계속 재생되고, 1월 2일 오후 2시에 다시 시작되어 1월 3일 오전 3시까지 계속 재생됩니다 |
 
 >[!NOTE]
->요일 및 월을 정의할 때 월/월요일 및 1월/1과 같은 약식 및 전체 이름 표기를 모두 사용할 수 있습니다. 또한 *A.M./P.M.*(오후 2:00) 대신 _군 시간_ 표기법(14:00)을 사용할 수도 있습니다.
+>
+>요일 및 월을 정의할 때 월/월요일 및 1월/1과 같은 약식 및 전체 이름 표기를 모두 사용할 수 있습니다. 또한 *A.M./P.M.*(오후 2:00) 대신 _군사 시간_ 표기법(14:00)을 사용할 수도 있습니다.
 
 
 ## 다중 자산 활성화 {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. 전역 재정의의 경우 자산의 **표준 시간대 재정의** 섹션에 활성화 시간을 입력하십시오. 이 영역에 아무 것도 입력하지 않으면 적용된 시간대가 플레이어의 시간대입니다.
-
-
-
