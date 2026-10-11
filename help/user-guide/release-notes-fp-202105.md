@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 5%
-
 ---
-
 # 기능 팩 202105 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,14 +52,14 @@ AEM Screens 기능 팩 202105의 릴리스 날짜는 2021년 6월 4일입니다.
 * **AEM Screens 플레이어 장치 이름 지정**
 
   이제 AEM Screens 플레이어에 장치 이름을 Adobe Experience Manager(AEM)로 전송하는 기능이 포함됩니다.
-기본적으로 일괄 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 또는 고객은 에셋 태그나 다른 친숙한 이름을 사용하여 AEM에서 보고 적절한 콘텐츠를 보다 쉽게 할당할 수 있습니다.
+  기본적으로 일괄 등록을 사용하여 장치를 등록하면 시스템에서 생성한 사용자 이름이 제목 필드에 입력됩니다. 또는 고객은 에셋 태그나 다른 친숙한 이름을 사용하여 AEM에서 보고 적절한 콘텐츠를 보다 쉽게 할당할 수 있습니다.
 
   지원되는 각 운영 체제에서 이름을 구성하는 방법에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
-   * [™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **매니페스트 생성**
 

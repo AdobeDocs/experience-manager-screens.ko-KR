@@ -9,24 +9,31 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+TQID: 'https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Content structure
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2414
+source-wordcount: '2414'
 ht-degree: 2%
-
 ---
-
 # AEM Screens용 맞춤형 구성 요소 개발 {#developing-a-custom-component-for-aem-screens}
 
 >[!IMPORTANT]
@@ -60,7 +67,7 @@ Screens 프로젝트의 소스 코드는 일반적으로 다중 모듈 Maven 프
 
    [파일 가져오기](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack;파일 가져오기
+   [파일 가져오기](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **선택적으로** Eclipse 또는 다른 IDE로 작업하는 경우 아래 소스 패키지를 다운로드합니다. Maven 명령을 사용하여 로컬 AEM 인스턴스에 프로젝트를 배포합니다.
 
    **`mvn -PautoInstallPackage clean install`**

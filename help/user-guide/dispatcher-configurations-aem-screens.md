@@ -5,25 +5,33 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+TQID: 'https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '709'
 ht-degree: 2%
-
 ---
-
 # AEM Screens을 위한 Dispatcher 구성{#dispatcher-configurations-for-aem-screens}
 
 >[!IMPORTANT]
@@ -39,7 +47,8 @@ Dispatcher은 Adobe Experience Manager의 캐싱 또는 로드 밸런싱 도구 
 >
 >Dispatcher이 없는 경우 OSGi 구성 요소 목록에서 등록 서블릿을 비활성화합니다.
 
-AEM Screens 프로젝트에 대해 Dispatcher을 구성하기 전에 Dispatcher에 대해 알고 있어야 합니다.자세한 내용은 [Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)을 참조하십시오.
+AEM Screens 프로젝트에 대해 Dispatcher을 구성하기 전에 Dispatcher에 대해 알고 있어야 합니다.
+자세한 내용은 [Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)을 참조하십시오.
 
 ## 매니페스트 버전 v2에 대해 Dispatcher 구성 {#configuring-dispatcher}
 

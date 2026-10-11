@@ -5,28 +5,44 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+TQID: 'https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: '2299'
 ht-degree: 1%
-
 ---
-
 # AEM SCREENS FAQ {#aem-screens-faqs}
 
 >[!IMPORTANT]
@@ -202,14 +218,14 @@ Windows Player에는 창 모드가 없습니다. 항상 전체 화면 모드입�
 
   다음 ContentHub 저장소 값을 사용하려면 아래 단계를 따르십시오.
 
-   * 채널 속성을 편집하고 개인화 탭의 ContextHub 경로를 값으로 설정합니다(위에 언급).
-   * 채널 JS에서 다음을 사용할 수 있습니다.
+  * 채널 속성을 편집하고 개인화 탭의 ContextHub 경로를 값으로 설정합니다(위에 언급).
+  * 채널 JS에서 다음을 사용할 수 있습니다.
 
-     ```shell
-        ContextHub.getStore('screens-device');
-        ContextHub.getStore('screens-display');
-        ContextHub.getStore('screens-channels');
-     ```
+    ```shell
+       ContextHub.getStore('screens-device');
+       ContextHub.getStore('screens-display');
+       ContextHub.getStore('screens-channels');
+    ```
 
 ## 일반 문제 해결 팁 {#general-troubleshooting-tips}
 
@@ -231,7 +247,8 @@ Windows Player에는 창 모드가 없습니다. 항상 전체 화면 모드입�
 
 ### &#x200B;2. Oak 색인 정보를 추가하는 방법 {#add-oak-index-info}
 
-AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만듭니다.`error.log`에 *쿼리 순회 경고*&#x200B;가 있는 경우 쿼리에 대한 사용자 지정 인덱스를 만드십시오. 자세한 내용은 [인덱스 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)을 참조하십시오.
+AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만듭니다.
+`error.log`에 *쿼리 순회 경고*&#x200B;가 있는 경우 쿼리에 대한 사용자 지정 인덱스를 만드십시오. 자세한 내용은 [인덱스 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)을 참조하십시오.
 
 [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html)에서도 추가 리소스를 볼 수 있습니다.
 
@@ -240,9 +257,11 @@ AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만�
 
 v3 Manifest를 활성화하려면 다음을 수행하십시오.
 
-* Dispatcher 업데이트.자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)을 참조하세요.
+* Dispatcher 업데이트.
+자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)을 참조하세요.
 
-* 사용자 지정 구성 요소를 업데이트합니다.자세한 내용은 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)을 참조하십시오.
+* 사용자 지정 구성 요소를 업데이트합니다.
+자세한 내용은 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)을 참조하십시오.
 
 * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`에서 ContentSync를 사용하지 않도록 설정합니다.
 
