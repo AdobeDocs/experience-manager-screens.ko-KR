@@ -46,7 +46,7 @@ ht-degree: 1%
 # AEM SCREENS FAQ {#aem-screens-faqs}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 주제에서는 AEM Screens 프로젝트와 관련하여 자주 묻는 FAQ에 대한 답변을 제공합니다.
 
@@ -201,7 +201,7 @@ Windows Player에는 창 모드가 없습니다. 항상 전체 화면 모드입�
 
 1. Dispatcher 구성이 `/filters`에서 이러한 요청을 허용하는지 확인하십시오.
 
-   자세한 내용은 [Screens 필터 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)을 참조하십시오.
+   자세한 내용은 [Screens 필터 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)을 참조하십시오.
 
 1. Dispatcher 재작성 규칙이 화면 경로를 다른 경로로 재작성하고 있는지 확인합니다.
 
@@ -248,7 +248,7 @@ Windows Player에는 창 모드가 없습니다. 항상 전체 화면 모드입�
 ### &#x200B;2. Oak 색인 정보를 추가하는 방법 {#add-oak-index-info}
 
 AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만듭니다.
-`error.log`에 *쿼리 순회 경고*&#x200B;가 있는 경우 쿼리에 대한 사용자 지정 인덱스를 만드십시오. 자세한 내용은 [인덱스 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)을 참조하십시오.
+`error.log`에 *쿼리 순회 경고*&#x200B;가 있는 경우 쿼리에 대한 사용자 지정 인덱스를 만드십시오. 자세한 내용은 [인덱스 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)을 참조하십시오.
 
 [Oak 설명서](https://jackrabbit.apache.org/oak/docs/query/lucene.html)에서도 추가 리소스를 볼 수 있습니다.
 
@@ -258,10 +258,10 @@ AEM Screens은 제품에서 사용하는 쿼리에 대한 색인 정의를 만�
 v3 Manifest를 활성화하려면 다음을 수행하십시오.
 
 * Dispatcher 업데이트.
-자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)을 참조하세요.
+자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)을 참조하세요.
 
 * 사용자 지정 구성 요소를 업데이트합니다.
-자세한 내용은 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)을 참조하십시오.
+자세한 내용은 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)을 참조하십시오.
 
 * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`에서 ContentSync를 사용하지 않도록 설정합니다.
 
@@ -275,7 +275,7 @@ v3 Manifest를 활성화하려면 다음을 수행하십시오.
 
 ### &#x200B;4. 패키지 screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 및 screens 코어 번들이 설치되었지만 활성 상태가 아닌 경우 어떻게 해야 합니까?
 
-AMS 커넥터가 작동할 AEM 6.5 기능 팩 8 최소 버전을 설치합니다. AEM Screens 기능 팩의 최소 버전을 가져올 수 있도록 [가용성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)을 참조하세요.
+AMS 커넥터가 작동할 AEM 6.5 기능 팩 8 최소 버전을 설치합니다. AEM Screens 기능 팩의 최소 버전을 가져올 수 있도록 [가용성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)을 참조하세요.
 
 ### &#x200B;5. Screens에서 CQ 링크 외부화 서비스를 구성하는 방법
 
