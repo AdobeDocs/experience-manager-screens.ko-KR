@@ -5,27 +5,35 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
+TQID: 'https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: c5322876-5f25-5295-aae6-7dbbb1548c49
+    internal-label: Players
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1274
+source-wordcount: '1274'
 ht-degree: 2%
-
 ---
-
 # Tizen 플레이어 구현 {#tizen-player}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 ## Tizen 플레이어 설치 {#installing-tizen-player}
 
@@ -110,7 +118,9 @@ Tizen 플레이어를 원격으로 프로비저닝하면 많은 노력 없이 �
 
 이 기능을 사용하면 Tizen 플레이어를 원격으로 구성하고 필요한 경우 중앙에서 해당 구성을 업데이트할 수 있습니다. 필요한 것은 적절한 매개 변수와 함께 `config.json`을(를) 저장하기 위해 Tizen 응용 프로그램 `(wgt and xml file)`을(를) 호스팅하는 데 사용되는 `HTTP` 서버와 텍스트 편집기입니다.
 
-Tizen 장치에서 URL 런처 주소를 구성했는지 확인하십시오. 홈 버튼 > URL 런처 설정을 클릭합니다.Tizen 응용 프로그램을 호스팅하는 `HTTP` 서버에서 `config.json` 파일을 `wgt` 파일과 같은 위치에 배치합니다. 파일 이름은 `config.json`여야 합니다.Tizen 플레이어는 설치 및 실행 시(및 다시 부팅할 때마다) `config.json` 파일의 설정을 확인하고 적용합니다.
+Tizen 장치에서 URL 런처 주소를 구성했는지 확인하십시오. 홈 버튼 > URL 런처 설정을 클릭합니다.
+Tizen 응용 프로그램을 호스팅하는 `HTTP` 서버에서 `config.json` 파일을 `wgt` 파일과 같은 위치에 배치합니다. 파일 이름은 `config.json`여야 합니다.
+Tizen 플레이어는 설치 및 실행 시(및 다시 부팅할 때마다) `config.json` 파일의 설정을 확인하고 적용합니다.
 
 ### JSON 정책 예 {#example-json}
 
@@ -129,7 +139,8 @@ Tizen 장치에서 URL 런처 주소를 구성했는지 확인하십시오. 홈 
 다음 표에는 정책과 해당 기능이 요약되어 있습니다.
 
 >[!NOTE]
->플레이어의 관리 UI 정책 구성은 엄격하게 적용되며 수동으로 재정의되지 않습니다. 특정 정책에 대해 수동 플레이어 구성을 허용하려면 정책 구성에 정책을 지정하지 마십시오.예를 들어 다시 부팅 일정에 대해 수동 구성을 허용하려면 정책 구성에 키 `rebootSchedule`을(를) 지정하지 마십시오. 플레이어를 다시 로드할 때마다 정책 구성을 읽습니다.
+>플레이어의 관리 UI 정책 구성은 엄격하게 적용되며 수동으로 재정의되지 않습니다. 특정 정책에 대해 수동 플레이어 구성을 허용하려면 정책 구성에 정책을 지정하지 마십시오.
+>예를 들어 다시 부팅 일정에 대해 수동 구성을 허용하려면 정책 구성에 키 `rebootSchedule`을(를) 지정하지 마십시오. 플레이어를 다시 로드할 때마다 정책 구성을 읽습니다.
 
 | **정책 이름** | **용도** |
 |---|---|

@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-TQID: https://experienceleague.adobe.com/B2rcoQaYnCjZ-YidyuREEoPv6H0zGW3ufiwP4lnkt1A
+TQID: 'https://experienceleague.adobe.com/B2rcoQaYnCjZ-YidyuREEoPv6H0zGW3ufiwP4lnkt1A'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '243'
 ht-degree: 11%
-
 ---
-
 # 기능 팩 20250327 릴리스 정보 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
@@ -43,8 +48,8 @@ AEM Screens 기능 팩 20250327의 릴리스 날짜는 2025년 3월 27일입니�
 * 이 릴리스에서는 SP22 이상의 카드 보기에서 문제가 해결되었습니다.
 
 * **AEM Screens 플레이어 업데이트**
-   * Linux 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
-   * Android 기반 AEM Screens Player에 대한 추가 업데이트 또는 개선 사항은 없습니다. 사용자는 AEM Screens이 지원하는 대체 운영 체제로 마이그레이션하는 것이 좋습니다.
+  * Linux 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
+  * Android 기반 AEM Screens Player에 대한 추가 업데이트 또는 개선 사항은 없습니다. 사용자는 AEM Screens이 지원하는 대체 운영 체제로 마이그레이션하는 것이 좋습니다.
 
 ### 버그 수정 {#bug-fixes}
 

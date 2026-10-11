@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-TQID: https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo
+TQID: 'https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '316'
 ht-degree: 5%
-
 ---
-
 # 기능 팩 202011 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,18 +45,18 @@ AEM Screens 기능 팩 202011의 릴리스 날짜는 2020년 11월 30일입니�
 * **콘텐츠 할당 보고서**
 
   콘텐츠 할당 보고서 기능을 사용하면 AEM Screens 관리자 또는 작성자가 *콘텐츠 할당 보고서*를 스프레드시트 형식으로 내보낼 수 있습니다.
-자세한 내용은 [콘텐츠 할당 보고서](/help/user-guide/content-assignment-report.md)를 참조하세요.
+  자세한 내용은 [콘텐츠 할당 보고서](/help/user-guide/content-assignment-report.md)를 참조하세요.
 
 
 * **플레이어 동기화**
 
   Tizen 플레이어라고 하는 새 플레이어가 AEM Screens 6.5.6 릴리스용 최신 기능 팩과 함께 도입되었습니다.
-자세한 내용은 [Tizen 플레이어 구현](/help/user-guide/tizen-player.md)을 참조하십시오.
+  자세한 내용은 [Tizen 플레이어 구현](/help/user-guide/tizen-player.md)을 참조하십시오.
 
 * **장치 관리자에서 검색 기능**
 
   이제 장치 관리자 UI에서 AEM Screens 6.5.6 릴리스용 최신 기능 팩과 함께 새로운 검색 기능을 사용할 수 있습니다.
-자세한 내용은 [장치 관리자에서 장치 검색](/help/user-guide/device-registration.md#search-device)을 참조하십시오.
+  자세한 내용은 [장치 관리자에서 장치 검색](/help/user-guide/device-registration.md#search-device)을 참조하십시오.
 
 * **기본 Ping 간격**
 

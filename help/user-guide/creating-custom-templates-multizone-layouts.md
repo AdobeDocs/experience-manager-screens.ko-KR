@@ -6,25 +6,30 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+TQID: 'https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '943'
 ht-degree: 1%
-
 ---
-
 # 다중 영역 레이아웃에 대한 사용자 지정 템플릿 만들기 {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 다중 영역 레이아웃에 대한 사용자 지정 템플릿을 만드는 방법을 보여 줍니다.
 
@@ -46,8 +51,8 @@ ht-degree: 1%
    | **레이아웃 이름** | **설명** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | 세 개의 영역을 만들 수 있는 세 개의 영역 가로 레이아웃입니다. <br>* 영역 1은 왼쪽에서 가로 및 세로 화면의 20%입니다.<br>* 영역 2는 가로 화면의 80%이고 세로 화면의 20%는 오른쪽 정렬<br>* 영역 3은 가로 화면의 100%이고 세로 화면의 80%입니다. 종횡비는 16:9입니다. |
-   | `Upper20-PortraitHD2Zone` | 화면 상단에서 화면의 20%를 덮고 종횡비가 16:9인 2영역 세로 템플릿 |
-   | `Right20-LandscapeSD3Zone` | 화면 비율이 4:3인 오른쪽에서 화면의 20%를 차지하는 3개 영역 템플릿입니다. |
+   | `Upper20-PortraitHD2Zone` | 16:9의 화면 비율과 함께 맨 위에서 화면의 20%를 차지하는 2영역 세로 템플릿입니다. |
+   | `Right20-LandscapeSD3Zone` | 오른쪽에서 화면의 20%를 덮고 종횡비가 4:3인 3영역 템플릿 |
 
    >[!IMPORTANT]
    >사용자 지정 레이아웃 내에 정의된 영역이 전체 레이아웃의 전체 종횡비와 일치하지 않을 수 있습니다. 이 문서에서 따르는 명명 규칙은 전체적으로 사용자 정의 레이아웃의 종횡비를 지정합니다.
@@ -58,7 +63,7 @@ ht-degree: 1%
 
 * **`Left20`** - 왼쪽 상단 영역에 가로 및 세로 화면 크기의 20%가 표시됩니다.
 * **`Landscape`** - 화면 방향.
-* **`HD`** - 종횡비가 16:9입니다.
+* **`HD`** - 종횡비는 16:9입니다.
 * **`3Zone`** - 디스플레이의 세 영역.
 
 ## 다중 영역 레이아웃의 시각적 표현 {#multi-layout-visual-one}
@@ -89,7 +94,7 @@ AEM Screens 프로젝트에 대한 `Left20-LandscapeHD3Zone` 레이아웃을 만
 1. 복사된 **lbar-left**(`/apps/customtemplate/template`)의 이름을 **my-custom-layout**(으)로 바꾸십시오.
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**&#x200B;에 대한&#x200B;**`jcr:description`**&#x200B;속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
+1. `/apps/customtemplate/template/my-custom-layout`(으)로 이동하고 `Left20-LandscapeHD3Zone`*및&#x200B;**`jcr:title`**에 대한&#x200B;**`jcr:description`**속성을*&#x200B;템플릿으로 *`Left20-LandscapeHD3Zone`*(으)로 업데이트합니다.
 
    ![이미지](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
@@ -170,7 +175,7 @@ AEM Screens 프로젝트에서 위의 사용자 지정 템플릿을 사용하려
 &quot;data-uri&quot;를 사용하도록 CSS 규칙을 조정하고 (13단계), *static.css*&#x200B;에서 만든 CSS 파일에서 이미지(`Base64` 인코딩)를 직접 인라인할 수 있습니다.
 
 이러한 배열은 다음과 같이 수행됩니다.
-
+`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 또는 아래 단계를 따를 수 있습니다.
 

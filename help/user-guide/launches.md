@@ -10,40 +10,49 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+TQID: 'https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+  - id: 633abde6-4dea-52af-a785-d12d741851d7
+    internal-label: Launches
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+    internal-label: Screens Launch
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: '1636'
 ht-degree: 0%
-
 ---
-
 # Screens Launch를 사용한 컨텐츠 업데이트 {#launches}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 콘텐츠 작성자는 채널의 향후 버전을 만들고 이 론치의 라이브 날짜를 추가로 설정할 수 있습니다. 이 기능을 사용하면 콘텐츠를 지정된 라이브 날짜에 디바이스 또는 플레이어에서 라이브할 수 있습니다.
 
 ***Screens 시작***&#x200B;을 통해 작성자는 시작에서 각 채널을 미리 볼 수 있으며 검토 요청을 시작할 수 있습니다. 승인자 그룹은 알림을 받으며 요청을 승인하거나 거부할 수 있습니다. 라이브 날짜에 도달하면 콘텐츠가 디바이스에서 재생됩니다.
 
-예를 들어 작성자가 c1, c2(채널)의 이후 버전을 만들려는 경우 시작이 만들어지고 라이브 날짜가 설정됩니다(예: 11월 10일 오전 8:00). 콘텐츠의 모든 업데이트가 검토를 위해 더 이상 전송됩니다.
+예를 들어 작성자가 c1, c2(채널)의 이후 버전을 만들려는 경우 시작이 만들어지고 라이브 날짜가 설정됩니다(예: 11월 10일 오전 8시). 콘텐츠의 모든 업데이트가 검토를 위해 더 이상 전송됩니다.
 
-승인 후 라이브 날짜(11월 10일 오전 8:00)에 이 론치는 장치 또는 플레이어에서 콘텐츠를 재생합니다.
+승인 후 라이브 날짜(11월 10일 오전 8시)에 이 론치는 장치 또는 플레이어에서 콘텐츠를 재생합니다.
 
 ## 요구 사항 {#requirements}
 
@@ -65,7 +74,7 @@ AEM Screens 프로젝트에서 *Screens Launch*&#x200B;를 사용하기 전에 �
 
 플레이어가 설정된 라이브 날짜에 콘텐츠 재생을 시작할 수 있도록 라이브 날짜 이전에 이전 활동을 시작합니다.
 
-라이브 날짜가 *11월 24일, 오전 9:00*&#x200B;이고 *24시간*&#x200B;이(가) 유예 기간인 경우 위의 작업 순서는 (라이브 날짜 - 유예 기간), 즉 오전 9:00시 서버 시간인 11월 23일에 시작됩니다. 이 설정은 플레이어에게 콘텐츠가 도달하기 위해 위에 언급된 모든 작업을 완료하는 데 24시간을 제공합니다. 플레이어는 이 기간이 론치 콘텐츠임을 이해합니다. 이와 같이 콘텐츠는 즉시 재생되지 않지만, 플레이어는 이 콘텐츠를 향후 버전으로 저장하고 플레이어의 시간대에 설정된 라이브 날짜에 정확히 재생되도록 할 수 있습니다.
+라이브 날짜가 *11월 24일, 오전 9시*&#x200B;이고 *24시간*&#x200B;이 유예 기간인 경우 위의 작업 순서는 (라이브 날짜 - 유예 기간), 즉 서버 시간 11월 23일 오전 9시에 시작됩니다. 이 설정은 플레이어에게 콘텐츠가 도달하기 위해 위에 언급된 모든 작업을 완료하는 데 24시간을 제공합니다. 플레이어는 이 기간이 론치 콘텐츠임을 이해합니다. 이와 같이 콘텐츠는 즉시 재생되지 않지만, 플레이어는 이 콘텐츠를 향후 버전으로 저장하고 플레이어의 시간대에 설정된 라이브 날짜에 정확히 재생되도록 할 수 있습니다.
 
 예를 들어 서버는 PST에 있고 디바이스는 EST에 있습니다. 최대 시차는 3시간입니다. 승격이 1분 걸리고 작성자에서 게시로 게시하는 데 10분이 걸리고 플레이어가 일반적으로 10~15분 내에 리소스를 다운로드할 수 있다고 가정합니다. 그러면 유예 기간 = 시간 차이(3시간):
 
@@ -101,7 +110,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 앞의 예에서 유예 기간을 10분으로 설정합니다. 따라서 */content/screens* 아래의 리소스에 대해 실행 날짜를 설정하면 프로모션이 이 오프셋으로 시작됩니다.
 
-예를 들어, 라이브 날짜가 오전 9:00, 11월 24일로 설정되고 유예 기간이 600초인 경우 프로모션 작업은 11월 24일 오전 8:50에 시작됩니다.
+예를 들어 라이브 날짜가 11월 24일 오전 9시로 설정되고 유예 기간이 600초인 경우 프로모션 작업은 11월 24일 오전 8시 50분에 시작됩니다.
 
 ## Screens Launch 사용 {#using-launches}
 

@@ -10,30 +10,42 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+TQID: 'https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+subfeature_v2:
+  - id: d7b36a26-f22a-49eb-b5be-019feb42d381
+    internal-label: Android Player
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 0%
-
 ---
-
 # ™ Player 구현 {#implementing-android-player}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 >[!CAUTION]
 >Android 기반 AEM Screens Player는 공식적으로 더 이상 사용되지 않습니다. 사용자는 AEM Screens이 지원하는 다른 운영 체제로 마이그레이션하는 것이 좋습니다.
@@ -136,7 +148,8 @@ Ad-Hoc 메서드를 사용하면 최신 ™ 플레이어(*.exe*)를 설치할 �
 
 ™ 플레이어에서 대량 프로비저닝을 허용하려면 아래 단계를 따르십시오.
 
-1. 이름이 `player-config.default.json`인 구성 JSON 파일을 만듭니다.[JSON 정책 예](#example-json)와 다양한 [정책 특성](#policy-attributes)의 사용을 설명하는 표를 참조하십시오.
+1. 이름이 `player-config.default.json`인 구성 JSON 파일을 만듭니다.
+[JSON 정책 예](#example-json)와 다양한 [정책 특성](#policy-attributes)의 사용을 설명하는 표를 참조하십시오.
 
 1. MDM, ADB 또는 ™ Studio 파일 탐색기를 사용하여 이 정책 JSON 파일을 Android™ 장치의 *sdcard* 폴더에 놓습니다.
 

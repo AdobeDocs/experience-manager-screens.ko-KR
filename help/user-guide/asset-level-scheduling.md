@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
+TQID: 'https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -14,9 +14,13 @@ product_v2:
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
     internal-label: Authoring Screens
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
     internal-label: Content
+  - id: dd61f770-f8ea-40b1-a514-7e4cb7480bc4
+    internal-label: Asset Level Activation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -28,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 0%
@@ -36,7 +40,7 @@ ht-degree: 0%
 # 자산 수준 활성화 {#asset-level-scheduling}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 이 페이지에서는 채널에 사용된 에셋에 대한 에셋 레벨 활성화에 대해 설명합니다.
 
@@ -192,7 +196,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 >[!NOTE]
 >
->&#x200B;>요구 사항에 따라 **활성 시작** 및 **활성 끝** 필드를 건너뛰거나 포함하고 [일정] 필드에 식을 추가할 수 있습니다.
+>>요구 사항에 따라 **활성 시작** 및 **활성 끝** 필드를 건너뛰거나 포함하고 [일정] 필드에 식을 추가할 수 있습니다.
 
 1. **일정**&#x200B;에 식을 입력하면 특정 요일 및 시간 간격에 대한 에셋이 표시됩니다.
 

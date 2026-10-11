@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
+TQID: 'https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '989'
 ht-degree: 1%
-
 ---
-
 # 기능 팩 202109 릴리스 정보 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,17 +45,17 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 * **비디오에 대한 썸네일 지원**
 
   이제 AEM Screens에서 비디오에 대한 썸네일 지원이 제공됩니다. 콘텐츠 작성자는 이미지를 자리 표시자로 사용할 수 있도록 비디오의 썸네일을 정의합니다. 또한 적절한 팀이 실제 비디오를 마무리하는 동안 콘텐츠 재생 및 타깃팅을 적절하게 테스트합니다. 비디오 재생이 실패할 경우 이미지를 사용할 수도 있습니다.
-자세한 내용은 [비디오에 대한 썸네일 지원](/help/user-guide/thumbnail-support.md)을 참조하십시오.
+  자세한 내용은 [비디오에 대한 썸네일 지원](/help/user-guide/thumbnail-support.md)을 참조하십시오.
 
 * **기본 재생 모니터링**
 
   이제 AEM Screens에서 기본 재생 모니터링을 지원합니다. 이제 플레이어는 각 ping으로 다양한 재생 지표를 보고합니다(기본값은 30초). 지표를 기반으로 다양한 극단적 사례(중단 경험, 빈 화면, 일정 문제 등)를 감지합니다. 이 기능을 통해 팀은 플레이어가 콘텐츠를 제대로 재생하는지 원격으로 모니터링할 수 있으며 필드의 빈 화면이나 깨진 경험에 대한 반응성을 향상시킬 수 있습니다. 또한 최종 사용자에게 손상된 경험이 표시될 위험을 줄여줍니다.
-자세한 내용은 [기본 재생 모니터링](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)을 참조하세요.
+  자세한 내용은 [기본 재생 모니터링](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)을 참조하세요.
 
 * **콘텐츠 할당 보고서에 대한 업데이트**
 
   이제 콘텐츠 할당 보고서가 최적화되고 사용자 환경이 개선되었습니다. 다운로드 가능한 보고서에는 향상된 플레이어 관련 엔티티가 표시됩니다. 이러한 엔티티는 하나의 스프레드시트 탭에 위치, 디스플레이 및 디바이스를 포함합니다. 또한 기타 탭에 채널 및 에셋과 같은 콘텐츠 공급자 정보가 포함됩니다.
-자세한 내용은 [콘텐츠 할당 보고서](/help/user-guide/content-assignment-report.md)를 참조하세요.
+  자세한 내용은 [콘텐츠 할당 보고서](/help/user-guide/content-assignment-report.md)를 참조하세요.
 
 * **적응형 표현물**
 
@@ -64,29 +69,29 @@ AEM Screens 기능 팩 202109의 릴리스 날짜는 2021년 9월 23일입니다
 
   이제 Dispatcher for Manifest 버전 v3을 구성할 수 있습니다. v3 Manifest를 활성화하려면 다음을 수행하십시오.
 
-   * 작성자와 게시자에서 보류 중인 오프라인 콘텐츠 작업을 모두 지웁니다.
+  * 작성자와 게시자에서 보류 중인 오프라인 콘텐츠 작업을 모두 지웁니다.
 
-      * 작성자 및 게시에서 CRXDE Lite 로 이동합니다.
+    * 작성자 및 게시에서 CRXDE Lite 로 이동합니다.
 
-      * 도구 > 쿼리를 클릭합니다.
+    * 도구 > 쿼리를 클릭합니다.
 
-      * 쿼리에서 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`을(를) 사용합니다.
+    * 쿼리에서 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`을(를) 사용합니다.
 
-      * 현재 실행 중이거나 큐에서 보류 중인 오프라인 콘텐츠 작업이 모두 나열됩니다.
+    * 현재 실행 중이거나 큐에서 보류 중인 오프라인 콘텐츠 작업이 모두 나열됩니다.
 
-      * 쿼리에서 오프라인 콘텐츠 작업이 더 이상 반환되지 않을 때까지 기다립니다.
+    * 쿼리에서 오프라인 콘텐츠 작업이 더 이상 반환되지 않을 때까지 기다립니다.
 
-   * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`에서 ContentSync를 사용하지 않도록 설정합니다.
+  * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`에서 ContentSync를 사용하지 않도록 설정합니다.
 
-   * `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`에서 SmartSync를 사용하도록 설정합니다.
+  * `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`에서 SmartSync를 사용하도록 설정합니다.
 
-   * Dispatcher 업데이트.
+  * Dispatcher 업데이트.
 
-   * 사용자 지정 구성 요소를 업데이트합니다.
+  * 사용자 지정 구성 요소를 업데이트합니다.
 
 
-   * 자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)을 참조하세요.
-   * 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)을 참조하세요.
+  * 자세한 내용은 [매니페스트 버전 v3에 대한 Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)을 참조하세요.
+  * 사용자 지정 구성 요소를 v3 매니페스트의 일부로 사용하는 경우 [사용자 지정 처리기용 템플릿](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)을 참조하세요.
 
 
 ### 버그 수정 {#bug-fixes}

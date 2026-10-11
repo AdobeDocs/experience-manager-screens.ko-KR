@@ -5,27 +5,40 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
+TQID: 'https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: '1343'
 ht-degree: 2%
-
 ---
-
 # 킥스타트 안내서 {#kickstart-guide}
 
 >[!IMPORTANT]
->이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
+>이 콘텐츠는 AEM On-Premise/AMS(AEM 6.5LTS 및 AEM 6.5)에 유효합니다. AEM as a Cloud Service Screens 콘텐츠의 경우 [AEM as a Cloud Service 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)를 참조하십시오.
 
 AEM Screens에 대한 킥스타트는 AEM Screens 프로젝트를 설정하고 실행하는 방법을 보여 줍니다. 기본 디지털 사이니지 경험을 설정하고 각 채널에 에셋 및/또는 비디오와 같은 콘텐츠를 추가하고 콘텐츠를 AEM Screens 플레이어에 게시하는 과정을 안내합니다.
 
@@ -40,7 +53,9 @@ AEM Screens에 대한 킥스타트는 AEM Screens 프로젝트를 설정하고 �
 >다음 튜토리얼에서는 Chrome OS 플레이어에서 채널의 콘텐츠를 재생하는 사례를 보여 줍니다.
 
 >[!IMPORTANT]
->**OSGi 구성 설정장치가 데이터를 서버에 게시할 수 있도록 하려면 빈 레퍼러를 활성화해야 합니다. 예를 들어 빈 레퍼러 속성이 비활성화된 경우 디바이스는 스크린샷을 다시 게시할 수 없습니다. 현재 이러한 기능 중 일부는 OSGi 구성에서 `Apache Sling` 레퍼러 필터 빈 허용을 사용하도록 설정한 경우에만 사용할 수 있습니다. 대시보드에 보안 설정으로 인해 이러한 기능 중 일부가 작동하지 않을 수 있다는 경고가 표시될 수 있습니다.***Apache Sling 레퍼러 필터 허용***을 활성화하려면 아래 단계를 따르십시오.
+>**OSGi 구성 설정**
+>장치가 데이터를 서버에 게시할 수 있도록 하려면 빈 레퍼러를 활성화해야 합니다. 예를 들어 빈 레퍼러 속성이 비활성화된 경우 디바이스는 스크린샷을 다시 게시할 수 없습니다. 현재 이러한 기능 중 일부는 OSGi 구성에서 `Apache Sling` 레퍼러 필터 빈 허용을 사용하도록 설정한 경우에만 사용할 수 있습니다. 대시보드에 보안 설정으로 인해 이러한 기능 중 일부가 작동하지 않을 수 있다는 경고가 표시될 수 있습니다.
+>***Apache Sling 레퍼러 필터 허용***&#x200B;을 활성화하려면 아래 단계를 따르십시오.
 
 
 ## 빈 레퍼러 요청 허용 {#allow-empty-referrer-requests}
@@ -85,7 +100,7 @@ AEM Screens 프로젝트를 만든 후 콘텐츠를 관리할 채널을 만듭�
 
    ![이미지](assets/kickstart/demo-2.png)
 
-1. 마법사에서 **시퀀스 채널**&#x200B;을(를) 선택하고 **다음**&#x200B;을(를) 클릭합니다.
+1. 마법사에서 **시퀀스 채널**&#x200B;을(를) 선택하고 **다음**을(를) 클릭합니다.
    ![이미지](assets/kickstart/demo-3.png)
 
 1. **제목**&#x200B;을(를) **TestChannel**(으)로 입력하고 **만들기**&#x200B;를 클릭합니다.
@@ -184,7 +199,8 @@ AEM Screens 프로젝트를 만든 후 콘텐츠를 관리할 채널을 만듭�
    **활성화 기간** 및 **반복 일정**&#x200B;을 클릭할 수도 있습니다.
 
    >[!NOTE]
-   >*반복 일정*&#x200B;을 통해 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정할 수 있습니다.   >자세한 내용은 [반복 일정](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)을 참조하세요.
+   >*반복 일정*을 통해 채널에 대한 반복 일정을 설정할 수 있습니다. 한 채널에 대해 여러 반복 일정을 설정할 수 있습니다.
+   >자세한 내용은 [반복 일정](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)을 참조하세요.
 
 1. 환경 설정을 구성했으면 **저장**&#x200B;을 클릭합니다.
 
@@ -218,7 +234,7 @@ Chrome OS 플레이어가 켜진 후 아래 단계에 따라 Chrome 장치를 �
 
    ![이미지](assets/kickstart/demo-register2.png)
 
-1. 장치가 등록 코드를 보낼 때까지 기다렸다가 Chrome 장치에서 **등록 코드**&#x200B;을(를) 동시에 확인합니다.
+1. 장치가 등록 코드를 보낼 때까지 기다렸다가 Chrome 장치에서 **등록 코드**을(를) 동시에 확인합니다.
    ![이미지](assets/kickstart/demo-register3.png)
 
 1. **등록 코드**&#x200B;가 두 컴퓨터에서 동일한 경우 AEM에서 **유효성 검사**&#x200B;를 클릭하십시오.
