@@ -195,7 +195,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 시작하기 전에 데�
 
       ![이미지](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. `**Higherthan50**` 세그먼트를 클릭하고 작업 표시줄에서 **속성**을 클릭합니다.
+   1. `**Higherthan50**` 세그먼트를 클릭하고 작업 표시줄에서 **속성**&#x200B;을 클릭합니다.
       ![이미지](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. **세그먼트 속성**&#x200B;에서 **Personalization** 탭을 클릭합니다. 아래 그림과 같이 **ContextHub 경로**&#x200B;을(를) `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`(으)로 설정하고 **세그먼트 경로**&#x200B;을(를) `/conf/screens/settings/wcm/segments`(으)로 설정하고 **저장**&#x200B;을(를) 클릭합니다.
@@ -237,7 +237,7 @@ AEM Screens 프로젝트에 대한 ContextHub 구성을 시작하기 전에 데�
 
    1. **페이지 만들기** 마법사에서 **영역**&#x200B;을 클릭하고 **다음**&#x200B;을 클릭합니다.
 
-   1. **제목**&#x200B;을(를) **ScreensValue**(으)로 입력하고 **만들기**를 클릭합니다.
+   1. **제목**&#x200B;을(를) **ScreensValue**(으)로 입력하고 **만들기**&#x200B;를 클릭합니다.
       브랜드에서 영역이 만들어집니다.
 
 ## 5단계: 활동에서 세그먼트 만들기 {#step-setting-up-audience-segmentation}
